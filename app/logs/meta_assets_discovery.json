@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-05-20T11:15:33.586662+00:00",
+  "me": {
+    "ok": true,
+    "status_code": 200,
+    "data": {
+      "id": "26532786449751096",
+      "name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u0411\u0430\u0431\u043e\u0433\u043b\u043e"
+    }
+  },
+  "businesses": {
+    "ok": true,
+    "status_code": 200,
+    "data": {
+      "data": [
+        {
+          "id": "2501785227003837",
+          "name": "AICommerce Global",
+          "verification_status": "not_verified"
+        }
+      ],
+      "paging": {
+        "cursors": {
+          "before": "QVFIU1l4NlF5NVA5Rk02Qk1tMWVTX1I2V05NakM4b2xqSjRfNW5CMXFpUmVDaGZARVklDMlVvdkNfX0hZAOGFoRkVEbFFUUXpDVzNrNkZA4NG5Ka0xCTGo1b3FB",
+          "after": "QVFIU1l4NlF5NVA5Rk02Qk1tMWVTX1I2V05NakM4b2xqSjRfNW5CMXFpUmVDaGZARVklDMlVvdkNfX0hZAOGFoRkVEbFFUUXpDVzNrNkZA4NG5Ka0xCTGo1b3FB"
+        }
+      }
+    }
+  },
+  "adaccounts": {
+    "ok": true,
+    "status_code": 200,
+    "data": {
+      "data": []
+    }
+  },
+  "pages": {
+    "ok": true,
+    "status_code": 200,
+    "data": {
+      "data": []
+    }
+  }
+}

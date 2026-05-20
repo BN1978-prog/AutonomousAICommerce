@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "written_at": "2026-05-16T21:30:28.416592",
+  "tick": {
+    "ok": true,
+    "kind": "automation_tick",
+    "started_at": "2026-05-16T21:30:28.414593",
+    "steps": [
+      {
+        "name": "rulesets",
+        "ok": true,
+        "count": 1
+      },
+      {
+        "name": "rule_engine",
+        "ok": true,
+        "decisions": 1
+      },
+      {
+        "name": "actions",
+        "ok": true,
+        "executed": 1
+      }
+    ],
+    "decisions": {
+      "ok": true,
+      "count": 1,
+      "decisions": [
+        {
+          "rule_id": "rule_001",
+          "matched": true,
+          "actual": true,
+          "expected": true,
+          "action": {
+            "type": "log",
+            "message": "Daemon is running"
+          }
+        }
+      ]
+    },
+    "actions": {
+      "ok": true,
+      "count": 1,
+      "executed": [
+        {
+          "ok": true,
+          "rule_id": "rule_001",
+          "type": "log",
+          "message": "Daemon is running"
+        }
+      ]
+    },
+    "finished_at": "2026-05-16T21:30:28.416592"
+  }
+}

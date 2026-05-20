@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-20T17:56:21.314433+00:00",
+  "autonomous_fulfillment_ready": true,
+  "waiting_for": "real_paid_orders",
+  "logic": [
+    "collect real paid orders",
+    "check supplier cost",
+    "check margin and limits",
+    "create supplier purchase queue",
+    "after supplier tracking update Shopify"
+  ],
+  "limits_file": "app\\logs\\autonomy_limits.json",
+  "queue_file": "app\\logs\\supplier_purchase_queue.json"
+}

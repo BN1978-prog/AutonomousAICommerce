@@ -1,0 +1,94 @@
+=== DAILY AUTONOMOUS COMMERCE RUN ===
+
+>>> python -m app.health_check
+=== SYSTEM HEALTH CHECK ===
+DRY_RUN: true
+SUPPLIER_MODE: mock_real
+IMPORT_EXISTING_ACTION: update
+
+Shopify URL: OK
+Shopify Token: OK
+Supplier API URL: OK
+
+Imported SKUs: 5
+Tracked stock SKUs: 1
+Image failed SKUs: 1
+
+- image review needed: REAL-MOCK-004
+
+
+>>> python -m app.scheduled_import
+=== SCHEDULED IMPORT START ===
+2026-05-14 17:13:28.575899
+Supplier mode: MOCK_REAL
+Supplier raw log saved: C:\Users\omen\AutonomousAICommerce\app\logs\supplier_raw\20260514_171329_REAL-MOCK-004.json
+
+=== PRODUCT SAFETY ===
+{'allowed': True, 'issues': [], 'profit': 5.0, 'margin_percent': 28.57}
+
+=== STOCK SYNC ===
+{'changed': False, 'previous': 25, 'current': 25}
+
+SKU already imported - updating Shopify draft: REAL-MOCK-004
+
+=== SHOPIFY UPDATE RESULT ===
+{'dry_run': True, 'updated': False, 'message': 'Simulated Shopify product + inventory update.', 'product_id': 10562030862678, 'payload': {'product': {'id': 10562030862678, 'title': 'Mock Real Supplier Product', 'body_html': 'Example product using real supplier-like schema\n\nFree UK delivery.', 'vendor': 'Mock Brand', 'status': 'draft', 'variants': [{'sku': 'REAL-MOCK-004', 'price': '17.5', 'inventory_quantity': 25}]}}}
+
+=== SCHEDULED IMPORT END ===
+
+
+>>> python -m app.import_report
+=== IMPORT REPORT ===
+Total imported SKUs: 5
+Image failed: 1
+
+SKUs requiring image review:
+- REAL-MOCK-004
+
+
+>>> python -m app.stock_report
+=== STOCK REPORT ===
+Tracked SKUs: 1
+REAL-MOCK-004: 25
+
+
+>>> python -m app.blocked_report
+=== BLOCKED PRODUCTS REPORT ===
+Total blocked products: 1
+
+=== ISSUE SUMMARY ===
+out of stock: 1
+
+=== BLOCKED SKUS ===
+REAL-MOCK-004 -> out of stock
+
+
+>>> python -m app.profit_report
+=== PROFIT REPORT ===
+TEST-SUPPLIER-002: cost=19.99, sell=26.99, profit=7.00, margin=25.93%
+REAL-MOCK-001: cost=12.50, sell=17.50, profit=5.00, margin=28.57%
+REAL-MOCK-002: cost=12.50, sell=17.50, profit=5.00, margin=28.57%
+REAL-MOCK-003: cost=12.50, sell=17.50, profit=5.00, margin=28.57%
+REAL-MOCK-004: cost=12.50, sell=17.50, profit=5.00, margin=28.57%
+
+Unique SKUs analysed: 5
+Estimated total profit per 1 unit each: 27.00
+
+
+>>> python -m app.dashboard_report
+=== AUTONOMOUS AI COMMERCE DASHBOARD ===
+
+Imported SKUs: 5
+Tracked stock SKUs: 1
+Blocked products: 1
+Image failed SKUs: 1
+Out of stock SKUs: 0
+
+Image review needed:
+- REAL-MOCK-004
+
+Recently blocked:
+- REAL-MOCK-004 -> out of stock
+
+
+=== DAILY RUN COMPLETE ===

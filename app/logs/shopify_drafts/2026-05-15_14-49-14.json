@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T14:49:14.812768",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10575586984278,
+        "title": "Portable Pet Backpack for Outings",
+        "body_html": "Take your pet on adventures with our portable pet backpack. Ideal for hiking and travel!",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T14:49:13+01:00",
+        "handle": "portable-pet-backpack-for-outings",
+        "updated_at": "2026-05-15T14:49:13+01:00",
+        "published_at": null,
+        "template_suffix": null,
+        "published_scope": "web",
+        "tags": "outdoor pet gear, pet backpack, pet carrier, travel accessories",
+        "status": "draft",
+        "admin_graphql_api_id": "gid://shopify/Product/10575586984278",
+        "variants": [
+          {
+            "id": 53684837220694,
+            "product_id": 10575586984278,
+            "title": "Default Title",
+            "price": "12.63",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T14:49:13+01:00",
+            "updated_at": "2026-05-15T14:49:14+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJCC1064754",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56251184054614,
+            "inventory_quantity": 320000,
+            "old_inventory_quantity": 320000,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53684837220694",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13603068870998,
+            "product_id": 10575586984278,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77699854598486,
+            "alt": null,
+            "position": 1,
+            "product_id": 10575586984278,
+            "created_at": "2026-05-15T14:49:13+01:00",
+            "updated_at": "2026-05-15T14:49:13+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60384405750102",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1617435166717_455667e0-d04f-4363-95fd-b974fbdf73d6.jpg?v=1778852953",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77699854598486,
+          "alt": null,
+          "position": 1,
+          "product_id": 10575586984278,
+          "created_at": "2026-05-15T14:49:13+01:00",
+          "updated_at": "2026-05-15T14:49:13+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60384405750102",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1617435166717_455667e0-d04f-4363-95fd-b974fbdf73d6.jpg?v=1778852953",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Portable Pet Backpack for Outings",
+      "body_html": "Take your pet on adventures with our portable pet backpack. Ideal for hiking and travel!",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "pet backpack, pet carrier, outdoor pet gear, travel accessories",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/1617435166717.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJCC1064754",
+          "price": "12.63",
+          "inventory_quantity": 320000
+        }
+      ]
+    }
+  }
+}

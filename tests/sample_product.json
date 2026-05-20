@@ -1,0 +1,27 @@
+{
+  "title": "Foldable pet travel bowl",
+  "category": "pets",
+  "target_market": "UK",
+  "currency": "GBP",
+  "expected_sale_price": 29.99,
+  "platform_fee_percent": 12,
+  "payment_fee_percent": 2.9,
+  "estimated_ad_cost": 2.0,
+  "estimated_refund_rate": 0.04,
+  "return_risk_score": 0.08,
+  "demand_score": 0.75,
+  "competition_score": 0.35,
+  "offers": [
+    {
+      "supplier_id": "sup-1",
+      "supplier_name": "Test Supplier",
+      "country": "China",
+      "product_url": "https://example.com/product",
+      "unit_cost": 8.0,
+      "shipping_cost": 2.5,
+      "estimated_delivery_days": 9,
+      "stock_available": 500,
+      "supplier_risk_score": 0.1
+    }
+  ]
+}

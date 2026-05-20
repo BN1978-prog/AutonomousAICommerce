@@ -1,0 +1,218 @@
+{
+  "created_at": "2026-05-15T15:20:01.856395",
+  "payload": {
+    "keywords": [
+      "pet",
+      "travel pet",
+      "pet bowl"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 1,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "pet",
+        "sku": "CJJT1048826",
+        "title": "Pet clothes",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet",
+        "sku": "CJJT1166027",
+        "title": "Folding Pet Bowl Pet Bowl Travel Hanging Pet",
+        "score": 78,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet",
+        "sku": "CJCC1064754",
+        "title": "Pet Backpack, Pet Outing Bag, Portable Pet Bag",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "travel pet",
+        "sku": "CJJJCWGY01994",
+        "title": "Pet Travel Backpack",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "travel pet",
+        "sku": "CJJJCWGY02237",
+        "title": "Pet travel backpack",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "travel pet",
+        "sku": "CJJJCWGY02354",
+        "title": "Pet travel mug",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet bowl",
+        "sku": "CJJJCWGY01325",
+        "title": "Pet Bowl Silicone Folding Pet Bowl",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet bowl",
+        "sku": "CJJT1166027",
+        "title": "Folding Pet Bowl Pet Bowl Travel Hanging Pet",
+        "score": 78,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet bowl",
+        "sku": "CJGY1171456",
+        "title": "Pet Bowl Dog Bowl Pet Feeder Stainless Steel Bowl Folding Bowl",
+        "score": 90,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10577721491798,
+                "title": "Pet Bowl Dog Bowl Pet Feeder Stainless Steel Bowl Folding Bowl",
+                "body_html": "AI generated Shopify draft product.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T15:20:00+01:00",
+                "handle": "pet-bowl-dog-bowl-pet-feeder-stainless-steel-bowl-folding-bowl",
+                "updated_at": "2026-05-15T15:20:00+01:00",
+                "published_at": null,
+                "template_suffix": null,
+                "published_scope": "web",
+                "tags": "",
+                "status": "draft",
+                "admin_graphql_api_id": "gid://shopify/Product/10577721491798",
+                "variants": [
+                  {
+                    "id": 53687110074710,
+                    "product_id": 10577721491798,
+                    "title": "Default Title",
+                    "price": "25.05",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T15:20:00+01:00",
+                    "updated_at": "2026-05-15T15:20:01+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJGY1171456",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56253541253462,
+                    "inventory_quantity": 35136,
+                    "old_inventory_quantity": 35136,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53687110074710",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13605322391894,
+                    "product_id": 10577721491798,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77704319664470,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10577721491798,
+                    "created_at": "2026-05-15T15:20:00+01:00",
+                    "updated_at": "2026-05-15T15:20:00+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60386744435030",
+                    "width": 750,
+                    "height": 1000,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1623475127848.jpg?v=1778854800",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77704319664470,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10577721491798,
+                  "created_at": "2026-05-15T15:20:00+01:00",
+                  "updated_at": "2026-05-15T15:20:00+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60386744435030",
+                  "width": 750,
+                  "height": 1000,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1623475127848.jpg?v=1778854800",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Pet Bowl Dog Bowl Pet Feeder Stainless Steel Bowl Folding Bowl",
+              "body_html": "AI generated Shopify draft product.",
+              "vendor": "CJdropshipping",
+              "status": "draft",
+              "tags": "",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/1623475127848.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJGY1171456",
+                  "price": "25.05",
+                  "inventory_quantity": 35136
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_15-20-01.json"
+        }
+      }
+    ]
+  }
+}

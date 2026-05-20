@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T19:40:16.548929",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10596735058262,
+        "title": "S-Shaped Foldable Cat Tunnel Toy",
+        "body_html": "Engage your feline friend with this foldable S-shaped cat tunnel, perfect for play and relaxation.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T19:40:15+01:00",
+        "handle": "s-shaped-foldable-cat-tunnel-toy",
+        "updated_at": "2026-05-15T19:40:16+01:00",
+        "published_at": "2026-05-15T19:40:15+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "cat toy, cat tunnel, foldable, pet accessories",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10596735058262",
+        "variants": [
+          {
+            "id": 53707544199510,
+            "product_id": 10596735058262,
+            "title": "Default Title",
+            "price": "11.72",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T19:40:15+01:00",
+            "updated_at": "2026-05-15T19:40:16+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJJJCWMY01582",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56274117001558,
+            "inventory_quantity": 100002,
+            "old_inventory_quantity": 100002,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53707544199510",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13625347047766,
+            "product_id": 10596735058262,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77745298538838,
+            "alt": null,
+            "position": 1,
+            "product_id": 10596735058262,
+            "created_at": "2026-05-15T19:40:15+01:00",
+            "updated_at": "2026-05-15T19:40:15+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60413304308054",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1928291095377.jpg?v=1778870415",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77745298538838,
+          "alt": null,
+          "position": 1,
+          "product_id": 10596735058262,
+          "created_at": "2026-05-15T19:40:15+01:00",
+          "updated_at": "2026-05-15T19:40:15+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60413304308054",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1928291095377.jpg?v=1778870415",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "S-Shaped Foldable Cat Tunnel Toy",
+      "body_html": "Engage your feline friend with this foldable S-shaped cat tunnel, perfect for play and relaxation.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "cat toy, cat tunnel, foldable, pet accessories",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/203208/1928291095377.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWMY01582",
+          "price": "11.72",
+          "inventory_quantity": 100002
+        }
+      ]
+    }
+  }
+}

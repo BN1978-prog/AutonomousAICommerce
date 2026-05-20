@@ -1,0 +1,158 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Autonomous AI Commerce Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f7fb; color: #172033; }
+    header { background: #111827; color: white; padding: 24px 32px; }
+    main { padding: 24px 32px; display: grid; gap: 16px; grid-template-columns: repeat(12, 1fr); }
+    section { background: white; border-radius: 16px; padding: 18px; box-shadow: 0 8px 24px rgba(15,23,42,.07); }
+    h1, h2 { margin-top: 0; }
+    .span-3 { grid-column: span 3; } .span-4 { grid-column: span 4; } .span-6 { grid-column: span 6; } .span-12 { grid-column: span 12; }
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; background: #e5e7eb; margin: 2px; }
+    .ok { background:#dcfce7; color:#166534; } .warn { background:#fef3c7; color:#92400e; } .bad { background:#fee2e2; color:#991b1b; }
+    button { border: 0; border-radius: 10px; padding: 10px 14px; font-weight: 700; cursor: pointer; background: #2563eb; color: white; margin: 4px 4px 4px 0; }
+    button.secondary { background: #475569; } button.danger { background: #dc2626; }
+    input, select { padding: 10px; border: 1px solid #d1d5db; border-radius: 10px; margin: 4px 0; width: 100%; box-sizing: border-box; }
+    label { display:block; font-size: 13px; font-weight: 700; margin-top: 8px; }
+    pre { background:#0f172a; color:#dbeafe; padding: 14px; border-radius: 12px; overflow: auto; max-height: 420px; }
+    table { width: 100%; border-collapse: collapse; } td, th { padding: 8px; border-bottom: 1px solid #e5e7eb; text-align:left; }
+    @media (max-width: 900px) { .span-3,.span-4,.span-6,.span-12 { grid-column: span 12; } }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Autonomous AI Commerce Dashboard</h1>
+  <p>GUI for controls, Shopify/supplier sandbox workflow, semi-auto execution, and risk status.</p>
+</header>
+<main>
+  <section class="span-3">
+    <h2>Status</h2>
+    <div id="statusBadges"></div>
+    <button onclick="loadStatus()">Refresh</button>
+  </section>
+
+  <section class="span-3">
+    <h2>Controls</h2>
+    <label><input id="enabled" type="checkbox" style="width:auto"> Enable semi-auto listing</label>
+    <label><input id="dryRun" type="checkbox" style="width:auto" checked> Dry-run / sandbox</label>
+    <label>Daily budget limit</label><input id="dailyBudget" type="number" value="250">
+    <label>Minimum margin %</label><input id="minMargin" type="number" value="25">
+    <button onclick="saveControls()">Save Controls</button>
+    <button class="danger" onclick="emergencyStop()">Emergency Stop</button>
+  </section>
+
+  <section class="span-3">
+    <h2>Metrics</h2>
+    <table id="metricsTable"></table>
+    <button onclick="loadMetrics()">Refresh Metrics</button>
+  </section>
+
+  <section class="span-3">
+    <h2>Connectors</h2>
+    <p><span class="badge ok">Supplier sandbox</span></p>
+    <p><span class="badge warn">Shopify live only with .env keys</span></p>
+    <p><span class="badge ok">Mock marketplace</span></p>
+  </section>
+
+  <section class="span-6">
+    <h2>Supplier Search</h2>
+    <label>Keywords</label><input id="supplierKeywords" value="pet bowl">
+    <label>Max unit cost</label><input id="maxCost" type="number" value="20">
+    <button onclick="searchSuppliers()">Search Suppliers</button>
+    <pre id="supplierOutput">Ready.</pre>
+  </section>
+
+  <section class="span-6">
+    <h2>Semi-Auto Workflow</h2>
+    <label>Keywords</label><input id="autoKeywords" value="pet bowl">
+    <label>Marketplace</label><select id="marketplace"><option value="shopify">Shopify</option><option value="mock">Mock</option><option value="ebay">eBay mock</option></select>
+    <label>Max products</label><input id="maxProducts" type="number" value="3">
+    <button onclick="runSemiAuto()">Run Semi-Auto</button>
+    <p class="badge warn">Creates draft/sandbox listings only unless live keys and controls are enabled.</p>
+    <pre id="automationOutput">Ready.</pre>
+  </section>
+
+  <section class="span-12">
+    <h2>System Log</h2>
+    <pre id="logOutput">Dashboard loaded.</pre>
+  </section>
+</main>
+<script>
+const log = (msg) => { document.getElementById('logOutput').textContent = `[${new Date().toLocaleTimeString()}] ${msg}\n` + document.getElementById('logOutput').textContent; };
+const pretty = (obj) => JSON.stringify(obj, null, 2);
+async function api(path, options={}) {
+  const res = await fetch(path, { headers: {'Content-Type': 'application/json'}, ...options });
+  const text = await res.text();
+  let data; try { data = JSON.parse(text); } catch { data = text; }
+  if (!res.ok) throw new Error(pretty(data));
+  return data;
+}
+async function loadStatus(){
+  try {
+    const data = await api('/dashboard/status');
+    const a = data.autonomy;
+    document.getElementById('enabled').checked = a.enabled;
+    document.getElementById('dryRun').checked = a.dry_run;
+    document.getElementById('dailyBudget').value = a.daily_budget_limit;
+    document.getElementById('minMargin').value = a.minimum_margin_percent;
+    document.getElementById('statusBadges').innerHTML = `
+      <p><span class="badge ${data.system_status === 'safe' ? 'ok':'bad'}">${data.system_status}</span></p>
+      <p><span class="badge ${a.enabled ? 'ok':'warn'}">autonomy: ${a.enabled ? 'enabled':'disabled'}</span></p>
+      <p><span class="badge ${a.dry_run ? 'warn':'bad'}">dry-run: ${a.dry_run}</span></p>
+      <p>${data.warnings.map(w => `<span class="badge warn">${w}</span>`).join('')}</p>`;
+    log('Status refreshed');
+  } catch(e) { log('Status error: '+e.message); }
+}
+async function loadMetrics(){
+  try {
+    const data = await api('/dashboard/metrics');
+    document.getElementById('metricsTable').innerHTML = Object.entries(data).map(([k,v]) => `<tr><th>${k}</th><td>${v}</td></tr>`).join('');
+    log('Metrics refreshed');
+  } catch(e) { log('Metrics error: '+e.message); }
+}
+async function saveControls(){
+  try {
+    const body = {
+      enabled: document.getElementById('enabled').checked,
+      dry_run: document.getElementById('dryRun').checked,
+      daily_budget_limit: Number(document.getElementById('dailyBudget').value),
+      max_orders_per_day: 10,
+      minimum_margin_percent: Number(document.getElementById('minMargin').value),
+      emergency_stop: false
+    };
+    const data = await api('/dashboard/controls', {method:'PUT', body: JSON.stringify(body)});
+    log('Controls saved: '+pretty(data)); await loadStatus();
+  } catch(e) { log('Controls error: '+e.message); }
+}
+async function emergencyStop(){
+  try {
+    const body = {enabled:false,dry_run:true,daily_budget_limit:Number(document.getElementById('dailyBudget').value),max_orders_per_day:0,minimum_margin_percent:Number(document.getElementById('minMargin').value),emergency_stop:true};
+    const data = await api('/dashboard/controls', {method:'PUT', body: JSON.stringify(body)});
+    log('Emergency stop active: '+pretty(data)); await loadStatus();
+  } catch(e) { log('Emergency error: '+e.message); }
+}
+async function searchSuppliers(){
+  try {
+    const body = {keywords: document.getElementById('supplierKeywords').value, target_market:'UK', currency:'GBP', max_unit_cost:Number(document.getElementById('maxCost').value), min_stock:1, max_delivery_days:30};
+    const data = await api('/suppliers/search', {method:'POST', body: JSON.stringify(body)});
+    document.getElementById('supplierOutput').textContent = pretty(data);
+    log(`Supplier search found ${data.length} products`);
+  } catch(e) { document.getElementById('supplierOutput').textContent = e.message; log('Supplier error: '+e.message); }
+}
+async function runSemiAuto(){
+  try {
+    const body = {keywords: document.getElementById('autoKeywords').value, target_market:'UK', marketplace:document.getElementById('marketplace').value, max_products:Number(document.getElementById('maxProducts').value), publish_drafts:true};
+    const data = await api('/automation/semi-auto/run', {method:'POST', body: JSON.stringify(body)});
+    document.getElementById('automationOutput').textContent = pretty(data);
+    log('Semi-auto finished: '+pretty(data.summary));
+  } catch(e) { document.getElementById('automationOutput').textContent = e.message; log('Automation error: '+e.message); }
+}
+loadStatus(); loadMetrics();
+</script>
+</body>
+</html>
+
+

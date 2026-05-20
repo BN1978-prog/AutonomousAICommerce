@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-05-15T13:24:34.841836",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": false,
+    "status_code": 401,
+    "response": {
+      "errors": "[API] Invalid API key or access token (unrecognized login or wrong password)"
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Stylish Pet Clothes for Your Furry Friend",
+      "body_html": "Keep your pet fashionable and comfortable with our stylish pet clothes. Perfect for any occasion!",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "pet clothes, fashion, pets, dog clothes, cat clothes",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/1616203488791.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJT1048826",
+          "price": "9.99",
+          "inventory_quantity": 160000
+        }
+      ]
+    }
+  }
+}

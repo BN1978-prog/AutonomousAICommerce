@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-20T21:34:17.577245+00:00",
+  "channels": {
+    "shopify": "live_read_write_confirmed",
+    "ebay": "live_read_write_confirmed",
+    "woocommerce": "live_read_write_confirmed",
+    "google_feed": "valid_export_52_of_52",
+    "meta_feed": "valid_export_52_of_52"
+  },
+  "ready_for_real_sales_data": true,
+  "status": "HEALTHY"
+}

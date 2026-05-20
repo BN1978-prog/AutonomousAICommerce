@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-05-20T21:34:12.054713+00:00",
+  "drafts_seen": 0,
+  "payloads_created": 0,
+  "skipped": [],
+  "status": "waiting_valid_mapping",
+  "output_file": "app\\logs\\cj_order_payloads.json"
+}

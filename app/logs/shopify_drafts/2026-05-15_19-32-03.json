@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T19:32:03.562586",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10596107944278,
+        "title": "Zeze Pet Meal Mat Cat Bowl Mat Pet Non Slip Mat",
+        "body_html": "AI generated Shopify draft product.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T19:32:02+01:00",
+        "handle": "zeze-pet-meal-mat-cat-bowl-mat-pet-non-slip-mat",
+        "updated_at": "2026-05-15T19:32:03+01:00",
+        "published_at": "2026-05-15T19:32:02+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10596107944278",
+        "variants": [
+          {
+            "id": 53706887201110,
+            "product_id": 10596107944278,
+            "title": "Default Title",
+            "price": "21.59",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T19:32:03+01:00",
+            "updated_at": "2026-05-15T19:32:03+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJCC1228639",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56273460003158,
+            "inventory_quantity": 118456,
+            "old_inventory_quantity": 118456,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53706887201110",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13624694341974,
+            "product_id": 10596107944278,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77744372416854,
+            "alt": null,
+            "position": 1,
+            "product_id": 10596107944278,
+            "created_at": "2026-05-15T19:32:02+01:00",
+            "updated_at": "2026-05-15T19:32:02+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60412718874966",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/4ab09c69-f86a-4e44-902a-b23bf06f26ef.jpg?v=1778869922",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77744372416854,
+          "alt": null,
+          "position": 1,
+          "product_id": 10596107944278,
+          "created_at": "2026-05-15T19:32:02+01:00",
+          "updated_at": "2026-05-15T19:32:02+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60412718874966",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/4ab09c69-f86a-4e44-902a-b23bf06f26ef.jpg?v=1778869922",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Zeze Pet Meal Mat Cat Bowl Mat Pet Non Slip Mat",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/4ab09c69-f86a-4e44-902a-b23bf06f26ef.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJCC1228639",
+          "price": "21.59",
+          "inventory_quantity": 118456
+        }
+      ]
+    }
+  }
+}

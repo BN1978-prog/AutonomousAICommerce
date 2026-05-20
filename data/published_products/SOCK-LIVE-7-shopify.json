@@ -1,0 +1,224 @@
+{
+  "sku": "SOCK-LIVE-7",
+  "channel": "shopify",
+  "product_id": 10658215493974,
+  "admin_graphql_api_id": "gid://shopify/Product/10658215493974",
+  "title": "Dog socks, pet socks, non-slip cotton socks",
+  "status": "draft",
+  "created_at": "2026-05-16T16:03:59.398939",
+  "job": {
+    "job_id": "SOCK-LIVE-7-shopify",
+    "scale_action": "scale_cautiously",
+    "scale_score": 83,
+    "sku": "SOCK-LIVE-7",
+    "channel": "shopify",
+    "priority": "high",
+    "routing_order": 1,
+    "status": "queued_preview",
+    "allocated_inventory": 40,
+    "estimated_net_profit": 6.77,
+    "compliance_risk": "low",
+    "payload": {
+      "marketplace": "shopify",
+      "title": "Dog socks, pet socks, non-slip cotton socks",
+      "sku": "SOCK-LIVE-7",
+      "price": 10.99,
+      "currency": "USD",
+      "brand": "PawSafe",
+      "category": "Pet Supplies",
+      "description": "Dog socks, pet socks, non-slip cotton socks for pets. Designed for comfort, daily use, and practical pet care.",
+      "seo_keywords": [
+        "dog socks",
+        "pet socks",
+        "non slip dog socks",
+        "paw protection"
+      ],
+      "tags": [
+        "dog socks",
+        "pet socks",
+        "non slip dog socks",
+        "paw protection"
+      ],
+      "marketplace_seo": {
+        "shopify_tags": [
+          "dog socks",
+          "pet socks",
+          "non slip dog socks",
+          "paw protection"
+        ],
+        "ebay_keywords": [
+          "dog socks",
+          "pet socks",
+          "non slip dog socks",
+          "paw protection"
+        ],
+        "amazon_search_terms": "dog socks pet socks non slip dog socks paw protection",
+        "google_product_keywords": [
+          "dog socks",
+          "pet socks",
+          "non slip dog socks",
+          "paw protection"
+        ],
+        "tiktok_hashtags": [
+          "#dogsocks",
+          "#petsocks",
+          "#nonslipdogsocks",
+          "#pawprotection"
+        ]
+      },
+      "image": "https://example.com/image.jpg",
+      "inventory": 100,
+      "condition": "NEW"
+    },
+    "guard_margin_percent": 61.6,
+    "guard_status": "approved",
+    "guard_reasons": [],
+    "live_attempt_at": "2026-05-16T16:03:58.367794"
+  },
+  "result": {
+    "ok": true,
+    "status_code": 201,
+    "product_id": 10658215493974,
+    "title": "Dog socks, pet socks, non-slip cotton socks",
+    "admin_graphql_api_id": "gid://shopify/Product/10658215493974",
+    "status": "created_live_draft",
+    "channel": "shopify"
+  },
+  "last_price_update": {
+    "price": 20.0,
+    "updated_at": "2026-05-17T10:32:48.594459",
+    "result": {
+      "ok": true,
+      "status_code": 200,
+      "product_id": 10658215493974,
+      "variant_id": 53775646425430,
+      "new_price": "20.0",
+      "response": {
+        "variant": {
+          "id": 53775646425430,
+          "product_id": 10658215493974,
+          "title": "Default Title",
+          "price": "20.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": null,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-05-16T16:03:58+01:00",
+          "updated_at": "2026-05-17T09:55:09+01:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": "shopify",
+          "requires_shipping": true,
+          "sku": "SOCK-LIVE-7",
+          "weight": 0.0,
+          "weight_unit": "lb",
+          "inventory_item_id": 56342608118102,
+          "inventory_quantity": 60,
+          "old_inventory_quantity": 60,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/53775646425430",
+          "image_id": null
+        }
+      }
+    }
+  },
+  "current_price": 20.0,
+  "last_status_update": {
+    "status": "draft",
+    "updated_at": "2026-05-17T10:06:02.515430",
+    "result": {
+      "ok": true,
+      "status_code": 200,
+      "product_id": 10658215493974,
+      "status": "draft",
+      "response": {
+        "product": {
+          "id": 10658215493974,
+          "title": "Dog socks, pet socks, non-slip cotton socks",
+          "body_html": "Dog socks, pet socks, non-slip cotton socks for pets. Designed for comfort, daily use, and practical pet care.",
+          "vendor": "PawSafe",
+          "product_type": "Pet Supplies",
+          "created_at": "2026-05-16T16:03:58+01:00",
+          "handle": "dog-socks-pet-socks-non-slip-cotton-socks-1",
+          "updated_at": "2026-05-17T09:55:09+01:00",
+          "published_at": null,
+          "template_suffix": null,
+          "published_scope": "web",
+          "tags": "",
+          "status": "draft",
+          "admin_graphql_api_id": "gid://shopify/Product/10658215493974",
+          "variants": [
+            {
+              "id": 53775646425430,
+              "product_id": 10658215493974,
+              "title": "Default Title",
+              "price": "20.00",
+              "position": 1,
+              "inventory_policy": "deny",
+              "compare_at_price": null,
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null,
+              "created_at": "2026-05-16T16:03:58+01:00",
+              "updated_at": "2026-05-17T09:55:09+01:00",
+              "taxable": true,
+              "barcode": null,
+              "fulfillment_service": "manual",
+              "grams": 0,
+              "inventory_management": "shopify",
+              "requires_shipping": true,
+              "sku": "SOCK-LIVE-7",
+              "weight": 0.0,
+              "weight_unit": "lb",
+              "inventory_item_id": 56342608118102,
+              "inventory_quantity": 60,
+              "old_inventory_quantity": 60,
+              "admin_graphql_api_id": "gid://shopify/ProductVariant/53775646425430",
+              "image_id": null
+            }
+          ],
+          "options": [
+            {
+              "id": 13691688190294,
+              "product_id": 10658215493974,
+              "name": "Title",
+              "position": 1,
+              "values": [
+                "Default Title"
+              ]
+            }
+          ],
+          "images": [],
+          "image": null
+        }
+      }
+    }
+  },
+  "current_inventory": 60,
+  "last_inventory_update": {
+    "quantity": 60,
+    "updated_at": "2026-05-17T09:55:00.444401",
+    "result": {
+      "ok": true,
+      "mode": "shopify_live_inventory_update",
+      "sku": "SOCK-LIVE-7",
+      "product_id": 10658215493974,
+      "variant_id": 53775646425430,
+      "inventory_item_id": 56342608118102,
+      "location_id": 118992634198,
+      "quantity": 60,
+      "result": {
+        "inventory_level": {
+          "inventory_item_id": 56342608118102,
+          "location_id": 118992634198,
+          "available": 60,
+          "updated_at": "2026-05-17T09:55:00+01:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/156387410262?inventory_item_id=56342608118102"
+        }
+      }
+    }
+  }
+}

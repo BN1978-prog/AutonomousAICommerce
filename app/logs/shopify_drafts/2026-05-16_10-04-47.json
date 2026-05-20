@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-16T10:04:47.901933",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10657676329302,
+        "title": "Pet Outdoor Foldable Dog Water Bottle - Travel Dispenser",
+        "body_html": "Keep your pet hydrated on the go with this foldable outdoor water bottle. Perfect for travel and outdoor adventures.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-16T10:04:46+01:00",
+        "handle": "pet-outdoor-foldable-dog-water-bottle-travel-dispenser",
+        "updated_at": "2026-05-16T10:04:47+01:00",
+        "published_at": "2026-05-16T10:04:46+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "dog, outdoor, pet, travel, water bottle",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10657676329302",
+        "variants": [
+          {
+            "id": 53771820040534,
+            "product_id": 10657676329302,
+            "title": "Default Title",
+            "price": "19.60",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-16T10:04:46+01:00",
+            "updated_at": "2026-05-16T10:04:47+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJJJCWGY00675",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56338471223638,
+            "inventory_quantity": 353995,
+            "old_inventory_quantity": 353995,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53771820040534",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13689582682454,
+            "product_id": 10657676329302,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77832320811350,
+            "alt": null,
+            "position": 1,
+            "product_id": 10657676329302,
+            "created_at": "2026-05-16T10:04:46+01:00",
+            "updated_at": "2026-05-16T10:04:46+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60487801405782",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/7ed6a901-cbb6-4847-a561-b63cf4542d1c_trans.jpg?v=1778922286",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77832320811350,
+          "alt": null,
+          "position": 1,
+          "product_id": 10657676329302,
+          "created_at": "2026-05-16T10:04:46+01:00",
+          "updated_at": "2026-05-16T10:04:46+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60487801405782",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/7ed6a901-cbb6-4847-a561-b63cf4542d1c_trans.jpg?v=1778922286",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Pet Outdoor Foldable Dog Water Bottle - Travel Dispenser",
+      "body_html": "Keep your pet hydrated on the go with this foldable outdoor water bottle. Perfect for travel and outdoor adventures.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "pet, dog, water bottle, travel, outdoor",
+      "images": [
+        {
+          "src": "https://oss-cf.cjdropshipping.com/product/2025/06/21/08/7ed6a901-cbb6-4847-a561-b63cf4542d1c_trans.jpeg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWGY00675",
+          "price": "19.60",
+          "inventory_quantity": 353995
+        }
+      ]
+    }
+  },
+  "cost_price": 5.6,
+  "sale_price": 19.6,
+  "profit": 14.0,
+  "margin_percent": 71.43,
+  "sku": "CJJJCWGY00675"
+}

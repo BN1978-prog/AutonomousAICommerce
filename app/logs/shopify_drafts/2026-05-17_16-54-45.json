@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-17T16:54:45.922649",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10659785146710,
+        "title": "Cat Hair Glove Pet Fur Remover Glove Dog Grooming Glove Brush For Shedding Pet Hair Remover Mitt Cleaner Grooming Glove",
+        "body_html": "AI generated Shopify draft product.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-17T16:54:45+01:00",
+        "handle": "cat-hair-glove-pet-fur-remover-glove-dog-grooming-glove-brush-for-shedding-pet-hair-remover-mitt-cleaner-grooming-glove",
+        "updated_at": "2026-05-17T16:54:45+01:00",
+        "published_at": "2026-05-17T16:54:45+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10659785146710",
+        "variants": [
+          {
+            "id": 53787384742230,
+            "product_id": 10659785146710,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-17T16:54:45+01:00",
+            "updated_at": "2026-05-17T16:54:46+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJMY2099920",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56355114025302,
+            "inventory_quantity": 41782,
+            "old_inventory_quantity": 41782,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53787384742230",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13694432051542,
+            "product_id": 10659785146710,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77972179681622,
+            "alt": null,
+            "position": 1,
+            "product_id": 10659785146710,
+            "created_at": "2026-05-17T16:54:45+01:00",
+            "updated_at": "2026-05-17T16:54:45+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60557473939798",
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/a590b51d-047d-4ead-b336-9a816eca4c70.png?v=1779033285",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77972179681622,
+          "alt": null,
+          "position": 1,
+          "product_id": 10659785146710,
+          "created_at": "2026-05-17T16:54:45+01:00",
+          "updated_at": "2026-05-17T16:54:45+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60557473939798",
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/a590b51d-047d-4ead-b336-9a816eca4c70.png?v=1779033285",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Cat Hair Glove Pet Fur Remover Glove Dog Grooming Glove Brush For Shedding Pet Hair Remover Mitt Cleaner Grooming Glove",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/a590b51d-047d-4ead-b336-9a816eca4c70.png"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJMY2099920",
+          "price": "9.99",
+          "inventory_quantity": 41782
+        }
+      ]
+    }
+  },
+  "cost_price": 1.76,
+  "sale_price": 9.99,
+  "profit": 8.23,
+  "margin_percent": 82.38,
+  "sku": "CJMY2099920"
+}

@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-05-20T18:30:48.477101+00:00",
+  "pid": "2056264700793372674",
+  "status_code": 200,
+  "response": {
+    "code": 200,
+    "result": true,
+    "message": "Success",
+    "data": {
+      "pid": "2056264700793372674",
+      "productName": "[\"Eco-Friendly Cat Scratcher Toy With Interactive Ba\",\"Eco-Friendly Cat Scratcher Toy With Interactive Ba\",\"Eco-Friendly Cat Scratcher Toy With Interactive Ba\"]",
+      "productNameSet": [
+        "Eco-Friendly Cat Scratcher Toy With Interactive Ba"
+      ],
+      "productNameEn": "Eco-Friendly Cat Scratcher Toy With Interactive Balls KittenLounge Furniture Protector Multipurpose Cats Play Board ForPlaying Clawing Square Design Green & Yellow Felt SisalMaterial Compact Size 30cm",
+      "productSku": "CJTE2894556",
+      "bigImage": "https://cf.cjdropshipping.com/0cdb9c22-20bb-4831-a577-f6ea562c978b.jpg",
+      "productImage": "[\"https://cf.cjdropshipping.com/0cdb9c22-20bb-4831-a577-f6ea562c978b.jpg\",\"https://cf.cjdropshipping.com/292670de-036e-4774-be99-e9e62fab2ad7.jpg\"]",
+      "productImageSet": [
+        "https://cf.cjdropshipping.com/292670de-036e-4774-be99-e9e62fab2ad7.jpg",
+        "https://cf.cjdropshipping.com/0cdb9c22-20bb-4831-a577-f6ea562c978b.jpg"
+      ],
+      "productWeight": "703",
+      "productUnit": null,
+      "productType": "SUPPLIER_SHIPPED_PRODUCT",
+      "categoryId": "2410110340031614900",
+      "categoryName": "Pet Supplies / Pet Toys / Pet Training and Educational Toys",
+      "entryCode": "",
+      "entryName": "",
+      "entryNameEn": "",
+      "materialName": "[\"其他\"]",
+      "materialNameSet": [
+        "其他"
+      ],
+      "materialNameEn": "[\"Others\"]",
+      "materialNameEnSet": [
+        "Others"
+      ],
+      "materialKey": "[\"MATERIAL\"]",
+      "materialKeySet": [
+        "MATERIAL"
+      ],
+      "packingWeight": "703",
+      "packingName": "[\"纸盒\"]",
+      "packingNameSet": [
+        "纸盒"
+      ],
+      "packingNameEn": "[\"Carton\"]",
+      "packingNameEnSet": [
+        "Carton"
+      ],
+      "packingKey": "[\"PAPER_BOX\"]",
+      "packingKeySet": [
+        "PAPER_BOX"
+      ],
+      "productKey": "[\"Default\"]",
+      "productKeySet": [
+        "Default"
+      ],
+      "productKeyEn": "Default",
+      "productKeyEnSet": [
+        "Default"
+      ],
+      "productPro": "[\"普货\"]",
+      "productProSet": [
+        "普货"
+      ],
+      "productProEn": "[\"COMMON\"]",
+      "productProEnSet": [
+        "COMMON"
+      ],
+      "sellPrice": "16.34",
+      "sourceFrom": 0,
+      "description": "\n <h2>Specification</h2>\n <ul>\n  <li><label>Available Ship to:</label>United States</li>\n </ul>\n <h2>Details</h2>\n <h2>Eco-Friendly Cat Scratcher</h2>\n <p>Made from felt and sisal, this cat scratcher is durable and eco-friendly. The stable frame ensures long-lasting use. Cats can safely claw and play, keeping your home intact. ?</p>\n <h2>&nbsp;Compact Design</h2>\n <p>Measures 30cm x 30cm x 30cm, fitting snugly in any room. Ideal for indoor cats, it provides convenience without taking up much space. Perfect for small and large homes. ??</p>\n <h2>&nbsp;Interactive Fun</h2>\n <p>&nbsp;</p>\n <p>Equipped with interactive balls, this toy encourages chasing and playing. Cats can chase balls within the inner track. It’s a fun way to engage your pet, ensuring they stay active and entertained. ??</p>\n <p><img src=\"https://cf.cjdropshipping.com/e54fda8d-1a9c-4af0-8ea6-71bf70da9918.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f4f72134-a3f6-406e-b4d8-75b7163fa309.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+      "variants": [
+        {
+          "vid": "2056264701288300546",
+          "pid": "2056264700793372674",
+          "variantName": null,
+          "variantNameEn": "",
+          "variantImage": "https://cf.cjdropshipping.com/0cdb9c22-20bb-4831-a577-f6ea562c978b.jpg",
+          "variantSku": "CJTE289455601AZ",
+          "variantUnit": null,
+          "variantProperty": null,
+          "variantKey": "Default title",
+          "variantLength": 300,
+          "variantWidth": 100,
+          "variantHeight": 50,
+          "variantVolume": 1500000,
+          "variantWeight": 703.0,
+          "variantSellPrice": 16.34,
+          "createTime": 1779086683000,
+          "variantStandard": "long=300,width=100,height=50",
+          "variantSugSellPrice": 80.07,
+          "combineNum": null,
+          "inventoryNum": null,
+          "combineVariants": null,
+          "inventories": null
+        }
+      ],
+      "addMarkStatus": 1,
+      "createrTime": "2026-05-18T00:00:00+08:00",
+      "productVideo": null,
+      "status": "3",
+      "suggestSellPrice": "80.07",
+      "listedNum": 1,
+      "supplierName": "dbjjj",
+      "supplierId": "1848294695726489600",
+      "customizationVersion": null,
+      "customizationJson1": null,
+      "customizationJson2": null,
+      "customizationJson3": null,
+      "customizationJson4": null,
+      "isTestProduct": false
+    },
+    "requestId": "068aff534fbd4caaba39fb7439495ce0",
+    "success": true
+  }
+}

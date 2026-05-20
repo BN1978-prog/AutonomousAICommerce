@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-05-20T21:34:14.416473+00:00",
+  "mode": "global_arbitrage_safe_analysis",
+  "steps_ok": 2,
+  "steps_total": 2,
+  "opportunities": 2,
+  "top_opportunities": [
+    {
+      "sku": "CJJJCWMY00923",
+      "title": "Eco-Friendly Cat Scratcher Toy",
+      "source_market": "cjdropshipping",
+      "source_cost": 16.34,
+      "shipping_cost": 0.0,
+      "target_market": "shopify",
+      "target_price": 39.99,
+      "platform_fee": 1.2,
+      "risk_reserve": 3.2,
+      "net_profit": 19.25,
+      "margin_percent": 48.14,
+      "decision": "candidate",
+      "priority": "A",
+      "recommended_action": "strong_candidate_scale_test",
+      "execution_mode": "analysis_only_no_purchase_no_listing"
+    },
+    {
+      "sku": "PET-BOWL-001",
+      "title": "Non-slip silicone pet feeding bowl",
+      "source_market": "cjdropshipping",
+      "source_cost": 4.5,
+      "shipping_cost": 0.0,
+      "target_market": "shopify",
+      "target_price": 16.99,
+      "platform_fee": 0.51,
+      "risk_reserve": 1.36,
+      "net_profit": 10.62,
+      "margin_percent": 62.51,
+      "decision": "candidate",
+      "priority": "A",
+      "recommended_action": "strong_candidate_scale_test",
+      "execution_mode": "analysis_only_no_purchase_no_listing"
+    }
+  ],
+  "execution_allowed": false,
+  "reason": "analysis_only_until_platform_rules_and_budget_limits_confirmed",
+  "results": [
+    {
+      "step": "app.margin_engine",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\n  \"created_at\": \"2026-05-20T21:34:14.300474+00:00\",\n  \"mode\": \"margin_from_multi_market_candidates\",\n  \"items_seen\": 2,\n  \"candidates\": 2,\n  \"items\": [\n    {\n      \"sku\": \"CJJJCWMY00923\",\n      \"title\": \"Eco-Friendly Cat Scratcher Toy\",\n      \"source_market\": \"cjdropshipping\",\n      \"source_cost\": 16.34,\n      \"shipping_cost\": 0.0,\n      \"target_market\": \"shopify\",\n      \"target_price\": 39.99,\n      \"platform_fee\": 1.2,\n      \"risk_reserve\": 3.2,\n      \"net_profit\": 19.25,\n      \"margin_percent\": 48.14,\n      \"decision\": \"candidate\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"title\": \"Non-slip silicone pet feeding bowl\",\n      \"source_market\": \"cjdropshipping\",\n      \"source_cost\": 4.5,\n      \"shipping_cost\": 0.0,\n      \"target_market\": \"shopify\",\n      \"target_price\": 16.99,\n      \"platform_fee\": 0.51,\n      \"risk_reserve\": 1.36,\n      \"net_profit\": 10.62,\n      \"margin_percent\": 62.51,\n      \"decision\": \"candidate\"\n    }\n  ],\n  \"status\": \"ok\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "step": "app.opportunity_engine",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\n  \"created_at\": \"2026-05-20T21:34:14.407472+00:00\",\n  \"mode\": \"safe_opportunity_analysis\",\n  \"items_seen\": 2,\n  \"opportunities\": 2,\n  \"rejected\": 0,\n  \"top_opportunities\": [\n    {\n      \"sku\": \"CJJJCWMY00923\",\n      \"title\": \"Eco-Friendly Cat Scratcher Toy\",\n      \"source_market\": \"cjdropshipping\",\n      \"source_cost\": 16.34,\n      \"shipping_cost\": 0.0,\n      \"target_market\": \"shopify\",\n      \"target_price\": 39.99,\n      \"platform_fee\": 1.2,\n      \"risk_reserve\": 3.2,\n      \"net_profit\": 19.25,\n      \"margin_percent\": 48.14,\n      \"decision\": \"candidate\",\n      \"priority\": \"A\",\n      \"recommended_action\": \"strong_candidate_scale_test\",\n      \"execution_mode\": \"analysis_only_no_purchase_no_listing\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"title\": \"Non-slip silicone pet feeding bowl\",\n      \"source_market\": \"cjdropshipping\",\n      \"source_cost\": 4.5,\n      \"shipping_cost\": 0.0,\n      \"target_market\": \"shopify\",\n      \"target_price\": 16.99,\n      \"platform_fee\": 0.51,\n      \"risk_reserve\": 1.36,\n      \"net_profit\": 10.62,\n      \"margin_percent\": 62.51,\n      \"decision\": \"candidate\",\n      \"priority\": \"A\",\n      \"recommended_action\": \"strong_candidate_scale_test\",\n      \"execution_mode\": \"analysis_only_no_purchase_no_listing\"\n    }\n  ],\n  \"rejected_items\": [],\n  \"status\": \"opportunities_found\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "status": "ok"
+}

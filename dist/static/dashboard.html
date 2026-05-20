@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Autonomous AI Commerce Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f7f7f7; color: #222; }
+    header { background: #111827; color: white; padding: 24px; }
+    main { padding: 24px; display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    section { background: white; border-radius: 14px; padding: 18px; box-shadow: 0 6px 18px rgba(0,0,0,.06); }
+    h1, h2 { margin-top: 0; }
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; background: #e5e7eb; }
+    .warning { color: #92400e; }
+    code { background: #eef2ff; padding: 2px 5px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Autonomous AI Commerce Dashboard</h1>
+  <p>Operational console for modules, autonomy controls, and risk status.</p>
+</header>
+<main>
+  <section>
+    <h2>Status</h2>
+    <p>Use <code>/dashboard/status</code> for live JSON status.</p>
+    <p class="badge">Safe-by-default</p>
+  </section>
+  <section>
+    <h2>Controls</h2>
+    <p>Autonomy is disabled by default. Dry-run is enabled by default.</p>
+    <p>Update controls with <code>PUT /dashboard/controls</code>.</p>
+  </section>
+  <section>
+    <h2>Metrics</h2>
+    <p>Use <code>/dashboard/metrics</code> for current operational metrics.</p>
+  </section>
+  <section>
+    <h2>Safety</h2>
+    <p class="warning">Emergency stop forces autonomous execution off.</p>
+  </section>
+</main>
+</body>
+</html>
+
+

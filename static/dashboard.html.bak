@@ -1,0 +1,315 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Autonomous AI Commerce Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/static/dashboard.css" />
+</head>
+<body>
+<aside class="sidebar">
+  <div class="logo">AIC</div>
+  <nav>
+    <a class="active">Dashboard</a>
+    <a>Automation</a>
+    <a>Products</a>
+    <a>Suppliers</a>
+    <a>Profit</a>
+    <a>Safety</a>
+    <a>Reports</a>
+  </nav>
+</aside>
+
+<main class="main">
+  <header class="topbar">
+    <div>
+      <h1>Autonomous AI Commerce</h1>
+      <p>Professional admin control center</p>
+    </div>
+    <div class="top-actions">
+      <button onclick="refreshDashboard()">Refresh</button>
+      <button class="primary" onclick="runDaily()">Daily Run</button>
+      <button class="danger" onclick="importNow()">Import Now</button>
+    </div>
+  </header>
+
+  <section class="cards">
+    <div class="card"><span>System Health</span><strong id="health">LOADING</strong></div>
+    <div class="card"><span>Active Products</span><strong id="active_products">0</strong></div>
+    <div class="card"><span>Open Orders</span><strong id="open_orders">0</strong></div>
+    <div class="card"><span>Daily Profit</span><strong id="profit">£0</strong></div>
+    <div class="card"><span>Daily Spend</span><strong id="spend">£0</strong></div>
+    <div class="card"><span>Risk Level</span><strong id="risk">LOW</strong></div>
+  </section>
+
+  <section class="grid">
+    <div class="panel">
+      <h2>System Status</h2>
+      <div class="indicator-grid">
+        <div class="indicator online"><span></span> Backend API</div>
+        <div class="indicator online"><span></span> Dashboard</div>
+        <div class="indicator warning"><span></span> Shopify Safe Mode</div>
+        <div class="indicator online"><span></span> Supplier Sandbox</div>
+        <div class="indicator online"><span></span> AI Governor</div>
+        <div class="indicator warning"><span></span> Dry-run Active</div>
+      </div>
+      <div id="services"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Autonomy Controls</h2>
+      <label><input type="checkbox" id="autonomy_enabled"> Enable Semi-Auto Listing</label>
+      <label><input type="checkbox" id="dry_run"> Dry-run / Sandbox</label>
+
+      <label>Daily Budget Limit</label>
+      <input type="number" id="daily_budget_limit" value="250">
+
+      <label>Minimum Margin %</label>
+      <input type="number" id="minimum_margin_percent" value="25">
+
+      <button class="primary" onclick="saveControls()">Save Controls</button>
+    </div>
+
+    <div class="panel wide">
+      <h2>Semi-Auto Workflow</h2>
+      <div class="workflow-grid">
+        <div>
+          <label>Keywords</label>
+          <input id="workflow_keywords" value="pet products">
+        </div>
+        <div>
+          <label>Marketplace</label>
+          <select id="workflow_marketplace">
+            <option value="shopify">Shopify</option>
+            <option value="mock">Mock</option>
+            <option value="ebay">eBay</option>
+          </select>
+        </div>
+        <div>
+          <label>Max Products</label>
+          <input type="number" id="workflow_max_products" value="5">
+        </div>
+      </div>
+      <button class="primary" onclick="runDaily()">Run Workflow</button>
+    </div>
+
+    <div class="panel wide">
+      <h2>Safety Warnings</h2>
+      <table>
+        <thead>
+          <tr><th>Area</th><th>Status</th><th>Details</th></tr>
+        </thead>
+        <tbody id="warnings"></tbody>
+      </table>
+    </div>
+
+    <div class="panel wide">
+      <h2>Activity Feed</h2>
+      <div id="activity_feed" class="activity-feed">
+        <div class="activity-item">Dashboard loaded</div>
+      </div>
+    </div>
+
+    <div class="panel wide">
+      <h2>Last Run Report</h2>
+      <pre id="run_report" class="run-report">No workflow run yet.</pre>
+    </div>
+  </section>
+</main>
+
+<script>
+async function api(path, options = {}) {
+  const res = await fetch(path, {
+    headers: { "Content-Type": "application/json" },
+    ...options
+  });
+  if (!res.ok) throw new Error(path + " failed: " + res.status);
+  return res.json();
+}
+
+function money(v) {
+  return "\u00A3" + Number(v || 0).toFixed(2);
+}
+
+function addActivity(message) {
+  const feed = document.getElementById("activity_feed");
+  if (!feed) return;
+  const item = document.createElement("div");
+  item.className = "activity-item";
+  item.textContent = "[" + new Date().toLocaleTimeString() + "] " + message;
+  feed.prepend(item);
+  while (feed.children.length > 12) feed.removeChild(feed.lastChild);
+}
+
+async function refreshDashboard() {
+  try {
+    const status = await api("/dashboard/status");
+    const metrics = await api("/dashboard/metrics");
+
+    document.getElementById("health").textContent = "ONLINE";
+    document.getElementById("active_products").textContent = metrics.active_products ?? 0;
+    document.getElementById("open_orders").textContent = metrics.open_orders ?? 0;
+    document.getElementById("profit").textContent = money(metrics.estimated_daily_profit);
+    document.getElementById("spend").textContent = money(metrics.estimated_daily_spend);
+    document.getElementById("risk").textContent = (metrics.risk_level || status.risk_level || "low").toUpperCase();
+
+    const autonomy = status.autonomy || {};
+    document.getElementById("autonomy_enabled").checked = !!autonomy.enabled;
+    document.getElementById("dry_run").checked = !!autonomy.dry_run;
+    document.getElementById("daily_budget_limit").value = autonomy.daily_budget_limit ?? 250;
+    document.getElementById("minimum_margin_percent").value = autonomy.minimum_margin_percent ?? 25;
+
+    const services = status.services || {};
+    document.getElementById("services").innerHTML = Object.entries(services).map(([k,v]) =>
+      `<div class="status-row"><span>${k.replaceAll("_"," ")}</span><b class="${v}">${v}</b></div>`
+    ).join("");
+
+    const warnings = status.warnings || [];
+    document.getElementById("warnings").innerHTML = `
+      <tr><td>Backend/API</td><td class="ok">Protected</td><td>Backend hidden behind dashboard</td></tr>
+      <tr><td>Dry-run</td><td>${autonomy.dry_run ? "Enabled" : "Disabled"}</td><td>${autonomy.dry_run ? "Safe simulation mode" : "Production mode"}</td></tr>
+      <tr><td>Autonomy</td><td>${autonomy.enabled ? "Enabled" : "Disabled"}</td><td>${autonomy.enabled ? "Workflow can create drafts" : "Execution is blocked until enabled"}</td></tr>
+      ${warnings.map(w => `<tr><td>Warning</td><td class="warning">Review</td><td>${w}</td></tr>`).join("")}
+    `;
+
+    addActivity("Dashboard refreshed");
+  } catch (e) {
+    document.getElementById("health").textContent = "ERROR";
+    addActivity("Dashboard refresh failed");
+    console.error(e);
+  }
+}
+
+async function saveControls() {
+  await api("/dashboard/controls", {
+    method: "PUT",
+    body: JSON.stringify({
+      enabled: document.getElementById("autonomy_enabled").checked,
+      dry_run: document.getElementById("dry_run").checked,
+      daily_budget_limit: Number(document.getElementById("daily_budget_limit").value || 250),
+      minimum_margin_percent: Number(document.getElementById("minimum_margin_percent").value || 25)
+    })
+  });
+  addActivity("Controls saved");
+  refreshDashboard();
+}
+
+async function runDaily() {
+  try {
+    addActivity("Semi-auto workflow started");
+
+    const body = {
+      keywords: document.getElementById("workflow_keywords").value,
+      target_market: "UK",
+      marketplace: document.getElementById("workflow_marketplace").value,
+      max_products: parseInt(document.getElementById("workflow_max_products").value || "3"),
+      current_daily_spend: 0,
+      publish_drafts: true
+    };
+
+    const data = await api("/automation/semi-auto/run", {
+      method: "POST",
+      body: JSON.stringify(body)
+    });
+
+    document.getElementById("run_report").textContent =
+      JSON.stringify(data.summary || data, null, 2);
+
+    addActivity("Semi-auto workflow completed");
+    refreshDashboard();
+  } catch (e) {
+    document.getElementById("run_report").textContent = String(e);
+    addActivity("Semi-auto workflow failed");
+    console.error(e);
+  }
+}
+
+function importNow() {
+  runDaily();
+}
+
+refreshDashboard();
+setInterval(refreshDashboard, 120000);
+</script>
+</body>
+</html>
+<div class="panel wide">
+  <h2>Products Queue</h2>
+
+  <table class="products-table">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Status</th>
+        <th>Margin</th>
+        <th>Marketplace</th>
+      </tr>
+    </thead>
+
+    <tbody id="products_queue">
+      <tr>
+        <td>AI Product Example</td>
+        <td><span class="badge success">Approved</span></td>
+        <td>42%</td>
+        <td>Shopify</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<section class="live-grid">
+
+  <div class="live-panel">
+    <h2>Live Activity</h2>
+
+    <div class="activity-feed" id="activity_feed">
+
+      <div class="activity-item">
+        <strong>System boot complete</strong><br>
+        AI commerce services online
+      </div>
+
+      <div class="activity-item">
+        <strong>Safety governor active</strong><br>
+        Dry-run protections enabled
+      </div>
+
+      <div class="activity-item">
+        <strong>Shopify connector ready</strong><br>
+        Waiting for workflow execution
+      </div>
+
+    </div>
+  </div>
+
+  <div class="live-panel">
+    <h2>Last Run Report</h2>
+
+    <div class="run-report" id="run_report">
+No workflow executed yet.
+    </div>
+
+  </div>
+
+</section>
+
+<script>
+
+setInterval(async () => {
+
+  try{
+
+    const metrics = await fetch('/dashboard/metrics').then(r=>r.json());
+
+    document.querySelector('#metric_products').innerText =
+      metrics.active_products;
+
+    document.querySelector('#metric_orders').innerText =
+      metrics.open_orders;
+
+  }catch(e){
+    console.log(e);
+  }
+
+},15000);
+
+</script>

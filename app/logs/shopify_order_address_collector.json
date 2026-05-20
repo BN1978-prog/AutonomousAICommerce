@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-05-20T21:34:10.931640+00:00",
+  "ok": true,
+  "shop": "aicommerce-test-store-2.myshopify.com",
+  "orders_seen": 0,
+  "addresses_collected": 0,
+  "orders": [],
+  "status": "no_paid_open_orders",
+  "status_code": 200
+}

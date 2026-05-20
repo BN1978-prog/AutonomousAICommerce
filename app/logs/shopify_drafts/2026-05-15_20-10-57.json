@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-15T20:10:57.814408",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10599021183318,
+        "title": "Premium Pet Shampoo for Healthy Fur",
+        "body_html": "Keep your pet's coat clean and shiny with our premium pet shampoo. Gentle formula suitable for all fur types.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T20:10:57+01:00",
+        "handle": "premium-pet-shampoo-for-healthy-fur",
+        "updated_at": "2026-05-15T20:10:57+01:00",
+        "published_at": "2026-05-15T20:10:57+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "cat grooming, dog grooming, pet care, pet shampoo",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10599021183318",
+        "variants": [
+          {
+            "id": 53710137065814,
+            "product_id": 10599021183318,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T20:10:57+01:00",
+            "updated_at": "2026-05-15T20:10:57+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJJT2352016",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56276709867862,
+            "inventory_quantity": 7698,
+            "old_inventory_quantity": 7698,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53710137065814",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13627750908246,
+            "product_id": 10599021183318,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77749393391958,
+            "alt": null,
+            "position": 1,
+            "product_id": 10599021183318,
+            "created_at": "2026-05-15T20:10:57+01:00",
+            "updated_at": "2026-05-15T20:10:57+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60415737397590",
+            "width": 836,
+            "height": 836,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1aa59561-bf32-4dbe-ad96-d3db3a58fc86.jpg?v=1778872257",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77749393391958,
+          "alt": null,
+          "position": 1,
+          "product_id": 10599021183318,
+          "created_at": "2026-05-15T20:10:57+01:00",
+          "updated_at": "2026-05-15T20:10:57+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60415737397590",
+          "width": 836,
+          "height": 836,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1aa59561-bf32-4dbe-ad96-d3db3a58fc86.jpg?v=1778872257",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Premium Pet Shampoo for Healthy Fur",
+      "body_html": "Keep your pet's coat clean and shiny with our premium pet shampoo. Gentle formula suitable for all fur types.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "pet care, pet shampoo, dog grooming, cat grooming",
+      "images": [
+        {
+          "src": "https://oss-cf.cjdropshipping.com/product/2025/04/12/05/1aa59561-bf32-4dbe-ad96-d3db3a58fc86.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJT2352016",
+          "price": "9.99",
+          "inventory_quantity": 7698
+        }
+      ]
+    }
+  },
+  "cost_price": 1.26,
+  "sale_price": 9.99,
+  "profit": 8.73,
+  "margin_percent": 87.39,
+  "sku": "CJJT2352016"
+}

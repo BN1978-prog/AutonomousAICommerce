@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-05-20T21:34:14.407472+00:00",
+  "mode": "safe_opportunity_analysis",
+  "items_seen": 2,
+  "opportunities": 2,
+  "rejected": 0,
+  "top_opportunities": [
+    {
+      "sku": "CJJJCWMY00923",
+      "title": "Eco-Friendly Cat Scratcher Toy",
+      "source_market": "cjdropshipping",
+      "source_cost": 16.34,
+      "shipping_cost": 0.0,
+      "target_market": "shopify",
+      "target_price": 39.99,
+      "platform_fee": 1.2,
+      "risk_reserve": 3.2,
+      "net_profit": 19.25,
+      "margin_percent": 48.14,
+      "decision": "candidate",
+      "priority": "A",
+      "recommended_action": "strong_candidate_scale_test",
+      "execution_mode": "analysis_only_no_purchase_no_listing"
+    },
+    {
+      "sku": "PET-BOWL-001",
+      "title": "Non-slip silicone pet feeding bowl",
+      "source_market": "cjdropshipping",
+      "source_cost": 4.5,
+      "shipping_cost": 0.0,
+      "target_market": "shopify",
+      "target_price": 16.99,
+      "platform_fee": 0.51,
+      "risk_reserve": 1.36,
+      "net_profit": 10.62,
+      "margin_percent": 62.51,
+      "decision": "candidate",
+      "priority": "A",
+      "recommended_action": "strong_candidate_scale_test",
+      "execution_mode": "analysis_only_no_purchase_no_listing"
+    }
+  ],
+  "rejected_items": [],
+  "status": "opportunities_found"
+}

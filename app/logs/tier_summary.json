@@ -1,0 +1,402 @@
+{
+  "counts": {
+    "A": 15,
+    "B": 2,
+    "C": 29,
+    "D": 8
+  },
+  "actions": {
+    "A": "scale_aggressively",
+    "B": "growth_test",
+    "C": "monitor",
+    "D": "pause_or_remove"
+  },
+  "tiers": {
+    "A": [
+      {
+        "sku": "CJJJCWMY00923",
+        "title": "Interactive Cat Scratcher Toy for Daily Play",
+        "dynamic_score": 110,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJGY1171456",
+        "title": "Pet Bowl Dog Bowl Pet Feeder Stainless Steel Bowl Folding Bowl",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJGY1082751",
+        "title": "Pet Slow Feeder Dog Toy Cute Funny Rubber Dog Ball Toy",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJMY1112786",
+        "title": "Four Seasons Universal Cat Recliner Bed",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJCWGX00530",
+        "title": "Durable Dog Leash for Everyday Walks",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJGY1294149",
+        "title": "Pet Travel Carrier Bag Portable Pet Bag Folding Fabric Pet Carrier Travel Carrier Bag For Pet Cage With Locking Safety Zippers",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJMY1081175",
+        "title": "Pet Print Bell Cat Collar Cat Strap",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJGD1113594",
+        "title": "British Style Dog Raincoat - Perfect for Pets",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJCWMY01582",
+        "title": "S-Shaped Foldable Cat Tunnel Toy",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJCWMY01517",
+        "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJMY1076688",
+        "title": "Durable Cat Chain Traction Rope Set - Harness & Leash",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJCC1242562",
+        "title": "No Pull Dog Harness Reflective Adjustable Soft Padded Pet Vest Harness",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJGD1352013",
+        "title": "Cotton Dog Socks - Comfortable and Stylish",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJYD2658504",
+        "title": "Warm Large Dog Bed & Cat Mat",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJT1659747",
+        "title": "Effective Pet Hair Removal Cleaning Brush",
+        "dynamic_score": 105,
+        "hunter_decision": "boost",
+        "pipeline_active": true
+      }
+    ],
+    "B": [
+      {
+        "sku": "CJJJCWMY01010",
+        "title": "Boxed Cat Scratcher Toy for Indoor Cats",
+        "dynamic_score": 70,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJSP2733732",
+        "title": "Gentle Pet Shampoo for Dogs and Cats",
+        "dynamic_score": 70,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      }
+    ],
+    "C": [
+      {
+        "sku": "CJJT1048826",
+        "title": "Stylish Pet Clothes for Your Furry Friend",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJMY2073717",
+        "title": "Premium Pet Grooming Brush",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJGY1517102",
+        "title": "Portable Pet Water Bottle for Dogs and Cats",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJYD2164619",
+        "title": "Pet Waterproof Blanket Dog Blanket",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJCWMY00973",
+        "title": "Portable Pet Travel Carrier Bag",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJYD2386773",
+        "title": "Portable Cat Travel Bag - Easy and Convenient",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJDT2372258",
+        "title": "Portable Dog Water Bottle Go Out Dog Walking Travel Bottle Puppy Water Leak Proof Dog Water Drink Bottle",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJCC1228639",
+        "title": "Zeze Pet Meal Mat Cat Bowl Mat Pet Non Slip Mat",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJYD1794318",
+        "title": "Versatile Pet Hair Cleaning Comb Brush",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJT1116559",
+        "title": "Explosion-Proof Red Pet Chest Harness",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJT1478877",
+        "title": "Durable Dog Leash Vest Harness - Perfect for Active Pets",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJMY1119271",
+        "title": "Easy Pet Cleaning Bath Brush",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJCWGY00675",
+        "title": "Pet Outdoor Foldable Dog Water Bottle - Travel Dispenser",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJCWGY00645",
+        "title": "Cat and dog grooming comb",
+        "dynamic_score": 65,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJMY1174239",
+        "title": "Compact Pet Carrier Bag for Cats and Small Dogs",
+        "dynamic_score": 45,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJCWGY02924",
+        "title": "Waterproof Dog Raincoat for Outdoor Walks",
+        "dynamic_score": 45,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJCWGY01083",
+        "title": "Waterproof Dog Socks for Paw Protection",
+        "dynamic_score": 45,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJCC1064754",
+        "title": "Portable Pet Backpack for Outdoor Adventures",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJCWGY01325",
+        "title": "Silicone Folding Pet Bowl - Portable & Durable",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJMY1151470",
+        "title": "Smart Funny Cat Triangle Turntable Electric Toy Scratcher",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJYD1544909",
+        "title": "Pet Water Feeder Cat Automatic Pet Feeder",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJMY2078412",
+        "title": "Dog Brush Cat Brush Pet Grooming Brush- Shedding Grooming Tools",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJJTJT05102",
+        "title": "Premium Pet Cleaning Brush",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJT2594074",
+        "title": "Natural Pet Shampoo for Healthy Fur",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJT2352016",
+        "title": "Premium Pet Shampoo for Healthy Fur",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJPN2660770",
+        "title": "Warm Large Dog Bed & Cat Mat",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJT1353912",
+        "title": "Supportive Leash Harness for Elderly Dogs",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJMY2126410",
+        "title": "Cat Tunnel Pet Toy Cat S Tunnel Foldable Cat Tunnel Cat Drill Bucket Toy",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      },
+      {
+        "sku": "PET-BOWL-001",
+        "title": "Non-Slip Pet Feeding Bowl for Cats and Dogs",
+        "dynamic_score": 40,
+        "hunter_decision": "hold",
+        "pipeline_active": true
+      }
+    ],
+    "D": [
+      {
+        "sku": "CJJJCWMY01054",
+        "title": "Professional Pet Grooming Scissors for Dogs and Cats",
+        "dynamic_score": 25,
+        "hunter_decision": "reduce",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJT1166027",
+        "title": "Portable Folding Pet Bowl for Travel",
+        "dynamic_score": 20,
+        "hunter_decision": "reduce",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJCWGY03008",
+        "title": "Premium Pet Grooming Comb",
+        "dynamic_score": 20,
+        "hunter_decision": "reduce",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJJJCWGY01133",
+        "title": "Dog grooming large beauty",
+        "dynamic_score": 20,
+        "hunter_decision": "reduce",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJGY1130079",
+        "title": "Blanket Pet Quilt Fall Winter Pet Thicken Blanket Warm Flannel Sleeping Blanket",
+        "dynamic_score": 20,
+        "hunter_decision": "reduce",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJMY2099920",
+        "title": "Cat Hair Glove Pet Fur Remover Glove Dog Grooming Glove Brush For Shedding Pet Hair Remover Mitt Cleaner Grooming Glove",
+        "dynamic_score": 20,
+        "hunter_decision": "reduce",
+        "pipeline_active": true
+      },
+      {
+        "sku": "CJYD2896648",
+        "title": "Hair Growth Microneedle Solution For Hair Regeneration",
+        "dynamic_score": -100,
+        "hunter_decision": "exclude",
+        "pipeline_active": false
+      },
+      {
+        "sku": "CJJT2896696",
+        "title": "High-borosilicate Glass Tea Cup Double Layer Design With Real Flowers",
+        "dynamic_score": -100,
+        "hunter_decision": "exclude",
+        "pipeline_active": false
+      }
+    ]
+  }
+}

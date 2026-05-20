@@ -1,0 +1,11 @@
+{
+  "id": "real-mock-001",
+  "sku": "REAL-MOCK-001",
+  "name": "Mock Real Supplier Product",
+  "details": "Example product using real supplier-like schema",
+  "cost": 12.5,
+  "currency": "GBP",
+  "stock": 25,
+  "brand": "Mock Brand",
+  "image_url": null
+}

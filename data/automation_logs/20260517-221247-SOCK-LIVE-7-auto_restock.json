@@ -1,0 +1,13 @@
+{
+  "sku": "SOCK-LIVE-7",
+  "rule": "auto_restock",
+  "created_at": "2026-05-17T22:12:47.094508",
+  "result": {
+    "ok": true,
+    "action_taken": false,
+    "rule": "auto_restock",
+    "sku": "SOCK-LIVE-7",
+    "current_inventory": 60,
+    "message": "inventory above threshold"
+  }
+}

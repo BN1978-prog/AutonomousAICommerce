@@ -1,0 +1,17 @@
+{
+  "name": "default",
+  "rules": [
+    {
+      "rule": "auto_restock",
+      "threshold": 80,
+      "restock_to": 100
+    },
+    {
+      "rule": "price_margin_guard",
+      "cost": 12,
+      "shipping_cost": 2,
+      "min_margin_percent": 30
+    }
+  ],
+  "updated_at": "2026-05-16T20:04:24.185589"
+}

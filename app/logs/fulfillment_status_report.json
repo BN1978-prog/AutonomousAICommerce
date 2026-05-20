@@ -1,0 +1,7 @@
+{
+  "orders_received": 0,
+  "ready_for_supplier_purchase": 0,
+  "cj_purchase_attempts": 0,
+  "waiting_for_tracking": 0,
+  "tracking_ready_to_push": 0
+}

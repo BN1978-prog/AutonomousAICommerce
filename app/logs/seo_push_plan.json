@@ -1,0 +1,24 @@
+[
+  {
+    "sku": "PET-BOWL-001",
+    "title": "Non-Slip Pet Feeding Bowl for Cats and Dogs",
+    "description": "Practical non-slip pet feeding bowl designed for everyday use with cats and dogs. Easy to place, simple to clean, and suitable for daily feeding routines.",
+    "tags": [
+      "pet bowl",
+      "dog bowl",
+      "cat bowl",
+      "pet feeding",
+      "ai hunter pick"
+    ],
+    "channels": [
+      "shopify",
+      "ebay",
+      "woocommerce",
+      "meta_feed",
+      "google_feed"
+    ],
+    "status": "ready_to_push",
+    "live_push": false,
+    "created_at": "2026-05-19T19:25:07.966665+00:00"
+  }
+]

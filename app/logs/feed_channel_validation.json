@@ -1,0 +1,20 @@
+[
+  {
+    "feed": "google_feed",
+    "ok": true,
+    "items_in_feed": 52,
+    "active_skus_expected": 52,
+    "missing_skus": [],
+    "bad_items": [],
+    "checked_at": "2026-05-20T21:33:29.375930+00:00"
+  },
+  {
+    "feed": "meta_feed",
+    "ok": true,
+    "items_in_feed": 52,
+    "active_skus_expected": 52,
+    "missing_skus": [],
+    "bad_items": [],
+    "checked_at": "2026-05-20T21:33:29.375930+00:00"
+  }
+]

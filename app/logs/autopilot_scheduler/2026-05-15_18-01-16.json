@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-05-15T18:01:16.354611",
+  "payload": {
+    "keywords": [
+      "pet grooming",
+      "pet carrier",
+      "pet blanket"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 0,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03008",
+        "title": "Pet grooming comb",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWMY01054",
+        "title": "Pet grooming scissors",
+        "score": 78,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03016",
+        "title": "Pet grooming scissors",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJGY1294149",
+        "title": "Pet Travel Carrier Bag Portable Pet Bag Folding Fabric Pet Carrier Travel Carrier Bag For Pet Cage With Locking Safety Zippers",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJMY1174239",
+        "title": "Pet Carrier Small Size",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJNS1581122",
+        "title": "Cat Carrier Soft Dog Carrier Foldable Portable Bag Pet",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJYD2164619",
+        "title": "Pet Waterproof Blanket Dog Blanket",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY01007",
+        "title": "Lambskin Pet Blanket",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY03463",
+        "title": "Pet electric blanket",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      }
+    ]
+  }
+}

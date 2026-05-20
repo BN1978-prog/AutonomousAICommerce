@@ -1,0 +1,20 @@
+GOOGLE ADS OAUTH SETUP REQUIRED
+
+1. Open Google Cloud Console:
+   https://console.cloud.google.com/apis/credentials
+
+2. Select your project.
+
+3. Click:
+   Create Credentials -> OAuth client ID
+
+4. Application type:
+   Desktop app
+
+5. Download JSON.
+
+6. Put the downloaded JSON into:
+   C:\Users\omen\AutonomousAICommerce\client_secret.json
+
+7. Then run:
+   python .\app\google_refresh_token.py

@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-05-20T21:34:13.871179+00:00",
+  "google_ads": {
+    "ok": true,
+    "status": "ready"
+  },
+  "meta_ads": {
+    "ok": true,
+    "status": "ready"
+  },
+  "paid_ads_ready": true,
+  "fully_paid_ads_ready": true,
+  "active_paid_sources": [
+    "google_ads",
+    "meta_ads"
+  ],
+  "reason": "at_least_one_paid_source_ready"
+}

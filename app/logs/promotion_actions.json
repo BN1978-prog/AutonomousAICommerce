@@ -1,0 +1,17 @@
+[
+  {
+    "sku": "CJJT2896696",
+    "score": 95,
+    "actions": [
+      "high_priority_product",
+      "consider_bundle_or_upsell"
+    ]
+  },
+  {
+    "sku": "PET-BOWL-001",
+    "score": 82,
+    "actions": [
+      "promote_ai_hunter_pick"
+    ]
+  }
+]

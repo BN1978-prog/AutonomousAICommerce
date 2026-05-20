@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-05-15T20:24:53.828851",
+  "actions": {
+    "ok": true,
+    "safe_mode": true,
+    "message": "Action engine generated actions only. No Shopify changes applied.",
+    "summary": {
+      "products_to_reprice": 2,
+      "products_to_publish": 0,
+      "products_to_disable": 0,
+      "niches_to_expand": 4
+    },
+    "products_to_reprice": [
+      {
+        "sku": "CJJJCWMY01517",
+        "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+        "current_price": 9.99,
+        "suggested_price": 10.99,
+        "reason": "winner_active_high_scaling_score"
+      },
+      {
+        "sku": "CJMY1076688",
+        "title": "Durable Cat Chain Traction Rope Set - Harness & Leash",
+        "current_price": 10.44,
+        "suggested_price": 11.48,
+        "reason": "winner_active_high_scaling_score"
+      }
+    ],
+    "products_to_publish": [],
+    "products_to_disable": [],
+    "niches_to_expand": [
+      "dog socks",
+      "pet socks",
+      "cat harness",
+      "pet harness"
+    ]
+  },
+  "updates": [
+    {
+      "sku": "CJJJCWMY01517",
+      "action": "reprice",
+      "old_price": 9.99,
+      "new_price": 10.99,
+      "variant_id": 53709209600342,
+      "status_code": 200,
+      "applied": true
+    },
+    {
+      "sku": "CJMY1076688",
+      "action": "reprice",
+      "old_price": 10.44,
+      "new_price": 11.48,
+      "variant_id": 53709230604630,
+      "status_code": 200,
+      "applied": true
+    }
+  ]
+}

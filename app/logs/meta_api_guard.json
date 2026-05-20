@@ -1,0 +1,9 @@
+{
+  "meta_live_api_enabled": false,
+  "create_campaigns_as_paused": true,
+  "max_campaigns_per_run": 2,
+  "max_daily_budget": 5,
+  "mode": "meta_api_guard"
+}
+
+

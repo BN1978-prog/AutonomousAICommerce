@@ -1,0 +1,2100 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Autonomous AI Commerce Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/static/dashboard.css?v=js-fixed-sidebar-final" />
+
+<style>
+.manual-controls,
+.debug-controls,
+.test-controls,
+.workflow-grid button,
+button[onclick*="runAutopilot"],
+button[onclick*="createShopify"],
+button[onclick*="test"],
+button[onclick*="searchCj"],
+button[onclick*="analyze"] {
+  display: none !important;
+}
+</style>
+
+</head>
+<body>
+<aside class="sidebar">
+  <div class="logo">AIC</div>
+  <nav>
+    <a class="active" data-section="section_overview" onclick="setActiveNav(this); scrollToSection('section_overview')">Dashboard</a>
+    <a data-section="section_workflow" onclick="setActiveNav(this); scrollToSection('section_workflow')">Automation</a>
+    <a data-section="section_products" onclick="setActiveNav(this); scrollToSection('section_products')">Products</a>
+    <a data-section="section_suppliers" onclick="setActiveNav(this); scrollToSection('section_suppliers')">Suppliers</a>
+    <a data-section="section_profit" onclick="setActiveNav(this); scrollToSection('section_profit')">Profit</a>
+    <a data-section="section_safety" onclick="setActiveNav(this); scrollToSection('section_safety')">Safety</a>
+    <a data-section="section_reports" onclick="setActiveNav(this); scrollToSection('section_reports')">Reports</a>
+  </nav>
+</aside>
+
+<main class="main">
+  <header class="topbar">
+    <div>
+      <h1>Autonomous AI Commerce</h1>
+      <p>Professional admin control center</p>
+      <div class="version-badge">Dashboard v1.0 • Professional Control Center</div>
+
+      <div class="topbar-meta">
+        <div class="meta-pill" id="live_clock">--:--:--</div>
+        <div class="meta-pill" id="uptime_counter">Uptime: 0s</div>
+      </div>
+    </div>
+    
+  </header>
+
+  
+
+  <section id="section_overview" class="cards">
+    <div class="card"><span>System Health</span><strong id="health">LOADING</strong></div>
+    <div class="card"><span>Active Products</span><strong id="active_products">0</strong></div>
+    <div class="card"><span>Open Orders</span><strong id="open_orders">0</strong></div>
+    <div class="card"><span>Daily Profit</span><strong id="profit">£0</strong></div>
+    <div class="card"><span>Daily Spend</span><strong id="spend">£0</strong></div>
+    <div class="card"><span>Risk Level</span><strong id="risk">LOW</strong></div>
+  </section>
+
+  <section class="grid">
+    <div class="panel">
+      <h2 onclick="togglePanel(this)">System Status</h2>
+      <div class="indicator-grid">
+        <div class="indicator online"><span></span> Backend API</div>
+        <div class="indicator online"><span></span> Dashboard</div>
+        <div class="indicator warning"><span></span> Shopify Safe Mode</div>
+        <div class="indicator online"><span></span> Supplier Sandbox</div>
+        <div class="indicator online"><span></span> AI Governor</div>
+        <div class="indicator warning"><span></span> Dry-run Active</div>
+      </div>
+      <div id="services"></div>
+    </div>
+
+    <div class="panel">
+      <h2 onclick="togglePanel(this)">Autonomy Controls</h2>
+      <label><input type="checkbox" id="autonomy_enabled"> Enable Semi-Auto Listing</label>
+      <label><input type="checkbox" id="dry_run"> Dry-run / Sandbox</label>
+
+      <label>Daily Budget Limit</label>
+      <input type="number" id="daily_budget_limit" value="250">
+
+      <label>Minimum Margin %</label>
+      <input type="number" id="minimum_margin_percent" value="25">
+
+      <button class="primary" onclick="saveControls()">Save Controls</button>
+    </div>
+
+    <div class="panel wide">
+      <h2 id="section_workflow">Semi-Auto Workflow</h2>
+      <div class="workflow-grid">
+        <div>
+          <label>Keywords</label>
+          <input id="workflow_keywords" value="pet products">
+        </div>
+        <div>
+          <label>Marketplace</label>
+          <select id="workflow_marketplace">
+            <option value="shopify">Shopify</option>
+            <option value="mock">Mock</option>
+            <option value="ebay">eBay</option>
+          </select>
+        </div>
+        <div>
+          <label>Max Products</label>
+          <input type="number" id="workflow_max_products" value="5">
+        </div>
+      </div>
+      <button class="primary" onclick="runDaily()">Run Workflow</button>
+    </div>
+
+    <div class="panel wide">
+      <h2 onclick="togglePanel(this)">Safety Warnings</h2>
+      <table>
+        <thead>
+          <tr><th>Area</th><th>Status</th><th>Details</th></tr>
+        </thead>
+        <tbody id="warnings"></tbody>
+      </table>
+    </div>
+
+    <div class="panel wide">
+      <h2 onclick="togglePanel(this)">Activity Feed</h2>
+      <div id="activity_feed" class="activity-feed">
+        <div class="activity-item">Dashboard loaded</div>
+      </div>
+    </div>
+
+    <div class="panel wide">
+      <h2 onclick="togglePanel(this)">Last Run Report</h2>
+      <pre id="run_report" class="run-report">No workflow run yet.</pre>
+    </div>
+      <div class="panel wide">
+      <h2 id="section_products" onclick="togglePanel(this)">Products Queue</h2>
+
+      <div class="queue-toolbar">
+        <input id="queue_search" placeholder="Search products..." oninput="filterProductsQueue()">
+
+        <select id="queue_filter" onchange="filterProductsQueue()">
+          <option value="all">All statuses</option>
+          <option value="approved">Approved</option>
+          <option value="review">Review</option>
+          <option value="blocked">Blocked</option>
+        </select>
+      </div>
+
+      <table class="products-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Status</th>
+            <th>Margin</th>
+            <th>Marketplace</th>
+          </tr>
+        </thead>
+        <tbody id="products_queue">
+  <tr>
+    <td colspan="4">No workflow products yet.</td>
+  </tr>
+</tbody>
+      </table>
+    </div>
+
+    <div class="panel">
+      <h2 onclick="togglePanel(this)">Live Activity</h2>
+
+      <div class="utility-actions">
+        <button onclick="exportRunReport()">Export Run CSV</button>
+        <button onclick="clearActivity()">Clear Activity</button>
+        <button onclick="resetDashboardUI()">Reset UI</button>
+      </div>
+      <div id="activity_feed" class="activity-feed">
+        <div class="activity-item">Dashboard loaded</div>
+        <div class="activity-item">Safety governor active</div>
+        <div class="activity-item">Waiting for workflow execution</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2 onclick="togglePanel(this)">Last Run Report</h2>
+      <pre id="run_report" class="run-report">No workflow executed yet.</pre>
+    </div>
+
+  </section>
+
+<section class="panel">
+  <h2 id="section_profit" onclick="togglePanel(this)">Profit Analytics</h2>
+
+  <div class="chart-box">
+
+    <div class="chart-bars">
+      <div class="chart-bar" style="height:35%"></div>
+      <div class="chart-bar" style="height:65%"></div>
+      <div class="chart-bar" style="height:45%"></div>
+      <div class="chart-bar" style="height:80%"></div>
+      <div class="chart-bar" style="height:55%"></div>
+      <div class="chart-bar" style="height:92%"></div>
+    </div>
+
+    <div class="chart-labels">
+      <div>Mon</div>
+      <div>Tue</div>
+      <div>Wed</div>
+      <div>Thu</div>
+      <div>Fri</div>
+      <div>Sat</div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section class="panel">
+  <h2 id="section_safety">Production Safety Monitor</h2>
+
+  <div class="monitor-grid">
+    <div class="monitor-card">
+      <span>Dry-run</span>
+      <strong id="monitor_dry_run">ON</strong>
+    </div>
+
+    <div class="monitor-card">
+      <span>Autonomy</span>
+      <strong id="monitor_autonomy">OFF</strong>
+    </div>
+
+    <div class="monitor-card">
+      <span>Risk</span>
+      <strong id="monitor_risk">LOW</strong>
+    </div>
+
+    <div class="monitor-card">
+      <span>Marketplace</span>
+      <strong id="monitor_marketplace">SHOPIFY</strong>
+    </div>
+  </div>
+</section>
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">Run History</h2>
+
+  <div id="run_history" class="history-list">
+    <div class="history-item">
+      <span>No previous workflow runs</span>
+      <strong>Idle</strong>
+    </div>
+  </div>
+</section>
+
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">AI Decision Board</h2>
+
+  <div class="score-grid">
+    <div class="score-card"><span>Approved</span><strong id="score_approved">0</strong></div>
+    <div class="score-card"><span>Needs Review</span><strong id="score_review">0</strong></div>
+    <div class="score-card"><span>Blocked</span><strong id="score_blocked">0</strong></div>
+    <div class="score-card"><span>Drafts Created</span><strong id="score_drafts">0</strong></div>
+  </div>
+</section>
+
+
+<section class="panel">
+  <h2 id="section_suppliers" onclick="togglePanel(this)">Connection Monitor</h2>
+
+  <div class="connection-grid">
+    <div class="connection-card">
+      <span>Supplier Engine</span>
+      <strong id="conn_supplier">ONLINE</strong>
+    </div>
+
+    <div class="connection-card">
+      <span>Shopify Connector</span>
+      <strong id="conn_shopify">SAFE MODE</strong>
+    </div>
+
+    <div class="connection-card">
+      <span>AI Governor</span>
+      <strong id="conn_ai">ACTIVE</strong>
+    </div>
+  </div>
+
+  <div class="emergency-box">
+    <h2 onclick="togglePanel(this)">Emergency Stop</h2>
+    <p>This UI switch blocks semi-auto execution locally in the dashboard. Backend safety rules still remain active.</p>
+    <button class="danger" onclick="toggleEmergencyStop()">Toggle Emergency Stop</button>
+    <p><strong>Status:</strong> <span id="emergency_status">OFF</span></p>
+  </div>
+</section>
+
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">Dashboard Settings</h2>
+
+  <div class="settings-grid">
+    <div>
+      <label>Theme</label>
+      <select id="setting_theme" onchange="saveDashboardSettings()">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+      </select>
+    </div>
+
+    <div>
+      <label>Auto-refresh seconds</label>
+      <input type="number" id="setting_refresh" value="120" onchange="saveDashboardSettings()">
+    </div>
+
+    <div>
+      <label>Default Keywords</label>
+      <input id="setting_keywords" value="pet products" onchange="saveDashboardSettings()">
+    </div>
+
+    <div>
+      <label>Default Max Products</label>
+      <input type="number" id="setting_max_products" value="5" onchange="saveDashboardSettings()">
+    </div>
+  </div>
+</section>
+
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">Dashboard Health Debug</h2>
+
+  <div class="debug-grid">
+    <div class="debug-card">
+      <span>Status API</span>
+      <strong id="debug_status_api">UNKNOWN</strong>
+    </div>
+
+    <div class="debug-card">
+      <span>Metrics API</span>
+      <strong id="debug_metrics_api">UNKNOWN</strong>
+    </div>
+
+    <div class="debug-card">
+      <span>Last Refresh</span>
+      <strong id="debug_last_refresh">NEVER</strong>
+    </div>
+
+    <div class="debug-card">
+      <span>Dashboard JS</span>
+      <strong id="debug_js">ACTIVE</strong>
+    </div>
+  </div>
+
+  <div id="debug_last_error" class="debug-error">No errors detected.</div>
+</section>
+
+
+<section class="panel">
+  <h2 id="section_logs">Backend Log Viewer</h2>
+
+  <div class="log-toolbar">
+    <button onclick="refreshLogViewer()">Refresh Logs</button>
+    <button onclick="testCjApi()">Test CJ API</button>
+    <button onclick="clearLogViewer()">Clear Viewer</button>
+  </div>
+
+  <pre id="log_viewer" class="log-viewer">No logs loaded yet. Run a workflow or refresh logs.</pre>
+</section>
+
+
+<section class="panel">
+  <h2 id="section_reports">Reports Center</h2>
+
+  <div class="utility-actions">
+    <button onclick="refreshReports()">Refresh Reports</button>
+  </div>
+
+  <div id="reports_list" class="reports-list">
+    <div class="report-item">
+      <div>No reports loaded yet.</div>
+      <span>Idle</span>
+    </div>
+  </div>
+</section>
+
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">Production Readiness</h2>
+
+  <div class="utility-actions">
+    <button onclick="checkProductionReadiness()">Check Readiness</button>
+  </div>
+
+  <div id="readiness_grid" class="readiness-grid">
+    <div class="readiness-card">
+      <span>Status</span>
+      <strong>Waiting</strong>
+    </div>
+  </div>
+</section>
+
+
+<section class="panel">
+  <h2 id="section_env">Environment Status</h2>
+
+  <div class="utility-actions">
+    <button onclick="refreshEnvStatus()">Refresh Env Status</button>
+    <button onclick="exportSystemSnapshot()">Export System Snapshot</button>
+  </div>
+
+  <table class="env-table">
+    <thead>
+      <tr>
+        <th>Variable</th>
+        <th>Status / Value</th>
+      </tr>
+    </thead>
+    <tbody id="env_status_body">
+      <tr><td colspan="2">Not loaded yet.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">Changelog</h2>
+
+  <div class="changelog-list">
+    <div class="changelog-item">v1.0 — Professional dashboard UI added</div>
+    <div class="changelog-item">v1.1 — Live activity, logs, reports and readiness added</div>
+    <div class="changelog-item">v1.2 — Workflow progress, product queue and AI decision board added</div>
+    <div class="changelog-item">v1.3 — Environment status, snapshot export and collapsible panels added</div>
+  </div>
+</section>
+
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">Dashboard UI Audit</h2>
+
+  <div class="utility-actions">
+    <button onclick="runDashboardAudit()">Run UI Audit</button>
+  </div>
+
+  <div id="dashboard_audit" class="audit-list">
+    <div class="audit-item">Audit not run yet.</div>
+  </div>
+</section>
+
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">Keyboard Shortcuts</h2>
+
+  <div class="shortcuts-grid">
+    <div class="shortcut-card">
+      <span class="shortcut-key">Ctrl + K</span><br>
+      Open Command Center
+    </div>
+
+    <div class="shortcut-card">
+      <span class="shortcut-key">Esc</span><br>
+      Close Command Center
+    </div>
+
+    <div class="shortcut-card">
+      <span class="shortcut-key">Ctrl + F5</span><br>
+      Hard refresh dashboard
+    </div>
+  </div>
+</section>
+
+
+<div class="status-footer">
+  <span>API: <strong id="footer_api">UNKNOWN</strong></span>
+  <span>Mode: <strong id="footer_mode">DRY-RUN</strong></span>
+  <span>Readiness: <strong id="footer_readiness">UNKNOWN</strong></span>
+  <span>Last Refresh: <strong id="footer_refresh">NEVER</strong></span>
+</div>
+
+
+
+
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">Real Commerce KPIs</h2>
+
+  <div class="utility-actions">
+    <button onclick="refreshRealKpis()">Refresh Real KPIs</button>
+  </div>
+
+  <div class="real-kpi-grid">
+    <div class="real-kpi-card"><span>Imported SKUs</span><strong id="real_imported_skus">0</strong></div>
+    <div class="real-kpi-card"><span>Blocked Products</span><strong id="real_blocked_products">0</strong></div>
+    <div class="real-kpi-card"><span>Image Failed</span><strong id="real_image_failed">0</strong></div>
+    <div class="real-kpi-card"><span>Tracked Stock SKUs</span><strong id="real_tracked_stock">0</strong></div>
+    <div class="real-kpi-card"><span>Out of Stock</span><strong id="real_out_of_stock">0</strong></div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">Autopilot History</h2>
+
+  <button onclick="refreshAutopilotHistory()">Refresh Autopilot History</button>
+
+  <div id="autopilot_history_result" class="data-preview">
+    No autopilot history loaded yet.
+  </div>
+</section>
+
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">Autopilot KPIs</h2>
+
+  <button onclick="refreshAutopilotKpis()">Refresh Autopilot KPIs</button>
+
+  <div id="autopilot_kpis_result" class="data-preview">
+    No autopilot KPIs loaded yet.
+  </div>
+</section>
+
+
+
+
+
+<section class="panel">
+  <h2 onclick="togglePanel(this)">Last Scheduler Run</h2>
+
+  <button onclick="refreshSchedulerLastRun()">Refresh Last Scheduler Run</button>
+
+  <pre id="scheduler_last_run_result" class="run-report">Last scheduler run not loaded.</pre>
+</section>
+
+</main>
+
+<script>
+async function api(path, options = {}) {
+  const res = await fetch(path, {
+    headers: { "Content-Type": "application/json" },
+    ...options
+  });
+  if (!res.ok) throw new Error(path + " failed: " + res.status);
+  return res.json();
+}
+
+function money(v) {
+  return "\u00A3" + Number(v || 0).toFixed(2);
+}
+
+function addActivity(message) {
+  const feed = document.getElementById("activity_feed");
+  if (!feed) return;
+  const item = document.createElement("div");
+  item.className = "activity-item";
+  item.textContent = "[" + new Date().toLocaleTimeString() + "] " + message;
+  feed.prepend(item);
+  while (feed.children.length > 12) feed.removeChild(feed.lastChild);
+}
+
+
+function frontendDebug(message) {
+
+  const box = document.getElementById("frontend_debug_console");
+
+  if (!box) return;
+
+  const line = document.createElement("div");
+
+  const ts = new Date().toLocaleTimeString();
+
+  line.textContent = `[${ts}] ${message}`;
+
+  box.prepend(line);
+}
+
+window.addEventListener("error", (e) => {
+  frontendDebug("JS ERROR: " + e.message);
+});
+
+async function refreshDashboard() {
+  try {
+    frontendDebug?.("Loading status...");
+    const status = await api("/dashboard/status");
+
+    frontendDebug?.("Loading metrics...");
+    const metrics = await api("/dashboard/metrics");
+
+    const autonomy = status.autonomy || {};
+
+    const setText = (id, value) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = value;
+    };
+
+    const setValue = (id, value) => {
+      const el = document.getElementById(id);
+      if (el) el.value = value;
+    };
+
+    const setChecked = (id, value) => {
+      const el = document.getElementById(id);
+      if (el) el.checked = !!value;
+    };
+
+    const setHtml = (id, value) => {
+      const el = document.getElementById(id);
+      if (el) el.innerHTML = value;
+    };
+
+    setText("health", "ONLINE");
+    setText("active_products", metrics.active_products ?? 0);
+    setText("open_orders", metrics.open_orders ?? 0);
+    setText("profit", money(metrics.estimated_daily_profit));
+    setText("spend", money(metrics.estimated_daily_spend));
+    setText("risk", (metrics.risk_level || status.risk_level || "low").toUpperCase());
+
+    setChecked("autonomy_enabled", autonomy.enabled);
+    setChecked("dry_run", autonomy.dry_run);
+    setValue("daily_budget_limit", autonomy.daily_budget_limit ?? 250);
+    setValue("minimum_margin_percent", autonomy.minimum_margin_percent ?? 25);
+
+    setText("monitor_dry_run", autonomy.dry_run ? "ON" : "OFF");
+    setText("monitor_autonomy", autonomy.enabled ? "ON" : "OFF");
+    setText("monitor_risk", (metrics.risk_level || status.risk_level || "low").toUpperCase());
+    setText("monitor_marketplace", "SHOPIFY");
+
+    setText("conn_supplier", "ONLINE");
+    setText("conn_shopify", autonomy.dry_run ? "SAFE MODE" : "LIVE CHECK");
+    setText("conn_ai", "ACTIVE");
+
+    setText("debug_status_api", "OK");
+    setText("debug_metrics_api", "OK");
+    setText("debug_last_refresh", new Date().toLocaleTimeString());
+    setText("debug_last_error", "No errors detected.");
+
+    const services = status.services || {};
+    setHtml("services", Object.entries(services).map(([k,v]) =>
+      `<div class="status-row"><span>${k.replaceAll("_"," ")}</span><b class="${v}">${v}</b></div>`
+    ).join(""));
+
+    const warnings = status.warnings || [];
+    setHtml("warnings", `
+      <tr><td>Backend/API</td><td class="ok">Protected</td><td>Backend hidden behind dashboard</td></tr>
+      <tr><td>Dry-run</td><td>${autonomy.dry_run ? "Enabled" : "Disabled"}</td><td>${autonomy.dry_run ? "Safe simulation mode" : "Production mode"}</td></tr>
+      <tr><td>Autonomy</td><td>${autonomy.enabled ? "Enabled" : "Disabled"}</td><td>${autonomy.enabled ? "Workflow can create drafts" : "Execution is blocked until enabled"}</td></tr>
+      ${warnings.map(w => `<tr><td>Warning</td><td class="warning">Review</td><td>${w}</td></tr>`).join("")}
+    `);
+
+    const footerApi = document.getElementById("footer_api");
+    const footerMode = document.getElementById("footer_mode");
+    const footerRefresh = document.getElementById("footer_refresh");
+
+    if (footerApi) footerApi.textContent = "OK";
+    if (footerMode) footerMode.textContent = autonomy.dry_run ? "DRY-RUN" : "LIVE";
+    if (footerRefresh) footerRefresh.textContent = new Date().toLocaleTimeString();
+
+    frontendDebug?.("Dashboard refresh successful");
+    addActivity?.("Dashboard refreshed");
+
+  } catch (e) {
+    const health = document.getElementById("health");
+    if (health) health.textContent = "ERROR";
+
+    const footerApi = document.getElementById("footer_api");
+    if (footerApi) footerApi.textContent = "ERROR";
+
+    const debugError = document.getElementById("debug_last_error");
+    if (debugError) debugError.textContent = String(e);
+
+    frontendDebug?.("Dashboard refresh failed: " + String(e));
+    console.error(e);
+  }
+}
+
+async function saveControls() {
+  await api("/dashboard/controls", {
+    method: "PUT",
+    body: JSON.stringify({
+      enabled: document.getElementById("autonomy_enabled").checked,
+      dry_run: document.getElementById("dry_run").checked,
+      daily_budget_limit: Number(document.getElementById("daily_budget_limit").value || 250),
+      minimum_margin_percent: Number(document.getElementById("minimum_margin_percent").value || 25)
+    })
+  });
+  addActivity("Controls saved");
+  refreshDashboard();
+if (typeof refreshRealKpis === "function") refreshRealKpis();
+}
+
+let emergencyStop = false;
+
+function toggleEmergencyStop() {
+  emergencyStop = !emergencyStop;
+  document.getElementById("emergency_status").textContent = emergencyStop ? "ON" : "OFF";
+  showToast(emergencyStop ? "Emergency stop enabled" : "Emergency stop disabled", emergencyStop ? "danger" : "success");
+  addActivity(emergencyStop ? "Emergency stop enabled" : "Emergency stop disabled");
+}
+
+function showToast(message, type = "success") {
+  const stack = document.getElementById("toast_stack");
+  if (!stack) return;
+
+  const toast = document.createElement("div");
+  toast.className = "toast " + type;
+  toast.textContent = message;
+
+  stack.appendChild(toast);
+
+  setTimeout(() => {
+    toast.remove();
+  }, 4000);
+}
+
+async function runDaily() {
+  try {
+    if (emergencyStop) {
+      addActivity("Workflow blocked by emergency stop");
+      document.getElementById("workflow_status_text").textContent = "Blocked by emergency stop";
+      return;
+    }
+
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach(b => b.classList.add("loading"));
+
+    showToast("Workflow started", "warning");
+    addActivity("Semi-auto workflow started");
+    document.getElementById("workflow_status_text").textContent = "Workflow running...";
+    document.getElementById("workflow_progress").style.width = "35%";
+
+    const body = {
+      keywords: document.getElementById("workflow_keywords").value,
+      target_market: "UK",
+      marketplace: document.getElementById("workflow_marketplace").value,
+      max_products: parseInt(document.getElementById("workflow_max_products").value || "3"),
+      current_daily_spend: 0,
+      publish_drafts: true
+    };
+
+    const data = await api("/automation/semi-auto/run", {
+      method: "POST",
+      body: JSON.stringify(body)
+    });
+
+    document.getElementById("run_report").textContent =
+      JSON.stringify(data.summary || data, null, 2);
+
+    const viewer = document.getElementById("log_viewer");
+    if (viewer) {
+      viewer.textContent =
+        "[" + new Date().toLocaleTimeString() + "] Workflow completed\n" +
+        JSON.stringify(data.summary || data, null, 2);
+    }
+
+    renderProductsQueue(data.results || []);
+    renderDecisionBoard(data.results || [], data.summary || {});
+
+    document.getElementById("workflow_progress").style.width = "100%";
+    document.getElementById("workflow_status_text").textContent = "Workflow completed successfully";
+    addRunHistory(data.summary || {});
+    buttons.forEach(b => b.classList.remove("loading"));
+    showToast("Workflow completed", "success");
+    addActivity("Semi-auto workflow completed");
+    refreshDashboard();
+if (typeof refreshRealKpis === "function") refreshRealKpis();
+  } catch (e) {
+    document.getElementById("run_report").textContent = String(e);
+    document.getElementById("workflow_progress").style.width = "100%";
+    document.getElementById("workflow_status_text").textContent = "Workflow failed";
+    document.querySelectorAll("button").forEach(b => b.classList.remove("loading"));
+    showToast("Workflow failed", "danger");
+    addActivity("Semi-auto workflow failed");
+    document.getElementById("debug_last_error").textContent = String(e);
+    console.error(e);
+  }
+}
+
+function filterProductsQueue() {
+  const search = (document.getElementById("queue_search")?.value || "").toLowerCase();
+  const filter = document.getElementById("queue_filter")?.value || "all";
+
+  document.querySelectorAll("#products_queue tr").forEach(row => {
+    const text = row.innerText.toLowerCase();
+    const status = row.dataset.status || "all";
+
+    const matchesSearch = text.includes(search);
+    const matchesFilter = filter === "all" || status === filter;
+
+    row.classList.toggle("hidden-row", !(matchesSearch && matchesFilter));
+  });
+}
+
+function renderProductsQueue(results) {
+  const tbody = document.getElementById("products_queue");
+  if (!tbody) return;
+
+  if (!results || !results.length) {
+    tbody.innerHTML = `<tr><td colspan="4">No products returned by workflow.</td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = results.map(item => {
+    const product = item.supplier_product || {};
+    const decision = item.decision || {};
+    const listing = item.generated_listing || {};
+    const marketplaceResult = item.listing_result || {};
+
+    const name =
+      product.title ||
+      product.name ||
+      listing.title ||
+      product.sku ||
+      "Unnamed product";
+
+    const approved =
+      decision.approved === true ||
+      item.action?.includes("created") ||
+      item.action?.includes("approved");
+
+    const status = approved ? "Approved" : "Review";
+    const badge = approved ? "success" : "warning";
+
+    const margin =
+      decision.margin_percent ??
+      decision.estimated_margin_percent ??
+      "-";
+
+    const marketplace =
+      marketplaceResult.marketplace ||
+      "Shopify";
+
+    return `
+      <tr data-status="${status.toLowerCase()}"><td>${name}</td>
+        <td><span class="badge ${badge}">${status}</span></td>
+        <td>${margin === "-" ? "-" : margin + "%"}</td>
+        <td>${marketplace}</td>
+      </tr>
+    `;
+  }).join("");
+
+  filterProductsQueue();
+}
+
+function renderDecisionBoard(results, summary) {
+  const approved = results.filter(x =>
+    x.decision?.approved === true ||
+    x.action?.includes("created") ||
+    x.action?.includes("approved")
+  ).length;
+
+  const blocked = results.filter(x =>
+    x.action?.includes("blocked") ||
+    x.decision?.approved === false
+  ).length;
+
+  const review = Math.max((summary.needs_review ?? 0), results.length - approved - blocked);
+  const drafts = results.filter(x =>
+    x.action?.includes("draft") ||
+    x.action?.includes("created")
+  ).length;
+
+  document.getElementById("score_approved").textContent = approved;
+  document.getElementById("score_review").textContent = review;
+  document.getElementById("score_blocked").textContent = blocked;
+  document.getElementById("score_drafts").textContent = drafts;
+}
+
+function addRunHistory(summary) {
+  const history = document.getElementById("run_history");
+  if (!history) return;
+
+  const item = document.createElement("div");
+  item.className = "history-item";
+
+  const checked = summary.products_checked ?? 0;
+  const listed = summary.listed ?? 0;
+  const review = summary.needs_review ?? 0;
+
+  item.innerHTML = `
+    <span>${new Date().toLocaleTimeString()} — Checked: ${checked}, Listed: ${listed}, Review: ${review}</span>
+    <strong>Complete</strong>
+  `;
+
+  history.prepend(item);
+
+  while (history.children.length > 8) {
+    history.removeChild(history.lastChild);
+  }
+}
+
+function exportRunReport() {
+  const rows = [["time","products_checked","listed","needs_review"]];
+
+  document.querySelectorAll("#run_history .history-item").forEach(item => {
+    rows.push([
+      new Date().toISOString(),
+      item.innerText.replaceAll(",", " "),
+      "",
+      ""
+    ]);
+  });
+
+  const csv = rows.map(r => r.join(",")).join("\n");
+  const blob = new Blob([csv], {type: "text/csv"});
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "dashboard_run_report.csv";
+  a.click();
+
+  URL.revokeObjectURL(url);
+  showToast("CSV report exported", "success");
+  addActivity("CSV report exported");
+}
+
+function clearActivity() {
+  const feed = document.getElementById("activity_feed");
+  if (feed) feed.innerHTML = "";
+  showToast("Activity cleared", "success");
+}
+
+function resetDashboardUI() {
+  document.getElementById("workflow_progress").style.width = "0%";
+  document.getElementById("workflow_status_text").textContent = "Idle. Waiting for command.";
+  document.getElementById("run_report").textContent = "No workflow executed yet.";
+  document.getElementById("products_queue").innerHTML = `<tr><td colspan="4">No workflow products yet.</td></tr>`;
+  showToast("Dashboard UI reset", "success");
+  addActivity("Dashboard UI reset");
+}
+
+async function refreshLogViewer() {
+
+  const viewer = document.getElementById("log_viewer");
+  if (!viewer) return;
+
+  try {
+
+    viewer.textContent = "Loading logs...";
+
+    const data = await api("/dashboard/logs");
+
+    viewer.textContent =
+      "FILE: " + (data.file || "unknown") + "\n\n" +
+      (data.logs || []).join("\n");
+
+    showToast("Logs refreshed", "success");
+    addActivity("Real backend logs loaded");
+
+  } catch(e) {
+
+    viewer.textContent = String(e);
+    showToast("Failed to load logs", "danger");
+
+  }
+}
+
+function clearLogViewer() {
+  const viewer = document.getElementById("log_viewer");
+  if (viewer) viewer.textContent = "Log viewer cleared.";
+  showToast("Log viewer cleared", "success");
+}
+
+async function refreshReports() {
+  const list = document.getElementById("reports_list");
+  if (!list) return;
+
+  try {
+    list.innerHTML = `<div class="report-item"><div>Loading reports...</div><span>Loading</span></div>`;
+
+    const data = await api("/dashboard/reports");
+    const reports = data.reports || [];
+
+    if (!reports.length) {
+      list.innerHTML = `<div class="report-item"><div>No reports found.</div><span>Empty</span></div>`;
+      return;
+    }
+
+    list.innerHTML = reports.map(r => `
+      <div class="report-item" onclick="previewReport('${r.path.replaceAll("\\", "\\\\")}')">
+        <div>
+          <strong>${r.name}</strong><br>
+          <span>${r.path}</span>
+        </div>
+        <span>${Math.round((r.size || 0) / 1024)} KB</span>
+      </div>
+    `).join("");
+
+    showToast("Reports refreshed", "success");
+    addActivity("Reports center refreshed");
+
+  } catch(e) {
+    list.innerHTML = `<div class="report-item"><div>${String(e)}</div><span>Error</span></div>`;
+    showToast("Failed to load reports", "danger");
+  }
+}
+
+async function previewReport(path) {
+  const preview = document.getElementById("report_preview");
+  if (!preview) return;
+
+  try {
+    preview.textContent = "Loading report...";
+
+    const data = await api("/dashboard/report-preview?path=" + encodeURIComponent(path));
+
+    if (data.error) {
+      preview.textContent = data.error;
+      showToast("Report preview failed", "danger");
+      return;
+    }
+
+    preview.textContent =
+      "FILE: " + data.name + "\nPATH: " + data.path + "\n\n" + data.content;
+
+    showToast("Report preview loaded", "success");
+    addActivity("Report preview loaded: " + data.name);
+
+  } catch(e) {
+    preview.textContent = String(e);
+    showToast("Report preview failed", "danger");
+  }
+}
+
+let fullDailyRunning = false;
+
+async function runFullDaily() {
+  try {
+    if (fullDailyRunning) {
+      showToast("Daily run is already running", "warning");
+      addActivity("Duplicate daily run blocked");
+      return;
+    }
+
+    fullDailyRunning = true;
+
+    showToast("Full daily run started", "warning");
+    addActivity("Full daily run started");
+
+    document.getElementById("workflow_status_text").textContent = "Full daily run running...";
+    document.getElementById("workflow_progress").style.width = "45%";
+
+    const data = await api("/dashboard/daily-run", {
+      method: "POST",
+      body: JSON.stringify({})
+    });
+
+    document.getElementById("workflow_progress").style.width = "100%";
+    document.getElementById("workflow_status_text").textContent =
+      data.ok ? "Full daily run completed" : "Full daily run finished with errors";
+
+    document.getElementById("run_report").textContent =
+      JSON.stringify(data, null, 2);
+
+    const viewer = document.getElementById("log_viewer");
+    if (viewer) {
+      viewer.textContent =
+        "FILE: " + (data.log_file || "unknown") + "\n\n" +
+        (data.output || data.error || "No output");
+    }
+
+    showToast(data.ok ? "Daily run completed" : "Daily run had errors", data.ok ? "success" : "danger");
+    addActivity("Full daily run completed");
+
+    refreshDashboard();
+if (typeof refreshRealKpis === "function") refreshRealKpis();
+
+    fullDailyRunning = false;
+
+  } catch(e) {
+    fullDailyRunning = false;
+    document.getElementById("workflow_status_text").textContent = "Full daily run failed";
+    document.getElementById("run_report").textContent = String(e);
+    showToast("Daily run failed", "danger");
+    addActivity("Full daily run failed");
+  }
+}
+
+async function checkProductionReadiness() {
+
+  const grid = document.getElementById("readiness_grid");
+
+  try {
+
+    grid.innerHTML = `<div class="readiness-card"><span>Status</span><strong>Checking...</strong></div>`;
+
+    const data = await api("/dashboard/production-readiness");
+
+    const footerReadiness = document.getElementById("footer_readiness");
+    if (footerReadiness) {
+      footerReadiness.textContent = data.ready_for_live ? "LIVE READY" : "NOT READY";
+    }
+
+    const checks = data.checks || {};
+
+    grid.innerHTML = Object.entries(checks).map(([k,v]) => `
+      <div class="readiness-card">
+        <span>${k}</span>
+        <strong>${v}</strong>
+      </div>
+    `).join("");
+
+    showToast(
+      data.ready_for_live ? "System ready for live mode" : "System NOT ready for live mode",
+      data.ready_for_live ? "success" : "warning"
+    );
+
+    addActivity("Production readiness checked");
+
+  } catch(e) {
+
+    showToast("Readiness check failed", "danger");
+
+  }
+}
+
+async function refreshEnvStatus() {
+  const body = document.getElementById("env_status_body");
+  if (!body) return;
+
+  try {
+    body.innerHTML = `<tr><td colspan="2">Loading...</td></tr>`;
+
+    const data = await api("/dashboard/env-status");
+    const values = data.values || {};
+
+    if (!data.exists) {
+      body.innerHTML = `<tr><td colspan="2" class="missing">.env.local not found</td></tr>`;
+      return;
+    }
+
+    body.innerHTML = Object.entries(values).map(([key,value]) => {
+      const cls = String(value).toUpperCase() === "MISSING" ? "missing" : "set";
+      return `<tr><td>${key}</td><td class="${cls}">${value}</td></tr>`;
+    }).join("");
+
+    showToast("Environment status loaded", "success");
+    addActivity("Environment status refreshed");
+
+  } catch(e) {
+    body.innerHTML = `<tr><td colspan="2" class="missing">${String(e)}</td></tr>`;
+    showToast("Env status failed", "danger");
+  }
+}
+
+async function exportSystemSnapshot() {
+  try {
+    const snapshot = {
+      exported_at: new Date().toISOString(),
+      status: await api("/dashboard/status"),
+      metrics: await api("/dashboard/metrics"),
+      readiness: await api("/dashboard/production-readiness"),
+      env_status: await api("/dashboard/env-status")
+    };
+
+    const blob = new Blob([JSON.stringify(snapshot, null, 2)], {
+      type: "application/json"
+    });
+
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+
+    a.href = url;
+    a.download = "ai_commerce_dashboard_snapshot.json";
+    a.click();
+
+    URL.revokeObjectURL(url);
+
+    showToast("System snapshot exported", "success");
+    addActivity("System snapshot exported");
+
+  } catch(e) {
+    showToast("Snapshot export failed", "danger");
+    addActivity("Snapshot export failed");
+  }
+}
+
+let autoRefreshEnabled = false;
+let autoRefreshInterval = null;
+
+function toggleAutoRefresh() {
+
+  autoRefreshEnabled = !autoRefreshEnabled;
+
+  const buttons = [...document.querySelectorAll("button")];
+  const btn = buttons.find(b => b.textContent.includes("Auto Refresh"));
+
+  if (autoRefreshEnabled) {
+
+    if (btn) btn.textContent = "Auto Refresh: ON";
+
+    autoRefreshInterval = setInterval(async () => {
+
+      try {
+
+        await refreshDashboard();
+if (typeof refreshRealKpis === "function") refreshRealKpis();
+        if (typeof refreshRealKpis === "function") {
+          await refreshRealKpis();
+        }
+
+        if (typeof refreshLogViewer === "function") {
+          await refreshLogViewer();
+        }
+
+        if (typeof refreshReports === "function") {
+          await refreshReports();
+        }
+
+        if (typeof checkProductionReadiness === "function") {
+          await checkProductionReadiness();
+        }
+
+        if (typeof refreshEnvStatus === "function") {
+          await refreshEnvStatus();
+        }
+
+        addActivity("Auto refresh cycle completed");
+
+      } catch(e) {
+
+        console.error(e);
+
+      }
+
+    }, 30000);
+
+    showToast("Auto refresh enabled", "success");
+
+  } else {
+
+    if (btn) btn.textContent = "Auto Refresh: OFF";
+
+    clearInterval(autoRefreshInterval);
+
+    showToast("Auto refresh disabled", "warning");
+
+  }
+}
+
+function setActiveNav(el) {
+  document.querySelectorAll(".sidebar nav a").forEach(a => a.classList.remove("active"));
+  el.classList.add("active");
+}
+
+function scrollToSection(id) {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function togglePanel(header) {
+  const panel = header.closest(".panel");
+  if (!panel) return;
+  panel.classList.toggle("collapsed");
+}
+
+function runDashboardAudit() {
+  const checks = [
+    ["Health Card", "health"],
+    ["Workflow", "workflow_keywords"],
+    ["Products Queue", "products_queue"],
+    ["Run Report", "run_report"],
+    ["Log Viewer", "log_viewer"],
+    ["Reports List", "reports_list"],
+    ["Environment Status", "env_status_body"],
+    ["Readiness Grid", "readiness_grid"],
+    ["Activity Feed", "activity_feed"]
+  ];
+
+  const target = document.getElementById("dashboard_audit");
+
+  target.innerHTML = checks.map(([name, id]) => {
+    const ok = !!document.getElementById(id);
+    return `
+      <div class="audit-item">
+        <strong>${name}</strong><br>
+        <span class="${ok ? "audit-ok" : "audit-missing"}">
+          ${ok ? "FOUND" : "MISSING"}
+        </span>
+      </div>
+    `;
+  }).join("");
+
+  showToast("Dashboard UI audit completed", "success");
+  addActivity("Dashboard UI audit completed");
+}
+
+function toggleGlassMode() {
+
+  document.body.classList.toggle("glass-mode");
+
+  const enabled = document.body.classList.contains("glass-mode");
+
+  localStorage.setItem("glass_mode", enabled ? "1" : "0");
+
+  showToast(
+    enabled ? "Glass mode enabled" : "Glass mode disabled",
+    "success"
+  );
+
+  addActivity(
+    enabled ? "Glass mode enabled" : "Glass mode disabled"
+  );
+}
+
+window.addEventListener("load", () => {
+
+  if (localStorage.getItem("glass_mode") === "1") {
+    document.body.classList.add("glass-mode");
+  }
+
+});
+
+function toggleCompactMode() {
+  document.body.classList.toggle("compact-mode");
+
+  const enabled = document.body.classList.contains("compact-mode");
+  localStorage.setItem("compact_mode", enabled ? "1" : "0");
+
+  showToast(enabled ? "Compact mode enabled" : "Compact mode disabled", "success");
+  addActivity(enabled ? "Compact mode enabled" : "Compact mode disabled");
+}
+
+window.addEventListener("load", () => {
+  if (localStorage.getItem("compact_mode") === "1") {
+    document.body.classList.add("compact-mode");
+  }
+});
+
+const dashboardCommands = [
+  ["Run Full Daily", () => runFullDaily()],
+  ["Run Workflow", () => runDaily()],
+  ["Refresh Dashboard", () => refreshDashboard()],
+  ["Refresh Logs", () => refreshLogViewer()],
+  ["Refresh Reports", () => refreshReports()],
+  ["Check Production Readiness", () => checkProductionReadiness()],
+  ["Refresh Environment Status", () => refreshEnvStatus()],
+  ["Export System Snapshot", () => exportSystemSnapshot()],
+  ["Toggle Glass Mode", () => toggleGlassMode()],
+  ["Toggle Compact Mode", () => toggleCompactMode()],
+  ["Run UI Audit", () => runDashboardAudit()]
+];
+
+function openCommandCenter() {
+  document.getElementById("command_center").classList.add("open");
+  document.getElementById("command_search").value = "";
+  renderCommands();
+  setTimeout(() => document.getElementById("command_search").focus(), 50);
+}
+
+function closeCommandCenter(event) {
+  document.getElementById("command_center").classList.remove("open");
+}
+
+function renderCommands() {
+  const q = (document.getElementById("command_search").value || "").toLowerCase();
+  const results = document.getElementById("command_results");
+
+  results.innerHTML = dashboardCommands
+    .filter(([name]) => name.toLowerCase().includes(q))
+    .map(([name], index) => `<div class="command-item" onclick="runCommand(${index})">${name}</div>`)
+    .join("");
+}
+
+function runCommand(index) {
+  closeCommandCenter();
+  dashboardCommands[index][1]();
+}
+
+window.addEventListener("keydown", (e) => {
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+    e.preventDefault();
+    openCommandCenter();
+  }
+
+  if (e.key === "Escape") {
+    const cc = document.getElementById("command_center");
+    if (cc) cc.classList.remove("open");
+  }
+});
+
+const dashboardStartedAt = Date.now();
+
+function startDashboardClock() {
+
+  setInterval(() => {
+
+    const now = new Date();
+
+    const clock = document.getElementById("live_clock");
+    if (clock) {
+      clock.textContent = now.toLocaleTimeString();
+    }
+
+    const uptime = Math.floor((Date.now() - dashboardStartedAt) / 1000);
+
+    const uptimeEl = document.getElementById("uptime_counter");
+
+    if (uptimeEl) {
+
+      const h = Math.floor(uptime / 3600);
+      const m = Math.floor((uptime % 3600) / 60);
+      const s = uptime % 60;
+
+      uptimeEl.textContent =
+        `Uptime: ${h}h ${m}m ${s}s`;
+    }
+
+  }, 1000);
+}
+
+window.addEventListener("load", () => {
+  startDashboardClock();
+});
+
+let latestRealDataSummary = null;
+
+function renderRealDataTable(bucket) {
+  const wrap = document.getElementById("real_data_table_wrap");
+  if (!wrap) return;
+
+  const data = latestRealDataSummary || {};
+  const items = data[bucket] || [];
+
+  if (!items.length) {
+    wrap.innerHTML = "No records for " + bucket;
+    return;
+  }
+
+  const rows = [];
+
+  items.forEach(fileBlock => {
+    const file = fileBlock.file || "unknown";
+    const sample = fileBlock.sample || [];
+
+    sample.forEach(record => {
+      rows.push({
+        file,
+        record
+      });
+    });
+  });
+
+  if (!rows.length) {
+    wrap.innerHTML = "No preview rows for " + bucket;
+    return;
+  }
+
+  wrap.innerHTML = `
+    <table class="real-data-table">
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Record Preview</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rows.map(r => `
+          <tr>
+            <td>${r.file}</td>
+            <td><pre>${typeof r.record === "string" ? r.record : JSON.stringify(r.record, null, 2)}</pre></td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  `;
+}
+
+async function refreshDataSummary() {
+  const preview = document.getElementById("data_summary_preview");
+
+  try {
+    const data = await api("/dashboard/data-summary");
+    latestRealDataSummary = data;
+
+    const countBucket = (name) => {
+      const arr = data[name] || [];
+      return arr.reduce((sum, item) => sum + Number(item.count || 0), 0);
+    };
+
+    document.getElementById("data_imported_products").textContent = countBucket("imported_products");
+    document.getElementById("data_blocked_products").textContent = countBucket("blocked_products");
+    document.getElementById("data_stock_issues").textContent = countBucket("stock_issues");
+    document.getElementById("data_image_issues").textContent = countBucket("image_issues");
+
+    preview.textContent = JSON.stringify(data, null, 2);
+    renderRealDataTable("imported_products");
+
+    showToast("Real data summary refreshed", "success");
+    addActivity("Real data summary refreshed");
+
+  } catch(e) {
+    if (preview) preview.textContent = String(e);
+    showToast("Data summary failed", "danger");
+  }
+}
+
+async function refreshRealKpis() {
+  try {
+    const data = await api("/dashboard/real-kpis");
+
+    const imported = document.getElementById("active_products");
+    if (imported) imported.textContent = data.imported_skus ?? 0;
+
+    const blocked = document.getElementById("data_blocked_products");
+    if (blocked) blocked.textContent = data.blocked_products ?? 0;
+
+    const stock = document.getElementById("data_stock_issues");
+    if (stock) stock.textContent = data.tracked_stock_skus ?? 0;
+
+    const images = document.getElementById("data_image_issues");
+    if (images) images.textContent = data.image_failed ?? 0;
+
+    const realImported = document.getElementById("real_imported_skus");
+    if (realImported) realImported.textContent = data.imported_skus ?? 0;
+
+    const realBlocked = document.getElementById("real_blocked_products");
+    if (realBlocked) realBlocked.textContent = data.blocked_products ?? 0;
+
+    const realImages = document.getElementById("real_image_failed");
+    if (realImages) realImages.textContent = data.image_failed ?? 0;
+
+    const realStock = document.getElementById("real_tracked_stock");
+    if (realStock) realStock.textContent = data.tracked_stock_skus ?? 0;
+
+    const realOut = document.getElementById("real_out_of_stock");
+    if (realOut) realOut.textContent = data.out_of_stock ?? 0;
+
+    addActivity("Real KPIs refreshed");
+
+  } catch(e) {
+    console.error(e);
+  }
+}
+
+function syncSidebarOnScroll() {
+  const links = [...document.querySelectorAll(".sidebar nav a[data-section]")];
+
+  let current = null;
+
+  for (const link of links) {
+    const id = link.dataset.section;
+    const el = document.getElementById(id);
+    if (!el) continue;
+
+    const rect = el.getBoundingClientRect();
+
+    if (rect.top <= 160) {
+      current = link;
+    }
+  }
+
+  if (current) {
+    document.querySelectorAll(".sidebar nav a").forEach(a => a.classList.remove("active"));
+    current.classList.add("active");
+  }
+}
+
+window.addEventListener("scroll", syncSidebarOnScroll);
+
+async function testCjApi() {
+  try {
+    showToast("Testing CJ API...", "warning");
+    const data = await api("/dashboard/cj-test");
+
+    const viewer = document.getElementById("log_viewer");
+    if (viewer) {
+      viewer.textContent = JSON.stringify(data, null, 2);
+    }
+
+    showToast(data.ok ? "CJ API connected" : "CJ API test returned warning", data.ok ? "success" : "warning");
+    addActivity("CJ API test completed");
+
+  } catch(e) {
+    showToast("CJ API test failed", "danger");
+    addActivity("CJ API test failed");
+  }
+}
+
+async function searchCjProducts() {
+  const keyword = document.getElementById("cj_search_keyword").value || "pet";
+  const size = document.getElementById("cj_search_size").value || 10;
+  const target = document.getElementById("cj_products_result");
+
+  try {
+    target.textContent = "Searching CJ products...";
+    showToast("Searching CJ products", "warning");
+
+    const data = await api(`/dashboard/cj-products-v2?keyword=${encodeURIComponent(keyword)}&size=${encodeURIComponent(size)}`);
+
+    if (!data.ok) {
+      target.textContent = JSON.stringify(data, null, 2);
+      showToast("CJ product search returned warning", "warning");
+      return;
+    }
+
+    const products = data.products || [];
+    window.latestCjProducts = products;
+
+    if (!products.length) {
+      target.textContent = "No CJ products found.";
+      return;
+    }
+
+    target.innerHTML = `
+      <table class="real-data-table">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Product</th>
+            <th>SKU/PID</th>
+            <th>Price</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${products.map(p => `
+            <tr>
+              <td>${p.image ? `<img src="${p.image}" style="width:64px;height:64px;object-fit:cover;border-radius:12px;">` : "-"}</td>
+              <td>${p.title || "-"}</td>
+              <td>${p.sku || p.pid || "-"}</td>
+              <td>${p.price || "-"}</td>
+              <td>${p.source || "CJ"}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    `;
+
+    showToast("CJ products loaded", "success");
+    addActivity("CJ product search completed: " + keyword);
+
+  } catch(e) {
+    target.textContent = String(e);
+    showToast("CJ product search failed", "danger");
+  }
+}
+
+async function analyzeCjProductsWithAI() {
+  const keyword = document.getElementById("cj_search_keyword").value || "pet";
+  const size = document.getElementById("cj_search_size").value || 5;
+  const target = document.getElementById("cj_products_result");
+
+  try {
+    target.textContent = "AI analyzing CJ products...";
+    showToast("AI analysis started", "warning");
+
+    const data = await api(`/dashboard/ai-analyze-cj-products?keyword=${encodeURIComponent(keyword)}&size=${encodeURIComponent(size)}`);
+
+    const cleaned = (data.raw_output || "")
+      .replace(/```json/g, "")
+      .replace(/```/g, "")
+      .trim();
+
+    let parsed = null;
+
+    try {
+      parsed = JSON.parse(cleaned);
+    } catch(e) {
+      parsed = null;
+    }
+
+    if (parsed && parsed.analysis) {
+      target.innerHTML = `
+        <table class="real-data-table">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Score</th>
+              <th>Risk</th>
+              <th>Shopify Title</th>
+              <th>Recommended Action</th><th>Shopify</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${parsed.analysis.map(item => `
+              <tr>
+                <td>
+                  <strong>${item.title || "-"}</strong><br>
+                  <small>${item.sku || item.pid || "-"}</small>
+                </td>
+                <td><span class="badge ${item.score >= 80 ? "success" : "warning"}">${item.score}</span></td>
+                <td><span class="badge ${item.risk === "low" ? "success" : item.risk === "medium" ? "warning" : "danger"}">${item.risk}</span></td>
+                <td>${item.suggestions?.shopify_title || "-"}</td>
+                <td>${item.suggestions?.recommended_action || "-"}</td>
+                <td>
+                  <button onclick='createShopifyDraftFromAI(${JSON.stringify(item)}, false)'>
+                    Preview Draft
+                  </button>
+                  <button class="danger" onclick='createShopifyDraftFromAI(${JSON.stringify(item)}, true)'>
+                    Create Real Draft
+                  </button>
+                </td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      `;
+    } else {
+      target.innerHTML = `<pre class="run-report">${JSON.stringify(data, null, 2)}</pre>`;
+    }
+
+    const report = document.getElementById("run_report");
+    if (report) report.textContent = JSON.stringify(data, null, 2);
+
+    showToast(data.ok ? "AI analysis complete" : "AI analysis warning", data.ok ? "success" : "warning");
+    addActivity("AI analyzed CJ products: " + keyword);
+
+  } catch(e) {
+    target.textContent = String(e);
+    showToast("AI analysis failed", "danger");
+  }
+}
+
+async function createShopifyDraftFromAI(item, realCreate = false) {
+  try {
+    if (realCreate && !confirm("Create REAL Shopify draft product? It will remain draft, not published.")) {
+      return;
+    }
+
+    showToast(realCreate ? "Creating REAL Shopify draft" : "Creating preview draft payload", "warning");
+
+    const original = (window.latestCjProducts || []).find(p =>
+      p.pid === item.pid || p.sku === item.sku
+    ) || {};
+
+    const rawPrice = original.price || "19.99";
+    const firstPrice = String(rawPrice).split("--")[0].trim();
+
+    const body = {
+      pid: item.pid || original.pid,
+      sku: item.sku || original.sku,
+      title: item.title || original.title,
+      shopify_title: item.suggestions?.shopify_title,
+      description: item.suggestions?.short_description,
+      tags: item.suggestions?.tags || [],
+      price: String(Math.max(Number(firstPrice || 0) * 3, 9.99).toFixed(2)),
+      inventory: original.inventory || 0,
+      image: original.image,
+      force_real: realCreate
+    };
+
+    const data = await api("/dashboard/shopify-draft-from-ai", {
+      method: "POST",
+      body: JSON.stringify(body)
+    });
+
+    const report = document.getElementById("run_report");
+    if (report) report.textContent = JSON.stringify(data, null, 2);
+
+    showToast(data.dry_run ? "Draft payload generated safely" : "Shopify draft attempted", "success");
+    addActivity("AI product converted to Shopify draft payload");
+
+  } catch(e) {
+    showToast("Shopify draft failed", "danger");
+    addActivity("Shopify draft failed");
+  }
+}
+
+async function runAutopilotDraftMode() {
+  const keywords = document.getElementById("autopilot_keywords").value
+    .split(",")
+    .map(x => x.trim())
+    .filter(Boolean);
+
+  const minScore = Number(document.getElementById("autopilot_min_score").value || 80);
+  const maxPerKeyword = Number(document.getElementById("autopilot_max").value || 3);
+
+  const target = document.getElementById("autopilot_result");
+
+  try {
+    target.textContent = "Autopilot running...";
+    showToast("Autopilot Draft Mode started", "warning");
+    addActivity("Autopilot Draft Mode started");
+
+    const data = await api("/dashboard/autopilot-draft-run", {
+      method: "POST",
+      body: JSON.stringify({
+        keywords,
+        min_score: minScore,
+        max_per_keyword: maxPerKeyword
+      })
+    });
+
+    target.textContent = JSON.stringify(data, null, 2);
+
+    const report = document.getElementById("run_report");
+    if (report) report.textContent = JSON.stringify(data, null, 2);
+
+    showToast("Autopilot Draft Mode completed", "success");
+    addActivity("Autopilot Draft Mode completed");
+
+  } catch(e) {
+    target.textContent = String(e);
+    showToast("Autopilot failed", "danger");
+    addActivity("Autopilot Draft Mode failed");
+  }
+}
+
+async function runAutopilotRealDraftMode() {
+  if (!confirm("Create REAL Shopify draft products? They will stay as DRAFT, not published.")) {
+    return;
+  }
+
+  const keywords = document.getElementById("autopilot_keywords").value
+    .split(",")
+    .map(x => x.trim())
+    .filter(Boolean);
+
+  const minScore = Math.max(Number(document.getElementById("autopilot_min_score").value || 85), 85);
+  const maxPerKeyword = Number(document.getElementById("autopilot_max").value || 3);
+
+  const target = document.getElementById("autopilot_result");
+
+  try {
+    target.textContent = "REAL Draft Autopilot running...";
+    showToast("REAL Draft Autopilot started", "warning");
+    addActivity("REAL Draft Autopilot started");
+
+    const data = await api("/dashboard/autopilot-real-draft-run", {
+      method: "POST",
+      body: JSON.stringify({
+        keywords,
+        min_score: minScore,
+        max_per_keyword: maxPerKeyword,
+        max_real_drafts: 3
+      })
+    });
+
+    target.textContent = JSON.stringify(data, null, 2);
+
+    const report = document.getElementById("run_report");
+    if (report) report.textContent = JSON.stringify(data, null, 2);
+
+    showToast("REAL Draft Autopilot completed", "success");
+    addActivity("REAL Draft Autopilot completed");
+
+  } catch(e) {
+    target.textContent = String(e);
+    showToast("REAL Draft Autopilot failed", "danger");
+    addActivity("REAL Draft Autopilot failed");
+  }
+}
+
+async function refreshAutopilotHistory() {
+  const target = document.getElementById("autopilot_history_result");
+
+  try {
+    target.textContent = "Loading autopilot history...";
+
+    const data = await api("/dashboard/autopilot-history?limit=50");
+    const items = data.items || [];
+
+    if (!items.length) {
+      target.textContent = "No autopilot history found.";
+      return;
+    }
+
+    target.innerHTML = `
+      <table class="real-data-table">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Created</th>
+            <th>Product ID</th>
+            <th>SKU</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Status</th>
+            <th>Created?</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${items.map(item => `
+            <tr>
+              <td>${item.shopify_image || item.source_image ? `<img src="${item.shopify_image || item.source_image}" style="width:56px;height:56px;object-fit:cover;border-radius:10px;">` : "-"}</td>
+              <td>${item.created_at || "-"}</td>
+              <td>${item.product_id || "-"}</td>
+              <td>${item.sku || "-"}</td>
+              <td>${item.title || "-"}</td>
+              <td>${item.price || "-"}</td>
+              <td>${item.status || "-"}</td>
+              <td>${item.created ? "YES" : "NO"}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    `;
+
+    showToast("Autopilot history refreshed", "success");
+    addActivity("Autopilot history refreshed");
+
+  } catch(e) {
+    target.textContent = String(e);
+    showToast("Autopilot history failed", "danger");
+  }
+}
+
+async function refreshAutopilotKpis() {
+  const target = document.getElementById("autopilot_kpis_result");
+
+  try {
+    target.textContent = "Loading autopilot KPIs...";
+
+    const data = await api("/dashboard/autopilot-kpis");
+    const recent = data.recent_products || [];
+
+    target.innerHTML = `
+      <div class="kpi-grid">
+        <div class="kpi-card"><strong>${data.created_products}</strong><span>Created Products</span></div>
+        <div class="kpi-card"><strong>${data.draft_products}</strong><span>Draft Products</span></div>
+        <div class="kpi-card"><strong>${data.active_products}</strong><span>Active Products</span></div>
+        <div class="kpi-card"><strong>${data.tracked_skus}</strong><span>Tracked SKUs</span></div>
+        <div class="kpi-card"><strong>£${data.estimated_revenue_if_one_each}</strong><span>Estimated Revenue</span></div>
+        <div class="kpi-card"><strong>${data.publish_ratio_percent}%</strong><span>Publish Ratio</span></div>
+      </div>
+
+      <table class="real-data-table">
+        <thead>
+          <tr>
+            <th>Created</th>
+            <th>Product ID</th>
+            <th>SKU</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${recent.map(p => `
+            <tr>
+              <td>${p.created_at || "-"}</td>
+              <td>${p.product_id || "-"}</td>
+              <td>${p.sku || "-"}</td>
+              <td>${p.title || "-"}</td>
+              <td>${p.price || "-"}</td>
+              <td>${p.status || "-"}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    `;
+
+    showToast("Autopilot KPIs refreshed", "success");
+    addActivity("Autopilot KPIs refreshed");
+
+  } catch(e) {
+    target.textContent = String(e);
+    showToast("Autopilot KPIs failed", "danger");
+  }
+}
+
+async function refreshScheduleStatus() {
+  const target = document.getElementById("schedule_status_result");
+
+  try {
+    const data = await api("/dashboard/autopilot-schedule-status");
+
+    document.getElementById("schedule_enabled").value = String(data.enabled || "false");
+    document.getElementById("schedule_interval").value = data.interval_hours || 24;
+    document.getElementById("schedule_max_drafts").value = data.max_real_drafts || 3;
+    document.getElementById("schedule_min_score").value = data.min_score || 85;
+    document.getElementById("schedule_keywords").value = data.keywords || "pet, travel pet, pet bowl";
+
+    target.textContent = JSON.stringify(data, null, 2);
+    showToast("Scheduler status refreshed", "success");
+
+  } catch(e) {
+    target.textContent = String(e);
+    showToast("Scheduler status failed", "danger");
+  }
+}
+
+async function saveAutopilotSchedule() {
+  const target = document.getElementById("schedule_status_result");
+
+  const keywords = document.getElementById("schedule_keywords").value
+    .split(",")
+    .map(x => x.trim())
+    .filter(Boolean);
+
+  const payload = {
+    enabled: document.getElementById("schedule_enabled").value,
+    interval_hours: Number(document.getElementById("schedule_interval").value || 24),
+    max_real_drafts: Number(document.getElementById("schedule_max_drafts").value || 3),
+    min_score: Number(document.getElementById("schedule_min_score").value || 85),
+    keywords
+  };
+
+  try {
+    const data = await api("/dashboard/autopilot-schedule-update", {
+      method: "POST",
+      body: JSON.stringify(payload)
+    });
+
+    target.textContent = JSON.stringify(data, null, 2);
+    showToast("Scheduler settings saved", "success");
+    addActivity("Autopilot scheduler settings saved");
+
+  } catch(e) {
+    target.textContent = String(e);
+    showToast("Scheduler save failed", "danger");
+  }
+}
+
+async function refreshSchedulerLastRun() {
+  const target = document.getElementById("scheduler_last_run_result");
+
+  try {
+    target.textContent = "Loading scheduler last run...";
+
+    const data = await api("/dashboard/autopilot-scheduler-last-run");
+
+    target.textContent = JSON.stringify(data, null, 2);
+
+    showToast("Scheduler last run refreshed", "success");
+    addActivity("Scheduler last run refreshed");
+
+  } catch(e) {
+    target.textContent = String(e);
+    showToast("Scheduler last run failed", "danger");
+  }
+}
+
+function importNow() {
+  runDaily();
+}
+
+let refreshTimer = null;
+
+function loadDashboardSettings() {
+  const settings = JSON.parse(localStorage.getItem("dashboard_settings") || "{}");
+
+  document.getElementById("setting_theme").value = settings.theme || "dark";
+  document.getElementById("setting_refresh").value = settings.refreshSeconds || 120;
+  document.getElementById("setting_keywords").value = settings.keywords || "pet products";
+  document.getElementById("setting_max_products").value = settings.maxProducts || 5;
+
+  document.getElementById("workflow_keywords").value = settings.keywords || "pet products";
+  document.getElementById("workflow_max_products").value = settings.maxProducts || 5;
+
+  document.body.classList.toggle("light-mode", settings.theme === "light");
+
+  if (refreshTimer) clearInterval(refreshTimer);
+  refreshTimer = setInterval(refreshDashboard, Number(settings.refreshSeconds || 120) * 1000);
+}
+
+function saveDashboardSettings() {
+  const settings = {
+    theme: document.getElementById("setting_theme").value,
+    refreshSeconds: Number(document.getElementById("setting_refresh").value || 120),
+    keywords: document.getElementById("setting_keywords").value || "pet products",
+    maxProducts: Number(document.getElementById("setting_max_products").value || 5)
+  };
+
+  localStorage.setItem("dashboard_settings", JSON.stringify(settings));
+  loadDashboardSettings();
+  showToast("Dashboard settings saved", "success");
+  addActivity("Dashboard settings saved");
+}
+
+refreshDashboard();
+if (typeof refreshRealKpis === "function") refreshRealKpis();
+loadDashboardSettings();
+</script>
+<div id="toast_stack" class="toast-stack"></div>
+<div id="command_center" class="command-center" onclick="closeCommandCenter(event)">
+  <div class="command-box" onclick="event.stopPropagation()">
+    <input id="command_search" placeholder="Search command..." oninput="renderCommands()">
+    <div id="command_results"></div>
+  </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const sidebar = document.querySelector(".sidebar");
+  const main = document.querySelector(".main");
+
+  if (sidebar) {
+    document.body.appendChild(sidebar);
+
+    sidebar.style.position = "fixed";
+    sidebar.style.top = "0";
+    sidebar.style.left = "0";
+    sidebar.style.width = "220px";
+    sidebar.style.height = "100vh";
+    sidebar.style.overflowY = "auto";
+    sidebar.style.zIndex = "2147483647";
+  }
+
+  if (main) {
+    main.style.marginLeft = "220px";
+  }
+});
+</script>
+
+
+
+

@@ -1,0 +1,8 @@
+{
+  "live_ads_launch_enabled": true,
+  "max_total_daily_spend": 10,
+  "max_campaign_daily_spend": 5,
+  "allowed_channels": ["google_ads", "meta_ads"],
+  "require_final_confirmation_file": true,
+  "mode": "guard_live_ads"
+}

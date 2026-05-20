@@ -1,0 +1,272 @@
+[
+  {
+    "sku": "CJJT1048826",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJT1166027",
+    "action": "reduce_visibility_or_pause_testing",
+    "ok": true
+  },
+  {
+    "sku": "CJCC1064754",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWGY01325",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJGY1171456",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJGY1082751",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWGY03008",
+    "action": "reduce_visibility_or_pause_testing",
+    "ok": true
+  },
+  {
+    "sku": "CJMY1151470",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJMY1112786",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWGX00530",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJMY2073717",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJGY1294149",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJYD1544909",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJGY1517102",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWMY01054",
+    "action": "reduce_visibility_or_pause_testing",
+    "ok": true
+  },
+  {
+    "sku": "CJYD2164619",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJMY1174239",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJMY1081175",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWGY01133",
+    "action": "reduce_visibility_or_pause_testing",
+    "ok": true
+  },
+  {
+    "sku": "CJGY1130079",
+    "action": "reduce_visibility_or_pause_testing",
+    "ok": true
+  },
+  {
+    "sku": "CJMY2078412",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWMY00973",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJYD2386773",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWMY01010",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWMY00923",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJDT2372258",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJCC1228639",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWGY02924",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJGD1113594",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWMY01582",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJJJJTJT05102",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJT2594074",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWMY01517",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJMY1076688",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJYD1794318",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJT2352016",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWGY01083",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJCC1242562",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJGD1352013",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJJT1116559",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJT1478877",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJYD2658504",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJPN2660770",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJT1353912",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJT1659747",
+    "action": "increase_budget_and_priority",
+    "ok": true
+  },
+  {
+    "sku": "CJMY2126410",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJMY1119271",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJSP2733732",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWGY00675",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWGY00645",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJMY2099920",
+    "action": "reduce_visibility_or_pause_testing",
+    "ok": true
+  },
+  {
+    "sku": "CJYD2896648",
+    "action": "remove_from_pet_pipeline",
+    "ok": true
+  },
+  {
+    "sku": "CJJT2896696",
+    "action": "remove_from_pet_pipeline",
+    "ok": true
+  },
+  {
+    "sku": "PET-BOWL-001",
+    "action": "keep_monitoring",
+    "ok": true
+  }
+]

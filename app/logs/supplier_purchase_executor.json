@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-05-20T21:34:11.697099+00:00",
+  "queue_size": 0,
+  "waiting_supplier_api": 0,
+  "processed": [],
+  "waiting": [],
+  "status": "idle_no_purchase_queue"
+}

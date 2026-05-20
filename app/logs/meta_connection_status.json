@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-20T11:32:22.803448+00:00",
+  "meta_token_valid": true,
+  "business_id": "2501785227003837",
+  "ad_accounts": 1,
+  "pixels": 1,
+  "pages": 0,
+  "catalogs_available": false,
+  "status": "connected_but_assets_missing",
+  "missing": [
+    "META_PAGE_ID",
+    "META_CATALOG_ID_OR_CATALOG_PERMISSION"
+  ]
+}

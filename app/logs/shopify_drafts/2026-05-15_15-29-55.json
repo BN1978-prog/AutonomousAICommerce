@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T15:29:55.467427",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10578137710934,
+        "title": "Pet Slow Feeder Dog Toy Cute Funny Rubber Dog Ball Toy",
+        "body_html": "AI generated Shopify draft product.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T15:29:54+01:00",
+        "handle": "pet-slow-feeder-dog-toy-cute-funny-rubber-dog-ball-toy",
+        "updated_at": "2026-05-15T15:29:54+01:00",
+        "published_at": null,
+        "template_suffix": null,
+        "published_scope": "web",
+        "tags": "",
+        "status": "draft",
+        "admin_graphql_api_id": "gid://shopify/Product/10578137710934",
+        "variants": [
+          {
+            "id": 53687562764630,
+            "product_id": 10578137710934,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T15:29:54+01:00",
+            "updated_at": "2026-05-15T15:29:54+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJGY1082751",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56253994041686,
+            "inventory_quantity": 40000,
+            "old_inventory_quantity": 40000,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53687562764630",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13605780226390,
+            "product_id": 10578137710934,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77706012197206,
+            "alt": null,
+            "position": 1,
+            "product_id": 10578137710934,
+            "created_at": "2026-05-15T15:29:54+01:00",
+            "updated_at": "2026-05-15T15:29:54+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60387732160854",
+            "width": 782,
+            "height": 763,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1618551943933.jpg?v=1778855394",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77706012197206,
+          "alt": null,
+          "position": 1,
+          "product_id": 10578137710934,
+          "created_at": "2026-05-15T15:29:54+01:00",
+          "updated_at": "2026-05-15T15:29:54+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60387732160854",
+          "width": 782,
+          "height": 763,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1618551943933.jpg?v=1778855394",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Pet Slow Feeder Dog Toy Cute Funny Rubber Dog Ball Toy",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/1618551943933.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJGY1082751",
+          "price": "9.99",
+          "inventory_quantity": 40000
+        }
+      ]
+    }
+  }
+}

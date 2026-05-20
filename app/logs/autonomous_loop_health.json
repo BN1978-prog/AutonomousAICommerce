@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-05-20T21:34:17.469246+00:00",
+  "system_status": "HEALTHY",
+  "autonomous_loop_active": true,
+  "counts": {
+    "total": 54,
+    "tier_A": 15,
+    "tier_B": 2,
+    "tier_C": 29,
+    "tier_D": 8,
+    "featured": 15,
+    "pause_candidates": 8,
+    "pipeline_inactive": 2,
+    "boost": 15,
+    "reduce": 6,
+    "hold": 31,
+    "exclude": 2
+  },
+  "logic": {
+    "Tier A": "scale aggressively",
+    "Tier B": "growth test",
+    "Tier C": "monitor",
+    "Tier D": "pause or remove"
+  }
+}

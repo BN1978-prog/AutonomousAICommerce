@@ -1,0 +1,46 @@
+[
+  {
+    "sku": "PET-BOWL-001",
+    "source_channel": "ai_hunter",
+    "source_price": 12.7,
+    "estimated_profit": 5.76,
+    "actions": [
+      {
+        "type": "cross_market_publish",
+        "confidence": "medium",
+        "reason": "Estimated profit is above arbitrage threshold.",
+        "target_channel": "ebay/shopify",
+        "target_price": 22.86
+      }
+    ],
+    "decided_at": "2026-05-19T18:43:07.940358+00:00"
+  },
+  {
+    "sku": "CJYD2896648",
+    "source_channel": "cj",
+    "source_price": 5.22,
+    "estimated_profit": 0.9,
+    "actions": [
+      {
+        "type": "watch_arbitrage",
+        "confidence": "low",
+        "reason": "Estimated profit is too low for safe resale."
+      }
+    ],
+    "decided_at": "2026-05-19T18:43:07.940358+00:00"
+  },
+  {
+    "sku": "CJJT2896696",
+    "source_channel": "cj",
+    "source_price": 4.16,
+    "estimated_profit": 0.21,
+    "actions": [
+      {
+        "type": "watch_arbitrage",
+        "confidence": "low",
+        "reason": "Estimated profit is too low for safe resale."
+      }
+    ],
+    "decided_at": "2026-05-19T18:43:07.940358+00:00"
+  }
+]

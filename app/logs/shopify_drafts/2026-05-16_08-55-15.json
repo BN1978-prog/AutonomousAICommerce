@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-16T08:55:15.403867",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10656856244566,
+        "title": "Cat Tunnel Pet Toy Cat S Tunnel Foldable Cat Tunnel Cat Drill Bucket Toy",
+        "body_html": "AI generated Shopify draft product.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-16T08:55:14+01:00",
+        "handle": "cat-tunnel-pet-toy-cat-s-tunnel-foldable-cat-tunnel-cat-drill-bucket-toy",
+        "updated_at": "2026-05-16T08:55:14+01:00",
+        "published_at": "2026-05-16T08:55:14+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10656856244566",
+        "variants": [
+          {
+            "id": 53770541695318,
+            "product_id": 10656856244566,
+            "title": "Default Title",
+            "price": "14.72",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-16T08:55:14+01:00",
+            "updated_at": "2026-05-16T08:55:15+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJMY2126410",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56337179246934,
+            "inventory_quantity": 24395,
+            "old_inventory_quantity": 24395,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53770541695318",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13688492425558,
+            "product_id": 10656856244566,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77823534399830,
+            "alt": null,
+            "position": 1,
+            "product_id": 10656856244566,
+            "created_at": "2026-05-16T08:55:14+01:00",
+            "updated_at": "2026-05-16T08:55:14+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60483263005014",
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/113d9906-b0d8-4be1-b227-34ea58c0d24a_trans.jpg?v=1778918114",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77823534399830,
+          "alt": null,
+          "position": 1,
+          "product_id": 10656856244566,
+          "created_at": "2026-05-16T08:55:14+01:00",
+          "updated_at": "2026-05-16T08:55:14+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60483263005014",
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/113d9906-b0d8-4be1-b227-34ea58c0d24a_trans.jpg?v=1778918114",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Cat Tunnel Pet Toy Cat S Tunnel Foldable Cat Tunnel Cat Drill Bucket Toy",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://oss-cf.cjdropshipping.com/product/2024/09/02/09/113d9906-b0d8-4be1-b227-34ea58c0d24a_trans.jpeg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJMY2126410",
+          "price": "14.72",
+          "inventory_quantity": 24395
+        }
+      ]
+    }
+  },
+  "cost_price": 3.68,
+  "sale_price": 14.72,
+  "profit": 11.04,
+  "margin_percent": 75.0,
+  "sku": "CJMY2126410"
+}

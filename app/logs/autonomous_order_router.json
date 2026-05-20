@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-05-20T21:34:11.598556+00:00",
+  "orders_seen": 0,
+  "queued": 0,
+  "skipped": [],
+  "queue_size": 0,
+  "status": "ready_waiting_orders"
+}

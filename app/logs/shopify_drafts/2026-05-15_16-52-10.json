@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T16:52:10.256431",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10584072814934,
+        "title": "Pet Waterproof Blanket Dog Blanket",
+        "body_html": "AI generated Shopify draft product.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T16:52:08+01:00",
+        "handle": "pet-waterproof-blanket-dog-blanket",
+        "updated_at": "2026-05-15T16:52:09+01:00",
+        "published_at": null,
+        "template_suffix": null,
+        "published_scope": "web",
+        "tags": "",
+        "status": "draft",
+        "admin_graphql_api_id": "gid://shopify/Product/10584072814934",
+        "variants": [
+          {
+            "id": 53693949542742,
+            "product_id": 10584072814934,
+            "title": "Default Title",
+            "price": "10.53",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T16:52:09+01:00",
+            "updated_at": "2026-05-15T16:52:09+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJYD2164619",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56260466311510,
+            "inventory_quantity": 66924,
+            "old_inventory_quantity": 66924,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53693949542742",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13612019515734,
+            "product_id": 10584072814934,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77717466054998,
+            "alt": null,
+            "position": 1,
+            "product_id": 10584072814934,
+            "created_at": "2026-05-15T16:52:09+01:00",
+            "updated_at": "2026-05-15T16:52:09+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60394489774422",
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/a31b71d4-8955-49e9-8e94-48f33bdb23d3.jpg?v=1778860329",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77717466054998,
+          "alt": null,
+          "position": 1,
+          "product_id": 10584072814934,
+          "created_at": "2026-05-15T16:52:09+01:00",
+          "updated_at": "2026-05-15T16:52:09+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60394489774422",
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/a31b71d4-8955-49e9-8e94-48f33bdb23d3.jpg?v=1778860329",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Pet Waterproof Blanket Dog Blanket",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/quick/product/a31b71d4-8955-49e9-8e94-48f33bdb23d3.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJYD2164619",
+          "price": "10.53",
+          "inventory_quantity": 66924
+        }
+      ]
+    }
+  }
+}

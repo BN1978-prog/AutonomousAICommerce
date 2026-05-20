@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-20T21:09:11.384283+00:00",
+  "mode": "google_live_api_create_paused_campaigns",
+  "blocked": [
+    {
+      "reason": "missing_GOOGLE_ADS_CUSTOMER_ID"
+    }
+  ],
+  "results": [],
+  "created": 0,
+  "status": "blocked"
+}

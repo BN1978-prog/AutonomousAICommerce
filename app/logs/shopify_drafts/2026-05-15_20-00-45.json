@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-15T20:00:45.572823",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10598237241686,
+        "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+        "body_html": "AI generated Shopify draft product.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T20:00:44+01:00",
+        "handle": "dog-socks-pet-socks-non-slip-cotton-socks-dog-foot-covers",
+        "updated_at": "2026-05-15T20:00:45+01:00",
+        "published_at": "2026-05-15T20:00:44+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10598237241686",
+        "variants": [
+          {
+            "id": 53709209600342,
+            "product_id": 10598237241686,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T20:00:44+01:00",
+            "updated_at": "2026-05-15T20:00:45+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJJJCWMY01517",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56275782631766,
+            "inventory_quantity": 80000,
+            "old_inventory_quantity": 80000,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53709209600342",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13626913947990,
+            "product_id": 10598237241686,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77748113146198,
+            "alt": null,
+            "position": 1,
+            "product_id": 10598237241686,
+            "created_at": "2026-05-15T20:00:44+01:00",
+            "updated_at": "2026-05-15T20:00:44+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60414855774550",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/6648954366532.jpg?v=1778871644",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77748113146198,
+          "alt": null,
+          "position": 1,
+          "product_id": 10598237241686,
+          "created_at": "2026-05-15T20:00:44+01:00",
+          "updated_at": "2026-05-15T20:00:44+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60414855774550",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/6648954366532.jpg?v=1778871644",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/2042/6648954366532.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWMY01517",
+          "price": "9.99",
+          "inventory_quantity": 80000
+        }
+      ]
+    }
+  },
+  "cost_price": 0.95,
+  "sale_price": 9.99,
+  "profit": 9.04,
+  "margin_percent": 90.49,
+  "sku": "CJJJCWMY01517"
+}

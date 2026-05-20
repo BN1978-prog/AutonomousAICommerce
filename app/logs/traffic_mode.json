@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-05-20T21:34:12.489740+00:00",
+  "traffic_sources": [
+    {
+      "source": "google",
+      "enabled": true,
+      "status": "ready_waiting_clicks"
+    },
+    {
+      "source": "meta",
+      "enabled": true,
+      "status": "clicks_live"
+    },
+    {
+      "source": "ebay",
+      "enabled": true,
+      "status": "organic_live"
+    },
+    {
+      "source": "shopify",
+      "enabled": true,
+      "status": "store_live"
+    }
+  ],
+  "traffic_learning_enabled": true,
+  "reason": "paid_sources_ready_waiting_clicks"
+}

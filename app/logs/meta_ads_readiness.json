@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-05-20T21:34:12.707226+00:00",
+  "ok": true,
+  "status": "ready",
+  "missing": [],
+  "present": [
+    "META_ACCESS_TOKEN",
+    "META_AD_ACCOUNT_ID",
+    "META_PIXEL_ID"
+  ]
+}

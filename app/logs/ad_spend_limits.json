@@ -1,0 +1,10 @@
+{
+  "auto_ad_spend_enabled": true,
+  "max_daily_campaign_budget": 5,
+  "allowed_channels": ["google_ads", "meta_ads"],
+  "require_margin_percent": 35,
+  "require_net_profit": 10,
+  "stop_if_no_sales_after_hours": 24,
+  "stop_if_spend_reaches": 5
+}
+

@@ -1,0 +1,434 @@
+﻿import requests
+from app.channels.shopify_config import ShopifyConfig
+
+
+def shopify_get_product_by_sku(sku: str) -> dict:
+    store = ShopifyConfig.get_store()
+    headers = ShopifyConfig.headers()
+
+    url = f"https://{store}/admin/api/2024-01/products.json"
+
+    r = requests.get(
+        url,
+        headers=headers,
+        params={"limit": 250},
+        timeout=30
+    )
+
+    data = r.json()
+
+    if r.status_code != 200:
+        return {
+            "ok": False,
+            "status_code": r.status_code,
+            "error": data
+        }
+
+    for product in data.get("products", []):
+        for variant in product.get("variants", []):
+            if str(variant.get("sku")) == str(sku):
+                return {
+                    "ok": True,
+                    "record": {
+                        "product_id": product.get("id"),
+                        "variant_id": variant.get("id"),
+                        "sku": sku
+                    },
+                    "product": product,
+                    "variant": variant,
+                    "product_id": product.get("id")
+                }
+
+    return {
+        "ok": False,
+        "message": f"SKU {sku} not found in Shopify live API"
+    }
+
+
+def shopify_get_product_details(sku: str) -> dict:
+    found = shopify_get_product_by_sku(sku)
+
+    if not found.get("ok"):
+        return found
+
+    return {
+        "ok": True,
+        "product": found.get("product"),
+        "product_id": found.get("product_id"),
+        "variant": found.get("variant")
+    }
+
+
+def shopify_publish_product(product: dict) -> dict:
+    store = ShopifyConfig.get_store()
+    headers = ShopifyConfig.headers()
+
+    url = f"https://{store}/admin/api/2024-01/products.json"
+
+    payload = {
+        "product": {
+            "title": product.get("title") or product.get("name"),
+            "body_html": product.get("description", ""),
+            "status": product.get("status", "draft"),
+            "variants": [
+                {
+                    "price": str(product.get("price", "0")),
+                    "sku": product.get("sku"),
+                    "inventory_management": "shopify",
+                    "inventory_quantity": int(product.get("inventory", 0))
+                }
+            ]
+        }
+    }
+
+    r = requests.post(url, headers=headers, json=payload, timeout=30)
+    data = r.json()
+
+    return {
+        "ok": r.status_code in [200, 201],
+        "status_code": r.status_code,
+        "mode": "shopify_gateway_publish_product",
+        "sku": product.get("sku"),
+        "product_id": data.get("product", {}).get("id"),
+        "response": data
+    }
+
+
+def shopify_update_price(sku: str, price: float) -> dict:
+    from app.engines.publish_registry import update_product_record_price
+
+    details = shopify_get_product_details(sku)
+
+    if not details.get("ok"):
+        return details
+
+    variants = details.get("variants", [])
+
+    if not variants:
+        return {"ok": False, "message": "No variants found"}
+
+    variant_id = variants[0].get("id")
+    product_id = details.get("product_id")
+
+    store = ShopifyConfig.get_store()
+    headers = ShopifyConfig.headers()
+    url = f"https://{store}/admin/api/2024-01/variants/{variant_id}.json"
+
+    r = requests.put(
+        url,
+        headers=headers,
+        json={"variant": {"id": variant_id, "price": str(price)}},
+        timeout=30
+    )
+
+    data = r.json()
+
+    result = {
+        "ok": r.status_code in [200, 201],
+        "status_code": r.status_code,
+        "product_id": product_id,
+        "variant_id": variant_id,
+        "new_price": str(price),
+        "response": data
+    }
+
+    registry_update = None
+
+    if result.get("ok"):
+        registry_update = update_product_record_price(
+            sku=sku,
+            channel="shopify",
+            price=float(price),
+            result=result
+        )
+
+    return {
+        "ok": result.get("ok"),
+        "mode": "shopify_gateway_update_price",
+        "sku": sku,
+        "shopify_product_id": product_id,
+        "requested_price": float(price),
+        "result": result,
+        "registry_update": registry_update
+    }
+
+
+def shopify_update_inventory(sku: str, quantity: int) -> dict:
+    from app.engines.publish_registry import update_product_record_inventory
+
+    details = shopify_get_product_details(sku)
+
+    if not details.get("ok"):
+        return details
+
+    variants = details.get("variants", [])
+
+    if not variants:
+        return {"ok": False, "message": "No variants found"}
+
+    variant = variants[0]
+    product_id = details.get("product_id")
+    inventory_item_id = variant.get("inventory_item_id")
+
+    store = ShopifyConfig.get_store()
+    headers = ShopifyConfig.headers()
+
+    shop_url = f"https://{store}/admin/api/2024-01/shop.json"
+    shop_response = requests.get(shop_url, headers=headers, timeout=30)
+    shop_data = shop_response.json()
+
+    if shop_response.status_code != 200:
+        return {
+            "ok": False,
+            "status_code": shop_response.status_code,
+            "error": shop_data
+        }
+
+    location_id = shop_data.get("shop", {}).get("primary_location_id")
+    inventory_url = f"https://{store}/admin/api/2024-01/inventory_levels/set.json"
+
+    r = requests.post(
+        inventory_url,
+        headers=headers,
+        json={
+            "location_id": location_id,
+            "inventory_item_id": inventory_item_id,
+            "available": int(quantity)
+        },
+        timeout=30
+    )
+
+    data = r.json()
+
+    result = {
+        "ok": r.status_code in [200, 201],
+        "status_code": r.status_code,
+        "product_id": product_id,
+        "variant_id": variant.get("id"),
+        "inventory_item_id": inventory_item_id,
+        "location_id": location_id,
+        "quantity": int(quantity),
+        "response": data
+    }
+
+    registry_update = None
+
+    if result.get("ok"):
+        registry_update = update_product_record_inventory(
+            sku=sku,
+            channel="shopify",
+            quantity=int(quantity),
+            result=result
+        )
+
+    return {
+        "ok": result.get("ok"),
+        "mode": "shopify_gateway_update_inventory",
+        "sku": sku,
+        "quantity": int(quantity),
+        "result": result,
+        "registry_update": registry_update
+    }
+
+
+def shopify_archive_product(sku: str) -> dict:
+    from app.engines.publish_registry import update_product_record_status
+
+    found = shopify_get_product_by_sku(sku)
+
+    if not found.get("ok"):
+        return found
+
+    product_id = found["product_id"]
+    store = ShopifyConfig.get_store()
+    headers = ShopifyConfig.headers()
+    url = f"https://{store}/admin/api/2024-01/products/{product_id}.json"
+
+    r = requests.put(
+        url,
+        headers=headers,
+        json={"product": {"id": product_id, "status": "draft"}},
+        timeout=30
+    )
+
+    data = r.json()
+
+    result = {
+        "ok": r.status_code in [200, 201],
+        "status_code": r.status_code,
+        "product_id": product_id,
+        "status": "draft",
+        "response": data
+    }
+
+    registry_update = None
+
+    if result.get("ok"):
+        registry_update = update_product_record_status(
+            sku=sku,
+            channel="shopify",
+            status="draft",
+            result=result
+        )
+
+    return {
+        "ok": result.get("ok"),
+        "mode": "shopify_gateway_archive_product",
+        "sku": sku,
+        "shopify_product_id": product_id,
+        "result": result,
+        "registry_update": registry_update
+    }
+
+
+def run_channel_action(channel: str, action: str, payload: dict) -> dict:
+    channel = (channel or "").lower().strip()
+    action = (action or "").lower().strip()
+
+    sku = payload.get("sku")
+
+    if not channel:
+        return {"ok": False, "message": "missing channel"}
+
+    if not action:
+        return {"ok": False, "message": "missing action"}
+
+
+    if channel == "meta_shop":
+        from app.channels.meta_channel import meta_live_check, meta_sync_success
+
+        if action in ["publish_product", "update_price", "update_inventory", "archive", "get_details"]:
+            return {
+                "ok": True,
+                "channel": "meta_shop",
+                "mode": "meta_catalog_feed_channel",
+                "message": "Meta is updated through /feed/meta-products.xml",
+                "feed_url": "/feed/meta-products.xml",
+                "live": meta_live_check()
+            }
+
+        if action == "sync_feed":
+            return meta_sync_success()
+
+    if channel == "woocommerce":
+        from app.channels.woocommerce_gateway import (
+            wc_publish_product,
+            wc_update_price,
+            wc_update_inventory,
+            wc_archive_product,
+            wc_find_product_by_sku
+        )
+
+        if action == "publish_product":
+            return wc_publish_product(payload)
+
+        if not sku:
+            return {"ok": False, "message": "missing sku"}
+
+        if action == "update_price":
+            return wc_update_price(
+                sku=sku,
+                price=payload.get("price") or payload.get("value")
+            )
+
+        if action == "update_inventory":
+            return wc_update_inventory(
+                sku=sku,
+                quantity=payload.get("quantity") or payload.get("value")
+            )
+
+        if action == "archive":
+            return wc_archive_product(sku=sku)
+
+        if action == "get_details":
+            return wc_find_product_by_sku(sku)
+
+    if channel == "shopify":
+        if action == "publish_product":
+            return shopify_publish_product(payload)
+
+        if not sku:
+            return {"ok": False, "message": "missing sku"}
+
+        if action == "update_price":
+            return shopify_update_price(
+                sku=sku,
+                price=payload.get("price") or payload.get("value")
+            )
+
+        if action == "update_inventory":
+            return shopify_update_inventory(
+                sku=sku,
+                quantity=payload.get("quantity") or payload.get("value")
+            )
+
+        if action == "archive":
+            return shopify_archive_product(sku=sku)
+
+        if action == "get_details":
+            return shopify_get_product_by_sku(sku)
+
+    return {
+        "ok": False,
+        "message": f"Unsupported channel/action: {channel}/{action}",
+        "supported_channels": ["shopify","woocommerce","meta_shop"],
+        "supported_actions": [
+            "publish_product",
+            "update_price",
+            "update_inventory",
+            "archive",
+            "get_details"
+        ]
+    }
+
+
+def channel_token_check(channel: str):
+    channel = (channel or "").lower().strip()
+
+
+    if channel == "meta_shop":
+        from app.channels.meta_channel import meta_live_check, meta_sync_success
+
+        if action in ["publish_product", "update_price", "update_inventory", "archive", "get_details"]:
+            return {
+                "ok": True,
+                "channel": "meta_shop",
+                "mode": "meta_catalog_feed_channel",
+                "message": "Meta is updated through /feed/meta-products.xml",
+                "feed_url": "/feed/meta-products.xml",
+                "live": meta_live_check()
+            }
+
+        if action == "sync_feed":
+            return meta_sync_success()
+
+    if channel == "woocommerce":
+        from app.channels.woocommerce_adapter import WooCommerceAdapter
+        return WooCommerceAdapter().token_check()
+
+    if channel == "shopify":
+        from app.channels.shopify_adapter import ShopifyAdapter
+        return ShopifyAdapter().token_check()
+
+    return {
+        "ok": False,
+        "channel": channel,
+        "configured": False,
+        "message": "token_check not implemented in active channel_manager"
+    }
+
+
+def all_channels_status():
+    channels = ["shopify","woocommerce","meta_shop"]
+
+    return {
+        "ok": True,
+        "channels": [
+            channel_token_check(channel)
+            for channel in channels
+        ]
+    }
+
+
+
+

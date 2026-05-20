@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T19:22:24.130072",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10595391832406,
+        "title": "Cat scratcher boxed",
+        "body_html": "AI generated Shopify draft product.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T19:22:23+01:00",
+        "handle": "cat-scratcher-boxed",
+        "updated_at": "2026-05-15T19:22:24+01:00",
+        "published_at": "2026-05-15T19:22:23+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10595391832406",
+        "variants": [
+          {
+            "id": 53706137895254,
+            "product_id": 10595391832406,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T19:22:24+01:00",
+            "updated_at": "2026-05-15T19:22:24+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJJJCWMY01010",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56272710566230,
+            "inventory_quantity": 28055,
+            "old_inventory_quantity": 28055,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53706137895254",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13623947952470,
+            "product_id": 10595391832406,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77743138111830,
+            "alt": null,
+            "position": 1,
+            "product_id": 10595391832406,
+            "created_at": "2026-05-15T19:22:24+01:00",
+            "updated_at": "2026-05-15T19:22:24+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60412053160278",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/3239081222976.jpg?v=1778869344",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77743138111830,
+          "alt": null,
+          "position": 1,
+          "product_id": 10595391832406,
+          "created_at": "2026-05-15T19:22:24+01:00",
+          "updated_at": "2026-05-15T19:22:24+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60412053160278",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/3239081222976.jpg?v=1778869344",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Cat scratcher boxed",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/20200813/3239081222976.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWMY01010",
+          "price": "9.99",
+          "inventory_quantity": 28055
+        }
+      ]
+    }
+  }
+}

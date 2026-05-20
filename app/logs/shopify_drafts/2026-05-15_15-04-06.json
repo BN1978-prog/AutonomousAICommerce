@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T15:04:06.149601",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10576530407766,
+        "title": "Stylish Pet Clothes for Your Furry Friend",
+        "body_html": "Keep your pet fashionable and comfortable with our stylish pet clothes. Perfect for any occasion!",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T15:04:04+01:00",
+        "handle": "stylish-pet-clothes-for-your-furry-friend-1",
+        "updated_at": "2026-05-15T15:04:05+01:00",
+        "published_at": null,
+        "template_suffix": null,
+        "published_scope": "web",
+        "tags": "cats, clothes, dogs, fashion, pet",
+        "status": "draft",
+        "admin_graphql_api_id": "gid://shopify/Product/10576530407766",
+        "variants": [
+          {
+            "id": 53685847097686,
+            "product_id": 10576530407766,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T15:04:04+01:00",
+            "updated_at": "2026-05-15T15:04:05+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJJT1048826",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56252193931606,
+            "inventory_quantity": 160000,
+            "old_inventory_quantity": 160000,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53685847097686",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13604077470038,
+            "product_id": 10576530407766,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77702022627670,
+            "alt": null,
+            "position": 1,
+            "product_id": 10576530407766,
+            "created_at": "2026-05-15T15:04:04+01:00",
+            "updated_at": "2026-05-15T15:04:04+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60385517175126",
+            "width": 700,
+            "height": 700,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1616203488791_79999f00-ad8a-4a9c-b79c-1f5fe535e8e9.jpg?v=1778853844",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77702022627670,
+          "alt": null,
+          "position": 1,
+          "product_id": 10576530407766,
+          "created_at": "2026-05-15T15:04:04+01:00",
+          "updated_at": "2026-05-15T15:04:04+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60385517175126",
+          "width": 700,
+          "height": 700,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1616203488791_79999f00-ad8a-4a9c-b79c-1f5fe535e8e9.jpg?v=1778853844",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Stylish Pet Clothes for Your Furry Friend",
+      "body_html": "Keep your pet fashionable and comfortable with our stylish pet clothes. Perfect for any occasion!",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "pet, clothes, fashion, dogs, cats",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/1616203488791.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJT1048826",
+          "price": "9.99",
+          "inventory_quantity": 160000
+        }
+      ]
+    }
+  }
+}

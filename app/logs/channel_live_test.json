@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-20T11:32:23.154852+00:00",
+  "shopify_ok": true,
+  "ebay_ok": true,
+  "woocommerce_ok": true,
+  "google_feed_ok": true,
+  "meta_feed_ok": true,
+  "paid_ads_ready": false,
+  "traffic_learning_ready": false,
+  "real_sales_mode": "waiting_for_sales",
+  "all_core_channels_ok": true
+}

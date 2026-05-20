@@ -1,0 +1,9 @@
+{
+  "stopped_at": "2026-05-16T20:17:13.940128",
+  "state": {
+    "running": false,
+    "runs": 0,
+    "last_result": null,
+    "last_error": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ok": false,
+  "status_code": 400,
+  "response": {
+    "error": {
+      "message": "Invalid OAuth access token - Cannot parse access token",
+      "type": "OAuthException",
+      "code": 190,
+      "fbtrace_id": "A2tIAxg2xOKS3_S8YoQzhfG"
+    }
+  },
+  "checked_at": "2026-05-20T17:10:19.749057+00:00"
+}

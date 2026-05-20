@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T19:08:54.893499",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10594409447766,
+        "title": "Pet Print Bell Cat Collar Cat Strap",
+        "body_html": "AI generated Shopify draft product.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T19:08:54+01:00",
+        "handle": "pet-print-bell-cat-collar-cat-strap",
+        "updated_at": "2026-05-15T19:08:55+01:00",
+        "published_at": "2026-05-15T19:08:54+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10594409447766",
+        "variants": [
+          {
+            "id": 53705110552918,
+            "product_id": 10594409447766,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T19:08:54+01:00",
+            "updated_at": "2026-05-15T19:08:55+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJMY1081175",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56271683256662,
+            "inventory_quantity": 200001,
+            "old_inventory_quantity": 200001,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53705110552918",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13622921003350,
+            "product_id": 10594409447766,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77741315752278,
+            "alt": null,
+            "position": 1,
+            "product_id": 10594409447766,
+            "created_at": "2026-05-15T19:08:54+01:00",
+            "updated_at": "2026-05-15T19:08:54+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60411076510038",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1618463086771.jpg?v=1778868534",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77741315752278,
+          "alt": null,
+          "position": 1,
+          "product_id": 10594409447766,
+          "created_at": "2026-05-15T19:08:54+01:00",
+          "updated_at": "2026-05-15T19:08:54+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60411076510038",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1618463086771.jpg?v=1778868534",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Pet Print Bell Cat Collar Cat Strap",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/1618463086771.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJMY1081175",
+          "price": "9.99",
+          "inventory_quantity": 200001
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "sku": "PET-BOWL-001",
+    "allowed": true,
+    "estimated_profit": 5.76,
+    "source_channel": "ai_hunter",
+    "reasons": [],
+    "action": "approve_arbitrage"
+  },
+  {
+    "sku": "CJYD2896648",
+    "allowed": false,
+    "estimated_profit": 0.9,
+    "source_channel": "cj",
+    "reasons": [
+      "profit_below_threshold",
+      "not_publish_decision"
+    ],
+    "action": "block_or_watch"
+  },
+  {
+    "sku": "CJJT2896696",
+    "allowed": false,
+    "estimated_profit": 0.21,
+    "source_channel": "cj",
+    "reasons": [
+      "profit_below_threshold",
+      "not_publish_decision"
+    ],
+    "action": "block_or_watch"
+  }
+]

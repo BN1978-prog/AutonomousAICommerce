@@ -1,0 +1,65 @@
+[
+  {
+    "step": "app.shopify_registry_hydrator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-19T19:24:40.277985+00:00",
+    "finished_at": "2026-05-19T19:25:07.673071+00:00",
+    "stdout": "aincoat - Perfect for Pets\nCJJJCWMY01582 ok= True skipped= False reason= hydrated_from_shopify title= S-Shaped Foldable Cat Tunnel Toy\nCJJJJTJT05102 ok= True skipped= False reason= hydrated_from_shopify title= Premium Pet Cleaning Brush\nCJJT2594074 ok= True skipped= False reason= hydrated_from_shopify title= Natural Pet Shampoo for Healthy Fur\nCJJJCWMY01517 ok= True skipped= False reason= hydrated_from_shopify title= Dog socks, pet socks, non-slip cotton socks, dog foot covers\nCJMY1076688 ok= True skipped= False reason= hydrated_from_shopify title= Durable Cat Chain Traction Rope Set - Harness & Leash\nCJYD1794318 ok= True skipped= False reason= hydrated_from_shopify title= Versatile Pet Hair Cleaning Comb Brush\nCJJT2352016 ok= True skipped= False reason= hydrated_from_shopify title= Premium Pet Shampoo for Healthy Fur\nCJJJCWGY01083 ok= True skipped= False reason= hydrated_from_shopify title= Pet waterproof socks\nCJCC1242562 ok= True skipped= False reason= hydrated_from_shopify title= No Pull Dog Harness Reflective Adjustable Soft Padded Pet Vest Harness\nCJGD1352013 ok= True skipped= False reason= hydrated_from_shopify title= Cotton Dog Socks - Comfortable and Stylish\nCJJT1116559 ok= True skipped= False reason= hydrated_from_shopify title= Explosion-Proof Red Pet Chest Harness\nCJJT1478877 ok= True skipped= False reason= hydrated_from_shopify title= Durable Dog Leash Vest Harness - Perfect for Active Pets\nCJYD2658504 ok= True skipped= False reason= hydrated_from_shopify title= Warm Large Dog Bed & Cat Mat\nCJPN2660770 ok= True skipped= False reason= hydrated_from_shopify title= Warm Large Dog Bed & Cat Mat\nCJJT1353912 ok= True skipped= False reason= hydrated_from_shopify title= Supportive Leash Harness for Elderly Dogs\nCJJT1659747 ok= True skipped= False reason= hydrated_from_shopify title= Effective Pet Hair Removal Cleaning Brush\nCJMY2126410 ok= True skipped= False reason= hydrated_from_shopify title= Cat Tunnel Pet Toy Cat S Tunnel Foldable Cat Tunnel Cat Drill Bucket Toy\nCJMY1119271 ok= True skipped= False reason= hydrated_from_shopify title= Easy Pet Cleaning Bath Brush\nCJSP2733732 ok= True skipped= False reason= hydrated_from_shopify title= Pet Shampoo\nCJJJCWGY00675 ok= True skipped= False reason= hydrated_from_shopify title= Pet Outdoor Foldable Dog Water Bottle - Travel Dispenser\nCJJJCWGY00645 ok= True skipped= False reason= hydrated_from_shopify title= Cat and dog grooming comb\nCJMY2099920 ok= True skipped= False reason= hydrated_from_shopify title= Cat Hair Glove Pet Fur Remover Glove Dog Grooming Glove Brush For Shedding Pet Hair Remover Mitt Cleaner Grooming Glove\nCJYD2896648 ok= True skipped= False reason= hydrated_from_shopify title= Hair Growth Microneedle Solution For Hair Regeneration\nCJJT2896696 ok= True skipped= False reason= hydrated_from_shopify title= High-borosilicate Glass Tea Cup Double Layer Design With Real Flowers\nPET-BOWL-001 ok= True skipped= False reason= hydrated_from_shopify title= Non-slip silicone pet feeding bowl\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.registry_quality_report",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-19T19:25:07.673071+00:00",
+    "finished_at": "2026-05-19T19:25:07.770070+00:00",
+    "stdout": "REGISTRY QUALITY REPORT: 54\nCJJT1048826 ok= True missing= \nCJJT1166027 ok= True missing= \nCJCC1064754 ok= True missing= \nCJJJCWGY01325 ok= True missing= \nCJGY1171456 ok= True missing= \nCJGY1082751 ok= True missing= \nCJJJCWGY03008 ok= True missing= \nCJMY1151470 ok= True missing= \nCJMY1112786 ok= True missing= \nCJJJCWGX00530 ok= True missing= \nCJMY2073717 ok= True missing= \nCJGY1294149 ok= True missing= \nCJYD1544909 ok= True missing= \nCJGY1517102 ok= True missing= \nCJJJCWMY01054 ok= True missing= \nCJYD2164619 ok= True missing= \nCJMY1174239 ok= True missing= \nCJMY1081175 ok= True missing= \nCJJJCWGY01133 ok= True missing= \nCJGY1130079 ok= True missing= \nCJMY2078412 ok= True missing= \nCJJJCWMY00973 ok= True missing= \nCJYD2386773 ok= True missing= \nCJJJCWMY01010 ok= True missing= \nCJJJCWMY00923 ok= True missing= \nCJDT2372258 ok= True missing= \nCJCC1228639 ok= True missing= \nCJJJCWGY02924 ok= True missing= \nCJGD1113594 ok= True missing= \nCJJJCWMY01582 ok= True missing= \nCJJJJTJT05102 ok= True missing= \nCJJT2594074 ok= True missing= \nCJJJCWMY01517 ok= True missing= \nCJMY1076688 ok= True missing= \nCJYD1794318 ok= True missing= \nCJJT2352016 ok= True missing= \nCJJJCWGY01083 ok= True missing= \nCJCC1242562 ok= True missing= \nCJGD1352013 ok= True missing= \nCJJT1116559 ok= True missing= \nCJJT1478877 ok= True missing= \nCJYD2658504 ok= True missing= \nCJPN2660770 ok= True missing= \nCJJT1353912 ok= True missing= \nCJJT1659747 ok= True missing= \nCJMY2126410 ok= True missing= \nCJMY1119271 ok= True missing= \nCJSP2733732 ok= True missing= \nCJJJCWGY00675 ok= True missing= \nCJJJCWGY00645 ok= True missing= \nCJMY2099920 ok= True missing= \nCJYD2896648 ok= True missing= \nCJJT2896696 ok= True missing= \nPET-BOWL-001 ok= True missing= \n",
+    "stderr": ""
+  },
+  {
+    "step": "app.seo_auto_apply",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-19T19:25:07.770070+00:00",
+    "finished_at": "2026-05-19T19:25:07.873630+00:00",
+    "stdout": "SEO AUTO APPLY RESULTS: 2\nPET-BOWL-001 ok= True skipped= False reason= seo_applied_to_registry\nCJJT2896696 ok= True skipped= True reason= auto_apply_false\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.seo_push_to_channels",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-19T19:25:07.873630+00:00",
+    "finished_at": "2026-05-19T19:25:07.973657+00:00",
+    "stdout": "SEO PUSH PLAN: 1\nPET-BOWL-001 => shopify, ebay, woocommerce, meta_feed, google_feed\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.seo_push_executor",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-19T19:25:07.973657+00:00",
+    "finished_at": "2026-05-19T19:25:08.076974+00:00",
+    "stdout": "SEO PUSH RESULTS: 5\nPET-BOWL-001 shopify pushed= False reason= dry_run_live_push_false\nPET-BOWL-001 ebay pushed= False reason= dry_run_live_push_false\nPET-BOWL-001 woocommerce pushed= False reason= dry_run_live_push_false\nPET-BOWL-001 meta_feed pushed= False reason= dry_run_live_push_false\nPET-BOWL-001 google_feed pushed= False reason= dry_run_live_push_false\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.feed_regenerator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-19T19:25:08.076974+00:00",
+    "finished_at": "2026-05-19T19:25:08.178967+00:00",
+    "stdout": "FEED REGENERATION RESULTS: 1\nPET-BOWL-001 ok= True reason= feeds_regenerated\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.feed_quality_check",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-19T19:25:08.178967+00:00",
+    "finished_at": "2026-05-19T19:25:08.275939+00:00",
+    "stdout": "FEED: app\\logs\\meta_feed_seo.json\nITEMS: 1\nPET-BOWL-001 ok= True missing= \nFEED: app\\logs\\google_feed_seo.json\nITEMS: 1\nPET-BOWL-001 ok= True missing= \n",
+    "stderr": ""
+  }
+]

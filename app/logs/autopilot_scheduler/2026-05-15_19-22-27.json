@@ -1,0 +1,596 @@
+{
+  "created_at": "2026-05-15T19:22:27.110249",
+  "payload": {
+    "keywords": [
+      "pet grooming",
+      "pet carrier",
+      "pet blanket",
+      "dog bed",
+      "cat collar",
+      "dog grooming",
+      "pet travel bag",
+      "cat scratcher",
+      "dog water bottle",
+      "pet bowl mat",
+      "dog raincoat",
+      "cat tunnel",
+      "pet cleaning brush"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "policy": {
+    "ok": true,
+    "mode": "balanced",
+    "max_real_drafts": 3,
+    "min_score": 85
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 3,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03008",
+        "title": "Pet grooming comb",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWMY01054",
+        "title": "Pet grooming scissors",
+        "score": 78,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03016",
+        "title": "Pet grooming scissors",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJGY1294149",
+        "title": "Pet Travel Carrier Bag Portable Pet Bag Folding Fabric Pet Carrier Travel Carrier Bag For Pet Cage With Locking Safety Zippers",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJMY1174239",
+        "title": "Pet Carrier Small Size",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJJT1664634",
+        "title": "Square Pet Carrier Display Cage",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJYD2164619",
+        "title": "Pet Waterproof Blanket Dog Blanket",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJGY1130079",
+        "title": "Blanket Pet Quilt Fall Winter Pet Thicken Blanket Warm Flannel Sleeping Blanket",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY03655",
+        "title": "Pet blanket quilt",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJFU2596446",
+        "title": "Dog Bed 70x",
+        "score": 65,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJGY1636313",
+        "title": "Dog Bed",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJJJCWGY02736",
+        "title": "Dog Bed",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1081175",
+        "title": "Pet Print Bell Cat Collar Cat Strap",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1007380",
+        "title": "Pet Collar Cat Collar With Bell Cat Collar",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1165572",
+        "title": "Cat Collar Pet Cat Collar With Bell",
+        "score": 82,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJJJCWGY01133",
+        "title": "Dog grooming large beauty",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJMY2078412",
+        "title": "Dog Brush Cat Brush Pet Grooming Brush- Shedding Grooming Tools",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJJJCWGY02183",
+        "title": "Pet grooming tool dog comb",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJJJCWMY00973",
+        "title": "Pet travel bag",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJYD2386773",
+        "title": "Portable Cat Bag Travel Pet Bag",
+        "score": 90,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 8.62,
+        "sale_price": 30.17,
+        "margin_percent": 71.43,
+        "profit": 21.55,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10595372007766,
+                "title": "Portable Cat Travel Bag - Easy and Convenient",
+                "body_html": "Travel with ease using our portable cat travel bag. Designed for comfort and convenience, perfect for cat owners on the go.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T19:22:07+01:00",
+                "handle": "portable-cat-travel-bag-easy-and-convenient",
+                "updated_at": "2026-05-15T19:22:07+01:00",
+                "published_at": "2026-05-15T19:22:07+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "cat travel, pet carrier, portable bag, travel pet bag",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10595372007766",
+                "variants": [
+                  {
+                    "id": 53706117087574,
+                    "product_id": 10595372007766,
+                    "title": "Default Title",
+                    "price": "30.17",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T19:22:07+01:00",
+                    "updated_at": "2026-05-15T19:22:08+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJYD2386773",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56272689889622,
+                    "inventory_quantity": 30532,
+                    "old_inventory_quantity": 30532,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53706117087574",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13623927374166,
+                    "product_id": 10595372007766,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77743119925590,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10595372007766,
+                    "created_at": "2026-05-15T19:22:07+01:00",
+                    "updated_at": "2026-05-15T19:22:07+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60412033728854",
+                    "width": 800,
+                    "height": 800,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/f5818bc9-e8f0-4f73-a4fb-8e7b74fae079.jpg?v=1778869327",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77743119925590,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10595372007766,
+                  "created_at": "2026-05-15T19:22:07+01:00",
+                  "updated_at": "2026-05-15T19:22:07+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60412033728854",
+                  "width": 800,
+                  "height": 800,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/f5818bc9-e8f0-4f73-a4fb-8e7b74fae079.jpg?v=1778869327",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Portable Cat Travel Bag - Easy and Convenient",
+              "body_html": "Travel with ease using our portable cat travel bag. Designed for comfort and convenience, perfect for cat owners on the go.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "cat travel, portable bag, pet carrier, travel pet bag",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/quick/product/f5818bc9-e8f0-4f73-a4fb-8e7b74fae079.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJYD2386773",
+                  "price": "30.17",
+                  "inventory_quantity": 30532
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_19-22-07.json"
+        }
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJJJCWGY02906",
+        "title": "New pet supplies Pet bag dog food travel bag",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY01010",
+        "title": "Cat scratcher boxed",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 1.65,
+        "sale_price": 9.99,
+        "margin_percent": 83.48,
+        "profit": 8.34,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10595391832406,
+                "title": "Cat scratcher boxed",
+                "body_html": "AI generated Shopify draft product.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T19:22:23+01:00",
+                "handle": "cat-scratcher-boxed",
+                "updated_at": "2026-05-15T19:22:24+01:00",
+                "published_at": "2026-05-15T19:22:23+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10595391832406",
+                "variants": [
+                  {
+                    "id": 53706137895254,
+                    "product_id": 10595391832406,
+                    "title": "Default Title",
+                    "price": "9.99",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T19:22:24+01:00",
+                    "updated_at": "2026-05-15T19:22:24+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJJJCWMY01010",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56272710566230,
+                    "inventory_quantity": 28055,
+                    "old_inventory_quantity": 28055,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53706137895254",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13623947952470,
+                    "product_id": 10595391832406,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77743138111830,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10595391832406,
+                    "created_at": "2026-05-15T19:22:24+01:00",
+                    "updated_at": "2026-05-15T19:22:24+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60412053160278",
+                    "width": 800,
+                    "height": 800,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/3239081222976.jpg?v=1778869344",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77743138111830,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10595391832406,
+                  "created_at": "2026-05-15T19:22:24+01:00",
+                  "updated_at": "2026-05-15T19:22:24+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60412053160278",
+                  "width": 800,
+                  "height": 800,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/3239081222976.jpg?v=1778869344",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Cat scratcher boxed",
+              "body_html": "AI generated Shopify draft product.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/20200813/3239081222976.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJJJCWMY01010",
+                  "price": "9.99",
+                  "inventory_quantity": 28055
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_19-22-24.json"
+        }
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY00923",
+        "title": "Scratcher cat toy",
+        "score": 90,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 0.6,
+        "sale_price": 9.99,
+        "margin_percent": 93.99,
+        "profit": 9.39,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10595395141974,
+                "title": "Scratcher cat toy",
+                "body_html": "AI generated Shopify draft product.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T19:22:27+01:00",
+                "handle": "scratcher-cat-toy",
+                "updated_at": "2026-05-15T19:22:27+01:00",
+                "published_at": "2026-05-15T19:22:26+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10595395141974",
+                "variants": [
+                  {
+                    "id": 53706141204822,
+                    "product_id": 10595395141974,
+                    "title": "Default Title",
+                    "price": "9.99",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T19:22:27+01:00",
+                    "updated_at": "2026-05-15T19:22:27+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJJJCWMY00923",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56272713908566,
+                    "inventory_quantity": 39140,
+                    "old_inventory_quantity": 39140,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53706141204822",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13623951688022,
+                    "product_id": 10595395141974,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77743143321942,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10595395141974,
+                    "created_at": "2026-05-15T19:22:27+01:00",
+                    "updated_at": "2026-05-15T19:22:27+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60412056240470",
+                    "width": 1000,
+                    "height": 1000,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/554094446566.jpg?v=1778869347",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77743143321942,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10595395141974,
+                  "created_at": "2026-05-15T19:22:27+01:00",
+                  "updated_at": "2026-05-15T19:22:27+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60412056240470",
+                  "width": 1000,
+                  "height": 1000,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/554094446566.jpg?v=1778869347",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Scratcher cat toy",
+              "body_html": "AI generated Shopify draft product.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/20200725/554094446566.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJJJCWMY00923",
+                  "price": "9.99",
+                  "inventory_quantity": 39140
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_19-22-27.json"
+        }
+      }
+    ]
+  }
+}

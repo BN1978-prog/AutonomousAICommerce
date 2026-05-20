@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-20T21:34:13.969677+00:00",
+  "organic_sources_live": 4,
+  "paid_sources_connected": 2,
+  "active_paid_sources": [
+    "google_ads",
+    "meta_ads"
+  ],
+  "has_real_sales": false,
+  "traffic_learning_ready": true,
+  "reason": "paid_source_connected"
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-05-20T21:34:15.053705+00:00",
+  "campaigns_registered": 2,
+  "campaigns": [
+    {
+      "created_at": "2026-05-20T21:21:32.078363+00:00",
+      "sku": "CJJJCWMY00923",
+      "campaign_name": "AIC_TEST_CJJJCWMY00923",
+      "meta_campaign_id": "120251125801330093",
+      "status": "PAUSED",
+      "spend_enabled": false,
+      "source": "meta_live_api_create_paused_campaigns"
+    },
+    {
+      "created_at": "2026-05-20T21:21:32.078363+00:00",
+      "sku": "PET-BOWL-001",
+      "campaign_name": "AIC_TEST_PET-BOWL-001",
+      "meta_campaign_id": "120251125802910093",
+      "status": "PAUSED",
+      "spend_enabled": false,
+      "source": "meta_live_api_create_paused_campaigns"
+    }
+  ],
+  "status": "registered"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "sku": "CJJT2896696",
+    "score": 95,
+    "current_title": "CJJT2896696",
+    "description_length": 0,
+    "recommended_actions": [
+      "improve_title",
+      "improve_description"
+    ]
+  },
+  {
+    "sku": "PET-BOWL-001",
+    "score": 82,
+    "current_title": "PET-BOWL-001",
+    "description_length": 0,
+    "recommended_actions": [
+      "improve_title",
+      "improve_description",
+      "add_ai_hunter_tags"
+    ]
+  }
+]

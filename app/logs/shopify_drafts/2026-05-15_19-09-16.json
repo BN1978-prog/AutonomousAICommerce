@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T19:09:16.116278",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10594435596630,
+        "title": "Dog grooming large beauty",
+        "body_html": "AI generated Shopify draft product.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T19:09:16+01:00",
+        "handle": "dog-grooming-large-beauty",
+        "updated_at": "2026-05-15T19:09:16+01:00",
+        "published_at": null,
+        "template_suffix": null,
+        "published_scope": "web",
+        "tags": "",
+        "status": "draft",
+        "admin_graphql_api_id": "gid://shopify/Product/10594435596630",
+        "variants": [
+          {
+            "id": 53705137848662,
+            "product_id": 10594435596630,
+            "title": "Default Title",
+            "price": "12.57",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T19:09:16+01:00",
+            "updated_at": "2026-05-15T19:09:16+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJJJCWGY01133",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56271710552406,
+            "inventory_quantity": 51322,
+            "old_inventory_quantity": 51322,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53705137848662",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13622947152214,
+            "product_id": 10594435596630,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77741343015254,
+            "alt": null,
+            "position": 1,
+            "product_id": 10594435596630,
+            "created_at": "2026-05-15T19:09:16+01:00",
+            "updated_at": "2026-05-15T19:09:16+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60411104362838",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/147964846967820.jpg?v=1778868556",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77741343015254,
+          "alt": null,
+          "position": 1,
+          "product_id": 10594435596630,
+          "created_at": "2026-05-15T19:09:16+01:00",
+          "updated_at": "2026-05-15T19:09:16+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60411104362838",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/147964846967820.jpg?v=1778868556",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Dog grooming large beauty",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/20200307/147964846967820.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWGY01133",
+          "price": "12.57",
+          "inventory_quantity": 51322
+        }
+      ]
+    }
+  }
+}

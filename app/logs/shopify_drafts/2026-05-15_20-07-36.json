@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-15T20:07:36.318210",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10598764544342,
+        "title": "Versatile Pet Hair Cleaning Comb Brush",
+        "body_html": "Our versatile pet hair cleaning comb brush is designed to remove loose hair and tangles effortlessly.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T20:07:35+01:00",
+        "handle": "versatile-pet-hair-cleaning-comb-brush",
+        "updated_at": "2026-05-15T20:07:35+01:00",
+        "published_at": "2026-05-15T20:07:35+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "comb brush, hair removal, pet care, pet grooming",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10598764544342",
+        "variants": [
+          {
+            "id": 53709839302998,
+            "product_id": 10598764544342,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T20:07:35+01:00",
+            "updated_at": "2026-05-15T20:07:36+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJYD1794318",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56276412105046,
+            "inventory_quantity": 42294,
+            "old_inventory_quantity": 42294,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53709839302998",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13627471724886,
+            "product_id": 10598764544342,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77748943192406,
+            "alt": null,
+            "position": 1,
+            "product_id": 10598764544342,
+            "created_at": "2026-05-15T20:07:35+01:00",
+            "updated_at": "2026-05-15T20:07:35+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60415448121686",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/748197ec-8d28-476c-8a46-30f96c867a49.jpg?v=1778872055",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77748943192406,
+          "alt": null,
+          "position": 1,
+          "product_id": 10598764544342,
+          "created_at": "2026-05-15T20:07:35+01:00",
+          "updated_at": "2026-05-15T20:07:35+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60415448121686",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/748197ec-8d28-476c-8a46-30f96c867a49.jpg?v=1778872055",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Versatile Pet Hair Cleaning Comb Brush",
+      "body_html": "Our versatile pet hair cleaning comb brush is designed to remove loose hair and tangles effortlessly.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "pet grooming, comb brush, hair removal, pet care",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/748197ec-8d28-476c-8a46-30f96c867a49.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJYD1794318",
+          "price": "9.99",
+          "inventory_quantity": 42294
+        }
+      ]
+    }
+  },
+  "cost_price": 1.76,
+  "sale_price": 9.99,
+  "profit": 8.23,
+  "margin_percent": 82.38,
+  "sku": "CJYD1794318"
+}

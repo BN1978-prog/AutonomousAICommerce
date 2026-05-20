@@ -1,0 +1,540 @@
+{
+  "created_at": "2026-05-15T19:09:16.118294",
+  "payload": {
+    "keywords": [
+      "pet grooming",
+      "pet carrier",
+      "pet blanket",
+      "dog bed",
+      "cat collar",
+      "dog grooming",
+      "pet travel bag",
+      "cat scratcher",
+      "dog water bottle",
+      "pet bowl mat",
+      "dog raincoat",
+      "cat tunnel",
+      "pet cleaning brush"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "policy": {
+    "ok": true,
+    "mode": "balanced",
+    "max_real_drafts": 3,
+    "min_score": 85
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 3,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03008",
+        "title": "Pet grooming comb",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWMY01054",
+        "title": "Pet grooming scissors",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03016",
+        "title": "Pet grooming scissors",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJGY1294149",
+        "title": "Pet Travel Carrier Bag Portable Pet Bag Folding Fabric Pet Carrier Travel Carrier Bag For Pet Cage With Locking Safety Zippers",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJMY1174239",
+        "title": "Pet Carrier Small Size",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJJT1664634",
+        "title": "Square Pet Carrier Display Cage",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJYD2164619",
+        "title": "Pet Waterproof Blanket Dog Blanket",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY03655",
+        "title": "Pet blanket quilt",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY03794",
+        "title": "Pet warm blanket",
+        "score": 78,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJFU2596446",
+        "title": "Dog Bed 70x",
+        "score": 45,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJGY1636313",
+        "title": "Dog Bed",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 5.99,
+        "sale_price": 17.97,
+        "margin_percent": 66.67,
+        "profit": 11.98,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10594387165526,
+                "title": "Affordable Dog Bed",
+                "body_html": "A budget-friendly dog bed for all breeds.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T19:08:36+01:00",
+                "handle": "affordable-dog-bed-1",
+                "updated_at": "2026-05-15T19:08:36+01:00",
+                "published_at": null,
+                "template_suffix": null,
+                "published_scope": "web",
+                "tags": "affordable, dog bed, pet supplies",
+                "status": "draft",
+                "admin_graphql_api_id": "gid://shopify/Product/10594387165526",
+                "variants": [
+                  {
+                    "id": 53705088106838,
+                    "product_id": 10594387165526,
+                    "title": "Default Title",
+                    "price": "17.97",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T19:08:36+01:00",
+                    "updated_at": "2026-05-15T19:08:36+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJGY1636313",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56271661171030,
+                    "inventory_quantity": 79136,
+                    "old_inventory_quantity": 79136,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53705088106838",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13622896591190,
+                    "product_id": 10594387165526,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77741290815830,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10594387165526,
+                    "created_at": "2026-05-15T19:08:36+01:00",
+                    "updated_at": "2026-05-15T19:08:36+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60411054752086",
+                    "width": 800,
+                    "height": 800,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/b3ad9b11-8bf3-4ce6-942a-f4416665bb84_trans_6f3a483a-41d4-4710-837a-7385e3e3e109.jpg?v=1778868516",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77741290815830,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10594387165526,
+                  "created_at": "2026-05-15T19:08:36+01:00",
+                  "updated_at": "2026-05-15T19:08:36+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60411054752086",
+                  "width": 800,
+                  "height": 800,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/b3ad9b11-8bf3-4ce6-942a-f4416665bb84_trans_6f3a483a-41d4-4710-837a-7385e3e3e109.jpg?v=1778868516",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Affordable Dog Bed",
+              "body_html": "A budget-friendly dog bed for all breeds.",
+              "vendor": "CJdropshipping",
+              "status": "draft",
+              "tags": "dog bed, affordable, pet supplies",
+              "images": [
+                {
+                  "src": "https://oss-cf.cjdropshipping.com/product/2026/01/26/03/b3ad9b11-8bf3-4ce6-942a-f4416665bb84_trans.jpeg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJGY1636313",
+                  "price": "17.97",
+                  "inventory_quantity": 79136
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_19-08-36.json"
+        }
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJJJCWGY02736",
+        "title": "Dog Bed",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1081175",
+        "title": "Pet Print Bell Cat Collar Cat Strap",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 1.1,
+        "sale_price": 9.99,
+        "margin_percent": 88.99,
+        "profit": 8.89,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10594409447766,
+                "title": "Pet Print Bell Cat Collar Cat Strap",
+                "body_html": "AI generated Shopify draft product.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T19:08:54+01:00",
+                "handle": "pet-print-bell-cat-collar-cat-strap",
+                "updated_at": "2026-05-15T19:08:55+01:00",
+                "published_at": "2026-05-15T19:08:54+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10594409447766",
+                "variants": [
+                  {
+                    "id": 53705110552918,
+                    "product_id": 10594409447766,
+                    "title": "Default Title",
+                    "price": "9.99",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T19:08:54+01:00",
+                    "updated_at": "2026-05-15T19:08:55+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJMY1081175",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56271683256662,
+                    "inventory_quantity": 200001,
+                    "old_inventory_quantity": 200001,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53705110552918",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13622921003350,
+                    "product_id": 10594409447766,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77741315752278,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10594409447766,
+                    "created_at": "2026-05-15T19:08:54+01:00",
+                    "updated_at": "2026-05-15T19:08:54+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60411076510038",
+                    "width": 800,
+                    "height": 800,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1618463086771.jpg?v=1778868534",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77741315752278,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10594409447766,
+                  "created_at": "2026-05-15T19:08:54+01:00",
+                  "updated_at": "2026-05-15T19:08:54+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60411076510038",
+                  "width": 800,
+                  "height": 800,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1618463086771.jpg?v=1778868534",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Pet Print Bell Cat Collar Cat Strap",
+              "body_html": "AI generated Shopify draft product.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/1618463086771.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJMY1081175",
+                  "price": "9.99",
+                  "inventory_quantity": 200001
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_19-08-54.json"
+        }
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1007380",
+        "title": "Pet Collar Cat Collar With Bell Cat Collar",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1165572",
+        "title": "Cat Collar Pet Cat Collar With Bell",
+        "score": 82,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJJJCWGY01133",
+        "title": "Dog grooming large beauty",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 4.19,
+        "sale_price": 12.57,
+        "margin_percent": 66.67,
+        "profit": 8.38,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10594435596630,
+                "title": "Dog grooming large beauty",
+                "body_html": "AI generated Shopify draft product.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T19:09:16+01:00",
+                "handle": "dog-grooming-large-beauty",
+                "updated_at": "2026-05-15T19:09:16+01:00",
+                "published_at": null,
+                "template_suffix": null,
+                "published_scope": "web",
+                "tags": "",
+                "status": "draft",
+                "admin_graphql_api_id": "gid://shopify/Product/10594435596630",
+                "variants": [
+                  {
+                    "id": 53705137848662,
+                    "product_id": 10594435596630,
+                    "title": "Default Title",
+                    "price": "12.57",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T19:09:16+01:00",
+                    "updated_at": "2026-05-15T19:09:16+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJJJCWGY01133",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56271710552406,
+                    "inventory_quantity": 51322,
+                    "old_inventory_quantity": 51322,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53705137848662",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13622947152214,
+                    "product_id": 10594435596630,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77741343015254,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10594435596630,
+                    "created_at": "2026-05-15T19:09:16+01:00",
+                    "updated_at": "2026-05-15T19:09:16+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60411104362838",
+                    "width": 800,
+                    "height": 800,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/147964846967820.jpg?v=1778868556",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77741343015254,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10594435596630,
+                  "created_at": "2026-05-15T19:09:16+01:00",
+                  "updated_at": "2026-05-15T19:09:16+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60411104362838",
+                  "width": 800,
+                  "height": 800,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/147964846967820.jpg?v=1778868556",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Dog grooming large beauty",
+              "body_html": "AI generated Shopify draft product.",
+              "vendor": "CJdropshipping",
+              "status": "draft",
+              "tags": "",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/20200307/147964846967820.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJJJCWGY01133",
+                  "price": "12.57",
+                  "inventory_quantity": 51322
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_19-09-16.json"
+        }
+      }
+    ]
+  }
+}

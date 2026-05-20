@@ -1,0 +1,35 @@
+[
+  {
+    "sku": "PET-BOWL-001",
+    "source_channel": "ai_hunter",
+    "source_price": 12.7,
+    "target_channel": "ebay/shopify",
+    "target_price": 22.86,
+    "shipping_cost": 2.5,
+    "fees": 1.9,
+    "estimated_profit": 5.76,
+    "decision": "publish"
+  },
+  {
+    "sku": "CJYD2896648",
+    "source_channel": "cj",
+    "source_price": 5.22,
+    "target_channel": "ebay/shopify",
+    "target_price": 9.4,
+    "shipping_cost": 2.5,
+    "fees": 0.78,
+    "estimated_profit": 0.9,
+    "decision": "watch"
+  },
+  {
+    "sku": "CJJT2896696",
+    "source_channel": "cj",
+    "source_price": 4.16,
+    "target_channel": "ebay/shopify",
+    "target_price": 7.49,
+    "shipping_cost": 2.5,
+    "fees": 0.62,
+    "estimated_profit": 0.21,
+    "decision": "watch"
+  }
+]

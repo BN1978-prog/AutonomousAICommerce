@@ -1,0 +1,274 @@
+{
+  "created_at": "2026-05-15T16:55:33.862962",
+  "payload": {
+    "keywords": [
+      "cat bed",
+      "dog leash",
+      "pet brush",
+      "dog toy",
+      "cat toy",
+      "pet grooming",
+      "pet carrier",
+      "pet feeder",
+      "pet water bottle",
+      "pet blanket"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 0,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "cat bed",
+        "sku": "CJMY1112786",
+        "title": "Four Seasons Universal Cat Recliner Cat Bed",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat bed",
+        "sku": "CJMY1231877",
+        "title": "Cat Tent Bed Frame, Dog Bed, Pet Bed, Cat Bed",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat bed",
+        "sku": "CJJJCWMY00416",
+        "title": "Cat bed cat hammock",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog leash",
+        "sku": "CJJJCWGX00530",
+        "title": "Dog Leash - Durable Pet Leash",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog leash",
+        "sku": "CJJJCWGY01769",
+        "title": "Dog Leash & Collar Set",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog leash",
+        "sku": "CJGX1225741",
+        "title": "Multi-Function Dog Leash & Collar",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet brush",
+        "sku": "CJMY2073717",
+        "title": "Pet Brush",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet brush",
+        "sku": "CJGY2073146",
+        "title": "Pet Brush",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet brush",
+        "sku": "CJJJCWGY01351",
+        "title": "Pet hair brush hair brush",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog toy",
+        "sku": "CJGY1082751",
+        "title": "Pet Slow Feeder Dog Toy Cute Funny Rubber Dog Ball Toy",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog toy",
+        "sku": "CJGY1229991",
+        "title": "Dog Simulation Peanut Toy Dog Toy",
+        "score": 78,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog toy",
+        "sku": "CJJJCWGY00118",
+        "title": "dog toy",
+        "score": 65,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat toy",
+        "sku": "CJMY1151470",
+        "title": "Pet Cat Self-hey Toy Smart Funny Cat Triangle Turntable Electric Toy Cat Scratcher",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat toy",
+        "sku": "CJGY1208532",
+        "title": "Big Bell Ball Cat Toy Ball Funny Cat Toy Cat Toy Cat Toy Pet Hollow Toy Ball",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat toy",
+        "sku": "CJJJCWMY00847",
+        "title": "Automatic electric cat toy cat toy",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03008",
+        "title": "Pet grooming comb",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWMY01054",
+        "title": "Pet grooming scissors",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03016",
+        "title": "Pet grooming scissors",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJGY1294149",
+        "title": "Pet Travel Carrier Bag Portable Pet Bag Folding Fabric Pet Carrier Travel Carrier Bag For Pet Cage With Locking Safety Zippers",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJMY1174239",
+        "title": "Pet Carrier Small Size",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJNS1581122",
+        "title": "Cat Carrier Soft Dog Carrier Foldable Portable Bag Pet",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet feeder",
+        "sku": "CJYD1544909",
+        "title": "Pet Water Feeder Cat Automatic Pet Feeder",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet feeder",
+        "sku": "CJJT1579467",
+        "title": "Smart Pet Automatic Feeder Water Feeder",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet feeder",
+        "sku": "CJJJJTJT38958",
+        "title": "Pet feeder automatic",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet water bottle",
+        "sku": "CJGY1517102",
+        "title": "Pet Water Bottle Travel Bottle Pet Cat And Dog Water Bottle",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet water bottle",
+        "sku": "CJJJCWGY02436",
+        "title": "Pet folding water bottle",
+        "score": 78,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet water bottle",
+        "sku": "CJJJCWGY00314",
+        "title": "500L Pet Water Bottle Travel Sports Drinking Water Outdoor Drinking Water Bottle Drinking Water Bottle",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJYD2164619",
+        "title": "Pet Waterproof Blanket Dog Blanket",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY01007",
+        "title": "Lambskin Pet Blanket",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY03463",
+        "title": "Pet electric blanket",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      }
+    ]
+  }
+}

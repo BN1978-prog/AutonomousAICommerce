@@ -1,0 +1,18 @@
+{
+  "job_id": "SOCK-1-ebay",
+  "channel": "ebay",
+  "payload": {
+    "sku": "SOCK-1"
+  },
+  "status": "failed_preview",
+  "attempts": 1,
+  "created_at": "2026-05-17T22:51:32.060958",
+  "updated_at": "2026-05-17T22:51:50.713210",
+  "last_error": "ebay API adapter not connected yet",
+  "result": {
+    "ok": false,
+    "status": "failed_preview",
+    "channel": "ebay",
+    "message": "ebay API adapter not connected yet"
+  }
+}

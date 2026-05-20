@@ -1,0 +1,478 @@
+{
+  "created_at": "2026-05-15T20:13:37.603550",
+  "payload": {
+    "keywords": [
+      "pet shampoo",
+      "dog socks",
+      "cat harness",
+      "dog bed",
+      "cat collar",
+      "dog grooming",
+      "pet travel bag",
+      "cat scratcher",
+      "dog water bottle",
+      "pet bowl mat",
+      "dog raincoat",
+      "cat tunnel",
+      "pet cleaning brush"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "policy": {
+    "ok": true,
+    "mode": "balanced",
+    "max_real_drafts": 3,
+    "min_score": 85
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 1,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJJT2352016",
+        "title": "Pet Shampoo",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 1.26,
+        "sale_price": 9.99,
+        "margin_percent": 87.39,
+        "profit": 8.73,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10599021183318,
+                "title": "Premium Pet Shampoo for Healthy Fur",
+                "body_html": "Keep your pet's coat clean and shiny with our premium pet shampoo. Gentle formula suitable for all fur types.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T20:10:57+01:00",
+                "handle": "premium-pet-shampoo-for-healthy-fur",
+                "updated_at": "2026-05-15T20:10:57+01:00",
+                "published_at": "2026-05-15T20:10:57+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "cat grooming, dog grooming, pet care, pet shampoo",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10599021183318",
+                "variants": [
+                  {
+                    "id": 53710137065814,
+                    "product_id": 10599021183318,
+                    "title": "Default Title",
+                    "price": "9.99",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T20:10:57+01:00",
+                    "updated_at": "2026-05-15T20:10:57+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJJT2352016",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56276709867862,
+                    "inventory_quantity": 7698,
+                    "old_inventory_quantity": 7698,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53710137065814",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13627750908246,
+                    "product_id": 10599021183318,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77749393391958,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10599021183318,
+                    "created_at": "2026-05-15T20:10:57+01:00",
+                    "updated_at": "2026-05-15T20:10:57+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60415737397590",
+                    "width": 836,
+                    "height": 836,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1aa59561-bf32-4dbe-ad96-d3db3a58fc86.jpg?v=1778872257",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77749393391958,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10599021183318,
+                  "created_at": "2026-05-15T20:10:57+01:00",
+                  "updated_at": "2026-05-15T20:10:57+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60415737397590",
+                  "width": 836,
+                  "height": 836,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1aa59561-bf32-4dbe-ad96-d3db3a58fc86.jpg?v=1778872257",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Premium Pet Shampoo for Healthy Fur",
+              "body_html": "Keep your pet's coat clean and shiny with our premium pet shampoo. Gentle formula suitable for all fur types.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "pet care, pet shampoo, dog grooming, cat grooming",
+              "images": [
+                {
+                  "src": "https://oss-cf.cjdropshipping.com/product/2025/04/12/05/1aa59561-bf32-4dbe-ad96-d3db3a58fc86.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJJT2352016",
+                  "price": "9.99",
+                  "inventory_quantity": 7698
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_20-10-57.json"
+        }
+      },
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJJT2594074",
+        "title": "Pet Shampoo",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJSP2733732",
+        "title": "Pet Shampoo",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJJJCWGD00115",
+        "title": "The dog dog socks",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJJJCWMY01517",
+        "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJGD1352013",
+        "title": "Dog Socks Cotton Socks Pet Supplies",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJMY1076688",
+        "title": "Cat Chain Traction Rope Set, Chest Harness, Cat Harness, Cat Collar, Dog Leash",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJJJCWMY01355",
+        "title": "Anti-strike cat traction cat harness",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJJJCWMY01345",
+        "title": "Anti-skidding cat harness",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJFU2596446",
+        "title": "Dog Bed 70x",
+        "score": 45,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJGY1636313",
+        "title": "Dog Bed",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJJJCWGY02736",
+        "title": "Dog Bed",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1081175",
+        "title": "Pet Print Bell Cat Collar Cat Strap",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1007380",
+        "title": "Pet Collar Cat Collar With Bell Cat Collar",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1165572",
+        "title": "Cat Collar Pet Cat Collar With Bell",
+        "score": 82,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJJJCWGY01133",
+        "title": "Dog grooming large beauty",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJMY2078412",
+        "title": "Dog Brush Cat Brush Pet Grooming Brush- Shedding Grooming Tools",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJJJCWGY02183",
+        "title": "Pet grooming tool dog comb",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJJJCWMY00973",
+        "title": "Pet travel bag",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJYD2386773",
+        "title": "Portable Cat Bag Travel Pet Bag",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJJJCWGY02906",
+        "title": "New pet supplies Pet bag dog food travel bag",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY01010",
+        "title": "Cat scratcher boxed",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY00923",
+        "title": "Scratcher cat toy",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY01055",
+        "title": "Cat scratcher nest",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog water bottle",
+        "sku": "CJDT2372258",
+        "title": "Portable Dog Water Bottle Go Out Dog Walking Travel Bottle Puppy Water Leak Proof Dog Water Drink Bottle",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog water bottle",
+        "sku": "CJJJCWGY00675",
+        "title": "Pet Outdoor Foldable Bottle Dog Travel Water Bottle Dog Water Dispenser",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog water bottle",
+        "sku": "CJJJCWGY00009",
+        "title": "Water Bottle For Dog",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJCC1228639",
+        "title": "Zeze Pet Meal Mat Cat Bowl Mat Pet Non Slip Mat",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJJJCWGY01763",
+        "title": "Pet Bowl Silicone Bone Shape Mat",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJJJCWMY00417",
+        "title": "PVC New design Pet bowl Mat",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog raincoat",
+        "sku": "CJJJCWGY02924",
+        "title": "Dog raincoat",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog raincoat",
+        "sku": "CJGD1113594",
+        "title": "British Dog Raincoat Pet Raincoat",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog raincoat",
+        "sku": "CJJJCWGY00319",
+        "title": "Spring and summer new dog raincoat waterproof cape dog reflective raincoat large dog raincoat",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat tunnel",
+        "sku": "CJJJCWMY01582",
+        "title": "Cat toy S-shaped cat tunnel foldable cat tunnel",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat tunnel",
+        "sku": "CJMY2126410",
+        "title": "Cat Tunnel Pet Toy Cat S Tunnel Foldable Cat Tunnel Cat Drill Bucket Toy",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat tunnel",
+        "sku": "CJJJCWMY01293",
+        "title": "Velvet pet tunnel cat tunnel",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet cleaning brush",
+        "sku": "CJJJJTJT05102",
+        "title": "Pet cleaning brush",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet cleaning brush",
+        "sku": "CJGY1237895",
+        "title": "Pet Roller Cleaning Brush",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet cleaning brush",
+        "sku": "CJYD1794318",
+        "title": "Pet Hair Cleaning Comb Brush",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      }
+    ]
+  }
+}

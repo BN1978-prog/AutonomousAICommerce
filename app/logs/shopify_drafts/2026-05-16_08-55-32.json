@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-16T08:55:32.495221",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10656877674838,
+        "title": "Easy Pet Cleaning Bath Brush",
+        "body_html": "Make bath time a breeze with our easy pet cleaning bath brush, designed for gentle cleaning.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-16T08:55:31+01:00",
+        "handle": "easy-pet-cleaning-bath-brush",
+        "updated_at": "2026-05-16T08:55:31+01:00",
+        "published_at": "2026-05-16T08:55:31+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "cleaning brush, grooming, pet bath, pet hygiene",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10656877674838",
+        "variants": [
+          {
+            "id": 53770563289430,
+            "product_id": 10656877674838,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-16T08:55:31+01:00",
+            "updated_at": "2026-05-16T08:55:32+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJMY1119271",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56337200808278,
+            "inventory_quantity": 98547,
+            "old_inventory_quantity": 98547,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53770563289430",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13688514675030,
+            "product_id": 10656877674838,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77823561302358,
+            "alt": null,
+            "position": 1,
+            "product_id": 10656877674838,
+            "created_at": "2026-05-16T08:55:31+01:00",
+            "updated_at": "2026-05-16T08:55:31+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60483284599126",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1620524327765.jpg?v=1778918131",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77823561302358,
+          "alt": null,
+          "position": 1,
+          "product_id": 10656877674838,
+          "created_at": "2026-05-16T08:55:31+01:00",
+          "updated_at": "2026-05-16T08:55:31+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60483284599126",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1620524327765.jpg?v=1778918131",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Easy Pet Cleaning Bath Brush",
+      "body_html": "Make bath time a breeze with our easy pet cleaning bath brush, designed for gentle cleaning.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "pet bath, cleaning brush, grooming, pet hygiene",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/1620524327765.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJMY1119271",
+          "price": "9.99",
+          "inventory_quantity": 98547
+        }
+      ]
+    }
+  },
+  "cost_price": 0.93,
+  "sale_price": 9.99,
+  "profit": 9.06,
+  "margin_percent": 90.69,
+  "sku": "CJMY1119271"
+}

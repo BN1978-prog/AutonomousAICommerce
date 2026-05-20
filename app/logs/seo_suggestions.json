@@ -1,0 +1,27 @@
+[
+  {
+    "sku": "CJJT2896696",
+    "suggested_title": "High-Scoring Trending Product for Everyday Use",
+    "suggested_description": "Selected by the autonomous product scoring system as a high-potential item. Suitable for testing in marketplace and Shopify promotion campaigns.",
+    "suggested_tags": [
+      "trending product",
+      "high score",
+      "promotion candidate",
+      "shopify product"
+    ],
+    "auto_apply": false
+  },
+  {
+    "sku": "PET-BOWL-001",
+    "suggested_title": "Non-Slip Pet Feeding Bowl for Cats and Dogs",
+    "suggested_description": "Practical non-slip pet feeding bowl designed for everyday use with cats and dogs. Easy to place, simple to clean, and suitable for daily feeding routines.",
+    "suggested_tags": [
+      "pet bowl",
+      "dog bowl",
+      "cat bowl",
+      "pet feeding",
+      "ai hunter pick"
+    ],
+    "auto_apply": false
+  }
+]

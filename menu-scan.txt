@@ -1,0 +1,2073 @@
+﻿
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:1::root{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:2:  --bg:#0f172a;
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:3:  --sidebar:#020617;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:4:  --panel:#111827;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:5:  --card:#1e293b;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:6:  --border:#334155;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:7:  --text:#e5e7eb;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:8:  --muted:#94a3b8;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:24:  color:var(--text);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:25:  font-family:Inter,Segoe UI,sans-serif;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:26:  display:flex;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:27:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:28:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:29:.sidebar{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:30:  width:240px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:31:  min-height:100vh;
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:32:  background:var(--sidebar);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:33:  border-right:1px solid #0f172a;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:34:  padding:28px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:35:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:36:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:37:.logo{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:38:  font-size:28px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:39:  font-weight:800;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:40:  margin-bottom:40px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:41:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:42:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:43:.sidebar nav a{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:44:  display:block;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:45:  padding:14px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:46:  border-radius:14px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:47:  margin-bottom:10px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:48:  color:var(--muted);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:49:  text-decoration:none;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:50:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:51:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:52:.sidebar nav a.active,
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:53:.sidebar nav a:hover{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:54:  background:#1e293b;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:55:  color:white;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:56:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:57:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:58:.main{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:224:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:225:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:226:    display:block;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:227:  }
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:228:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:229:  .sidebar{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:230:    width:100%;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:231:    min-height:auto;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:232:  }
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:233:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:234:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:323:  color:#8fd3ff;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:324:  overflow:auto;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:325:  max-height:400px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:326:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:327:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:328:.products-table{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:329:  width:100%;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:330:  border-collapse:collapse;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:331:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:332:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:333:.products-table th,
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:334:.products-table td{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:335:  border-bottom:1px solid #22345c;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:336:  padding:14px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:337:  text-align:left;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:338:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:339:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:340:.products-table tr:hover{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:341:  background:#111c35;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:342:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:343:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:344:.badge{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:345:  padding:6px 10px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:719:  gap:16px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:720:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:721:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:722:body.light-mode{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:723:  --bg:#f1f5f9;
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:724:  --sidebar:#ffffff;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:725:  --panel:#ffffff;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:726:  --card:#e2e8f0;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:727:  --border:#cbd5e1;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:728:  --text:#0f172a;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:729:  --muted:#475569;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:795:  margin-bottom:16px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:796:  flex-wrap: nowrap;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:797:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:798:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:799:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.css:800:.reports-list{
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:801:  display:flex;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:802:  flex-direction:column;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:803:  gap:12px;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:804:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.css:805:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:1:<!doctype html>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:2:<html lang="en">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:3:<head>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:4:  <meta charset="utf-8" />
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:5:  <title>Autonomous AI Commerce Dashboard</title>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:6:  <meta name="viewport" content="width=device-width, 
+initial-scale=1" />
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:7:  <link rel="stylesheet" href="/static/dashboard.css" />
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:8:</head>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:9:<body>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:10:<aside class="sidebar">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:11:  <div class="logo">AIC</div>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:12:  <nav>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:13:    <a class="active">Dashboard</a>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:14:    <a>Automation</a>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:15:    <a>Products</a>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:16:    <a>Suppliers</a>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:17:    <a>Profit</a>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:18:    <a>Safety</a>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:19:    <a>Reports</a>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:20:  </nav>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:21:</aside>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:22:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:23:<main class="main">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:24:  <header class="topbar">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:25:    <div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:26:      <h1>Autonomous AI Commerce</h1>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:27:      <p>Professional admin control center</p>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:28:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:29:    <div class="top-actions">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:30:      <button onclick="refreshDashboard()">Refresh</button>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:31:      <button class="primary" onclick="runFullDaily()">Daily 
+Run</button>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:32:      <button class="danger" onclick="importNow()">Import 
+Now</button>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:33:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:34:  </header>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:35:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:36:  <section class="cards">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:37:    <div class="card"><span>System Health</span><strong 
+id="health">LOADING</strong></div>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:38:    <div class="card"><span>Active Products</span><strong 
+id="active_products">0</strong></div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:39:    <div class="card"><span>Open Orders</span><strong 
+id="open_orders">0</strong></div>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:40:    <div class="card"><span>Daily Profit</span><strong 
+id="profit">£0</strong></div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:41:    <div class="card"><span>Daily Spend</span><strong 
+id="spend">£0</strong></div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:42:    <div class="card"><span>Risk Level</span><strong 
+id="risk">LOW</strong></div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:43:  </section>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:44:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:45:  <section class="grid">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:46:    <div class="panel">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:47:      <h2>System Status</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:48:      <div class="indicator-grid">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:49:        <div class="indicator online"><span></span> Backend 
+API</div>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:50:        <div class="indicator online"><span></span> 
+Dashboard</div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:51:        <div class="indicator warning"><span></span> Shopify 
+Safe Mode</div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:52:        <div class="indicator online"><span></span> Supplier 
+Sandbox</div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:53:        <div class="indicator online"><span></span> AI 
+Governor</div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:54:        <div class="indicator warning"><span></span> Dry-run 
+Active</div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:55:      </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:73:    <div class="panel wide">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:74:      <h2>Semi-Auto Workflow</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:75:      <div class="workflow-grid">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:76:        <div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:77:          <label>Keywords</label>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:78:          <input id="workflow_keywords" value="pet products">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:79:        </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:80:        <div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:81:          <label>Marketplace</label>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:82:          <select id="workflow_marketplace">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:83:            <option value="shopify">Shopify</option>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:84:            <option value="mock">Mock</option>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:85:            <option value="ebay">eBay</option>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:86:          </select>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:87:        </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:88:        <div>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:89:          <label>Max Products</label>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:90:          <input type="number" id="workflow_max_products" 
+value="5">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:91:        </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:92:      </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:93:      <button class="primary" onclick="runDaily()">Run 
+Workflow</button>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:94:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:95:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:96:    <div class="panel wide">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:97:      <h2>Safety Warnings</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:98:      <table>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:99:        <thead>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:100:          
+<tr><th>Area</th><th>Status</th><th>Details</th></tr>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:101:        </thead>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:102:        <tbody id="warnings"></tbody>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:104:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:105:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:106:    <div class="panel wide">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:107:      <h2>Activity Feed</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:108:      <div id="activity_feed" class="activity-feed">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:109:        <div class="activity-item">Dashboard loaded</div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:110:      </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:111:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:112:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:113:    <div class="panel wide">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:114:      <h2>Last Run Report</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:115:      <pre id="run_report" class="run-report">No workflow 
+run yet.</pre>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:116:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:117:      <div class="panel wide">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:118:      <h2>Products Queue</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:119:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:120:      <div class="queue-toolbar">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:121:        <input id="queue_search" placeholder="Search 
+products..." oninput="filterProductsQueue()">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:122:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:123:        <select id="queue_filter" 
+onchange="filterProductsQueue()">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:124:          <option value="all">All statuses</option>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:125:          <option value="approved">Approved</option>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:126:          <option value="review">Review</option>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:127:          <option value="blocked">Blocked</option>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:128:        </select>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:129:      </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:130:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:131:      <table class="products-table">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:132:        <thead>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:133:          <tr>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:134:            <th>Product</th>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:135:            <th>Status</th>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:136:            <th>Margin</th>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:137:            <th>Marketplace</th>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:138:          </tr>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:139:        </thead>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:140:        <tbody id="products_queue">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:141:  <tr>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:142:    <td colspan="4">No workflow products yet.</td>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:143:  </tr>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:144:</tbody>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:145:      </table>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:146:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:147:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:149:      <h2>Live Activity</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:150:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:151:      <div class="utility-actions">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:152:        <button onclick="exportRunReport()">Export Run 
+CSV</button>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:153:        <button onclick="clearActivity()">Clear 
+Activity</button>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:154:        <button onclick="resetDashboardUI()">Reset 
+UI</button>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:155:      </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:156:      <div id="activity_feed" class="activity-feed">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:157:        <div class="activity-item">Dashboard loaded</div>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:158:        <div class="activity-item">Safety governor 
+active</div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:159:        <div class="activity-item">Waiting for workflow 
+execution</div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:160:      </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:161:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:162:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:163:    <div class="panel">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:166:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:167:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:168:  </section>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:169:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:170:<section class="panel">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:171:  <h2>Profit Analytics</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:172:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:173:  <div class="chart-box">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:174:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:175:    <div class="chart-bars">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:176:      <div class="chart-bar" style="height:35%"></div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:201:    <div id="workflow_progress" class="progress-bar"></div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:202:  </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:203:</section>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:204:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:205:<section class="panel">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:206:  <h2>Production Safety Monitor</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:207:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:208:  <div class="monitor-grid">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:209:    <div class="monitor-card">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:210:      <span>Dry-run</span>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:211:      <strong id="monitor_dry_run">ON</strong>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:272:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:273:  </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:274:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:275:  <div class="emergency-box">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:276:    <h2>Emergency Stop</h2>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:277:    <p>This UI switch blocks semi-auto execution locally in 
+the dashboard. Backend safety rules still remain active.</p>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:278:    <button class="danger" 
+onclick="toggleEmergencyStop()">Toggle Emergency Stop</button>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:279:    <p><strong>Status:</strong> <span 
+id="emergency_status">OFF</span></p>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:280:  </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:281:</section>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:282:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:283:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:284:<section class="panel">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:285:  <h2>Dashboard Settings</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:286:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:287:  <div class="settings-grid">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:288:    <div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:289:      <label>Theme</label>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:290:      <select id="setting_theme" 
+onchange="saveDashboardSettings()">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:291:        <option value="dark">Dark</option>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:292:        <option value="light">Light</option>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:293:      </select>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:294:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:295:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:296:    <div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:297:      <label>Auto-refresh seconds</label>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:298:      <input type="number" id="setting_refresh" value="120" 
+onchange="saveDashboardSettings()">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:299:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:300:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:301:    <div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:302:      <label>Default Keywords</label>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:303:      <input id="setting_keywords" value="pet products" 
+onchange="saveDashboardSettings()">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:304:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:305:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:306:    <div>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:307:      <label>Default Max Products</label>
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:308:      <input type="number" id="setting_max_products" 
+value="5" onchange="saveDashboardSettings()">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:309:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:310:  </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:311:</section>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:312:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:313:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:314:<section class="panel">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:315:  <h2>Dashboard Health Debug</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:316:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:317:  <div class="debug-grid">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:318:    <div class="debug-card">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:319:      <span>Status API</span>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:320:      <strong id="debug_status_api">UNKNOWN</strong>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:329:      <span>Last Refresh</span>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:330:      <strong id="debug_last_refresh">NEVER</strong>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:331:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:332:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:333:    <div class="debug-card">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:334:      <span>Dashboard JS</span>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:335:      <strong id="debug_js">ACTIVE</strong>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:336:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:337:  </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:338:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:339:  <div id="debug_last_error" class="debug-error">No errors 
+detected.</div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:351:  <pre id="log_viewer" class="log-viewer">No logs loaded 
+yet. Run a workflow or refresh logs.</pre>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:352:</section>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:353:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:354:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:355:<section class="panel">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:356:  <h2>Reports Center</h2>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:357:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:358:  <div class="utility-actions">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:359:    <button onclick="refreshReports()">Refresh 
+Reports</button>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:360:  </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:361:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:362:  <div id="reports_list" class="reports-list">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:363:    <div class="report-item">
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:364:      <div>No reports loaded yet.</div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:365:      <span>Idle</span>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:366:    </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:367:  </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:368:</section>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:369:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:391:  item.textContent = "[" + new Date().toLocaleTimeString() 
++ "] " + message;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:392:  feed.prepend(item);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:393:  while (feed.children.length > 12) 
+feed.removeChild(feed.lastChild);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:394:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:395:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:396:async function refreshDashboard() {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:397:  try {
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:398:    const status = await api("/dashboard/status");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:399:    document.getElementById("debug_status_api").textContent 
+= "OK";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:400:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:401:    const metrics = await api("/dashboard/metrics");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:402:    
+document.getElementById("debug_metrics_api").textContent = "OK";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:403:    
+document.getElementById("debug_last_refresh").textContent = new Date().toLocaleTimeString();
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:404:    document.getElementById("debug_last_error").textContent 
+= "No errors detected.";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:405:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:406:    document.getElementById("health").textContent = 
+"ONLINE";
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:407:    document.getElementById("active_products").textContent 
+= metrics.active_products ?? 0;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:408:    document.getElementById("open_orders").textContent = 
+metrics.open_orders ?? 0;
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:409:    document.getElementById("profit").textContent = 
+money(metrics.estimated_daily_profit);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:410:    document.getElementById("spend").textContent = 
+money(metrics.estimated_daily_spend);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:411:    document.getElementById("risk").textContent = 
+(metrics.risk_level || status.risk_level || "low").toUpperCase();
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:412:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:413:    const autonomy = status.autonomy || {};
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:414:    document.getElementById("autonomy_enabled").checked = 
+!!autonomy.enabled;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:421:      `<div class="status-row"><span>${k.replaceAll("_"," 
+")}</span><b class="${v}">${v}</b></div>`
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:422:    ).join("");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:423:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:424:    const warnings = status.warnings || [];
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:425:    document.getElementById("warnings").innerHTML = `
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:426:      <tr><td>Backend/API</td><td 
+class="ok">Protected</td><td>Backend hidden behind dashboard</td></tr>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:427:      <tr><td>Dry-run</td><td>${autonomy.dry_run ? 
+"Enabled" : "Disabled"}</td><td>${autonomy.dry_run ? "Safe simulation mode" : "Production mode"}</td></tr>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:428:      <tr><td>Autonomy</td><td>${autonomy.enabled ? 
+"Enabled" : "Disabled"}</td><td>${autonomy.enabled ? "Workflow can create drafts" : "Execution is blocked until 
+enabled"}</td></tr>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:429:      ${warnings.map(w => `<tr><td>Warning</td><td 
+class="warning">Review</td><td>${w}</td></tr>`).join("")}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:430:    `;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:431:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:435:    
+document.getElementById("monitor_marketplace").textContent = "SHOPIFY";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:436:    document.getElementById("conn_supplier").textContent = 
+"ONLINE";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:437:    document.getElementById("conn_shopify").textContent = 
+autonomy.dry_run ? "SAFE MODE" : "LIVE CHECK";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:438:    document.getElementById("conn_ai").textContent = 
+"ACTIVE";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:439:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:440:    addActivity("Dashboard refreshed");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:441:  } catch (e) {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:442:    document.getElementById("health").textContent = "ERROR";
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:443:    addActivity("Dashboard refresh failed");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:444:    document.getElementById("debug_last_error").textContent 
+= String(e);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:445:    console.error(e);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:446:  }
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:447:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:448:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:449:async function saveControls() {
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:450:  await api("/dashboard/controls", {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:451:    method: "PUT",
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:452:    body: JSON.stringify({
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:453:      enabled: 
+document.getElementById("autonomy_enabled").checked,
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:454:      dry_run: document.getElementById("dry_run").checked,
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:455:      daily_budget_limit: 
+Number(document.getElementById("daily_budget_limit").value || 250),
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:456:      minimum_margin_percent: 
+Number(document.getElementById("minimum_margin_percent").value || 25)
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:457:    })
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:458:  });
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:459:  addActivity("Controls saved");
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:460:  refreshDashboard();
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:461:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:462:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:463:let emergencyStop = false;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:464:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:465:function toggleEmergencyStop() {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:502:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:503:    const body = {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:504:      keywords: 
+document.getElementById("workflow_keywords").value,
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:505:      target_market: "UK",
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:506:      marketplace: 
+document.getElementById("workflow_marketplace").value,
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:507:      max_products: 
+parseInt(document.getElementById("workflow_max_products").value || "3"),
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:508:      current_daily_spend: 0,
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:509:      publish_drafts: true
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:510:    };
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:511:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:512:    const data = await api("/automation/semi-auto/run", {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:513:      method: "POST",
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:514:      body: JSON.stringify(body)
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:515:    });
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:516:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:517:    document.getElementById("run_report").textContent =
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:522:      viewer.textContent =
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:523:        "[" + new Date().toLocaleTimeString() + "] Workflow 
+completed\n" +
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:524:        JSON.stringify(data.summary || data, null, 2);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:525:    }
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:526:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:527:    renderProductsQueue(data.results || []);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:528:    renderDecisionBoard(data.results || [], data.summary || 
+{});
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:529:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:530:    
+document.getElementById("workflow_progress").style.width = "100%";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:531:    
+document.getElementById("workflow_status_text").textContent = "Workflow completed successfully";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:532:    addRunHistory(data.summary || {});
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:533:    buttons.forEach(b => b.classList.remove("loading"));
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:534:    showToast("Workflow completed", "success");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:535:    addActivity("Semi-auto workflow completed");
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:536:    refreshDashboard();
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:537:  } catch (e) {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:538:    document.getElementById("run_report").textContent = 
+String(e);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:539:    
+document.getElementById("workflow_progress").style.width = "100%";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:540:    
+document.getElementById("workflow_status_text").textContent = "Workflow failed";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:541:    document.querySelectorAll("button").forEach(b => 
+b.classList.remove("loading"));
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:544:    document.getElementById("debug_last_error").textContent 
+= String(e);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:545:    console.error(e);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:546:  }
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:547:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:548:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:549:function filterProductsQueue() {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:550:  const search = 
+(document.getElementById("queue_search")?.value || "").toLowerCase();
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:551:  const filter = 
+document.getElementById("queue_filter")?.value || "all";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:552:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:553:  document.querySelectorAll("#products_queue 
+tr").forEach(row => {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:554:    const text = row.innerText.toLowerCase();
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:555:    const status = row.dataset.status || "all";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:556:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:557:    const matchesSearch = text.includes(search);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:558:    const matchesFilter = filter === "all" || status === 
+filter;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:559:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:560:    row.classList.toggle("hidden-row", !(matchesSearch && 
+matchesFilter));
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:561:  });
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:562:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:563:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:564:function renderProductsQueue(results) {
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:565:  const tbody = document.getElementById("products_queue");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:566:  if (!tbody) return;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:567:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:568:  if (!results || !results.length) {
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:569:    tbody.innerHTML = `<tr><td colspan="4">No products 
+returned by workflow.</td></tr>`;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:570:    return;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:571:  }
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:572:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:573:  tbody.innerHTML = results.map(item => {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:574:    const product = item.supplier_product || {};
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:607:        <td>${marketplace}</td>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:608:      </tr>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:609:    `;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:610:  }).join("");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:611:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:612:  filterProductsQueue();
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:613:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:614:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:615:function renderDecisionBoard(results, summary) {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:616:  const approved = results.filter(x =>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:617:    x.decision?.approved === true ||
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:641:  if (!history) return;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:642:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:643:  const item = document.createElement("div");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:644:  item.className = "history-item";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:645:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:646:  const checked = summary.products_checked ?? 0;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:647:  const listed = summary.listed ?? 0;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:648:  const review = summary.needs_review ?? 0;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:649:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:650:  item.innerHTML = `
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:651:    <span>${new Date().toLocaleTimeString()} — Checked: 
+${checked}, Listed: ${listed}, Review: ${review}</span>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:658:    history.removeChild(history.lastChild);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:659:  }
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:660:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:661:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:662:function exportRunReport() {
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:663:  const rows = 
+[["time","products_checked","listed","needs_review"]];
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:664:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:665:  document.querySelectorAll("#run_history 
+.history-item").forEach(item => {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:666:    rows.push([
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:667:      new Date().toISOString(),
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:668:      item.innerText.replaceAll(",", " "),
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:675:  const blob = new Blob([csv], {type: "text/csv"});
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:676:  const url = URL.createObjectURL(blob);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:677:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:678:  const a = document.createElement("a");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:679:  a.href = url;
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:680:  a.download = "dashboard_run_report.csv";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:681:  a.click();
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:682:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:683:  URL.revokeObjectURL(url);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:684:  showToast("CSV report exported", "success");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:685:  addActivity("CSV report exported");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:689:  const feed = document.getElementById("activity_feed");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:690:  if (feed) feed.innerHTML = "";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:691:  showToast("Activity cleared", "success");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:692:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:693:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:694:function resetDashboardUI() {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:695:  document.getElementById("workflow_progress").style.width 
+= "0%";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:696:  
+document.getElementById("workflow_status_text").textContent = "Idle. Waiting for command.";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:697:  document.getElementById("run_report").textContent = "No 
+workflow executed yet.";
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:698:  document.getElementById("products_queue").innerHTML = 
+`<tr><td colspan="4">No workflow products yet.</td></tr>`;
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:699:  showToast("Dashboard UI reset", "success");
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:700:  addActivity("Dashboard UI reset");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:701:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:702:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:703:async function refreshLogViewer() {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:704:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:705:  const viewer = document.getElementById("log_viewer");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:707:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:708:  try {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:709:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:710:    viewer.textContent = "Loading logs...";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:711:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:712:    const data = await api("/dashboard/logs");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:713:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:714:    viewer.textContent =
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:715:      "FILE: " + (data.file || "unknown") + "\n\n" +
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:716:      (data.logs || []).join("\n");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:717:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:730:  const viewer = document.getElementById("log_viewer");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:731:  if (viewer) viewer.textContent = "Log viewer cleared.";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:732:  showToast("Log viewer cleared", "success");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:733:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:734:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:735:async function refreshReports() {
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:736:  const list = document.getElementById("reports_list");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:737:  if (!list) return;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:738:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:739:  try {
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:740:    list.innerHTML = `<div class="report-item"><div>Loading 
+reports...</div><span>Loading</span></div>`;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:741:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:742:    const data = await api("/dashboard/reports");
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:743:    const reports = data.reports || [];
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:744:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:745:    if (!reports.length) {
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:746:      list.innerHTML = `<div class="report-item"><div>No 
+reports found.</div><span>Empty</span></div>`;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:747:      return;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:748:    }
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:749:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:750:    list.innerHTML = reports.map(r => `
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:751:      <div class="report-item" 
+onclick="previewReport('${r.path.replaceAll("\\", "\\\\")}')">
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:752:        <div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:753:          <strong>${r.name}</strong><br>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:754:          <span>${r.path}</span>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:755:        </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:756:        <span>${Math.round((r.size || 0) / 1024)} KB</span>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:757:      </div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:758:    `).join("");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:759:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:760:    showToast("Reports refreshed", "success");
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:761:    addActivity("Reports center refreshed");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:762:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:763:  } catch(e) {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:764:    list.innerHTML = `<div 
+class="report-item"><div>${String(e)}</div><span>Error</span></div>`;
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:765:    showToast("Failed to load reports", "danger");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:766:  }
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:767:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:768:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:769:async function previewReport(path) {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:770:  const preview = document.getElementById("report_preview");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:771:  if (!preview) return;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:772:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:773:  try {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:774:    preview.textContent = "Loading report...";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:775:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:776:    const data = await 
+api("/dashboard/report-preview?path=" + encodeURIComponent(path));
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:777:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:778:    if (data.error) {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:779:      preview.textContent = data.error;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:780:      showToast("Report preview failed", "danger");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:781:      return;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:809:    addActivity("Full daily run started");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:810:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:811:    
+document.getElementById("workflow_status_text").textContent = "Full daily run running...";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:812:    
+document.getElementById("workflow_progress").style.width = "45%";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:813:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:814:    const data = await api("/dashboard/daily-run", {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:815:      method: "POST",
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:816:      body: JSON.stringify({})
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:817:    });
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:818:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:819:    
+document.getElementById("workflow_progress").style.width = "100%";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:831:    }
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:832:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:833:    showToast(data.ok ? "Daily run completed" : "Daily run 
+had errors", data.ok ? "success" : "danger");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:834:    addActivity("Full daily run completed");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:835:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:836:    refreshDashboard();
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:837:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:838:    fullDailyRunning = false;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:839:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:840:  } catch(e) {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:841:    fullDailyRunning = false;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:850:  runDaily();
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:851:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:852:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:853:let refreshTimer = null;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:854:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:855:function loadDashboardSettings() {
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:856:  const settings = 
+JSON.parse(localStorage.getItem("dashboard_settings") || "{}");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:857:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:858:  document.getElementById("setting_theme").value = 
+settings.theme || "dark";
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:859:  document.getElementById("setting_refresh").value = 
+settings.refreshSeconds || 120;
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:860:  document.getElementById("setting_keywords").value = 
+settings.keywords || "pet products";
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:861:  document.getElementById("setting_max_products").value = 
+settings.maxProducts || 5;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:862:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:863:  document.getElementById("workflow_keywords").value = 
+settings.keywords || "pet products";
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:864:  document.getElementById("workflow_max_products").value = 
+settings.maxProducts || 5;
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:865:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:866:  document.body.classList.toggle("light-mode", 
+settings.theme === "light");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:867:
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:868:  if (refreshTimer) clearInterval(refreshTimer);
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:869:  refreshTimer = setInterval(refreshDashboard, 
+Number(settings.refreshSeconds || 120) * 1000);
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:870:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:871:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:872:function saveDashboardSettings() {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:873:  const settings = {
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:874:    theme: document.getElementById("setting_theme").value,
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:875:    refreshSeconds: 
+Number(document.getElementById("setting_refresh").value || 120),
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:876:    keywords: 
+document.getElementById("setting_keywords").value || "pet products",
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:877:    maxProducts: 
+Number(document.getElementById("setting_max_products").value || 5)
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:878:  };
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:879:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:880:  localStorage.setItem("dashboard_settings", 
+JSON.stringify(settings));
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:881:  loadDashboardSettings();
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:882:  showToast("Dashboard settings saved", "success");
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:883:  addActivity("Dashboard settings saved");
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:884:}
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:885:
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:886:refreshDashboard();
+> backups\dashboard_2026-05-14_19-52-44\dashboard.html:887:loadDashboardSettings();
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:888:</script>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:889:<div id="toast_stack" class="toast-stack"></div>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:890:</body>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:891:</html>
+  backups\dashboard_2026-05-14_19-52-44\dashboard.html:892:
+  static\dashboard.css:1::root{
+  static\dashboard.css:2:  --bg:#0f172a;
+> static\dashboard.css:3:  --sidebar:#020617;
+  static\dashboard.css:4:  --panel:#111827;
+  static\dashboard.css:5:  --card:#1e293b;
+  static\dashboard.css:6:  --border:#334155;
+  static\dashboard.css:7:  --text:#e5e7eb;
+  static\dashboard.css:8:  --muted:#94a3b8;
+  static\dashboard.css:24:  color:var(--text);
+  static\dashboard.css:25:  font-family:Inter,Segoe UI,sans-serif;
+  static\dashboard.css:26:  display:flex;
+  static\dashboard.css:27:}
+  static\dashboard.css:28:
+> static\dashboard.css:29:.sidebar{
+  static\dashboard.css:30:  width:240px;
+  static\dashboard.css:31:  min-height:100vh;
+> static\dashboard.css:32:  background:var(--sidebar);
+  static\dashboard.css:33:  border-right:1px solid #0f172a;
+  static\dashboard.css:34:  padding:28px;
+  static\dashboard.css:35:}
+  static\dashboard.css:36:
+  static\dashboard.css:37:.logo{
+  static\dashboard.css:38:  font-size:28px;
+  static\dashboard.css:39:  font-weight:800;
+  static\dashboard.css:40:  margin-bottom:40px;
+  static\dashboard.css:41:}
+  static\dashboard.css:42:
+> static\dashboard.css:43:.sidebar nav a{
+  static\dashboard.css:44:  display:block;
+  static\dashboard.css:45:  padding:14px;
+  static\dashboard.css:46:  border-radius:14px;
+  static\dashboard.css:47:  margin-bottom:10px;
+  static\dashboard.css:48:  color:var(--muted);
+  static\dashboard.css:49:  text-decoration:none;
+  static\dashboard.css:50:}
+  static\dashboard.css:51:
+> static\dashboard.css:52:.sidebar nav a.active,
+> static\dashboard.css:53:.sidebar nav a:hover{
+  static\dashboard.css:54:  background:#1e293b;
+  static\dashboard.css:55:  color:white;
+  static\dashboard.css:56:}
+  static\dashboard.css:57:
+  static\dashboard.css:58:.main{
+  static\dashboard.css:224:
+  static\dashboard.css:225:
+  static\dashboard.css:226:    display:block;
+  static\dashboard.css:227:  }
+  static\dashboard.css:228:
+> static\dashboard.css:229:.sidebar{
+  static\dashboard.css:230:    width:100%;
+  static\dashboard.css:231:    min-height:auto;
+  static\dashboard.css:232:  }
+  static\dashboard.css:233:
+  static\dashboard.css:234:}
+  static\dashboard.css:325:  color:#8fd3ff;
+  static\dashboard.css:326:  overflow:auto;
+  static\dashboard.css:327:  max-height:400px;
+  static\dashboard.css:328:}
+  static\dashboard.css:329:
+> static\dashboard.css:330:.products-table{
+  static\dashboard.css:331:  width:100%;
+  static\dashboard.css:332:  border-collapse:collapse;
+  static\dashboard.css:333:}
+  static\dashboard.css:334:
+> static\dashboard.css:335:.products-table th,
+> static\dashboard.css:336:.products-table td{
+  static\dashboard.css:337:  border-bottom:1px solid #22345c;
+  static\dashboard.css:338:  padding:14px;
+  static\dashboard.css:339:  text-align:left;
+  static\dashboard.css:340:}
+  static\dashboard.css:341:
+> static\dashboard.css:342:.products-table tr:hover{
+  static\dashboard.css:343:  background:#111c35;
+  static\dashboard.css:344:}
+  static\dashboard.css:345:
+  static\dashboard.css:346:.badge{
+  static\dashboard.css:347:  padding:6px 10px;
+  static\dashboard.css:675:  gap:16px;
+  static\dashboard.css:676:}
+  static\dashboard.css:677:
+  static\dashboard.css:678:body.light-mode{
+  static\dashboard.css:679:  --bg:#f1f5f9;
+> static\dashboard.css:680:  --sidebar:#ffffff;
+  static\dashboard.css:681:  --panel:#ffffff;
+  static\dashboard.css:682:  --card:#e2e8f0;
+  static\dashboard.css:683:  --border:#cbd5e1;
+  static\dashboard.css:684:  --text:#0f172a;
+  static\dashboard.css:685:  --muted:#475569;
+  static\dashboard.css:746:  gap:12px;
+  static\dashboard.css:747:  margin-bottom:16px;
+  static\dashboard.css:748:  flex-wrap: nowrap;
+  static\dashboard.css:749:}
+  static\dashboard.css:750:
+> static\dashboard.css:751:.reports-list{
+  static\dashboard.css:752:  display:flex;
+  static\dashboard.css:753:  flex-direction:column;
+  static\dashboard.css:754:  gap:12px;
+  static\dashboard.css:755:}
+  static\dashboard.css:756:
+  static\dashboard.css:1225:    grid-template-columns:1fr 1fr;
+  static\dashboard.css:1226:  }
+  static\dashboard.css:1227:}
+  static\dashboard.css:1228:
+  static\dashboard.css:1229:
+> static\dashboard.css:1230:.sidebar nav a{
+  static\dashboard.css:1231:  cursor:pointer;
+  static\dashboard.css:1232:  user-select:none;
+  static\dashboard.css:1233:}
+  static\dashboard.css:1234:
+  static\dashboard.css:1235:
+> static\dashboard.css:1236:/* Sticky visible sidebar */
+> static\dashboard.css:1237:.sidebar{
+  static\dashboard.css:1238:  position:sticky !important;
+  static\dashboard.css:1239:  top:0;
+  static\dashboard.css:1240:  height:100vh;
+  static\dashboard.css:1241:  overflow-y:auto;
+  static\dashboard.css:1242:  z-index:999;
+  static\dashboard.css:1243:}
+  static\dashboard.css:1244:
+> static\dashboard.css:1245:/* Always visible nav */
+> static\dashboard.css:1246:.sidebar nav{
+  static\dashboard.css:1247:  position:sticky;
+  static\dashboard.css:1248:  top:110px;
+  static\dashboard.css:1249:  display:flex;
+  static\dashboard.css:1250:  flex-direction:column;
+  static\dashboard.css:1251:  gap:8px;
+  static\dashboard.css:1255:html{
+  static\dashboard.css:1256:  scroll-behavior:smooth;
+  static\dashboard.css:1257:}
+  static\dashboard.css:1258:
+  static\dashboard.css:1259:/* Better active visibility */
+> static\dashboard.css:1260:.sidebar nav a.active{
+  static\dashboard.css:1261:  background:#2563eb;
+  static\dashboard.css:1262:  color:white;
+  static\dashboard.css:1263:  border-left:4px solid #93c5fd;
+  static\dashboard.css:1264:  padding-left:14px;
+  static\dashboard.css:1265:}
+  static\dashboard.css:1266:
+> static\dashboard.css:1267:/* Keep sidebar visible on medium screens */
+  static\dashboard.css:1268:@media(max-width:1100px){
+> static\dashboard.css:1269:  .sidebar{
+  static\dashboard.css:1270:    position:fixed !important;
+  static\dashboard.css:1271:    left:0;
+  static\dashboard.css:1272:    top:0;
+  static\dashboard.css:1273:    bottom:0;
+  static\dashboard.css:1274:    width:240px;
+  static\dashboard.css:1279:    margin-left:260px;
+  static\dashboard.css:1280:  }
+  static\dashboard.css:1281:}
+  static\dashboard.css:1282:
+  static\dashboard.css:1283:
+> static\dashboard.css:1284:/* FIXED ALWAYS-VISIBLE SIDEBAR */
+> static\dashboard.css:1285:.sidebar{
+  static\dashboard.css:1286:  position:fixed !important;
+  static\dashboard.css:1287:  left:0;
+  static\dashboard.css:1288:  top:0;
+  static\dashboard.css:1289:  bottom:0;
+  static\dashboard.css:1290:  width:240px;
+  static\dashboard.css:1296:.main{
+  static\dashboard.css:1297:  margin-left:240px;
+  static\dashboard.css:1298:  width:calc(100% - 240px);
+  static\dashboard.css:1299:}
+  static\dashboard.css:1300:
+> static\dashboard.css:1301:.sidebar nav{
+  static\dashboard.css:1302:  position:static !important;
+  static\dashboard.css:1303:}
+  static\dashboard.css:1304:
+  static\dashboard.css:1305:@media(max-width:900px){
+> static\dashboard.css:1306:  .sidebar{
+  static\dashboard.css:1307:    position:relative !important;
+  static\dashboard.css:1308:    width:100%;
+  static\dashboard.css:1309:    height:auto;
+  static\dashboard.css:1310:  }
+  static\dashboard.css:1311:
+  static\dashboard.css:1313:    margin-left:0;
+  static\dashboard.css:1314:    width:100%;
+  static\dashboard.css:1315:  }
+  static\dashboard.css:1316:}
+  static\dashboard.css:1317:
+> static\dashboard.css:1318:/* FORCE FIXED SIDEBAR - ALWAYS VISIBLE */
+  static\dashboard.css:1319:body{
+  static\dashboard.css:1320:  display:block !important;
+  static\dashboard.css:1321:}
+  static\dashboard.css:1322:
+> static\dashboard.css:1323:.sidebar{
+  static\dashboard.css:1324:  position:fixed !important;
+  static\dashboard.css:1325:  left:0 !important;
+  static\dashboard.css:1326:  top:0 !important;
+  static\dashboard.css:1327:  bottom:0 !important;
+  static\dashboard.css:1328:  width:240px !important;
+  static\dashboard.css:1336:  margin-left:240px !important;
+  static\dashboard.css:1337:  width:calc(100% - 240px) !important;
+  static\dashboard.css:1338:  min-height:100vh !important;
+  static\dashboard.css:1339:}
+  static\dashboard.css:1340:
+> static\dashboard.css:1341:.sidebar nav{
+  static\dashboard.css:1342:  position:static !important;
+  static\dashboard.css:1343:}
+  static\dashboard.css:1344:
+  static\dashboard.css:1345:@media(max-width:900px){
+> static\dashboard.css:1346:  .sidebar{
+  static\dashboard.css:1347:    position:relative !important;
+  static\dashboard.css:1348:    width:100% !important;
+  static\dashboard.css:1349:    height:auto !important;
+  static\dashboard.css:1350:    min-height:auto !important;
+  static\dashboard.css:1351:  }
+  static\dashboard.css:1355:    width:100% !important;
+  static\dashboard.css:1356:  }
+  static\dashboard.css:1357:}
+  static\dashboard.css:1358:
+  static\dashboard.css:1359:
+> static\dashboard.css:1360:/* ALWAYS AVAILABLE FLOATING NAV */
+> static\dashboard.css:1361:.floating-nav{
+  static\dashboard.css:1362:  position:fixed !important;
+  static\dashboard.css:1363:  left:250px !important;
+  static\dashboard.css:1364:  top:90px !important;
+  static\dashboard.css:1365:  z-index:999999 !important;
+  static\dashboard.css:1366:  display:flex !important;
+  static\dashboard.css:1371:  border-radius:18px !important;
+  static\dashboard.css:1372:  padding:12px !important;
+  static\dashboard.css:1373:  box-shadow:0 20px 50px rgba(0,0,0,.45) !important;
+  static\dashboard.css:1374:}
+  static\dashboard.css:1375:
+> static\dashboard.css:1376:.floating-nav button{
+  static\dashboard.css:1377:  background:#101a33 !important;
+  static\dashboard.css:1378:  border:1px solid #24345d !important;
+  static\dashboard.css:1379:  color:#dbeafe !important;
+  static\dashboard.css:1380:  border-radius:12px !important;
+  static\dashboard.css:1381:  padding:10px 14px !important;
+  static\dashboard.css:1382:  cursor:pointer !important;
+  static\dashboard.css:1383:  text-align:left !important;
+  static\dashboard.css:1384:}
+  static\dashboard.css:1385:
+> static\dashboard.css:1386:.floating-nav button:hover{
+  static\dashboard.css:1387:  background:#2563eb !important;
+  static\dashboard.css:1388:  color:white !important;
+  static\dashboard.css:1389:}
+  static\dashboard.css:1390:
+  static\dashboard.css:1391:@media(max-width:900px){
+> static\dashboard.css:1392:  .floating-nav{
+  static\dashboard.css:1393:    left:12px !important;
+  static\dashboard.css:1394:    right:12px !important;
+  static\dashboard.css:1395:    top:auto !important;
+  static\dashboard.css:1396:    bottom:12px !important;
+  static\dashboard.css:1397:    flex-direction:row !important;
+  static\dashboard.html:1:<!doctype html>
+  static\dashboard.html:2:<html lang="en">
+  static\dashboard.html:3:<head>
+  static\dashboard.html:4:  <meta charset="utf-8" />
+> static\dashboard.html:5:  <title>Autonomous AI Commerce Dashboard</title>
+  static\dashboard.html:6:  <meta name="viewport" content="width=device-width, initial-scale=1" />
+> static\dashboard.html:7:  <link rel="stylesheet" href="/static/dashboard.css?v=floating-nav-1" />
+  static\dashboard.html:8:</head>
+  static\dashboard.html:9:<body>
+> static\dashboard.html:10:<div id="floating_nav" class="floating-nav">
+> static\dashboard.html:11:  <button onclick="scrollToSection('section_overview')">Dashboard</button>
+> static\dashboard.html:12:  <button onclick="scrollToSection('section_workflow')">Automation</button>
+> static\dashboard.html:13:  <button onclick="scrollToSection('section_products')">Products</button>
+> static\dashboard.html:14:  <button onclick="scrollToSection('section_suppliers')">Suppliers</button>
+> static\dashboard.html:15:  <button onclick="scrollToSection('section_profit')">Profit</button>
+> static\dashboard.html:16:  <button onclick="scrollToSection('section_safety')">Safety</button>
+> static\dashboard.html:17:  <button onclick="scrollToSection('section_reports')">Reports</button>
+  static\dashboard.html:18:</div>
+> static\dashboard.html:19:<aside class="sidebar">
+  static\dashboard.html:20:  <div class="logo">AIC</div>
+> static\dashboard.html:21:  <nav>
+> static\dashboard.html:22:    <a class="active" data-section="section_overview" onclick="setActiveNav(this); 
+scrollToSection('section_overview')">Dashboard</a>
+> static\dashboard.html:23:    <a data-section="section_workflow" onclick="setActiveNav(this); 
+scrollToSection('section_workflow')">Automation</a>
+> static\dashboard.html:24:    <a data-section="section_products" onclick="setActiveNav(this); 
+scrollToSection('section_products')">Products</a>
+> static\dashboard.html:25:    <a data-section="section_suppliers" onclick="setActiveNav(this); 
+scrollToSection('section_suppliers')">Suppliers</a>
+> static\dashboard.html:26:    <a data-section="section_profit" onclick="setActiveNav(this); 
+scrollToSection('section_profit')">Profit</a>
+> static\dashboard.html:27:    <a data-section="section_safety" onclick="setActiveNav(this); 
+scrollToSection('section_safety')">Safety</a>
+> static\dashboard.html:28:    <a data-section="section_reports" onclick="setActiveNav(this); 
+scrollToSection('section_reports')">Reports</a>
+> static\dashboard.html:29:  </nav>
+  static\dashboard.html:30:</aside>
+  static\dashboard.html:31:
+  static\dashboard.html:32:<main class="main">
+  static\dashboard.html:33:  <header class="topbar">
+  static\dashboard.html:34:    <div>
+  static\dashboard.html:35:      <h1>Autonomous AI Commerce</h1>
+  static\dashboard.html:36:      <p>Professional admin control center</p>
+> static\dashboard.html:37:      <div class="version-badge">Dashboard v1.0 • Professional Control Center</div>
+  static\dashboard.html:38:
+  static\dashboard.html:39:      <div class="topbar-meta">
+  static\dashboard.html:40:        <div class="meta-pill" id="live_clock">--:--:--</div>
+  static\dashboard.html:41:        <div class="meta-pill" id="uptime_counter">Uptime: 0s</div>
+  static\dashboard.html:42:      </div>
+  static\dashboard.html:43:    </div>
+  static\dashboard.html:44:    <div class="top-actions">
+> static\dashboard.html:45:      <button onclick="refreshDashboard()">Refresh</button>
+  static\dashboard.html:46:      <button class="primary" onclick="runFullDaily()">Daily Run</button>
+  static\dashboard.html:47:      <button class="danger" onclick="importNow()">Import Now</button>
+  static\dashboard.html:48:    </div>
+  static\dashboard.html:49:  </header>
+  static\dashboard.html:50:
+  static\dashboard.html:51:  <div class="quick-actions">
+  static\dashboard.html:52:    <button class="theme-toggle" onclick="toggleGlassMode()">Toggle Glass Mode</button>
+  static\dashboard.html:53:    <button onclick="toggleCompactMode()">Compact Mode</button>
+  static\dashboard.html:54:    <button onclick="openCommandCenter()">Command Center</button>
+> static\dashboard.html:55:    <button onclick="setActiveNav(this); 
+scrollToSection('section_overview')">Overview</button>
+> static\dashboard.html:56:    <button onclick="setActiveNav(this); 
+scrollToSection('section_workflow')">Workflow</button>
+> static\dashboard.html:57:    <button onclick="setActiveNav(this); scrollToSection('section_safety')">Safety</button>
+> static\dashboard.html:58:    <button onclick="setActiveNav(this); 
+scrollToSection('section_reports')">Reports</button>
+  static\dashboard.html:59:    <button onclick="scrollToSection('section_logs')">Logs</button>
+  static\dashboard.html:60:    <button onclick="scrollToSection('section_env')">Environment</button>
+  static\dashboard.html:61:  </div>
+  static\dashboard.html:62:
+  static\dashboard.html:63:  <section id="section_overview" class="cards">
+  static\dashboard.html:64:    <div class="card"><span>System Health</span><strong id="health">LOADING</strong></div>
+> static\dashboard.html:65:    <div class="card"><span>Active Products</span><strong 
+id="active_products">0</strong></div>
+  static\dashboard.html:66:    <div class="card"><span>Open Orders</span><strong id="open_orders">0</strong></div>
+> static\dashboard.html:67:    <div class="card"><span>Daily Profit</span><strong id="profit">£0</strong></div>
+  static\dashboard.html:68:    <div class="card"><span>Daily Spend</span><strong id="spend">£0</strong></div>
+  static\dashboard.html:69:    <div class="card"><span>Risk Level</span><strong id="risk">LOW</strong></div>
+  static\dashboard.html:70:  </section>
+  static\dashboard.html:71:
+  static\dashboard.html:72:  <section class="grid">
+  static\dashboard.html:73:    <div class="panel">
+  static\dashboard.html:74:      <h2 onclick="togglePanel(this)">System Status</h2>
+  static\dashboard.html:75:      <div class="indicator-grid">
+  static\dashboard.html:76:        <div class="indicator online"><span></span> Backend API</div>
+> static\dashboard.html:77:        <div class="indicator online"><span></span> Dashboard</div>
+  static\dashboard.html:78:        <div class="indicator warning"><span></span> Shopify Safe Mode</div>
+  static\dashboard.html:79:        <div class="indicator online"><span></span> Supplier Sandbox</div>
+  static\dashboard.html:80:        <div class="indicator online"><span></span> AI Governor</div>
+  static\dashboard.html:81:        <div class="indicator warning"><span></span> Dry-run Active</div>
+  static\dashboard.html:82:      </div>
+  static\dashboard.html:100:    <div class="panel wide">
+  static\dashboard.html:101:      <h2 id="section_workflow">Semi-Auto Workflow</h2>
+  static\dashboard.html:102:      <div class="workflow-grid">
+  static\dashboard.html:103:        <div>
+  static\dashboard.html:104:          <label>Keywords</label>
+> static\dashboard.html:105:          <input id="workflow_keywords" value="pet products">
+  static\dashboard.html:106:        </div>
+  static\dashboard.html:107:        <div>
+  static\dashboard.html:108:          <label>Marketplace</label>
+  static\dashboard.html:109:          <select id="workflow_marketplace">
+  static\dashboard.html:110:            <option value="shopify">Shopify</option>
+  static\dashboard.html:111:            <option value="mock">Mock</option>
+  static\dashboard.html:112:            <option value="ebay">eBay</option>
+  static\dashboard.html:113:          </select>
+  static\dashboard.html:114:        </div>
+  static\dashboard.html:115:        <div>
+> static\dashboard.html:116:          <label>Max Products</label>
+> static\dashboard.html:117:          <input type="number" id="workflow_max_products" value="5">
+  static\dashboard.html:118:        </div>
+  static\dashboard.html:119:      </div>
+  static\dashboard.html:120:      <button class="primary" onclick="runDaily()">Run Workflow</button>
+  static\dashboard.html:121:    </div>
+  static\dashboard.html:122:
+  static\dashboard.html:123:    <div class="panel wide">
+> static\dashboard.html:124:      <h2 onclick="togglePanel(this)">Safety Warnings</h2>
+  static\dashboard.html:125:      <table>
+  static\dashboard.html:126:        <thead>
+  static\dashboard.html:127:          <tr><th>Area</th><th>Status</th><th>Details</th></tr>
+  static\dashboard.html:128:        </thead>
+  static\dashboard.html:129:        <tbody id="warnings"></tbody>
+  static\dashboard.html:131:    </div>
+  static\dashboard.html:132:
+  static\dashboard.html:133:    <div class="panel wide">
+  static\dashboard.html:134:      <h2 onclick="togglePanel(this)">Activity Feed</h2>
+  static\dashboard.html:135:      <div id="activity_feed" class="activity-feed">
+> static\dashboard.html:136:        <div class="activity-item">Dashboard loaded</div>
+  static\dashboard.html:137:      </div>
+  static\dashboard.html:138:    </div>
+  static\dashboard.html:139:
+  static\dashboard.html:140:    <div class="panel wide">
+  static\dashboard.html:141:      <h2 onclick="togglePanel(this)">Last Run Report</h2>
+  static\dashboard.html:142:      <pre id="run_report" class="run-report">No workflow run yet.</pre>
+  static\dashboard.html:143:    </div>
+  static\dashboard.html:144:      <div class="panel wide">
+> static\dashboard.html:145:      <h2 id="section_products" onclick="togglePanel(this)">Products Queue</h2>
+  static\dashboard.html:146:
+  static\dashboard.html:147:      <div class="queue-toolbar">
+> static\dashboard.html:148:        <input id="queue_search" placeholder="Search products..." 
+oninput="filterProductsQueue()">
+  static\dashboard.html:149:
+> static\dashboard.html:150:        <select id="queue_filter" onchange="filterProductsQueue()">
+  static\dashboard.html:151:          <option value="all">All statuses</option>
+  static\dashboard.html:152:          <option value="approved">Approved</option>
+  static\dashboard.html:153:          <option value="review">Review</option>
+  static\dashboard.html:154:          <option value="blocked">Blocked</option>
+  static\dashboard.html:155:        </select>
+  static\dashboard.html:156:      </div>
+  static\dashboard.html:157:
+> static\dashboard.html:158:      <table class="products-table">
+  static\dashboard.html:159:        <thead>
+  static\dashboard.html:160:          <tr>
+  static\dashboard.html:161:            <th>Product</th>
+  static\dashboard.html:162:            <th>Status</th>
+  static\dashboard.html:163:            <th>Margin</th>
+  static\dashboard.html:164:            <th>Marketplace</th>
+  static\dashboard.html:165:          </tr>
+  static\dashboard.html:166:        </thead>
+> static\dashboard.html:167:        <tbody id="products_queue">
+  static\dashboard.html:168:  <tr>
+> static\dashboard.html:169:    <td colspan="4">No workflow products yet.</td>
+  static\dashboard.html:170:  </tr>
+  static\dashboard.html:171:</tbody>
+  static\dashboard.html:172:      </table>
+  static\dashboard.html:173:    </div>
+  static\dashboard.html:174:
+  static\dashboard.html:176:      <h2 onclick="togglePanel(this)">Live Activity</h2>
+  static\dashboard.html:177:
+  static\dashboard.html:178:      <div class="utility-actions">
+  static\dashboard.html:179:        <button onclick="exportRunReport()">Export Run CSV</button>
+  static\dashboard.html:180:        <button onclick="clearActivity()">Clear Activity</button>
+> static\dashboard.html:181:        <button onclick="resetDashboardUI()">Reset UI</button>
+  static\dashboard.html:182:      </div>
+  static\dashboard.html:183:      <div id="activity_feed" class="activity-feed">
+> static\dashboard.html:184:        <div class="activity-item">Dashboard loaded</div>
+> static\dashboard.html:185:        <div class="activity-item">Safety governor active</div>
+  static\dashboard.html:186:        <div class="activity-item">Waiting for workflow execution</div>
+  static\dashboard.html:187:      </div>
+  static\dashboard.html:188:    </div>
+  static\dashboard.html:189:
+  static\dashboard.html:190:    <div class="panel">
+  static\dashboard.html:193:    </div>
+  static\dashboard.html:194:
+  static\dashboard.html:195:  </section>
+  static\dashboard.html:196:
+  static\dashboard.html:197:<section class="panel">
+> static\dashboard.html:198:  <h2 id="section_profit" onclick="togglePanel(this)">Profit Analytics</h2>
+  static\dashboard.html:199:
+  static\dashboard.html:200:  <div class="chart-box">
+  static\dashboard.html:201:
+  static\dashboard.html:202:    <div class="chart-bars">
+  static\dashboard.html:203:      <div class="chart-bar" style="height:35%"></div>
+  static\dashboard.html:228:    <div id="workflow_progress" class="progress-bar"></div>
+  static\dashboard.html:229:  </div>
+  static\dashboard.html:230:</section>
+  static\dashboard.html:231:
+  static\dashboard.html:232:<section class="panel">
+> static\dashboard.html:233:  <h2 id="section_safety">Production Safety Monitor</h2>
+  static\dashboard.html:234:
+  static\dashboard.html:235:  <div class="monitor-grid">
+  static\dashboard.html:236:    <div class="monitor-card">
+  static\dashboard.html:237:      <span>Dry-run</span>
+  static\dashboard.html:238:      <strong id="monitor_dry_run">ON</strong>
+  static\dashboard.html:278:  </div>
+  static\dashboard.html:279:</section>
+  static\dashboard.html:280:
+  static\dashboard.html:281:
+  static\dashboard.html:282:<section class="panel">
+> static\dashboard.html:283:  <h2 id="section_suppliers" onclick="togglePanel(this)">Connection Monitor</h2>
+  static\dashboard.html:284:
+  static\dashboard.html:285:  <div class="connection-grid">
+  static\dashboard.html:286:    <div class="connection-card">
+  static\dashboard.html:287:      <span>Supplier Engine</span>
+  static\dashboard.html:288:      <strong id="conn_supplier">ONLINE</strong>
+  static\dashboard.html:299:    </div>
+  static\dashboard.html:300:  </div>
+  static\dashboard.html:301:
+  static\dashboard.html:302:  <div class="emergency-box">
+  static\dashboard.html:303:    <h2 onclick="togglePanel(this)">Emergency Stop</h2>
+> static\dashboard.html:304:    <p>This UI switch blocks semi-auto execution locally in the dashboard. Backend safety 
+rules still remain active.</p>
+  static\dashboard.html:305:    <button class="danger" onclick="toggleEmergencyStop()">Toggle Emergency Stop</button>
+  static\dashboard.html:306:    <p><strong>Status:</strong> <span id="emergency_status">OFF</span></p>
+  static\dashboard.html:307:  </div>
+  static\dashboard.html:308:</section>
+  static\dashboard.html:309:
+  static\dashboard.html:310:
+  static\dashboard.html:311:<section class="panel">
+> static\dashboard.html:312:  <h2 onclick="togglePanel(this)">Dashboard Settings</h2>
+  static\dashboard.html:313:
+  static\dashboard.html:314:  <div class="settings-grid">
+  static\dashboard.html:315:    <div>
+  static\dashboard.html:316:      <label>Theme</label>
+> static\dashboard.html:317:      <select id="setting_theme" onchange="saveDashboardSettings()">
+  static\dashboard.html:318:        <option value="dark">Dark</option>
+  static\dashboard.html:319:        <option value="light">Light</option>
+  static\dashboard.html:320:      </select>
+  static\dashboard.html:321:    </div>
+  static\dashboard.html:322:
+  static\dashboard.html:323:    <div>
+  static\dashboard.html:324:      <label>Auto-refresh seconds</label>
+> static\dashboard.html:325:      <input type="number" id="setting_refresh" value="120" 
+onchange="saveDashboardSettings()">
+  static\dashboard.html:326:    </div>
+  static\dashboard.html:327:
+  static\dashboard.html:328:    <div>
+  static\dashboard.html:329:      <label>Default Keywords</label>
+> static\dashboard.html:330:      <input id="setting_keywords" value="pet products" onchange="saveDashboardSettings()">
+  static\dashboard.html:331:    </div>
+  static\dashboard.html:332:
+  static\dashboard.html:333:    <div>
+> static\dashboard.html:334:      <label>Default Max Products</label>
+> static\dashboard.html:335:      <input type="number" id="setting_max_products" value="5" 
+onchange="saveDashboardSettings()">
+  static\dashboard.html:336:    </div>
+  static\dashboard.html:337:  </div>
+  static\dashboard.html:338:</section>
+  static\dashboard.html:339:
+  static\dashboard.html:340:
+  static\dashboard.html:341:<section class="panel">
+> static\dashboard.html:342:  <h2 onclick="togglePanel(this)">Dashboard Health Debug</h2>
+  static\dashboard.html:343:
+  static\dashboard.html:344:  <div class="debug-grid">
+  static\dashboard.html:345:    <div class="debug-card">
+  static\dashboard.html:346:      <span>Status API</span>
+  static\dashboard.html:347:      <strong id="debug_status_api">UNKNOWN</strong>
+  static\dashboard.html:356:      <span>Last Refresh</span>
+  static\dashboard.html:357:      <strong id="debug_last_refresh">NEVER</strong>
+  static\dashboard.html:358:    </div>
+  static\dashboard.html:359:
+  static\dashboard.html:360:    <div class="debug-card">
+> static\dashboard.html:361:      <span>Dashboard JS</span>
+  static\dashboard.html:362:      <strong id="debug_js">ACTIVE</strong>
+  static\dashboard.html:363:    </div>
+  static\dashboard.html:364:  </div>
+  static\dashboard.html:365:
+  static\dashboard.html:366:  <div id="debug_last_error" class="debug-error">No errors detected.</div>
+  static\dashboard.html:378:  <pre id="log_viewer" class="log-viewer">No logs loaded yet. Run a workflow or refresh 
+logs.</pre>
+  static\dashboard.html:379:</section>
+  static\dashboard.html:380:
+  static\dashboard.html:381:
+  static\dashboard.html:382:<section class="panel">
+> static\dashboard.html:383:  <h2 id="section_reports">Reports Center</h2>
+  static\dashboard.html:384:
+  static\dashboard.html:385:  <div class="utility-actions">
+> static\dashboard.html:386:    <button onclick="refreshReports()">Refresh Reports</button>
+  static\dashboard.html:387:  </div>
+  static\dashboard.html:388:
+> static\dashboard.html:389:  <div id="reports_list" class="reports-list">
+  static\dashboard.html:390:    <div class="report-item">
+> static\dashboard.html:391:      <div>No reports loaded yet.</div>
+  static\dashboard.html:392:      <span>Idle</span>
+  static\dashboard.html:393:    </div>
+  static\dashboard.html:394:  </div>
+  static\dashboard.html:395:</section>
+  static\dashboard.html:396:
+  static\dashboard.html:435:
+  static\dashboard.html:436:<section class="panel">
+  static\dashboard.html:437:  <h2 onclick="togglePanel(this)">Changelog</h2>
+  static\dashboard.html:438:
+  static\dashboard.html:439:  <div class="changelog-list">
+> static\dashboard.html:440:    <div class="changelog-item">v1.0 — Professional dashboard UI added</div>
+> static\dashboard.html:441:    <div class="changelog-item">v1.1 — Live activity, logs, reports and readiness 
+added</div>
+  static\dashboard.html:442:    <div class="changelog-item">v1.2 — Workflow progress, product queue and AI decision 
+board added</div>
+  static\dashboard.html:443:    <div class="changelog-item">v1.3 — Environment status, snapshot export and collapsible 
+panels added</div>
+  static\dashboard.html:444:  </div>
+  static\dashboard.html:445:</section>
+  static\dashboard.html:446:
+  static\dashboard.html:447:
+  static\dashboard.html:448:<section class="panel">
+> static\dashboard.html:449:  <h2 onclick="togglePanel(this)">Dashboard UI Audit</h2>
+  static\dashboard.html:450:
+  static\dashboard.html:451:  <div class="utility-actions">
+> static\dashboard.html:452:    <button onclick="runDashboardAudit()">Run UI Audit</button>
+  static\dashboard.html:453:  </div>
+  static\dashboard.html:454:
+> static\dashboard.html:455:  <div id="dashboard_audit" class="audit-list">
+  static\dashboard.html:456:    <div class="audit-item">Audit not run yet.</div>
+  static\dashboard.html:457:  </div>
+  static\dashboard.html:458:</section>
+  static\dashboard.html:459:
+  static\dashboard.html:460:
+  static\dashboard.html:472:      Close Command Center
+  static\dashboard.html:473:    </div>
+  static\dashboard.html:474:
+  static\dashboard.html:475:    <div class="shortcut-card">
+  static\dashboard.html:476:      <span class="shortcut-key">Ctrl + F5</span><br>
+> static\dashboard.html:477:      Hard refresh dashboard
+  static\dashboard.html:478:    </div>
+  static\dashboard.html:479:  </div>
+  static\dashboard.html:480:</section>
+  static\dashboard.html:481:
+  static\dashboard.html:482:
+  static\dashboard.html:494:  <div class="utility-actions">
+  static\dashboard.html:495:    <button onclick="refreshDataSummary()">Refresh Data Summary</button>
+  static\dashboard.html:496:  </div>
+  static\dashboard.html:497:
+  static\dashboard.html:498:  <div class="data-summary-grid">
+> static\dashboard.html:499:    <div class="data-summary-card"><span>Imported Products</span><strong 
+id="data_imported_products">0</strong></div>
+> static\dashboard.html:500:    <div class="data-summary-card"><span>Blocked Products</span><strong 
+id="data_blocked_products">0</strong></div>
+  static\dashboard.html:501:    <div class="data-summary-card"><span>Stock Issues</span><strong 
+id="data_stock_issues">0</strong></div>
+  static\dashboard.html:502:    <div class="data-summary-card"><span>Image Issues</span><strong 
+id="data_image_issues">0</strong></div>
+  static\dashboard.html:503:  </div>
+  static\dashboard.html:504:
+  static\dashboard.html:505:  <div class="real-data-tabs">
+> static\dashboard.html:506:    <button onclick="renderRealDataTable('imported_products')">Imported</button>
+> static\dashboard.html:507:    <button onclick="renderRealDataTable('blocked_products')">Blocked</button>
+  static\dashboard.html:508:    <button onclick="renderRealDataTable('stock_issues')">Stock</button>
+  static\dashboard.html:509:    <button onclick="renderRealDataTable('image_issues')">Images</button>
+  static\dashboard.html:510:  </div>
+  static\dashboard.html:511:
+  static\dashboard.html:512:  <div id="real_data_table_wrap" class="data-preview">
+  static\dashboard.html:524:    <button onclick="refreshRealKpis()">Refresh Real KPIs</button>
+  static\dashboard.html:525:  </div>
+  static\dashboard.html:526:
+  static\dashboard.html:527:  <div class="real-kpi-grid">
+  static\dashboard.html:528:    <div class="real-kpi-card"><span>Imported SKUs</span><strong 
+id="real_imported_skus">0</strong></div>
+> static\dashboard.html:529:    <div class="real-kpi-card"><span>Blocked Products</span><strong 
+id="real_blocked_products">0</strong></div>
+  static\dashboard.html:530:    <div class="real-kpi-card"><span>Image Failed</span><strong 
+id="real_image_failed">0</strong></div>
+  static\dashboard.html:531:    <div class="real-kpi-card"><span>Tracked Stock SKUs</span><strong 
+id="real_tracked_stock">0</strong></div>
+  static\dashboard.html:532:    <div class="real-kpi-card"><span>Out of Stock</span><strong 
+id="real_out_of_stock">0</strong></div>
+  static\dashboard.html:533:  </div>
+  static\dashboard.html:534:</section>
+  static\dashboard.html:577:
+  static\dashboard.html:578:window.addEventListener("error", (e) => {
+  static\dashboard.html:579:  frontendDebug("JS ERROR: " + e.message);
+  static\dashboard.html:580:});
+  static\dashboard.html:581:
+> static\dashboard.html:582:async function refreshDashboard() {
+  static\dashboard.html:583:  try {
+  static\dashboard.html:584:    frontendDebug?.("Loading status...");
+> static\dashboard.html:585:    const status = await api("/dashboard/status");
+  static\dashboard.html:586:
+  static\dashboard.html:587:    frontendDebug?.("Loading metrics...");
+> static\dashboard.html:588:    const metrics = await api("/dashboard/metrics");
+  static\dashboard.html:589:
+  static\dashboard.html:590:    const autonomy = status.autonomy || {};
+  static\dashboard.html:591:
+  static\dashboard.html:592:    const setText = (id, value) => {
+  static\dashboard.html:593:      const el = document.getElementById(id);
+  static\dashboard.html:608:      const el = document.getElementById(id);
+  static\dashboard.html:609:      if (el) el.innerHTML = value;
+  static\dashboard.html:610:    };
+  static\dashboard.html:611:
+  static\dashboard.html:612:    setText("health", "ONLINE");
+> static\dashboard.html:613:    setText("active_products", metrics.active_products ?? 0);
+  static\dashboard.html:614:    setText("open_orders", metrics.open_orders ?? 0);
+> static\dashboard.html:615:    setText("profit", money(metrics.estimated_daily_profit));
+  static\dashboard.html:616:    setText("spend", money(metrics.estimated_daily_spend));
+  static\dashboard.html:617:    setText("risk", (metrics.risk_level || status.risk_level || "low").toUpperCase());
+  static\dashboard.html:618:
+  static\dashboard.html:619:    setChecked("autonomy_enabled", autonomy.enabled);
+  static\dashboard.html:620:    setChecked("dry_run", autonomy.dry_run);
+  static\dashboard.html:640:      `<div class="status-row"><span>${k.replaceAll("_"," ")}</span><b 
+class="${v}">${v}</b></div>`
+  static\dashboard.html:641:    ).join(""));
+  static\dashboard.html:642:
+  static\dashboard.html:643:    const warnings = status.warnings || [];
+  static\dashboard.html:644:    setHtml("warnings", `
+> static\dashboard.html:645:      <tr><td>Backend/API</td><td class="ok">Protected</td><td>Backend hidden behind 
+dashboard</td></tr>
+  static\dashboard.html:646:      <tr><td>Dry-run</td><td>${autonomy.dry_run ? "Enabled" : 
+"Disabled"}</td><td>${autonomy.dry_run ? "Safe simulation mode" : "Production mode"}</td></tr>
+  static\dashboard.html:647:      <tr><td>Autonomy</td><td>${autonomy.enabled ? "Enabled" : 
+"Disabled"}</td><td>${autonomy.enabled ? "Workflow can create drafts" : "Execution is blocked until enabled"}</td></tr>
+  static\dashboard.html:648:      ${warnings.map(w => `<tr><td>Warning</td><td 
+class="warning">Review</td><td>${w}</td></tr>`).join("")}
+  static\dashboard.html:649:    `);
+  static\dashboard.html:650:
+  static\dashboard.html:654:
+  static\dashboard.html:655:    if (footerApi) footerApi.textContent = "OK";
+  static\dashboard.html:656:    if (footerMode) footerMode.textContent = autonomy.dry_run ? "DRY-RUN" : "LIVE";
+  static\dashboard.html:657:    if (footerRefresh) footerRefresh.textContent = new Date().toLocaleTimeString();
+  static\dashboard.html:658:
+> static\dashboard.html:659:    frontendDebug?.("Dashboard refresh successful");
+> static\dashboard.html:660:    addActivity?.("Dashboard refreshed");
+  static\dashboard.html:661:
+  static\dashboard.html:662:  } catch (e) {
+  static\dashboard.html:663:    const health = document.getElementById("health");
+  static\dashboard.html:664:    if (health) health.textContent = "ERROR";
+  static\dashboard.html:665:
+  static\dashboard.html:667:    if (footerApi) footerApi.textContent = "ERROR";
+  static\dashboard.html:668:
+  static\dashboard.html:669:    const debugError = document.getElementById("debug_last_error");
+  static\dashboard.html:670:    if (debugError) debugError.textContent = String(e);
+  static\dashboard.html:671:
+> static\dashboard.html:672:    frontendDebug?.("Dashboard refresh failed: " + String(e));
+  static\dashboard.html:673:    console.error(e);
+  static\dashboard.html:674:  }
+  static\dashboard.html:675:}
+  static\dashboard.html:676:
+  static\dashboard.html:677:async function saveControls() {
+> static\dashboard.html:678:  await api("/dashboard/controls", {
+  static\dashboard.html:679:    method: "PUT",
+  static\dashboard.html:680:    body: JSON.stringify({
+  static\dashboard.html:681:      enabled: document.getElementById("autonomy_enabled").checked,
+  static\dashboard.html:682:      dry_run: document.getElementById("dry_run").checked,
+  static\dashboard.html:683:      daily_budget_limit: Number(document.getElementById("daily_budget_limit").value || 
+250),
+  static\dashboard.html:684:      minimum_margin_percent: 
+Number(document.getElementById("minimum_margin_percent").value || 25)
+  static\dashboard.html:685:    })
+  static\dashboard.html:686:  });
+  static\dashboard.html:687:  addActivity("Controls saved");
+> static\dashboard.html:688:  refreshDashboard();
+  static\dashboard.html:689:if (typeof refreshRealKpis === "function") refreshRealKpis();
+  static\dashboard.html:690:}
+  static\dashboard.html:691:
+  static\dashboard.html:692:let emergencyStop = false;
+  static\dashboard.html:693:
+  static\dashboard.html:731:
+  static\dashboard.html:732:    const body = {
+  static\dashboard.html:733:      keywords: document.getElementById("workflow_keywords").value,
+  static\dashboard.html:734:      target_market: "UK",
+  static\dashboard.html:735:      marketplace: document.getElementById("workflow_marketplace").value,
+> static\dashboard.html:736:      max_products: parseInt(document.getElementById("workflow_max_products").value || 
+"3"),
+  static\dashboard.html:737:      current_daily_spend: 0,
+  static\dashboard.html:738:      publish_drafts: true
+  static\dashboard.html:739:    };
+  static\dashboard.html:740:
+> static\dashboard.html:741:    const data = await api("/automation/semi-auto/run", {
+  static\dashboard.html:742:      method: "POST",
+  static\dashboard.html:743:      body: JSON.stringify(body)
+  static\dashboard.html:744:    });
+  static\dashboard.html:745:
+  static\dashboard.html:746:    document.getElementById("run_report").textContent =
+  static\dashboard.html:751:      viewer.textContent =
+  static\dashboard.html:752:        "[" + new Date().toLocaleTimeString() + "] Workflow completed\n" +
+  static\dashboard.html:753:        JSON.stringify(data.summary || data, null, 2);
+  static\dashboard.html:754:    }
+  static\dashboard.html:755:
+> static\dashboard.html:756:    renderProductsQueue(data.results || []);
+  static\dashboard.html:757:    renderDecisionBoard(data.results || [], data.summary || {});
+  static\dashboard.html:758:
+  static\dashboard.html:759:    document.getElementById("workflow_progress").style.width = "100%";
+  static\dashboard.html:760:    document.getElementById("workflow_status_text").textContent = "Workflow completed 
+successfully";
+  static\dashboard.html:761:    addRunHistory(data.summary || {});
+  static\dashboard.html:762:    buttons.forEach(b => b.classList.remove("loading"));
+  static\dashboard.html:763:    showToast("Workflow completed", "success");
+  static\dashboard.html:764:    addActivity("Semi-auto workflow completed");
+> static\dashboard.html:765:    refreshDashboard();
+  static\dashboard.html:766:if (typeof refreshRealKpis === "function") refreshRealKpis();
+  static\dashboard.html:767:  } catch (e) {
+  static\dashboard.html:768:    document.getElementById("run_report").textContent = String(e);
+  static\dashboard.html:769:    document.getElementById("workflow_progress").style.width = "100%";
+  static\dashboard.html:770:    document.getElementById("workflow_status_text").textContent = "Workflow failed";
+  static\dashboard.html:774:    document.getElementById("debug_last_error").textContent = String(e);
+  static\dashboard.html:775:    console.error(e);
+  static\dashboard.html:776:  }
+  static\dashboard.html:777:}
+  static\dashboard.html:778:
+> static\dashboard.html:779:function filterProductsQueue() {
+  static\dashboard.html:780:  const search = (document.getElementById("queue_search")?.value || "").toLowerCase();
+  static\dashboard.html:781:  const filter = document.getElementById("queue_filter")?.value || "all";
+  static\dashboard.html:782:
+> static\dashboard.html:783:  document.querySelectorAll("#products_queue tr").forEach(row => {
+  static\dashboard.html:784:    const text = row.innerText.toLowerCase();
+  static\dashboard.html:785:    const status = row.dataset.status || "all";
+  static\dashboard.html:786:
+  static\dashboard.html:787:    const matchesSearch = text.includes(search);
+  static\dashboard.html:788:    const matchesFilter = filter === "all" || status === filter;
+  static\dashboard.html:789:
+  static\dashboard.html:790:    row.classList.toggle("hidden-row", !(matchesSearch && matchesFilter));
+  static\dashboard.html:791:  });
+  static\dashboard.html:792:}
+  static\dashboard.html:793:
+> static\dashboard.html:794:function renderProductsQueue(results) {
+> static\dashboard.html:795:  const tbody = document.getElementById("products_queue");
+  static\dashboard.html:796:  if (!tbody) return;
+  static\dashboard.html:797:
+  static\dashboard.html:798:  if (!results || !results.length) {
+> static\dashboard.html:799:    tbody.innerHTML = `<tr><td colspan="4">No products returned by workflow.</td></tr>`;
+  static\dashboard.html:800:    return;
+  static\dashboard.html:801:  }
+  static\dashboard.html:802:
+  static\dashboard.html:803:  tbody.innerHTML = results.map(item => {
+  static\dashboard.html:804:    const product = item.supplier_product || {};
+  static\dashboard.html:837:        <td>${marketplace}</td>
+  static\dashboard.html:838:      </tr>
+  static\dashboard.html:839:    `;
+  static\dashboard.html:840:  }).join("");
+  static\dashboard.html:841:
+> static\dashboard.html:842:  filterProductsQueue();
+  static\dashboard.html:843:}
+  static\dashboard.html:844:
+  static\dashboard.html:845:function renderDecisionBoard(results, summary) {
+  static\dashboard.html:846:  const approved = results.filter(x =>
+  static\dashboard.html:847:    x.decision?.approved === true ||
+  static\dashboard.html:871:  if (!history) return;
+  static\dashboard.html:872:
+  static\dashboard.html:873:  const item = document.createElement("div");
+  static\dashboard.html:874:  item.className = "history-item";
+  static\dashboard.html:875:
+> static\dashboard.html:876:  const checked = summary.products_checked ?? 0;
+  static\dashboard.html:877:  const listed = summary.listed ?? 0;
+  static\dashboard.html:878:  const review = summary.needs_review ?? 0;
+  static\dashboard.html:879:
+  static\dashboard.html:880:  item.innerHTML = `
+  static\dashboard.html:881:    <span>${new Date().toLocaleTimeString()} — Checked: ${checked}, Listed: ${listed}, 
+Review: ${review}</span>
+  static\dashboard.html:888:    history.removeChild(history.lastChild);
+  static\dashboard.html:889:  }
+  static\dashboard.html:890:}
+  static\dashboard.html:891:
+  static\dashboard.html:892:function exportRunReport() {
+> static\dashboard.html:893:  const rows = [["time","products_checked","listed","needs_review"]];
+  static\dashboard.html:894:
+  static\dashboard.html:895:  document.querySelectorAll("#run_history .history-item").forEach(item => {
+  static\dashboard.html:896:    rows.push([
+  static\dashboard.html:897:      new Date().toISOString(),
+  static\dashboard.html:898:      item.innerText.replaceAll(",", " "),
+  static\dashboard.html:905:  const blob = new Blob([csv], {type: "text/csv"});
+  static\dashboard.html:906:  const url = URL.createObjectURL(blob);
+  static\dashboard.html:907:
+  static\dashboard.html:908:  const a = document.createElement("a");
+  static\dashboard.html:909:  a.href = url;
+> static\dashboard.html:910:  a.download = "dashboard_run_report.csv";
+  static\dashboard.html:911:  a.click();
+  static\dashboard.html:912:
+  static\dashboard.html:913:  URL.revokeObjectURL(url);
+  static\dashboard.html:914:  showToast("CSV report exported", "success");
+  static\dashboard.html:915:  addActivity("CSV report exported");
+  static\dashboard.html:919:  const feed = document.getElementById("activity_feed");
+  static\dashboard.html:920:  if (feed) feed.innerHTML = "";
+  static\dashboard.html:921:  showToast("Activity cleared", "success");
+  static\dashboard.html:922:}
+  static\dashboard.html:923:
+> static\dashboard.html:924:function resetDashboardUI() {
+  static\dashboard.html:925:  document.getElementById("workflow_progress").style.width = "0%";
+  static\dashboard.html:926:  document.getElementById("workflow_status_text").textContent = "Idle. Waiting for 
+command.";
+  static\dashboard.html:927:  document.getElementById("run_report").textContent = "No workflow executed yet.";
+> static\dashboard.html:928:  document.getElementById("products_queue").innerHTML = `<tr><td colspan="4">No workflow 
+products yet.</td></tr>`;
+> static\dashboard.html:929:  showToast("Dashboard UI reset", "success");
+> static\dashboard.html:930:  addActivity("Dashboard UI reset");
+  static\dashboard.html:931:}
+  static\dashboard.html:932:
+  static\dashboard.html:933:async function refreshLogViewer() {
+  static\dashboard.html:934:
+  static\dashboard.html:935:  const viewer = document.getElementById("log_viewer");
+  static\dashboard.html:937:
+  static\dashboard.html:938:  try {
+  static\dashboard.html:939:
+  static\dashboard.html:940:    viewer.textContent = "Loading logs...";
+  static\dashboard.html:941:
+> static\dashboard.html:942:    const data = await api("/dashboard/logs");
+  static\dashboard.html:943:
+  static\dashboard.html:944:    viewer.textContent =
+  static\dashboard.html:945:      "FILE: " + (data.file || "unknown") + "\n\n" +
+  static\dashboard.html:946:      (data.logs || []).join("\n");
+  static\dashboard.html:947:
+  static\dashboard.html:960:  const viewer = document.getElementById("log_viewer");
+  static\dashboard.html:961:  if (viewer) viewer.textContent = "Log viewer cleared.";
+  static\dashboard.html:962:  showToast("Log viewer cleared", "success");
+  static\dashboard.html:963:}
+  static\dashboard.html:964:
+> static\dashboard.html:965:async function refreshReports() {
+> static\dashboard.html:966:  const list = document.getElementById("reports_list");
+  static\dashboard.html:967:  if (!list) return;
+  static\dashboard.html:968:
+  static\dashboard.html:969:  try {
+> static\dashboard.html:970:    list.innerHTML = `<div class="report-item"><div>Loading 
+reports...</div><span>Loading</span></div>`;
+  static\dashboard.html:971:
+> static\dashboard.html:972:    const data = await api("/dashboard/reports");
+> static\dashboard.html:973:    const reports = data.reports || [];
+  static\dashboard.html:974:
+> static\dashboard.html:975:    if (!reports.length) {
+> static\dashboard.html:976:      list.innerHTML = `<div class="report-item"><div>No reports 
+found.</div><span>Empty</span></div>`;
+  static\dashboard.html:977:      return;
+  static\dashboard.html:978:    }
+  static\dashboard.html:979:
+> static\dashboard.html:980:    list.innerHTML = reports.map(r => `
+  static\dashboard.html:981:      <div class="report-item" onclick="previewReport('${r.path.replaceAll("\\", 
+"\\\\")}')">
+  static\dashboard.html:982:        <div>
+  static\dashboard.html:983:          <strong>${r.name}</strong><br>
+  static\dashboard.html:984:          <span>${r.path}</span>
+  static\dashboard.html:985:        </div>
+  static\dashboard.html:986:        <span>${Math.round((r.size || 0) / 1024)} KB</span>
+  static\dashboard.html:987:      </div>
+  static\dashboard.html:988:    `).join("");
+  static\dashboard.html:989:
+> static\dashboard.html:990:    showToast("Reports refreshed", "success");
+> static\dashboard.html:991:    addActivity("Reports center refreshed");
+  static\dashboard.html:992:
+  static\dashboard.html:993:  } catch(e) {
+  static\dashboard.html:994:    list.innerHTML = `<div 
+class="report-item"><div>${String(e)}</div><span>Error</span></div>`;
+> static\dashboard.html:995:    showToast("Failed to load reports", "danger");
+  static\dashboard.html:996:  }
+  static\dashboard.html:997:}
+  static\dashboard.html:998:
+  static\dashboard.html:999:async function previewReport(path) {
+  static\dashboard.html:1000:  const preview = document.getElementById("report_preview");
+  static\dashboard.html:1001:  if (!preview) return;
+  static\dashboard.html:1002:
+  static\dashboard.html:1003:  try {
+  static\dashboard.html:1004:    preview.textContent = "Loading report...";
+  static\dashboard.html:1005:
+> static\dashboard.html:1006:    const data = await api("/dashboard/report-preview?path=" + encodeURIComponent(path));
+  static\dashboard.html:1007:
+  static\dashboard.html:1008:    if (data.error) {
+  static\dashboard.html:1009:      preview.textContent = data.error;
+  static\dashboard.html:1010:      showToast("Report preview failed", "danger");
+  static\dashboard.html:1011:      return;
+  static\dashboard.html:1039:    addActivity("Full daily run started");
+  static\dashboard.html:1040:
+  static\dashboard.html:1041:    document.getElementById("workflow_status_text").textContent = "Full daily run 
+running...";
+  static\dashboard.html:1042:    document.getElementById("workflow_progress").style.width = "45%";
+  static\dashboard.html:1043:
+> static\dashboard.html:1044:    const data = await api("/dashboard/daily-run", {
+  static\dashboard.html:1045:      method: "POST",
+  static\dashboard.html:1046:      body: JSON.stringify({})
+  static\dashboard.html:1047:    });
+  static\dashboard.html:1048:
+  static\dashboard.html:1049:    document.getElementById("workflow_progress").style.width = "100%";
+  static\dashboard.html:1061:    }
+  static\dashboard.html:1062:
+  static\dashboard.html:1063:    showToast(data.ok ? "Daily run completed" : "Daily run had errors", data.ok ? 
+"success" : "danger");
+  static\dashboard.html:1064:    addActivity("Full daily run completed");
+  static\dashboard.html:1065:
+> static\dashboard.html:1066:    refreshDashboard();
+  static\dashboard.html:1067:if (typeof refreshRealKpis === "function") refreshRealKpis();
+  static\dashboard.html:1068:
+  static\dashboard.html:1069:    fullDailyRunning = false;
+  static\dashboard.html:1070:
+  static\dashboard.html:1071:  } catch(e) {
+  static\dashboard.html:1083:
+  static\dashboard.html:1084:  try {
+  static\dashboard.html:1085:
+  static\dashboard.html:1086:    grid.innerHTML = `<div 
+class="readiness-card"><span>Status</span><strong>Checking...</strong></div>`;
+  static\dashboard.html:1087:
+> static\dashboard.html:1088:    const data = await api("/dashboard/production-readiness");
+  static\dashboard.html:1089:
+  static\dashboard.html:1090:    const footerReadiness = document.getElementById("footer_readiness");
+  static\dashboard.html:1091:    if (footerReadiness) {
+  static\dashboard.html:1092:      footerReadiness.textContent = data.ready_for_live ? "LIVE READY" : "NOT READY";
+  static\dashboard.html:1093:    }
+  static\dashboard.html:1120:  if (!body) return;
+  static\dashboard.html:1121:
+  static\dashboard.html:1122:  try {
+  static\dashboard.html:1123:    body.innerHTML = `<tr><td colspan="2">Loading...</td></tr>`;
+  static\dashboard.html:1124:
+> static\dashboard.html:1125:    const data = await api("/dashboard/env-status");
+  static\dashboard.html:1126:    const values = data.values || {};
+  static\dashboard.html:1127:
+  static\dashboard.html:1128:    if (!data.exists) {
+  static\dashboard.html:1129:      body.innerHTML = `<tr><td colspan="2" class="missing">.env.local not 
+found</td></tr>`;
+  static\dashboard.html:1130:      return;
+  static\dashboard.html:1146:
+  static\dashboard.html:1147:async function exportSystemSnapshot() {
+  static\dashboard.html:1148:  try {
+  static\dashboard.html:1149:    const snapshot = {
+  static\dashboard.html:1150:      exported_at: new Date().toISOString(),
+> static\dashboard.html:1151:      status: await api("/dashboard/status"),
+> static\dashboard.html:1152:      metrics: await api("/dashboard/metrics"),
+> static\dashboard.html:1153:      readiness: await api("/dashboard/production-readiness"),
+> static\dashboard.html:1154:      env_status: await api("/dashboard/env-status")
+  static\dashboard.html:1155:    };
+  static\dashboard.html:1156:
+  static\dashboard.html:1157:    const blob = new Blob([JSON.stringify(snapshot, null, 2)], {
+  static\dashboard.html:1158:      type: "application/json"
+  static\dashboard.html:1159:    });
+  static\dashboard.html:1160:
+  static\dashboard.html:1161:    const url = URL.createObjectURL(blob);
+  static\dashboard.html:1162:    const a = document.createElement("a");
+  static\dashboard.html:1163:
+  static\dashboard.html:1164:    a.href = url;
+> static\dashboard.html:1165:    a.download = "ai_commerce_dashboard_snapshot.json";
+  static\dashboard.html:1166:    a.click();
+  static\dashboard.html:1167:
+  static\dashboard.html:1168:    URL.revokeObjectURL(url);
+  static\dashboard.html:1169:
+  static\dashboard.html:1170:    showToast("System snapshot exported", "success");
+  static\dashboard.html:1192:
+  static\dashboard.html:1193:    autoRefreshInterval = setInterval(async () => {
+  static\dashboard.html:1194:
+  static\dashboard.html:1195:      try {
+  static\dashboard.html:1196:
+> static\dashboard.html:1197:        await refreshDashboard();
+  static\dashboard.html:1198:if (typeof refreshRealKpis === "function") refreshRealKpis();
+  static\dashboard.html:1199:        if (typeof refreshRealKpis === "function") {
+  static\dashboard.html:1200:          await refreshRealKpis();
+  static\dashboard.html:1201:        }
+  static\dashboard.html:1202:
+  static\dashboard.html:1203:        if (typeof refreshLogViewer === "function") {
+  static\dashboard.html:1204:          await refreshLogViewer();
+  static\dashboard.html:1205:        }
+  static\dashboard.html:1206:
+> static\dashboard.html:1207:        if (typeof refreshReports === "function") {
+> static\dashboard.html:1208:          await refreshReports();
+  static\dashboard.html:1209:        }
+  static\dashboard.html:1210:
+  static\dashboard.html:1211:        if (typeof checkProductionReadiness === "function") {
+  static\dashboard.html:1212:          await checkProductionReadiness();
+  static\dashboard.html:1213:        }
+  static\dashboard.html:1237:    showToast("Auto refresh disabled", "warning");
+  static\dashboard.html:1238:
+  static\dashboard.html:1239:  }
+  static\dashboard.html:1240:}
+  static\dashboard.html:1241:
+> static\dashboard.html:1242:function setActiveNav(el) {
+> static\dashboard.html:1243:  document.querySelectorAll(".sidebar nav a").forEach(a => a.classList.remove("active"));
+  static\dashboard.html:1244:  el.classList.add("active");
+  static\dashboard.html:1245:}
+  static\dashboard.html:1246:
+  static\dashboard.html:1247:function scrollToSection(id) {
+  static\dashboard.html:1248:  const el = document.getElementById(id);
+  static\dashboard.html:1253:  const panel = header.closest(".panel");
+  static\dashboard.html:1254:  if (!panel) return;
+  static\dashboard.html:1255:  panel.classList.toggle("collapsed");
+  static\dashboard.html:1256:}
+  static\dashboard.html:1257:
+> static\dashboard.html:1258:function runDashboardAudit() {
+  static\dashboard.html:1259:  const checks = [
+  static\dashboard.html:1260:    ["Health Card", "health"],
+  static\dashboard.html:1261:    ["Workflow", "workflow_keywords"],
+> static\dashboard.html:1262:    ["Products Queue", "products_queue"],
+  static\dashboard.html:1263:    ["Run Report", "run_report"],
+  static\dashboard.html:1264:    ["Log Viewer", "log_viewer"],
+> static\dashboard.html:1265:    ["Reports List", "reports_list"],
+  static\dashboard.html:1266:    ["Environment Status", "env_status_body"],
+  static\dashboard.html:1267:    ["Readiness Grid", "readiness_grid"],
+  static\dashboard.html:1268:    ["Activity Feed", "activity_feed"]
+  static\dashboard.html:1269:  ];
+  static\dashboard.html:1270:
+> static\dashboard.html:1271:  const target = document.getElementById("dashboard_audit");
+  static\dashboard.html:1272:
+  static\dashboard.html:1273:  target.innerHTML = checks.map(([name, id]) => {
+  static\dashboard.html:1274:    const ok = !!document.getElementById(id);
+  static\dashboard.html:1275:    return `
+  static\dashboard.html:1276:      <div class="audit-item">
+  static\dashboard.html:1280:        </span>
+  static\dashboard.html:1281:      </div>
+  static\dashboard.html:1282:    `;
+  static\dashboard.html:1283:  }).join("");
+  static\dashboard.html:1284:
+> static\dashboard.html:1285:  showToast("Dashboard UI audit completed", "success");
+> static\dashboard.html:1286:  addActivity("Dashboard UI audit completed");
+  static\dashboard.html:1287:}
+  static\dashboard.html:1288:
+  static\dashboard.html:1289:function toggleGlassMode() {
+  static\dashboard.html:1290:
+  static\dashboard.html:1291:  document.body.classList.toggle("glass-mode");
+  static\dashboard.html:1326:  if (localStorage.getItem("compact_mode") === "1") {
+  static\dashboard.html:1327:    document.body.classList.add("compact-mode");
+  static\dashboard.html:1328:  }
+  static\dashboard.html:1329:});
+  static\dashboard.html:1330:
+> static\dashboard.html:1331:const dashboardCommands = [
+  static\dashboard.html:1332:  ["Run Full Daily", () => runFullDaily()],
+  static\dashboard.html:1333:  ["Run Workflow", () => runDaily()],
+> static\dashboard.html:1334:  ["Refresh Dashboard", () => refreshDashboard()],
+  static\dashboard.html:1335:  ["Refresh Logs", () => refreshLogViewer()],
+> static\dashboard.html:1336:  ["Refresh Reports", () => refreshReports()],
+  static\dashboard.html:1337:  ["Check Production Readiness", () => checkProductionReadiness()],
+  static\dashboard.html:1338:  ["Refresh Environment Status", () => refreshEnvStatus()],
+  static\dashboard.html:1339:  ["Export System Snapshot", () => exportSystemSnapshot()],
+  static\dashboard.html:1340:  ["Toggle Glass Mode", () => toggleGlassMode()],
+  static\dashboard.html:1341:  ["Toggle Compact Mode", () => toggleCompactMode()],
+> static\dashboard.html:1342:  ["Run UI Audit", () => runDashboardAudit()]
+  static\dashboard.html:1343:];
+  static\dashboard.html:1344:
+  static\dashboard.html:1345:function openCommandCenter() {
+  static\dashboard.html:1346:  document.getElementById("command_center").classList.add("open");
+  static\dashboard.html:1347:  document.getElementById("command_search").value = "";
+  static\dashboard.html:1355:
+  static\dashboard.html:1356:function renderCommands() {
+  static\dashboard.html:1357:  const q = (document.getElementById("command_search").value || "").toLowerCase();
+  static\dashboard.html:1358:  const results = document.getElementById("command_results");
+  static\dashboard.html:1359:
+> static\dashboard.html:1360:  results.innerHTML = dashboardCommands
+  static\dashboard.html:1361:    .filter(([name]) => name.toLowerCase().includes(q))
+  static\dashboard.html:1362:    .map(([name], index) => `<div class="command-item" 
+onclick="runCommand(${index})">${name}</div>`)
+  static\dashboard.html:1363:    .join("");
+  static\dashboard.html:1364:}
+  static\dashboard.html:1365:
+  static\dashboard.html:1366:function runCommand(index) {
+  static\dashboard.html:1367:  closeCommandCenter();
+> static\dashboard.html:1368:  dashboardCommands[index][1]();
+  static\dashboard.html:1369:}
+  static\dashboard.html:1370:
+  static\dashboard.html:1371:window.addEventListener("keydown", (e) => {
+  static\dashboard.html:1372:  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+  static\dashboard.html:1373:    e.preventDefault();
+  static\dashboard.html:1378:    const cc = document.getElementById("command_center");
+  static\dashboard.html:1379:    if (cc) cc.classList.remove("open");
+  static\dashboard.html:1380:  }
+  static\dashboard.html:1381:});
+  static\dashboard.html:1382:
+> static\dashboard.html:1383:const dashboardStartedAt = Date.now();
+  static\dashboard.html:1384:
+> static\dashboard.html:1385:function startDashboardClock() {
+  static\dashboard.html:1386:
+  static\dashboard.html:1387:  setInterval(() => {
+  static\dashboard.html:1388:
+  static\dashboard.html:1389:    const now = new Date();
+  static\dashboard.html:1390:
+  static\dashboard.html:1391:    const clock = document.getElementById("live_clock");
+  static\dashboard.html:1392:    if (clock) {
+  static\dashboard.html:1393:      clock.textContent = now.toLocaleTimeString();
+  static\dashboard.html:1394:    }
+  static\dashboard.html:1395:
+> static\dashboard.html:1396:    const uptime = Math.floor((Date.now() - dashboardStartedAt) / 1000);
+  static\dashboard.html:1397:
+  static\dashboard.html:1398:    const uptimeEl = document.getElementById("uptime_counter");
+  static\dashboard.html:1399:
+  static\dashboard.html:1400:    if (uptimeEl) {
+  static\dashboard.html:1401:
+  static\dashboard.html:1409:
+  static\dashboard.html:1410:  }, 1000);
+  static\dashboard.html:1411:}
+  static\dashboard.html:1412:
+  static\dashboard.html:1413:window.addEventListener("load", () => {
+> static\dashboard.html:1414:  startDashboardClock();
+  static\dashboard.html:1415:});
+  static\dashboard.html:1416:
+  static\dashboard.html:1417:let latestRealDataSummary = null;
+  static\dashboard.html:1418:
+  static\dashboard.html:1419:function renderRealDataTable(bucket) {
+  static\dashboard.html:1469:
+  static\dashboard.html:1470:async function refreshDataSummary() {
+  static\dashboard.html:1471:  const preview = document.getElementById("data_summary_preview");
+  static\dashboard.html:1472:
+  static\dashboard.html:1473:  try {
+> static\dashboard.html:1474:    const data = await api("/dashboard/data-summary");
+  static\dashboard.html:1475:    latestRealDataSummary = data;
+  static\dashboard.html:1476:
+  static\dashboard.html:1477:    const countBucket = (name) => {
+  static\dashboard.html:1478:      const arr = data[name] || [];
+  static\dashboard.html:1479:      return arr.reduce((sum, item) => sum + Number(item.count || 0), 0);
+  static\dashboard.html:1480:    };
+  static\dashboard.html:1481:
+> static\dashboard.html:1482:    document.getElementById("data_imported_products").textContent = 
+countBucket("imported_products");
+> static\dashboard.html:1483:    document.getElementById("data_blocked_products").textContent = 
+countBucket("blocked_products");
+  static\dashboard.html:1484:    document.getElementById("data_stock_issues").textContent = 
+countBucket("stock_issues");
+  static\dashboard.html:1485:    document.getElementById("data_image_issues").textContent = 
+countBucket("image_issues");
+  static\dashboard.html:1486:
+  static\dashboard.html:1487:    preview.textContent = JSON.stringify(data, null, 2);
+> static\dashboard.html:1488:    renderRealDataTable("imported_products");
+  static\dashboard.html:1489:
+  static\dashboard.html:1490:    showToast("Real data summary refreshed", "success");
+  static\dashboard.html:1491:    addActivity("Real data summary refreshed");
+  static\dashboard.html:1492:
+  static\dashboard.html:1493:  } catch(e) {
+  static\dashboard.html:1496:  }
+  static\dashboard.html:1497:}
+  static\dashboard.html:1498:
+  static\dashboard.html:1499:async function refreshRealKpis() {
+  static\dashboard.html:1500:  try {
+> static\dashboard.html:1501:    const data = await api("/dashboard/real-kpis");
+  static\dashboard.html:1502:
+> static\dashboard.html:1503:    const imported = document.getElementById("active_products");
+  static\dashboard.html:1504:    if (imported) imported.textContent = data.imported_skus ?? 0;
+  static\dashboard.html:1505:
+> static\dashboard.html:1506:    const blocked = document.getElementById("data_blocked_products");
+> static\dashboard.html:1507:    if (blocked) blocked.textContent = data.blocked_products ?? 0;
+  static\dashboard.html:1508:
+  static\dashboard.html:1509:    const stock = document.getElementById("data_stock_issues");
+  static\dashboard.html:1510:    if (stock) stock.textContent = data.tracked_stock_skus ?? 0;
+  static\dashboard.html:1511:
+  static\dashboard.html:1512:    const images = document.getElementById("data_image_issues");
+  static\dashboard.html:1513:    if (images) images.textContent = data.image_failed ?? 0;
+  static\dashboard.html:1514:
+  static\dashboard.html:1515:    const realImported = document.getElementById("real_imported_skus");
+  static\dashboard.html:1516:    if (realImported) realImported.textContent = data.imported_skus ?? 0;
+  static\dashboard.html:1517:
+> static\dashboard.html:1518:    const realBlocked = document.getElementById("real_blocked_products");
+> static\dashboard.html:1519:    if (realBlocked) realBlocked.textContent = data.blocked_products ?? 0;
+  static\dashboard.html:1520:
+  static\dashboard.html:1521:    const realImages = document.getElementById("real_image_failed");
+  static\dashboard.html:1522:    if (realImages) realImages.textContent = data.image_failed ?? 0;
+  static\dashboard.html:1523:
+  static\dashboard.html:1524:    const realStock = document.getElementById("real_tracked_stock");
+  static\dashboard.html:1532:  } catch(e) {
+  static\dashboard.html:1533:    console.error(e);
+  static\dashboard.html:1534:  }
+  static\dashboard.html:1535:}
+  static\dashboard.html:1536:
+> static\dashboard.html:1537:function syncSidebarOnScroll() {
+> static\dashboard.html:1538:  const links = [...document.querySelectorAll(".sidebar nav a[data-section]")];
+  static\dashboard.html:1539:
+  static\dashboard.html:1540:  let current = null;
+  static\dashboard.html:1541:
+  static\dashboard.html:1542:  for (const link of links) {
+  static\dashboard.html:1543:    const id = link.dataset.section;
+  static\dashboard.html:1550:      current = link;
+  static\dashboard.html:1551:    }
+  static\dashboard.html:1552:  }
+  static\dashboard.html:1553:
+  static\dashboard.html:1554:  if (current) {
+> static\dashboard.html:1555:    document.querySelectorAll(".sidebar nav a").forEach(a => 
+a.classList.remove("active"));
+  static\dashboard.html:1556:    current.classList.add("active");
+  static\dashboard.html:1557:  }
+  static\dashboard.html:1558:}
+  static\dashboard.html:1559:
+> static\dashboard.html:1560:window.addEventListener("scroll", syncSidebarOnScroll);
+  static\dashboard.html:1561:
+  static\dashboard.html:1562:function importNow() {
+  static\dashboard.html:1563:  runDaily();
+  static\dashboard.html:1564:}
+  static\dashboard.html:1565:
+  static\dashboard.html:1566:let refreshTimer = null;
+  static\dashboard.html:1567:
+> static\dashboard.html:1568:function loadDashboardSettings() {
+> static\dashboard.html:1569:  const settings = JSON.parse(localStorage.getItem("dashboard_settings") || "{}");
+  static\dashboard.html:1570:
+  static\dashboard.html:1571:  document.getElementById("setting_theme").value = settings.theme || "dark";
+  static\dashboard.html:1572:  document.getElementById("setting_refresh").value = settings.refreshSeconds || 120;
+> static\dashboard.html:1573:  document.getElementById("setting_keywords").value = settings.keywords || "pet products";
+> static\dashboard.html:1574:  document.getElementById("setting_max_products").value = settings.maxProducts || 5;
+  static\dashboard.html:1575:
+> static\dashboard.html:1576:  document.getElementById("workflow_keywords").value = settings.keywords || "pet 
+products";
+> static\dashboard.html:1577:  document.getElementById("workflow_max_products").value = settings.maxProducts || 5;
+  static\dashboard.html:1578:
+  static\dashboard.html:1579:  document.body.classList.toggle("light-mode", settings.theme === "light");
+  static\dashboard.html:1580:
+  static\dashboard.html:1581:  if (refreshTimer) clearInterval(refreshTimer);
+> static\dashboard.html:1582:  refreshTimer = setInterval(refreshDashboard, Number(settings.refreshSeconds || 120) * 
+1000);
+  static\dashboard.html:1583:}
+  static\dashboard.html:1584:
+> static\dashboard.html:1585:function saveDashboardSettings() {
+  static\dashboard.html:1586:  const settings = {
+  static\dashboard.html:1587:    theme: document.getElementById("setting_theme").value,
+  static\dashboard.html:1588:    refreshSeconds: Number(document.getElementById("setting_refresh").value || 120),
+> static\dashboard.html:1589:    keywords: document.getElementById("setting_keywords").value || "pet products",
+> static\dashboard.html:1590:    maxProducts: Number(document.getElementById("setting_max_products").value || 5)
+  static\dashboard.html:1591:  };
+  static\dashboard.html:1592:
+> static\dashboard.html:1593:  localStorage.setItem("dashboard_settings", JSON.stringify(settings));
+> static\dashboard.html:1594:  loadDashboardSettings();
+> static\dashboard.html:1595:  showToast("Dashboard settings saved", "success");
+> static\dashboard.html:1596:  addActivity("Dashboard settings saved");
+  static\dashboard.html:1597:}
+  static\dashboard.html:1598:
+> static\dashboard.html:1599:refreshDashboard();
+  static\dashboard.html:1600:if (typeof refreshRealKpis === "function") refreshRealKpis();
+> static\dashboard.html:1601:loadDashboardSettings();
+  static\dashboard.html:1602:</script>
+  static\dashboard.html:1603:<div id="toast_stack" class="toast-stack"></div>
+  static\dashboard.html:1604:<div id="command_center" class="command-center" onclick="closeCommandCenter(event)">
+  static\dashboard.html:1605:  <div class="command-box" onclick="event.stopPropagation()">
+  static\dashboard.html:1606:    <input id="command_search" placeholder="Search command..." oninput="renderCommands()">
+  static\final_mvp_dashboard.js:4:  try {
+  static\final_mvp_dashboard.js:5:    const res = await fetch('/final/status');
+  static\final_mvp_dashboard.js:6:    const data = await res.json();
+  static\final_mvp_dashboard.js:7:    box.textContent = JSON.stringify(data, null, 2);
+  static\final_mvp_dashboard.js:8:  } catch (e) {
+> static\final_mvp_dashboard.js:9:    box.textContent = 'Final MVP status unavailable: ' + e;
+  static\final_mvp_dashboard.js:10:  }
+  static\final_mvp_dashboard.js:11:}
+  static\final_mvp_dashboard.js:12:
+  static\final_mvp_dashboard.js:13:async function runFinalCycle() {
+  static\final_mvp_dashboard.js:14:  const out = document.getElementById('final-mvp-output');
+  static\final_mvp_panel.html:7:  <h3>Status</h3>
+  static\final_mvp_panel.html:8:  <pre id="final-mvp-status">Loading...</pre>
+  static\final_mvp_panel.html:9:  <h3>Output</h3>
+  static\final_mvp_panel.html:10:  <pre id="final-mvp-output"></pre>
+  static\final_mvp_panel.html:11:</section>
+> static\final_mvp_panel.html:12:<script src="/static/final_mvp_dashboard.js"></script>
+  static\final_mvp_panel.html:13:
+  static\final_mvp_panel.html:14:
+  static\upgrade_dashboard.js:2:  try {
+  static\upgrade_dashboard.js:3:    const res = await fetch('/upgrade/status');
+  static\upgrade_dashboard.js:4:    const data = await res.json();
+  static\upgrade_dashboard.js:5:    console.log('Upgrade status', data);
+  static\upgrade_dashboard.js:6:  } catch (e) {
+> static\upgrade_dashboard.js:7:    console.warn('Upgrade status unavailable', e);
+  static\upgrade_dashboard.js:8:  }
+  static\upgrade_dashboard.js:9:}
+  static\upgrade_dashboard.js:10:loadUpgradeStatus();
+> venv\Lib\site-packages\mypy\xml\mypy-html.css:1:/* CSS for type check coverage reports */
+  venv\Lib\site-packages\mypy\xml\mypy-html.css:2:
+  venv\Lib\site-packages\mypy\xml\mypy-html.css:3:/*
+  venv\Lib\site-packages\mypy\xml\mypy-html.css:4:    Used by both summary and file.
+  venv\Lib\site-packages\mypy\xml\mypy-html.css:5:*/
+  venv\Lib\site-packages\mypy\xml\mypy-html.css:6:body {
+
+

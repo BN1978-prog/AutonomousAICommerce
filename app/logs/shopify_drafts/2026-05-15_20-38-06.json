@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-15T20:38:06.075976",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10601039855958,
+        "title": "No Pull Dog Harness Reflective Adjustable Soft Padded Pet Vest Harness",
+        "body_html": "AI generated Shopify draft product.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T20:38:05+01:00",
+        "handle": "no-pull-dog-harness-reflective-adjustable-soft-padded-pet-vest-harness",
+        "updated_at": "2026-05-15T20:38:05+01:00",
+        "published_at": "2026-05-15T20:38:05+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10601039855958",
+        "variants": [
+          {
+            "id": 53712523952470,
+            "product_id": 10601039855958,
+            "title": "Default Title",
+            "price": "16.28",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T20:38:05+01:00",
+            "updated_at": "2026-05-15T20:38:06+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJCC1242562",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56279097016662,
+            "inventory_quantity": 616530,
+            "old_inventory_quantity": 616530,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53712523952470",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13629895246166,
+            "product_id": 10601039855958,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77752720949590,
+            "alt": null,
+            "position": 1,
+            "product_id": 10601039855958,
+            "created_at": "2026-05-15T20:38:05+01:00",
+            "updated_at": "2026-05-15T20:38:05+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60417857651030",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/af0f7d03-05f2-4b89-b9a4-c90f8f993988.jpg?v=1778873885",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77752720949590,
+          "alt": null,
+          "position": 1,
+          "product_id": 10601039855958,
+          "created_at": "2026-05-15T20:38:05+01:00",
+          "updated_at": "2026-05-15T20:38:05+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60417857651030",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/af0f7d03-05f2-4b89-b9a4-c90f8f993988.jpg?v=1778873885",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "No Pull Dog Harness Reflective Adjustable Soft Padded Pet Vest Harness",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/af0f7d03-05f2-4b89-b9a4-c90f8f993988.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJCC1242562",
+          "price": "16.28",
+          "inventory_quantity": 616530
+        }
+      ]
+    }
+  },
+  "cost_price": 4.07,
+  "sale_price": 16.28,
+  "profit": 12.21,
+  "margin_percent": 75.0,
+  "sku": "CJCC1242562"
+}

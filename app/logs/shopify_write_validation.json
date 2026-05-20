@@ -1,0 +1,8 @@
+{
+  "sku": "CJJT1048826",
+  "product_id": 10576530407766,
+  "ok": true,
+  "status_code": 201,
+  "response": "{\"metafield\":{\"owner_id\":10576530407766,\"namespace\":\"autopilot\",\"key\":\"validation\",\"value\":\"ok\",\"description\":null,\"id\":80652169380182,\"created_at\":\"2026-05-19T21:09:02+01:00\",\"updated_at\":\"2026-05-19T21:09:02+01:00\",\"owner_resource\":\"product\",\"type\":\"single_line_text_field\",\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Metafield\\/80652169380182\"}}",
+  "checked_at": "2026-05-19T20:49:20.713646+00:00"
+}

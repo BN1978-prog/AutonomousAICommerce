@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-05-15T13:19:35.886864",
+  "result": {
+    "dry_run": true,
+    "created": false,
+    "message": "Simulated Shopify draft product.",
+    "product": {
+      "title": "Durable Pet Travel Backpack - Perfect for Adventures",
+      "body_html": "This versatile pet travel backpack is designed for comfort and convenience, making it ideal for pet owners on the go.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "pet, travel, backpack, outdoor, adventure",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/20200613/3151318899866.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWGY01994",
+          "price": "19.53",
+          "inventory_quantity": 82534
+        }
+      ]
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Durable Pet Travel Backpack - Perfect for Adventures",
+      "body_html": "This versatile pet travel backpack is designed for comfort and convenience, making it ideal for pet owners on the go.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "pet, travel, backpack, outdoor, adventure",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/20200613/3151318899866.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWGY01994",
+          "price": "19.53",
+          "inventory_quantity": 82534
+        }
+      ]
+    }
+  }
+}

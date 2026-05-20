@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-05-20T17:56:21.314433+00:00",
+  "mode": "safe_autonomous",
+  "auto_buy_enabled": true,
+  "max_order_cost": 50,
+  "max_daily_autobuy": 300,
+  "min_margin_percent": 25,
+  "require_real_paid_order": true,
+  "dashboard_read_only": true
+}

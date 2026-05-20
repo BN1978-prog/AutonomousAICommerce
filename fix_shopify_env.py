@@ -1,0 +1,15 @@
+from pathlib import Path
+import re
+
+p=Path(".env")
+s=p.read_text(encoding="utf-8")
+
+s=re.sub(r"^SHOPIFY_ADMIN_TOKEN=.*$\n?","",s,flags=re.M)
+s=re.sub(r"^SHOPIFY_ACCESS_TOKEN=.*$\n?","",s,flags=re.M)
+
+s += "\nSHOPIFY_ADMIN_TOKEN=shpat_??????_????????_?????\n"
+s += "SHOPIFY_ACCESS_TOKEN=shpat_??????_????????_?????\n"
+
+p.write_text(s,encoding="utf-8")
+
+print("SHOPIFY ENV CLEANED")

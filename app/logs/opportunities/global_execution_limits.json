@@ -1,0 +1,11 @@
+{
+  "mode": "global_safe_execution",
+  "auto_listing_enabled": true,
+  "auto_purchase_enabled": false,
+  "daily_budget": 50,
+  "max_test_listings_per_run": 3,
+  "min_margin_percent": 35,
+  "min_net_profit": 10,
+  "max_risk_score": 4,
+  "require_real_order_before_purchase": true
+}

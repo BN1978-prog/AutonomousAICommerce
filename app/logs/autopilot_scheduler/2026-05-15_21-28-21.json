@@ -1,0 +1,357 @@
+{
+  "created_at": "2026-05-15T21:28:21.142016",
+  "payload": {
+    "keywords": [
+      "pet shampoo",
+      "dog socks",
+      "cat harness",
+      "pet harness",
+      "pet socks",
+      "dog bed",
+      "cat collar",
+      "dog grooming",
+      "pet travel bag",
+      "cat scratcher",
+      "dog water bottle",
+      "pet bowl mat",
+      "dog raincoat",
+      "cat tunnel",
+      "pet cleaning brush"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "policy": {
+    "ok": true,
+    "mode": "balanced",
+    "max_real_drafts": 3,
+    "min_score": 85
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 0,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJJT2594074",
+        "title": "Pet Shampoo",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJJT2352016",
+        "title": "Pet Shampoo",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJSP2733732",
+        "title": "Pet Shampoo",
+        "score": 82,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJJJCWGD00115",
+        "title": "The dog dog socks",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJJJCWMY01517",
+        "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJGD1352013",
+        "title": "Dog Socks Cotton Socks Pet Supplies",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJMY1076688",
+        "title": "Cat Chain Traction Rope Set, Chest Harness, Cat Harness, Cat Collar, Dog Leash",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJJJCWMY01355",
+        "title": "Anti-strike cat traction cat harness",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJJJCWMY01345",
+        "title": "Anti-skidding cat harness",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet harness",
+        "sku": "CJJT1116559",
+        "title": "Explosion-Proof Red Pet Chest Harness",
+        "score": 85,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet harness",
+        "sku": "CJCC1242562",
+        "title": "No Pull Dog Harness Reflective Adjustable Soft Padded Pet Vest Harness",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet harness",
+        "sku": "CJJT1478877",
+        "title": "Dog Leash Vest Pet Harness Bullfight",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet socks",
+        "sku": "CJJJCWGY01083",
+        "title": "Pet waterproof socks",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet socks",
+        "sku": "CJGD1352013",
+        "title": "Dog Socks Cotton Socks Pet Supplies",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet socks",
+        "sku": "CJJJCWMY01517",
+        "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJFU2596446",
+        "title": "Dog Bed 70x",
+        "score": 60,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJGY1636313",
+        "title": "Dog Bed",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJJJCWGY02736",
+        "title": "Dog Bed",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJJJCWGY01133",
+        "title": "Dog grooming large beauty",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJMY2078412",
+        "title": "Dog Brush Cat Brush Pet Grooming Brush- Shedding Grooming Tools",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJJJCWGY02183",
+        "title": "Pet grooming tool dog comb",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJJJCWMY00973",
+        "title": "Pet travel bag",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJYD2386773",
+        "title": "Portable Cat Bag Travel Pet Bag",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJJJCWGY02906",
+        "title": "New pet supplies Pet bag dog food travel bag",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY01010",
+        "title": "Cat scratcher boxed",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY00923",
+        "title": "Scratcher cat toy",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY01055",
+        "title": "Cat scratcher nest",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJCC1228639",
+        "title": "Zeze Pet Meal Mat Cat Bowl Mat Pet Non Slip Mat",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJJJCWGY01763",
+        "title": "Pet Bowl Silicone Bone Shape Mat",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJJJCWMY00417",
+        "title": "PVC New design Pet bowl Mat",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog raincoat",
+        "sku": "CJJJCWGY02924",
+        "title": "Dog raincoat",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog raincoat",
+        "sku": "CJGD1113594",
+        "title": "British Dog Raincoat Pet Raincoat",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog raincoat",
+        "sku": "CJJJCWGY00319",
+        "title": "Spring and summer new dog raincoat waterproof cape dog reflective raincoat large dog raincoat",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat tunnel",
+        "sku": "CJJJCWMY01582",
+        "title": "Cat toy S-shaped cat tunnel foldable cat tunnel",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat tunnel",
+        "sku": "CJJJCWMY01293",
+        "title": "Velvet pet tunnel cat tunnel",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat tunnel",
+        "sku": "CJMY2126410",
+        "title": "Cat Tunnel Pet Toy Cat S Tunnel Foldable Cat Tunnel Cat Drill Bucket Toy",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet cleaning brush",
+        "sku": "CJJJJTJT05102",
+        "title": "Pet cleaning brush",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet cleaning brush",
+        "sku": "CJGY1237895",
+        "title": "Pet Roller Cleaning Brush",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet cleaning brush",
+        "sku": "CJYD1794318",
+        "title": "Pet Hair Cleaning Comb Brush",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      }
+    ]
+  }
+}

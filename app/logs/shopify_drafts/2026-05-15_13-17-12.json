@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-05-15T13:17:12.579804",
+  "result": {
+    "dry_run": true,
+    "created": false,
+    "message": "Simulated Shopify draft product.",
+    "product": {
+      "title": "Pet Bowl Silicone Folding Pet Bowl",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/20200415/335855501973.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWGY01325",
+          "price": "9.99",
+          "inventory_quantity": 24435
+        }
+      ]
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Pet Bowl Silicone Folding Pet Bowl",
+      "body_html": "AI generated Shopify draft product.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/20200415/335855501973.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWGY01325",
+          "price": "9.99",
+          "inventory_quantity": 24435
+        }
+      ]
+    }
+  }
+}

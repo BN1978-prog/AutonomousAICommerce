@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-16T07:27:33.462654",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10650143490390,
+        "title": "Durable Dog Leash Vest Harness - Perfect for Active Pets",
+        "body_html": "Keep your furry friend safe and stylish with our durable dog leash vest harness. Ideal for walks, runs, and outdoor adventures.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-16T07:27:32+01:00",
+        "handle": "durable-dog-leash-vest-harness-perfect-for-active-pets",
+        "updated_at": "2026-05-16T07:27:32+01:00",
+        "published_at": "2026-05-16T07:27:32+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "dog harness, dog leash, outdoor pet gear, pet accessories",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10650143490390",
+        "variants": [
+          {
+            "id": 53763178889558,
+            "product_id": 10650143490390,
+            "title": "Default Title",
+            "price": "11.04",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-16T07:27:32+01:00",
+            "updated_at": "2026-05-16T07:27:33+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJJT1478877",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56329814606166,
+            "inventory_quantity": 496074,
+            "old_inventory_quantity": 496074,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53763178889558",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13681380393302,
+            "product_id": 10650143490390,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77811642532182,
+            "alt": null,
+            "position": 1,
+            "product_id": 10650143490390,
+            "created_at": "2026-05-16T07:27:32+01:00",
+            "updated_at": "2026-05-16T07:27:32+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60476194193750",
+            "width": 800,
+            "height": 800,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/3a6bdc07-ef55-45cf-851d-4b204e55b32d.jpg?v=1778912852",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77811642532182,
+          "alt": null,
+          "position": 1,
+          "product_id": 10650143490390,
+          "created_at": "2026-05-16T07:27:32+01:00",
+          "updated_at": "2026-05-16T07:27:32+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60476194193750",
+          "width": 800,
+          "height": 800,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/3a6bdc07-ef55-45cf-851d-4b204e55b32d.jpg?v=1778912852",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Durable Dog Leash Vest Harness - Perfect for Active Pets",
+      "body_html": "Keep your furry friend safe and stylish with our durable dog leash vest harness. Ideal for walks, runs, and outdoor adventures.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "dog harness, pet accessories, dog leash, outdoor pet gear",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/3a6bdc07-ef55-45cf-851d-4b204e55b32d.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJT1478877",
+          "price": "11.04",
+          "inventory_quantity": 496074
+        }
+      ]
+    }
+  },
+  "cost_price": 2.76,
+  "sale_price": 11.04,
+  "profit": 8.28,
+  "margin_percent": 75.0,
+  "sku": "CJJT1478877"
+}

@@ -1,0 +1,38 @@
+{
+  "shopify": {
+    "channel": "shopify",
+    "success_rate": 100,
+    "profit_score": 50,
+    "api_health": 100,
+    "sales_score": 50,
+    "return_rate_score": 100,
+    "score": 80.0
+  },
+  "amazon": {
+    "channel": "amazon",
+    "success_rate": 95,
+    "profit_score": 90,
+    "api_health": 100,
+    "sales_score": 92,
+    "return_rate_score": 88,
+    "score": 93.6
+  },
+  "woocommerce": {
+    "channel": "woocommerce",
+    "success_rate": 100,
+    "profit_score": 70,
+    "api_health": 100,
+    "sales_score": 50,
+    "return_rate_score": 100,
+    "score": 85.0
+  },
+  "meta_shop": {
+    "channel": "meta_shop",
+    "success_rate": 100,
+    "profit_score": 65,
+    "api_health": 100,
+    "sales_score": 55,
+    "return_rate_score": 100,
+    "score": 84.5
+  }
+}

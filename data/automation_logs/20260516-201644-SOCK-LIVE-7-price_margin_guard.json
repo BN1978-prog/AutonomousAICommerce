@@ -1,0 +1,14 @@
+{
+  "sku": "SOCK-LIVE-7",
+  "rule": "price_margin_guard",
+  "created_at": "2026-05-16T20:16:44.101710",
+  "result": {
+    "ok": true,
+    "action_taken": false,
+    "rule": "price_margin_guard",
+    "sku": "SOCK-LIVE-7",
+    "current_price": 20.0,
+    "minimum_price": 20.0,
+    "message": "price already meets margin guard"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "currency": "GBP",
+  "available_balance": 475.0,
+  "reserved_balance": 25.0,
+  "total_income": 0.0,
+  "total_expense": 0.0,
+  "daily_spend_limit": 75.0,
+  "min_reserve": 0.0,
+  "auto_mode": true,
+  "updated_at": "2026-05-17T10:18:21.520502"
+}

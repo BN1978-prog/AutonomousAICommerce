@@ -1,0 +1,397 @@
+{
+  "created_at": "2026-05-15T17:09:16.240120",
+  "payload": {
+    "keywords": [
+      "cat bed",
+      "dog leash",
+      "pet brush",
+      "dog toy",
+      "cat toy",
+      "pet grooming",
+      "pet carrier",
+      "pet feeder",
+      "pet water bottle",
+      "pet blanket"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 1,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "cat bed",
+        "sku": "CJMY1112786",
+        "title": "Four Seasons Universal Cat Recliner Cat Bed",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat bed",
+        "sku": "CJMY1231877",
+        "title": "Cat Tent Bed Frame, Dog Bed, Pet Bed, Cat Bed",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat bed",
+        "sku": "CJJJCWMY00416",
+        "title": "Cat bed cat hammock",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog leash",
+        "sku": "CJJJCWGX00530",
+        "title": "Dog leash dog leash pet leash",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog leash",
+        "sku": "CJJJCWGY01769",
+        "title": "Dog leash dog leash dog collar",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog leash",
+        "sku": "CJGX1225741",
+        "title": "Pet Leash, Dog Leash, Dog Collar, Dog Leash, Dog Chain",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet brush",
+        "sku": "CJMY2073717",
+        "title": "Pet Brush",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet brush",
+        "sku": "CJGY2073146",
+        "title": "Pet Brush",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet brush",
+        "sku": "CJJJCWGY01351",
+        "title": "Pet hair brush hair brush",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog toy",
+        "sku": "CJGY1082751",
+        "title": "Pet Slow Feeder Dog Toy Cute Funny Rubber Dog Ball Toy",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog toy",
+        "sku": "CJGY1229991",
+        "title": "Dog Simulation Peanut Toy Dog Toy",
+        "score": 78,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog toy",
+        "sku": "CJJJCWGY00118",
+        "title": "dog toy",
+        "score": 65,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat toy",
+        "sku": "CJMY1151470",
+        "title": "Pet Cat Self-hey Toy Smart Funny Cat Triangle Turntable Electric Toy Cat Scratcher",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat toy",
+        "sku": "CJGY1208532",
+        "title": "Big Bell Ball Cat Toy Ball Funny Cat Toy Cat Toy Cat Toy Pet Hollow Toy Ball",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat toy",
+        "sku": "CJJJCWMY00847",
+        "title": "Automatic electric cat toy cat toy",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03008",
+        "title": "Pet grooming comb",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWMY01054",
+        "title": "Pet grooming scissors",
+        "score": 78,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03016",
+        "title": "Pet grooming scissors",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJMY1174239",
+        "title": "Pet Carrier Small Size",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 12.42,
+        "sale_price": 37.26,
+        "margin_percent": 66.67,
+        "profit": 24.84,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10585215304022,
+                "title": "Pet Carrier Small Size",
+                "body_html": "AI generated Shopify draft product.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T17:08:28+01:00",
+                "handle": "pet-carrier-small-size",
+                "updated_at": "2026-05-15T17:08:28+01:00",
+                "published_at": null,
+                "template_suffix": null,
+                "published_scope": "web",
+                "tags": "",
+                "status": "draft",
+                "admin_graphql_api_id": "gid://shopify/Product/10585215304022",
+                "variants": [
+                  {
+                    "id": 53695195677014,
+                    "product_id": 10585215304022,
+                    "title": "Default Title",
+                    "price": "37.26",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T17:08:28+01:00",
+                    "updated_at": "2026-05-15T17:08:29+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJMY1174239",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56261752226134,
+                    "inventory_quantity": 30284,
+                    "old_inventory_quantity": 30284,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53695195677014",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13613230063958,
+                    "product_id": 10585215304022,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77719413195094,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10585215304022,
+                    "created_at": "2026-05-15T17:08:28+01:00",
+                    "updated_at": "2026-05-15T17:08:28+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60395784405334",
+                    "width": 750,
+                    "height": 750,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1623722972221.jpg?v=1778861308",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77719413195094,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10585215304022,
+                  "created_at": "2026-05-15T17:08:28+01:00",
+                  "updated_at": "2026-05-15T17:08:28+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60395784405334",
+                  "width": 750,
+                  "height": 750,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1623722972221.jpg?v=1778861308",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Pet Carrier Small Size",
+              "body_html": "AI generated Shopify draft product.",
+              "vendor": "CJdropshipping",
+              "status": "draft",
+              "tags": "",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/1623722972221.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJMY1174239",
+                  "price": "37.26",
+                  "inventory_quantity": 30284
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_17-08-30.json"
+        }
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJGY1294149",
+        "title": "Pet Travel Carrier Bag Portable Pet Bag Folding Fabric Pet Carrier Travel Carrier Bag For Pet Cage With Locking Safety Zippers",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJNS1581122",
+        "title": "Cat Carrier Soft Dog Carrier Foldable Portable Bag Pet",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet feeder",
+        "sku": "CJYD1544909",
+        "title": "Pet Water Feeder Cat Automatic Pet Feeder",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet feeder",
+        "sku": "CJJT1579467",
+        "title": "Smart Pet Automatic Feeder Water Feeder",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet feeder",
+        "sku": "CJJJJTJT38958",
+        "title": "Pet feeder automatic",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet water bottle",
+        "sku": "CJGY1517102",
+        "title": "Pet Water Bottle Travel Bottle Pet Cat And Dog Water Bottle",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet water bottle",
+        "sku": "CJJJCWGY02436",
+        "title": "Pet folding water bottle",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet water bottle",
+        "sku": "CJJJCWGY00314",
+        "title": "500L Pet Water Bottle Travel Sports Drinking Water Outdoor Drinking Water Bottle Drinking Water Bottle",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJYD2164619",
+        "title": "Pet Waterproof Blanket Dog Blanket",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY01007",
+        "title": "Lambskin Pet Blanket",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY03463",
+        "title": "Pet electric blanket",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      }
+    ]
+  }
+}

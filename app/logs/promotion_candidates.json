@@ -1,0 +1,22 @@
+[
+  {
+    "sku": "CJJT2896696",
+    "score": 95,
+    "price": 4.16,
+    "source": null,
+    "ebay_status": "published",
+    "ebay_offer_id": "170511284011",
+    "ebay_listing_id": null,
+    "product_id": 10771609813334
+  },
+  {
+    "sku": "PET-BOWL-001",
+    "score": 82,
+    "price": 12.7,
+    "source": "ai_hunter",
+    "ebay_status": "published",
+    "ebay_offer_id": "170646276011",
+    "ebay_listing_id": "358573138042",
+    "product_id": 10660289610070
+  }
+]

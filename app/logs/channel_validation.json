@@ -1,0 +1,36 @@
+[
+  {
+    "channel": "shopify",
+    "status": "live_api",
+    "evidence": [
+      "hydrator_success"
+    ],
+    "checked_at": "2026-05-19T20:06:38.953502+00:00"
+  },
+  {
+    "channel": "ebay",
+    "status": "partial_live",
+    "evidence": [
+      "offer_ids_present"
+    ],
+    "checked_at": "2026-05-19T20:06:38.953502+00:00"
+  },
+  {
+    "channel": "woocommerce",
+    "status": "simulated",
+    "evidence": [],
+    "checked_at": "2026-05-19T20:06:38.953502+00:00"
+  },
+  {
+    "channel": "meta_feed",
+    "status": "feed_only",
+    "evidence": [],
+    "checked_at": "2026-05-19T20:06:38.953502+00:00"
+  },
+  {
+    "channel": "google_feed",
+    "status": "feed_only",
+    "evidence": [],
+    "checked_at": "2026-05-19T20:06:38.953502+00:00"
+  }
+]

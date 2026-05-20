@@ -1,0 +1,21 @@
+{
+  "id": "demo_ruleset_001",
+  "name": "Demo automation ruleset",
+  "enabled": true,
+  "rules": [
+    {
+      "id": "rule_001",
+      "enabled": true,
+      "type": "heartbeat_check",
+      "condition": {
+        "field": "daemon.running",
+        "operator": "eq",
+        "value": true
+      },
+      "action": {
+        "type": "log",
+        "message": "Daemon is running"
+      }
+    }
+  ]
+}

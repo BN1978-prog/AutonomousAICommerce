@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-05-20T21:34:17.782328+00:00",
+  "ready_platforms": [
+    {
+      "platform": "meta_ads",
+      "status": "ready_paused_campaigns_created",
+      "campaigns": 2,
+      "spend_enabled": false
+    }
+  ],
+  "blockers": [
+    {
+      "platform": "google_ads",
+      "status": "blocked_external_platform_permission",
+      "reason": "DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+      "action_required": "apply_for_google_ads_api_basic_or_standard_access_or_use_test_account"
+    }
+  ],
+  "ready_count": 1,
+  "blocker_count": 1,
+  "status": "external_blockers_present"
+}

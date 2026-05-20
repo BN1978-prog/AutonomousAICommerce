@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-05-20T21:33:01.102325+00:00",
+  "commerce_channels_ok": true,
+  "paid_ads_ok": true,
+  "results": [
+    {
+      "provider": "shopify",
+      "ok": true,
+      "status": "token_valid",
+      "checked_at": "2026-05-20T21:32:58.510926+00:00",
+      "status_code": 200,
+      "can_auto_refresh": false,
+      "response": ""
+    },
+    {
+      "provider": "woocommerce",
+      "ok": true,
+      "status": "keys_valid",
+      "checked_at": "2026-05-20T21:32:59.432335+00:00",
+      "status_code": 200,
+      "can_auto_refresh": false,
+      "response": ""
+    },
+    {
+      "provider": "ebay",
+      "ok": true,
+      "status": "access_token_refreshed",
+      "checked_at": "2026-05-20T21:33:00.065862+00:00",
+      "can_auto_refresh": true,
+      "expires_in": 7200,
+      "env_updated": "EBAY_ACCESS_TOKEN"
+    },
+    {
+      "provider": "google_ads",
+      "ok": true,
+      "status": "access_token_refreshed",
+      "checked_at": "2026-05-20T21:33:00.502268+00:00",
+      "can_auto_refresh": true,
+      "expires_in": 3599,
+      "env_updated": "GOOGLE_ADS_ACCESS_TOKEN"
+    },
+    {
+      "provider": "meta",
+      "ok": true,
+      "status": "token_valid_but_no_app_secret_for_auto_refresh",
+      "checked_at": "2026-05-20T21:33:01.102325+00:00",
+      "can_auto_refresh": false,
+      "status_code": 200,
+      "response": "{\"id\":\"26532786449751096\",\"name\":\"\\u041d\\u0438\\u043a\\u043e\\u043b\\u0430\\u0439 \\u0411\\u0430\\u0431\\u043e\\u0433\\u043b\\u043e\"}"
+    }
+  ]
+}

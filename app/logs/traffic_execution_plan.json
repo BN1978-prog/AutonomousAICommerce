@@ -1,0 +1,101 @@
+[
+  {
+    "sku": "PET-BOWL-001",
+    "priority": "high",
+    "actions": [
+      {
+        "channel": "seo",
+        "action": "apply_seo_suggestion",
+        "payload": {
+          "sku": "PET-BOWL-001",
+          "suggested_title": "Non-Slip Pet Feeding Bowl for Cats and Dogs",
+          "suggested_description": "Practical non-slip pet feeding bowl designed for everyday use with cats and dogs. Easy to place, simple to clean, and suitable for daily feeding routines.",
+          "suggested_tags": [
+            "pet bowl",
+            "dog bowl",
+            "cat bowl",
+            "pet feeding",
+            "ai hunter pick"
+          ],
+          "auto_apply": false
+        },
+        "auto_apply": true
+      },
+      {
+        "channel": "social",
+        "action": "create_product_post",
+        "auto_apply": false
+      },
+      {
+        "channel": "meta_ads",
+        "action": "prepare_campaign",
+        "daily_budget": 3.0,
+        "auto_apply": false
+      },
+      {
+        "channel": "google_ads",
+        "action": "prepare_campaign",
+        "daily_budget": 3.0,
+        "auto_apply": false
+      },
+      {
+        "channel": "pricing",
+        "action": "queue_price_test",
+        "payload": {
+          "sku": "PET-BOWL-001",
+          "score": 82,
+          "current_price": 12.7,
+          "test_price": 12.06,
+          "strategy": "small_discount_test",
+          "reason": "Good score but no sales yet. Test small discount to improve conversion.",
+          "auto_apply": false
+        },
+        "auto_apply": false
+      }
+    ],
+    "created_at": "2026-05-19T18:48:05.951634+00:00"
+  },
+  {
+    "sku": "CJJT2896696",
+    "priority": "medium",
+    "actions": [
+      {
+        "channel": "seo",
+        "action": "apply_seo_suggestion",
+        "payload": {
+          "sku": "CJJT2896696",
+          "suggested_title": "High-Scoring Trending Product for Everyday Use",
+          "suggested_description": "Selected by the autonomous product scoring system as a high-potential item. Suitable for testing in marketplace and Shopify promotion campaigns.",
+          "suggested_tags": [
+            "trending product",
+            "high score",
+            "promotion candidate",
+            "shopify product"
+          ],
+          "auto_apply": false
+        },
+        "auto_apply": false
+      },
+      {
+        "channel": "social",
+        "action": "create_product_post",
+        "auto_apply": false
+      },
+      {
+        "channel": "pricing",
+        "action": "queue_price_test",
+        "payload": {
+          "sku": "CJJT2896696",
+          "score": 95,
+          "current_price": 4.16,
+          "test_price": 4.58,
+          "strategy": "premium_hold_or_bundle",
+          "reason": "High score product. Test higher perceived value or bundle instead of discount.",
+          "auto_apply": false
+        },
+        "auto_apply": false
+      }
+    ],
+    "created_at": "2026-05-19T18:48:05.951634+00:00"
+  }
+]

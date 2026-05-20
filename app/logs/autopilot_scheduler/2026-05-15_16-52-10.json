@@ -1,0 +1,520 @@
+{
+  "created_at": "2026-05-15T16:52:10.259429",
+  "payload": {
+    "keywords": [
+      "cat bed",
+      "dog leash",
+      "pet brush",
+      "dog toy",
+      "cat toy",
+      "pet grooming",
+      "pet carrier",
+      "pet feeder",
+      "pet water bottle",
+      "pet blanket"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 2,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "cat bed",
+        "sku": "CJMY1112786",
+        "title": "Four Seasons Universal Cat Recliner Cat Bed",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat bed",
+        "sku": "CJMY1231877",
+        "title": "Cat Tent Bed Frame, Dog Bed, Pet Bed, Cat Bed",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat bed",
+        "sku": "CJJJCWMY00416",
+        "title": "Cat bed cat hammock",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog leash",
+        "sku": "CJJJCWGX00530",
+        "title": "Dog leash dog leash pet leash",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog leash",
+        "sku": "CJJJCWGY01769",
+        "title": "Dog leash dog leash dog collar",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog leash",
+        "sku": "CJGX1225741",
+        "title": "Pet Leash, Dog Leash, Dog Collar, Dog Leash, Dog Chain",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet brush",
+        "sku": "CJMY2073717",
+        "title": "Pet Brush",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet brush",
+        "sku": "CJGY2073146",
+        "title": "Pet Brush",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet brush",
+        "sku": "CJJJCWGY01351",
+        "title": "Pet hair brush hair brush",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog toy",
+        "sku": "CJGY1082751",
+        "title": "Pet Slow Feeder Dog Toy Cute Funny Rubber Dog Ball Toy",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog toy",
+        "sku": "CJGY1229991",
+        "title": "Dog Simulation Peanut Toy Dog Toy",
+        "score": 78,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog toy",
+        "sku": "CJJJCWGY00118",
+        "title": "dog toy",
+        "score": 65,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat toy",
+        "sku": "CJMY1151470",
+        "title": "Pet Cat Self-hey Toy Smart Funny Cat Triangle Turntable Electric Toy Cat Scratcher",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat toy",
+        "sku": "CJGY1208532",
+        "title": "Big Bell Ball Cat Toy Ball Funny Cat Toy Cat Toy Cat Toy Pet Hollow Toy Ball",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat toy",
+        "sku": "CJJJCWMY00847",
+        "title": "Automatic electric cat toy cat toy",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03008",
+        "title": "Pet grooming comb",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWMY01054",
+        "title": "Pet grooming scissors",
+        "score": 90,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 6.95,
+        "sale_price": 20.85,
+        "margin_percent": 66.67,
+        "profit": 13.9,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10583992664406,
+                "title": "Pet grooming scissors",
+                "body_html": "AI generated Shopify draft product.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T16:51:04+01:00",
+                "handle": "pet-grooming-scissors",
+                "updated_at": "2026-05-15T16:51:04+01:00",
+                "published_at": null,
+                "template_suffix": null,
+                "published_scope": "web",
+                "tags": "",
+                "status": "draft",
+                "admin_graphql_api_id": "gid://shopify/Product/10583992664406",
+                "variants": [
+                  {
+                    "id": 53693863199062,
+                    "product_id": 10583992664406,
+                    "title": "Default Title",
+                    "price": "20.85",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T16:51:04+01:00",
+                    "updated_at": "2026-05-15T16:51:05+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJJJCWMY01054",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56260380492118,
+                    "inventory_quantity": 24719,
+                    "old_inventory_quantity": 24719,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53693863199062",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13611937300822,
+                    "product_id": 10583992664406,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77717388132694,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10583992664406,
+                    "created_at": "2026-05-15T16:51:04+01:00",
+                    "updated_at": "2026-05-15T16:51:04+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60394408018262",
+                    "width": 800,
+                    "height": 800,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/41806691550.jpg?v=1778860264",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77717388132694,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10583992664406,
+                  "created_at": "2026-05-15T16:51:04+01:00",
+                  "updated_at": "2026-05-15T16:51:04+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60394408018262",
+                  "width": 800,
+                  "height": 800,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/41806691550.jpg?v=1778860264",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Pet grooming scissors",
+              "body_html": "AI generated Shopify draft product.",
+              "vendor": "CJdropshipping",
+              "status": "draft",
+              "tags": "",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/20200820/41806691550.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJJJCWMY01054",
+                  "price": "20.85",
+                  "inventory_quantity": 24719
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_16-51-05.json"
+        }
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03016",
+        "title": "Pet grooming scissors",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJGY1294149",
+        "title": "Pet Travel Carrier Bag Portable Pet Bag Folding Fabric Pet Carrier Travel Carrier Bag For Pet Cage With Locking Safety Zippers",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJMY1174239",
+        "title": "Pet Carrier Small Size",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJNS1581122",
+        "title": "Cat Carrier Soft Dog Carrier Foldable Portable Bag Pet",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet feeder",
+        "sku": "CJYD1544909",
+        "title": "Pet Water Feeder Cat Automatic Pet Feeder",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet feeder",
+        "sku": "CJJT1579467",
+        "title": "Smart Pet Automatic Feeder Water Feeder",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet feeder",
+        "sku": "CJJJJTJT38958",
+        "title": "Pet feeder automatic",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet water bottle",
+        "sku": "CJGY1517102",
+        "title": "Pet Water Bottle Travel Bottle Pet Cat And Dog Water Bottle",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet water bottle",
+        "sku": "CJJJCWGY02436",
+        "title": "Pet folding water bottle",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet water bottle",
+        "sku": "CJJJCWGY00314",
+        "title": "500L Pet Water Bottle Travel Sports Drinking Water Outdoor Drinking Water Bottle Drinking Water Bottle",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJYD2164619",
+        "title": "Pet Waterproof Blanket Dog Blanket",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 3.51,
+        "sale_price": 10.53,
+        "margin_percent": 66.67,
+        "profit": 7.02,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10584072814934,
+                "title": "Pet Waterproof Blanket Dog Blanket",
+                "body_html": "AI generated Shopify draft product.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T16:52:08+01:00",
+                "handle": "pet-waterproof-blanket-dog-blanket",
+                "updated_at": "2026-05-15T16:52:09+01:00",
+                "published_at": null,
+                "template_suffix": null,
+                "published_scope": "web",
+                "tags": "",
+                "status": "draft",
+                "admin_graphql_api_id": "gid://shopify/Product/10584072814934",
+                "variants": [
+                  {
+                    "id": 53693949542742,
+                    "product_id": 10584072814934,
+                    "title": "Default Title",
+                    "price": "10.53",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T16:52:09+01:00",
+                    "updated_at": "2026-05-15T16:52:09+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJYD2164619",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56260466311510,
+                    "inventory_quantity": 66924,
+                    "old_inventory_quantity": 66924,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53693949542742",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13612019515734,
+                    "product_id": 10584072814934,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77717466054998,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10584072814934,
+                    "created_at": "2026-05-15T16:52:09+01:00",
+                    "updated_at": "2026-05-15T16:52:09+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60394489774422",
+                    "width": 1000,
+                    "height": 1000,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/a31b71d4-8955-49e9-8e94-48f33bdb23d3.jpg?v=1778860329",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77717466054998,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10584072814934,
+                  "created_at": "2026-05-15T16:52:09+01:00",
+                  "updated_at": "2026-05-15T16:52:09+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60394489774422",
+                  "width": 1000,
+                  "height": 1000,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/a31b71d4-8955-49e9-8e94-48f33bdb23d3.jpg?v=1778860329",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Pet Waterproof Blanket Dog Blanket",
+              "body_html": "AI generated Shopify draft product.",
+              "vendor": "CJdropshipping",
+              "status": "draft",
+              "tags": "",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/quick/product/a31b71d4-8955-49e9-8e94-48f33bdb23d3.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJYD2164619",
+                  "price": "10.53",
+                  "inventory_quantity": 66924
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_16-52-10.json"
+        }
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY01007",
+        "title": "Lambskin Pet Blanket",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY03463",
+        "title": "Pet electric blanket",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      }
+    ]
+  }
+}

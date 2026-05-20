@@ -1,0 +1,528 @@
+{
+  "created_at": "2026-05-16T10:05:47.532937",
+  "payload": {
+    "keywords": [
+      "pet shampoo",
+      "dog socks",
+      "cat harness",
+      "pet harness",
+      "pet socks",
+      "dog bed",
+      "cat collar",
+      "dog grooming",
+      "pet travel bag",
+      "cat scratcher",
+      "dog water bottle",
+      "pet bowl mat",
+      "dog raincoat",
+      "cat tunnel",
+      "pet cleaning brush"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "policy": {
+    "ok": true,
+    "mode": "balanced",
+    "max_real_drafts": 3,
+    "min_score": 85
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 1,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJSP2733732",
+        "title": "Pet Shampoo",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJJT2594074",
+        "title": "Pet Shampoo",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJJT2352016",
+        "title": "Pet Shampoo",
+        "score": 78,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJJJCWGD00115",
+        "title": "The dog dog socks",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJJJCWMY01517",
+        "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJGD1352013",
+        "title": "Dog Socks Cotton Socks Pet Supplies",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJMY1076688",
+        "title": "Cat Chain Traction Rope Set, Chest Harness, Cat Harness, Cat Collar, Dog Leash",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJJJCWMY01355",
+        "title": "Anti-strike cat traction cat harness",
+        "score": 78,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJJJCWMY01345",
+        "title": "Anti-skidding cat harness",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet harness",
+        "sku": "CJJT1116559",
+        "title": "Explosion-Proof Red Pet Chest Harness",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet harness",
+        "sku": "CJCC1242562",
+        "title": "No Pull Dog Harness Reflective Adjustable Soft Padded Pet Vest Harness",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet harness",
+        "sku": "CJJT1353912",
+        "title": "Pet Leash Harness For Elderly Dogs",
+        "score": 65,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet socks",
+        "sku": "CJJJCWGY01083",
+        "title": "Pet waterproof socks",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet socks",
+        "sku": "CJGD1352013",
+        "title": "Dog Socks Cotton Socks Pet Supplies",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet socks",
+        "sku": "CJJJCWMY01517",
+        "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJFU2596446",
+        "title": "Dog Bed 70x",
+        "score": 55,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJPN2660770",
+        "title": "Warm Large Dog Bed Pet Mat Cat Bed Dog Bed Dog Mat",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJJJCWGY01160",
+        "title": "Dog Bed Sofa Bed",
+        "score": 70,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1081175",
+        "title": "Pet Print Bell Cat Collar Cat Strap",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1007380",
+        "title": "Pet Collar Cat Collar With Bell Cat Collar",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJJJCWMY01318",
+        "title": "Cat pet collar collar",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJJJCWGY01133",
+        "title": "Dog grooming large beauty",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJGY1462366",
+        "title": "Dog Grooming Earmuffs Anti-Noise",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJJJCWGY00645",
+        "title": "Cat and dog grooming comb",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJJJCWMY00973",
+        "title": "Pet travel bag",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJYD2386773",
+        "title": "Portable Cat Bag Travel Pet Bag",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJJJCWGY02906",
+        "title": "New pet supplies Pet bag dog food travel bag",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY01010",
+        "title": "Cat scratcher boxed",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY01055",
+        "title": "Cat scratcher nest",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY00923",
+        "title": "Scratcher cat toy",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog water bottle",
+        "sku": "CJJJCWGY00675",
+        "title": "Pet Outdoor Foldable Bottle Dog Travel Water Bottle Dog Water Dispenser",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 5.6,
+        "sale_price": 19.6,
+        "margin_percent": 71.43,
+        "profit": 14.0,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10657676329302,
+                "title": "Pet Outdoor Foldable Dog Water Bottle - Travel Dispenser",
+                "body_html": "Keep your pet hydrated on the go with this foldable outdoor water bottle. Perfect for travel and outdoor adventures.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-16T10:04:46+01:00",
+                "handle": "pet-outdoor-foldable-dog-water-bottle-travel-dispenser",
+                "updated_at": "2026-05-16T10:04:47+01:00",
+                "published_at": "2026-05-16T10:04:46+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "dog, outdoor, pet, travel, water bottle",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10657676329302",
+                "variants": [
+                  {
+                    "id": 53771820040534,
+                    "product_id": 10657676329302,
+                    "title": "Default Title",
+                    "price": "19.60",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-16T10:04:46+01:00",
+                    "updated_at": "2026-05-16T10:04:47+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJJJCWGY00675",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56338471223638,
+                    "inventory_quantity": 353995,
+                    "old_inventory_quantity": 353995,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53771820040534",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13689582682454,
+                    "product_id": 10657676329302,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77832320811350,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10657676329302,
+                    "created_at": "2026-05-16T10:04:46+01:00",
+                    "updated_at": "2026-05-16T10:04:46+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60487801405782",
+                    "width": 800,
+                    "height": 800,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/7ed6a901-cbb6-4847-a561-b63cf4542d1c_trans.jpg?v=1778922286",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77832320811350,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10657676329302,
+                  "created_at": "2026-05-16T10:04:46+01:00",
+                  "updated_at": "2026-05-16T10:04:46+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60487801405782",
+                  "width": 800,
+                  "height": 800,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/7ed6a901-cbb6-4847-a561-b63cf4542d1c_trans.jpg?v=1778922286",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Pet Outdoor Foldable Dog Water Bottle - Travel Dispenser",
+              "body_html": "Keep your pet hydrated on the go with this foldable outdoor water bottle. Perfect for travel and outdoor adventures.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "pet, dog, water bottle, travel, outdoor",
+              "images": [
+                {
+                  "src": "https://oss-cf.cjdropshipping.com/product/2025/06/21/08/7ed6a901-cbb6-4847-a561-b63cf4542d1c_trans.jpeg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJJJCWGY00675",
+                  "price": "19.60",
+                  "inventory_quantity": 353995
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-16_10-04-47.json"
+        }
+      },
+      {
+        "keyword": "dog water bottle",
+        "sku": "CJDT2372258",
+        "title": "Portable Dog Water Bottle Go Out Dog Walking Travel Bottle Puppy Water Leak Proof Dog Water Drink Bottle",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog water bottle",
+        "sku": "CJJJCWGY00009",
+        "title": "Water Bottle For Dog",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJCC1228639",
+        "title": "Zeze Pet Meal Mat Cat Bowl Mat Pet Non Slip Mat",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJJJCWMY00417",
+        "title": "PVC New design Pet bowl Mat",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJJJCWGY01763",
+        "title": "Pet Bowl Silicone Bone Shape Mat",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog raincoat",
+        "sku": "CJJJCWGY02924",
+        "title": "Dog raincoat",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog raincoat",
+        "sku": "CJGD1113594",
+        "title": "British Dog Raincoat Pet Raincoat",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog raincoat",
+        "sku": "CJJJCWGY00319",
+        "title": "Spring and summer new dog raincoat waterproof cape dog reflective raincoat large dog raincoat",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat tunnel",
+        "sku": "CJMY2126410",
+        "title": "Cat Tunnel Pet Toy Cat S Tunnel Foldable Cat Tunnel Cat Drill Bucket Toy",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat tunnel",
+        "sku": "CJJJCWMY01582",
+        "title": "Cat toy S-shaped cat tunnel foldable cat tunnel",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat tunnel",
+        "sku": "CJJJCWMY01293",
+        "title": "Velvet pet tunnel cat tunnel",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet cleaning brush",
+        "sku": "CJJJJTJT05102",
+        "title": "Pet cleaning brush",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet cleaning brush",
+        "sku": "CJGY1237895",
+        "title": "Pet Roller Cleaning Brush",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet cleaning brush",
+        "sku": "CJGY1052930",
+        "title": "Pet Comb Dog Cleaning Brush",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      }
+    ]
+  }
+}

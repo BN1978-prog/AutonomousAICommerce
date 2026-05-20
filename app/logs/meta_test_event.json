@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "status_code": 200,
+  "event_id": "1a09eb0e-3972-42e7-b5b5-07efc124aa69",
+  "response": {
+    "events_received": 1,
+    "messages": [],
+    "fbtrace_id": "Ao7J3nRtjM5LHLtp3E4NC-E"
+  },
+  "created_at": "2026-05-20T21:34:16.264345+00:00"
+}

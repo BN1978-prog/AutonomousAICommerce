@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-05-15T13:24:35.310959",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": false,
+    "status_code": 401,
+    "response": {
+      "errors": "[API] Invalid API key or access token (unrecognized login or wrong password)"
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Folding Travel Pet Bowl - Perfect for On-the-Go",
+      "body_html": "This portable folding pet bowl is ideal for travel. Easy to carry and perfect for feeding your pet anywhere!",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "pet bowl, travel, portable, pets, dog bowl",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/1623204340180.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJT1166027",
+          "price": "9.99",
+          "inventory_quantity": 69771
+        }
+      ]
+    }
+  }
+}

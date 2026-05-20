@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T15:06:38.810828",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10576716333398,
+        "title": "Durable Pet Travel Backpack for Adventurous Pets",
+        "body_html": "Perfect for traveling with your furry friend, this durable pet travel backpack is designed for comfort and convenience.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T15:06:37+01:00",
+        "handle": "durable-pet-travel-backpack-for-adventurous-pets",
+        "updated_at": "2026-05-15T15:06:37+01:00",
+        "published_at": null,
+        "template_suffix": null,
+        "published_scope": "web",
+        "tags": "adventure, backpack, outdoor, pet, travel",
+        "status": "draft",
+        "admin_graphql_api_id": "gid://shopify/Product/10576716333398",
+        "variants": [
+          {
+            "id": 53686052389206,
+            "product_id": 10576716333398,
+            "title": "Default Title",
+            "price": "19.53",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T15:06:37+01:00",
+            "updated_at": "2026-05-15T15:06:38+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJJJCWGY01994",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56252434907478,
+            "inventory_quantity": 82534,
+            "old_inventory_quantity": 82534,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53686052389206",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13604267557206,
+            "product_id": 10576716333398,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77702579388758,
+            "alt": null,
+            "position": 1,
+            "product_id": 10576716333398,
+            "created_at": "2026-05-15T15:06:37+01:00",
+            "updated_at": "2026-05-15T15:06:37+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60385710145878",
+            "width": 715,
+            "height": 710,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/3151318899866_a7f594a3-8e13-490b-bd3c-f6d218f16800.jpg?v=1778853997",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77702579388758,
+          "alt": null,
+          "position": 1,
+          "product_id": 10576716333398,
+          "created_at": "2026-05-15T15:06:37+01:00",
+          "updated_at": "2026-05-15T15:06:37+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60385710145878",
+          "width": 715,
+          "height": 710,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/3151318899866_a7f594a3-8e13-490b-bd3c-f6d218f16800.jpg?v=1778853997",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Durable Pet Travel Backpack for Adventurous Pets",
+      "body_html": "Perfect for traveling with your furry friend, this durable pet travel backpack is designed for comfort and convenience.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "pet, travel, backpack, outdoor, adventure",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/20200613/3151318899866.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWGY01994",
+          "price": "19.53",
+          "inventory_quantity": 82534
+        }
+      ]
+    }
+  }
+}

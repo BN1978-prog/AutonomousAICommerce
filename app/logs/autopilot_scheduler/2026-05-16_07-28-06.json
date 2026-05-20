@@ -1,0 +1,558 @@
+{
+  "created_at": "2026-05-16T07:28:06.053143",
+  "payload": {
+    "keywords": [
+      "pet shampoo",
+      "dog socks",
+      "cat harness",
+      "pet harness",
+      "pet socks",
+      "dog bed",
+      "cat collar",
+      "dog grooming",
+      "pet travel bag",
+      "cat scratcher",
+      "dog water bottle",
+      "pet bowl mat",
+      "dog raincoat",
+      "cat tunnel",
+      "pet cleaning brush"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "policy": {
+    "ok": true,
+    "mode": "balanced",
+    "max_real_drafts": 3,
+    "min_score": 85
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 3,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJJT2352016",
+        "title": "Pet Shampoo",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJJT2594074",
+        "title": "Pet Shampoo",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet shampoo",
+        "sku": "CJSP2733732",
+        "title": "Pet Shampoo",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJJJCWGD00115",
+        "title": "The dog dog socks",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJJJCWMY01517",
+        "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog socks",
+        "sku": "CJGD1352013",
+        "title": "Dog Socks Cotton Socks Pet Supplies",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJMY1076688",
+        "title": "Cat Chain Traction Rope Set, Chest Harness, Cat Harness, Cat Collar, Dog Leash",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJJJCWMY01355",
+        "title": "Anti-strike cat traction cat harness",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat harness",
+        "sku": "CJJJCWGY00591",
+        "title": "Kitty Cat Harness Offer",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet harness",
+        "sku": "CJJT1478877",
+        "title": "Dog Leash Vest Pet Harness Bullfight",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 2.76,
+        "sale_price": 11.04,
+        "margin_percent": 75.0,
+        "profit": 8.28,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10650143490390,
+                "title": "Durable Dog Leash Vest Harness - Perfect for Active Pets",
+                "body_html": "Keep your furry friend safe and stylish with our durable dog leash vest harness. Ideal for walks, runs, and outdoor adventures.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-16T07:27:32+01:00",
+                "handle": "durable-dog-leash-vest-harness-perfect-for-active-pets",
+                "updated_at": "2026-05-16T07:27:32+01:00",
+                "published_at": "2026-05-16T07:27:32+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "dog harness, dog leash, outdoor pet gear, pet accessories",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10650143490390",
+                "variants": [
+                  {
+                    "id": 53763178889558,
+                    "product_id": 10650143490390,
+                    "title": "Default Title",
+                    "price": "11.04",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-16T07:27:32+01:00",
+                    "updated_at": "2026-05-16T07:27:33+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJJT1478877",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56329814606166,
+                    "inventory_quantity": 496074,
+                    "old_inventory_quantity": 496074,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53763178889558",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13681380393302,
+                    "product_id": 10650143490390,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77811642532182,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10650143490390,
+                    "created_at": "2026-05-16T07:27:32+01:00",
+                    "updated_at": "2026-05-16T07:27:32+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60476194193750",
+                    "width": 800,
+                    "height": 800,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/3a6bdc07-ef55-45cf-851d-4b204e55b32d.jpg?v=1778912852",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77811642532182,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10650143490390,
+                  "created_at": "2026-05-16T07:27:32+01:00",
+                  "updated_at": "2026-05-16T07:27:32+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60476194193750",
+                  "width": 800,
+                  "height": 800,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/3a6bdc07-ef55-45cf-851d-4b204e55b32d.jpg?v=1778912852",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Durable Dog Leash Vest Harness - Perfect for Active Pets",
+              "body_html": "Keep your furry friend safe and stylish with our durable dog leash vest harness. Ideal for walks, runs, and outdoor adventures.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "dog harness, pet accessories, dog leash, outdoor pet gear",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/3a6bdc07-ef55-45cf-851d-4b204e55b32d.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJJT1478877",
+                  "price": "11.04",
+                  "inventory_quantity": 496074
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-16_07-27-33.json"
+        }
+      },
+      {
+        "keyword": "pet harness",
+        "sku": "CJJT1353912",
+        "title": "Pet Leash Harness For Elderly Dogs",
+        "score": 78,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet harness",
+        "sku": "CJJT1116559",
+        "title": "Explosion-Proof Red Pet Chest Harness",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet socks",
+        "sku": "CJJJCWGY01083",
+        "title": "Pet waterproof socks",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet socks",
+        "sku": "CJGD1352013",
+        "title": "Dog Socks Cotton Socks Pet Supplies",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet socks",
+        "sku": "CJJJCWMY01517",
+        "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJFU2596446",
+        "title": "Dog Bed 70x",
+        "score": 55,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJYD2658504",
+        "title": "Warm Large Dog Bed Pet Mat Cat Bed Dog Bed Dog Mat",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 4.57,
+        "sale_price": 18.28,
+        "margin_percent": 75.0,
+        "profit": 13.71,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10650188939606,
+                "title": "Warm Large Dog Bed & Cat Mat",
+                "body_html": "A versatile and warm pet mat suitable for both dogs and cats.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-16T07:28:02+01:00",
+                "handle": "warm-large-dog-bed-cat-mat",
+                "updated_at": "2026-05-16T07:28:02+01:00",
+                "published_at": "2026-05-16T07:28:02+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "cat bed, dog bed, pet mat, warm",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10650188939606",
+                "variants": [
+                  {
+                    "id": 53763225157974,
+                    "product_id": 10650188939606,
+                    "title": "Default Title",
+                    "price": "18.28",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-16T07:28:02+01:00",
+                    "updated_at": "2026-05-16T07:28:03+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJYD2658504",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56329860841814,
+                    "inventory_quantity": 667497,
+                    "old_inventory_quantity": 667497,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53763225157974",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13681428627798,
+                    "product_id": 10650188939606,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77811688538454,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10650188939606,
+                    "created_at": "2026-05-16T07:28:02+01:00",
+                    "updated_at": "2026-05-16T07:28:02+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60476240953686",
+                    "width": 1000,
+                    "height": 1000,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/d968bc89-a91d-4a43-ac1a-d933509495ff.jpg?v=1778912882",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77811688538454,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10650188939606,
+                  "created_at": "2026-05-16T07:28:02+01:00",
+                  "updated_at": "2026-05-16T07:28:02+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60476240953686",
+                  "width": 1000,
+                  "height": 1000,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/d968bc89-a91d-4a43-ac1a-d933509495ff.jpg?v=1778912882",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Warm Large Dog Bed & Cat Mat",
+              "body_html": "A versatile and warm pet mat suitable for both dogs and cats.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "dog bed, cat bed, pet mat, warm",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/quick/product/d968bc89-a91d-4a43-ac1a-d933509495ff.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJYD2658504",
+                  "price": "18.28",
+                  "inventory_quantity": 667497
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-16_07-28-03.json"
+        }
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJPN2660770",
+        "title": "Warm Large Dog Bed Pet Mat Cat Bed Dog Bed Dog Mat",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 4.57,
+        "sale_price": 18.28,
+        "margin_percent": 75.0,
+        "profit": 13.71,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10650193592662,
+                "title": "Warm Large Dog Bed & Cat Mat",
+                "body_html": "A versatile and warm pet mat suitable for both dogs and cats.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-16T07:28:05+01:00",
+                "handle": "warm-large-dog-bed-cat-mat-1",
+                "updated_at": "2026-05-16T07:28:05+01:00",
+                "published_at": "2026-05-16T07:28:05+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "cat bed, dog bed, pet mat, warm",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10650193592662",
+                "variants": [
+                  {
+                    "id": 53763229679958,
+                    "product_id": 10650193592662,
+                    "title": "Default Title",
+                    "price": "18.28",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-16T07:28:05+01:00",
+                    "updated_at": "2026-05-16T07:28:05+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJPN2660770",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56329865429334,
+                    "inventory_quantity": 458326,
+                    "old_inventory_quantity": 458326,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53763229679958",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13681433837910,
+                    "product_id": 10650193592662,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77811693158742,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10650193592662,
+                    "created_at": "2026-05-16T07:28:05+01:00",
+                    "updated_at": "2026-05-16T07:28:05+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60476245049686",
+                    "width": 1000,
+                    "height": 1000,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/0a3911a4-28f9-4278-b5a7-ca7f843e0eab.jpg?v=1778912885",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77811693158742,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10650193592662,
+                  "created_at": "2026-05-16T07:28:05+01:00",
+                  "updated_at": "2026-05-16T07:28:05+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60476245049686",
+                  "width": 1000,
+                  "height": 1000,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/0a3911a4-28f9-4278-b5a7-ca7f843e0eab.jpg?v=1778912885",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Warm Large Dog Bed & Cat Mat",
+              "body_html": "A versatile and warm pet mat suitable for both dogs and cats.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "dog bed, cat bed, pet mat, warm",
+              "images": [
+                {
+                  "src": "https://oss-cf.cjdropshipping.com/product/2025/12/19/06/0a3911a4-28f9-4278-b5a7-ca7f843e0eab.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJPN2660770",
+                  "price": "18.28",
+                  "inventory_quantity": 458326
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-16_07-28-06.json"
+        }
+      }
+    ]
+  }
+}

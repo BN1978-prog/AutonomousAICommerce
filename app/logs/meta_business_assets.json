@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-05-20T11:32:19.070105+00:00",
+  "business_id": "2501785227003837",
+  "owned_ad_accounts": {
+    "ok": true,
+    "status_code": 200,
+    "data": {
+      "data": [
+        {
+          "id": "act_1683400162810976",
+          "name": "AICommerce Ads",
+          "account_status": 1,
+          "currency": "USD"
+        }
+      ],
+      "paging": {
+        "cursors": {
+          "before": "QVFIU0dpUzZAuY2JHNlpqbnltSXhKdmVnRzVoSWJKT2hncV9tbWx1TTNwTzlheU5GblcxWHFKd2FPVW1FTXBsNThRcFkwTW1Nd3hBVW94bmZAfSkxKcVhkdFNB",
+          "after": "QVFIU0dpUzZAuY2JHNlpqbnltSXhKdmVnRzVoSWJKT2hncV9tbWx1TTNwTzlheU5GblcxWHFKd2FPVW1FTXBsNThRcFkwTW1Nd3hBVW94bmZAfSkxKcVhkdFNB"
+        }
+      }
+    }
+  },
+  "client_ad_accounts": {
+    "ok": true,
+    "status_code": 200,
+    "data": {
+      "data": []
+    }
+  },
+  "owned_pixels": {
+    "ok": true,
+    "status_code": 200,
+    "data": {
+      "data": [
+        {
+          "id": "1505073917964557",
+          "name": "AICommerce Pixel"
+        }
+      ],
+      "paging": {
+        "cursors": {
+          "before": "QVFIUzdDdXRWUWNMbmtucXl3Y1VmMG42VG1rTElFQlk2c0tsUEtCcGtPV3o3TmF0WDh1UmRzQXMxUjBFQzZAORmFvcUxZAR1Azd0xxRFQ2OGoxLXlmcjU0cjVR",
+          "after": "QVFIUzdDdXRWUWNMbmtucXl3Y1VmMG42VG1rTElFQlk2c0tsUEtCcGtPV3o3TmF0WDh1UmRzQXMxUjBFQzZAORmFvcUxZAR1Azd0xxRFQ2OGoxLXlmcjU0cjVR"
+        }
+      }
+    }
+  },
+  "owned_product_catalogs": {
+    "ok": false,
+    "status_code": 400,
+    "data": {
+      "error": {
+        "message": "(#100) This application has not been approved to use this api. Please check the application capabilities or access token permissions.",
+        "type": "OAuthException",
+        "code": 100,
+        "fbtrace_id": "AkaTEmAMiaRYYLLE_uDmb7S"
+      }
+    }
+  },
+  "owned_pages": {
+    "ok": true,
+    "status_code": 200,
+    "data": {
+      "data": []
+    }
+  }
+}

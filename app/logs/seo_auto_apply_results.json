@@ -1,0 +1,15 @@
+[
+  {
+    "sku": "PET-BOWL-001",
+    "ok": true,
+    "skipped": false,
+    "reason": "seo_applied_to_registry",
+    "title": "Non-Slip Pet Feeding Bowl for Cats and Dogs"
+  },
+  {
+    "sku": "CJJT2896696",
+    "ok": true,
+    "skipped": true,
+    "reason": "auto_apply_false"
+  }
+]

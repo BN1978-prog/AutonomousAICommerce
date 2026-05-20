@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T15:30:40.207371",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10578163761494,
+        "title": "Smart Funny Cat Triangle Turntable Electric Toy Scratcher",
+        "body_html": "Engage your cat with this innovative triangle turntable electric toy that doubles as a scratcher.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T15:30:38+01:00",
+        "handle": "smart-funny-cat-triangle-turntable-electric-toy-scratcher",
+        "updated_at": "2026-05-15T15:30:39+01:00",
+        "published_at": null,
+        "template_suffix": null,
+        "published_scope": "web",
+        "tags": "cat toy, electric toy, pet supplies, scratcher",
+        "status": "draft",
+        "admin_graphql_api_id": "gid://shopify/Product/10578163761494",
+        "variants": [
+          {
+            "id": 53687592845654,
+            "product_id": 10578163761494,
+            "title": "Default Title",
+            "price": "21.27",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T15:30:38+01:00",
+            "updated_at": "2026-05-15T15:30:39+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJMY1151470",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56254024319318,
+            "inventory_quantity": 70170,
+            "old_inventory_quantity": 70170,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53687592845654",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13605809750358,
+            "product_id": 10578163761494,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77706367861078,
+            "alt": null,
+            "position": 1,
+            "product_id": 10578163761494,
+            "created_at": "2026-05-15T15:30:38+01:00",
+            "updated_at": "2026-05-15T15:30:38+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60387805692246",
+            "width": 717,
+            "height": 479,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1622364022666.png?v=1778855438",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77706367861078,
+          "alt": null,
+          "position": 1,
+          "product_id": 10578163761494,
+          "created_at": "2026-05-15T15:30:38+01:00",
+          "updated_at": "2026-05-15T15:30:38+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60387805692246",
+          "width": 717,
+          "height": 479,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1622364022666.png?v=1778855438",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Smart Funny Cat Triangle Turntable Electric Toy Scratcher",
+      "body_html": "Engage your cat with this innovative triangle turntable electric toy that doubles as a scratcher.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "cat toy, electric toy, pet supplies, scratcher",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/1622364022666.png"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJMY1151470",
+          "price": "21.27",
+          "inventory_quantity": 70170
+        }
+      ]
+    }
+  }
+}

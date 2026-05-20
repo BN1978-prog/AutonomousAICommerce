@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-05-15T16:14:29.332443",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10581183463766,
+        "title": "Portable Pet Water Bottle for Dogs and Cats",
+        "body_html": "Keep your pets hydrated on the go with this portable water bottle designed for dogs and cats. Perfect for travel, hiking, and outdoor adventures.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T16:14:27+01:00",
+        "handle": "portable-pet-water-bottle-for-dogs-and-cats",
+        "updated_at": "2026-05-15T16:14:28+01:00",
+        "published_at": "2026-05-15T16:14:27+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "cat, dog, outdoor, pet, travel, water bottle",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10581183463766",
+        "variants": [
+          {
+            "id": 53690796245334,
+            "product_id": 10581183463766,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T16:14:28+01:00",
+            "updated_at": "2026-05-15T16:14:28+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJGY1517102",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56257305739606,
+            "inventory_quantity": 356873,
+            "old_inventory_quantity": 356873,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53690796245334",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13608983003478,
+            "product_id": 10581183463766,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77712762601814,
+            "alt": null,
+            "position": 1,
+            "product_id": 10581183463766,
+            "created_at": "2026-05-15T16:14:27+01:00",
+            "updated_at": "2026-05-15T16:14:27+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60391458865494",
+            "width": 785,
+            "height": 785,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/2878cff9-5f48-49a1-8dc3-9fdecf4bfeb8.jpg?v=1778858067",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77712762601814,
+          "alt": null,
+          "position": 1,
+          "product_id": 10581183463766,
+          "created_at": "2026-05-15T16:14:27+01:00",
+          "updated_at": "2026-05-15T16:14:27+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60391458865494",
+          "width": 785,
+          "height": 785,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/2878cff9-5f48-49a1-8dc3-9fdecf4bfeb8.jpg?v=1778858067",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Portable Pet Water Bottle for Dogs and Cats",
+      "body_html": "Keep your pets hydrated on the go with this portable water bottle designed for dogs and cats. Perfect for travel, hiking, and outdoor adventures.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "pet, water bottle, travel, dog, cat, outdoor",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/2878cff9-5f48-49a1-8dc3-9fdecf4bfeb8.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJGY1517102",
+          "price": "9.99",
+          "inventory_quantity": 356873
+        }
+      ]
+    }
+  }
+}

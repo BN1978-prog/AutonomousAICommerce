@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-15T20:00:28.403982",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10598214107478,
+        "title": "Natural Pet Shampoo for Healthy Fur",
+        "body_html": "Gentle and effective shampoo for your furry friends. Keeps their coat clean and shiny.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T20:00:27+01:00",
+        "handle": "natural-pet-shampoo-for-healthy-fur",
+        "updated_at": "2026-05-15T20:00:27+01:00",
+        "published_at": "2026-05-15T20:00:27+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "grooming, natural, pet care, shampoo",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10598214107478",
+        "variants": [
+          {
+            "id": 53709182927190,
+            "product_id": 10598214107478,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T20:00:27+01:00",
+            "updated_at": "2026-05-15T20:00:28+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJJT2594074",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56275755729238,
+            "inventory_quantity": 7525,
+            "old_inventory_quantity": 7525,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53709182927190",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13626890060118,
+            "product_id": 10598214107478,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77747891503446,
+            "alt": null,
+            "position": 1,
+            "product_id": 10598214107478,
+            "created_at": "2026-05-15T20:00:27+01:00",
+            "updated_at": "2026-05-15T20:00:27+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60414832116054",
+            "width": 1500,
+            "height": 1500,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/5eb1264f-31b4-43ae-866e-ea2e766735c7.jpg?v=1778871627",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77747891503446,
+          "alt": null,
+          "position": 1,
+          "product_id": 10598214107478,
+          "created_at": "2026-05-15T20:00:27+01:00",
+          "updated_at": "2026-05-15T20:00:27+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60414832116054",
+          "width": 1500,
+          "height": 1500,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/5eb1264f-31b4-43ae-866e-ea2e766735c7.jpg?v=1778871627",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Natural Pet Shampoo for Healthy Fur",
+      "body_html": "Gentle and effective shampoo for your furry friends. Keeps their coat clean and shiny.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "pet care, shampoo, natural, grooming",
+      "images": [
+        {
+          "src": "https://oss-cf.cjdropshipping.com/product/2025/11/16/08/5eb1264f-31b4-43ae-866e-ea2e766735c7.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJT2594074",
+          "price": "9.99",
+          "inventory_quantity": 7525
+        }
+      ]
+    }
+  },
+  "cost_price": 1.36,
+  "sale_price": 9.99,
+  "profit": 8.63,
+  "margin_percent": 86.39,
+  "sku": "CJJT2594074"
+}

@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-15T20:42:13.957424",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": true,
+    "status_code": 201,
+    "response": {
+      "product": {
+        "id": 10601358852438,
+        "title": "Cotton Dog Socks - Comfortable and Stylish",
+        "body_html": "Soft cotton dog socks that provide comfort and style for your furry friend. Ideal for indoor and outdoor use.",
+        "vendor": "CJdropshipping",
+        "product_type": "",
+        "created_at": "2026-05-15T20:42:13+01:00",
+        "handle": "cotton-dog-socks-comfortable-and-stylish",
+        "updated_at": "2026-05-15T20:42:13+01:00",
+        "published_at": "2026-05-15T20:42:13+01:00",
+        "template_suffix": null,
+        "published_scope": "global",
+        "tags": "comfortable, cotton socks, dog socks, pet supplies",
+        "status": "active",
+        "admin_graphql_api_id": "gid://shopify/Product/10601358852438",
+        "variants": [
+          {
+            "id": 53712899834198,
+            "product_id": 10601358852438,
+            "title": "Default Title",
+            "price": "9.99",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2026-05-15T20:42:13+01:00",
+            "updated_at": "2026-05-15T20:42:13+01:00",
+            "taxable": true,
+            "barcode": null,
+            "fulfillment_service": "manual",
+            "grams": 0,
+            "inventory_management": null,
+            "requires_shipping": true,
+            "sku": "CJGD1352013",
+            "weight": 0.0,
+            "weight_unit": "lb",
+            "inventory_item_id": 56279472996694,
+            "inventory_quantity": 140824,
+            "old_inventory_quantity": 140824,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/53712899834198",
+            "image_id": null
+          }
+        ],
+        "options": [
+          {
+            "id": 13630226432342,
+            "product_id": 10601358852438,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 77753172525398,
+            "alt": null,
+            "position": 1,
+            "product_id": 10601358852438,
+            "created_at": "2026-05-15T20:42:13+01:00",
+            "updated_at": "2026-05-15T20:42:13+01:00",
+            "admin_graphql_api_id": "gid://shopify/MediaImage/60418176090454",
+            "width": 679,
+            "height": 626,
+            "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/97d23d9e-f1e9-49af-bcf0-8b1846f02dd2.jpg?v=1778874133",
+            "variant_ids": []
+          }
+        ],
+        "image": {
+          "id": 77753172525398,
+          "alt": null,
+          "position": 1,
+          "product_id": 10601358852438,
+          "created_at": "2026-05-15T20:42:13+01:00",
+          "updated_at": "2026-05-15T20:42:13+01:00",
+          "admin_graphql_api_id": "gid://shopify/MediaImage/60418176090454",
+          "width": 679,
+          "height": 626,
+          "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/97d23d9e-f1e9-49af-bcf0-8b1846f02dd2.jpg?v=1778874133",
+          "variant_ids": []
+        }
+      }
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Cotton Dog Socks - Comfortable and Stylish",
+      "body_html": "Soft cotton dog socks that provide comfort and style for your furry friend. Ideal for indoor and outdoor use.",
+      "vendor": "CJdropshipping",
+      "status": "active",
+      "tags": "dog socks, cotton socks, pet supplies, comfortable",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/97d23d9e-f1e9-49af-bcf0-8b1846f02dd2.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJGD1352013",
+          "price": "9.99",
+          "inventory_quantity": 140824
+        }
+      ]
+    }
+  },
+  "cost_price": 1.67,
+  "sale_price": 9.99,
+  "profit": 8.32,
+  "margin_percent": 83.28,
+  "sku": "CJGD1352013"
+}

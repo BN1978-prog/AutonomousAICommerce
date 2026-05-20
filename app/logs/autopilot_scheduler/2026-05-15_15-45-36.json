@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-05-15T15:45:36.714738",
+  "payload": {
+    "keywords": [
+      "pet",
+      "travel pet",
+      "pet bowl"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 0,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "pet",
+        "sku": "CJJT1048826",
+        "title": "Pet clothes",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet",
+        "sku": "CJCC1064754",
+        "title": "Pet Backpack, Pet Outing Bag, Portable Pet Bag",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet",
+        "sku": "CJJT1166027",
+        "title": "Folding Pet Bowl Pet Bowl Travel Hanging Pet",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "travel pet",
+        "sku": "CJJJCWGY01994",
+        "title": "Pet Travel Backpack",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "travel pet",
+        "sku": "CJJJCWGY02237",
+        "title": "Pet travel backpack",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "travel pet",
+        "sku": "CJJJCWGY02354",
+        "title": "Pet travel mug",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet bowl",
+        "sku": "CJJJCWGY01325",
+        "title": "Pet Bowl Silicone Folding Pet Bowl",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet bowl",
+        "sku": "CJJT1166027",
+        "title": "Folding Pet Bowl Pet Bowl Travel Hanging Pet",
+        "score": 78,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet bowl",
+        "sku": "CJGY1171456",
+        "title": "Pet Bowl Dog Bowl Pet Feeder Stainless Steel Bowl Folding Bowl",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      }
+    ]
+  }
+}

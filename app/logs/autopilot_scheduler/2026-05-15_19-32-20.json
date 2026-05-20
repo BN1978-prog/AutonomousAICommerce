@@ -1,0 +1,660 @@
+{
+  "created_at": "2026-05-15T19:32:20.400059",
+  "payload": {
+    "keywords": [
+      "pet grooming",
+      "pet carrier",
+      "pet blanket",
+      "dog bed",
+      "cat collar",
+      "dog grooming",
+      "pet travel bag",
+      "cat scratcher",
+      "dog water bottle",
+      "pet bowl mat",
+      "dog raincoat",
+      "cat tunnel",
+      "pet cleaning brush"
+    ],
+    "min_score": 85,
+    "max_per_keyword": 3,
+    "max_real_drafts": 3
+  },
+  "policy": {
+    "ok": true,
+    "mode": "balanced",
+    "max_real_drafts": 3,
+    "min_score": 85
+  },
+  "result": {
+    "ok": true,
+    "mode": "autopilot_real_draft",
+    "created": 3,
+    "max_real_drafts": 3,
+    "min_score": 85,
+    "safety": {
+      "publishing": "disabled",
+      "supplier_purchase": "disabled",
+      "shopify_status": "draft"
+    },
+    "results": [
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03008",
+        "title": "Pet grooming comb",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWMY01054",
+        "title": "Pet grooming scissors",
+        "score": 78,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet grooming",
+        "sku": "CJJJCWGY03016",
+        "title": "Pet grooming scissors",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJGY1294149",
+        "title": "Pet Travel Carrier Bag Portable Pet Bag Folding Fabric Pet Carrier Travel Carrier Bag For Pet Cage With Locking Safety Zippers",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJMY1174239",
+        "title": "Pet Carrier Small Size",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet carrier",
+        "sku": "CJJT1664634",
+        "title": "Square Pet Carrier Display Cage",
+        "score": 70,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJYD2164619",
+        "title": "Pet Waterproof Blanket Dog Blanket",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJGY1130079",
+        "title": "Blanket Pet Quilt Fall Winter Pet Thicken Blanket Warm Flannel Sleeping Blanket",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet blanket",
+        "sku": "CJJJCWGY03655",
+        "title": "Pet blanket quilt",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJFU2596446",
+        "title": "Dog Bed 70x",
+        "score": 55,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJGY1636313",
+        "title": "Dog Bed",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog bed",
+        "sku": "CJJJCWGY02736",
+        "title": "Dog Bed",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1081175",
+        "title": "Pet Print Bell Cat Collar Cat Strap",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1007380",
+        "title": "Pet Collar Cat Collar With Bell Cat Collar",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat collar",
+        "sku": "CJMY1165572",
+        "title": "Cat Collar Pet Cat Collar With Bell",
+        "score": 82,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJJJCWGY01133",
+        "title": "Dog grooming large beauty",
+        "score": 85,
+        "risk": "medium",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJMY2078412",
+        "title": "Dog Brush Cat Brush Pet Grooming Brush- Shedding Grooming Tools",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "dog grooming",
+        "sku": "CJJJCWGY02183",
+        "title": "Pet grooming tool dog comb",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJJJCWMY00973",
+        "title": "Pet travel bag",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJYD2386773",
+        "title": "Portable Cat Bag Travel Pet Bag",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "pet travel bag",
+        "sku": "CJJJCWGY02906",
+        "title": "New pet supplies Pet bag dog food travel bag",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY01010",
+        "title": "Cat scratcher boxed",
+        "score": 85,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY00923",
+        "title": "Scratcher cat toy",
+        "score": 90,
+        "risk": "low",
+        "action": "skipped_duplicate_sku"
+      },
+      {
+        "keyword": "cat scratcher",
+        "sku": "CJJJCWMY01055",
+        "title": "Cat scratcher nest",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog water bottle",
+        "sku": "CJDT2372258",
+        "title": "Portable Dog Water Bottle Go Out Dog Walking Travel Bottle Puppy Water Leak Proof Dog Water Drink Bottle",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 3.17,
+        "sale_price": 12.68,
+        "margin_percent": 75.0,
+        "profit": 9.51,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10596083532118,
+                "title": "Portable Dog Water Bottle Go Out Dog Walking Travel Bottle Puppy Water Leak Proof Dog Water Drink Bottle",
+                "body_html": "AI generated Shopify draft product.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T19:31:46+01:00",
+                "handle": "portable-dog-water-bottle-go-out-dog-walking-travel-bottle-puppy-water-leak-proof-dog-water-drink-bottle",
+                "updated_at": "2026-05-15T19:31:46+01:00",
+                "published_at": "2026-05-15T19:31:46+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10596083532118",
+                "variants": [
+                  {
+                    "id": 53706862199126,
+                    "product_id": 10596083532118,
+                    "title": "Default Title",
+                    "price": "12.68",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T19:31:46+01:00",
+                    "updated_at": "2026-05-15T19:31:47+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJDT2372258",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56273435001174,
+                    "inventory_quantity": 67643,
+                    "old_inventory_quantity": 67643,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53706862199126",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13624669700438,
+                    "product_id": 10596083532118,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77744350757206,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10596083532118,
+                    "created_at": "2026-05-15T19:31:46+01:00",
+                    "updated_at": "2026-05-15T19:31:46+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60412695380310",
+                    "width": 800,
+                    "height": 800,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/a315f3ec-7d4a-449c-8815-e01572f2ced4.jpg?v=1778869906",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77744350757206,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10596083532118,
+                  "created_at": "2026-05-15T19:31:46+01:00",
+                  "updated_at": "2026-05-15T19:31:46+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60412695380310",
+                  "width": 800,
+                  "height": 800,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/a315f3ec-7d4a-449c-8815-e01572f2ced4.jpg?v=1778869906",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Portable Dog Water Bottle Go Out Dog Walking Travel Bottle Puppy Water Leak Proof Dog Water Drink Bottle",
+              "body_html": "AI generated Shopify draft product.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/a315f3ec-7d4a-449c-8815-e01572f2ced4.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJDT2372258",
+                  "price": "12.68",
+                  "inventory_quantity": 67643
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_19-31-47.json"
+        }
+      },
+      {
+        "keyword": "dog water bottle",
+        "sku": "CJJJCWGY00009",
+        "title": "Water Bottle For Dog",
+        "score": 75,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog water bottle",
+        "sku": "CJJJCWGY00675",
+        "title": "Pet Outdoor Foldable Bottle Dog Travel Water Bottle Dog Water Dispenser",
+        "score": 80,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJCC1228639",
+        "title": "Zeze Pet Meal Mat Cat Bowl Mat Pet Non Slip Mat",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 6.17,
+        "sale_price": 21.59,
+        "margin_percent": 71.43,
+        "profit": 15.42,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10596107944278,
+                "title": "Zeze Pet Meal Mat Cat Bowl Mat Pet Non Slip Mat",
+                "body_html": "AI generated Shopify draft product.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T19:32:02+01:00",
+                "handle": "zeze-pet-meal-mat-cat-bowl-mat-pet-non-slip-mat",
+                "updated_at": "2026-05-15T19:32:03+01:00",
+                "published_at": "2026-05-15T19:32:02+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10596107944278",
+                "variants": [
+                  {
+                    "id": 53706887201110,
+                    "product_id": 10596107944278,
+                    "title": "Default Title",
+                    "price": "21.59",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T19:32:03+01:00",
+                    "updated_at": "2026-05-15T19:32:03+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJCC1228639",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56273460003158,
+                    "inventory_quantity": 118456,
+                    "old_inventory_quantity": 118456,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53706887201110",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13624694341974,
+                    "product_id": 10596107944278,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77744372416854,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10596107944278,
+                    "created_at": "2026-05-15T19:32:02+01:00",
+                    "updated_at": "2026-05-15T19:32:02+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60412718874966",
+                    "width": 800,
+                    "height": 800,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/4ab09c69-f86a-4e44-902a-b23bf06f26ef.jpg?v=1778869922",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77744372416854,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10596107944278,
+                  "created_at": "2026-05-15T19:32:02+01:00",
+                  "updated_at": "2026-05-15T19:32:02+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60412718874966",
+                  "width": 800,
+                  "height": 800,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/4ab09c69-f86a-4e44-902a-b23bf06f26ef.jpg?v=1778869922",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Zeze Pet Meal Mat Cat Bowl Mat Pet Non Slip Mat",
+              "body_html": "AI generated Shopify draft product.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/4ab09c69-f86a-4e44-902a-b23bf06f26ef.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJCC1228639",
+                  "price": "21.59",
+                  "inventory_quantity": 118456
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_19-32-03.json"
+        }
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJJJCWGY01763",
+        "title": "Pet Bowl Silicone Bone Shape Mat",
+        "score": 80,
+        "risk": "low",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "pet bowl mat",
+        "sku": "CJJJCWMY00417",
+        "title": "PVC New design Pet bowl Mat",
+        "score": 75,
+        "risk": "medium",
+        "action": "skipped_safety_filter"
+      },
+      {
+        "keyword": "dog raincoat",
+        "sku": "CJJJCWGY02924",
+        "title": "Dog raincoat",
+        "score": 85,
+        "risk": "low",
+        "action": "real_shopify_draft_created",
+        "cost_price": 3.34,
+        "sale_price": 13.36,
+        "margin_percent": 75.0,
+        "profit": 10.02,
+        "draft": {
+          "ok": true,
+          "dry_run": false,
+          "message": "Shopify draft creation attempted.",
+          "result": {
+            "dry_run": false,
+            "created": true,
+            "status_code": 201,
+            "response": {
+              "product": {
+                "id": 10596127342934,
+                "title": "Dog raincoat",
+                "body_html": "AI generated Shopify draft product.",
+                "vendor": "CJdropshipping",
+                "product_type": "",
+                "created_at": "2026-05-15T19:32:19+01:00",
+                "handle": "dog-raincoat",
+                "updated_at": "2026-05-15T19:32:19+01:00",
+                "published_at": "2026-05-15T19:32:19+01:00",
+                "template_suffix": null,
+                "published_scope": "global",
+                "tags": "",
+                "status": "active",
+                "admin_graphql_api_id": "gid://shopify/Product/10596127342934",
+                "variants": [
+                  {
+                    "id": 53706909581654,
+                    "product_id": 10596127342934,
+                    "title": "Default Title",
+                    "price": "13.36",
+                    "position": 1,
+                    "inventory_policy": "deny",
+                    "compare_at_price": null,
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "created_at": "2026-05-15T19:32:19+01:00",
+                    "updated_at": "2026-05-15T19:32:20+01:00",
+                    "taxable": true,
+                    "barcode": null,
+                    "fulfillment_service": "manual",
+                    "grams": 0,
+                    "inventory_management": null,
+                    "requires_shipping": true,
+                    "sku": "CJJJCWGY02924",
+                    "weight": 0.0,
+                    "weight_unit": "lb",
+                    "inventory_item_id": 56273482383702,
+                    "inventory_quantity": 442538,
+                    "old_inventory_quantity": 442538,
+                    "admin_graphql_api_id": "gid://shopify/ProductVariant/53706909581654",
+                    "image_id": null
+                  }
+                ],
+                "options": [
+                  {
+                    "id": 13624714199382,
+                    "product_id": 10596127342934,
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                      "Default Title"
+                    ]
+                  }
+                ],
+                "images": [
+                  {
+                    "id": 77744392733014,
+                    "alt": null,
+                    "position": 1,
+                    "product_id": 10596127342934,
+                    "created_at": "2026-05-15T19:32:19+01:00",
+                    "updated_at": "2026-05-15T19:32:19+01:00",
+                    "admin_graphql_api_id": "gid://shopify/MediaImage/60412736733526",
+                    "width": 800,
+                    "height": 800,
+                    "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1164015351981.jpg?v=1778869939",
+                    "variant_ids": []
+                  }
+                ],
+                "image": {
+                  "id": 77744392733014,
+                  "alt": null,
+                  "position": 1,
+                  "product_id": 10596127342934,
+                  "created_at": "2026-05-15T19:32:19+01:00",
+                  "updated_at": "2026-05-15T19:32:19+01:00",
+                  "admin_graphql_api_id": "gid://shopify/MediaImage/60412736733526",
+                  "width": 800,
+                  "height": 800,
+                  "src": "https://cdn.shopify.com/s/files/1/1027/8748/1942/files/1164015351981.jpg?v=1778869939",
+                  "variant_ids": []
+                }
+              }
+            }
+          },
+          "payload": {
+            "product": {
+              "title": "Dog raincoat",
+              "body_html": "AI generated Shopify draft product.",
+              "vendor": "CJdropshipping",
+              "status": "active",
+              "tags": "",
+              "images": [
+                {
+                  "src": "https://cf.cjdropshipping.com/15995808/1164015351981.jpg"
+                }
+              ],
+              "variants": [
+                {
+                  "sku": "CJJJCWGY02924",
+                  "price": "13.36",
+                  "inventory_quantity": 442538
+                }
+              ]
+            }
+          },
+          "log_file": "app\\logs\\shopify_drafts\\2026-05-15_19-32-20.json"
+        }
+      }
+    ]
+  }
+}

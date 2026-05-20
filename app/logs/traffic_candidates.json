@@ -1,0 +1,22 @@
+[
+  {
+    "sku": "PET-BOWL-001",
+    "score": 82.0,
+    "priority": "high",
+    "traffic_actions": [
+      "seo",
+      "meta_ads",
+      "google_ads",
+      "social_post"
+    ]
+  },
+  {
+    "sku": "CJJT2896696",
+    "score": 95.0,
+    "priority": "medium",
+    "traffic_actions": [
+      "seo",
+      "social_post"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sku": "PET-BOWL-001",
+    "channel": "shopify",
+    "ok": true,
+    "pushed": false,
+    "reason": "dry_run_live_push_false",
+    "title": "Non-Slip Pet Feeding Bowl for Cats and Dogs",
+    "checked_at": "2026-05-19T19:25:08.068967+00:00"
+  },
+  {
+    "sku": "PET-BOWL-001",
+    "channel": "ebay",
+    "ok": true,
+    "pushed": false,
+    "reason": "dry_run_live_push_false",
+    "title": "Non-Slip Pet Feeding Bowl for Cats and Dogs",
+    "checked_at": "2026-05-19T19:25:08.068967+00:00"
+  },
+  {
+    "sku": "PET-BOWL-001",
+    "channel": "woocommerce",
+    "ok": true,
+    "pushed": false,
+    "reason": "dry_run_live_push_false",
+    "title": "Non-Slip Pet Feeding Bowl for Cats and Dogs",
+    "checked_at": "2026-05-19T19:25:08.068967+00:00"
+  },
+  {
+    "sku": "PET-BOWL-001",
+    "channel": "meta_feed",
+    "ok": true,
+    "pushed": false,
+    "reason": "dry_run_live_push_false",
+    "title": "Non-Slip Pet Feeding Bowl for Cats and Dogs",
+    "checked_at": "2026-05-19T19:25:08.068967+00:00"
+  },
+  {
+    "sku": "PET-BOWL-001",
+    "channel": "google_feed",
+    "ok": true,
+    "pushed": false,
+    "reason": "dry_run_live_push_false",
+    "title": "Non-Slip Pet Feeding Bowl for Cats and Dogs",
+    "checked_at": "2026-05-19T19:25:08.068967+00:00"
+  }
+]

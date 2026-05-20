@@ -1,0 +1,282 @@
+[
+  {
+    "sku": "CJJJCWMY01054",
+    "channel": "shopify",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY01054",
+    "channel": "ebay",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY01054",
+    "channel": "woocommerce",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY01054",
+    "channel": "meta_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY01054",
+    "channel": "google_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJMY1174239",
+    "channel": "shopify",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJMY1174239",
+    "channel": "ebay",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJMY1174239",
+    "channel": "woocommerce",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJMY1174239",
+    "channel": "meta_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJMY1174239",
+    "channel": "google_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY01010",
+    "channel": "shopify",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY01010",
+    "channel": "ebay",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY01010",
+    "channel": "woocommerce",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY01010",
+    "channel": "meta_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY01010",
+    "channel": "google_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY00923",
+    "channel": "shopify",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY00923",
+    "channel": "ebay",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY00923",
+    "channel": "woocommerce",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY00923",
+    "channel": "meta_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWMY00923",
+    "channel": "google_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWGY02924",
+    "channel": "shopify",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWGY02924",
+    "channel": "ebay",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWGY02924",
+    "channel": "woocommerce",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWGY02924",
+    "channel": "meta_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWGY02924",
+    "channel": "google_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWGY01083",
+    "channel": "shopify",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWGY01083",
+    "channel": "ebay",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWGY01083",
+    "channel": "woocommerce",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWGY01083",
+    "channel": "meta_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJJJCWGY01083",
+    "channel": "google_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJSP2733732",
+    "channel": "shopify",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJSP2733732",
+    "channel": "ebay",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJSP2733732",
+    "channel": "woocommerce",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJSP2733732",
+    "channel": "meta_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  },
+  {
+    "sku": "CJSP2733732",
+    "channel": "google_feed",
+    "ok": true,
+    "pushed": true,
+    "reason": "seo_quality_repush",
+    "checked_at": "2026-05-19T19:42:26.582739+00:00"
+  }
+]
