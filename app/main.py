@@ -2228,3 +2228,74 @@ def meta_safe_budget_decision(
         }
     }
 # --- End Meta safe budget decision endpoint ---
+
+# --- Meta autopilot status endpoint ---
+@app.get("/api/meta/autopilot-status")
+def meta_autopilot_status(
+    current_daily_budget: float = 10.0,
+    max_daily_budget: float = 25.0
+):
+    from app.db import SessionLocal
+    from app.models import MetaEvent
+
+    db = SessionLocal()
+    pageviews = db.query(MetaEvent).filter(MetaEvent.event_name == "PageView").count()
+    add_to_cart = db.query(MetaEvent).filter(MetaEvent.event_name == "AddToCart").count()
+    purchases = db.query(MetaEvent).filter(MetaEvent.event_name == "Purchase").count()
+    db.close()
+
+    add_to_cart_rate = (add_to_cart / pageviews) * 100 if pageviews else 0
+    purchase_rate = (purchases / pageviews) * 100 if pageviews else 0
+    cart_to_purchase_rate = (purchases / add_to_cart) * 100 if add_to_cart else 0
+
+    if purchases >= 1 and purchase_rate >= 5:
+        recommendation = "SCALE"
+        budget_action = "INCREASE_BUDGET"
+        raw_budget = current_daily_budget * 1.25
+        reason = "Purchase conversion detected. Campaign has positive conversion signal."
+    elif add_to_cart >= 1 and purchases == 0:
+        recommendation = "HOLD"
+        budget_action = "HOLD_BUDGET"
+        raw_budget = current_daily_budget
+        reason = "AddToCart exists but no Purchase yet. Keep budget stable and collect more data."
+    elif pageviews >= 10 and add_to_cart == 0:
+        recommendation = "PAUSE_OR_FIX_FUNNEL"
+        budget_action = "DECREASE_OR_PAUSE"
+        raw_budget = current_daily_budget * 0.5
+        reason = "Traffic exists but no AddToCart. Check offer, page speed, price, or targeting."
+    else:
+        recommendation = "COLLECT_MORE_DATA"
+        budget_action = "HOLD_BUDGET"
+        raw_budget = current_daily_budget
+        reason = "Not enough event volume for confident optimization."
+
+    recommended_budget = min(round(raw_budget, 2), max_daily_budget)
+
+    return {
+        "ok": True,
+        "system": "META_AUTOPILOT_READY",
+        "funnel": {
+            "PageView": pageviews,
+            "AddToCart": add_to_cart,
+            "Purchase": purchases
+        },
+        "conversion_rates": {
+            "pageview_to_addtocart_percent": round(add_to_cart_rate, 2),
+            "pageview_to_purchase_percent": round(purchase_rate, 2),
+            "addtocart_to_purchase_percent": round(cart_to_purchase_rate, 2)
+        },
+        "ai_recommendation": {
+            "action": recommendation,
+            "reason": reason
+        },
+        "budget": {
+            "current_daily_budget": current_daily_budget,
+            "recommended_daily_budget": recommended_budget,
+            "budget_action": budget_action
+        },
+        "safety": {
+            "max_daily_budget": max_daily_budget,
+            "cap_applied": recommended_budget < round(raw_budget, 2)
+        }
+    }
+# --- End Meta autopilot status endpoint ---
