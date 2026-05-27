@@ -2322,3 +2322,39 @@ def meta_campaign_budget_plan(
         "note": "No real Meta budget change executed."
     }
 # --- End Meta campaign budget automation dry-run ---
+
+# --- Meta campaigns read endpoint ---
+@app.get("/api/meta/campaigns")
+def meta_campaigns():
+    import os
+    import requests
+
+    token = os.getenv("META_ACCESS_TOKEN", "")
+    ad_account_id = os.getenv("META_AD_ACCOUNT_ID", "1657233005544682")
+
+    if not token:
+        return {"ok": False, "error": "META_ACCESS_TOKEN missing"}
+
+    url = f"https://graph.facebook.com/v19.0/act_{ad_account_id}/campaigns"
+
+    r = requests.get(
+        url,
+        params={
+            "fields": "id,name,status,effective_status,daily_budget",
+            "access_token": token
+        },
+        timeout=20
+    )
+
+    try:
+        data = r.json()
+    except Exception:
+        data = r.text
+
+    return {
+        "ok": r.ok,
+        "status_code": r.status_code,
+        "ad_account_id": ad_account_id,
+        "meta_response": data
+    }
+# --- End Meta campaigns read endpoint ---
