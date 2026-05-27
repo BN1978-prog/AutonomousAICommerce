@@ -1961,3 +1961,13 @@ async def meta_test_event(request: Request):
 
 
 
+
+# --- DB init endpoint ---
+from app.db import Base, engine
+from app.models import MetaEvent
+
+@app.post("/api/db/init")
+def init_db():
+    Base.metadata.create_all(bind=engine)
+    return {"ok": True, "tables": ["meta_events"]}
+# --- End DB init endpoint ---
