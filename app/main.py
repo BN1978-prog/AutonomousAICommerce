@@ -1947,7 +1947,7 @@ async def meta_test_event(request: Request):
         except Exception:
             meta_response = r.text
 
-                try:
+        try:
             from app.db import SessionLocal
             from app.models import MetaEvent
 
@@ -1998,4 +1998,5 @@ def init_db():
     Base.metadata.create_all(bind=engine)
     return {"ok": True, "tables": ["meta_events"]}
 # --- End DB init endpoint ---
+
 
