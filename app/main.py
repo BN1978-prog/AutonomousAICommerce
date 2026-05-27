@@ -1,4 +1,4 @@
-﻿from dotenv import load_dotenv
+from dotenv import load_dotenv
 load_dotenv()
 import requests
 def load_env_local():
@@ -2330,7 +2330,7 @@ def meta_campaigns():
     import requests
 
     token = os.getenv("META_ACCESS_TOKEN", "")
-    ad_account_id = os.getenv("META_AD_ACCOUNT_ID", "1657233005544682")
+    ad_account_id = os.getenv("META_AD_ACCOUNT_ID", "1657233005544682").replace("act_", "")
 
     if not token:
         return {"ok": False, "error": "META_ACCESS_TOKEN missing"}
