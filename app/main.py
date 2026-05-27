@@ -2299,3 +2299,26 @@ def meta_autopilot_status(
         }
     }
 # --- End Meta autopilot status endpoint ---
+
+# --- Meta campaign budget automation dry-run ---
+@app.get("/api/meta/campaign-budget-plan")
+def meta_campaign_budget_plan(
+    campaign_id: str,
+    current_daily_budget: float = 10.0,
+    max_daily_budget: float = 25.0
+):
+    status = meta_autopilot_status(
+        current_daily_budget=current_daily_budget,
+        max_daily_budget=max_daily_budget
+    )
+
+    return {
+        "ok": True,
+        "mode": "DRY_RUN",
+        "campaign_id": campaign_id,
+        "would_apply": status["budget"],
+        "ai_recommendation": status["ai_recommendation"],
+        "safety": status["safety"],
+        "note": "No real Meta budget change executed."
+    }
+# --- End Meta campaign budget automation dry-run ---
