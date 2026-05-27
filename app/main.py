@@ -2178,3 +2178,53 @@ def meta_budget_decision(current_daily_budget: float = 10.0):
         }
     }
 # --- End Meta budget decision endpoint ---
+
+# --- Meta safe budget decision endpoint ---
+@app.get("/api/meta/safe-budget-decision")
+def meta_safe_budget_decision(
+    current_daily_budget: float = 10.0,
+    max_daily_budget: float = 25.0
+):
+    from app.db import SessionLocal
+    from app.models import MetaEvent
+
+    db = SessionLocal()
+    pageviews = db.query(MetaEvent).filter(MetaEvent.event_name == "PageView").count()
+    add_to_cart = db.query(MetaEvent).filter(MetaEvent.event_name == "AddToCart").count()
+    purchases = db.query(MetaEvent).filter(MetaEvent.event_name == "Purchase").count()
+    db.close()
+
+    purchase_rate = (purchases / pageviews) * 100 if pageviews else 0
+
+    if purchases >= 1 and purchase_rate >= 5:
+        action = "INCREASE_BUDGET"
+        raw_budget = current_daily_budget * 1.25
+    elif add_to_cart >= 1 and purchases == 0:
+        action = "HOLD_BUDGET"
+        raw_budget = current_daily_budget
+    elif pageviews >= 10 and add_to_cart == 0:
+        action = "DECREASE_OR_PAUSE"
+        raw_budget = current_daily_budget * 0.5
+    else:
+        action = "COLLECT_MORE_DATA"
+        raw_budget = current_daily_budget
+
+    recommended_budget = min(round(raw_budget, 2), max_daily_budget)
+
+    return {
+        "ok": True,
+        "safety": {
+            "max_daily_budget": max_daily_budget,
+            "cap_applied": recommended_budget < round(raw_budget, 2)
+        },
+        "current_daily_budget": current_daily_budget,
+        "recommended_daily_budget": recommended_budget,
+        "action": action,
+        "signals": {
+            "pageviews": pageviews,
+            "add_to_cart": add_to_cart,
+            "purchases": purchases,
+            "purchase_rate_percent": round(purchase_rate, 2)
+        }
+    }
+# --- End Meta safe budget decision endpoint ---
