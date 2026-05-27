@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-05-22T20:45:02.209697+00:00",
+  "channels_total": 10,
+  "env_ready_channels": [
+    "shopify",
+    "woocommerce",
+    "ebay",
+    "cjdropshipping",
+    "meta_ads"
+  ],
+  "not_ready_channels": [
+    "amazon",
+    "tiktok_shop",
+    "aliexpress",
+    "google_ads",
+    "tiktok_ads"
+  ],
+  "summary": [
+    {
+      "channel": "shopify",
+      "type": "storefront",
+      "roadmap_status": "connected",
+      "env_ready": true,
+      "missing": [],
+      "priority": 1
+    },
+    {
+      "channel": "woocommerce",
+      "type": "storefront",
+      "roadmap_status": "connected",
+      "env_ready": true,
+      "missing": [],
+      "priority": 2
+    },
+    {
+      "channel": "ebay",
+      "type": "marketplace",
+      "roadmap_status": "connected",
+      "env_ready": true,
+      "missing": [],
+      "priority": 3
+    },
+    {
+      "channel": "amazon",
+      "type": "marketplace",
+      "roadmap_status": "pending_identity_verification",
+      "env_ready": false,
+      "missing": [
+        "AMAZON_REFRESH_TOKEN",
+        "AMAZON_SELLER_ID"
+      ],
+      "priority": 4
+    },
+    {
+      "channel": "tiktok_shop",
+      "type": "marketplace",
+      "roadmap_status": "not_connected_yet",
+      "env_ready": false,
+      "missing": [
+        "TIKTOK_SHOP_APP_KEY",
+        "TIKTOK_SHOP_APP_SECRET",
+        "TIKTOK_SHOP_ACCESS_TOKEN",
+        "TIKTOK_SHOP_REFRESH_TOKEN",
+        "TIKTOK_SHOP_ID",
+        "TIKTOK_SHOP_REGION"
+      ],
+      "priority": 5
+    },
+    {
+      "channel": "aliexpress",
+      "type": "supplier_marketplace",
+      "roadmap_status": "not_connected_yet",
+      "env_ready": false,
+      "missing": [
+        "ALIEXPRESS_APP_KEY",
+        "ALIEXPRESS_APP_SECRET",
+        "ALIEXPRESS_ACCESS_TOKEN",
+        "ALIEXPRESS_REFRESH_TOKEN"
+      ],
+      "priority": 6
+    },
+    {
+      "channel": "cjdropshipping",
+      "type": "supplier",
+      "roadmap_status": "connected",
+      "env_ready": true,
+      "missing": [],
+      "priority": 7
+    },
+    {
+      "channel": "google_ads",
+      "type": "ads",
+      "roadmap_status": "waiting_basic_access",
+      "env_ready": false,
+      "missing": [],
+      "priority": 8
+    },
+    {
+      "channel": "meta_ads",
+      "type": "ads",
+      "roadmap_status": "connected_paused_safe_mode",
+      "env_ready": true,
+      "missing": [],
+      "priority": 9
+    },
+    {
+      "channel": "tiktok_ads",
+      "type": "ads",
+      "roadmap_status": "not_connected_yet",
+      "env_ready": false,
+      "missing": [
+        "TIKTOK_ADS_ACCESS_TOKEN",
+        "TIKTOK_ADS_ADVERTISER_ID",
+        "TIKTOK_ADS_PIXEL_ID"
+      ],
+      "priority": 10
+    }
+  ],
+  "status": "GLOBAL_CHANNEL_STATUS_READY"
+}

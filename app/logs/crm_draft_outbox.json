@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-05-25T16:13:03.346819+00:00",
+  "drafts_created": 4,
+  "drafts": [
+    {
+      "flow": "abandoned_cart",
+      "subject": "You left something behind",
+      "body": "Your selected items are still waiting for you. Complete your order before they are gone.",
+      "status": "draft_only",
+      "send_enabled": false
+    },
+    {
+      "flow": "order_confirmation",
+      "subject": "Your order has been received",
+      "body": "Thank you for your order. We are preparing it and will update you soon.",
+      "status": "draft_only",
+      "send_enabled": false
+    },
+    {
+      "flow": "review_request",
+      "subject": "How was your order?",
+      "body": "We hope you love your product. Please leave a quick review and help other customers.",
+      "status": "draft_only",
+      "send_enabled": false
+    },
+    {
+      "flow": "win_back",
+      "subject": "We saved something special for you",
+      "body": "Come back and discover new products selected for you.",
+      "status": "draft_only",
+      "send_enabled": false
+    }
+  ],
+  "send_allowed": false,
+  "status": "CRM_DRAFT_OUTBOX_READY"
+}

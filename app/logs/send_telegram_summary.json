@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-05-27T12:58:39.880024+00:00",
+  "sent": true,
+  "status": "TELEGRAM_SUMMARY_SENT",
+  "status_code": 200,
+  "response": "{\"ok\":true,\"result\":{\"message_id\":209,\"from\":{\"id\":8946184264,\"is_bot\":true,\"first_name\":\"AICommerce Bot\",\"username\":\"aicommerce_autopilot_bot\"},\"chat\":{\"id\":1535055900,\"first_name\":\"Nicolai\",\"type\":\"private\"},\"date\":1779886720,\"text\":\"AICommerce Daily Autopilot Summary\\n========================================\\nCreated at: 2026-05-27T12:58:29.988363+00:00\\n\\nTop products:\\n- non_slip_silicone_pet_feeding_bowl: score=143, sales=8, clicks=63, published=8\\n- cat_tunnel_pet_toy_cat_s_tunnel_foldabl"
+}

@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-05-25T15:00:02.845123+00:00",
+  "hourly_tasks": 4,
+  "daily_tasks": 5,
+  "weekly_tasks": 4,
+  "maintenance_plan": {
+    "hourly": [
+      "run channel_self_healer",
+      "run external_blockers_monitor",
+      "run master_system_health",
+      "run backup_manager"
+    ],
+    "daily": [
+      "run autopilot_runner",
+      "run roi_engine",
+      "run crm_health_check",
+      "run supplier_fallback_engine",
+      "run inventory_sync_guard"
+    ],
+    "weekly": [
+      "review blocked products",
+      "review Google API status",
+      "review Meta activation readiness",
+      "review Amazon verification status"
+    ]
+  },
+  "status": "SYSTEM_MAINTENANCE_READY"
+}

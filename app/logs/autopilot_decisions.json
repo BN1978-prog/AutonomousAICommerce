@@ -1,0 +1,434 @@
+[
+  {
+    "product_id": "durable_dog_leash_vest_harness_perfect_for_active_pets",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "affordable_dog_bed",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "british_style_dog_raincoat_perfect_for_pets",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "cat_and_dog_grooming_comb",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "durable_cat_chain_traction_rope_set_harness_leash",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "cat_scratcher_boxed",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "comfortable_pet_travel_backpack",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 1
+  },
+  {
+    "product_id": "cotton_dog_socks_comfortable_and_stylish",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "dog_raincoat",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "dog_leash_dog_leash_pet_leash",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "durable_pet_travel_backpack_perfect_for_adventures",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "easy_pet_cleaning_bath_brush",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "effective_pet_hair_removal_cleaning_brush",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy",
+    "action": "test_new_angle",
+    "reason": "Clicks exist but no sales yet",
+    "score": 21,
+    "sales": 0,
+    "clicks": 21,
+    "published": 2
+  },
+  {
+    "product_id": "four_seasons_universal_cat_recliner_bed",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "dog_grooming_large_beauty",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "natural_pet_shampoo_for_healthy_fur",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "no_pull_dog_harness_reflective_adjustable_soft_padded_pet_vest_harness",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "dog_socks_pet_socks_non_slip_cotton_socks_dog_foot_covers",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "non_slip_silicone_pet_feeding_bowl",
+    "action": "cooldown",
+    "reason": "Reduce frequency",
+    "score": 143,
+    "sales": 8,
+    "clicks": 63,
+    "published": 8
+  },
+  {
+    "product_id": "pet_bowl_dog_bowl_pet_feeder_stainless_steel_bowl_folding_bowl",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_brush",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 9,
+    "sales": 0,
+    "clicks": 9,
+    "published": 0
+  },
+  {
+    "product_id": "pet_carrier_small_size",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_clothes",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "dog_brush_cat_brush_pet_grooming_brush_shedding_grooming_tools",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_grooming_scissors",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "cat_hair_glove_pet_fur_remover_glove_dog_grooming_glove_brush_for_shedding_pet_hair_remover_mitt_cleaner_grooming_glove",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_outdoor_foldable_dog_water_bottle_travel_dispenser",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_print_bell_cat_collar_cat_strap",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_shampoo",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 6,
+    "sales": 0,
+    "clicks": 6,
+    "published": 0
+  },
+  {
+    "product_id": "pet_travel_bag",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_travel_carrier_bag_portable_pet_bag_folding_fabric_pet_carrier_travel_carrier_bag_for_pet_cage_with_locking_safety_zippers",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_travel_mug",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_water_feeder_cat_automatic_pet_feeder",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_waterproof_blanket_dog_blanket",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "pet_waterproof_socks",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "portable_cat_travel_bag_easy_and_convenient",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "portable_dog_water_bottle_go_out_dog_walking_travel_bottle_puppy_water_leak_proof_dog_water_drink_bottle",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "portable_folding_pet_bowl_for_travel",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "portable_pet_backpack_for_outdoor_adventures",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "portable_pet_backpack_for_outings",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "portable_pet_water_bottle_for_dogs_and_cats",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "premium_pet_cleaning_brush",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "premium_pet_grooming_comb",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "premium_pet_shampoo_for_healthy_fur",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 1
+  },
+  {
+    "product_id": "explosion_proof_red_pet_chest_harness",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  },
+  {
+    "product_id": "s_shaped_foldable_cat_tunnel_toy",
+    "action": "keep_testing",
+    "reason": "Not enough data yet",
+    "score": 0,
+    "sales": 0,
+    "clicks": 0,
+    "published": 0
+  }
+]

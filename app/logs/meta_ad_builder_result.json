@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-27T00:06:54.790764+00:00",
+  "results": [
+    {
+      "adset_id": "52564388303636",
+      "creative_id": "1008611848372490",
+      "http_status": 200,
+      "response": "{\"id\":\"52564388347836\"}",
+      "requested_status": "PAUSED",
+      "real_money_spent": 0
+    }
+  ],
+  "status": "META_AD_BUILDER_READY"
+}

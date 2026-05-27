@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-05-20T21:34:15.396655+00:00",
+  "created_at": "2026-05-25T14:59:53.391256+00:00",
   "sources": {
     "shopify_orders": true,
     "shopify_add_to_cart": true,
@@ -9,6 +9,6 @@
   },
   "event_learning_enabled": true,
   "reason": "meta_events_received",
-  "last_meta_event_at": "2026-05-20T21:34:16.385029+00:00",
-  "last_meta_event_id": "1a09eb0e-3972-42e7-b5b5-07efc124aa69"
+  "last_meta_event_at": "2026-05-25T14:59:54.555844+00:00",
+  "last_meta_event_id": "9adf31e1-3b97-419f-b83f-906969cfdc85"
 }

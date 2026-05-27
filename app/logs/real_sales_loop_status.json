@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-05-25T14:59:58.567397+00:00",
+  "checks": {
+    "has_real_sales": false,
+    "orders_seen": false,
+    "addresses_collected": false,
+    "supplier_ready": true,
+    "queue_ready": false
+  },
+  "orders_seen": 0,
+  "addresses_collected": 0,
+  "queue_size": 0,
+  "supplier_status": "ready",
+  "blocked_reasons": [
+    "waiting_for_real_sales",
+    "no_shopify_orders_seen",
+    "no_customer_addresses_collected"
+  ],
+  "next_step": "wait_for_real_paid_order",
+  "status": "REAL_SALES_LOOP_WAITING"
+}

@@ -1,0 +1,13 @@
+{
+  "crm_sending_enabled": false,
+  "default_email_provider": "smtp",
+  "default_sms_provider": "twilio_sms",
+  "require_owner_confirmation": true,
+  "allowed_flows": [
+    "order_confirmation",
+    "review_request",
+    "abandoned_cart",
+    "win_back"
+  ],
+  "mode": "crm_provider_safe_config"
+}

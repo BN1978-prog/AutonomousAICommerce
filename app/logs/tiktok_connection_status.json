@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-05-25T17:13:14.398913+00:00",
+  "tiktok_shop": {
+    "missing": [
+      "TIKTOK_SHOP_ACCESS_TOKEN",
+      "TIKTOK_SHOP_REFRESH_TOKEN",
+      "TIKTOK_SHOP_ID",
+      "TIKTOK_SHOP_REGION"
+    ],
+    "ready": false
+  },
+  "tiktok_ads": {
+    "missing": [
+      "TIKTOK_ADS_ACCESS_TOKEN",
+      "TIKTOK_ADS_ADVERTISER_ID",
+      "TIKTOK_ADS_PIXEL_ID"
+    ],
+    "ready": false
+  },
+  "status": "TIKTOK_WAITING_CONFIGURATION"
+}

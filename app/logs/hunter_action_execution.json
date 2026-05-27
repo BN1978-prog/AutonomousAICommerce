@@ -268,5 +268,15 @@
     "sku": "PET-BOWL-001",
     "action": "keep_monitoring",
     "ok": true
+  },
+  {
+    "sku": "CJJJCWGY02354",
+    "action": "keep_monitoring",
+    "ok": true
+  },
+  {
+    "sku": "CJJJCWGY02237",
+    "action": "keep_monitoring",
+    "ok": true
   }
 ]

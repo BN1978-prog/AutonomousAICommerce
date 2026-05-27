@@ -2,19 +2,19 @@
   {
     "feed": "google_feed",
     "ok": true,
-    "items_in_feed": 52,
-    "active_skus_expected": 52,
+    "items_in_feed": 54,
+    "active_skus_expected": 54,
     "missing_skus": [],
     "bad_items": [],
-    "checked_at": "2026-05-20T21:33:29.375930+00:00"
+    "checked_at": "2026-05-25T14:59:06.297133+00:00"
   },
   {
     "feed": "meta_feed",
     "ok": true,
-    "items_in_feed": 52,
-    "active_skus_expected": 52,
+    "items_in_feed": 54,
+    "active_skus_expected": 54,
     "missing_skus": [],
     "bad_items": [],
-    "checked_at": "2026-05-20T21:33:29.375930+00:00"
+    "checked_at": "2026-05-25T14:59:06.297133+00:00"
   }
 ]

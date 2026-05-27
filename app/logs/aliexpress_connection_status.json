@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-05-24T12:35:15.253207+00:00",
+  "channel": "aliexpress",
+  "ready": false,
+  "missing": [
+    "ALIEXPRESS_APP_KEY",
+    "ALIEXPRESS_APP_SECRET",
+    "ALIEXPRESS_ACCESS_TOKEN",
+    "ALIEXPRESS_REFRESH_TOKEN"
+  ],
+  "external_blocker": true,
+  "status": "ALIEXPRESS_DEVELOPER_ACCESS_NOT_READY"
+}

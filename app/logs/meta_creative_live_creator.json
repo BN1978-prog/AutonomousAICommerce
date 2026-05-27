@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-05-25T17:21:23.861079+00:00",
+  "mode": "meta_creative_payload_only",
+  "creatives_created": 2,
+  "creatives": [
+    {
+      "sku": "CJJJCWMY00923",
+      "title": "Eco-Friendly Cat Scratcher Toy",
+      "adset_name": "None_ADSET",
+      "meta_campaign_id": null,
+      "creative_name": "CJJJCWMY00923_CREATIVE",
+      "primary_text": "Discover Eco-Friendly Cat Scratcher Toy today.",
+      "headline": "Eco-Friendly Cat Scratcher Toy",
+      "description": "Limited test campaign for product demand validation.",
+      "call_to_action": "SHOP_NOW",
+      "destination_url": "https://aicommerce-test-store-2.myshopify.com",
+      "status": "READY_PAYLOAD_ONLY",
+      "mode": "payload_only_no_api_call"
+    },
+    {
+      "sku": "PET-BOWL-001",
+      "title": "Non-slip silicone pet feeding bowl",
+      "adset_name": "None_ADSET",
+      "meta_campaign_id": null,
+      "creative_name": "PET-BOWL-001_CREATIVE",
+      "primary_text": "Discover Non-slip silicone pet feeding bowl today.",
+      "headline": "Non-slip silicone pet feeding bowl",
+      "description": "Limited test campaign for product demand validation.",
+      "call_to_action": "SHOP_NOW",
+      "destination_url": "https://aicommerce-test-store-2.myshopify.com",
+      "status": "READY_PAYLOAD_ONLY",
+      "mode": "payload_only_no_api_call"
+    }
+  ],
+  "live_api_call_enabled": false,
+  "status": "meta_creative_payloads_ready"
+}

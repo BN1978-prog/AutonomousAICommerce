@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-05-25T15:55:10.938678+00:00",
+  "events_detected": 2,
+  "queue_size": 0,
+  "actions_prepared": 0,
+  "send_guard": "CRM_SEND_BLOCKED_BY_GUARD",
+  "channel_status": "CRM_CHANNEL_READY",
+  "crm_pipeline_ready": true,
+  "real_send_enabled": false,
+  "status": "CRM_ORCHESTRATOR_READY"
+}

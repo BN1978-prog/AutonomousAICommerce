@@ -1,8 +1,8 @@
 {
   "sku": "CJJT1048826",
   "offer_id": "170499791011",
-  "ok": false,
-  "status_code": 401,
-  "response": "{\n  \"errors\": [\n    {\n      \"errorId\": 1001,\n      \"domain\": \"OAuth\",\n      \"category\": \"REQUEST\",\n      \"message\": \"Invalid access token\",\n      \"longMessage\": \"Invalid access token. Check the value of the Authorization HTTP request header.\"\n    }\n  ]\n}",
-  "checked_at": "2026-05-19T20:49:21.617916+00:00"
+  "ok": true,
+  "status_code": 200,
+  "response": "{\"offerId\":\"170499791011\",\"sku\":\"CJJT1048826\",\"marketplaceId\":\"EBAY_US\",\"format\":\"FIXED_PRICE\",\"listingDescription\":\"Non-slip silicone pet feeding bowl. AI selected product.\",\"availableQuantity\":10,\"pricingSummary\":{\"price\":{\"value\":\"6.74\",\"currency\":\"USD\"}},\"listingPolicies\":{\"fulfillmentPolicyId\":\"394964752023\",\"eBayPlusIfEligible\":false},\"categoryId\":\"20759\",\"merchantLocationKey\":\"default\",\"tax\":{\"applyTax\":false},\"listing\":{\"listingId\":\"358572592795\",\"listingStatus\":\"ACTIVE\",\"soldQuantity\":0},\"status\":\"PUBLISHED\",\"listingDuration\":\"GTC\",\"includeCatalogProductDetails\":true,\"hideBuyerDetails\":false}",
+  "checked_at": "2026-05-25T17:14:57.165000+00:00"
 }

@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-05-25T15:00:01.038516+00:00",
+  "events_detected": 2,
+  "events": [
+    {
+      "event": "cart_abandoned",
+      "flow": "abandoned_cart",
+      "status": "waiting_for_cart_events"
+    },
+    {
+      "event": "order_delivered",
+      "flow": "review_request",
+      "status": "waiting_for_delivery_event"
+    }
+  ],
+  "drafts_available": 4,
+  "status": "CRM_EVENT_ROUTER_READY"
+}

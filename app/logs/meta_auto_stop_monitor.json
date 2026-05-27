@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-05-25T14:59:53.003907+00:00",
+  "mode": "meta_auto_stop_monitor_safe_read",
+  "active_campaigns_seen": 0,
+  "checks": [],
+  "live_api_call_enabled": false,
+  "status": "idle_no_active_meta_campaigns"
+}

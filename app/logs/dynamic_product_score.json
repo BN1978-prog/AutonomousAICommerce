@@ -1,7 +1,7 @@
 [
   {
     "sku": "CJJJCWMY00923",
-    "title": "Interactive Cat Scratcher Toy for Daily Play",
+    "title": "Scratcher cat toy",
     "dynamic_score": 110
   },
   {
@@ -76,12 +76,12 @@
   },
   {
     "sku": "CJJJCWMY01010",
-    "title": "Boxed Cat Scratcher Toy for Indoor Cats",
+    "title": "Cat scratcher boxed",
     "dynamic_score": 70
   },
   {
     "sku": "CJSP2733732",
-    "title": "Gentle Pet Shampoo for Dogs and Cats",
+    "title": "Pet Shampoo",
     "dynamic_score": 70
   },
   {
@@ -156,17 +156,17 @@
   },
   {
     "sku": "CJMY1174239",
-    "title": "Compact Pet Carrier Bag for Cats and Small Dogs",
+    "title": "Pet Carrier Small Size",
     "dynamic_score": 45
   },
   {
     "sku": "CJJJCWGY02924",
-    "title": "Waterproof Dog Raincoat for Outdoor Walks",
+    "title": "Dog raincoat",
     "dynamic_score": 45
   },
   {
     "sku": "CJJJCWGY01083",
-    "title": "Waterproof Dog Socks for Paw Protection",
+    "title": "Pet waterproof socks",
     "dynamic_score": 45
   },
   {
@@ -231,7 +231,7 @@
   },
   {
     "sku": "CJJJCWMY01054",
-    "title": "Professional Pet Grooming Scissors for Dogs and Cats",
+    "title": "Pet grooming scissors",
     "dynamic_score": 25
   },
   {
@@ -258,6 +258,16 @@
     "sku": "CJMY2099920",
     "title": "Cat Hair Glove Pet Fur Remover Glove Dog Grooming Glove Brush For Shedding Pet Hair Remover Mitt Cleaner Grooming Glove",
     "dynamic_score": 20
+  },
+  {
+    "sku": "CJJJCWGY02354",
+    "title": "Pet travel mug",
+    "dynamic_score": 0
+  },
+  {
+    "sku": "CJJJCWGY02237",
+    "title": "Comfortable Pet Travel Backpack",
+    "dynamic_score": 0
   },
   {
     "sku": "CJYD2896648",

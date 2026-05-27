@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-05-24T12:59:02.517302+00:00",
+  "thresholds": {
+    "100": {
+      "mode": "MICRO_BUDGET",
+      "max_daily_spend_gbp": 5
+    },
+    "250": {
+      "mode": "SCALE_TESTING",
+      "max_daily_spend_gbp": 20
+    },
+    "1000": {
+      "mode": "FULL_AUTOPILOT",
+      "max_daily_spend_gbp": 100
+    }
+  },
+  "status": "BUDGET_SCALING_RULES_ACTIVE"
+}

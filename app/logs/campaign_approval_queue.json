@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-05-27T12:58:29.585810+00:00",
+  "items": 3,
+  "queue": [
+    {
+      "sku": "cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy",
+      "social_content_ready": true,
+      "meta_draft_ready": true,
+      "google_draft_ready": true,
+      "owner_approved": false,
+      "approval_status": "WAITING_OWNER_APPROVAL",
+      "allowed_next_actions": [
+        "prepare_meta_paused_campaign",
+        "prepare_google_paused_campaign"
+      ]
+    },
+    {
+      "sku": "pet_brush",
+      "social_content_ready": true,
+      "meta_draft_ready": true,
+      "google_draft_ready": true,
+      "owner_approved": false,
+      "approval_status": "WAITING_OWNER_APPROVAL",
+      "allowed_next_actions": [
+        "prepare_meta_paused_campaign",
+        "prepare_google_paused_campaign"
+      ]
+    },
+    {
+      "sku": "pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy",
+      "social_content_ready": true,
+      "meta_draft_ready": true,
+      "google_draft_ready": true,
+      "owner_approved": false,
+      "approval_status": "WAITING_OWNER_APPROVAL",
+      "allowed_next_actions": [
+        "prepare_meta_paused_campaign",
+        "prepare_google_paused_campaign"
+      ]
+    }
+  ],
+  "live_money_spending": false,
+  "status": "CAMPAIGN_APPROVAL_QUEUE_READY"
+}

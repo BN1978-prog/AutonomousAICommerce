@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-05-24T12:35:17.913833+00:00",
+  "channels_checked": 4,
+  "ready_channels": [],
+  "not_ready_channels": [
+    "amazon",
+    "tiktok_shop",
+    "tiktok_ads",
+    "aliexpress"
+  ],
+  "channels": [
+    {
+      "channel": "amazon",
+      "required_keys": [
+        "AMAZON_LWA_CLIENT_ID",
+        "AMAZON_LWA_CLIENT_SECRET",
+        "AMAZON_REFRESH_TOKEN",
+        "AMAZON_SELLER_ID",
+        "AMAZON_MARKETPLACE_ID"
+      ],
+      "missing": [
+        "AMAZON_REFRESH_TOKEN",
+        "AMAZON_SELLER_ID"
+      ],
+      "ready": false
+    },
+    {
+      "channel": "tiktok_shop",
+      "required_keys": [
+        "TIKTOK_SHOP_APP_KEY",
+        "TIKTOK_SHOP_APP_SECRET",
+        "TIKTOK_SHOP_ACCESS_TOKEN",
+        "TIKTOK_SHOP_REFRESH_TOKEN",
+        "TIKTOK_SHOP_ID",
+        "TIKTOK_SHOP_REGION"
+      ],
+      "missing": [
+        "TIKTOK_SHOP_ACCESS_TOKEN",
+        "TIKTOK_SHOP_REFRESH_TOKEN",
+        "TIKTOK_SHOP_ID",
+        "TIKTOK_SHOP_REGION"
+      ],
+      "ready": false
+    },
+    {
+      "channel": "tiktok_ads",
+      "required_keys": [
+        "TIKTOK_ADS_ACCESS_TOKEN",
+        "TIKTOK_ADS_ADVERTISER_ID",
+        "TIKTOK_ADS_PIXEL_ID"
+      ],
+      "missing": [
+        "TIKTOK_ADS_ACCESS_TOKEN",
+        "TIKTOK_ADS_ADVERTISER_ID",
+        "TIKTOK_ADS_PIXEL_ID"
+      ],
+      "ready": false
+    },
+    {
+      "channel": "aliexpress",
+      "required_keys": [
+        "ALIEXPRESS_APP_KEY",
+        "ALIEXPRESS_APP_SECRET",
+        "ALIEXPRESS_ACCESS_TOKEN",
+        "ALIEXPRESS_REFRESH_TOKEN"
+      ],
+      "missing": [
+        "ALIEXPRESS_APP_KEY",
+        "ALIEXPRESS_APP_SECRET",
+        "ALIEXPRESS_ACCESS_TOKEN",
+        "ALIEXPRESS_REFRESH_TOKEN"
+      ],
+      "ready": false
+    }
+  ],
+  "status": "GLOBAL_CHANNEL_REQUIREMENTS_READY"
+}

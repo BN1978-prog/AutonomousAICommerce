@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-25T14:59:59.609893+00:00",
+  "customers_seen": 0,
+  "orders_seen": 0,
+  "has_real_sales": false,
+  "total_revenue": 0,
+  "customers": [],
+  "metrics": {
+    "repeat_customers": 0,
+    "new_customers": 0,
+    "estimated_ltv_total": 0
+  },
+  "status": "CUSTOMER_ANALYTICS_WAITING_FOR_SALES"
+}

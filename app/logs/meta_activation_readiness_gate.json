@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-05-25T14:59:58.691108+00:00",
+  "checks": {
+    "system_healthy": true,
+    "safe_to_continue": true,
+    "no_live_money_spending_now": true,
+    "budget_safe": true,
+    "compliance_ok_or_controlled": true,
+    "quality_filter_ok": true,
+    "meta_plan_ready": false,
+    "owner_confirmation_file_exists": false
+  },
+  "missing_requirements": [
+    "meta_plan_ready",
+    "owner_confirmation_file_exists"
+  ],
+  "activation_allowed": false,
+  "reason": "owner_confirmation_required",
+  "status": "META_ACTIVATION_GATE_WAITING_OWNER_CONFIRMATION"
+}

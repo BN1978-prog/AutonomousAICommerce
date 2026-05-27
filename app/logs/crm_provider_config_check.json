@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-05-25T15:52:23.971371+00:00",
+  "providers": [
+    {
+      "provider": "smtp",
+      "ready": true,
+      "missing": [],
+      "placeholders": []
+    },
+    {
+      "provider": "sendgrid",
+      "ready": false,
+      "missing": [
+        "SENDGRID_API_KEY",
+        "SENDGRID_FROM_EMAIL"
+      ],
+      "placeholders": [
+        "SENDGRID_API_KEY",
+        "SENDGRID_FROM_EMAIL"
+      ]
+    },
+    {
+      "provider": "twilio_sms",
+      "ready": false,
+      "missing": [
+        "TWILIO_ACCOUNT_SID",
+        "TWILIO_AUTH_TOKEN",
+        "TWILIO_FROM_PHONE"
+      ],
+      "placeholders": [
+        "TWILIO_ACCOUNT_SID",
+        "TWILIO_AUTH_TOKEN",
+        "TWILIO_FROM_PHONE"
+      ]
+    }
+  ],
+  "ready_providers": [
+    "smtp"
+  ],
+  "send_allowed": false,
+  "status": "CRM_PROVIDER_CONFIG_READY"
+}

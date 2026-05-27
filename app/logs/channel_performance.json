@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-05-25T13:52:17.676900+00:00",
+  "winner": "instagram",
+  "channels": [
+    {
+      "channel": "instagram",
+      "clicks": 1,
+      "orders": 0,
+      "score": 52
+    },
+    {
+      "channel": "pinterest",
+      "clicks": 0,
+      "orders": 0,
+      "score": 45
+    },
+    {
+      "channel": "facebook",
+      "clicks": 0,
+      "orders": 0,
+      "score": 45
+    }
+  ]
+}

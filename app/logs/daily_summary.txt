@@ -1,0 +1,68 @@
+AICommerce Daily Autopilot Summary
+========================================
+Created at: 2026-05-27T12:58:29.988363+00:00
+
+Top products:
+- non_slip_silicone_pet_feeding_bowl: score=143, sales=8, clicks=63, published=8
+- cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy: score=21, sales=0, clicks=21, published=2
+- pet_brush: score=9, sales=0, clicks=9, published=0
+- pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy: score=6, sales=0, clicks=6, published=0
+- durable_dog_leash_vest_harness_perfect_for_active_pets: score=0, sales=0, clicks=0, published=0
+- affordable_dog_bed: score=0, sales=0, clicks=0, published=0
+- british_style_dog_raincoat_perfect_for_pets: score=0, sales=0, clicks=0, published=0
+- cat_and_dog_grooming_comb: score=0, sales=0, clicks=0, published=0
+- durable_cat_chain_traction_rope_set_harness_leash: score=0, sales=0, clicks=0, published=0
+- cat_scratcher_boxed: score=0, sales=0, clicks=0, published=0
+
+Next test priorities:
+- #1 pet_brush: score=24, action=increase_testing
+- #2 cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy: score=21, action=increase_testing
+- #3 pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy: score=21, action=increase_testing
+- #4 durable_dog_leash_vest_harness_perfect_for_active_pets: score=15, action=increase_testing
+- #5 affordable_dog_bed: score=15, action=increase_testing
+
+Last autopilot steps:
+- refresh_shopify_token: OK
+- shopify_crm_events: OK
+- crm_personalized_drafts: OK
+- crm_readiness_summary: OK
+- etsy_connection_status: OK
+- etsy_autopilot: OK
+- exploration_engine_v2: OK
+- build_priority_queue: OK
+- publish_execution_plan: OK
+- action_executor: OK
+- social_content_generator: OK
+- social_content_enhancer: OK
+- meta_ad_drafts_from_content: OK
+- google_ad_drafts_from_content: OK
+- campaign_hub: OK
+- campaign_approval_queue: OK
+- daily_publish_guard: SKIPPED_ALREADY_PUBLISHED_TODAY
+- system_status_report: OK
+- daily_summary: OK
+- auto_scaling_score: OK
+- product_guardrails: OK
+- roi_simulation: OK
+- ceo_dashboard: OK
+- auto_launch_engine: OK
+- auto_spend_executor: OK
+- spend_history_tracker: OK
+- negative_roi_auto_pause: OK
+- hourly_budget_monitor: OK
+- emergency_stop_validator: OK
+- live_spend_permission_gate: OK
+- live_backend_router: OK
+- meta_live_campaign_builder: OK
+- google_live_campaign_builder: OK
+- live_campaign_registry: OK
+- live_api_execution_gate: OK
+- live_execution_reporter: OK
+- live_mode_final_lock: OK
+- meta_live_executor: OK
+- google_live_executor: OK
+- live_execution_consolidator: OK
+- live_spend_audit_ledger: OK
+- live_spend_audit_reader: OK
+- send_daily_summary: OK
+- send_telegram_summary: OK

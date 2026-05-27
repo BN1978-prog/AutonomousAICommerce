@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-05-25T14:59:57.691379+00:00",
+  "mode": "waiting_for_real_sales",
+  "has_real_sales": false,
+  "total_revenue": 0.0,
+  "ad_spend": 0.0,
+  "estimated_profit": 0.0,
+  "roi_percent": null,
+  "live_money_spending": false,
+  "budget_status": "BUDGET_SAFE_MODE",
+  "safe_to_update_roi": false,
+  "status": "ROI_WAITING_FOR_SALES"
+}

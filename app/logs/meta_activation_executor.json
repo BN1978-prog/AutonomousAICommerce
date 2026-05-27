@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-05-25T14:59:52.860178+00:00",
+  "mode": "meta_activation_executor_guarded",
+  "meta_activation_enabled": false,
+  "actions_ready": 0,
+  "blocked": [],
+  "actions": [],
+  "live_money_spending": false,
+  "status": "ready_for_live_activation_code"
+}

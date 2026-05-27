@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-05-24T13:36:18.311643+00:00",
+  "products_attempted": 2,
+  "results": [
+    {
+      "id": 17,
+      "sku": "CJJJCWMY00923",
+      "status_code": 200,
+      "ok": true,
+      "response_status": "draft",
+      "categories": [],
+      "tags": [
+        {
+          "id": 1374,
+          "name": "cats",
+          "slug": "cats"
+        },
+        {
+          "id": 1376,
+          "name": "organic launch",
+          "slug": "organic-launch"
+        },
+        {
+          "id": 1375,
+          "name": "pet toys",
+          "slug": "pet-toys"
+        }
+      ],
+      "stock_status": "instock",
+      "stock_quantity": 10
+    },
+    {
+      "id": 18,
+      "sku": "PET-BOWL-001",
+      "status_code": 200,
+      "ok": true,
+      "response_status": "draft",
+      "categories": [],
+      "tags": [
+        {
+          "id": 1374,
+          "name": "cats",
+          "slug": "cats"
+        },
+        {
+          "id": 1378,
+          "name": "dogs",
+          "slug": "dogs"
+        },
+        {
+          "id": 1376,
+          "name": "organic launch",
+          "slug": "organic-launch"
+        },
+        {
+          "id": 1377,
+          "name": "pet bowl",
+          "slug": "pet-bowl"
+        }
+      ],
+      "stock_status": "instock",
+      "stock_quantity": 10
+    }
+  ],
+  "status": "WOOCOMMERCE_DRAFT_ENRICHMENT_ATTEMPTED"
+}

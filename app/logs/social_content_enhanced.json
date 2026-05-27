@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-05-27T12:58:28.764148+00:00",
+  "posts_created": 3,
+  "posts": [
+    {
+      "sku": "pet_brush",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "status": "marketing_ready",
+      "post_text": "Tired of pet hair everywhere? Keep grooming fast and stress-free. Shop now",
+      "mode": "draft_only_no_publish"
+    },
+    {
+      "sku": "cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "status": "marketing_ready",
+      "post_text": "Give indoor cats a new playground. Fun movement and stimulation in one foldable tunnel. Discover more",
+      "mode": "draft_only_no_publish"
+    },
+    {
+      "sku": "pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "status": "marketing_ready",
+      "post_text": "Turn feeding time into play time. Helps reduce boredom and keeps pets engaged. Shop now",
+      "mode": "draft_only_no_publish"
+    }
+  ],
+  "status": "SOCIAL_CONTENT_ENHANCED_READY"
+}

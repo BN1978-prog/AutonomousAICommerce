@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-05-27T12:58:31.286534+00:00",
+  "system_mode": "SAFE_AUTONOMOUS_COMMERCE",
+  "live_money_spending": false,
+  "top_scale_candidates": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "score": 143,
+      "sales": 8,
+      "clicks": 63,
+      "scale_candidate": true,
+      "recommended_action": "PREPARE_SCALING_REVIEW"
+    }
+  ],
+  "roi_leaders": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "conversion_rate_percent": 12.7,
+      "estimated_cpc": 0.18,
+      "estimated_ad_spend": 11.34,
+      "estimated_profit": 88.66,
+      "estimated_roi_percent": 781.83,
+      "risk_score": "LOW",
+      "recommended_daily_budget": 25,
+      "recommended_action": "SAFE_TO_SCALE_REVIEW"
+    }
+  ],
+  "approval_queue_size": 3,
+  "approval_queue": [
+    {
+      "sku": "cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy",
+      "approval_status": "WAITING_OWNER_APPROVAL"
+    },
+    {
+      "sku": "pet_brush",
+      "approval_status": "WAITING_OWNER_APPROVAL"
+    },
+    {
+      "sku": "pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy",
+      "approval_status": "WAITING_OWNER_APPROVAL"
+    }
+  ],
+  "stop_testing_count": 0,
+  "stop_testing_products": [],
+  "executive_summary": {
+    "healthy": true,
+    "safe_mode": true,
+    "scale_candidates": 1,
+    "roi_models_ready": true,
+    "approval_queue_ready": true
+  },
+  "status": "CEO_DASHBOARD_READY"
+}

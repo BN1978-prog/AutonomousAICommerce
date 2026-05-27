@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-05-25T14:59:57.578269+00:00",
+  "limits": {
+    "max_total_daily_spend": 10,
+    "max_campaign_daily_spend": 5,
+    "stop_if_negative_roi": true,
+    "stop_if_no_sales_after_hours": 24
+  },
+  "live_money_spending": false,
+  "has_real_sales": false,
+  "safe_to_continue": true,
+  "blocked": [
+    "no_real_sales_yet_keep_test_budget_only"
+  ],
+  "budget_status": "BUDGET_SAFE_MODE",
+  "activation_allowed": false,
+  "reason": "safe_budget_guard_active_until_owner_confirms"
+}

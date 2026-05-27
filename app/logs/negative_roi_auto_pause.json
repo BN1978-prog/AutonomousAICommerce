@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-27T12:58:31.855787+00:00",
+  "pause_actions": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "rolling_roi_percent": 350.0,
+      "health": "POSITIVE",
+      "should_pause": false,
+      "action": "KEEP_RUNNING"
+    }
+  ],
+  "auto_pause_enabled": true,
+  "status": "NEGATIVE_ROI_AUTO_PAUSE_READY"
+}

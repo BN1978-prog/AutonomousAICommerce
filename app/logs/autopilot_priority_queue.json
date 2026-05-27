@@ -1,0 +1,66 @@
+{
+  "queue_size": 10,
+  "queue": [
+    {
+      "priority": 1,
+      "sku": "pet_brush",
+      "exploration_score": 24,
+      "action": "increase_testing"
+    },
+    {
+      "priority": 2,
+      "sku": "cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy",
+      "exploration_score": 21,
+      "action": "increase_testing"
+    },
+    {
+      "priority": 3,
+      "sku": "pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy",
+      "exploration_score": 21,
+      "action": "increase_testing"
+    },
+    {
+      "priority": 4,
+      "sku": "durable_dog_leash_vest_harness_perfect_for_active_pets",
+      "exploration_score": 15,
+      "action": "increase_testing"
+    },
+    {
+      "priority": 5,
+      "sku": "affordable_dog_bed",
+      "exploration_score": 15,
+      "action": "increase_testing"
+    },
+    {
+      "priority": 6,
+      "sku": "british_style_dog_raincoat_perfect_for_pets",
+      "exploration_score": 15,
+      "action": "increase_testing"
+    },
+    {
+      "priority": 7,
+      "sku": "cat_and_dog_grooming_comb",
+      "exploration_score": 15,
+      "action": "increase_testing"
+    },
+    {
+      "priority": 8,
+      "sku": "durable_cat_chain_traction_rope_set_harness_leash",
+      "exploration_score": 15,
+      "action": "increase_testing"
+    },
+    {
+      "priority": 9,
+      "sku": "cat_scratcher_boxed",
+      "exploration_score": 15,
+      "action": "increase_testing"
+    },
+    {
+      "priority": 10,
+      "sku": "cotton_dog_socks_comfortable_and_stylish",
+      "exploration_score": 15,
+      "action": "increase_testing"
+    }
+  ],
+  "status": "AUTOPILOT_PRIORITY_QUEUE_READY"
+}

@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-05-24T15:09:04.118427+00:00",
+  "products_checked": 2,
+  "items_needing_images": [
+    {
+      "id": 17,
+      "name": "Eco-Friendly Cat Scratcher Toy",
+      "sku": "CJJJCWMY00923",
+      "status": "publish",
+      "images_count": 0,
+      "needs_images": true
+    },
+    {
+      "id": 18,
+      "name": "Non-slip silicone pet feeding bowl",
+      "sku": "PET-BOWL-001",
+      "status": "publish",
+      "images_count": 0,
+      "needs_images": true
+    }
+  ],
+  "items": [
+    {
+      "id": 17,
+      "name": "Eco-Friendly Cat Scratcher Toy",
+      "sku": "CJJJCWMY00923",
+      "status": "publish",
+      "images_count": 0,
+      "needs_images": true
+    },
+    {
+      "id": 18,
+      "name": "Non-slip silicone pet feeding bowl",
+      "sku": "PET-BOWL-001",
+      "status": "publish",
+      "images_count": 0,
+      "needs_images": true
+    }
+  ],
+  "status": "WOOCOMMERCE_IMAGE_GAP_REPORT_READY"
+}

@@ -1,37 +1,45 @@
 {
-  "created_at": "2026-05-20T21:34:14.834228+00:00",
+  "created_at": "2026-05-25T18:06:17.830907+00:00",
   "mode": "guarded_live_ads_executor",
-  "live_ads_launch_enabled": true,
+  "live_ads_launch_enabled": false,
   "confirmation_file_exists": true,
-  "actions_ready": 2,
-  "blocked": [],
-  "actions": [
+  "actions_ready": 0,
+  "blocked": [
     {
-      "created_at": "2026-05-20T21:34:14.834228+00:00",
       "sku": "CJJJCWMY00923",
       "title": "Eco-Friendly Cat Scratcher Toy",
+      "target_market": "shopify",
+      "margin_percent": 48.14,
+      "net_profit": 19.25,
+      "daily_test_budget": 5,
       "channels": [
         "google_ads",
         "meta_ads"
       ],
-      "daily_budget": 5,
-      "action": "would_call_live_ads_api",
-      "mode": "guard_passed_but_api_call_not_implemented",
-      "status": "ready_for_real_google_meta_api_code"
+      "mode": "draft_campaign_only_no_spend",
+      "status": "approved_for_manual_launch",
+      "spend_enabled": false,
+      "executor_mode": "manual_launch_required",
+      "reason": "spend_not_enabled"
     },
     {
-      "created_at": "2026-05-20T21:34:14.834228+00:00",
       "sku": "PET-BOWL-001",
       "title": "Non-slip silicone pet feeding bowl",
+      "target_market": "shopify",
+      "margin_percent": 62.51,
+      "net_profit": 10.62,
+      "daily_test_budget": 5,
       "channels": [
         "google_ads",
         "meta_ads"
       ],
-      "daily_budget": 5,
-      "action": "would_call_live_ads_api",
-      "mode": "guard_passed_but_api_call_not_implemented",
-      "status": "ready_for_real_google_meta_api_code"
+      "mode": "draft_campaign_only_no_spend",
+      "status": "approved_for_manual_launch",
+      "spend_enabled": false,
+      "executor_mode": "manual_launch_required",
+      "reason": "spend_not_enabled"
     }
   ],
-  "status": "ready_for_live_api_code"
+  "actions": [],
+  "status": "blocked_by_guard"
 }

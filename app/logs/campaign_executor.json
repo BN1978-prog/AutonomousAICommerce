@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-05-20T21:34:14.729223+00:00",
+  "created_at": "2026-05-25T18:06:17.719620+00:00",
   "mode": "campaign_executor_with_limits",
-  "auto_ad_spend_enabled": true,
+  "auto_ad_spend_enabled": false,
   "approved": 2,
   "blocked": [],
   "campaigns": [
@@ -17,9 +17,9 @@
         "meta_ads"
       ],
       "mode": "draft_campaign_only_no_spend",
-      "status": "ready_for_auto_launch",
-      "spend_enabled": true,
-      "executor_mode": "auto_launch_allowed_by_limits"
+      "status": "approved_for_manual_launch",
+      "spend_enabled": false,
+      "executor_mode": "manual_launch_required"
     },
     {
       "sku": "PET-BOWL-001",
@@ -33,11 +33,11 @@
         "meta_ads"
       ],
       "mode": "draft_campaign_only_no_spend",
-      "status": "ready_for_auto_launch",
-      "spend_enabled": true,
-      "executor_mode": "auto_launch_allowed_by_limits"
+      "status": "approved_for_manual_launch",
+      "spend_enabled": false,
+      "executor_mode": "manual_launch_required"
     }
   ],
-  "spend_enabled": true,
-  "status": "ready_for_auto_launch"
+  "spend_enabled": false,
+  "status": "approved_for_manual_launch"
 }

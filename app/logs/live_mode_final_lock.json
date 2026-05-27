@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-05-27T12:58:34.283059+00:00",
+  "allow_live_spending": true,
+  "emergency_stop": false,
+  "approved_count": 2,
+  "total_daily_budget_ready": 50,
+  "live_mode_allowed": true,
+  "next_action": "READY_FOR_REAL_API_EXECUTION",
+  "real_money_spent": 0,
+  "status": "LIVE_MODE_FINAL_LOCK_READY"
+}

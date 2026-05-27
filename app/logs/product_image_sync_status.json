@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-05-24T15:09:43.774856+00:00",
+  "local_images_status": "LOCAL_IMAGES_ASSIGNED",
+  "woocommerce_images_status": "NOT_UPLOADED_TO_MEDIA_LIBRARY",
+  "reason": "WooCommerce has products, but WordPress Media API upload requires real WordPress admin/API credentials",
+  "next_required_for_full_sync": [
+    "Real WordPress/WooCommerce domain",
+    "WordPress admin user",
+    "WordPress Application Password",
+    "WooCommerce REST API consumer key",
+    "WooCommerce REST API consumer secret"
+  ],
+  "products": [
+    {
+      "id": 17,
+      "sku": "CJJJCWMY00923",
+      "title": "Eco-Friendly Cat Scratcher Toy",
+      "local_image": "app/assets/product_images/CJJJCWMY00923.jpg"
+    },
+    {
+      "id": 18,
+      "sku": "PET-BOWL-001",
+      "title": "Non-slip silicone pet feeding bowl",
+      "local_image": "app/assets/product_images/PET-BOWL-001.jpg"
+    }
+  ],
+  "status": "PRODUCT_IMAGES_READY_LOCALLY_NOT_SYNCED"
+}

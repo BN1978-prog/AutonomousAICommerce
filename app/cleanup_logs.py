@@ -1,40 +1,37 @@
 ﻿from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime, timezone, timedelta
 
-LOG_DIRS = [
-    r"C:\Users\omen\AutonomousAICommerce\app\logs\supplier_raw",
-    r"C:\Users\omen\AutonomousAICommerce\app\logs\daily_runs",
-]
+LOG_DIR = Path("app/logs")
+ARCHIVE_DIR = LOG_DIR / "archive"
+ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
 
-KEEP_DAYS = 14
+KEEP_DAYS = 30
+cutoff = datetime.now(timezone.utc) - timedelta(days=KEEP_DAYS)
 
-def cleanup_directory(path_str):
-    path = Path(path_str)
+protected = {
+    "product_catalog.json",
+    "product_performance.json",
+    "published_posts.json",
+    "autopilot_decisions.json",
+    "daily_summary.txt",
+    "daily_publish_lock.json"
+}
 
-    if not path.exists():
-        return
+moved = 0
 
-    cutoff = datetime.now() - timedelta(days=KEEP_DAYS)
+for f in LOG_DIR.glob("*"):
+    if not f.is_file():
+        continue
 
-    removed = 0
+    if f.name in protected:
+        continue
 
-    for file in path.glob("*"):
-        if not file.is_file():
-            continue
+    modified = datetime.fromtimestamp(f.stat().st_mtime, timezone.utc)
 
-        modified = datetime.fromtimestamp(file.stat().st_mtime)
+    if modified < cutoff:
+        target = ARCHIVE_DIR / f.name
+        f.replace(target)
+        moved += 1
 
-        if modified < cutoff:
-            file.unlink()
-            removed += 1
-
-    print(f"{path.name}: removed {removed} old files")
-
-def main():
-    print("=== LOG CLEANUP ===")
-
-    for directory in LOG_DIRS:
-        cleanup_directory(directory)
-
-if __name__ == "__main__":
-    main()
+print("Log cleanup complete")
+print("Moved old files:", moved)

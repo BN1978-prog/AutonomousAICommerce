@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-05-22T20:40:04.227305+00:00",
+  "blockers_count": 2,
+  "blockers": [
+    {
+      "source": "external_platform_blockers",
+      "platform": "google_ads",
+      "status": "blocked_external_platform_permission",
+      "reason": "DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+      "action_required": "apply_for_google_ads_api_basic_or_standard_access_or_use_test_account"
+    },
+    {
+      "source": "production_readiness_report",
+      "platform": "meta_ads",
+      "status": "blocked_by_meta_activation_guard",
+      "reason": "owner_safety_guard"
+    }
+  ],
+  "safety_status": "safe_no_live_spend",
+  "system_status": "HEALTHY",
+  "production_readiness": "READY_SAFE_MODE",
+  "global_status": "GLOBAL_COMMERCE_READY_META_FUNNEL_PAUSED_GOOGLE_BLOCKED",
+  "ready_to_activate_meta_when_owner_confirms": true,
+  "ready_to_create_google_campaigns_after_api_approval": true,
+  "status": "EXTERNAL_BLOCKERS_PRESENT"
+}

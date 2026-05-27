@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-05-25T19:08:53.300660+00:00",
+  "ok": false,
+  "status_code": 403,
+  "response": {
+    "error": "API key not found or not active, or incorrect shared secret for API key."
+  },
+  "status": "ETSY_OAUTH_EXCHANGE_FAILED"
+}

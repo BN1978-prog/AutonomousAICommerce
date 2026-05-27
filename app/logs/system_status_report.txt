@@ -1,0 +1,61 @@
+AICommerce System Status Report
+========================================
+Created at: 2026-05-27T12:58:29.853657+00:00
+
+Core:
+- MASTER_SYSTEM_HEALTHY_SAFE_MODE
+
+CRM:
+- CRM_SAFE_READY_PROVIDER_CONNECTED
+- channel: CRM_CHANNEL_READY
+- smtp: SMTP_CONFIG_READY
+- send_allowed: False
+
+Meta:
+- META_FUNNEL_READY_PAUSED
+- launch_mode: PAUSED_ONLY_SAFE_MODE
+- live_money_spending: False
+
+Google:
+- google_campaign_payloads_ready
+- live_money_spending: False
+
+
+Etsy:
+- ETSY_WAITING_PERSONAL_APPROVAL_OR_OAUTH
+- autopilot: ETSY_WAITING_APPROVAL
+Amazon:
+- AMAZON_PARTIAL_CONNECTED_WAITING_AUTHORIZATION
+- missing: AMAZON_REFRESH_TOKEN, AMAZON_SELLER_ID
+
+Next test priorities:
+- #1 pet_brush: score=24, action=increase_testing
+- #2 cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy: score=21, action=increase_testing
+- #3 pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy: score=21, action=increase_testing
+- #4 durable_dog_leash_vest_harness_perfect_for_active_pets: score=15, action=increase_testing
+- #5 affordable_dog_bed: score=15, action=increase_testing
+
+
+Action executor:
+- ACTION_EXECUTOR_READY
+- actions_created: 9
+- pet_brush: increase_social_posts -> scheduled
+- pet_brush: increase_testing_frequency -> scheduled
+- pet_brush: consider_campaign_candidate -> scheduled
+- cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy: increase_social_posts -> scheduled
+- cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy: increase_testing_frequency -> scheduled
+- cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy: consider_campaign_candidate -> scheduled
+- pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy: increase_social_posts -> scheduled
+- pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy: increase_testing_frequency -> scheduled
+- pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy: consider_campaign_candidate -> scheduled
+Last autopilot steps:
+- live_api_execution_gate: OK
+- live_execution_reporter: OK
+- live_mode_final_lock: OK
+- meta_live_executor: OK
+- google_live_executor: OK
+- live_execution_consolidator: OK
+- live_spend_audit_ledger: OK
+- live_spend_audit_reader: OK
+- send_daily_summary: OK
+- send_telegram_summary: OK

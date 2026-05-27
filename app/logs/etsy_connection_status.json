@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-05-27T12:58:27.031419+00:00",
+  "channel": "etsy",
+  "config_missing": [],
+  "runtime_missing": [
+    "ETSY_SHOP_ID",
+    "ETSY_ACCESS_TOKEN",
+    "ETSY_REFRESH_TOKEN"
+  ],
+  "ready": false,
+  "status": "ETSY_WAITING_PERSONAL_APPROVAL_OR_OAUTH",
+  "note": "If OAuth returns 403 API key not active, wait for Etsy Personal Approval."
+}

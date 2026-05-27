@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-27T12:58:32.271268+00:00",
+  "final_spend_permission": true,
+  "approved_campaigns": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "requested_budget": 25,
+      "live_launch_permission": true,
+      "next_action": "READY_FOR_LIVE_BACKEND"
+    }
+  ],
+  "real_money_spent": 0,
+  "status": "LIVE_SPEND_PERMISSION_GATE_READY"
+}

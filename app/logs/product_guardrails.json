@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-05-27T12:58:31.015548+00:00",
+  "rules": {
+    "min_clicks_before_judgement": 20,
+    "max_sales_for_loser": 0,
+    "max_score_for_loser": 5
+  },
+  "items": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "score": 143,
+      "sales": 8,
+      "clicks": 63,
+      "guardrail_status": "CONTINUE",
+      "reason": "not_loser"
+    },
+    {
+      "sku": "cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy",
+      "score": 21,
+      "sales": 0,
+      "clicks": 21,
+      "guardrail_status": "CONTINUE",
+      "reason": "not_loser"
+    },
+    {
+      "sku": "pet_brush",
+      "score": 9,
+      "sales": 0,
+      "clicks": 9,
+      "guardrail_status": "CONTINUE",
+      "reason": "not_loser"
+    },
+    {
+      "sku": "pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy",
+      "score": 6,
+      "sales": 0,
+      "clicks": 6,
+      "guardrail_status": "CONTINUE",
+      "reason": "not_loser"
+    },
+    {
+      "sku": "durable_dog_leash_vest_harness_perfect_for_active_pets",
+      "score": 0,
+      "sales": 0,
+      "clicks": 0,
+      "guardrail_status": "CONTINUE",
+      "reason": "not_loser"
+    },
+    {
+      "sku": "affordable_dog_bed",
+      "score": 0,
+      "sales": 0,
+      "clicks": 0,
+      "guardrail_status": "CONTINUE",
+      "reason": "not_loser"
+    },
+    {
+      "sku": "british_style_dog_raincoat_perfect_for_pets",
+      "score": 0,
+      "sales": 0,
+      "clicks": 0,
+      "guardrail_status": "CONTINUE",
+      "reason": "not_loser"
+    },
+    {
+      "sku": "cat_and_dog_grooming_comb",
+      "score": 0,
+      "sales": 0,
+      "clicks": 0,
+      "guardrail_status": "CONTINUE",
+      "reason": "not_loser"
+    },
+    {
+      "sku": "durable_cat_chain_traction_rope_set_harness_leash",
+      "score": 0,
+      "sales": 0,
+      "clicks": 0,
+      "guardrail_status": "CONTINUE",
+      "reason": "not_loser"
+    },
+    {
+      "sku": "cat_scratcher_boxed",
+      "score": 0,
+      "sales": 0,
+      "clicks": 0,
+      "guardrail_status": "CONTINUE",
+      "reason": "not_loser"
+    }
+  ],
+  "stop_testing": [],
+  "live_money_spending": false,
+  "status": "PRODUCT_GUARDRAILS_READY_SAFE_MODE"
+}

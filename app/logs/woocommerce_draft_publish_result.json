@@ -1,0 +1,238 @@
+{
+  "created_at": "2026-05-24T13:33:04.273468+00:00",
+  "wc_url": "https://aicommerce9.wpcomstaging.com",
+  "products_attempted": 2,
+  "results": [
+    {
+      "sku": "CJJJCWMY00923",
+      "name": "Eco-Friendly Cat Scratcher Toy",
+      "status_code": 201,
+      "ok": true,
+      "response": {
+        "id": 17,
+        "name": "Eco-Friendly Cat Scratcher Toy",
+        "slug": "",
+        "permalink": "https://aicommerce9.wpcomstaging.com/?post_type=product&p=17",
+        "date_created": "2026-05-24T14:33:02",
+        "date_created_gmt": "2026-05-24T13:33:02",
+        "date_modified": "2026-05-24T14:33:02",
+        "date_modified_gmt": "2026-05-24T13:33:02",
+        "type": "simple",
+        "status": "draft",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "Eco-friendly cat scratcher toy for indoor cats. Suitable for organic dropshipping launch.",
+        "short_description": "Eco-friendly cat scratcher toy.",
+        "sku": "CJJJCWMY00923",
+        "price": "19.99",
+        "regular_price": "19.99",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": -1,
+        "download_expiry": -1,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+          "length": "",
+          "width": "",
+          "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [],
+        "brands": [],
+        "tags": [],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>19.99</bdi></span>",
+        "related_ids": [],
+        "meta_data": [
+          {
+            "id": 109,
+            "key": "_created_via",
+            "value": "rest-api-v3"
+          }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "post_password": "",
+        "global_unique_id": "",
+        "permalink_template": "https://aicommerce9.wpcomstaging.com/product/%pagename%/",
+        "generated_slug": "eco-friendly-cat-scratcher-toy",
+        "jetpack_publicize_connections": [],
+        "jetpack_likes_enabled": true,
+        "jetpack_sharing_enabled": true,
+        "jetpack-related-posts": [],
+        "_links": {
+          "self": [
+            {
+              "href": "https://aicommerce9.wpcomstaging.com/wp-json/wc/v3/products/17",
+              "targetHints": {
+                "allow": [
+                  "GET",
+                  "POST",
+                  "PUT",
+                  "PATCH",
+                  "DELETE"
+                ]
+              }
+            }
+          ],
+          "collection": [
+            {
+              "href": "https://aicommerce9.wpcomstaging.com/wp-json/wc/v3/products"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sku": "PET-BOWL-001",
+      "name": "Non-slip silicone pet feeding bowl",
+      "status_code": 201,
+      "ok": true,
+      "response": {
+        "id": 18,
+        "name": "Non-slip silicone pet feeding bowl",
+        "slug": "",
+        "permalink": "https://aicommerce9.wpcomstaging.com/?post_type=product&p=18",
+        "date_created": "2026-05-24T14:33:04",
+        "date_created_gmt": "2026-05-24T13:33:04",
+        "date_modified": "2026-05-24T14:33:04",
+        "date_modified_gmt": "2026-05-24T13:33:04",
+        "type": "simple",
+        "status": "draft",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "Non-slip silicone feeding bowl for pets. Suitable for cats and small dogs.",
+        "short_description": "Non-slip silicone pet feeding bowl.",
+        "sku": "PET-BOWL-001",
+        "price": "14.99",
+        "regular_price": "14.99",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": -1,
+        "download_expiry": -1,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+          "length": "",
+          "width": "",
+          "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [],
+        "brands": [],
+        "tags": [],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>14.99</bdi></span>",
+        "related_ids": [],
+        "meta_data": [
+          {
+            "id": 128,
+            "key": "_created_via",
+            "value": "rest-api-v3"
+          }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "post_password": "",
+        "global_unique_id": "",
+        "permalink_template": "https://aicommerce9.wpcomstaging.com/product/%pagename%/",
+        "generated_slug": "non-slip-silicone-pet-feeding-bowl",
+        "jetpack_publicize_connections": [],
+        "jetpack_likes_enabled": true,
+        "jetpack_sharing_enabled": true,
+        "jetpack-related-posts": [],
+        "_links": {
+          "self": [
+            {
+              "href": "https://aicommerce9.wpcomstaging.com/wp-json/wc/v3/products/18",
+              "targetHints": {
+                "allow": [
+                  "GET",
+                  "POST",
+                  "PUT",
+                  "PATCH",
+                  "DELETE"
+                ]
+              }
+            }
+          ],
+          "collection": [
+            {
+              "href": "https://aicommerce9.wpcomstaging.com/wp-json/wc/v3/products"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "status": "WOOCOMMERCE_DRAFT_PUBLISH_ATTEMPTED"
+}

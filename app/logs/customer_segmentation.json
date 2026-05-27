@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-05-25T14:59:59.730071+00:00",
+  "customers_seen": 0,
+  "segments": {
+    "new_customers": 0,
+    "repeat_customers": 0,
+    "high_value_customers": 0,
+    "inactive_customers": 0
+  },
+  "segment_details": {
+    "new_customers": [],
+    "repeat_customers": [],
+    "high_value_customers": [],
+    "inactive_customers": []
+  },
+  "recommended_actions": [
+    {
+      "segment": "new_customers",
+      "action": "send_welcome_flow"
+    },
+    {
+      "segment": "repeat_customers",
+      "action": "send_loyalty_offer"
+    },
+    {
+      "segment": "high_value_customers",
+      "action": "protect_with_priority_support"
+    },
+    {
+      "segment": "inactive_customers",
+      "action": "send_win_back_flow"
+    }
+  ],
+  "status": "CUSTOMER_SEGMENTATION_WAITING_FOR_SALES"
+}

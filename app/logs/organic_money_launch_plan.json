@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-05-24T13:06:39.956052+00:00",
+  "launch_type": "ORGANIC_DROPSHIPPING_MONEY_LAUNCH",
+  "paid_ads_enabled": false,
+  "live_money_spending": false,
+  "purchase_rule": "buy_from_supplier_only_after_customer_paid_order",
+  "products_count": 2,
+  "products": [
+    {
+      "sku": "CJJJCWMY00923",
+      "title": "Eco-Friendly Cat Scratcher Toy",
+      "supplier": "CJ Dropshipping",
+      "target_channels": [
+        "shopify",
+        "woocommerce",
+        "ebay"
+      ],
+      "mode": "dropshipping_no_inventory_purchase",
+      "status": "READY_TO_LIST"
+    },
+    {
+      "sku": "PET-BOWL-001",
+      "title": "Non-slip silicone pet feeding bowl",
+      "supplier": "CJ Dropshipping",
+      "target_channels": [
+        "shopify",
+        "woocommerce",
+        "ebay"
+      ],
+      "mode": "dropshipping_no_inventory_purchase",
+      "status": "READY_TO_LIST"
+    }
+  ],
+  "status": "ORGANIC_MONEY_LAUNCH_PLAN_READY"
+}

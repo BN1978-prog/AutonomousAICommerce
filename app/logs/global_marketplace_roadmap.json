@@ -1,0 +1,228 @@
+{
+  "created_at": "2026-05-22T20:45:01.942499+00:00",
+  "vision": "global_autonomous_commerce_system",
+  "channels_total": 10,
+  "connected": [
+    {
+      "channel": "shopify",
+      "type": "storefront",
+      "status": "connected",
+      "priority": 1
+    },
+    {
+      "channel": "woocommerce",
+      "type": "storefront",
+      "status": "connected",
+      "priority": 2
+    },
+    {
+      "channel": "ebay",
+      "type": "marketplace",
+      "status": "connected",
+      "priority": 3
+    },
+    {
+      "channel": "tiktok_shop",
+      "type": "marketplace",
+      "status": "not_connected_yet",
+      "priority": 5,
+      "required": [
+        "TikTok Shop seller account",
+        "Open API app",
+        "access token",
+        "shop cipher",
+        "seller region"
+      ]
+    },
+    {
+      "channel": "aliexpress",
+      "type": "supplier_marketplace",
+      "status": "not_connected_yet",
+      "priority": 6,
+      "required": [
+        "AliExpress affiliate or dropshipping access",
+        "API credentials",
+        "product search",
+        "order API"
+      ]
+    },
+    {
+      "channel": "cjdropshipping",
+      "type": "supplier",
+      "status": "connected",
+      "priority": 7
+    },
+    {
+      "channel": "meta_ads",
+      "type": "ads",
+      "status": "connected_paused_safe_mode",
+      "priority": 9
+    },
+    {
+      "channel": "tiktok_ads",
+      "type": "ads",
+      "status": "not_connected_yet",
+      "priority": 10,
+      "required": [
+        "TikTok Ads account",
+        "developer app",
+        "access token",
+        "advertiser ID",
+        "pixel ID"
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "channel": "amazon",
+      "type": "marketplace",
+      "status": "pending_identity_verification",
+      "priority": 4,
+      "required": [
+        "SP_API",
+        "LWA_CLIENT_ID",
+        "LWA_CLIENT_SECRET",
+        "REFRESH_TOKEN",
+        "SELLER_ID",
+        "MARKETPLACE_ID"
+      ]
+    },
+    {
+      "channel": "google_ads",
+      "type": "ads",
+      "status": "waiting_basic_access",
+      "priority": 8
+    }
+  ],
+  "not_connected": [
+    {
+      "channel": "tiktok_shop",
+      "type": "marketplace",
+      "status": "not_connected_yet",
+      "priority": 5,
+      "required": [
+        "TikTok Shop seller account",
+        "Open API app",
+        "access token",
+        "shop cipher",
+        "seller region"
+      ]
+    },
+    {
+      "channel": "aliexpress",
+      "type": "supplier_marketplace",
+      "status": "not_connected_yet",
+      "priority": 6,
+      "required": [
+        "AliExpress affiliate or dropshipping access",
+        "API credentials",
+        "product search",
+        "order API"
+      ]
+    },
+    {
+      "channel": "tiktok_ads",
+      "type": "ads",
+      "status": "not_connected_yet",
+      "priority": 10,
+      "required": [
+        "TikTok Ads account",
+        "developer app",
+        "access token",
+        "advertiser ID",
+        "pixel ID"
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "channel": "shopify",
+      "type": "storefront",
+      "status": "connected",
+      "priority": 1
+    },
+    {
+      "channel": "woocommerce",
+      "type": "storefront",
+      "status": "connected",
+      "priority": 2
+    },
+    {
+      "channel": "ebay",
+      "type": "marketplace",
+      "status": "connected",
+      "priority": 3
+    },
+    {
+      "channel": "amazon",
+      "type": "marketplace",
+      "status": "pending_identity_verification",
+      "priority": 4,
+      "required": [
+        "SP_API",
+        "LWA_CLIENT_ID",
+        "LWA_CLIENT_SECRET",
+        "REFRESH_TOKEN",
+        "SELLER_ID",
+        "MARKETPLACE_ID"
+      ]
+    },
+    {
+      "channel": "tiktok_shop",
+      "type": "marketplace",
+      "status": "not_connected_yet",
+      "priority": 5,
+      "required": [
+        "TikTok Shop seller account",
+        "Open API app",
+        "access token",
+        "shop cipher",
+        "seller region"
+      ]
+    },
+    {
+      "channel": "aliexpress",
+      "type": "supplier_marketplace",
+      "status": "not_connected_yet",
+      "priority": 6,
+      "required": [
+        "AliExpress affiliate or dropshipping access",
+        "API credentials",
+        "product search",
+        "order API"
+      ]
+    },
+    {
+      "channel": "cjdropshipping",
+      "type": "supplier",
+      "status": "connected",
+      "priority": 7
+    },
+    {
+      "channel": "google_ads",
+      "type": "ads",
+      "status": "waiting_basic_access",
+      "priority": 8
+    },
+    {
+      "channel": "meta_ads",
+      "type": "ads",
+      "status": "connected_paused_safe_mode",
+      "priority": 9
+    },
+    {
+      "channel": "tiktok_ads",
+      "type": "ads",
+      "status": "not_connected_yet",
+      "priority": 10,
+      "required": [
+        "TikTok Ads account",
+        "developer app",
+        "access token",
+        "advertiser ID",
+        "pixel ID"
+      ]
+    }
+  ],
+  "status": "GLOBAL_MARKETPLACE_ROADMAP_READY"
+}

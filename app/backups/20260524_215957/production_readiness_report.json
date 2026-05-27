@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-05-24T21:59:57.274930+00:00",
+  "production_readiness": "READY_SAFE_MODE",
+  "system_status": "HEALTHY",
+  "safe_to_continue": true,
+  "global_status": "GLOBAL_COMMERCE_READY_META_FUNNEL_PAUSED_GOOGLE_BLOCKED",
+  "meta_funnel": "META_FUNNEL_INCOMPLETE",
+  "meta_activation": "ready_for_live_activation_code",
+  "meta_auto_stop": "idle_no_active_meta_campaigns",
+  "google_status": "blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+  "live_money_spending": false,
+  "ready_to_activate_meta_when_owner_confirms": true,
+  "ready_to_create_google_campaigns_after_api_approval": true,
+  "status": "PRODUCTION_READY_SAFE_MODE"
+}

@@ -1,0 +1,23 @@
+{
+  "mode": "LIMITED_AUTO_SPEND",
+
+  "emergency_stop": false,
+
+  "allow_live_spending": true,
+
+  "max_daily_global_budget": 50,
+
+  "max_campaign_budget": 25,
+
+  "allowed_risk_levels": [
+    "LOW"
+  ],
+
+  "min_roi_percent": 200,
+
+  "auto_pause_negative_roi": true,
+
+  "kill_switch_enabled": true,
+
+  "status": "AUTO_SPEND_GUARDRAILS_READY"
+}

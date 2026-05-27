@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-05-27T12:58:28.348646+00:00",
+  "items_selected": 3,
+  "execution_plan": [
+    {
+      "sku": "pet_brush",
+      "priority": 1,
+      "actions": [
+        "increase_social_posts",
+        "increase_testing_frequency",
+        "consider_campaign_candidate"
+      ]
+    },
+    {
+      "sku": "cat_tunnel_pet_toy_cat_s_tunnel_foldable_cat_tunnel_cat_drill_bucket_toy",
+      "priority": 2,
+      "actions": [
+        "increase_social_posts",
+        "increase_testing_frequency",
+        "consider_campaign_candidate"
+      ]
+    },
+    {
+      "sku": "pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy",
+      "priority": 3,
+      "actions": [
+        "increase_social_posts",
+        "increase_testing_frequency",
+        "consider_campaign_candidate"
+      ]
+    }
+  ],
+  "status": "PUBLISH_EXECUTION_PLAN_READY"
+}

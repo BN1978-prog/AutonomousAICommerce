@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-05-27T12:58:31.144303+00:00",
+  "simulations": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "conversion_rate_percent": 12.7,
+      "estimated_cpc": 0.18,
+      "estimated_ad_spend": 11.34,
+      "estimated_profit": 88.66,
+      "estimated_roi_percent": 781.83,
+      "risk_score": "LOW",
+      "recommended_daily_budget": 25,
+      "recommended_action": "SAFE_TO_SCALE_REVIEW"
+    }
+  ],
+  "live_money_spending": false,
+  "status": "ROI_SIMULATION_READY_SAFE_MODE"
+}

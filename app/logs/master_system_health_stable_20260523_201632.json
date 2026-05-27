@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-05-23T19:06:02.323705+00:00",
+  "checks": {
+    "core_healthy": true,
+    "safe_mode": true,
+    "recovery_ok": true,
+    "backup_ok": true,
+    "budget_safe": true,
+    "roi_ready": true,
+    "crm_safe": true,
+    "supplier_ready": true,
+    "inventory_guard_ready": true,
+    "compliance_ready": true,
+    "quality_ready": true,
+    "pet_niche_safe": true,
+    "no_critical_alerts": true
+  },
+  "failed_checks": [],
+  "failed_count": 0,
+  "external_blockers": [
+    {
+      "source": "external_platform_blockers",
+      "platform": "google_ads",
+      "status": "blocked_external_platform_permission",
+      "reason": "DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+      "action_required": "apply_for_google_ads_api_basic_or_standard_access_or_use_test_account"
+    },
+    {
+      "source": "production_readiness_report",
+      "platform": "meta_ads",
+      "status": "blocked_by_meta_activation_guard",
+      "reason": "owner_safety_guard"
+    }
+  ],
+  "pet_niche": {
+    "created_at": "2026-05-22T20:45:01.822991+00:00",
+    "pet_items_approved": 52,
+    "flagged_items": 2,
+    "excluded_count": 0,
+    "excluded_skus": [],
+    "violations_count": 0,
+    "status": "PET_NICHE_SAFE"
+  },
+  "crm_status": "CRM_FINAL_GATE_BLOCKED",
+  "status": "MASTER_SYSTEM_HEALTHY_SAFE_MODE"
+}

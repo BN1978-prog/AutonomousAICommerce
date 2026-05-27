@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-05-20T11:32:19.070105+00:00",
+  "created_at": "2026-05-24T19:10:16.320886+00:00",
   "business_id": "2501785227003837",
   "owned_ad_accounts": {
     "ok": true,
@@ -54,7 +54,7 @@
         "message": "(#100) This application has not been approved to use this api. Please check the application capabilities or access token permissions.",
         "type": "OAuthException",
         "code": 100,
-        "fbtrace_id": "AkaTEmAMiaRYYLLE_uDmb7S"
+        "fbtrace_id": "A5_SBgN0W-eR_GLkHBCrYEB"
       }
     }
   },
@@ -62,7 +62,18 @@
     "ok": true,
     "status_code": 200,
     "data": {
-      "data": []
+      "data": [
+        {
+          "id": "1045219518685639",
+          "name": "AICommerce Pet Finds"
+        }
+      ],
+      "paging": {
+        "cursors": {
+          "before": "QVFIU3BLenZA0ZA2tzdnhDQzQ1YU9aUExlcFVrcmhZAOWp0VXRkWk1CZA0FLaFk4MlRFYVAzbGRDYWlkb3pnQnNtb0xDc0U2X3VveWxyb3g4NEtMZAEE0aHJJTzV3",
+          "after": "QVFIU3BLenZA0ZA2tzdnhDQzQ1YU9aUExlcFVrcmhZAOWp0VXRkWk1CZA0FLaFk4MlRFYVAzbGRDYWlkb3pnQnNtb0xDc0U2X3VveWxyb3g4NEtMZAEE0aHJJTzV3"
+        }
+      }
     }
   }
 }

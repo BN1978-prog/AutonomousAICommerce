@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-05-27T12:58:32.412130+00:00",
+  "routes": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "budget": 25,
+      "meta_route": "READY",
+      "google_route": "READY",
+      "execution_mode": "LIVE_BACKEND_READY_NOT_SENT",
+      "real_money_spent": 0
+    }
+  ],
+  "routes_count": 1,
+  "status": "LIVE_BACKEND_ROUTER_READY"
+}

@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-05-25T10:17:26.750451+00:00",
+  "page_id": "1045219518685639",
+  "status": "page_token_refreshed",
+  "me_accounts_status": 200,
+  "response": {
+    "data": [
+      {
+        "access_token": "EAASaApyuNOoBRkIT1zxufxYFKZChv1KeconSrGWVCKt9bnYQ5NYi4SZBpATU7OXoe8Gx86tvseyJ5nuF4JZBrql6yxt43bqWgogZBtgrqXKtm3wZCpqdXNzwA7xA1R9OqjuL02WUr6aqu1ZCQBy56la77WqjkHksgbN4EB3CO6acejO2fL5pjPp2t8w3x3MYVHbHSb",
+        "category": "\u041f\u043e\u043a\u0443\u043f\u043a\u0438 \u0438 \u0440\u043e\u0437\u043d\u0438\u0447\u043d\u0430\u044f \u0442\u043e\u0440\u0433\u043e\u0432\u043b\u044f",
+        "category_list": [
+          {
+            "id": "200600219953504",
+            "name": "\u041f\u043e\u043a\u0443\u043f\u043a\u0438 \u0438 \u0440\u043e\u0437\u043d\u0438\u0447\u043d\u0430\u044f \u0442\u043e\u0440\u0433\u043e\u0432\u043b\u044f"
+          }
+        ],
+        "name": "AICommerce Pet Finds",
+        "id": "1045219518685639",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      }
+    ],
+    "paging": {
+      "cursors": {
+        "before": "QVFIU2hKZA0FXUTJveWJLMHJOMmh4VzJaRHZA0bFdnY1RhckNDTFJXZA1lEenBkLXpjd09mWFdtYWRDejI2ZAEpHdFp1UGlheG1qZAUdISTl0Nmdlc1ljc1M0aGRB",
+        "after": "QVFIU2hKZA0FXUTJveWJLMHJOMmh4VzJaRHZA0bFdnY1RhckNDTFJXZA1lEenBkLXpjd09mWFdtYWRDejI2ZAEpHdFp1UGlheG1qZAUdISTl0Nmdlc1ljc1M0aGRB"
+      }
+    }
+  },
+  "page_found": true,
+  "page_name": "AICommerce Pet Finds"
+}

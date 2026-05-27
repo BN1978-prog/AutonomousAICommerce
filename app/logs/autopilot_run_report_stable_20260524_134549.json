@@ -1,0 +1,947 @@
+[
+  {
+    "step": "app.channel_self_healer",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:43:07.641533+00:00",
+    "finished_at": "2026-05-24T12:43:11.222093+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:43:07.752557+00:00\",\n  \"env_reloaded\": false,\n  \"initial_token_check\": {\n    \"module\": \"app.token_manager\",\n    \"ok\": true,\n    \"returncode\": 0,\n    \"stdout\": \"{\\n  \\\"created_at\\\": \\\"2026-05-24T12:43:11.194661+00:00\\\",\\n  \\\"commerce_channels_ok\\\": true,\\n  \\\"paid_ads_ok\\\": true,\\n  \\\"results\\\": [\\n    {\\n      \\\"provider\\\": \\\"shopify\\\",\\n      \\\"ok\\\": true,\\n      \\\"status\\\": \\\"token_valid\\\",\\n      \\\"checked_at\\\": \\\"2026-05-24T12:43:08.745878+00:00\\\",\\n      \\\"status_code\\\": 200,\\n      \\\"can_auto_refresh\\\": false,\\n      \\\"response\\\": \\\"\\\"\\n    },\\n    {\\n      \\\"provider\\\": \\\"woocommerce\\\",\\n      \\\"ok\\\": true,\\n      \\\"status\\\": \\\"keys_valid\\\",\\n      \\\"checked_at\\\": \\\"2026-05-24T12:43:09.570544+00:00\\\",\\n      \\\"status_code\\\": 200,\\n      \\\"can_auto_refresh\\\": false,\\n      \\\"response\\\": \\\"\\\"\\n    },\\n    {\\n      \\\"provider\\\": \\\"ebay\\\",\\n      \\\"ok\\\": true,\\n      \\\"status\\\": \\\"access_token_refreshed\\\",\\n      \\\"checked_at\\\": \\\"2026-05-24T12:43:10.276563+00:00\\\",\\n      \\\"can_auto_refresh\\\": true,\\n      \\\"expires_in\\\": 7200,\\n      \\\"env_updated\\\": \\\"EBAY_ACCESS_TOKEN\\\"\\n    },\\n    {\\n      \\\"provider\\\": \\\"google_ads\\\",\\n      \\\"ok\\\": true,\\n      \\\"status\\\": \\\"access_token_refreshed\\\",\\n      \\\"checked_at\\\": \\\"2026-05-24T12:43:10.704198+00:00\\\",\\n      \\\"can_auto_refresh\\\": true,\\n      \\\"expires_in\\\": 3599,\\n      \\\"env_updated\\\": \\\"GOOGLE_ADS_ACCESS_TOKEN\\\"\\n    },\\n    {\\n      \\\"provider\\\": \\\"meta\\\",\\n      \\\"ok\\\": true,\\n      \\\"status\\\": \\\"token_exchanged_or_extended\\\",\\n      \\\"checked_at\\\": \\\"2026-05-24T12:43:11.194661+00:00\\\",\\n      \\\"can_auto_refresh\\\": true,\\n      \\\"expires_in\\\": 4946670,\\n      \\\"env_updated\\\": \\\"META_ACCESS_TOKEN\\\"\\n    }\\n  ]\\n}\\n\",\n    \"stderr\": \"\"\n  },\n  \"initial_problems\": [],\n  \"repair_attempts\": [],\n  \"final_token_check\": null,\n  \"final_problems\": [],\n  \"status\": \"all_channels_ok_no_repair_needed\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.token_manager",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:43:11.222093+00:00",
+    "finished_at": "2026-05-24T12:43:14.424055+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:43:14.404052+00:00\",\n  \"commerce_channels_ok\": true,\n  \"paid_ads_ok\": true,\n  \"results\": [\n    {\n      \"provider\": \"shopify\",\n      \"ok\": true,\n      \"status\": \"token_valid\",\n      \"checked_at\": \"2026-05-24T12:43:12.075655+00:00\",\n      \"status_code\": 200,\n      \"can_auto_refresh\": false,\n      \"response\": \"\"\n    },\n    {\n      \"provider\": \"woocommerce\",\n      \"ok\": true,\n      \"status\": \"keys_valid\",\n      \"checked_at\": \"2026-05-24T12:43:12.949084+00:00\",\n      \"status_code\": 200,\n      \"can_auto_refresh\": false,\n      \"response\": \"\"\n    },\n    {\n      \"provider\": \"ebay\",\n      \"ok\": true,\n      \"status\": \"access_token_refreshed\",\n      \"checked_at\": \"2026-05-24T12:43:13.529650+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": 7200,\n      \"env_updated\": \"EBAY_ACCESS_TOKEN\"\n    },\n    {\n      \"provider\": \"google_ads\",\n      \"ok\": true,\n      \"status\": \"access_token_refreshed\",\n      \"checked_at\": \"2026-05-24T12:43:13.920498+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": 3599,\n      \"env_updated\": \"GOOGLE_ADS_ACCESS_TOKEN\"\n    },\n    {\n      \"provider\": \"meta\",\n      \"ok\": true,\n      \"status\": \"token_exchanged_or_extended\",\n      \"checked_at\": \"2026-05-24T12:43:14.404052+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": 4946667,\n      \"env_updated\": \"META_ACCESS_TOKEN\"\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.oauth_reauth_required",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:43:14.425063+00:00",
+    "finished_at": "2026-05-24T12:43:14.529078+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:43:14.521107+00:00\",\n  \"reauth_required\": false,\n  \"items\": []\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.shopify_registry_hydrator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:43:14.529078+00:00",
+    "finished_at": "2026-05-24T12:43:41.753089+00:00",
+    "stdout": "aincoat - Perfect for Pets\nCJJJCWMY01582 ok= True skipped= False reason= hydrated_from_shopify title= S-Shaped Foldable Cat Tunnel Toy\nCJJJJTJT05102 ok= True skipped= False reason= hydrated_from_shopify title= Premium Pet Cleaning Brush\nCJJT2594074 ok= True skipped= False reason= hydrated_from_shopify title= Natural Pet Shampoo for Healthy Fur\nCJJJCWMY01517 ok= True skipped= False reason= hydrated_from_shopify title= Dog socks, pet socks, non-slip cotton socks, dog foot covers\nCJMY1076688 ok= True skipped= False reason= hydrated_from_shopify title= Durable Cat Chain Traction Rope Set - Harness & Leash\nCJYD1794318 ok= True skipped= False reason= hydrated_from_shopify title= Versatile Pet Hair Cleaning Comb Brush\nCJJT2352016 ok= True skipped= False reason= hydrated_from_shopify title= Premium Pet Shampoo for Healthy Fur\nCJJJCWGY01083 ok= True skipped= False reason= hydrated_from_shopify title= Pet waterproof socks\nCJCC1242562 ok= True skipped= False reason= hydrated_from_shopify title= No Pull Dog Harness Reflective Adjustable Soft Padded Pet Vest Harness\nCJGD1352013 ok= True skipped= False reason= hydrated_from_shopify title= Cotton Dog Socks - Comfortable and Stylish\nCJJT1116559 ok= True skipped= False reason= hydrated_from_shopify title= Explosion-Proof Red Pet Chest Harness\nCJJT1478877 ok= True skipped= False reason= hydrated_from_shopify title= Durable Dog Leash Vest Harness - Perfect for Active Pets\nCJYD2658504 ok= True skipped= False reason= hydrated_from_shopify title= Warm Large Dog Bed & Cat Mat\nCJPN2660770 ok= True skipped= False reason= hydrated_from_shopify title= Warm Large Dog Bed & Cat Mat\nCJJT1353912 ok= True skipped= False reason= hydrated_from_shopify title= Supportive Leash Harness for Elderly Dogs\nCJJT1659747 ok= True skipped= False reason= hydrated_from_shopify title= Effective Pet Hair Removal Cleaning Brush\nCJMY2126410 ok= True skipped= False reason= hydrated_from_shopify title= Cat Tunnel Pet Toy Cat S Tunnel Foldable Cat Tunnel Cat Drill Bucket Toy\nCJMY1119271 ok= True skipped= False reason= hydrated_from_shopify title= Easy Pet Cleaning Bath Brush\nCJSP2733732 ok= True skipped= False reason= hydrated_from_shopify title= Pet Shampoo\nCJJJCWGY00675 ok= True skipped= False reason= hydrated_from_shopify title= Pet Outdoor Foldable Dog Water Bottle - Travel Dispenser\nCJJJCWGY00645 ok= True skipped= False reason= hydrated_from_shopify title= Cat and dog grooming comb\nCJMY2099920 ok= True skipped= False reason= hydrated_from_shopify title= Cat Hair Glove Pet Fur Remover Glove Dog Grooming Glove Brush For Shedding Pet Hair Remover Mitt Cleaner Grooming Glove\nCJYD2896648 ok= True skipped= False reason= hydrated_from_shopify title= Hair Growth Microneedle Solution For Hair Regeneration\nCJJT2896696 ok= True skipped= False reason= hydrated_from_shopify title= High-borosilicate Glass Tea Cup Double Layer Design With Real Flowers\nPET-BOWL-001 ok= True skipped= False reason= hydrated_from_shopify title= Non-slip silicone pet feeding bowl\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.registry_quality_report",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:43:41.753089+00:00",
+    "finished_at": "2026-05-24T12:43:41.854109+00:00",
+    "stdout": "REGISTRY QUALITY REPORT: 54\nCJJT1048826 ok= True missing= \nCJJT1166027 ok= True missing= \nCJCC1064754 ok= True missing= \nCJJJCWGY01325 ok= True missing= \nCJGY1171456 ok= True missing= \nCJGY1082751 ok= True missing= \nCJJJCWGY03008 ok= True missing= \nCJMY1151470 ok= True missing= \nCJMY1112786 ok= True missing= \nCJJJCWGX00530 ok= True missing= \nCJMY2073717 ok= True missing= \nCJGY1294149 ok= True missing= \nCJYD1544909 ok= True missing= \nCJGY1517102 ok= True missing= \nCJJJCWMY01054 ok= True missing= \nCJYD2164619 ok= True missing= \nCJMY1174239 ok= True missing= \nCJMY1081175 ok= True missing= \nCJJJCWGY01133 ok= True missing= \nCJGY1130079 ok= True missing= \nCJMY2078412 ok= True missing= \nCJJJCWMY00973 ok= True missing= \nCJYD2386773 ok= True missing= \nCJJJCWMY01010 ok= True missing= \nCJJJCWMY00923 ok= True missing= \nCJDT2372258 ok= True missing= \nCJCC1228639 ok= True missing= \nCJJJCWGY02924 ok= True missing= \nCJGD1113594 ok= True missing= \nCJJJCWMY01582 ok= True missing= \nCJJJJTJT05102 ok= True missing= \nCJJT2594074 ok= True missing= \nCJJJCWMY01517 ok= True missing= \nCJMY1076688 ok= True missing= \nCJYD1794318 ok= True missing= \nCJJT2352016 ok= True missing= \nCJJJCWGY01083 ok= True missing= \nCJCC1242562 ok= True missing= \nCJGD1352013 ok= True missing= \nCJJT1116559 ok= True missing= \nCJJT1478877 ok= True missing= \nCJYD2658504 ok= True missing= \nCJPN2660770 ok= True missing= \nCJJT1353912 ok= True missing= \nCJJT1659747 ok= True missing= \nCJMY2126410 ok= True missing= \nCJMY1119271 ok= True missing= \nCJSP2733732 ok= True missing= \nCJJJCWGY00675 ok= True missing= \nCJJJCWGY00645 ok= True missing= \nCJMY2099920 ok= True missing= \nCJYD2896648 ok= True missing= \nCJJT2896696 ok= True missing= \nPET-BOWL-001 ok= True missing= \n",
+    "stderr": ""
+  },
+  {
+    "step": "app.feed_mass_regenerator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:43:41.854109+00:00",
+    "finished_at": "2026-05-24T12:43:41.955721+00:00",
+    "stdout": "GOOGLE FEED: 52\nMETA FEED: 52\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.feed_channel_validation",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:43:41.956719+00:00",
+    "finished_at": "2026-05-24T12:43:42.060991+00:00",
+    "stdout": "google_feed ok= True items= 52 expected= 52 missing= 0 bad= 0\nmeta_feed ok= True items= 52 expected= 52 missing= 0 bad= 0\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.real_sales_collector",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:43:42.061998+00:00",
+    "finished_at": "2026-05-24T12:44:21.907012+00:00",
+    "stdout": "REAL SALES SKU: 0\nTOTAL QTY: 0\nTOTAL REVENUE: 0\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.shopify_order_address_collector",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:21.907012+00:00",
+    "finished_at": "2026-05-24T12:44:23.376081+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:22.838748+00:00\",\n  \"ok\": true,\n  \"shop\": \"aicommerce-test-store-2.myshopify.com\",\n  \"orders_seen\": 0,\n  \"addresses_collected\": 0,\n  \"orders\": [],\n  \"status\": \"success\",\n  \"status_code\": 200\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.autonomous_order_router",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:23.377082+00:00",
+    "finished_at": "2026-05-24T12:44:23.476139+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:23.469170+00:00\",\n  \"orders_seen\": 0,\n  \"queued\": 0,\n  \"skipped\": [],\n  \"queue_size\": 0,\n  \"status\": \"ready_waiting_orders\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.supplier_purchase_executor",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:23.476139+00:00",
+    "finished_at": "2026-05-24T12:44:23.575706+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:23.566738+00:00\",\n  \"queue_size\": 0,\n  \"waiting_supplier_api\": 0,\n  \"processed\": [],\n  \"waiting\": [],\n  \"status\": \"idle_no_purchase_queue\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.cj_supplier_readiness",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:23.575706+00:00",
+    "finished_at": "2026-05-24T12:44:23.719939+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:23.709930+00:00\",\n  \"supplier\": \"cjdropshipping\",\n  \"ok\": true,\n  \"status\": \"ready\",\n  \"required_env\": [\n    \"CJ_ACCESS_TOKEN\"\n  ],\n  \"optional_env\": [\n    \"CJ_PLATFORM_TOKEN\"\n  ],\n  \"present\": [\n    \"CJ_ACCESS_TOKEN\"\n  ],\n  \"mode\": \"safe_create_only_no_payment\",\n  \"payType\": 3\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.cj_order_draft_creator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:23.719939+00:00",
+    "finished_at": "2026-05-24T12:44:23.818332+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:23.811358+00:00\",\n  \"queue_size\": 0,\n  \"drafts_created\": 0,\n  \"skipped\": [],\n  \"status\": \"idle_no_queue\",\n  \"output_file\": \"app\\\\logs\\\\cj_order_drafts.json\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.cj_payload_builder",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:23.819331+00:00",
+    "finished_at": "2026-05-24T12:44:23.919385+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:23.912350+00:00\",\n  \"drafts_seen\": 0,\n  \"payloads_created\": 0,\n  \"skipped\": [],\n  \"status\": \"waiting_valid_mapping\",\n  \"output_file\": \"app\\\\logs\\\\cj_order_payloads.json\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.cj_customer_address_validator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:23.919385+00:00",
+    "finished_at": "2026-05-24T12:44:24.024570+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:24.014532+00:00\",\n  \"payloads_seen\": 0,\n  \"ready_for_cj\": 0,\n  \"blocked\": [],\n  \"ready\": [],\n  \"status\": \"blocked_waiting_customer_address\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.sales_cleanup",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:24.025546+00:00",
+    "finished_at": "2026-05-24T12:44:24.130585+00:00",
+    "stdout": "ACTIVE SALES SKU: 0\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.real_sales_mode",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:24.130585+00:00",
+    "finished_at": "2026-05-24T12:44:24.231163+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:24.223608+00:00\",\n  \"has_real_sales\": false,\n  \"mode\": \"waiting_for_sales\",\n  \"total_quantity\": 0,\n  \"total_revenue\": 0,\n  \"safe_to_update_roi\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.traffic_mode",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:24.231163+00:00",
+    "finished_at": "2026-05-24T12:44:24.333190+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:24.326221+00:00\",\n  \"traffic_sources\": [\n    {\n      \"source\": \"google\",\n      \"enabled\": true,\n      \"status\": \"ready_waiting_clicks\"\n    },\n    {\n      \"source\": \"meta\",\n      \"enabled\": true,\n      \"status\": \"clicks_live\"\n    },\n    {\n      \"source\": \"ebay\",\n      \"enabled\": true,\n      \"status\": \"organic_live\"\n    },\n    {\n      \"source\": \"shopify\",\n      \"enabled\": true,\n      \"status\": \"store_live\"\n    }\n  ],\n  \"traffic_learning_enabled\": true,\n  \"reason\": \"paid_sources_ready_waiting_clicks\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.google_ads_readiness",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:24.334189+00:00",
+    "finished_at": "2026-05-24T12:44:24.434211+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:24.427241+00:00\",\n  \"ok\": true,\n  \"status\": \"ready\",\n  \"missing\": [],\n  \"present\": [\n    \"GOOGLE_ADS_DEVELOPER_TOKEN\",\n    \"GOOGLE_ADS_CLIENT_ID\",\n    \"GOOGLE_ADS_CLIENT_SECRET\",\n    \"GOOGLE_ADS_REFRESH_TOKEN\",\n    \"GOOGLE_ADS_CUSTOMER_ID\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.google_access_status",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:24.435215+00:00",
+    "finished_at": "2026-05-24T12:44:24.588759+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:24.577791+00:00\",\n  \"developer_token_present\": true,\n  \"refresh_token_present\": true,\n  \"customer_id_present\": true,\n  \"status\": \"GOOGLE_CONFIG_PRESENT_WAITING_BASIC_ACCESS\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.google_ads_token_refresher",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:24.588759+00:00",
+    "finished_at": "2026-05-24T12:44:25.360471+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:24.926467+00:00\",\n  \"ok\": true,\n  \"status\": \"google_ads_access_token_refreshed\",\n  \"status_code\": 200,\n  \"expires_in\": 3599,\n  \"env_updated\": \"GOOGLE_ADS_ACCESS_TOKEN\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_ads_readiness",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:25.361471+00:00",
+    "finished_at": "2026-05-24T12:44:25.461526+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:25.453524+00:00\",\n  \"ok\": true,\n  \"status\": \"ready\",\n  \"missing\": [],\n  \"present\": [\n    \"META_ACCESS_TOKEN\",\n    \"META_AD_ACCOUNT_ID\",\n    \"META_PIXEL_ID\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_token_validation",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:25.461526+00:00",
+    "finished_at": "2026-05-24T12:44:26.427397+00:00",
+    "stdout": "{\n  \"ok\": true,\n  \"status_code\": 200,\n  \"status\": \"valid\",\n  \"response\": {\n    \"id\": \"26532786449751096\",\n    \"name\": \"\\u041d\\u0438\\u043a\\u043e\\u043b\\u0430\\u0439 \\u0411\\u0430\\u0431\\u043e\\u0433\\u043b\\u043e\"\n  },\n  \"checked_at\": \"2026-05-24T12:44:26.409393+00:00\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.paid_ads_status",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:26.427397+00:00",
+    "finished_at": "2026-05-24T12:44:26.525999+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:26.519030+00:00\",\n  \"google_ads\": {\n    \"ok\": true,\n    \"status\": \"ready\"\n  },\n  \"meta_ads\": {\n    \"ok\": true,\n    \"status\": \"ready\"\n  },\n  \"paid_ads_ready\": true,\n  \"fully_paid_ads_ready\": true,\n  \"active_paid_sources\": [\n    \"google_ads\",\n    \"meta_ads\"\n  ],\n  \"reason\": \"at_least_one_paid_source_ready\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.traffic_readiness",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:26.526998+00:00",
+    "finished_at": "2026-05-24T12:44:26.626039+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:26.618052+00:00\",\n  \"organic_sources_live\": 4,\n  \"paid_sources_connected\": 2,\n  \"active_paid_sources\": [\n    \"google_ads\",\n    \"meta_ads\"\n  ],\n  \"has_real_sales\": false,\n  \"traffic_learning_ready\": true,\n  \"reason\": \"paid_source_connected\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.multi_market_scanner",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:26.626039+00:00",
+    "finished_at": "2026-05-24T12:44:26.726108+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:26.718071+00:00\",\n  \"mode\": \"multi_market_scan_safe\",\n  \"markets_scanned\": [\n    \"cjdropshipping\",\n    \"shopify\"\n  ],\n  \"items_seen\": 2,\n  \"candidates\": 2,\n  \"items\": [\n    {\n      \"product\": \"Eco-Friendly Cat Scratcher Toy\",\n      \"sku\": \"CJJJCWMY00923\",\n      \"buy_from\": \"cjdropshipping\",\n      \"buy_price\": 16.34,\n      \"sell_to\": \"shopify\",\n      \"sell_price\": 39.99,\n      \"shipping_cost\": 0.0,\n      \"platform_fee_percent\": 3,\n      \"risk_reserve_percent\": 8,\n      \"platform_fee\": 1.2,\n      \"risk_reserve\": 3.2,\n      \"net_profit\": 19.25,\n      \"margin_percent\": 48.14,\n      \"decision\": \"candidate\"\n    },\n    {\n      \"product\": \"Non-slip silicone pet feeding bowl\",\n      \"sku\": \"PET-BOWL-001\",\n      \"buy_from\": \"cjdropshipping\",\n      \"buy_price\": 4.5,\n      \"sell_to\": \"shopify\",\n      \"sell_price\": 16.99,\n      \"shipping_cost\": 0.0,\n      \"platform_fee_percent\": 3,\n      \"risk_reserve_percent\": 8,\n      \"platform_fee\": 0.51,\n      \"risk_reserve\": 1.36,\n      \"net_profit\": 10.62,\n      \"margin_percent\": 62.51,\n      \"decision\": \"candidate\"\n    }\n  ],\n  \"status\": \"ok\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.global_arbitrage_engine",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:26.726108+00:00",
+    "finished_at": "2026-05-24T12:44:27.032333+00:00",
+    "stdout": "listing\"\n    }\n  ],\n  \"execution_allowed\": false,\n  \"reason\": \"analysis_only_until_platform_rules_and_budget_limits_confirmed\",\n  \"results\": [\n    {\n      \"step\": \"app.margin_engine\",\n      \"ok\": true,\n      \"returncode\": 0,\n      \"stdout\": \"{\\n  \\\"created_at\\\": \\\"2026-05-24T12:44:26.916706+00:00\\\",\\n  \\\"mode\\\": \\\"margin_from_multi_market_candidates\\\",\\n  \\\"items_seen\\\": 2,\\n  \\\"candidates\\\": 2,\\n  \\\"items\\\": [\\n    {\\n      \\\"sku\\\": \\\"CJJJCWMY00923\\\",\\n      \\\"title\\\": \\\"Eco-Friendly Cat Scratcher Toy\\\",\\n      \\\"source_market\\\": \\\"cjdropshipping\\\",\\n      \\\"source_cost\\\": 16.34,\\n      \\\"shipping_cost\\\": 0.0,\\n      \\\"target_market\\\": \\\"shopify\\\",\\n      \\\"target_price\\\": 39.99,\\n      \\\"platform_fee\\\": 1.2,\\n      \\\"risk_reserve\\\": 3.2,\\n      \\\"net_profit\\\": 19.25,\\n      \\\"margin_percent\\\": 48.14,\\n      \\\"decision\\\": \\\"candidate\\\"\\n    },\\n    {\\n      \\\"sku\\\": \\\"PET-BOWL-001\\\",\\n      \\\"title\\\": \\\"Non-slip silicone pet feeding bowl\\\",\\n      \\\"source_market\\\": \\\"cjdropshipping\\\",\\n      \\\"source_cost\\\": 4.5,\\n      \\\"shipping_cost\\\": 0.0,\\n      \\\"target_market\\\": \\\"shopify\\\",\\n      \\\"target_price\\\": 16.99,\\n      \\\"platform_fee\\\": 0.51,\\n      \\\"risk_reserve\\\": 1.36,\\n      \\\"net_profit\\\": 10.62,\\n      \\\"margin_percent\\\": 62.51,\\n      \\\"decision\\\": \\\"candidate\\\"\\n    }\\n  ],\\n  \\\"status\\\": \\\"ok\\\"\\n}\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"step\": \"app.opportunity_engine\",\n      \"ok\": true,\n      \"returncode\": 0,\n      \"stdout\": \"{\\n  \\\"created_at\\\": \\\"2026-05-24T12:44:27.015301+00:00\\\",\\n  \\\"mode\\\": \\\"safe_opportunity_analysis\\\",\\n  \\\"items_seen\\\": 2,\\n  \\\"opportunities\\\": 2,\\n  \\\"rejected\\\": 0,\\n  \\\"top_opportunities\\\": [\\n    {\\n      \\\"sku\\\": \\\"CJJJCWMY00923\\\",\\n      \\\"title\\\": \\\"Eco-Friendly Cat Scratcher Toy\\\",\\n      \\\"source_market\\\": \\\"cjdropshipping\\\",\\n      \\\"source_cost\\\": 16.34,\\n      \\\"shipping_cost\\\": 0.0,\\n      \\\"target_market\\\": \\\"shopify\\\",\\n      \\\"target_price\\\": 39.99,\\n      \\\"platform_fee\\\": 1.2,\\n      \\\"risk_reserve\\\": 3.2,\\n      \\\"net_profit\\\": 19.25,\\n      \\\"margin_percent\\\": 48.14,\\n      \\\"decision\\\": \\\"candidate\\\",\\n      \\\"priority\\\": \\\"A\\\",\\n      \\\"recommended_action\\\": \\\"strong_candidate_scale_test\\\",\\n      \\\"execution_mode\\\": \\\"analysis_only_no_purchase_no_listing\\\"\\n    },\\n    {\\n      \\\"sku\\\": \\\"PET-BOWL-001\\\",\\n      \\\"title\\\": \\\"Non-slip silicone pet feeding bowl\\\",\\n      \\\"source_market\\\": \\\"cjdropshipping\\\",\\n      \\\"source_cost\\\": 4.5,\\n      \\\"shipping_cost\\\": 0.0,\\n      \\\"target_market\\\": \\\"shopify\\\",\\n      \\\"target_price\\\": 16.99,\\n      \\\"platform_fee\\\": 0.51,\\n      \\\"risk_reserve\\\": 1.36,\\n      \\\"net_profit\\\": 10.62,\\n      \\\"margin_percent\\\": 62.51,\\n      \\\"decision\\\": \\\"candidate\\\",\\n      \\\"priority\\\": \\\"A\\\",\\n      \\\"recommended_action\\\": \\\"strong_candidate_scale_test\\\",\\n      \\\"execution_mode\\\": \\\"analysis_only_no_purchase_no_listing\\\"\\n    }\\n  ],\\n  \\\"rejected_items\\\": [],\\n  \\\"status\\\": \\\"opportunities_found\\\"\\n}\\n\",\n      \"stderr\": \"\"\n    }\n  ],\n  \"status\": \"ok\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.global_execution_plan",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:27.032333+00:00",
+    "finished_at": "2026-05-24T12:44:27.141326+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:27.133324+00:00\",\n  \"mode\": \"global_safe_execution\",\n  \"plans_created\": 2,\n  \"blocked\": [],\n  \"plans\": [\n    {\n      \"sku\": \"CJJJCWMY00923\",\n      \"title\": \"Eco-Friendly Cat Scratcher Toy\",\n      \"source_market\": \"cjdropshipping\",\n      \"target_market\": \"shopify\",\n      \"source_cost\": 16.34,\n      \"target_price\": 39.99,\n      \"net_profit\": 19.25,\n      \"margin_percent\": 48.14,\n      \"action\": \"prepare_listing_test\",\n      \"auto_purchase\": false,\n      \"purchase_rule\": \"only_after_real_paid_order\",\n      \"status\": \"ready_for_safe_listing_test\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"title\": \"Non-slip silicone pet feeding bowl\",\n      \"source_market\": \"cjdropshipping\",\n      \"target_market\": \"shopify\",\n      \"source_cost\": 4.5,\n      \"target_price\": 16.99,\n      \"net_profit\": 10.62,\n      \"margin_percent\": 62.51,\n      \"action\": \"prepare_listing_test\",\n      \"auto_purchase\": false,\n      \"purchase_rule\": \"only_after_real_paid_order\",\n      \"status\": \"ready_for_safe_listing_test\"\n    }\n  ],\n  \"status\": \"execution_plan_ready\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.real_traffic_launcher",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:27.141326+00:00",
+    "finished_at": "2026-05-24T12:44:27.250927+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:27.243925+00:00\",\n  \"mode\": \"safe_campaign_draft_from_execution_plan\",\n  \"campaigns_created\": 2,\n  \"campaigns\": [\n    {\n      \"sku\": \"CJJJCWMY00923\",\n      \"title\": \"Eco-Friendly Cat Scratcher Toy\",\n      \"target_market\": \"shopify\",\n      \"margin_percent\": 48.14,\n      \"net_profit\": 19.25,\n      \"daily_test_budget\": 5,\n      \"channels\": [\n        \"google_ads\",\n        \"meta_ads\"\n      ],\n      \"mode\": \"draft_campaign_only_no_spend\",\n      \"status\": \"ready_for_manual_campaign_review\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"title\": \"Non-slip silicone pet feeding bowl\",\n      \"target_market\": \"shopify\",\n      \"margin_percent\": 62.51,\n      \"net_profit\": 10.62,\n      \"daily_test_budget\": 5,\n      \"channels\": [\n        \"google_ads\",\n        \"meta_ads\"\n      ],\n      \"mode\": \"draft_campaign_only_no_spend\",\n      \"status\": \"ready_for_manual_campaign_review\"\n    }\n  ],\n  \"spend_enabled\": false,\n  \"reason\": \"draft_only_until_auto_ad_spend_enabled\",\n  \"status\": \"campaign_drafts_ready\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.campaign_executor",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:27.251970+00:00",
+    "finished_at": "2026-05-24T12:44:27.350947+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:27.343974+00:00\",\n  \"mode\": \"campaign_executor_with_limits\",\n  \"auto_ad_spend_enabled\": false,\n  \"approved\": 2,\n  \"blocked\": [],\n  \"campaigns\": [\n    {\n      \"sku\": \"CJJJCWMY00923\",\n      \"title\": \"Eco-Friendly Cat Scratcher Toy\",\n      \"target_market\": \"shopify\",\n      \"margin_percent\": 48.14,\n      \"net_profit\": 19.25,\n      \"daily_test_budget\": 5,\n      \"channels\": [\n        \"google_ads\",\n        \"meta_ads\"\n      ],\n      \"mode\": \"draft_campaign_only_no_spend\",\n      \"status\": \"approved_for_manual_launch\",\n      \"spend_enabled\": false,\n      \"executor_mode\": \"manual_launch_required\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"title\": \"Non-slip silicone pet feeding bowl\",\n      \"target_market\": \"shopify\",\n      \"margin_percent\": 62.51,\n      \"net_profit\": 10.62,\n      \"daily_test_budget\": 5,\n      \"channels\": [\n        \"google_ads\",\n        \"meta_ads\"\n      ],\n      \"mode\": \"draft_campaign_only_no_spend\",\n      \"status\": \"approved_for_manual_launch\",\n      \"spend_enabled\": false,\n      \"executor_mode\": \"manual_launch_required\"\n    }\n  ],\n  \"spend_enabled\": false,\n  \"status\": \"approved_for_manual_launch\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.ad_campaign_executor",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:27.351972+00:00",
+    "finished_at": "2026-05-24T12:44:27.450966+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:27.443966+00:00\",\n  \"mode\": \"guarded_live_ads_executor\",\n  \"live_ads_launch_enabled\": false,\n  \"confirmation_file_exists\": true,\n  \"actions_ready\": 0,\n  \"blocked\": [\n    {\n      \"sku\": \"CJJJCWMY00923\",\n      \"title\": \"Eco-Friendly Cat Scratcher Toy\",\n      \"target_market\": \"shopify\",\n      \"margin_percent\": 48.14,\n      \"net_profit\": 19.25,\n      \"daily_test_budget\": 5,\n      \"channels\": [\n        \"google_ads\",\n        \"meta_ads\"\n      ],\n      \"mode\": \"draft_campaign_only_no_spend\",\n      \"status\": \"approved_for_manual_launch\",\n      \"spend_enabled\": false,\n      \"executor_mode\": \"manual_launch_required\",\n      \"reason\": \"spend_not_enabled\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"title\": \"Non-slip silicone pet feeding bowl\",\n      \"target_market\": \"shopify\",\n      \"margin_percent\": 62.51,\n      \"net_profit\": 10.62,\n      \"daily_test_budget\": 5,\n      \"channels\": [\n        \"google_ads\",\n        \"meta_ads\"\n      ],\n      \"mode\": \"draft_campaign_only_no_spend\",\n      \"status\": \"approved_for_manual_launch\",\n      \"spend_enabled\": false,\n      \"executor_mode\": \"manual_launch_required\",\n      \"reason\": \"spend_not_enabled\"\n    }\n  ],\n  \"actions\": [],\n  \"status\": \"blocked_by_guard\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_campaign_live_creator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:27.450966+00:00",
+    "finished_at": "2026-05-24T12:44:27.549605+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:27.543637+00:00\",\n  \"mode\": \"meta_creator_with_api_guard\",\n  \"meta_live_api_enabled\": false,\n  \"payloads_created\": 0,\n  \"payloads\": [],\n  \"actions\": [],\n  \"blocked\": [],\n  \"live_api_call_enabled\": false,\n  \"status\": \"blocked_by_meta_api_guard\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_campaign_registry_sync",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:27.550633+00:00",
+    "finished_at": "2026-05-24T12:44:27.649658+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:27.641661+00:00\",\n  \"campaigns_registered\": 2,\n  \"campaigns\": [\n    {\n      \"created_at\": \"2026-05-20T21:21:32.078363+00:00\",\n      \"sku\": \"CJJJCWMY00923\",\n      \"campaign_name\": \"AIC_TEST_CJJJCWMY00923\",\n      \"meta_campaign_id\": \"120251125801330093\",\n      \"status\": \"PAUSED\",\n      \"spend_enabled\": false,\n      \"source\": \"meta_live_api_create_paused_campaigns\"\n    },\n    {\n      \"created_at\": \"2026-05-20T21:21:32.078363+00:00\",\n      \"sku\": \"PET-BOWL-001\",\n      \"campaign_name\": \"AIC_TEST_PET-BOWL-001\",\n      \"meta_campaign_id\": \"120251125802910093\",\n      \"status\": \"PAUSED\",\n      \"spend_enabled\": false,\n      \"source\": \"meta_live_api_create_paused_campaigns\"\n    }\n  ],\n  \"status\": \"registered\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_adset_live_creator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:27.649658+00:00",
+    "finished_at": "2026-05-24T12:44:27.751284+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:27.739282+00:00\",\n  \"mode\": \"meta_adset_payload_only\",\n  \"adsets_created\": 2,\n  \"adsets\": [\n    {\n      \"sku\": \"CJJJCWMY00923\",\n      \"campaign_name\": \"AIC_TEST_CJJJCWMY00923\",\n      \"meta_campaign_id\": \"120251125801330093\",\n      \"adset_name\": \"AIC_TEST_CJJJCWMY00923_ADSET\",\n      \"daily_budget\": 500,\n      \"billing_event\": \"IMPRESSIONS\",\n      \"optimization_goal\": \"LINK_CLICKS\",\n      \"bid_strategy\": \"LOWEST_COST_WITHOUT_CAP\",\n      \"destination_type\": \"WEBSITE\",\n      \"status\": \"PAUSED\",\n      \"mode\": \"payload_only_no_api_call\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"campaign_name\": \"AIC_TEST_PET-BOWL-001\",\n      \"meta_campaign_id\": \"120251125802910093\",\n      \"adset_name\": \"AIC_TEST_PET-BOWL-001_ADSET\",\n      \"daily_budget\": 500,\n      \"billing_event\": \"IMPRESSIONS\",\n      \"optimization_goal\": \"LINK_CLICKS\",\n      \"bid_strategy\": \"LOWEST_COST_WITHOUT_CAP\",\n      \"destination_type\": \"WEBSITE\",\n      \"status\": \"PAUSED\",\n      \"mode\": \"payload_only_no_api_call\"\n    }\n  ],\n  \"live_api_call_enabled\": false,\n  \"status\": \"meta_adset_payloads_ready\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_creative_live_creator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:27.751284+00:00",
+    "finished_at": "2026-05-24T12:44:27.851783+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:27.843814+00:00\",\n  \"mode\": \"meta_creative_payload_only\",\n  \"creatives_created\": 2,\n  \"creatives\": [\n    {\n      \"sku\": \"CJJJCWMY00923\",\n      \"title\": \"Eco-Friendly Cat Scratcher Toy\",\n      \"adset_name\": \"AIC_TEST_CJJJCWMY00923_ADSET\",\n      \"meta_campaign_id\": \"120251125801330093\",\n      \"creative_name\": \"CJJJCWMY00923_CREATIVE\",\n      \"primary_text\": \"Discover Eco-Friendly Cat Scratcher Toy today.\",\n      \"headline\": \"Eco-Friendly Cat Scratcher Toy\",\n      \"description\": \"Limited test campaign for product demand validation.\",\n      \"call_to_action\": \"SHOP_NOW\",\n      \"destination_url\": \"https://aicommerce-test-store-2.myshopify.com\",\n      \"status\": \"READY_PAYLOAD_ONLY\",\n      \"mode\": \"payload_only_no_api_call\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"title\": \"Non-slip silicone pet feeding bowl\",\n      \"adset_name\": \"AIC_TEST_PET-BOWL-001_ADSET\",\n      \"meta_campaign_id\": \"120251125802910093\",\n      \"creative_name\": \"PET-BOWL-001_CREATIVE\",\n      \"primary_text\": \"Discover Non-slip silicone pet feeding bowl today.\",\n      \"headline\": \"Non-slip silicone pet feeding bowl\",\n      \"description\": \"Limited test campaign for product demand validation.\",\n      \"call_to_action\": \"SHOP_NOW\",\n      \"destination_url\": \"https://aicommerce-test-store-2.myshopify.com\",\n      \"status\": \"READY_PAYLOAD_ONLY\",\n      \"mode\": \"payload_only_no_api_call\"\n    }\n  ],\n  \"live_api_call_enabled\": false,\n  \"status\": \"meta_creative_payloads_ready\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_ads_live_creator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:27.851783+00:00",
+    "finished_at": "2026-05-24T12:44:27.950836+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:27.943836+00:00\",\n  \"mode\": \"meta_ads_payload_only\",\n  \"ads_created\": 2,\n  \"ads\": [\n    {\n      \"sku\": \"CJJJCWMY00923\",\n      \"ad_name\": \"CJJJCWMY00923_AD\",\n      \"adset_name\": \"AIC_TEST_CJJJCWMY00923_ADSET\",\n      \"creative_name\": \"CJJJCWMY00923_CREATIVE\",\n      \"headline\": \"Eco-Friendly Cat Scratcher Toy\",\n      \"primary_text\": \"Discover Eco-Friendly Cat Scratcher Toy today.\",\n      \"destination_url\": \"https://aicommerce-test-store-2.myshopify.com\",\n      \"status\": \"PAUSED\",\n      \"mode\": \"payload_only_no_api_call\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"ad_name\": \"PET-BOWL-001_AD\",\n      \"adset_name\": \"AIC_TEST_PET-BOWL-001_ADSET\",\n      \"creative_name\": \"PET-BOWL-001_CREATIVE\",\n      \"headline\": \"Non-slip silicone pet feeding bowl\",\n      \"primary_text\": \"Discover Non-slip silicone pet feeding bowl today.\",\n      \"destination_url\": \"https://aicommerce-test-store-2.myshopify.com\",\n      \"status\": \"PAUSED\",\n      \"mode\": \"payload_only_no_api_call\"\n    }\n  ],\n  \"live_api_call_enabled\": false,\n  \"status\": \"meta_ads_payloads_ready\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_launch_readiness",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:27.950836+00:00",
+    "finished_at": "2026-05-24T12:44:28.059377+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:28.049852+00:00\",\n  \"campaigns_registered\": 2,\n  \"adsets_ready\": 2,\n  \"creatives_ready\": 2,\n  \"ads_ready\": 2,\n  \"all_statuses\": {\n    \"campaigns\": \"registered\",\n    \"adsets\": \"meta_adset_payloads_ready\",\n    \"creatives\": \"meta_creative_payloads_ready\",\n    \"ads\": \"meta_ads_payloads_ready\"\n  },\n  \"live_money_spending\": false,\n  \"launch_mode\": \"PAUSED_ONLY_SAFE_MODE\",\n  \"status\": \"META_FUNNEL_READY_PAUSED\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_safe_activation_plan",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:28.059377+00:00",
+    "finished_at": "2026-05-24T12:44:28.171393+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:28.163391+00:00\",\n  \"mode\": \"safe_activation_planning_only\",\n  \"plans_created\": 2,\n  \"blocked\": [],\n  \"plans\": [\n    {\n      \"sku\": \"CJJJCWMY00923\",\n      \"campaign_name\": \"AIC_TEST_CJJJCWMY00923\",\n      \"meta_campaign_id\": \"120251125801330093\",\n      \"current_status\": \"PAUSED\",\n      \"recommended_next_status\": \"ACTIVE\",\n      \"max_daily_budget_usd\": 5,\n      \"max_test_duration_hours\": 24,\n      \"auto_stop_rules\": [\n        \"stop_if_spend_reaches_5_usd\",\n        \"stop_if_no_sales_after_24_hours\",\n        \"stop_if_negative_roi_detected\"\n      ],\n      \"activation_allowed_now\": false,\n      \"reason\": \"manual_owner_activation_required\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"campaign_name\": \"AIC_TEST_PET-BOWL-001\",\n      \"meta_campaign_id\": \"120251125802910093\",\n      \"current_status\": \"PAUSED\",\n      \"recommended_next_status\": \"ACTIVE\",\n      \"max_daily_budget_usd\": 5,\n      \"max_test_duration_hours\": 24,\n      \"auto_stop_rules\": [\n        \"stop_if_spend_reaches_5_usd\",\n        \"stop_if_no_sales_after_24_hours\",\n        \"stop_if_negative_roi_detected\"\n      ],\n      \"activation_allowed_now\": false,\n      \"reason\": \"manual_owner_activation_required\"\n    }\n  ],\n  \"live_money_spending\": false,\n  \"status\": \"META_SAFE_ACTIVATION_PLAN_READY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_activation_executor",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:28.172389+00:00",
+    "finished_at": "2026-05-24T12:44:28.287700+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:28.278670+00:00\",\n  \"mode\": \"meta_activation_executor_guarded\",\n  \"meta_activation_enabled\": false,\n  \"actions_ready\": 0,\n  \"blocked\": [\n    {\n      \"sku\": \"CJJJCWMY00923\",\n      \"campaign_name\": \"AIC_TEST_CJJJCWMY00923\",\n      \"meta_campaign_id\": \"120251125801330093\",\n      \"current_status\": \"PAUSED\",\n      \"recommended_next_status\": \"ACTIVE\",\n      \"max_daily_budget_usd\": 5,\n      \"max_test_duration_hours\": 24,\n      \"auto_stop_rules\": [\n        \"stop_if_spend_reaches_5_usd\",\n        \"stop_if_no_sales_after_24_hours\",\n        \"stop_if_negative_roi_detected\"\n      ],\n      \"activation_allowed_now\": false,\n      \"reason\": \"meta_activation_disabled_by_guard\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"campaign_name\": \"AIC_TEST_PET-BOWL-001\",\n      \"meta_campaign_id\": \"120251125802910093\",\n      \"current_status\": \"PAUSED\",\n      \"recommended_next_status\": \"ACTIVE\",\n      \"max_daily_budget_usd\": 5,\n      \"max_test_duration_hours\": 24,\n      \"auto_stop_rules\": [\n        \"stop_if_spend_reaches_5_usd\",\n        \"stop_if_no_sales_after_24_hours\",\n        \"stop_if_negative_roi_detected\"\n      ],\n      \"activation_allowed_now\": false,\n      \"reason\": \"meta_activation_disabled_by_guard\"\n    }\n  ],\n  \"actions\": [],\n  \"live_money_spending\": false,\n  \"status\": \"blocked_by_meta_activation_guard\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_auto_stop_monitor",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:28.287700+00:00",
+    "finished_at": "2026-05-24T12:44:28.404696+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:28.395693+00:00\",\n  \"mode\": \"meta_auto_stop_monitor_safe_read\",\n  \"active_campaigns_seen\": 0,\n  \"checks\": [],\n  \"live_api_call_enabled\": false,\n  \"status\": \"idle_no_active_meta_campaigns\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.google_campaign_live_creator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:28.404696+00:00",
+    "finished_at": "2026-05-24T12:44:28.520262+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:28.511263+00:00\",\n  \"mode\": \"google_creator_with_api_guard\",\n  \"google_live_api_enabled\": false,\n  \"payloads_created\": 0,\n  \"payloads\": [],\n  \"actions\": [],\n  \"blocked\": [],\n  \"live_api_call_enabled\": false,\n  \"status\": \"blocked_by_google_api_guard\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.click_tracking_init",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:28.521268+00:00",
+    "finished_at": "2026-05-24T12:44:28.635285+00:00",
+    "stdout": "TRACKED SKU: 52\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.event_collector_state",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:28.635285+00:00",
+    "finished_at": "2026-05-24T12:44:28.743964+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:28.736391+00:00\",\n  \"sources\": {\n    \"shopify_orders\": true,\n    \"shopify_add_to_cart\": true,\n    \"ebay_sales\": true,\n    \"google_clicks\": false,\n    \"meta_clicks\": false\n  },\n  \"event_learning_enabled\": false,\n  \"reason\": \"waiting_for_google_meta_connection\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_test_event",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:28.743964+00:00",
+    "finished_at": "2026-05-24T12:44:29.721058+00:00",
+    "stdout": "{\n  \"ok\": true,\n  \"status_code\": 200,\n  \"event_id\": \"94041f54-d55f-4b1c-b52a-641af3dfad0e\",\n  \"response\": {\n    \"events_received\": 1,\n    \"messages\": [],\n    \"fbtrace_id\": \"ARBR8uAVQD8PWF_eqhQDCzK\"\n  },\n  \"created_at\": \"2026-05-24T12:44:29.701012+00:00\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.event_learning_sync",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:29.721058+00:00",
+    "finished_at": "2026-05-24T12:44:29.820546+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:28.736391+00:00\",\n  \"sources\": {\n    \"shopify_orders\": true,\n    \"shopify_add_to_cart\": true,\n    \"ebay_sales\": true,\n    \"google_clicks\": false,\n    \"meta_clicks\": true\n  },\n  \"event_learning_enabled\": true,\n  \"reason\": \"meta_events_received\",\n  \"last_meta_event_at\": \"2026-05-24T12:44:29.812545+00:00\",\n  \"last_meta_event_id\": \"94041f54-d55f-4b1c-b52a-641af3dfad0e\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.seo_quality_score",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:29.820546+00:00",
+    "finished_at": "2026-05-24T12:44:29.918531+00:00",
+    "stdout": "LOW QUALITY: 0\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.hunter_feedback_engine",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:29.919530+00:00",
+    "finished_at": "2026-05-24T12:44:30.017219+00:00",
+    "stdout": "FEEDBACK GENERATED: 54\nBOOST: 15\nREDUCE: 6\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.hunter_registry_sync",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:30.017219+00:00",
+    "finished_at": "2026-05-24T12:44:30.122220+00:00",
+    "stdout": "SYNCED: 54\nEXCLUDED: 2\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.hunter_action_plan",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:30.122220+00:00",
+    "finished_at": "2026-05-24T12:44:30.225235+00:00",
+    "stdout": "ACTION PLAN: 54\nBOOST: 15\nREDUCE: 6\nEXCLUDE: 2\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.hunter_action_executor",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:30.226249+00:00",
+    "finished_at": "2026-05-24T12:44:30.332621+00:00",
+    "stdout": "EXECUTED: 54\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.dynamic_product_score",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:30.332621+00:00",
+    "finished_at": "2026-05-24T12:44:30.434676+00:00",
+    "stdout": "RANKED: 54\nTOP SCORE: 110\nTOP SKU: CJJJCWMY00923\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.dynamic_score_sync",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:30.434676+00:00",
+    "finished_at": "2026-05-24T12:44:30.538307+00:00",
+    "stdout": "UPDATED: 54\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.tier_summary",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:30.538307+00:00",
+    "finished_at": "2026-05-24T12:44:30.640295+00:00",
+    "stdout": "A: 15\nB: 2\nC: 29\nD: 8\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.tier_strategy_apply",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:30.641295+00:00",
+    "finished_at": "2026-05-24T12:44:30.746946+00:00",
+    "stdout": "UPDATED: 54\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.autonomous_loop_health",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:30.746946+00:00",
+    "finished_at": "2026-05-24T12:44:30.848957+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:30.841983+00:00\",\n  \"system_status\": \"HEALTHY\",\n  \"autonomous_loop_active\": true,\n  \"counts\": {\n    \"total\": 54,\n    \"tier_A\": 15,\n    \"tier_B\": 2,\n    \"tier_C\": 29,\n    \"tier_D\": 8,\n    \"featured\": 15,\n    \"pause_candidates\": 8,\n    \"pipeline_inactive\": 2,\n    \"boost\": 15,\n    \"reduce\": 6,\n    \"hold\": 31,\n    \"exclude\": 2\n  },\n  \"logic\": {\n    \"Tier A\": \"scale aggressively\",\n    \"Tier B\": \"growth test\",\n    \"Tier C\": \"monitor\",\n    \"Tier D\": \"pause or remove\"\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.channel_validation_checkpoint",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:30.849985+00:00",
+    "finished_at": "2026-05-24T12:44:30.947773+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:30.940771+00:00\",\n  \"channels\": {\n    \"shopify\": \"live_read_write_confirmed\",\n    \"ebay\": \"live_read_write_confirmed\",\n    \"woocommerce\": \"live_read_write_confirmed\",\n    \"google_feed\": \"valid_export_52_of_52\",\n    \"meta_feed\": \"valid_export_52_of_52\"\n  },\n  \"ready_for_real_sales_data\": true,\n  \"status\": \"HEALTHY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.final_system_checkpoint",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:30.948774+00:00",
+    "finished_at": "2026-05-24T12:44:31.053204+00:00",
+    "stdout": "{\n  \"checkpoint_name\": \"seo_multichannel_pipeline_stable\",\n  \"created_at\": \"2026-05-24T12:44:31.043210+00:00\",\n  \"status\": \"HEALTHY\",\n  \"registry_total\": 54,\n  \"push_operations\": 260,\n  \"successful_pushes\": 260,\n  \"failed_pushes\": 0,\n  \"quality_issues\": 0,\n  \"repush_operations\": 35,\n  \"live_push\": true,\n  \"safe_to_continue\": true\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.external_platform_blockers",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:31.053204+00:00",
+    "finished_at": "2026-05-24T12:44:31.164261+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:31.156259+00:00\",\n  \"ready_platforms\": [\n    {\n      \"platform\": \"meta_ads\",\n      \"status\": \"ready_paused_campaigns_created\",\n      \"campaigns\": 2,\n      \"spend_enabled\": false\n    }\n  ],\n  \"blockers\": [\n    {\n      \"platform\": \"google_ads\",\n      \"status\": \"blocked_external_platform_permission\",\n      \"reason\": \"DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n      \"action_required\": \"apply_for_google_ads_api_basic_or_standard_access_or_use_test_account\"\n    }\n  ],\n  \"ready_count\": 1,\n  \"blocker_count\": 1,\n  \"status\": \"external_blockers_present\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.global_commerce_control_panel",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:31.164261+00:00",
+    "finished_at": "2026-05-24T12:44:31.276841+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:31.269845+00:00\",\n  \"system_status\": \"HEALTHY\",\n  \"safe_to_continue\": true,\n  \"arbitrage_plans\": 2,\n  \"ad_actions_ready\": 0,\n  \"meta_status\": \"ready_paused_campaigns_created\",\n  \"meta_funnel_status\": \"META_FUNNEL_READY_PAUSED\",\n  \"meta_campaigns\": 2,\n  \"meta_adsets_ready\": 2,\n  \"meta_creatives_ready\": 2,\n  \"meta_ads_ready\": 2,\n  \"google_status\": \"blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n  \"external_ready_count\": 1,\n  \"external_blocker_count\": 1,\n  \"external_blockers\": [\n    {\n      \"platform\": \"google_ads\",\n      \"status\": \"blocked_external_platform_permission\",\n      \"reason\": \"DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n      \"action_required\": \"apply_for_google_ads_api_basic_or_standard_access_or_use_test_account\"\n    }\n  ],\n  \"real_sales_mode\": \"waiting_for_sales\",\n  \"has_real_sales\": false,\n  \"purchase_queue_size\": 0,\n  \"live_money_spending\": false,\n  \"next_required_action\": \"wait_for_real_sales_or_resolve_google_api_access\",\n  \"status\": \"GLOBAL_COMMERCE_READY_META_FUNNEL_PAUSED_GOOGLE_BLOCKED\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.external_blockers_monitor",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:31.276841+00:00",
+    "finished_at": "2026-05-24T12:44:31.387863+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:31.379866+00:00\",\n  \"blockers_count\": 2,\n  \"blockers\": [\n    {\n      \"source\": \"external_platform_blockers\",\n      \"platform\": \"google_ads\",\n      \"status\": \"blocked_external_platform_permission\",\n      \"reason\": \"DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n      \"action_required\": \"apply_for_google_ads_api_basic_or_standard_access_or_use_test_account\"\n    },\n    {\n      \"source\": \"production_readiness_report\",\n      \"platform\": \"meta_ads\",\n      \"status\": \"blocked_by_meta_activation_guard\",\n      \"reason\": \"owner_safety_guard\"\n    }\n  ],\n  \"safety_status\": \"safe_no_live_spend\",\n  \"system_status\": \"HEALTHY\",\n  \"production_readiness\": \"READY_SAFE_MODE\",\n  \"global_status\": \"GLOBAL_COMMERCE_READY_META_FUNNEL_PAUSED_GOOGLE_BLOCKED\",\n  \"ready_to_activate_meta_when_owner_confirms\": true,\n  \"ready_to_create_google_campaigns_after_api_approval\": true,\n  \"status\": \"EXTERNAL_BLOCKERS_PRESENT\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.production_readiness_report",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:31.387863+00:00",
+    "finished_at": "2026-05-24T12:44:31.497462+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:31.489923+00:00\",\n  \"production_readiness\": \"READY_SAFE_MODE\",\n  \"system_status\": \"HEALTHY\",\n  \"safe_to_continue\": true,\n  \"global_status\": \"GLOBAL_COMMERCE_READY_META_FUNNEL_PAUSED_GOOGLE_BLOCKED\",\n  \"meta_funnel\": \"META_FUNNEL_READY_PAUSED\",\n  \"meta_activation\": \"blocked_by_meta_activation_guard\",\n  \"meta_auto_stop\": \"idle_no_active_meta_campaigns\",\n  \"google_status\": \"blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n  \"live_money_spending\": false,\n  \"ready_to_activate_meta_when_owner_confirms\": true,\n  \"ready_to_create_google_campaigns_after_api_approval\": true,\n  \"status\": \"PRODUCTION_READY_SAFE_MODE\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.system_status_dashboard",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:31.497462+00:00",
+    "finished_at": "2026-05-24T12:44:31.599487+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:31.591485+00:00\",\n  \"system_status\": \"HEALTHY\",\n  \"production_readiness\": \"READY_SAFE_MODE\",\n  \"safe_to_continue\": true,\n  \"live_money_spending\": false,\n  \"channel_self_healer\": \"all_channels_ok_no_repair_needed\",\n  \"external_blockers_count\": 2,\n  \"external_blockers\": [\n    {\n      \"source\": \"external_platform_blockers\",\n      \"platform\": \"google_ads\",\n      \"status\": \"blocked_external_platform_permission\",\n      \"reason\": \"DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n      \"action_required\": \"apply_for_google_ads_api_basic_or_standard_access_or_use_test_account\"\n    },\n    {\n      \"source\": \"production_readiness_report\",\n      \"platform\": \"meta_ads\",\n      \"status\": \"blocked_by_meta_activation_guard\",\n      \"reason\": \"owner_safety_guard\"\n    }\n  ],\n  \"meta_funnel\": \"META_FUNNEL_READY_PAUSED\",\n  \"meta_activation\": \"blocked_by_meta_activation_guard\",\n  \"google_status\": \"blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n  \"real_sales_mode\": \"waiting_for_sales\",\n  \"purchase_queue_size\": 0,\n  \"status\": \"PRODUCTION_READY_SAFE_MODE\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.recovery_layer",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:31.599487+00:00",
+    "finished_at": "2026-05-24T12:44:31.701882+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:31.693875+00:00\",\n  \"checks\": [\n    {\n      \"field\": \"system_status\",\n      \"last_known_good\": \"HEALTHY\",\n      \"current\": \"HEALTHY\",\n      \"status\": \"same\"\n    },\n    {\n      \"field\": \"production_readiness\",\n      \"last_known_good\": \"READY_SAFE_MODE\",\n      \"current\": \"READY_SAFE_MODE\",\n      \"status\": \"same\"\n    },\n    {\n      \"field\": \"status\",\n      \"last_known_good\": \"PRODUCTION_READY_SAFE_MODE\",\n      \"current\": \"PRODUCTION_READY_SAFE_MODE\",\n      \"status\": \"same\"\n    },\n    {\n      \"field\": \"safe_to_continue\",\n      \"last_known_good\": true,\n      \"current\": true,\n      \"status\": \"same\"\n    },\n    {\n      \"field\": \"live_money_spending\",\n      \"last_known_good\": false,\n      \"current\": false,\n      \"status\": \"same\"\n    },\n    {\n      \"field\": \"channel_self_healer\",\n      \"last_known_good\": \"all_channels_ok_no_repair_needed\",\n      \"current\": \"all_channels_ok_no_repair_needed\",\n      \"status\": \"same\"\n    },\n    {\n      \"field\": \"external_blockers_count\",\n      \"last_known_good\": 2,\n      \"current\": 2,\n      \"status\": \"same\"\n    },\n    {\n      \"field\": \"meta_funnel\",\n      \"last_known_good\": \"META_FUNNEL_READY_PAUSED\",\n      \"current\": \"META_FUNNEL_READY_PAUSED\",\n      \"status\": \"same\"\n    },\n    {\n      \"field\": \"google_status\",\n      \"last_known_good\": \"blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n      \"current\": \"blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n      \"status\": \"same\"\n    },\n    {\n      \"field\": \"real_sales_mode\",\n      \"last_known_good\": \"waiting_for_sales\",\n      \"current\": \"waiting_for_sales\",\n      \"status\": \"same\"\n    },\n    {\n      \"field\": \"purchase_queue_size\",\n      \"last_known_good\": 0,\n      \"current\": 0,\n      \"status\": \"same\"\n    }\n  ],\n  \"critical_changes\": [],\n  \"critical_changes_count\": 0,\n  \"status\": \"RECOVERY_OK\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.save_last_known_good_state",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:31.701882+00:00",
+    "finished_at": "2026-05-24T12:44:31.805417+00:00",
+    "stdout": "{\n  \"saved_at\": \"2026-05-24T12:44:31.795416+00:00\",\n  \"system_status\": \"HEALTHY\",\n  \"production_readiness\": \"READY_SAFE_MODE\",\n  \"status\": \"PRODUCTION_READY_SAFE_MODE\",\n  \"safe_to_continue\": true,\n  \"live_money_spending\": false,\n  \"channel_self_healer\": \"all_channels_ok_no_repair_needed\",\n  \"external_blockers_count\": 2,\n  \"external_blockers\": [\n    {\n      \"source\": \"external_platform_blockers\",\n      \"platform\": \"google_ads\",\n      \"status\": \"blocked_external_platform_permission\",\n      \"reason\": \"DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n      \"action_required\": \"apply_for_google_ads_api_basic_or_standard_access_or_use_test_account\"\n    },\n    {\n      \"source\": \"production_readiness_report\",\n      \"platform\": \"meta_ads\",\n      \"status\": \"blocked_by_meta_activation_guard\",\n      \"reason\": \"owner_safety_guard\"\n    }\n  ],\n  \"meta_funnel\": \"META_FUNNEL_READY_PAUSED\",\n  \"google_status\": \"blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n  \"real_sales_mode\": \"waiting_for_sales\",\n  \"purchase_queue_size\": 0\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.daily_report",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:31.805417+00:00",
+    "finished_at": "2026-05-24T12:44:31.908438+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:31.900439+00:00\",\n  \"system\": {\n    \"status\": \"HEALTHY\",\n    \"production\": \"READY_SAFE_MODE\",\n    \"safe\": true\n  },\n  \"sales\": {\n    \"mode\": \"waiting_for_sales\",\n    \"queue\": 0,\n    \"revenue\": 0\n  },\n  \"ads\": {\n    \"live_money_spending\": false,\n    \"google\": \"blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n    \"meta\": \"blocked_by_meta_activation_guard\"\n  },\n  \"blockers\": {\n    \"count\": 2,\n    \"items\": [\n      {\n        \"source\": \"external_platform_blockers\",\n        \"platform\": \"google_ads\",\n        \"status\": \"blocked_external_platform_permission\",\n        \"reason\": \"DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n        \"action_required\": \"apply_for_google_ads_api_basic_or_standard_access_or_use_test_account\"\n      },\n      {\n        \"source\": \"production_readiness_report\",\n        \"platform\": \"meta_ads\",\n        \"status\": \"blocked_by_meta_activation_guard\",\n        \"reason\": \"owner_safety_guard\"\n      }\n    ]\n  },\n  \"summary\": {\n    \"healthy\": true,\n    \"safe_to_continue\": true,\n    \"ready_for_real_sales\": true\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.alerts_engine",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:31.908438+00:00",
+    "finished_at": "2026-05-24T12:44:32.008899+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:32.002073+00:00\",\n  \"alerts_count\": 2,\n  \"critical_count\": 0,\n  \"warning_count\": 1,\n  \"info_count\": 1,\n  \"alerts\": [\n    {\n      \"level\": \"warning\",\n      \"type\": \"external_blocker\",\n      \"platform\": \"google_ads\",\n      \"message\": \"DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n      \"action_required\": \"apply_for_google_ads_api_basic_or_standard_access_or_use_test_account\"\n    },\n    {\n      \"level\": \"info\",\n      \"type\": \"owner_safety_guard\",\n      \"platform\": \"meta_ads\",\n      \"message\": \"Owner safety guard is active\"\n    }\n  ],\n  \"status\": \"ALERTS_OK\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.backup_manager",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:32.008899+00:00",
+    "finished_at": "2026-05-24T12:44:32.146384+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:32.138384+00:00\",\n  \"backup_dir\": \"app\\\\backups\\\\20260524_124432\",\n  \"copied\": [\n    \".env\",\n    \"app\\\\logs\\\\system_status_dashboard.json\",\n    \"app\\\\logs\\\\last_known_good_state.json\",\n    \"app\\\\logs\\\\recovery_report.json\",\n    \"app\\\\logs\\\\daily_report.json\",\n    \"app\\\\logs\\\\alerts.json\",\n    \"app\\\\logs\\\\production_readiness_report.json\",\n    \"app\\\\logs\\\\global_commerce_control_panel.json\",\n    \"app\\\\logs\\\\external_blockers_monitor.json\"\n  ],\n  \"missing\": [],\n  \"status\": \"BACKUP_OK\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.budget_controller",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:32.147412+00:00",
+    "finished_at": "2026-05-24T12:44:32.255987+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:32.248022+00:00\",\n  \"limits\": {\n    \"max_total_daily_spend\": 10,\n    \"max_campaign_daily_spend\": 5,\n    \"stop_if_negative_roi\": true,\n    \"stop_if_no_sales_after_hours\": 24\n  },\n  \"live_money_spending\": false,\n  \"has_real_sales\": false,\n  \"safe_to_continue\": true,\n  \"blocked\": [\n    \"no_real_sales_yet_keep_test_budget_only\"\n  ],\n  \"budget_status\": \"BUDGET_SAFE_MODE\",\n  \"activation_allowed\": false,\n  \"reason\": \"safe_budget_guard_active_until_owner_confirms\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.roi_engine",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:32.255987+00:00",
+    "finished_at": "2026-05-24T12:44:32.368043+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:32.359007+00:00\",\n  \"mode\": \"waiting_for_real_sales\",\n  \"has_real_sales\": false,\n  \"total_revenue\": 0.0,\n  \"ad_spend\": 0.0,\n  \"estimated_profit\": 0.0,\n  \"roi_percent\": null,\n  \"live_money_spending\": false,\n  \"budget_status\": \"BUDGET_SAFE_MODE\",\n  \"safe_to_update_roi\": false,\n  \"status\": \"ROI_WAITING_FOR_SALES\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.conversion_tracking_validation",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:32.368043+00:00",
+    "finished_at": "2026-05-24T12:44:32.475059+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:32.467039+00:00\",\n  \"checks\": {\n    \"shopify_orders\": false,\n    \"shopify_add_to_cart\": false,\n    \"ebay_sales\": false,\n    \"meta_clicks_or_events\": false,\n    \"google_clicks\": false,\n    \"meta_token_valid\": true\n  },\n  \"missing_or_waiting\": [\n    \"shopify_orders\",\n    \"shopify_add_to_cart\",\n    \"ebay_sales\",\n    \"meta_clicks_or_events\",\n    \"google_clicks\"\n  ],\n  \"event_learning_enabled\": null,\n  \"last_meta_event_at\": null,\n  \"last_meta_event_id\": null,\n  \"google_status\": \"blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n  \"status\": \"CONVERSION_TRACKING_PARTIAL\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.product_quality_filter",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:32.475059+00:00",
+    "finished_at": "2026-05-24T12:44:32.582570+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:32.574602+00:00\",\n  \"items_seen\": 0,\n  \"approved_count\": 0,\n  \"blocked_count\": 0,\n  \"approved\": [],\n  \"blocked\": [],\n  \"status\": \"PRODUCT_QUALITY_FILTER_OK\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.compliance_layer",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:32.582570+00:00",
+    "finished_at": "2026-05-24T12:44:32.690592+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:32.682609+00:00\",\n  \"items_seen\": 0,\n  \"approved_count\": 0,\n  \"blocked_count\": 0,\n  \"approved\": [],\n  \"blocked\": [],\n  \"status\": \"COMPLIANCE_OK\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.pet_niche_filter",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:32.690592+00:00",
+    "finished_at": "2026-05-24T12:44:32.801729+00:00",
+    "stdout": "le\": \"Premium Pet Shampoo for Healthy Fur\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJJJCWGY01083\",\n      \"title\": \"Pet waterproof socks\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJCC1242562\",\n      \"title\": \"No Pull Dog Harness Reflective Adjustable Soft Padded Pet Vest Harness\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJGD1352013\",\n      \"title\": \"Cotton Dog Socks - Comfortable and Stylish\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJJT1116559\",\n      \"title\": \"Explosion-Proof Red Pet Chest Harness\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJJT1478877\",\n      \"title\": \"Durable Dog Leash Vest Harness - Perfect for Active Pets\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJYD2658504\",\n      \"title\": \"Warm Large Dog Bed & Cat Mat\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJPN2660770\",\n      \"title\": \"Warm Large Dog Bed & Cat Mat\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJJT1353912\",\n      \"title\": \"Supportive Leash Harness for Elderly Dogs\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJJT1659747\",\n      \"title\": \"Effective Pet Hair Removal Cleaning Brush\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJMY2126410\",\n      \"title\": \"Cat Tunnel Pet Toy Cat S Tunnel Foldable Cat Tunnel Cat Drill Bucket Toy\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJMY1119271\",\n      \"title\": \"Easy Pet Cleaning Bath Brush\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJSP2733732\",\n      \"title\": \"Pet Shampoo\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJJJCWGY00675\",\n      \"title\": \"Pet Outdoor Foldable Dog Water Bottle - Travel Dispenser\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJJJCWGY00645\",\n      \"title\": \"Cat and dog grooming comb\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"CJMY2099920\",\n      \"title\": \"Cat Hair Glove Pet Fur Remover Glove Dog Grooming Glove Brush For Shedding Pet Hair Remover Mitt Cleaner Grooming Glove\",\n      \"status\": \"pet_niche_approved\"\n    },\n    {\n      \"sku\": \"PET-BOWL-001\",\n      \"title\": \"Non-slip silicone pet feeding bowl\",\n      \"status\": \"pet_niche_approved\"\n    }\n  ],\n  \"flagged\": [\n    {\n      \"sku\": \"CJYD2896648\",\n      \"title\": \"Hair Growth Microneedle Solution For Hair Regeneration\",\n      \"pet_match\": false,\n      \"risky_keywords\": [\n        \"hair growth\",\n        \"microneedle\",\n        \"regeneration\",\n        \"solution\"\n      ],\n      \"status\": \"flagged_review_required\"\n    },\n    {\n      \"sku\": \"CJJT2896696\",\n      \"title\": \"High-borosilicate Glass Tea Cup Double Layer Design With Real Flowers\",\n      \"pet_match\": true,\n      \"risky_keywords\": [\n        \"tea cup\",\n        \"glass tea\"\n      ],\n      \"status\": \"flagged_review_required\"\n    }\n  ],\n  \"status\": \"PET_NICHE_FILTER_REVIEW_READY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.niche_exclusion_registry",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:32.801729+00:00",
+    "finished_at": "2026-05-24T12:44:32.905757+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:32.897717+00:00\",\n  \"excluded_count\": 2,\n  \"items\": [\n    {\n      \"sku\": \"CJYD2896648\",\n      \"reason\": \"outside_pet_niche\",\n      \"exclude_from\": [\n        \"google_feed\",\n        \"meta_feed\",\n        \"ads\",\n        \"seo\",\n        \"ai_ranking\",\n        \"scaling\"\n      ]\n    },\n    {\n      \"sku\": \"CJJT2896696\",\n      \"reason\": \"outside_pet_niche\",\n      \"exclude_from\": [\n        \"google_feed\",\n        \"meta_feed\",\n        \"ads\",\n        \"seo\",\n        \"ai_ranking\",\n        \"scaling\"\n      ]\n    }\n  ],\n  \"status\": \"NICHE_EXCLUSION_ACTIVE\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.real_sales_loop_status",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:32.905757+00:00",
+    "finished_at": "2026-05-24T12:44:33.006993+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:33.000008+00:00\",\n  \"checks\": {\n    \"has_real_sales\": false,\n    \"orders_seen\": false,\n    \"addresses_collected\": false,\n    \"supplier_ready\": true,\n    \"queue_ready\": false\n  },\n  \"orders_seen\": 0,\n  \"addresses_collected\": 0,\n  \"queue_size\": 0,\n  \"supplier_status\": \"ready\",\n  \"blocked_reasons\": [\n    \"waiting_for_real_sales\",\n    \"no_shopify_orders_seen\",\n    \"no_customer_addresses_collected\"\n  ],\n  \"next_step\": \"wait_for_real_paid_order\",\n  \"status\": \"REAL_SALES_LOOP_WAITING\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.meta_activation_readiness_gate",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:33.006993+00:00",
+    "finished_at": "2026-05-24T12:44:33.115234+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:33.106234+00:00\",\n  \"checks\": {\n    \"system_healthy\": true,\n    \"safe_to_continue\": true,\n    \"no_live_money_spending_now\": true,\n    \"budget_safe\": true,\n    \"compliance_ok_or_controlled\": true,\n    \"quality_filter_ok\": true,\n    \"meta_plan_ready\": true,\n    \"owner_confirmation_file_exists\": false\n  },\n  \"missing_requirements\": [\n    \"owner_confirmation_file_exists\"\n  ],\n  \"activation_allowed\": false,\n  \"reason\": \"owner_confirmation_required\",\n  \"status\": \"META_ACTIVATION_GATE_WAITING_OWNER_CONFIRMATION\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.google_activation_readiness_gate",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:33.115234+00:00",
+    "finished_at": "2026-05-24T12:44:33.224256+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:33.216288+00:00\",\n  \"checks\": {\n    \"system_healthy\": true,\n    \"safe_to_continue\": true,\n    \"no_live_money_spending_now\": true,\n    \"budget_safe\": true,\n    \"compliance_ok_or_controlled\": true,\n    \"quality_filter_ok\": true,\n    \"google_api_not_blocked\": false\n  },\n  \"missing_requirements\": [\n    \"google_api_not_blocked\"\n  ],\n  \"google_blocked\": true,\n  \"activation_allowed\": false,\n  \"reason\": \"waiting_google_basic_access\",\n  \"status\": \"GOOGLE_ACTIVATION_WAITING_BASIC_ACCESS\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_automation",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:33.225256+00:00",
+    "finished_at": "2026-05-24T12:44:33.331843+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:33.323841+00:00\",\n  \"flows_count\": 5,\n  \"enabled_flows\": 5,\n  \"flows\": [\n    {\n      \"name\": \"abandoned_cart\",\n      \"trigger\": \"cart_abandoned\",\n      \"delay_minutes\": 30,\n      \"enabled\": true\n    },\n    {\n      \"name\": \"order_confirmation\",\n      \"trigger\": \"order_created\",\n      \"delay_minutes\": 0,\n      \"enabled\": true\n    },\n    {\n      \"name\": \"review_request\",\n      \"trigger\": \"order_delivered\",\n      \"delay_days\": 7,\n      \"enabled\": true\n    },\n    {\n      \"name\": \"repeat_customer\",\n      \"trigger\": \"repeat_purchase_detected\",\n      \"enabled\": true\n    },\n    {\n      \"name\": \"win_back\",\n      \"trigger\": \"customer_inactive_30_days\",\n      \"enabled\": true\n    }\n  ],\n  \"status\": \"CRM_AUTOMATION_READY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.refund_dispute_engine",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:33.331843+00:00",
+    "finished_at": "2026-05-24T12:44:33.438872+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:33.430869+00:00\",\n  \"rules_count\": 5,\n  \"enabled_rules\": 5,\n  \"rules\": [\n    {\n      \"type\": \"refund_request\",\n      \"auto_action\": \"collect_order_information\",\n      \"enabled\": true\n    },\n    {\n      \"type\": \"order_cancel\",\n      \"auto_action\": \"check_fulfillment_status\",\n      \"enabled\": true\n    },\n    {\n      \"type\": \"chargeback\",\n      \"auto_action\": \"flag_high_priority\",\n      \"enabled\": true\n    },\n    {\n      \"type\": \"delivery_issue\",\n      \"auto_action\": \"collect_tracking_data\",\n      \"enabled\": true\n    },\n    {\n      \"type\": \"damaged_item\",\n      \"auto_action\": \"request_photo_evidence\",\n      \"enabled\": true\n    }\n  ],\n  \"status\": \"REFUND_ENGINE_READY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.ai_pricing_engine",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:33.438872+00:00",
+    "finished_at": "2026-05-24T12:44:33.546468+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:33.538465+00:00\",\n  \"items_seen\": 0,\n  \"pricing_recommendations\": [],\n  \"auto_apply_enabled\": false,\n  \"status\": \"AI_PRICING_READY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.supplier_fallback_engine",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:33.546468+00:00",
+    "finished_at": "2026-05-24T12:44:33.653855+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:33.646521+00:00\",\n  \"suppliers\": [\n    {\n      \"name\": \"cjdropshipping\",\n      \"priority\": 1,\n      \"ready\": true,\n      \"status\": \"ready\"\n    },\n    {\n      \"name\": \"aliexpress\",\n      \"priority\": 2,\n      \"ready\": false,\n      \"status\": \"not_connected_yet\"\n    },\n    {\n      \"name\": \"amazon\",\n      \"priority\": 3,\n      \"ready\": false,\n      \"status\": \"waiting_sp_api_verification\"\n    },\n    {\n      \"name\": \"ebay\",\n      \"priority\": 4,\n      \"ready\": true,\n      \"status\": \"fallback_market_available\"\n    }\n  ],\n  \"active_suppliers\": [\n    {\n      \"name\": \"cjdropshipping\",\n      \"priority\": 1,\n      \"ready\": true,\n      \"status\": \"ready\"\n    },\n    {\n      \"name\": \"ebay\",\n      \"priority\": 4,\n      \"ready\": true,\n      \"status\": \"fallback_market_available\"\n    }\n  ],\n  \"primary_supplier\": \"cjdropshipping\",\n  \"fallback_available\": true,\n  \"status\": \"SUPPLIER_FALLBACK_READY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.inventory_sync_guard",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:33.653855+00:00",
+    "finished_at": "2026-05-24T12:44:33.754058+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:33.747086+00:00\",\n  \"items_checked\": 0,\n  \"checks\": [],\n  \"live_supplier_stock_sync\": false,\n  \"status\": \"INVENTORY_SYNC_GUARD_READY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.customer_analytics",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:33.755106+00:00",
+    "finished_at": "2026-05-24T12:44:33.857078+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:33.850108+00:00\",\n  \"customers_seen\": 0,\n  \"orders_seen\": 0,\n  \"has_real_sales\": false,\n  \"total_revenue\": 0,\n  \"customers\": [],\n  \"metrics\": {\n    \"repeat_customers\": 0,\n    \"new_customers\": 0,\n    \"estimated_ltv_total\": 0\n  },\n  \"status\": \"CUSTOMER_ANALYTICS_WAITING_FOR_SALES\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.customer_segmentation",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:33.857078+00:00",
+    "finished_at": "2026-05-24T12:44:33.955095+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:33.947126+00:00\",\n  \"customers_seen\": 0,\n  \"segments\": {\n    \"new_customers\": 0,\n    \"repeat_customers\": 0,\n    \"high_value_customers\": 0,\n    \"inactive_customers\": 0\n  },\n  \"segment_details\": {\n    \"new_customers\": [],\n    \"repeat_customers\": [],\n    \"high_value_customers\": [],\n    \"inactive_customers\": []\n  },\n  \"recommended_actions\": [\n    {\n      \"segment\": \"new_customers\",\n      \"action\": \"send_welcome_flow\"\n    },\n    {\n      \"segment\": \"repeat_customers\",\n      \"action\": \"send_loyalty_offer\"\n    },\n    {\n      \"segment\": \"high_value_customers\",\n      \"action\": \"protect_with_priority_support\"\n    },\n    {\n      \"segment\": \"inactive_customers\",\n      \"action\": \"send_win_back_flow\"\n    }\n  ],\n  \"status\": \"CUSTOMER_SEGMENTATION_WAITING_FOR_SALES\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_action_planner",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:33.955095+00:00",
+    "finished_at": "2026-05-24T12:44:34.057156+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:34.050182+00:00\",\n  \"crm_flows_available\": 5,\n  \"actions_created\": 0,\n  \"actions\": [],\n  \"status\": \"CRM_ACTIONS_WAITING_FOR_CUSTOMERS\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_message_generator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:34.058156+00:00",
+    "finished_at": "2026-05-24T12:44:34.164180+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:34.156175+00:00\",\n  \"templates_created\": 4,\n  \"send_enabled\": false,\n  \"templates\": [\n    {\n      \"flow\": \"abandoned_cart\",\n      \"subject\": \"You left something behind\",\n      \"body\": \"Your selected items are still waiting for you. Complete your order before they are gone.\",\n      \"send_enabled\": false\n    },\n    {\n      \"flow\": \"order_confirmation\",\n      \"subject\": \"Your order has been received\",\n      \"body\": \"Thank you for your order. We are preparing it and will update you soon.\",\n      \"send_enabled\": false\n    },\n    {\n      \"flow\": \"review_request\",\n      \"subject\": \"How was your order?\",\n      \"body\": \"We hope you love your product. Please leave a quick review and help other customers.\",\n      \"send_enabled\": false\n    },\n    {\n      \"flow\": \"win_back\",\n      \"subject\": \"We saved something special for you\",\n      \"body\": \"Come back and discover new products selected for you.\",\n      \"send_enabled\": false\n    }\n  ],\n  \"status\": \"CRM_MESSAGES_READY_DRAFT_ONLY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_send_guard",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:34.164180+00:00",
+    "finished_at": "2026-05-24T12:44:34.273737+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:34.265764+00:00\",\n  \"templates_ready\": 4,\n  \"owner_confirmation_file_exists\": false,\n  \"send_allowed\": false,\n  \"reason\": \"owner_confirmation_required\",\n  \"status\": \"CRM_SEND_BLOCKED_BY_GUARD\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_channel_readiness",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:34.273737+00:00",
+    "finished_at": "2026-05-24T12:44:34.429771+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:34.418767+00:00\",\n  \"providers\": [\n    {\n      \"provider\": \"smtp\",\n      \"ready\": false,\n      \"missing\": [],\n      \"placeholders\": [\n        \"SMTP_USER\",\n        \"SMTP_PASSWORD\",\n        \"SMTP_FROM_EMAIL\"\n      ]\n    },\n    {\n      \"provider\": \"sendgrid\",\n      \"ready\": false,\n      \"missing\": [\n        \"SENDGRID_API_KEY\",\n        \"SENDGRID_FROM_EMAIL\"\n      ],\n      \"placeholders\": [\n        \"SENDGRID_API_KEY\",\n        \"SENDGRID_FROM_EMAIL\"\n      ]\n    },\n    {\n      \"provider\": \"twilio_sms\",\n      \"ready\": false,\n      \"missing\": [\n        \"TWILIO_ACCOUNT_SID\",\n        \"TWILIO_AUTH_TOKEN\",\n        \"TWILIO_FROM_PHONE\"\n      ],\n      \"placeholders\": [\n        \"TWILIO_ACCOUNT_SID\",\n        \"TWILIO_AUTH_TOKEN\",\n        \"TWILIO_FROM_PHONE\"\n      ]\n    }\n  ],\n  \"ready_providers\": [],\n  \"send_allowed\": false,\n  \"status\": \"CRM_CHANNEL_NOT_CONNECTED\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.smtp_config_validator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:34.429771+00:00",
+    "finished_at": "2026-05-24T12:44:34.582347+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:34.573347+00:00\",\n  \"values_present\": {\n    \"SMTP_HOST\": true,\n    \"SMTP_PORT\": true,\n    \"SMTP_USER\": true,\n    \"SMTP_PASSWORD\": true,\n    \"SMTP_FROM_EMAIL\": true\n  },\n  \"missing\": [],\n  \"placeholders\": [\n    \"SMTP_USER\",\n    \"SMTP_PASSWORD\",\n    \"SMTP_FROM_EMAIL\"\n  ],\n  \"smtp_ready_for_real_send\": false,\n  \"status\": \"SMTP_CONFIG_TEMPLATE_ONLY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_provider_config_check",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:34.582347+00:00",
+    "finished_at": "2026-05-24T12:44:34.726381+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:34.717380+00:00\",\n  \"providers\": [\n    {\n      \"provider\": \"smtp\",\n      \"ready\": false,\n      \"missing\": [],\n      \"placeholders\": [\n        \"SMTP_USER\",\n        \"SMTP_PASSWORD\",\n        \"SMTP_FROM_EMAIL\"\n      ]\n    },\n    {\n      \"provider\": \"sendgrid\",\n      \"ready\": false,\n      \"missing\": [\n        \"SENDGRID_API_KEY\",\n        \"SENDGRID_FROM_EMAIL\"\n      ],\n      \"placeholders\": [\n        \"SENDGRID_API_KEY\",\n        \"SENDGRID_FROM_EMAIL\"\n      ]\n    },\n    {\n      \"provider\": \"twilio_sms\",\n      \"ready\": false,\n      \"missing\": [\n        \"TWILIO_ACCOUNT_SID\",\n        \"TWILIO_AUTH_TOKEN\",\n        \"TWILIO_FROM_PHONE\"\n      ],\n      \"placeholders\": [\n        \"TWILIO_ACCOUNT_SID\",\n        \"TWILIO_AUTH_TOKEN\",\n        \"TWILIO_FROM_PHONE\"\n      ]\n    }\n  ],\n  \"ready_providers\": [],\n  \"send_allowed\": false,\n  \"status\": \"CRM_PROVIDER_CONFIG_TEMPLATE_ONLY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_draft_outbox",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:34.726381+00:00",
+    "finished_at": "2026-05-24T12:44:34.836014+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:34.827045+00:00\",\n  \"drafts_created\": 4,\n  \"drafts\": [\n    {\n      \"flow\": \"abandoned_cart\",\n      \"subject\": \"You left something behind\",\n      \"body\": \"Your selected items are still waiting for you. Complete your order before they are gone.\",\n      \"status\": \"draft_only\",\n      \"send_enabled\": false\n    },\n    {\n      \"flow\": \"order_confirmation\",\n      \"subject\": \"Your order has been received\",\n      \"body\": \"Thank you for your order. We are preparing it and will update you soon.\",\n      \"status\": \"draft_only\",\n      \"send_enabled\": false\n    },\n    {\n      \"flow\": \"review_request\",\n      \"subject\": \"How was your order?\",\n      \"body\": \"We hope you love your product. Please leave a quick review and help other customers.\",\n      \"status\": \"draft_only\",\n      \"send_enabled\": false\n    },\n    {\n      \"flow\": \"win_back\",\n      \"subject\": \"We saved something special for you\",\n      \"body\": \"Come back and discover new products selected for you.\",\n      \"status\": \"draft_only\",\n      \"send_enabled\": false\n    }\n  ],\n  \"send_allowed\": false,\n  \"status\": \"CRM_DRAFT_OUTBOX_READY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_event_router",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:34.836014+00:00",
+    "finished_at": "2026-05-24T12:44:34.947037+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:34.939067+00:00\",\n  \"events_detected\": 2,\n  \"events\": [\n    {\n      \"event\": \"cart_abandoned\",\n      \"flow\": \"abandoned_cart\",\n      \"status\": \"waiting_for_cart_events\"\n    },\n    {\n      \"event\": \"order_delivered\",\n      \"flow\": \"review_request\",\n      \"status\": \"waiting_for_delivery_event\"\n    }\n  ],\n  \"drafts_available\": 4,\n  \"status\": \"CRM_EVENT_ROUTER_READY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_queue_builder",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:34.947037+00:00",
+    "finished_at": "2026-05-24T12:44:35.054701+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:35.046697+00:00\",\n  \"queue_size\": 0,\n  \"queue\": [],\n  \"send_guard_status\": \"CRM_SEND_BLOCKED_BY_GUARD\",\n  \"send_allowed\": false,\n  \"status\": \"CRM_QUEUE_EMPTY_WAITING_EVENTS\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_executor_dry_run",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:35.054701+00:00",
+    "finished_at": "2026-05-24T12:44:35.170758+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:35.161756+00:00\",\n  \"queue_size\": 0,\n  \"actions_prepared\": 0,\n  \"actions\": [],\n  \"send_guard_status\": \"CRM_SEND_BLOCKED_BY_GUARD\",\n  \"channel_status\": \"CRM_CHANNEL_NOT_CONNECTED\",\n  \"real_send_enabled\": false,\n  \"status\": \"CRM_EXECUTOR_DRY_RUN_OK\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_orchestrator",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:35.170758+00:00",
+    "finished_at": "2026-05-24T12:44:35.286333+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:35.277361+00:00\",\n  \"events_detected\": 2,\n  \"queue_size\": 0,\n  \"actions_prepared\": 0,\n  \"send_guard\": \"CRM_SEND_BLOCKED_BY_GUARD\",\n  \"channel_status\": \"CRM_CHANNEL_NOT_CONNECTED\",\n  \"crm_pipeline_ready\": true,\n  \"real_send_enabled\": false,\n  \"status\": \"CRM_ORCHESTRATOR_READY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_health_check",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:35.287329+00:00",
+    "finished_at": "2026-05-24T12:44:35.402353+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:35.394351+00:00\",\n  \"checks\": {\n    \"crm_flows_ready\": true,\n    \"messages_ready\": true,\n    \"queue_layer_ready\": true,\n    \"send_guard_active\": true,\n    \"orchestrator_ready\": true\n  },\n  \"missing\": [],\n  \"channel_status\": \"CRM_CHANNEL_NOT_CONNECTED\",\n  \"real_send_enabled\": false,\n  \"status\": \"CRM_HEALTHY_SAFE_MODE\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_readiness_summary",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:35.402353+00:00",
+    "finished_at": "2026-05-24T12:44:35.517997+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:35.509995+00:00\",\n  \"crm_health\": \"CRM_HEALTHY_SAFE_MODE\",\n  \"channel_status\": \"CRM_CHANNEL_NOT_CONNECTED\",\n  \"ready_providers\": [],\n  \"smtp_status\": \"SMTP_CONFIG_TEMPLATE_ONLY\",\n  \"smtp_ready_for_real_send\": false,\n  \"send_guard_status\": \"CRM_SEND_BLOCKED_BY_GUARD\",\n  \"send_allowed\": false,\n  \"queue_size\": 0,\n  \"status\": \"CRM_SAFE_READY_TEMPLATE_MODE\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.crm_final_gate",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:35.517997+00:00",
+    "finished_at": "2026-05-24T12:44:35.620017+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:35.612016+00:00\",\n  \"checks\": {\n    \"provider_connected\": false,\n    \"smtp_real_config\": false,\n    \"owner_confirmed\": false,\n    \"queue_has_items\": false\n  },\n  \"missing\": [\n    \"provider_connected\",\n    \"smtp_real_config\",\n    \"owner_confirmed\",\n    \"queue_has_items\"\n  ],\n  \"send_allowed\": false,\n  \"status\": \"CRM_FINAL_GATE_BLOCKED\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.master_system_health",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:35.621029+00:00",
+    "finished_at": "2026-05-24T12:44:35.726879+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:35.719877+00:00\",\n  \"checks\": {\n    \"core_healthy\": true,\n    \"safe_mode\": true,\n    \"recovery_ok\": true,\n    \"backup_ok\": true,\n    \"budget_safe\": true,\n    \"roi_ready\": true,\n    \"crm_safe\": true,\n    \"supplier_ready\": true,\n    \"inventory_guard_ready\": true,\n    \"compliance_ready\": true,\n    \"quality_ready\": true,\n    \"pet_niche_safe\": true,\n    \"no_critical_alerts\": true\n  },\n  \"failed_checks\": [],\n  \"failed_count\": 0,\n  \"external_blockers\": [\n    {\n      \"source\": \"external_platform_blockers\",\n      \"platform\": \"google_ads\",\n      \"status\": \"blocked_external_platform_permission\",\n      \"reason\": \"DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n      \"action_required\": \"apply_for_google_ads_api_basic_or_standard_access_or_use_test_account\"\n    },\n    {\n      \"source\": \"production_readiness_report\",\n      \"platform\": \"meta_ads\",\n      \"status\": \"blocked_by_meta_activation_guard\",\n      \"reason\": \"owner_safety_guard\"\n    }\n  ],\n  \"pet_niche\": {\n    \"created_at\": \"2026-05-24T12:39:57.219758+00:00\",\n    \"pet_items_approved\": 52,\n    \"flagged_items\": 2,\n    \"excluded_count\": 2,\n    \"excluded_skus\": [\n      \"CJYD2896648\",\n      \"CJJT2896696\"\n    ],\n    \"violations_count\": 0,\n    \"status\": \"PET_NICHE_SAFE\"\n  },\n  \"crm_status\": \"CRM_FINAL_GATE_BLOCKED\",\n  \"status\": \"MASTER_SYSTEM_HEALTHY_SAFE_MODE\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.quick_status",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:35.727879+00:00",
+    "finished_at": "2026-05-24T12:44:35.828554+00:00",
+    "stdout": "========== AUTONOMOUS AI COMMERCE STATUS ==========\nSYSTEM: HEALTHY\nSTATUS: PRODUCTION_READY_SAFE_MODE\nSAFE: True\nLIVE MONEY SPENDING: False\nMASTER HEALTH: MASTER_SYSTEM_HEALTHY_SAFE_MODE\nFAILED CHECKS: 0\nALERTS: 2\nCRITICAL: 0\nGOOGLE: blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\nMETA: blocked_by_meta_activation_guard\nREAL SALES: waiting_for_sales\nQUEUE: 0\nCRM: CRM_FINAL_GATE_BLOCKED\nSMTP: SMTP_CONFIG_TEMPLATE_ONLY\nPET NICHE: PET_NICHE_SAFE\nEXCLUDED SKUS: ['CJYD2896648', 'CJJT2896696']\nGLOBAL READY CHANNELS: ['shopify', 'woocommerce', 'ebay', 'cjdropshipping', 'meta_ads']\nGLOBAL NOT READY: ['amazon', 'tiktok_shop', 'aliexpress', 'google_ads', 'tiktok_ads']\n===================================================\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.system_release_marker",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:35.829555+00:00",
+    "finished_at": "2026-05-24T12:44:35.942043+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:35.934032+00:00\",\n  \"release_name\": \"AIC_SAFE_AUTOPILOT_CORE\",\n  \"release_version\": \"v1.1-safe-pet-niche\",\n  \"system_status\": \"HEALTHY\",\n  \"production_readiness\": \"READY_SAFE_MODE\",\n  \"status\": \"PRODUCTION_READY_SAFE_MODE\",\n  \"master_health\": \"MASTER_SYSTEM_HEALTHY_SAFE_MODE\",\n  \"live_money_spending\": false,\n  \"pet_niche_status\": \"PET_NICHE_SAFE\",\n  \"pet_niche_excluded_skus\": [\n    \"CJYD2896648\",\n    \"CJJT2896696\"\n  ],\n  \"external_blockers\": [\n    {\n      \"source\": \"external_platform_blockers\",\n      \"platform\": \"google_ads\",\n      \"status\": \"blocked_external_platform_permission\",\n      \"reason\": \"DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY\",\n      \"action_required\": \"apply_for_google_ads_api_basic_or_standard_access_or_use_test_account\"\n    },\n    {\n      \"source\": \"production_readiness_report\",\n      \"platform\": \"meta_ads\",\n      \"status\": \"blocked_by_meta_activation_guard\",\n      \"reason\": \"owner_safety_guard\"\n    }\n  ],\n  \"notes\": [\n    \"Core commerce system stable\",\n    \"Token self-healing enabled\",\n    \"CRM safe draft mode enabled\",\n    \"Budget guard enabled\",\n    \"Recovery and backup enabled\",\n    \"Meta funnel paused\",\n    \"Google waiting Basic Access\",\n    \"Amazon pending verification\",\n    \"Pet niche filter enabled\",\n    \"Non-pet SKUs excluded from automation\"\n  ],\n  \"status_marker\": \"STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.release_history",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:35.943081+00:00",
+    "finished_at": "2026-05-24T12:44:36.049376+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:36.040849+00:00\",\n  \"releases\": [\n    {\n      \"recorded_at\": \"2026-05-24T12:44:36.041849+00:00\",\n      \"release_version\": \"v1.1-safe-pet-niche\",\n      \"release_name\": \"AIC_SAFE_AUTOPILOT_CORE\",\n      \"status_marker\": \"STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED\",\n      \"master_health\": \"MASTER_SYSTEM_HEALTHY_SAFE_MODE\",\n      \"pet_niche_status\": \"PET_NICHE_SAFE\",\n      \"live_money_spending\": false\n    }\n  ],\n  \"latest\": {\n    \"recorded_at\": \"2026-05-24T12:44:36.041849+00:00\",\n    \"release_version\": \"v1.1-safe-pet-niche\",\n    \"release_name\": \"AIC_SAFE_AUTOPILOT_CORE\",\n    \"status_marker\": \"STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED\",\n    \"master_health\": \"MASTER_SYSTEM_HEALTHY_SAFE_MODE\",\n    \"pet_niche_status\": \"PET_NICHE_SAFE\",\n    \"live_money_spending\": false\n  },\n  \"releases_count\": 1,\n  \"status\": \"RELEASE_HISTORY_UPDATED\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.deployment_readiness_checklist",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:36.050362+00:00",
+    "finished_at": "2026-05-24T12:44:36.165366+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:36.157364+00:00\",\n  \"ready_count\": 5,\n  \"not_ready_count\": 4,\n  \"checklist\": [\n    {\n      \"item\": \"Core autopilot\",\n      \"ready\": true\n    },\n    {\n      \"item\": \"Token self-healing\",\n      \"ready\": true\n    },\n    {\n      \"item\": \"Safe mode\",\n      \"ready\": true\n    },\n    {\n      \"item\": \"Pet niche protected\",\n      \"ready\": true\n    },\n    {\n      \"item\": \"CRM safe mode\",\n      \"ready\": true\n    },\n    {\n      \"item\": \"SMTP real provider\",\n      \"ready\": false\n    },\n    {\n      \"item\": \"Google Basic Access\",\n      \"ready\": false\n    },\n    {\n      \"item\": \"Amazon SP-API\",\n      \"ready\": false\n    },\n    {\n      \"item\": \"Real sales data\",\n      \"ready\": false\n    }\n  ],\n  \"not_ready\": [\n    {\n      \"item\": \"SMTP real provider\",\n      \"ready\": false\n    },\n    {\n      \"item\": \"Google Basic Access\",\n      \"ready\": false\n    },\n    {\n      \"item\": \"Amazon SP-API\",\n      \"ready\": false\n    },\n    {\n      \"item\": \"Real sales data\",\n      \"ready\": false\n    }\n  ],\n  \"status\": \"DEPLOYMENT_READY_SAFE_MODE\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.system_maintenance_planner",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:36.166386+00:00",
+    "finished_at": "2026-05-24T12:44:36.280033+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:36.271998+00:00\",\n  \"hourly_tasks\": 4,\n  \"daily_tasks\": 5,\n  \"weekly_tasks\": 4,\n  \"maintenance_plan\": {\n    \"hourly\": [\n      \"run channel_self_healer\",\n      \"run external_blockers_monitor\",\n      \"run master_system_health\",\n      \"run backup_manager\"\n    ],\n    \"daily\": [\n      \"run autopilot_runner\",\n      \"run roi_engine\",\n      \"run crm_health_check\",\n      \"run supplier_fallback_engine\",\n      \"run inventory_sync_guard\"\n    ],\n    \"weekly\": [\n      \"review blocked products\",\n      \"review Google API status\",\n      \"review Meta activation readiness\",\n      \"review Amazon verification status\"\n    ]\n  },\n  \"status\": \"SYSTEM_MAINTENANCE_READY\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "step": "app.autopilot_schedule_readiness",
+    "ok": true,
+    "returncode": 0,
+    "started_at": "2026-05-24T12:44:36.280033+00:00",
+    "finished_at": "2026-05-24T12:44:36.389054+00:00",
+    "stdout": "{\n  \"created_at\": \"2026-05-24T12:44:36.381053+00:00\",\n  \"checks\": {\n    \"system_healthy\": true,\n    \"safe_to_continue\": true,\n    \"recovery_ok\": true,\n    \"no_critical_alerts\": true,\n    \"backup_ok\": true,\n    \"live_money_spending_false\": true\n  },\n  \"missing_requirements\": [],\n  \"recommended_schedule\": {\n    \"health_check\": \"hourly\",\n    \"daily_report\": \"daily\",\n    \"backup\": \"after_successful_autopilot_run\",\n    \"roi_update\": \"after_real_sales_detected\"\n  },\n  \"status\": \"AUTOPILOT_SCHEDULE_READY\"\n}\n",
+    "stderr": ""
+  }
+]

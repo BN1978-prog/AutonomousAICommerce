@@ -1,0 +1,12 @@
+[
+  {
+    "created_at": "2026-05-25T14:51:09.899938+00:00",
+    "file": "app\\logs\\shopify_sales.csv",
+    "hash": "20e0b9eb0fcef9029ade2f93b7b3c083bd2a8ece4f315d3cb79fbb9903d4f578"
+  },
+  {
+    "created_at": "2026-05-25T14:54:40.431236+00:00",
+    "file": "app\\logs\\shopify_sales.csv",
+    "hash": "0678ea403e170a264312ddeab158426f756e4dee8f2135e36bc9a4c8769fac22"
+  }
+]

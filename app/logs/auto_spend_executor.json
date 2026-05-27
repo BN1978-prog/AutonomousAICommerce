@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-05-27T12:58:31.599689+00:00",
+  "mode": "LIMITED_AUTO_SPEND_EXECUTOR",
+  "emergency_stop": false,
+  "planned_daily_spend": 25,
+  "max_daily_global_budget": 50,
+  "executions": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "requested_budget": 25,
+      "execution_allowed": true,
+      "execution_mode": "DRY_RUN_EXECUTION",
+      "next_action": "PREPARE_LIVE_CAMPAIGN",
+      "real_money_spent": 0
+    }
+  ],
+  "real_money_spent": 0,
+  "status": "AUTO_SPEND_EXECUTOR_READY_DRY_RUN"
+}

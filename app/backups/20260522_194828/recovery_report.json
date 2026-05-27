@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-05-22T19:48:27.852576+00:00",
+  "checks": [
+    {
+      "field": "system_status",
+      "last_known_good": "HEALTHY",
+      "current": "HEALTHY",
+      "status": "same"
+    },
+    {
+      "field": "production_readiness",
+      "last_known_good": "READY_SAFE_MODE",
+      "current": "READY_SAFE_MODE",
+      "status": "same"
+    },
+    {
+      "field": "status",
+      "last_known_good": "PRODUCTION_READY_SAFE_MODE",
+      "current": "PRODUCTION_READY_SAFE_MODE",
+      "status": "same"
+    },
+    {
+      "field": "safe_to_continue",
+      "last_known_good": true,
+      "current": true,
+      "status": "same"
+    },
+    {
+      "field": "live_money_spending",
+      "last_known_good": false,
+      "current": false,
+      "status": "same"
+    },
+    {
+      "field": "channel_self_healer",
+      "last_known_good": "all_channels_ok_no_repair_needed",
+      "current": "some_channels_still_need_manual_fix",
+      "status": "changed"
+    },
+    {
+      "field": "external_blockers_count",
+      "last_known_good": 2,
+      "current": 2,
+      "status": "same"
+    },
+    {
+      "field": "meta_funnel",
+      "last_known_good": "META_FUNNEL_READY_PAUSED",
+      "current": "META_FUNNEL_READY_PAUSED",
+      "status": "same"
+    },
+    {
+      "field": "google_status",
+      "last_known_good": "blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+      "current": "blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+      "status": "same"
+    },
+    {
+      "field": "real_sales_mode",
+      "last_known_good": "waiting_for_sales",
+      "current": "waiting_for_sales",
+      "status": "same"
+    },
+    {
+      "field": "purchase_queue_size",
+      "last_known_good": 0,
+      "current": 0,
+      "status": "same"
+    }
+  ],
+  "critical_changes": [],
+  "critical_changes_count": 0,
+  "status": "RECOVERY_OK"
+}

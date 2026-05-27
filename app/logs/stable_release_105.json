@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-05-25T15:00:02.220086+00:00",
+  "release": "AIC_GLOBAL_SAFE_CORE_105",
+  "autopilot_steps": "105/105",
+  "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+  "failed_checks": 0,
+  "system_status": "HEALTHY",
+  "production_readiness": "PRODUCTION_READY_SAFE_MODE",
+  "live_money_spending": false,
+  "external_waiting_on": [
+    "Amazon verification / refresh token / seller ID",
+    "Google Basic Access review",
+    "TikTok Shop regional onboarding",
+    "AliExpress developer access",
+    "SMTP real provider",
+    "first real sales"
+  ],
+  "runbook_status": "RUNBOOK_READY",
+  "status": "STABLE_RELEASE_105_CONFIRMED"
+}

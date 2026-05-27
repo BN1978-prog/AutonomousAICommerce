@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-24T12:55:38.419200+00:00",
+  "sales_mode": "DROPSHIPPING_PRELAUNCH",
+  "inventory_purchase_required": false,
+  "supplier": "CJ_DROPSHIPPING",
+  "channels": [
+    "shopify",
+    "ebay",
+    "woocommerce"
+  ],
+  "paid_ads_enabled": false,
+  "traffic_source": "organic",
+  "status": "READY_FOR_FIRST_PRODUCTS"
+}

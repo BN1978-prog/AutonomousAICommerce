@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-25T18:38:01.000595+00:00",
+  "channel": "amazon",
+  "lwa_credentials_saved": true,
+  "marketplace_id_saved": true,
+  "missing": [
+    "AMAZON_REFRESH_TOKEN",
+    "AMAZON_SELLER_ID"
+  ],
+  "ready": false,
+  "status": "AMAZON_PARTIAL_CONNECTED_WAITING_AUTHORIZATION"
+}

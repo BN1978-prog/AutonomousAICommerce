@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-05-25T17:27:12.708466+00:00",
+  "checks": {
+    "system_healthy": true,
+    "safe_to_continue": true,
+    "no_live_money_spending_now": true,
+    "budget_safe": true,
+    "compliance_ok_or_controlled": true,
+    "quality_filter_ok": true,
+    "google_api_not_blocked": false
+  },
+  "missing_requirements": [
+    "google_api_not_blocked"
+  ],
+  "google_blocked": true,
+  "activation_allowed": false,
+  "reason": "waiting_google_basic_access",
+  "status": "GOOGLE_ACTIVATION_WAITING_BASIC_ACCESS"
+}

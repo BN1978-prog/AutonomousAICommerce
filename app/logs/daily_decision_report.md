@@ -2,7 +2,7 @@
 
 ## Summary
 - Promotion actions: 2
-- Pricing experiments: 2
+- Pricing experiments: 1
 - Conversion watch items: 54
 - Disable candidates: 0
 
@@ -11,7 +11,6 @@
 - PET-BOWL-001: promote_ai_hunter_pick
 
 ## Pricing Experiments
-- CJJT2896696: 4.16 -> 4.58 (premium_hold_or_bundle)
 - PET-BOWL-001: 12.7 -> 12.06 (small_discount_test)
 
 ## Conversion Watch

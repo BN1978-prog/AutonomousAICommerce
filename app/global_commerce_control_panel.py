@@ -9,6 +9,7 @@ FILES = {
     "queue": "app/logs/supplier_purchase_executor.json",
     "arb": "app/logs/opportunities/global_execution_plan.json",
     "external": "app/logs/external_platform_blockers.json",
+    "meta_funnel": "app/logs/meta_launch_readiness.json",
 }
 
 def load(path):
@@ -37,6 +38,11 @@ report = {
     "arbitrage_plans": data["arb"].get("plans_created", 0),
     "ad_actions_ready": data["ads"].get("actions_ready", 0),
     "meta_status": platform_status("meta_ads"),
+    "meta_funnel_status": data["meta_funnel"].get("status"),
+    "meta_campaigns": data["meta_funnel"].get("campaigns_registered", 0),
+    "meta_adsets_ready": data["meta_funnel"].get("adsets_ready", 0),
+    "meta_creatives_ready": data["meta_funnel"].get("creatives_ready", 0),
+    "meta_ads_ready": data["meta_funnel"].get("ads_ready", 0),
     "google_status": platform_status("google_ads"),
     "external_ready_count": external.get("ready_count", 0),
     "external_blocker_count": external.get("blocker_count", 0),
@@ -45,8 +51,8 @@ report = {
     "has_real_sales": data["orders"].get("has_real_sales"),
     "purchase_queue_size": data["queue"].get("queue_size"),
     "live_money_spending": False,
-    "next_required_action": "wait_for_real_sales_or_resolve_external_platform_blockers",
-    "status": "GLOBAL_COMMERCE_READY_WITH_EXTERNAL_BLOCKERS" if blockers else "GLOBAL_COMMERCE_READY_SAFE_MODE"
+    "next_required_action": "wait_for_real_sales_or_resolve_google_api_access",
+    "status": "GLOBAL_COMMERCE_READY_META_FUNNEL_PAUSED_GOOGLE_BLOCKED"
 }
 
 Path("app/logs/global_commerce_control_panel.json").write_text(

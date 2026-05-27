@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-05-27T12:58:32.733458+00:00",
+  "payloads_created": 1,
+  "payloads": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "platform": "google",
+      "campaign_name": "AICommerce_AUTO_non_slip_silicone_pet_feeding_bowl",
+      "daily_budget": 25,
+      "status": "PAUSED",
+      "channel_type": "SEARCH",
+      "bidding_strategy": "MAXIMIZE_CONVERSIONS",
+      "execution_mode": "PAYLOAD_READY_NOT_SENT",
+      "real_money_spent": 0
+    }
+  ],
+  "status": "GOOGLE_LIVE_CAMPAIGN_PAYLOADS_READY"
+}

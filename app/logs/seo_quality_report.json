@@ -1,1 +1,67 @@
-[]
+[
+  {
+    "sku": "CJJJCWMY01054",
+    "score": 40,
+    "title": "Pet grooming scissors",
+    "issues": [
+      "pet"
+    ]
+  },
+  {
+    "sku": "CJMY1174239",
+    "score": 60,
+    "title": "Pet Carrier Small Size",
+    "issues": [
+      "pet",
+      "small"
+    ]
+  },
+  {
+    "sku": "CJJJCWMY01010",
+    "score": 40,
+    "title": "Cat scratcher boxed",
+    "issues": [
+      "boxed"
+    ]
+  },
+  {
+    "sku": "CJJJCWMY00923",
+    "score": 50,
+    "title": "Scratcher cat toy",
+    "issues": []
+  },
+  {
+    "sku": "CJJJCWGY02924",
+    "score": 50,
+    "title": "Dog raincoat",
+    "issues": []
+  },
+  {
+    "sku": "CJJJCWGY01083",
+    "score": 40,
+    "title": "Pet waterproof socks",
+    "issues": [
+      "pet"
+    ]
+  },
+  {
+    "sku": "CJSP2733732",
+    "score": 40,
+    "title": "Pet Shampoo",
+    "issues": [
+      "pet"
+    ]
+  },
+  {
+    "sku": "CJJJCWGY02354",
+    "score": 50,
+    "title": "",
+    "issues": []
+  },
+  {
+    "sku": "CJJJCWGY02237",
+    "score": 50,
+    "title": "",
+    "issues": []
+  }
+]

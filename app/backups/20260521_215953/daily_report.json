@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-05-21T21:59:52.920206+00:00",
+  "system": {
+    "status": "HEALTHY",
+    "production": "READY_SAFE_MODE",
+    "safe": true
+  },
+  "sales": {
+    "mode": "waiting_for_sales",
+    "queue": 0,
+    "revenue": 0
+  },
+  "ads": {
+    "live_money_spending": false,
+    "google": "blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+    "meta": "blocked_by_meta_activation_guard"
+  },
+  "blockers": {
+    "count": 2,
+    "items": [
+      {
+        "source": "external_platform_blockers",
+        "platform": "google_ads",
+        "status": "blocked_external_platform_permission",
+        "reason": "DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+        "action_required": "apply_for_google_ads_api_basic_or_standard_access_or_use_test_account"
+      },
+      {
+        "source": "production_readiness_report",
+        "platform": "meta_ads",
+        "status": "blocked_by_meta_activation_guard",
+        "reason": "owner_safety_guard"
+      }
+    ]
+  },
+  "summary": {
+    "healthy": true,
+    "safe_to_continue": true,
+    "ready_for_real_sales": true
+  }
+}

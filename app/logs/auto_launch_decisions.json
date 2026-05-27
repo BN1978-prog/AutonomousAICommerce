@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-05-27T12:58:31.426146+00:00",
+  "mode": "LIMITED_AUTO_SPEND",
+  "emergency_stop": false,
+  "live_spending_enabled": true,
+  "decisions": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "risk_score": "LOW",
+      "estimated_roi_percent": 781.83,
+      "recommended_daily_budget": 25,
+      "auto_launch_approved": true,
+      "launch_mode": "AUTO_LAUNCH_ALLOWED"
+    }
+  ],
+  "status": "AUTO_LAUNCH_ENGINE_READY"
+}

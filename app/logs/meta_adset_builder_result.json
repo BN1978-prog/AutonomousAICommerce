@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-05-27T00:06:37.567811+00:00",
+  "results": [
+    {
+      "campaign_id": "52564387047836",
+      "http_status": 200,
+      "response": "{\"id\":\"52564388303636\"}",
+      "requested_status": "PAUSED",
+      "real_money_spent": 0
+    }
+  ],
+  "status": "META_ADSET_BUILDER_PAUSED_READY"
+}

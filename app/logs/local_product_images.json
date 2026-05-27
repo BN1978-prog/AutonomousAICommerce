@@ -1,0 +1,17 @@
+{
+  "products": [
+    {
+      "id": 17,
+      "sku": "CJJJCWMY00923",
+      "title": "Eco-Friendly Cat Scratcher Toy",
+      "local_image": "app/assets/product_images/CJJJCWMY00923.jpg"
+    },
+    {
+      "id": 18,
+      "sku": "PET-BOWL-001",
+      "title": "Non-slip silicone pet feeding bowl",
+      "local_image": "app/assets/product_images/PET-BOWL-001.jpg"
+    }
+  ],
+  "status": "LOCAL_IMAGES_ASSIGNED"
+}

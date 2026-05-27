@@ -1,55 +1,31 @@
 {
-  "created_at": "2026-05-20T21:34:15.169706+00:00",
-  "mode": "google_creator_with_api_guard",
-  "google_live_api_enabled": true,
+  "created_at": "2026-05-25T18:09:35.797496+00:00",
+  "mode": "google_payload_only_safe_mode",
+  "google_live_api_enabled": false,
   "payloads_created": 2,
   "payloads": [
     {
       "sku": "CJJJCWMY00923",
+      "campaign_name": "AICommerce Google Test - Eco-Friendly Cat Scratcher Toy",
       "title": "Eco-Friendly Cat Scratcher Toy",
-      "channel": "google_ads",
-      "daily_budget": 5.0,
-      "campaign_name": "AIC_TEST_CJJJCWMY00923",
-      "advertising_channel_type": "SEARCH",
+      "budget": 5,
       "status": "PAUSED",
-      "mode": "would_call_google_ads_api"
+      "spend_enabled": false,
+      "mode": "payload_only_no_api_call",
+      "channel": "google_ads"
     },
     {
       "sku": "PET-BOWL-001",
+      "campaign_name": "AICommerce Google Test - Non-slip silicone pet feeding bowl",
       "title": "Non-slip silicone pet feeding bowl",
-      "channel": "google_ads",
-      "daily_budget": 5.0,
-      "campaign_name": "AIC_TEST_PET-BOWL-001",
-      "advertising_channel_type": "SEARCH",
+      "budget": 5,
       "status": "PAUSED",
-      "mode": "would_call_google_ads_api"
+      "spend_enabled": false,
+      "mode": "payload_only_no_api_call",
+      "channel": "google_ads"
     }
   ],
-  "actions": [
-    {
-      "sku": "CJJJCWMY00923",
-      "title": "Eco-Friendly Cat Scratcher Toy",
-      "channel": "google_ads",
-      "daily_budget": 5.0,
-      "campaign_name": "AIC_TEST_CJJJCWMY00923",
-      "advertising_channel_type": "SEARCH",
-      "status": "ready_for_real_google_ads_api_post_code",
-      "mode": "would_call_google_ads_api",
-      "action": "would_post_to_google_ads_campaign_endpoint"
-    },
-    {
-      "sku": "PET-BOWL-001",
-      "title": "Non-slip silicone pet feeding bowl",
-      "channel": "google_ads",
-      "daily_budget": 5.0,
-      "campaign_name": "AIC_TEST_PET-BOWL-001",
-      "advertising_channel_type": "SEARCH",
-      "status": "ready_for_real_google_ads_api_post_code",
-      "mode": "would_call_google_ads_api",
-      "action": "would_post_to_google_ads_campaign_endpoint"
-    }
-  ],
-  "blocked": [],
-  "live_api_call_enabled": true,
-  "status": "ready_for_real_google_ads_api_post_code"
+  "live_api_call_enabled": false,
+  "live_money_spending": false,
+  "status": "google_campaign_payloads_ready"
 }

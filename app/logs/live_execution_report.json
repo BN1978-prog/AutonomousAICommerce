@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-05-27T12:58:33.537931+00:00",
+  "approved_count": 2,
+  "total_daily_budget_ready": 50,
+  "approved_actions": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "platform": "meta",
+      "campaign_name": "AICommerce_AUTO_non_slip_silicone_pet_feeding_bowl",
+      "daily_budget": 25,
+      "can_execute_live_api": true,
+      "execution_mode": "LIVE_API_READY_DRY_RUN",
+      "real_money_spent": 0
+    },
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "platform": "google",
+      "campaign_name": "AICommerce_AUTO_non_slip_silicone_pet_feeding_bowl",
+      "daily_budget": 25,
+      "can_execute_live_api": true,
+      "execution_mode": "LIVE_API_READY_DRY_RUN",
+      "real_money_spent": 0
+    }
+  ],
+  "real_money_spent": 0,
+  "status": "LIVE_EXECUTION_REPORT_READY"
+}

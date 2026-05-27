@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-05-21T20:44:40.591639+00:00",
+  "system_status": "HEALTHY",
+  "safe_to_continue": true,
+  "arbitrage_plans": 2,
+  "ad_actions_ready": 0,
+  "meta_status": "ready_paused_campaigns_created",
+  "meta_funnel_status": "META_FUNNEL_READY_PAUSED",
+  "meta_campaigns": 2,
+  "meta_adsets_ready": 2,
+  "meta_creatives_ready": 2,
+  "meta_ads_ready": 2,
+  "google_status": "blocked_external_platform_permission:DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+  "external_ready_count": 1,
+  "external_blocker_count": 1,
+  "external_blockers": [
+    {
+      "platform": "google_ads",
+      "status": "blocked_external_platform_permission",
+      "reason": "DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+      "action_required": "apply_for_google_ads_api_basic_or_standard_access_or_use_test_account"
+    }
+  ],
+  "real_sales_mode": "waiting_for_sales",
+  "has_real_sales": false,
+  "purchase_queue_size": 0,
+  "live_money_spending": false,
+  "next_required_action": "wait_for_real_sales_or_resolve_google_api_access",
+  "status": "GLOBAL_COMMERCE_READY_META_FUNNEL_PAUSED_GOOGLE_BLOCKED"
+}

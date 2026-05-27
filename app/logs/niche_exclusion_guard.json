@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-05-24T12:39:57.109410+00:00",
+  "excluded_skus": [
+    "CJYD2896648",
+    "CJJT2896696"
+  ],
+  "violations_count": 0,
+  "violations": [],
+  "status": "NICHE_EXCLUSION_GUARD_OK"
+}

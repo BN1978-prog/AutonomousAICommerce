@@ -76,7 +76,7 @@
     "ok": true,
     "skipped": false,
     "reason": "hydrated_from_shopify",
-    "title": "Dog leash dog leash pet leash",
+    "title": "Durable Pet Leash for Daily Walks",
     "price": "12.99"
   },
   {
@@ -148,7 +148,7 @@
     "ok": true,
     "skipped": false,
     "reason": "hydrated_from_shopify",
-    "title": "Dog grooming large beauty",
+    "title": "Large Pet Grooming Brush",
     "price": "12.99"
   },
   {
@@ -156,7 +156,7 @@
     "ok": true,
     "skipped": false,
     "reason": "hydrated_from_shopify",
-    "title": "Blanket Pet Quilt Fall Winter Pet Thicken Blanket Warm Flannel Sleeping Blanket",
+    "title": "Warm Pet Blanket - Cozy Winter Cover",
     "price": "19.99"
   },
   {
@@ -164,7 +164,7 @@
     "ok": true,
     "skipped": false,
     "reason": "hydrated_from_shopify",
-    "title": "Dog Brush Cat Brush Pet Grooming Brush- Shedding Grooming Tools",
+    "title": "Pet Grooming Brush for Shedding",
     "price": "12.99"
   },
   {
@@ -260,7 +260,7 @@
     "ok": true,
     "skipped": false,
     "reason": "hydrated_from_shopify",
-    "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+    "title": "Non-Slip Cotton Dog Socks",
     "price": "13.99"
   },
   {
@@ -268,7 +268,7 @@
     "ok": true,
     "skipped": false,
     "reason": "hydrated_from_shopify",
-    "title": "Durable Cat Chain Traction Rope Set - Harness & Leash",
+    "title": "Cat Harness and Leash Set",
     "price": "12.99"
   },
   {
@@ -316,7 +316,7 @@
     "ok": true,
     "skipped": false,
     "reason": "hydrated_from_shopify",
-    "title": "Explosion-Proof Red Pet Chest Harness",
+    "title": "Red Reflective Pet Chest Harness",
     "price": "12.99"
   },
   {
@@ -324,7 +324,7 @@
     "ok": true,
     "skipped": false,
     "reason": "hydrated_from_shopify",
-    "title": "Durable Dog Leash Vest Harness - Perfect for Active Pets",
+    "title": "Adjustable Dog Harness Vest",
     "price": "13.99"
   },
   {
@@ -364,7 +364,7 @@
     "ok": true,
     "skipped": false,
     "reason": "hydrated_from_shopify",
-    "title": "Cat Tunnel Pet Toy Cat S Tunnel Foldable Cat Tunnel Cat Drill Bucket Toy",
+    "title": "Foldable Cat Tunnel Toy",
     "price": "14.99"
   },
   {
@@ -404,24 +404,22 @@
     "ok": true,
     "skipped": false,
     "reason": "hydrated_from_shopify",
-    "title": "Cat Hair Glove Pet Fur Remover Glove Dog Grooming Glove Brush For Shedding Pet Hair Remover Mitt Cleaner Grooming Glove",
+    "title": "Pet Hair Remover Grooming Glove",
     "price": "12.99"
   },
   {
     "sku": "CJYD2896648",
-    "ok": true,
-    "skipped": false,
-    "reason": "hydrated_from_shopify",
-    "title": "Hair Growth Microneedle Solution For Hair Regeneration",
-    "price": "5.22"
+    "ok": false,
+    "skipped": true,
+    "reason": "shopify_http_404",
+    "body": "{\"errors\":\"Not Found\"}"
   },
   {
     "sku": "CJJT2896696",
-    "ok": true,
-    "skipped": false,
-    "reason": "hydrated_from_shopify",
-    "title": "High-borosilicate Glass Tea Cup Double Layer Design With Real Flowers",
-    "price": "4.16"
+    "ok": false,
+    "skipped": true,
+    "reason": "shopify_http_404",
+    "body": "{\"errors\":\"Not Found\"}"
   },
   {
     "sku": "PET-BOWL-001",
@@ -429,6 +427,22 @@
     "skipped": false,
     "reason": "hydrated_from_shopify",
     "title": "Non-slip silicone pet feeding bowl",
-    "price": "12.99"
+    "price": "12.06"
+  },
+  {
+    "sku": "CJJJCWGY02354",
+    "ok": true,
+    "skipped": false,
+    "reason": "hydrated_from_shopify",
+    "title": "Pet travel mug",
+    "price": "9.99"
+  },
+  {
+    "sku": "CJJJCWGY02237",
+    "ok": true,
+    "skipped": false,
+    "reason": "hydrated_from_shopify",
+    "title": "Comfortable Pet Travel Backpack",
+    "price": "10.23"
   }
 ]

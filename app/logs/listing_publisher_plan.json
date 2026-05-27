@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-05-24T13:08:43.394640+00:00",
+  "products_seen": 2,
+  "publish_actions_count": 6,
+  "publish_actions": [
+    {
+      "sku": "CJJJCWMY00923",
+      "title": "Eco-Friendly Cat Scratcher Toy",
+      "channel": "shopify",
+      "action": "prepare_listing",
+      "mode": "safe_publish_plan_no_supplier_purchase",
+      "paid_ads_enabled": false,
+      "supplier_purchase_allowed": false,
+      "status": "READY_FOR_CHANNEL_LISTING"
+    },
+    {
+      "sku": "CJJJCWMY00923",
+      "title": "Eco-Friendly Cat Scratcher Toy",
+      "channel": "woocommerce",
+      "action": "prepare_listing",
+      "mode": "safe_publish_plan_no_supplier_purchase",
+      "paid_ads_enabled": false,
+      "supplier_purchase_allowed": false,
+      "status": "READY_FOR_CHANNEL_LISTING"
+    },
+    {
+      "sku": "CJJJCWMY00923",
+      "title": "Eco-Friendly Cat Scratcher Toy",
+      "channel": "ebay",
+      "action": "prepare_listing",
+      "mode": "safe_publish_plan_no_supplier_purchase",
+      "paid_ads_enabled": false,
+      "supplier_purchase_allowed": false,
+      "status": "READY_FOR_CHANNEL_LISTING"
+    },
+    {
+      "sku": "PET-BOWL-001",
+      "title": "Non-slip silicone pet feeding bowl",
+      "channel": "shopify",
+      "action": "prepare_listing",
+      "mode": "safe_publish_plan_no_supplier_purchase",
+      "paid_ads_enabled": false,
+      "supplier_purchase_allowed": false,
+      "status": "READY_FOR_CHANNEL_LISTING"
+    },
+    {
+      "sku": "PET-BOWL-001",
+      "title": "Non-slip silicone pet feeding bowl",
+      "channel": "woocommerce",
+      "action": "prepare_listing",
+      "mode": "safe_publish_plan_no_supplier_purchase",
+      "paid_ads_enabled": false,
+      "supplier_purchase_allowed": false,
+      "status": "READY_FOR_CHANNEL_LISTING"
+    },
+    {
+      "sku": "PET-BOWL-001",
+      "title": "Non-slip silicone pet feeding bowl",
+      "channel": "ebay",
+      "action": "prepare_listing",
+      "mode": "safe_publish_plan_no_supplier_purchase",
+      "paid_ads_enabled": false,
+      "supplier_purchase_allowed": false,
+      "status": "READY_FOR_CHANNEL_LISTING"
+    }
+  ],
+  "status": "LISTING_PUBLISHER_PLAN_READY"
+}

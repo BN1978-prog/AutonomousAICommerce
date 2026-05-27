@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-05-25T15:00:02.352998+00:00",
+  "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+  "release_version": "v1.1-safe-pet-niche",
+  "system_status": "HEALTHY",
+  "production_readiness": "READY_SAFE_MODE",
+  "status": "PRODUCTION_READY_SAFE_MODE",
+  "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+  "live_money_spending": false,
+  "pet_niche_status": "PET_NICHE_SAFE",
+  "pet_niche_excluded_skus": [
+    "CJYD2896648",
+    "CJJT2896696"
+  ],
+  "external_blockers": [
+    {
+      "source": "external_platform_blockers",
+      "platform": "meta_ads",
+      "status": "not_ready",
+      "reason": "blocked",
+      "action_required": null
+    },
+    {
+      "source": "external_platform_blockers",
+      "platform": "google_ads",
+      "status": "blocked_external_platform_permission",
+      "reason": "DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+      "action_required": "apply_for_google_ads_api_basic_or_standard_access_or_use_test_account"
+    }
+  ],
+  "notes": [
+    "Core commerce system stable",
+    "Token self-healing enabled",
+    "CRM safe draft mode enabled",
+    "Budget guard enabled",
+    "Recovery and backup enabled",
+    "Meta funnel paused",
+    "Google waiting Basic Access",
+    "Amazon pending verification",
+    "Pet niche filter enabled",
+    "Non-pet SKUs excluded from automation"
+  ],
+  "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED"
+}

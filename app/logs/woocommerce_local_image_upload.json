@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-05-24T13:53:24.482012+00:00",
+  "results": [
+    {
+      "product_id": 17,
+      "ok": false,
+      "media_status_code": 401,
+      "media_response": {
+        "code": "rest_cannot_create",
+        "message": "Sorry, you are not allowed to create posts as this user.",
+        "data": {
+          "status": 401
+        }
+      }
+    },
+    {
+      "product_id": 18,
+      "ok": false,
+      "media_status_code": 401,
+      "media_response": {
+        "code": "rest_cannot_create",
+        "message": "Sorry, you are not allowed to create posts as this user.",
+        "data": {
+          "status": 401
+        }
+      }
+    }
+  ],
+  "status": "WOOCOMMERCE_LOCAL_IMAGE_UPLOAD_ATTEMPTED"
+}

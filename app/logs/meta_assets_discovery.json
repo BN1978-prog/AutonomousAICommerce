@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-05-20T11:15:33.586662+00:00",
+  "created_at": "2026-05-24T19:03:56.317566+00:00",
   "me": {
     "ok": true,
     "status_code": 200,
@@ -31,14 +31,38 @@
     "ok": true,
     "status_code": 200,
     "data": {
-      "data": []
+      "data": [
+        {
+          "id": "act_1683400162810976",
+          "name": "AICommerce Ads",
+          "account_status": 1,
+          "currency": "USD"
+        }
+      ],
+      "paging": {
+        "cursors": {
+          "before": "MTIwMjUxMDYxNzkzOTkwMDkz",
+          "after": "MTIwMjUxMDYxNzkzOTkwMDkz"
+        }
+      }
     }
   },
   "pages": {
     "ok": true,
     "status_code": 200,
     "data": {
-      "data": []
+      "data": [
+        {
+          "id": "1045219518685639",
+          "name": "AICommerce Pet Finds"
+        }
+      ],
+      "paging": {
+        "cursors": {
+          "before": "QVFIU2hKZA0FXUTJveWJLMHJOMmh4VzJaRHZA0bFdnY1RhckNDTFJXZA1lEenBkLXpjd09mWFdtYWRDejI2ZAEpHdFp1UGlheG1qZAUdISTl0Nmdlc1ljc1M0aGRB",
+          "after": "QVFIU2hKZA0FXUTJveWJLMHJOMmh4VzJaRHZA0bFdnY1RhckNDTFJXZA1lEenBkLXpjd09mWFdtYWRDejI2ZAEpHdFp1UGlheG1qZAUdISTl0Nmdlc1ljc1M0aGRB"
+        }
+      }
     }
   }
 }

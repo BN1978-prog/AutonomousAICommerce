@@ -1,14 +1,5 @@
 [
   {
-    "sku": "CJJT2896696",
-    "score": 95,
-    "current_price": 4.16,
-    "test_price": 4.58,
-    "strategy": "premium_hold_or_bundle",
-    "reason": "High score product. Test higher perceived value or bundle instead of discount.",
-    "auto_apply": false
-  },
-  {
     "sku": "PET-BOWL-001",
     "score": 82,
     "current_price": 12.7,

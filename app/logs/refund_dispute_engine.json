@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-05-25T14:59:59.100973+00:00",
+  "rules_count": 5,
+  "enabled_rules": 5,
+  "rules": [
+    {
+      "type": "refund_request",
+      "auto_action": "collect_order_information",
+      "enabled": true
+    },
+    {
+      "type": "order_cancel",
+      "auto_action": "check_fulfillment_status",
+      "enabled": true
+    },
+    {
+      "type": "chargeback",
+      "auto_action": "flag_high_priority",
+      "enabled": true
+    },
+    {
+      "type": "delivery_issue",
+      "auto_action": "collect_tracking_data",
+      "enabled": true
+    },
+    {
+      "type": "damaged_item",
+      "auto_action": "request_photo_evidence",
+      "enabled": true
+    }
+  ],
+  "status": "REFUND_ENGINE_READY"
+}

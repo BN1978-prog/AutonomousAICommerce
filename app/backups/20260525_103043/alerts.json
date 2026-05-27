@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-05-25T10:30:43.848039+00:00",
+  "alerts_count": 2,
+  "critical_count": 0,
+  "warning_count": 2,
+  "info_count": 0,
+  "alerts": [
+    {
+      "level": "warning",
+      "type": "external_blocker",
+      "platform": "meta_ads",
+      "message": "blocked",
+      "action_required": null
+    },
+    {
+      "level": "warning",
+      "type": "external_blocker",
+      "platform": "google_ads",
+      "message": "DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+      "action_required": "apply_for_google_ads_api_basic_or_standard_access_or_use_test_account"
+    }
+  ],
+  "status": "ALERTS_OK"
+}

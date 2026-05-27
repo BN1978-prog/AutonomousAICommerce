@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-05-25T18:38:00.865079+00:00",
+  "developer_token_present": true,
+  "refresh_token_present": true,
+  "customer_id_present": true,
+  "status": "GOOGLE_CONFIG_PRESENT_WAITING_BASIC_ACCESS"
+}

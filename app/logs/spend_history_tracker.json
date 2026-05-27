@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-05-27T12:58:31.727292+00:00",
+  "tracked_campaigns": 1,
+  "history": [
+    {
+      "sku": "non_slip_silicone_pet_feeding_bowl",
+      "planned_budget": 25,
+      "simulated_spend": 25,
+      "simulated_revenue": 112.5,
+      "simulated_profit": 87.5,
+      "rolling_roi_percent": 350.0,
+      "health": "POSITIVE"
+    }
+  ],
+  "total_simulated_spend": 25,
+  "total_simulated_profit": 87.5,
+  "status": "SPEND_HISTORY_TRACKER_READY"
+}

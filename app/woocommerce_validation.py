@@ -20,7 +20,7 @@ def load_env(path):
 load_env(ENV)
 
 url=(
-    os.getenv("WOOCOMMERCE_STORE_URL")
+    os.getenv("WOOCOMMERCE_URL") or os.getenv("WOOCOMMERCE_STORE_URL")
     or os.getenv("WOO_STORE_URL")
     or os.getenv("WC_STORE_URL")
 )

@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-24T12:52:23.594685+00:00",
+  "traffic_mode": "ORGANIC_PRELAUNCH",
+  "paid_ads_enabled": false,
+  "daily_budget": 0,
+  "sources": [
+    "SEO",
+    "Shopify catalog indexing",
+    "eBay listings",
+    "Meta organic pages",
+    "CJ product sync"
+  ],
+  "status": "TRAFFIC_PRELAUNCH_ACTIVE"
+}

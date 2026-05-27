@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-25T15:51:10.129633+00:00",
+  "checks": {
+    "crm_flows_ready": true,
+    "messages_ready": true,
+    "queue_layer_ready": true,
+    "send_guard_active": true,
+    "orchestrator_ready": true
+  },
+  "missing": [],
+  "channel_status": "CRM_CHANNEL_READY",
+  "real_send_enabled": false,
+  "status": "CRM_HEALTHY_SAFE_MODE"
+}

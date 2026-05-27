@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-05-25T14:59:58.968247+00:00",
+  "flows_count": 5,
+  "enabled_flows": 5,
+  "flows": [
+    {
+      "name": "abandoned_cart",
+      "trigger": "cart_abandoned",
+      "delay_minutes": 30,
+      "enabled": true
+    },
+    {
+      "name": "order_confirmation",
+      "trigger": "order_created",
+      "delay_minutes": 0,
+      "enabled": true
+    },
+    {
+      "name": "review_request",
+      "trigger": "order_delivered",
+      "delay_days": 7,
+      "enabled": true
+    },
+    {
+      "name": "repeat_customer",
+      "trigger": "repeat_purchase_detected",
+      "enabled": true
+    },
+    {
+      "name": "win_back",
+      "trigger": "customer_inactive_30_days",
+      "enabled": true
+    }
+  ],
+  "status": "CRM_AUTOMATION_READY"
+}

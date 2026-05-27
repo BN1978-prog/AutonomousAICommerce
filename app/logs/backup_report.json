@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-05-25T14:59:57.450917+00:00",
+  "backup_dir": "app\\backups\\20260525_145957",
+  "copied": [
+    ".env",
+    "app\\logs\\system_status_dashboard.json",
+    "app\\logs\\last_known_good_state.json",
+    "app\\logs\\recovery_report.json",
+    "app\\logs\\daily_report.json",
+    "app\\logs\\alerts.json",
+    "app\\logs\\production_readiness_report.json",
+    "app\\logs\\global_commerce_control_panel.json",
+    "app\\logs\\external_blockers_monitor.json"
+  ],
+  "missing": [],
+  "status": "BACKUP_OK"
+}

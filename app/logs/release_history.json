@@ -1,0 +1,304 @@
+{
+  "created_at": "2026-05-24T12:44:36.040849+00:00",
+  "releases": [
+    {
+      "recorded_at": "2026-05-24T12:44:36.041849+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T12:59:58.985767+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T13:08:27.808780+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T13:10:37.015289+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T13:30:44.401014+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T13:48:08.325087+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T13:59:58.681525+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T14:30:51.445767+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T14:59:53.052338+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T15:30:55.808320+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T15:59:55.314344+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T16:31:42.936101+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T16:59:57.523853+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T17:30:45.858816+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T17:59:55.879786+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T18:30:56.433921+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T19:00:01.506530+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T19:30:50.960430+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T20:30:37.487592+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T20:59:59.848378+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T21:30:43.839355+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-24T22:00:02.286950+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-25T10:07:50.559780+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-25T10:30:48.326238+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-25T11:30:44.938185+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-25T11:59:59.577762+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-25T12:30:46.411411+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-25T13:00:26.643744+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-25T13:30:55.972637+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-25T13:59:57.881625+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-25T14:30:54.261315+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    },
+    {
+      "recorded_at": "2026-05-25T15:00:02.483029+00:00",
+      "release_version": "v1.1-safe-pet-niche",
+      "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+      "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+      "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "pet_niche_status": "PET_NICHE_SAFE",
+      "live_money_spending": false
+    }
+  ],
+  "latest": {
+    "recorded_at": "2026-05-25T15:00:02.483029+00:00",
+    "release_version": "v1.1-safe-pet-niche",
+    "release_name": "AIC_SAFE_AUTOPILOT_CORE",
+    "status_marker": "STABLE_SAFE_RELEASE_PET_NICHE_PROTECTED",
+    "master_health": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+    "pet_niche_status": "PET_NICHE_SAFE",
+    "live_money_spending": false
+  },
+  "releases_count": 32,
+  "status": "RELEASE_HISTORY_UPDATED"
+}

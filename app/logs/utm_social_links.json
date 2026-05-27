@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-05-25T11:09:59.416328+00:00",
+  "links": [
+    {
+      "product": "Non-slip silicone pet feeding bowl",
+      "source": "instagram",
+      "campaign": "pet_bowl_test",
+      "url": "https://aicommerce-test-store-2.myshopify.com?utm_source=instagram&utm_medium=social&utm_campaign=pet_bowl_test"
+    },
+    {
+      "product": "Foldable Cat Tunnel Toy",
+      "source": "pinterest",
+      "campaign": "cat_tunnel_test",
+      "url": "https://aicommerce-test-store-2.myshopify.com?utm_source=pinterest&utm_medium=social&utm_campaign=cat_tunnel_test"
+    },
+    {
+      "product": "British Style Dog Raincoat",
+      "source": "facebook",
+      "campaign": "dog_raincoat_test",
+      "url": "https://aicommerce-test-store-2.myshopify.com?utm_source=facebook&utm_medium=social&utm_campaign=dog_raincoat_test"
+    }
+  ]
+}

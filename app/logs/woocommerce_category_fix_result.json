@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-05-24T13:38:24.521435+00:00",
+  "category_name": "Pet Supplies",
+  "results": [
+    {
+      "action": "create_category",
+      "status_code": 201,
+      "category_id": 1379,
+      "response": {
+        "id": 1379,
+        "name": "Pet Supplies",
+        "slug": "pet-supplies",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 0,
+        "_links": {
+          "self": [
+            {
+              "href": "https://aicommerce9.wpcomstaging.com/wp-json/wc/v3/products/categories/1379",
+              "targetHints": {
+                "allow": [
+                  "GET",
+                  "POST",
+                  "PUT",
+                  "PATCH",
+                  "DELETE"
+                ]
+              }
+            }
+          ],
+          "collection": [
+            {
+              "href": "https://aicommerce9.wpcomstaging.com/wp-json/wc/v3/products/categories"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "action": "assign_category",
+      "product_id": 17,
+      "status_code": 200,
+      "ok": true,
+      "categories": [
+        {
+          "id": 1379,
+          "name": "Pet Supplies",
+          "slug": "pet-supplies"
+        }
+      ]
+    },
+    {
+      "action": "assign_category",
+      "product_id": 18,
+      "status_code": 200,
+      "ok": true,
+      "categories": [
+        {
+          "id": 1379,
+          "name": "Pet Supplies",
+          "slug": "pet-supplies"
+        }
+      ]
+    }
+  ],
+  "status": "WOOCOMMERCE_CATEGORY_FIX_ATTEMPTED"
+}

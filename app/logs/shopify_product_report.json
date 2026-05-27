@@ -1,0 +1,188 @@
+{
+  "created_at": "2026-05-24T15:53:50.454968+00:00",
+  "shop": "aicommerce-test-store-2.myshopify.com",
+  "products_returned": 20,
+  "items": [
+    {
+      "id": 10593458815318,
+      "title": "Affordable Dog Bed",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10594986492246,
+      "title": "Blanket Pet Quilt Fall Winter Pet Thicken Blanket Warm Flannel Sleeping Blanket",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10596712972630,
+      "title": "British Style Dog Raincoat - Perfect for Pets",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10657679245654,
+      "title": "Cat and dog grooming comb",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10659785146710,
+      "title": "Cat Hair Glove Pet Fur Remover Glove Dog Grooming Glove Brush For Shedding Pet Hair Remover Mitt Cleaner Grooming Glove",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10595391832406,
+      "title": "Cat scratcher boxed",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10656856244566,
+      "title": "Cat Tunnel Pet Toy Cat S Tunnel Foldable Cat Tunnel Cat Drill Bucket Toy",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10601358852438,
+      "title": "Cotton Dog Socks - Comfortable and Stylish",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10595047965014,
+      "title": "Dog Brush Cat Brush Pet Grooming Brush- Shedding Grooming Tools",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10594435596630,
+      "title": "Dog grooming large beauty",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10578817876310,
+      "title": "Dog leash dog leash pet leash",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10596127342934,
+      "title": "Dog raincoat",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10657934934358,
+      "title": "Dog socks, pet socks, non-slip cotton socks",
+      "status": "active",
+      "vendor": "PawSafe",
+      "product_type": "Pet Supplies",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10598237241686,
+      "title": "Dog socks, pet socks, non-slip cotton socks, dog foot covers",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10598252478806,
+      "title": "Durable Cat Chain Traction Rope Set - Harness & Leash",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10650143490390,
+      "title": "Durable Dog Leash Vest Harness - Perfect for Active Pets",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10575361802582,
+      "title": "Durable Pet Travel Backpack - Perfect for Adventures",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10656877674838,
+      "title": "Easy Pet Cleaning Bath Brush",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10652679242070,
+      "title": "Effective Pet Hair Removal Cleaning Brush",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    },
+    {
+      "id": 10601382445398,
+      "title": "Explosion-Proof Red Pet Chest Harness",
+      "status": "active",
+      "vendor": "CJdropshipping",
+      "product_type": "",
+      "variants": 1,
+      "images": 1
+    }
+  ],
+  "status": "SHOPIFY_PRODUCT_REPORT_READY"
+}

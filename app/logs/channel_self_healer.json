@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-05-25T14:58:23.545933+00:00",
+  "env_reloaded": true,
+  "initial_token_check": {
+    "module": "app.token_manager",
+    "ok": true,
+    "returncode": 0,
+    "stdout": "{\n  \"created_at\": \"2026-05-25T14:58:26.316877+00:00\",\n  \"commerce_channels_ok\": false,\n  \"paid_ads_ok\": true,\n  \"results\": [\n    {\n      \"provider\": \"shopify\",\n      \"ok\": true,\n      \"status\": \"token_valid\",\n      \"checked_at\": \"2026-05-25T14:58:24.525211+00:00\",\n      \"status_code\": 200,\n      \"can_auto_refresh\": false,\n      \"response\": \"\"\n    },\n    {\n      \"provider\": \"woocommerce\",\n      \"ok\": false,\n      \"status\": \"missing_consumer_key_or_secret\",\n      \"checked_at\": \"2026-05-25T14:58:24.525211+00:00\",\n      \"can_auto_refresh\": false,\n      \"action\": \"create_new_woocommerce_rest_api_key\"\n    },\n    {\n      \"provider\": \"ebay\",\n      \"ok\": true,\n      \"status\": \"access_token_refreshed\",\n      \"checked_at\": \"2026-05-25T14:58:25.260936+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": 7200,\n      \"env_updated\": \"EBAY_ACCESS_TOKEN\"\n    },\n    {\n      \"provider\": \"google_ads\",\n      \"ok\": true,\n      \"status\": \"access_token_refreshed\",\n      \"checked_at\": \"2026-05-25T14:58:25.700269+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": 3599,\n      \"env_updated\": \"GOOGLE_ADS_ACCESS_TOKEN\"\n    },\n    {\n      \"provider\": \"meta\",\n      \"ok\": true,\n      \"status\": \"token_exchanged_or_extended\",\n      \"checked_at\": \"2026-05-25T14:58:26.316877+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": null,\n      \"env_updated\": \"META_ACCESS_TOKEN\"\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  "initial_problems": [
+    {
+      "provider": "woocommerce",
+      "status": "missing_consumer_key_or_secret",
+      "status_code": null,
+      "can_auto_refresh": false
+    }
+  ],
+  "repair_attempts": [
+    {
+      "provider": "woocommerce",
+      "repair_module": null,
+      "result": "no_dedicated_repair_module_available"
+    }
+  ],
+  "final_token_check": {
+    "module": "app.token_manager",
+    "ok": true,
+    "returncode": 0,
+    "stdout": "{\n  \"created_at\": \"2026-05-25T14:58:31.402477+00:00\",\n  \"commerce_channels_ok\": false,\n  \"paid_ads_ok\": true,\n  \"results\": [\n    {\n      \"provider\": \"shopify\",\n      \"ok\": true,\n      \"status\": \"token_valid\",\n      \"checked_at\": \"2026-05-25T14:58:29.767937+00:00\",\n      \"status_code\": 200,\n      \"can_auto_refresh\": false,\n      \"response\": \"\"\n    },\n    {\n      \"provider\": \"woocommerce\",\n      \"ok\": false,\n      \"status\": \"missing_consumer_key_or_secret\",\n      \"checked_at\": \"2026-05-25T14:58:29.767937+00:00\",\n      \"can_auto_refresh\": false,\n      \"action\": \"create_new_woocommerce_rest_api_key\"\n    },\n    {\n      \"provider\": \"ebay\",\n      \"ok\": true,\n      \"status\": \"access_token_refreshed\",\n      \"checked_at\": \"2026-05-25T14:58:30.448384+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": 7200,\n      \"env_updated\": \"EBAY_ACCESS_TOKEN\"\n    },\n    {\n      \"provider\": \"google_ads\",\n      \"ok\": true,\n      \"status\": \"access_token_refreshed\",\n      \"checked_at\": \"2026-05-25T14:58:30.888116+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": 3599,\n      \"env_updated\": \"GOOGLE_ADS_ACCESS_TOKEN\"\n    },\n    {\n      \"provider\": \"meta\",\n      \"ok\": true,\n      \"status\": \"token_exchanged_or_extended\",\n      \"checked_at\": \"2026-05-25T14:58:31.402477+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": null,\n      \"env_updated\": \"META_ACCESS_TOKEN\"\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  "final_problems": [
+    {
+      "provider": "woocommerce",
+      "status": "missing_consumer_key_or_secret",
+      "status_code": null,
+      "can_auto_refresh": false
+    }
+  ],
+  "status": "some_channels_still_need_manual_fix",
+  "after_env_reload_token_check": {
+    "module": "app.token_manager",
+    "ok": true,
+    "returncode": 0,
+    "stdout": "{\n  \"created_at\": \"2026-05-25T14:58:28.845102+00:00\",\n  \"commerce_channels_ok\": false,\n  \"paid_ads_ok\": true,\n  \"results\": [\n    {\n      \"provider\": \"shopify\",\n      \"ok\": true,\n      \"status\": \"token_valid\",\n      \"checked_at\": \"2026-05-25T14:58:27.268781+00:00\",\n      \"status_code\": 200,\n      \"can_auto_refresh\": false,\n      \"response\": \"\"\n    },\n    {\n      \"provider\": \"woocommerce\",\n      \"ok\": false,\n      \"status\": \"missing_consumer_key_or_secret\",\n      \"checked_at\": \"2026-05-25T14:58:27.268781+00:00\",\n      \"can_auto_refresh\": false,\n      \"action\": \"create_new_woocommerce_rest_api_key\"\n    },\n    {\n      \"provider\": \"ebay\",\n      \"ok\": true,\n      \"status\": \"access_token_refreshed\",\n      \"checked_at\": \"2026-05-25T14:58:27.917584+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": 7200,\n      \"env_updated\": \"EBAY_ACCESS_TOKEN\"\n    },\n    {\n      \"provider\": \"google_ads\",\n      \"ok\": true,\n      \"status\": \"access_token_refreshed\",\n      \"checked_at\": \"2026-05-25T14:58:28.345183+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": 3599,\n      \"env_updated\": \"GOOGLE_ADS_ACCESS_TOKEN\"\n    },\n    {\n      \"provider\": \"meta\",\n      \"ok\": true,\n      \"status\": \"token_exchanged_or_extended\",\n      \"checked_at\": \"2026-05-25T14:58:28.845102+00:00\",\n      \"can_auto_refresh\": true,\n      \"expires_in\": null,\n      \"env_updated\": \"META_ACCESS_TOKEN\"\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  "after_env_reload_problems": [
+    {
+      "provider": "woocommerce",
+      "status": "missing_consumer_key_or_secret",
+      "status_code": null,
+      "can_auto_refresh": false
+    }
+  ]
+}

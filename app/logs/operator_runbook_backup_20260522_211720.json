@@ -1,0 +1,33 @@
+{
+  "runbook_name": "AutonomousAICommerce Operator Runbook",
+  "version": "v1.0-safe",
+  "rules": [
+    {
+      "condition": "MASTER_SYSTEM_HEALTHY_SAFE_MODE",
+      "action": "Continue normal scheduled autopilot runs"
+    },
+    {
+      "condition": "DEVELOPER_TOKEN_NOT_APPROVED_OR_TEST_ONLY",
+      "action": "Wait for Google Basic Access approval"
+    },
+    {
+      "condition": "blocked_by_meta_activation_guard",
+      "action": "Do nothing unless owner intentionally wants to activate Meta spend"
+    },
+    {
+      "condition": "CRM_CHANNEL_NOT_CONNECTED",
+      "action": "Connect SMTP, SendGrid, or Twilio before enabling CRM sending"
+    },
+    {
+      "condition": "ROI_WAITING_FOR_SALES",
+      "action": "Wait for first real paid order before ROI optimization"
+    },
+    {
+      "condition": "Amazon pending verification",
+      "action": "Wait for Amazon identity verification, then collect AMAZON_REFRESH_TOKEN and AMAZON_SELLER_ID"
+    }
+  ],
+  "safe_mode_principle": "No live spending, no customer messages, no supplier payments without explicit owner confirmation.",
+  "status": "RUNBOOK_READY"
+}
+

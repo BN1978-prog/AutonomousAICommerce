@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-05-25T10:15:46.021728+00:00",
+  "status_code": 200,
+  "response": {
+    "access_token": "EAASaApyuNOoBRl7YSZBhH9nDVR50QJQZBmtP0IVoE5NWTmXhjRCmEG5YT1QMVZBFtBpdNSnaZB3nWZCaOtoQQJOZB5KpMxkZAwS3uFFX2aVsNYKcJBikQMZBrrsJ81lDMAzvY2xp4AIzZBZCPRQ8LXi2NkuEuIGSJVGCunszz8j2VqaiWa1W4xKYAFl7ZC9AdRM",
+    "token_type": "bearer",
+    "expires_in": 5130140
+  },
+  "status": "refreshed"
+}

@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-05-24T13:02:39.870414+00:00",
+  "currency": "GBP",
+  "available_balance": 0.0,
+  "mode": "ORGANIC_ONLY",
+  "max_daily_spend_gbp": 0,
+  "paid_ads_allowed": false,
+  "status": "BUDGET_MODE_DETECTED"
+}

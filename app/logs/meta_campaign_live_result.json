@@ -1,27 +1,12 @@
 {
-  "created_at": "2026-05-20T21:21:32.078363+00:00",
+  "created_at": "2026-05-24T18:50:05.498425+00:00",
   "mode": "meta_live_api_create_paused_campaigns",
-  "blocked": [],
-  "results": [
+  "blocked": [
     {
-      "sku": "CJJJCWMY00923",
-      "campaign_name": "AIC_TEST_CJJJCWMY00923",
-      "status_code": 200,
-      "ok": true,
-      "response": {
-        "id": "120251125801330093"
-      }
-    },
-    {
-      "sku": "PET-BOWL-001",
-      "campaign_name": "AIC_TEST_PET-BOWL-001",
-      "status_code": 200,
-      "ok": true,
-      "response": {
-        "id": "120251125802910093"
-      }
+      "reason": "meta_live_api_enabled_false"
     }
   ],
-  "created": 2,
-  "status": "ok"
+  "results": [],
+  "created": 0,
+  "status": "blocked"
 }

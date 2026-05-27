@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-05-27T12:58:27.175140+00:00",
+  "channel": "etsy",
+  "autopilot_enabled": true,
+  "listing_publish": false,
+  "inventory_sync": false,
+  "order_sync": false,
+  "status": "ETSY_WAITING_APPROVAL"
+}

@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-05-25T11:59:40.081987",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": false,
+    "status_code": 401,
+    "response": {
+      "errors": "[API] Invalid API key or access token (unrecognized login or wrong password)"
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Durable Pet Travel Backpack for Adventurous Pets",
+      "body_html": "This spacious and comfortable pet travel backpack is perfect for taking your furry friend on adventures. Made with durable materials and designed for safety and comfort.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "pet backpack, travel gear, pet accessories, outdoor pet",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/20200613/3151318899866.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWGY01994",
+          "price": "19.53",
+          "inventory_quantity": 82534
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-05-24T13:43:14.368750+00:00",
+  "confirmation_file_exists": true,
+  "products_attempted": 2,
+  "results": [
+    {
+      "id": 17,
+      "status_code": 200,
+      "ok": true,
+      "product_status": "publish",
+      "name": "Eco-Friendly Cat Scratcher Toy",
+      "sku": "CJJJCWMY00923",
+      "permalink": "https://aicommerce9.wpcomstaging.com/product/eco-friendly-cat-scratcher-toy/"
+    },
+    {
+      "id": 18,
+      "status_code": 200,
+      "ok": true,
+      "product_status": "publish",
+      "name": "Non-slip silicone pet feeding bowl",
+      "sku": "PET-BOWL-001",
+      "permalink": "https://aicommerce9.wpcomstaging.com/product/non-slip-silicone-pet-feeding-bowl/"
+    }
+  ],
+  "status": "WOOCOMMERCE_FINAL_PUBLISH_ATTEMPTED"
+}

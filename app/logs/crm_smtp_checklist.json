@@ -1,0 +1,15 @@
+{
+  "smtp_setup_required": true,
+  "required_values": {
+    "SMTP_HOST": "smtp.gmail.com or your provider SMTP host",
+    "SMTP_PORT": "587",
+    "SMTP_USER": "your real email",
+    "SMTP_PASSWORD": "app password, not normal password",
+    "SMTP_FROM_EMAIL": "same sender email"
+  },
+  "current_mode": "template_only",
+  "sending_guard": "enabled",
+  "real_send_allowed": false,
+  "next_action": "replace placeholder SMTP values in .env when ready",
+  "status": "CRM_SMTP_CHECKLIST_READY"
+}
