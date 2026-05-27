@@ -2000,3 +2000,36 @@ def init_db():
 # --- End DB init endpoint ---
 
 
+
+# --- Meta events list endpoint ---
+@app.get("/api/meta/events")
+def list_meta_events(limit: int = 20):
+    from app.db import SessionLocal
+    from app.models import MetaEvent
+
+    db = SessionLocal()
+    events = (
+        db.query(MetaEvent)
+        .order_by(MetaEvent.id.desc())
+        .limit(limit)
+        .all()
+    )
+    db.close()
+
+    return {
+        "ok": True,
+        "count": len(events),
+        "events": [
+            {
+                "id": e.id,
+                "event_name": e.event_name,
+                "pixel_id": e.pixel_id,
+                "status_code": e.status_code,
+                "ok": e.ok,
+                "source": e.source,
+                "created_at": str(e.created_at)
+            }
+            for e in events
+        ]
+    }
+# --- End Meta events list endpoint ---
