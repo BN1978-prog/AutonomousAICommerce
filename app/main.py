@@ -2091,3 +2091,49 @@ def meta_funnel():
         }
     }
 # --- End Meta funnel endpoint ---
+
+# --- Meta AI recommendation endpoint ---
+@app.get("/api/meta/ai-recommendation")
+def meta_ai_recommendation():
+    from app.db import SessionLocal
+    from app.models import MetaEvent
+
+    db = SessionLocal()
+
+    pageviews = db.query(MetaEvent).filter(MetaEvent.event_name == "PageView").count()
+    add_to_cart = db.query(MetaEvent).filter(MetaEvent.event_name == "AddToCart").count()
+    purchases = db.query(MetaEvent).filter(MetaEvent.event_name == "Purchase").count()
+
+    db.close()
+
+    add_to_cart_rate = (add_to_cart / pageviews) * 100 if pageviews else 0
+    purchase_rate = (purchases / pageviews) * 100 if pageviews else 0
+
+    if purchases >= 1 and purchase_rate >= 5:
+        action = "SCALE"
+        reason = "Purchase conversion detected. Campaign has positive conversion signal."
+    elif add_to_cart >= 1 and purchases == 0:
+        action = "HOLD"
+        reason = "AddToCart exists but no Purchase yet. Keep budget stable and collect more data."
+    elif pageviews >= 10 and add_to_cart == 0:
+        action = "PAUSE_OR_FIX_FUNNEL"
+        reason = "Traffic is coming but no AddToCart. Check product page, price, offer, or targeting."
+    else:
+        action = "COLLECT_MORE_DATA"
+        reason = "Not enough event volume for confident optimization."
+
+    return {
+        "ok": True,
+        "metrics": {
+            "pageviews": pageviews,
+            "add_to_cart": add_to_cart,
+            "purchases": purchases,
+            "add_to_cart_rate_percent": round(add_to_cart_rate, 2),
+            "purchase_rate_percent": round(purchase_rate, 2)
+        },
+        "recommendation": {
+            "action": action,
+            "reason": reason
+        }
+    }
+# --- End Meta AI recommendation endpoint ---
