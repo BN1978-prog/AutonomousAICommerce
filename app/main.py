@@ -2058,3 +2058,36 @@ def meta_events_summary():
         }
     }
 # --- End Meta events summary endpoint ---
+
+# --- Meta funnel endpoint ---
+@app.get("/api/meta/funnel")
+def meta_funnel():
+    from app.db import SessionLocal
+    from app.models import MetaEvent
+
+    db = SessionLocal()
+
+    pageviews = db.query(MetaEvent).filter(MetaEvent.event_name == "PageView").count()
+    add_to_cart = db.query(MetaEvent).filter(MetaEvent.event_name == "AddToCart").count()
+    purchases = db.query(MetaEvent).filter(MetaEvent.event_name == "Purchase").count()
+
+    db.close()
+
+    add_to_cart_rate = round((add_to_cart / pageviews) * 100, 2) if pageviews else 0
+    purchase_rate = round((purchases / pageviews) * 100, 2) if pageviews else 0
+    cart_to_purchase_rate = round((purchases / add_to_cart) * 100, 2) if add_to_cart else 0
+
+    return {
+        "ok": True,
+        "funnel": {
+            "PageView": pageviews,
+            "AddToCart": add_to_cart,
+            "Purchase": purchases
+        },
+        "conversion_rates": {
+            "pageview_to_addtocart_percent": add_to_cart_rate,
+            "pageview_to_purchase_percent": purchase_rate,
+            "addtocart_to_purchase_percent": cart_to_purchase_rate
+        }
+    }
+# --- End Meta funnel endpoint ---
