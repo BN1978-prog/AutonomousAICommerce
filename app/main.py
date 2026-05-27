@@ -1904,3 +1904,53 @@ def dashboard_shopify_catalog_health():
 app.include_router(commerce_router)
 
 
+
+# --- Meta CAPI test endpoint ---
+import time
+import requests
+from fastapi import Request
+
+@app.post("/api/meta/test-event")
+async def meta_test_event(request: Request):
+    payload = await request.json()
+    token = os.getenv("META_ACCESS_TOKEN", "")
+    pixel_id = os.getenv("META_PIXEL_ID", "1295235916117226")
+
+    if not token:
+        return {
+            "ok": False,
+            "error": "META_ACCESS_TOKEN missing",
+            "next": "Add META_ACCESS_TOKEN in Railway Variables"
+        }
+
+    body = {
+        "data": [
+            {
+                "event_name": payload.get("event_name", "PageView"),
+                "event_time": int(time.time()),
+                "action_source": "website",
+                "event_source_url": payload.get(
+                    "event_source_url",
+                    "https://autonomousaicommerce-production.up.railway.app/dashboard"
+                ),
+                "user_data": {
+                    "client_user_agent": payload.get("user_agent", "PowerShell-Railway-Test")
+                }
+            }
+        ]
+    }
+
+    r = requests.post(
+        f"https://graph.facebook.com/v19.0/{pixel_id}/events",
+        params={"access_token": token},
+        json=body,
+        timeout=15
+    )
+
+    return {
+        "ok": r.ok,
+        "status_code": r.status_code,
+        "meta_response": r.json()
+    }
+# --- End Meta CAPI test endpoint ---
+
