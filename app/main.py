@@ -1929,7 +1929,8 @@ async def meta_test_event(request: Request):
                 "event_source_url": "https://autonomousaicommerce-production.up.railway.app/dashboard",
                 "user_data": {
                     "client_ip_address": request.client.host,
-                    "client_user_agent": request.headers.get("user-agent", "PowerShell-Railway-Test")
+                    "client_user_agent": request.headers.get("user-agent", "PowerShell-Railway-Test"),
+                    "external_id": "9b0f3f0f6f8c7c7f1b9b9b6d6b3e0f2a2d9d6f2b8e2e6a3c9c1c2a1a0b0c0d0e"
                 }
             }]
         }
@@ -1956,6 +1957,7 @@ async def meta_test_event(request: Request):
     except Exception as e:
         return {"ok": False, "error": str(e)}
 # --- End Meta CAPI test endpoint ---
+
 
 
 
