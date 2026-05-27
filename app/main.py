@@ -1947,11 +1947,38 @@ async def meta_test_event(request: Request):
         except Exception:
             meta_response = r.text
 
+                try:
+            from app.db import SessionLocal
+            from app.models import MetaEvent
+
+            db = SessionLocal()
+            db.add(MetaEvent(
+                event_name=payload.get("event_name", "PageView"),
+                pixel_id=pixel_id,
+                status_code=r.status_code,
+                ok=str(r.ok),
+                source=payload.get("source", "unknown"),
+                event_source_url="https://autonomousaicommerce-production.up.railway.app/dashboard",
+                meta_response=meta_response
+            ))
+            db.commit()
+            db.close()
+        except Exception as db_error:
+            return {
+                "ok": r.ok,
+                "status_code": r.status_code,
+                "pixel_id": pixel_id,
+                "meta_response": meta_response,
+                "db_saved": False,
+                "db_error": str(db_error)
+            }
+
         return {
             "ok": r.ok,
             "status_code": r.status_code,
             "pixel_id": pixel_id,
-            "meta_response": meta_response
+            "meta_response": meta_response,
+            "db_saved": True
         }
 
     except Exception as e:
@@ -1971,3 +1998,4 @@ def init_db():
     Base.metadata.create_all(bind=engine)
     return {"ok": True, "tables": ["meta_events"]}
 # --- End DB init endpoint ---
+
