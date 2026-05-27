@@ -2033,3 +2033,28 @@ def list_meta_events(limit: int = 20):
         ]
     }
 # --- End Meta events list endpoint ---
+
+# --- Meta events summary endpoint ---
+@app.get("/api/meta/events/summary")
+def meta_events_summary():
+    from app.db import SessionLocal
+    from app.models import MetaEvent
+    from sqlalchemy import func
+
+    db = SessionLocal()
+    rows = (
+        db.query(MetaEvent.event_name, func.count(MetaEvent.id))
+        .group_by(MetaEvent.event_name)
+        .all()
+    )
+    total = db.query(func.count(MetaEvent.id)).scalar()
+    db.close()
+
+    return {
+        "ok": True,
+        "total_events": total,
+        "by_event": {
+            name: count for name, count in rows
+        }
+    }
+# --- End Meta events summary endpoint ---
