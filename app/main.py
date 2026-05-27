@@ -1907,50 +1907,53 @@ app.include_router(commerce_router)
 
 # --- Meta CAPI test endpoint ---
 import time
+import os
 import requests
 from fastapi import Request
 
 @app.post("/api/meta/test-event")
 async def meta_test_event(request: Request):
-    payload = await request.json()
-    token = os.getenv("META_ACCESS_TOKEN", "")
-    pixel_id = os.getenv("META_PIXEL_ID", "1295235916117226")
+    try:
+        payload = await request.json()
+        token = os.getenv("META_ACCESS_TOKEN", "")
+        pixel_id = os.getenv("META_PIXEL_ID", "1505172060984672")
 
-    if not token:
-        return {
-            "ok": False,
-            "error": "META_ACCESS_TOKEN missing",
-            "next": "Add META_ACCESS_TOKEN in Railway Variables"
-        }
+        if not token:
+            return {"ok": False, "error": "META_ACCESS_TOKEN missing"}
 
-    body = {
-        "data": [
-            {
+        body = {
+            "data": [{
                 "event_name": payload.get("event_name", "PageView"),
                 "event_time": int(time.time()),
                 "action_source": "website",
-                "event_source_url": payload.get(
-                    "event_source_url",
-                    "https://autonomousaicommerce-production.up.railway.app/dashboard"
-                ),
+                "event_source_url": "https://autonomousaicommerce-production.up.railway.app/dashboard",
                 "user_data": {
-                    "client_user_agent": payload.get("user_agent", "PowerShell-Railway-Test")
+                    "client_user_agent": "PowerShell-Railway-Test"
                 }
-            }
-        ]
-    }
+            }]
+        }
 
-    r = requests.post(
-        f"https://graph.facebook.com/v19.0/{pixel_id}/events",
-        params={"access_token": token},
-        json=body,
-        timeout=15
-    )
+        r = requests.post(
+            f"https://graph.facebook.com/v19.0/{pixel_id}/events",
+            params={"access_token": token},
+            json=body,
+            timeout=20
+        )
 
-    return {
-        "ok": r.ok,
-        "status_code": r.status_code,
-        "meta_response": r.json()
-    }
+        try:
+            meta_response = r.json()
+        except Exception:
+            meta_response = r.text
+
+        return {
+            "ok": r.ok,
+            "status_code": r.status_code,
+            "pixel_id": pixel_id,
+            "meta_response": meta_response
+        }
+
+    except Exception as e:
+        return {"ok": False, "error": str(e)}
 # --- End Meta CAPI test endpoint ---
+
 
