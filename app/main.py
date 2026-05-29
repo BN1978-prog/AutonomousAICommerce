@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+﻿from dotenv import load_dotenv
 load_dotenv()
 import requests
 def load_env_local():
@@ -2358,3 +2358,14 @@ def meta_campaigns():
         "meta_response": data
     }
 # --- End Meta campaigns read endpoint ---
+
+from fastapi.responses import FileResponse
+
+@app.get("/feeds/meta-products.xml")
+def meta_products_feed():
+    return FileResponse(
+        "data/catalog/meta-products.xml",
+        media_type="application/xml",
+        filename="meta-products.xml"
+    )
+
