@@ -2,150 +2,107 @@
 from pathlib import Path
 from xml.etree.ElementTree import Element, SubElement, tostring
 
-
-def _load_json_files():
-    products = []
-
-    folders = [
-        Path("data/published_products"),
-        Path("data/products"),
-        Path("data/catalog"),
-        Path("app/logs")
-    ]
-
-    for folder in folders:
-        if not folder.exists():
-            continue
-
-        for file in folder.glob("*.json"):
-            try:
-                data = json.loads(file.read_text(encoding="utf-8"))
-
-                if isinstance(data, list):
-                    products.extend([x for x in data if isinstance(x, dict)])
-
-                elif isinstance(data, dict):
-                    # imported_skus.json style: {"SKU": {"product_id": ...}}
-                    if all(isinstance(v, dict) for v in data.values()):
-                        for sku, meta in data.items():
-                            item = dict(meta)
-                            item.setdefault("sku", sku)
-                            products.append(item)
-                    else:
-                        products.append(data)
-            except Exception:
-                pass
-
-    return products
+SHOP_URL = "https://aicommerce9.wpcomstaging.com"
+DRAFTS = Path("app/logs/shopify_drafts")
+OUT = Path("data/catalog/meta-products.xml")
 
 
-def _first(*values, default=""):
-    for value in values:
-        if value not in [None, "", []]:
-            return value
-    return default
+def get_product(data):
+    return data.get("result", {}).get("response", {}).get("product", {})
+
+
+def get_first_variant(product):
+    variants = product.get("variants", [])
+    return variants[0] if variants and isinstance(variants[0], dict) else {}
+
+
+def get_image(product):
+    image = product.get("image")
+    if isinstance(image, dict) and image.get("src"):
+        return image["src"]
+
+    images = product.get("images", [])
+    if images and isinstance(images[0], dict) and images[0].get("src"):
+        return images[0]["src"]
+
+    return ""
+
+
+def valid_price(price):
+    try:
+        return float(price) > 0
+    except Exception:
+        return False
 
 
 def generate_meta_products_xml():
-    products = _load_json_files()
-
     rss = Element("rss", {
         "version": "2.0",
         "xmlns:g": "http://base.google.com/ns/1.0"
     })
 
     channel = SubElement(rss, "channel")
-    SubElement(channel, "title").text = "AICommerce Global Feed"
-    SubElement(channel, "link").text = "https://aicommerce9.wpcomstaging.com"
-    SubElement(channel, "description").text = "AICommerce Global automated product feed"
+    SubElement(channel, "title").text = "AICommerce Shopify Feed"
+    SubElement(channel, "link").text = SHOP_URL
+    SubElement(channel, "description").text = "AICommerce Shopify product feed for Meta Commerce"
 
     seen = set()
 
-    for p in products:
-        sku = _first(
-            p.get("sku"),
-            p.get("id"),
-            p.get("product_id"),
-            p.get("handle")
-        )
+    for file in sorted(DRAFTS.glob("*.json")):
+        try:
+            data = json.loads(file.read_text(encoding="utf-8-sig"))
+        except Exception:
+            continue
+
+        product = get_product(data)
+        if not product:
+            continue
+
+        variant = get_first_variant(product)
+        sku = variant.get("sku")
+        title = product.get("title")
+        description = product.get("body_html") or title
+        handle = product.get("handle")
+        price = variant.get("price")
+        inventory = variant.get("inventory_quantity", 1)
+        image = get_image(product)
 
         if not sku or sku in seen:
             continue
+        if not title or not handle:
+            continue
+        if not valid_price(price):
+            continue
+        if not image or "picsum.photos" in image or "example.com" in image:
+            continue
 
         seen.add(sku)
-
-        title = _first(
-            p.get("title"),
-            p.get("name"),
-            p.get("product_title"),
-            sku
-        )
-
-        description = _first(
-            p.get("description"),
-            p.get("body_html"),
-            p.get("short_description"),
-            title
-        )
-
-        price = _first(
-            p.get("price"),
-            p.get("regular_price"),
-            p.get("current_price"),
-            default="0.00"
-        )
-
-        inventory = _first(
-            p.get("inventory"),
-            p.get("inventory_quantity"),
-            p.get("stock_quantity"),
-            p.get("current_inventory"),
-            default=1
-        )
 
         try:
             availability = "in stock" if int(float(inventory)) > 0 else "out of stock"
         except Exception:
             availability = "in stock"
 
-        link = _first(
-            p.get("permalink"),
-            p.get("url"),
-            p.get("product_url"),
-            default="https://aicommerce9.wpcomstaging.com"
-        )
-
-        image_link = _first(
-            p.get("image"),
-            p.get("image_url"),
-            p.get("featured_image"),
-            default="https://picsum.photos/300"
-        )
-
         item = SubElement(channel, "item")
         SubElement(item, "g:id").text = str(sku)
         SubElement(item, "g:title").text = str(title)
         SubElement(item, "g:description").text = str(description)
-        SubElement(item, "g:link").text = str(link)
-        SubElement(item, "g:image_link").text = str(image_link)
+        SubElement(item, "g:link").text = f"{SHOP_URL}/products/{handle}"
+        SubElement(item, "g:image_link").text = str(image)
         SubElement(item, "g:availability").text = availability
         SubElement(item, "g:condition").text = "new"
         SubElement(item, "g:price").text = f"{price} GBP"
-        SubElement(item, "g:brand").text = "AICommerce Global"
+        SubElement(item, "g:brand").text = product.get("vendor") or "AICommerce Global"
 
     return tostring(rss, encoding="utf-8", xml_declaration=True)
 
 
 def main():
-    out_dir = Path("data/catalog")
-    out_dir.mkdir(parents=True, exist_ok=True)
-
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     xml = generate_meta_products_xml()
-    out = out_dir / "meta-products.xml"
-    out.write_bytes(xml)
-
-    print("META FEED GENERATED:", out)
-    print("SIZE:", out.stat().st_size)
+    OUT.write_bytes(xml)
+    print("META FEED GENERATED:", OUT)
+    print("SIZE:", OUT.stat().st_size)
 
 
 if __name__ == "__main__":
