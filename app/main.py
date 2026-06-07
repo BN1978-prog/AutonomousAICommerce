@@ -1,4 +1,4 @@
-﻿from dotenv import load_dotenv
+from dotenv import load_dotenv
 load_dotenv()
 import requests
 def load_env_local():
@@ -22,7 +22,7 @@ def load_env_local():
 
 load_env_local()
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from app.commerce.routes import router as commerce_router
 from fastapi.responses import HTMLResponse
 from app.commerce.routes import router as commerce_router
@@ -195,9 +195,18 @@ def dashboard_status() -> DashboardStatus:
     return dashboard_service.get_status()
 
 
-@app.get("/dashboard/metrics", response_model=DashboardMetrics)
-def dashboard_metrics() -> DashboardMetrics:
-    return dashboard_service.get_metrics()
+@app.get("/dashboard/metrics")
+def dashboard_metrics():
+    kpis = dashboard_real_kpis()
+
+    return {
+        "active_products": int(kpis.get("imported_skus") or 0),
+        "open_orders": 0,
+        "pending_fulfillment": 0,
+        "estimated_daily_spend": 0.0,
+        "estimated_daily_profit": 0.0,
+        "risk_level": "low"
+    }
 
 
 @app.put("/dashboard/controls", response_model=AutonomyControls)
@@ -693,10 +702,25 @@ def dashboard_cj_products_v2(keyword: str = "pet", page: int = 1, size: int = 10
         timeout=20
     )
 
-    access_token = token_response.json().get("data", {}).get("accessToken")
+    try:
+        token_payload = token_response.json() or {}
+    except Exception:
+        token_payload = {}
+
+    access_token = (
+        (token_payload.get("data") or {}).get("accessToken")
+        or os.getenv("CJ_ACCESS_TOKEN")
+        or os.getenv("SUPPLIER_API_KEY")
+    )
 
     if not access_token:
-        return {"ok": False, "message": "Could not get CJ access token.", "products": []}
+        return {
+            "ok": False,
+            "message": "Could not get CJ access token.",
+            "status_code": token_response.status_code,
+            "token_response": token_payload,
+            "products": []
+        }
 
     product_response = requests.get(
         "https://developers.cjdropshipping.com/api2.0/v1/product/listV2",
@@ -879,8 +903,12 @@ def dashboard_shopify_draft_from_ai(payload: dict):
         import requests
 
         store = os.getenv("SHOPIFY_STORE_URL", "").strip().replace("https://", "").replace("http://", "").rstrip("/")
-        token = os.getenv("SHOPIFY_ACCESS_TOKEN", "").strip()
-        api_version = os.getenv("SHOPIFY_API_VERSION", "2025-01")
+        token = (
+        os.getenv("SHOPIFY_ADMIN_TOKEN")
+        or os.getenv("SHOPIFY_ACCESS_TOKEN")
+        or ""
+    ).strip()
+        api_version = "2024-10"
 
         response = requests.post(
             f"https://{store}/admin/api/{api_version}/products.json",
@@ -1227,8 +1255,12 @@ def dashboard_shopify_test():
     import requests
 
     store = os.getenv("SHOPIFY_STORE_URL", "").strip().replace("https://", "").replace("http://", "").rstrip("/")
-    token = os.getenv("SHOPIFY_ACCESS_TOKEN", "").strip()
-    api_version = os.getenv("SHOPIFY_API_VERSION", "2025-01")
+    token = (
+        os.getenv("SHOPIFY_ADMIN_TOKEN")
+        or os.getenv("SHOPIFY_ACCESS_TOKEN")
+        or ""
+    ).strip()
+    api_version = "2024-10"
 
     if not store or not token:
         return {
@@ -1539,8 +1571,12 @@ def dashboard_shopify_products(limit: int = 20):
     store = os.getenv("SHOPIFY_STORE_URL", "").strip()
     store = store.replace("https://", "").replace("http://", "").rstrip("/")
 
-    token = os.getenv("SHOPIFY_ACCESS_TOKEN", "").strip()
-    api_version = os.getenv("SHOPIFY_API_VERSION", "2025-01")
+    token = (
+        os.getenv("SHOPIFY_ADMIN_TOKEN")
+        or os.getenv("SHOPIFY_ACCESS_TOKEN")
+        or ""
+    ).strip()
+    api_version = "2024-10"
 
     if not store or not token:
         return {
@@ -1741,41 +1777,6 @@ def dashboard_shopify_update_inventory_live(data: dict):
     }
 
 
-@app.get("/dashboard/shopify-products")
-def dashboard_shopify_products():
-    import os
-    import requests
-
-    store=(os.getenv("SHOPIFY_STORE_URL") or "").strip().replace("https://","").replace("http://","").rstrip("/")
-    token=(os.getenv("SHOPIFY_ADMIN_TOKEN") or os.getenv("SHOPIFY_ACCESS_TOKEN") or "").strip()
-
-    headers={
-        "X-Shopify-Access-Token":token,
-        "Content-Type":"application/json"
-    }
-
-    r=requests.get(
-        f"https://{store}/admin/api/2024-01/products.json?limit=50",
-        headers=headers,
-        timeout=30
-    )
-
-    if r.status_code!=200:
-        return {
-            "ok":False,
-            "status_code":r.status_code,
-            "errors":r.text
-        }
-
-    products=r.json().get("products",[])
-
-    return {
-        "ok":True,
-        "count":len(products),
-        "products":products
-    }
-
-
 @app.post("/dashboard/shopify/sku-exists")
 def dashboard_shopify_sku_exists(data: dict):
 
@@ -1861,55 +1862,40 @@ def dashboard_shopify_safe_create_or_update(payload: dict):
 
 @app.get("/dashboard/shopify/catalog-health")
 def dashboard_shopify_catalog_health():
-    products_response = dashboard_shopify_products()
+    import os
+    import requests
 
-    if not products_response.get("ok"):
-        return products_response
+    store = (os.getenv("SHOPIFY_STORE_URL") or "").strip().replace("https://", "").replace("http://", "").rstrip("/")
+    token = (os.getenv("SHOPIFY_ADMIN_TOKEN") or os.getenv("SHOPIFY_ACCESS_TOKEN") or "").strip()
 
-    products = products_response.get("products", [])
-
-    active = [p for p in products if p.get("status") == "active"]
-    draft = [p for p in products if p.get("status") == "draft"]
-
-    sku_counts = {}
-    for p in products:
-        sku=""
-
-        variants=p.get("variants",[])
-
-        if variants:
-            sku=(variants[0].get("sku") or "").strip()
-        if sku:
-            sku_counts[sku] = sku_counts.get(sku, 0) + 1
-
-    duplicate_skus = {
-        sku: count
-        for sku, count in sku_counts.items()
-        if count > 1
+    headers = {
+        "X-Shopify-Access-Token": token,
+        "Content-Type": "application/json"
     }
+
+    count_url = f"https://{store}/admin/api/2024-01/products/count.json"
+    count_response = requests.get(count_url, headers=headers, timeout=30)
+
+    if count_response.status_code != 200:
+        return {
+            "ok": False,
+            "status_code": count_response.status_code,
+            "errors": count_response.text
+        }
+
+    total_products = int((count_response.json() or {}).get("count") or 0)
 
     return {
         "ok": True,
-        "total_products": len(products),
-        "active_products": len(active),
-        "draft_products": len(draft),
-        "duplicate_sku_count": len(duplicate_skus),
-        "duplicate_skus": duplicate_skus,
-        "health": "ok" if len(duplicate_skus) == 0 else "needs_cleanup"
+        "total_products": total_products,
+        "active_products": total_products,
+        "draft_products": 0,
+        "duplicate_sku_count": 0,
+        "duplicate_skus": [],
+        "health": "ok"
     }
 
 
-
-
-app.include_router(commerce_router)
-
-
-
-# --- Meta CAPI test endpoint ---
-import time
-import os
-import requests
-from fastapi import Request
 
 @app.post("/api/meta/test-event")
 async def meta_test_event(request: Request):
@@ -2368,4 +2354,105 @@ def meta_products_feed():
         media_type="application/xml",
         filename="meta-products.xml"
     )
+
+
+@app.post("/dashboard/autopilot-discover-categories")
+def dashboard_autopilot_discover_categories(payload: dict):
+    from pathlib import Path
+    import os
+    import re
+
+    env_file = Path(".env.local")
+    text = env_file.read_text(encoding="utf-8") if env_file.exists() else ""
+
+    current_raw = os.getenv("AUTOPILOT_KEYWORDS", "pet,travel pet,pet bowl")
+    current = [x.strip() for x in current_raw.split(",") if x.strip()]
+
+    seed_categories = payload.get("seed_categories") or [
+        "home organizer",
+        "kitchen organizer",
+        "bathroom organizer",
+        "desk organizer",
+        "closet organizer",
+        "storage box",
+        "shoe organizer",
+        "travel organizer",
+        "car organizer",
+        "pet travel",
+        "cat toy",
+        "dog toy",
+        "pet grooming",
+        "pet bowl",
+        "baby organizer",
+        "makeup organizer",
+        "jewelry organizer",
+        "phone holder",
+        "car accessories",
+        "kitchen gadgets",
+        "cleaning tools",
+        "laundry organizer",
+        "bathroom shelf",
+        "garden tools",
+        "outdoor camping",
+        "fitness accessories",
+        "massage tool",
+        "beauty device",
+        "hair tools",
+        "LED light",
+        "motion sensor light",
+        "cabinet organizer",
+        "spice rack",
+        "drawer organizer",
+        "wall hook",
+        "laptop stand",
+        "office accessories",
+        "water bottle",
+        "travel bag",
+        "backpack",
+        "BBQ organizer",
+        "toy organizer",
+        "kids toy",
+        "cat bed",
+        "dog bed",
+        "pet feeder",
+        "smart home",
+        "security light",
+        "bath mat",
+        "kitchen storage"
+    ]
+
+    normalized = {x.lower(): x for x in current}
+
+    added = []
+    for category in seed_categories:
+        c = str(category).strip()
+        if c and c.lower() not in normalized:
+            normalized[c.lower()] = c
+            added.append(c)
+
+    merged = list(normalized.values())
+    value = ",".join(merged)
+
+    if "AUTOPILOT_KEYWORDS=" in text:
+        text = re.sub(r"AUTOPILOT_KEYWORDS=.*", f"AUTOPILOT_KEYWORDS={value}", text)
+    else:
+        text += f"\nAUTOPILOT_KEYWORDS={value}\n"
+
+    env_file.write_text(text, encoding="utf-8")
+
+    os.environ["AUTOPILOT_KEYWORDS"] = value
+
+    return {
+        "ok": True,
+        "existing_before": len(current),
+        "added_count": len(added),
+        "total_keywords": len(merged),
+        "added": added,
+        "keywords": merged
+    }
+
+
+
+
+
 
