@@ -1239,9 +1239,9 @@ def dashboard_autopilot_real_draft_run(payload: dict):
         "max_real_drafts": max_real_drafts,
         "min_score": min_score,
         "safety": {
-            "publishing": "disabled",
-            "supplier_purchase": "disabled",
-            "shopify_status": "draft"
+            "publishing": "enabled" if os.getenv("PUBLISHING_ENABLED", "false").lower() == "true" else "disabled",
+            "supplier_purchase": "enabled" if os.getenv("SUPPLIER_PURCHASE_ENABLED", "false").lower() == "true" else "disabled",
+            "shopify_status": "active" if os.getenv("AUTO_PUBLISH_ENABLED", "false").lower() == "true" else "draft"
         },
         "results": results
     }
@@ -1360,9 +1360,9 @@ def dashboard_autopilot_schedule_status():
         "min_score": os.getenv("AUTOPILOT_MIN_SCORE", "85"),
         "keywords": os.getenv("AUTOPILOT_KEYWORDS", "pet,travel pet,pet bowl"),
         "safety": {
-            "shopify_status": "draft",
-            "publishing": "disabled",
-            "supplier_purchase": "disabled"
+            "shopify_status": "active" if os.getenv("AUTO_PUBLISH_ENABLED", "false").lower() == "true" else "draft",
+            "publishing": "enabled" if os.getenv("PUBLISHING_ENABLED", "false").lower() == "true" else "disabled",
+            "supplier_purchase": "enabled" if os.getenv("SUPPLIER_PURCHASE_ENABLED", "false").lower() == "true" else "disabled"
         }
     }
 
