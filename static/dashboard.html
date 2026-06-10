@@ -3470,7 +3470,7 @@ async function loadCommerceOverview() {
 
   try {
 
-    const res = await fetch("/commerce/overview");
+    const res = await fetch("/dashboard/live-summary");
 
     const data = await res.json();
 
@@ -3482,13 +3482,13 @@ async function loadCommerceOverview() {
 
     document.getElementById("health").textContent = (totals.system_health || "unknown").toUpperCase();
 
-    document.getElementById("active_products").textContent = totals.products ?? 0;
+    document.getElementById("active_products").textContent = totals.total_products ?? 0;
 
-    document.getElementById("open_orders").textContent = totals.orders ?? 0;
+    document.getElementById("open_orders").textContent = totals.total_orders ?? 0;
 
-    document.getElementById("profit").textContent = "Ј" + (totals.revenue ?? 0);
+    document.getElementById("profit").textContent = "Ј" + (totals.total_revenue ?? 0);
 
-    document.getElementById("active_channels").textContent = totals.active_channels ?? 0;
+    document.getElementById("active_channels").textContent = totals.connected_channels ?? 0;
 
     document.getElementById("pending_syncs").textContent = totals.pending_syncs ?? 0;
 
@@ -3598,7 +3598,7 @@ async function loadCommerceOverview() {
 
   try {
 
-    const res = await fetch("/commerce/overview");
+    const res = await fetch("/dashboard/live-summary");
 
     const data = await res.json();
 
@@ -3610,13 +3610,13 @@ async function loadCommerceOverview() {
 
     document.getElementById("health").textContent = (totals.system_health || "unknown").toUpperCase();
 
-    document.getElementById("active_products").textContent = totals.products ?? 0;
+    document.getElementById("active_products").textContent = totals.total_products ?? 0;
 
-    document.getElementById("open_orders").textContent = totals.orders ?? 0;
+    document.getElementById("open_orders").textContent = totals.total_orders ?? 0;
 
-    document.getElementById("profit").textContent = "Ј" + (totals.revenue ?? 0);
+    document.getElementById("profit").textContent = "Ј" + (totals.total_revenue ?? 0);
 
-    document.getElementById("active_channels").textContent = totals.active_channels ?? 0;
+    document.getElementById("active_channels").textContent = totals.connected_channels ?? 0;
 
     document.getElementById("pending_syncs").textContent = totals.pending_syncs ?? 0;
 
