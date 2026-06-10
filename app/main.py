@@ -2456,3 +2456,14 @@ def dashboard_autopilot_discover_categories(payload: dict):
 
 
 
+
+
+@app.get("/dashboard/ads-status")
+def dashboard_ads_status():
+    import os
+    return {
+        "ads_enabled": os.getenv("ADS_ENABLED", "false"),
+        "google_ads_enabled": os.getenv("GOOGLE_ADS_ENABLED", "false"),
+        "meta_ads_enabled": os.getenv("META_ADS_ENABLED", "false"),
+        "max_daily_ad_spend": os.getenv("MAX_DAILY_AD_SPEND", "0")
+    }
