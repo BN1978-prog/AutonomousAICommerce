@@ -2518,21 +2518,40 @@ def dashboard_ads_toggle(payload: dict):
     }
 
 
+
 @app.get("/dashboard/live-summary")
 def dashboard_live_summary():
-    catalog = dashboard_shopify_catalog_health()
-    orders = dashboard_shopify_auto_orders_summary() if "dashboard_shopify_auto_orders_summary" in globals() else {}
-    metrics = dashboard_metrics()
+    catalog = {}
+    orders = {}
+    metrics = {}
+
+    try:
+        catalog = dashboard_shopify_catalog_health()
+    except Exception as e:
+        catalog = {"ok": False, "error": str(e)}
+
+    try:
+        orders = shopify_auto_orders_summary()
+    except Exception:
+        try:
+            orders = dashboard_shopify_auto_orders_summary()
+        except Exception:
+            orders = {}
+
+    try:
+        metrics = dashboard_metrics()
+    except Exception:
+        metrics = {}
 
     return {
         "system_health": "OK" if catalog.get("ok") else "UNKNOWN",
-        "total_products": catalog.get("total_products", 0),
-        "active_products": catalog.get("active_products", 0),
-        "total_orders": orders.get("orders_count", 0),
-        "total_revenue": orders.get("total_revenue", 0),
+        "total_products": catalog.get("total_products") or metrics.get("active_products") or 0,
+        "active_products": catalog.get("active_products") or metrics.get("active_products") or 0,
+        "total_orders": orders.get("orders_count") or metrics.get("open_orders") or 0,
+        "total_revenue": orders.get("total_revenue") or 0,
         "connected_channels": 2,
-        "pending_syncs": metrics.get("pending_fulfillment", 0),
-        "risk_level": metrics.get("risk_level", "unknown")
+        "pending_syncs": metrics.get("pending_fulfillment") or 0,
+        "risk_level": metrics.get("risk_level") or "low"
     }
 
 
