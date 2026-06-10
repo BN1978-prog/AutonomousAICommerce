@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AIC Live Dashboard</title>
+<style>
+body{margin:0;background:#111827;color:white;font-family:Arial}
+.wrap{padding:40px;margin-left:220px}
+.sidebar{position:fixed;left:0;top:0;width:200px;height:100vh;background:#020617;padding:30px}
+.card{background:#1f2937;border:1px solid #334155;border-radius:18px;padding:24px;margin:12px;display:inline-block;min-width:180px}
+.card span{color:#93c5fd;display:block;margin-bottom:12px}
+.card strong{font-size:34px}
+button{padding:12px 20px;border:0;border-radius:12px;margin-right:10px;font-weight:bold}
+.off{background:#ef4444;color:white}
+.on{background:#22c55e;color:white}
+</style>
+</head>
+<body>
+<div class="sidebar"><h1>AIC</h1><p>Live Dashboard</p></div>
+<div class="wrap">
+<h1>Autonomous AI Commerce</h1>
+<p>Live Commerce Overview</p>
+
+<div class="card"><span>System Health</span><strong id="health">...</strong></div>
+<div class="card"><span>Total Products</span><strong id="products">...</strong></div>
+<div class="card"><span>Total Orders</span><strong id="orders">...</strong></div>
+<div class="card"><span>Total Revenue</span><strong id="revenue">...</strong></div>
+<div class="card"><span>Connected Channels</span><strong id="channels">...</strong></div>
+<div class="card"><span>Pending Syncs</span><strong id="pending">...</strong></div>
+
+<h2>Paid Ads Control</h2>
+<button class="off" onclick="adsOff()">OFF</button>
+<button class="on" onclick="adsOn()">ON</button>
+<pre id="ads"></pre>
+</div>
+
+<script>
+async function load(){
+ const s=await fetch('/dashboard/live-summary?ts='+Date.now()).then(r=>r.json());
+ health.textContent=s.system_health||'OK';
+ products.textContent=s.total_products??0;
+ orders.textContent=s.total_orders??0;
+ revenue.textContent='$'+(s.total_revenue??0);
+ channels.textContent=s.connected_channels??0;
+ pending.textContent=s.pending_syncs??0;
+
+ const a=await fetch('/dashboard/ads-status?ts='+Date.now()).then(r=>r.json());
+ ads.textContent=JSON.stringify(a,null,2);
+}
+async function adsOff(){
+ await fetch('/dashboard/ads-toggle',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({enabled:false,max_daily_ad_spend:0})});
+ load();
+}
+async function adsOn(){
+ await fetch('/dashboard/ads-toggle',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({enabled:true,max_daily_ad_spend:10})});
+ load();
+}
+load();
+setInterval(load,30000);
+</script>
+</body>
+</html>

@@ -2534,3 +2534,9 @@ def dashboard_live_summary():
         "pending_syncs": metrics.get("pending_fulfillment", 0),
         "risk_level": metrics.get("risk_level", "unknown")
     }
+
+
+@app.get("/live-dashboard")
+def live_dashboard_page():
+    from fastapi.responses import FileResponse
+    return FileResponse("static/live_dashboard.html")
