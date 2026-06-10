@@ -518,13 +518,13 @@ async function refreshDashboard() {
 
     frontendDebug?.("Loading status...");
 
-    const status = await api("/dashboard/status");
+    const status = await fetch("/dashboard/live-summary").then(r=>r.json());
 
 
 
     frontendDebug?.("Loading metrics...");
 
-    const metrics = await api("/dashboard/metrics");
+    const metrics = status;
 
 
 
