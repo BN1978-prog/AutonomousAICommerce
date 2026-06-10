@@ -1,4 +1,4 @@
-ï»¿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 <script>
@@ -81,7 +81,7 @@ button[onclick*="analyze"] {
   <div class="card"><span>System Health</span><strong id="health">ONLINE</strong></div>
   <div class="card"><span>Total Products</span><strong id="active_products">0</strong></div>
   <div class="card"><span>Total Orders</span><strong id="open_orders">0</strong></div>
-  <div class="card"><span>Total Revenue</span><strong id="profit">Â£0</strong></div>
+  <div class="card"><span>Total Revenue</span><strong id="profit">£0</strong></div>
   <div class="card"><span>Connected Channels</span><strong id="active_channels">4</strong></div>
   <div class="card"><span>Pending Syncs</span><strong id="pending_syncs">0</strong></div>
 </section>
@@ -101,9 +101,9 @@ button[onclick*="analyze"] {
 </thead>
 
 <tbody id="channel_summary_body">
-<tr><td>Shopify</td><td>0</td><td>0</td><td>Â£0</td><td>--</td></tr>
-<tr><td>WooCommerce</td><td>0</td><td>0</td><td>Â£0</td><td>--</td></tr>
-<tr><td>Meta</td><td>0</td><td>0</td><td>Â£0</td><td>--</td></tr>
+<tr><td>Shopify</td><td>0</td><td>0</td><td>£0</td><td>--</td></tr>
+<tr><td>WooCommerce</td><td>0</td><td>0</td><td>£0</td><td>--</td></tr>
+<tr><td>Meta</td><td>0</td><td>0</td><td>£0</td><td>--</td></tr>
 <tr><td>CJ Dropshipping</td><td>0</td><td>-</td><td>-</td><td>--</td></tr>
 </tbody>
 
@@ -549,7 +549,7 @@ function addRunHistory(summary) {
   const review = summary.needs_review ?? 0;
 
   item.innerHTML = `
-    <span>${new Date().toLocaleTimeString()} â€” Checked: ${checked}, Listed: ${listed}, Review: ${review}</span>
+    <span>${new Date().toLocaleTimeString()} — Checked: ${checked}, Listed: ${listed}, Review: ${review}</span>
     <strong>Complete</strong>
   `;
 
@@ -1580,7 +1580,7 @@ async function refreshAutopilotKpis() {
         <div class="kpi-card"><strong>${data.draft_products}</strong><span>Draft Products</span></div>
         <div class="kpi-card"><strong>${data.active_products}</strong><span>Active Products</span></div>
         <div class="kpi-card"><strong>${data.tracked_skus}</strong><span>Tracked SKUs</span></div>
-        <div class="kpi-card"><strong>Â£${data.estimated_revenue_if_one_each}</strong><span>Estimated Revenue</span></div>
+        <div class="kpi-card"><strong>£${data.estimated_revenue_if_one_each}</strong><span>Estimated Revenue</span></div>
         <div class="kpi-card"><strong>${data.publish_ratio_percent}%</strong><span>Publish Ratio</span></div>
       </div>
 
@@ -1742,7 +1742,7 @@ async function loadCommerceOverview() {
     document.getElementById("health").textContent = (totals.system_health || "unknown").toUpperCase();
     document.getElementById("active_products").textContent = totals.products ?? 0;
     document.getElementById("open_orders").textContent = totals.orders ?? 0;
-    document.getElementById("profit").textContent = "Â£" + (totals.revenue ?? 0);
+    document.getElementById("profit").textContent = "£" + (totals.revenue ?? 0);
     document.getElementById("active_channels").textContent = totals.active_channels ?? 0;
     document.getElementById("pending_syncs").textContent = totals.pending_syncs ?? 0;
 
@@ -1753,7 +1753,7 @@ async function loadCommerceOverview() {
           <td>${c.name}</td>
           <td>${c.products ?? "-"}</td>
           <td>${c.orders ?? "-"}</td>
-          <td>${c.revenue === null ? "-" : "Â£" + c.revenue}</td>
+          <td>${c.revenue === null ? "-" : "£" + c.revenue}</td>
           <td>${c.status || "unknown"}</td>
         </tr>
       `).join("");
@@ -1806,7 +1806,7 @@ async function loadCommerceOverview() {
     document.getElementById("health").textContent = (totals.system_health || "unknown").toUpperCase();
     document.getElementById("active_products").textContent = totals.products ?? 0;
     document.getElementById("open_orders").textContent = totals.orders ?? 0;
-    document.getElementById("profit").textContent = "Â£" + (totals.revenue ?? 0);
+    document.getElementById("profit").textContent = "£" + (totals.revenue ?? 0);
     document.getElementById("active_channels").textContent = totals.active_channels ?? 0;
     document.getElementById("pending_syncs").textContent = totals.pending_syncs ?? 0;
 
@@ -1817,7 +1817,7 @@ async function loadCommerceOverview() {
           <td>${c.name}</td>
           <td>${c.products ?? "-"}</td>
           <td>${c.orders ?? "-"}</td>
-          <td>${c.revenue === null ? "-" : "Â£" + c.revenue}</td>
+          <td>${c.revenue === null ? "-" : "£" + c.revenue}</td>
           <td>${c.status || "unknown"}</td>
         </tr>
       `).join("");
@@ -1831,6 +1831,7 @@ loadCommerceOverview();
 setInterval(loadCommerceOverview, 30000);
 
 </script>
+
 
 
 
