@@ -2551,8 +2551,7 @@ def dashboard_live_summary():
         "total_revenue": orders.get("total_revenue") or 0,
         "connected_channels": 2,
         "pending_syncs": metrics.get("pending_fulfillment") or 0,
-        "risk_level": metrics.get("risk_level") or "low",
-        "catalog_debug": catalog
+        "risk_level": metrics.get("risk_level") or "low"
     }
 
 
