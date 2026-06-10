@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-05-23T19:26:48.420986+00:00",
+  "created_at": "2026-06-10T19:58:33.213037+00:00",
   "ok": false,
-  "status": "missing_amazon_refresh_token"
+  "status": "missing_amazon_lwa_credentials"
 }

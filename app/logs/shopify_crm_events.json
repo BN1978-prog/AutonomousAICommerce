@@ -1,7 +1,16 @@
 {
-  "created_at": "2026-05-27T15:29:06.000941+00:00",
+  "created_at": "2026-06-10T19:58:34.781365+00:00",
   "orders_status": 200,
   "customers_status": 200,
-  "events_count": 0,
-  "events": []
+  "events_count": 1,
+  "events": [
+    {
+      "event_type": "win_back",
+      "email": "fenix1978@list.ru",
+      "customer_id": 10604029182294,
+      "first_name": "Nicolai",
+      "last_name": "Baboglo",
+      "created_at": "2026-05-30T23:06:00+01:00"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 AICommerce Daily Autopilot Summary
 ========================================
-Created at: 2026-05-27T15:29:09.477745+00:00
+Created at: 2026-06-10T19:59:26.092043+00:00
 
 Top products:
 - non_slip_silicone_pet_feeding_bowl: score=143, sales=8, clicks=63, published=8
@@ -22,18 +22,34 @@ Next test priorities:
 - #5 affordable_dog_bed: score=15, action=increase_testing
 
 Last autopilot steps:
-- refresh_shopify_token: OK
+- railway_health_check: ERROR
+- token_manager: OK
+- refresh_ebay_token: OK
+- google_ads_token_refresher: OK
+- meta_token_refresh: OK
+- meta_page_token_refresh: OK
+- amazon_token_refresher: OK
 - shopify_crm_events: OK
+- real_sales_collector: OK
+- cj_paid_order_fulfillment: ERROR
 - crm_personalized_drafts: OK
 - crm_readiness_summary: OK
 - etsy_connection_status: OK
 - etsy_autopilot: OK
+- real_trend_discovery: ERROR
+- autonomous_trend_filter: ERROR
 - exploration_engine_v2: OK
 - build_priority_queue: OK
 - publish_execution_plan: OK
+- trend_listing_validator: ERROR
+- cj_trend_bridge: ERROR
+- supplier_candidate_filter: ERROR
+- seo_product_optimizer: ERROR
+- profit_checked_products: ERROR
 - action_executor: OK
 - social_content_generator: OK
 - social_content_enhancer: OK
+- auto_publish_or_fallback: OK
 - meta_ad_drafts_from_content: OK
 - google_ad_drafts_from_content: OK
 - campaign_hub: OK
@@ -59,6 +75,7 @@ Last autopilot steps:
 - live_api_execution_gate: OK
 - live_execution_reporter: OK
 - live_mode_final_lock: OK
+- meta_long_lived_token: ERROR
 - meta_live_executor: OK
 - google_live_executor: OK
 - live_execution_consolidator: OK

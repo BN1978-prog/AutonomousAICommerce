@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-05-27T15:29:15.331595+00:00",
+  "created_at": "2026-06-10T19:59:32.877647+00:00",
   "real_execution_enabled": true,
   "campaigns_attempted": 1,
   "results": [
@@ -9,7 +9,7 @@
       "campaign_name": "AICommerce_AUTO_non_slip_silicone_pet_feeding_bowl",
       "requested_status": "PAUSED",
       "http_status": 200,
-      "response": "{\"id\":\"52565189418836\"}",
+      "response": "{\"id\":\"120253697978890093\"}",
       "real_api_called": true,
       "real_money_spent": 0
     }

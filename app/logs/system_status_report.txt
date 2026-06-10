@@ -1,6 +1,6 @@
 AICommerce System Status Report
 ========================================
-Created at: 2026-05-27T15:29:09.325347+00:00
+Created at: 2026-06-10T19:59:25.934141+00:00
 
 Core:
 - MASTER_SYSTEM_HEALTHY_SAFE_MODE
@@ -49,9 +49,9 @@ Action executor:
 - pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy: increase_testing_frequency -> scheduled
 - pet_slow_feeder_dog_toy_cute_funny_rubber_dog_ball_toy: consider_campaign_candidate -> scheduled
 Last autopilot steps:
-- live_api_execution_gate: OK
 - live_execution_reporter: OK
 - live_mode_final_lock: OK
+- meta_long_lived_token: ERROR
 - meta_live_executor: OK
 - google_live_executor: OK
 - live_execution_consolidator: OK

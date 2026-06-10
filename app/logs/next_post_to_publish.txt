@@ -1,13 +1,13 @@
 PRIORITY: normal
 CHANNEL WINNER: instagram
-PRODUCT ID: comfortable_pet_travel_backpack
+PRODUCT ID: cat_scratcher_boxed
 CATEGORY: shopify product
 ACTION: keep_testing
 
-Looking for a useful pet product?
+New pet care pick to test today.
 
-This Comfortable Pet Travel Backpack is available now in our store.
+The Cat scratcher boxed is available now in our store.
 
-Shop now: https://aicommerce-test-store-2.myshopify.com/products/comfortable-pet-travel-backpack?utm_source=instagram&utm_medium=social&utm_campaign=comfortable_pet_travel_backpack_keep_testing_1
+Shop now: https://aicommerce-test-store-2.myshopify.com/products/cat-scratcher-boxed?utm_source=instagram&utm_medium=social&utm_campaign=cat_scratcher_boxed_keep_testing_1
 
 #petproducts #petcare #shopping #onlinestore

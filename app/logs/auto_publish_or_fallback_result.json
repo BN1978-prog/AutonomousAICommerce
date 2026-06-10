@@ -1,11 +1,8 @@
 {
-  "created_at": "2026-05-25T15:16:45.372801+00:00",
+  "created_at": "2026-06-10T19:59:24.291434+00:00",
   "mode": "try_api_then_fallback",
-  "posted": true,
+  "posted": false,
   "fallback_ready": true,
-  "hash": "f2994ac5771369682138eff0f7b8d134346d7f03a81c1d66891377d7f8c71c8b",
-  "status_code": 200,
-  "response": {
-    "id": "1045219518685639_122099604309333585"
-  }
+  "hash": "9b48c2060396c0df288777fdba5d9c92c968052981f7b9cf7163ecd9746c5040",
+  "message": "Meta API blocked or failed. Post copied to fallback file."
 }
