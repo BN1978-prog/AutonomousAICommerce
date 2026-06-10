@@ -166,7 +166,50 @@ button[onclick*="analyze"] {
 
 
 
-</main>
+
+<div class="card" style="margin-top:24px">
+  <h2>Paid Ads Control</h2>
+  <p>Meta / Google paid traffic master switch</p>
+
+  <button onclick="adsOff()" style="padding:10px 16px;margin-right:8px">?? Paid Ads OFF</button>
+  <button onclick="adsOn()" style="padding:10px 16px">? Paid Ads ON</button>
+
+  <div id="ads-status" style="margin-top:12px;font-weight:600">Loading ads status...</div>
+</div>
+
+<script>
+async function loadAdsStatus(){
+  const r = await fetch('/dashboard/ads-status');
+  const d = await r.json();
+  document.getElementById('ads-status').innerHTML =
+    'ADS_ENABLED: ' + d.ads_enabled + '<br>' +
+    'GOOGLE_ADS_ENABLED: ' + d.google_ads_enabled + '<br>' +
+    'META_ADS_ENABLED: ' + d.meta_ads_enabled + '<br>' +
+    'MAX_DAILY_AD_SPEND: $' + d.max_daily_ad_spend;
+}
+
+async function adsOff(){
+  await fetch('/dashboard/ads-toggle', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({enabled:false, max_daily_ad_spend:0})
+  });
+  await loadAdsStatus();
+}
+
+async function adsOn(){
+  const limit = prompt('Max daily ad spend?', '10') || '10';
+  await fetch('/dashboard/ads-toggle', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({enabled:true, max_daily_ad_spend:limit})
+  });
+  await loadAdsStatus();
+}
+
+loadAdsStatus();
+</script>
+`n</main>
 
 <script>
 async function api(path, options = {}) {
