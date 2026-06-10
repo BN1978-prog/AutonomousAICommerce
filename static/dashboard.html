@@ -716,7 +716,7 @@ async function saveControls() {
 
   refreshDashboard();
 
-if (typeof refreshRealKpis === "function") {
+// removed {
     refreshRealKpis();
 } {
   refreshRealKpis();
@@ -872,7 +872,7 @@ async function runDaily() {
 
     refreshDashboard();
 
-if (typeof refreshRealKpis === "function") {
+// removed {
     refreshRealKpis();
 } {
   refreshRealKpis();
@@ -1476,7 +1476,7 @@ async function runFullDaily() {
 
     refreshDashboard();
 
-if (typeof refreshRealKpis === "function") {
+// removed {
     refreshRealKpis();
 }fullDailyRunning = false;
 
@@ -1730,9 +1730,9 @@ function toggleAutoRefresh() {
 
         await refreshDashboard();
 
-if (typeof refreshRealKpis === "function") {
+// removed {
     refreshRealKpis();
-}if (typeof refreshRealKpis === "function") {
+}// removed {
     refreshRealKpis();
 } {
 
@@ -3464,77 +3464,13 @@ function saveDashboardSettings() {
 
 refreshDashboard();
 
-if (typeof refreshRealKpis === "function") {
+// removed {
     refreshRealKpis();
 }loadDashboardSettings();
 
 
 
-async function loadCommerceOverview() {
 
-  try {
-
-    const res = await fetch("/dashboard/live-summary");
-
-    const data = await res.json();
-
-
-
-    const totals = data.totals || data || {};
-
-
-
-    document.getElementById("health").textContent = (totals.system_health || "unknown").toUpperCase();
-
-    document.getElementById("active_products").textContent = totals.total_products ?? 0;
-
-    document.getElementById("open_orders").textContent = totals.total_orders ?? 0;
-
-    document.getElementById("profit").textContent = "Ј" + (totals.total_revenue ?? 0);
-
-    document.getElementById("active_channels").textContent = totals.connected_channels ?? 0;
-
-    document.getElementById("pending_syncs").textContent = totals.pending_syncs ?? 0;
-
-
-
-    const body = document.getElementById("channel_summary_body");
-
-    if (body) {
-
-      body.innerHTML = (data.channels || []).map(c => `
-
-        <tr>
-
-          <td>${c.name}</td>
-
-          <td>${c.products ?? "-"}</td>
-
-          <td>${c.orders ?? "-"}</td>
-
-          <td>${c.revenue === null ? "-" : "Ј" + c.revenue}</td>
-
-          <td>${c.status || "unknown"}</td>
-
-        </tr>
-
-      `).join("");
-
-    }
-
-  } catch (e) {
-
-    console.error(e);
-
-  }
-
-}
-
-
-
-loadCommerceOverview();
-
-setInterval(loadCommerceOverview, 30000);
 
 
 
