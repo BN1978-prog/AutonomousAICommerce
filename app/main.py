@@ -2467,3 +2467,52 @@ def dashboard_ads_status():
         "meta_ads_enabled": os.getenv("META_ADS_ENABLED", "false"),
         "max_daily_ad_spend": os.getenv("MAX_DAILY_AD_SPEND", "0")
     }
+
+
+@app.post("/dashboard/ads-toggle")
+def dashboard_ads_toggle(payload: dict):
+    import os
+    from pathlib import Path
+
+    enabled = bool(payload.get("enabled", False))
+    value = "true" if enabled else "false"
+    ad_spend = str(payload.get("max_daily_ad_spend", "10" if enabled else "0"))
+
+    updates = {
+        "ADS_ENABLED": value,
+        "GOOGLE_ADS_ENABLED": value,
+        "META_ADS_ENABLED": value,
+        "MAX_DAILY_AD_SPEND": ad_spend
+    }
+
+    env_file = Path(".env.local")
+    lines = []
+    if env_file.exists():
+        lines = env_file.read_text(encoding="utf-8").splitlines()
+
+    found = set()
+    new_lines = []
+
+    for line in lines:
+        key = line.split("=", 1)[0] if "=" in line else ""
+        if key in updates:
+            new_lines.append(f"{key}={updates[key]}")
+            found.add(key)
+        else:
+            new_lines.append(line)
+
+    for key, val in updates.items():
+        if key not in found:
+            new_lines.append(f"{key}={val}")
+
+    env_file.write_text("\n".join(new_lines) + "\n", encoding="utf-8")
+
+    os.environ.update(updates)
+
+    return {
+        "ok": True,
+        "ads_enabled": value,
+        "google_ads_enabled": value,
+        "meta_ads_enabled": value,
+        "max_daily_ad_spend": ad_spend
+    }
