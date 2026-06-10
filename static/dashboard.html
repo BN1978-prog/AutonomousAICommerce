@@ -716,8 +716,10 @@ async function saveControls() {
 
   refreshDashboard();
 
-if (typeof refreshRealKpis === "function") 
-
+if (typeof refreshRealKpis === "function") {
+    refreshRealKpis();
+} {
+  refreshRealKpis();
 }
 
 
@@ -870,9 +872,11 @@ async function runDaily() {
 
     refreshDashboard();
 
-if (typeof refreshRealKpis === "function") 
-
-  } catch (e) {
+if (typeof refreshRealKpis === "function") {
+    refreshRealKpis();
+} {
+  refreshRealKpis();
+} catch (e) {
 
     document.getElementById("run_report").textContent = String(e);
 
@@ -1472,11 +1476,9 @@ async function runFullDaily() {
 
     refreshDashboard();
 
-if (typeof refreshRealKpis === "function") 
-
-
-
-    fullDailyRunning = false;
+if (typeof refreshRealKpis === "function") {
+    refreshRealKpis();
+}fullDailyRunning = false;
 
 
 
@@ -1728,9 +1730,11 @@ function toggleAutoRefresh() {
 
         await refreshDashboard();
 
-if (typeof refreshRealKpis === "function") 
-
-        if (typeof refreshRealKpis === "function") {
+if (typeof refreshRealKpis === "function") {
+    refreshRealKpis();
+}if (typeof refreshRealKpis === "function") {
+    refreshRealKpis();
+} {
 
           await 
 
@@ -3460,9 +3464,9 @@ function saveDashboardSettings() {
 
 refreshDashboard();
 
-if (typeof refreshRealKpis === "function") 
-
-loadDashboardSettings();
+if (typeof refreshRealKpis === "function") {
+    refreshRealKpis();
+}loadDashboardSettings();
 
 
 
