@@ -2516,3 +2516,21 @@ def dashboard_ads_toggle(payload: dict):
         "meta_ads_enabled": value,
         "max_daily_ad_spend": ad_spend
     }
+
+
+@app.get("/dashboard/live-summary")
+def dashboard_live_summary():
+    catalog = dashboard_shopify_catalog_health()
+    orders = dashboard_shopify_auto_orders_summary() if "dashboard_shopify_auto_orders_summary" in globals() else {}
+    metrics = dashboard_metrics()
+
+    return {
+        "system_health": "OK" if catalog.get("ok") else "UNKNOWN",
+        "total_products": catalog.get("total_products", 0),
+        "active_products": catalog.get("active_products", 0),
+        "total_orders": orders.get("orders_count", 0),
+        "total_revenue": orders.get("total_revenue", 0),
+        "connected_channels": 2,
+        "pending_syncs": metrics.get("pending_fulfillment", 0),
+        "risk_level": metrics.get("risk_level", "unknown")
+    }
