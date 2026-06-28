@@ -20,12 +20,27 @@ def build_channel_health(catalog=None):
     # Shopify
     if catalog.get("ok"):
         channels.append(_status("shopify", True, "connected", "catalog API OK"))
-    elif catalog:
-        channels.append(_status("shopify", False, "auth_failed", str(catalog.get("errors") or catalog.get("error") or "Shopify check failed")))
-    elif os.getenv("SHOPIFY_ACCESS_TOKEN"):
-        channels.append(_status("shopify", False, "unknown", "token exists but catalog was not checked"))
     else:
-        channels.append(_status("shopify", False, "missing_token", "SHOPIFY_ACCESS_TOKEN missing"))
+        repair = {}
+        try:
+            import json
+            repair_path = Path("app/logs/shopify_token_auto_repair.json")
+            if repair_path.exists():
+                repair = json.loads(repair_path.read_text(encoding="utf-8-sig"))
+        except Exception as e:
+            repair = {"status": "repair_log_unreadable", "error": str(e)}
+
+        reason = str(
+            catalog.get("errors")
+            or catalog.get("error")
+            or repair.get("status")
+            or "Shopify check failed"
+        )
+
+        if os.getenv("SHOPIFY_ACCESS_TOKEN"):
+            channels.append(_status("shopify", False, "auth_failed", reason))
+        else:
+            channels.append(_status("shopify", False, "missing_token", "SHOPIFY_ACCESS_TOKEN missing"))
 
     # OpenAI
     channels.append(
