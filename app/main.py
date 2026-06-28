@@ -1,3 +1,4 @@
+from app.channel_health import build_channel_health
 from app.channel_sync_manager import sync_all_channels
 from dotenv import load_dotenv
 load_dotenv()
@@ -2546,22 +2547,16 @@ def dashboard_live_summary():
     except Exception:
         metrics = {}
 
+    channel_health = build_channel_health(catalog)
+
     return {
         "system_health": "OK" if catalog.get("ok") else "UNKNOWN",
         "total_products": catalog.get("total_products") or metrics.get("active_products") or 0,
         "active_products": catalog.get("active_products") or metrics.get("active_products") or 0,
         "total_orders": orders.get("orders_count") or metrics.get("open_orders") or 0,
         "total_revenue": orders.get("total_revenue") or 0,
-        
-        "connected_channels": sum([
-            bool(catalog.get("ok")),
-            bool(orders.get("ok", True)),
-            True,  # OpenAI
-            False, # Amazon
-            False, # Etsy
-            False, # Meta
-            False  # Google
-        ]),
+        "connected_channels": channel_health.get("connected_channels", 0),
+        "channels": channel_health.get("channels", []),
 
         "pending_syncs": metrics.get("pending_fulfillment") or 0,
         "risk_level": metrics.get("risk_level") or "low",
@@ -2573,3 +2568,12 @@ def dashboard_live_summary():
 def live_dashboard_page():
     from fastapi.responses import FileResponse
     return FileResponse("static/live_dashboard.html")
+
+
+@app.get("/dashboard/channel-health")
+def dashboard_channel_health():
+    try:
+        catalog = dashboard_shopify_catalog_health()
+    except Exception as e:
+        catalog = {"ok": False, "error": str(e)}
+    return build_channel_health(catalog)
