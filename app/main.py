@@ -65,6 +65,62 @@ from app.shopify_automation.routes import router as shopify_automation_router
 
 
 settings = get_settings()
+
+def ensure_runtime_env_file():
+    import os
+    from pathlib import Path
+
+    env_path = Path(".env")
+    if env_path.exists():
+        return
+
+    keys = [
+        "OPENAI_API_KEY",
+        "SHOPIFY_STORE_URL",
+        "SHOPIFY_SHOP_DOMAIN",
+        "SHOPIFY_ACCESS_TOKEN",
+        "SHOPIFY_ADMIN_TOKEN",
+        "SHOPIFY_API_VERSION",
+        "META_ACCESS_TOKEN",
+        "META_APP_ID",
+        "META_APP_SECRET",
+        "META_PAGE_ID",
+        "GOOGLE_ADS_REFRESH_TOKEN",
+        "GOOGLE_ADS_ACCESS_TOKEN",
+        "GOOGLE_ADS_CLIENT_ID",
+        "GOOGLE_ADS_CLIENT_SECRET",
+        "AMAZON_REFRESH_TOKEN",
+        "AMAZON_ACCESS_TOKEN",
+        "AMAZON_LWA_CLIENT_ID",
+        "AMAZON_LWA_CLIENT_SECRET",
+        "AMAZON_SELLER_ID",
+        "AMAZON_MARKETPLACE_ID",
+        "ETSY_API_KEY",
+        "ETSY_CLIENT_ID",
+        "ETSY_CLIENT_SECRET",
+        "ETSY_REDIRECT_URI",
+        "ETSY_ACCESS_TOKEN",
+        "ETSY_REFRESH_TOKEN",
+        "ETSY_SHOP_ID",
+        "EBAY_REFRESH_TOKEN",
+        "EBAY_ACCESS_TOKEN",
+        "WOOCOMMERCE_URL",
+        "WOOCOMMERCE_CONSUMER_KEY",
+        "WOOCOMMERCE_CONSUMER_SECRET",
+    ]
+
+    lines = []
+    for k in keys:
+        v = os.getenv(k)
+        if v:
+            v = str(v).replace("\n", "").replace("\r", "")
+            lines.append(f"{k}={v}")
+
+    env_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+ensure_runtime_env_file()
+
 app = FastAPI(title=settings.app_name, version="0.11.0")
 supplier_registry = SupplierRegistry()
 marketplace_registry = MarketplaceRegistry()
