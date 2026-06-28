@@ -1,3 +1,4 @@
+from app.env_manager import load_local_env, get_env
 import json
 import os
 import re
@@ -9,7 +10,10 @@ ENV=Path(".env")
 OUT=Path("app/logs/meta_token_refresh.json")
 
 def env_text():
-    return ENV.read_text(encoding="utf-8")
+    load_local_env()
+    if ENV.exists():
+        return ENV.read_text(encoding="utf-8", errors="ignore")
+    return ""
 
 def env_get(key):
     t=env_text()
