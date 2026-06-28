@@ -1,3 +1,4 @@
+from app.channel_sync_manager import sync_all_channels
 from dotenv import load_dotenv
 load_dotenv()
 import requests
@@ -1374,6 +1375,8 @@ async def start_autopilot_scheduler():
     import json
     from pathlib import Path
     from datetime import datetime
+
+    sync_all_channels()
 
     async def scheduler_loop():
         while True:
