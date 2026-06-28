@@ -2552,7 +2552,17 @@ def dashboard_live_summary():
         "active_products": catalog.get("active_products") or metrics.get("active_products") or 0,
         "total_orders": orders.get("orders_count") or metrics.get("open_orders") or 0,
         "total_revenue": orders.get("total_revenue") or 0,
-        "connected_channels": 2,
+        
+        "connected_channels": sum([
+            bool(catalog.get("ok")),
+            bool(orders.get("ok", True)),
+            True,  # OpenAI
+            False, # Amazon
+            False, # Etsy
+            False, # Meta
+            False  # Google
+        ]),
+
         "pending_syncs": metrics.get("pending_fulfillment") or 0,
         "risk_level": metrics.get("risk_level") or "low"
     }
