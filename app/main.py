@@ -1,3 +1,60 @@
+
+def get_working_shopify_token(store, api_version="2024-01"):
+    import os
+    import requests
+
+    candidates = []
+
+    admin = (os.getenv("SHOPIFY_ADMIN_TOKEN") or "").strip()
+    access = (os.getenv("SHOPIFY_ACCESS_TOKEN") or "").strip()
+
+    if admin:
+        candidates.append(("SHOPIFY_ADMIN_TOKEN", admin))
+    if access and access != admin:
+        candidates.append(("SHOPIFY_ACCESS_TOKEN", access))
+
+    last = {
+        "ok": False,
+        "status_code": None,
+        "error": "No Shopify token configured",
+        "source": None,
+    }
+
+    for source, token in candidates:
+        try:
+            r = requests.get(
+                f"https://{store}/admin/api/{api_version}/shop.json",
+                headers={
+                    "X-Shopify-Access-Token": token,
+                    "Content-Type": "application/json",
+                },
+                timeout=20,
+            )
+            if r.status_code == 200:
+                return {
+                    "ok": True,
+                    "token": token,
+                    "source": source,
+                    "status_code": 200,
+                }
+
+            last = {
+                "ok": False,
+                "status_code": r.status_code,
+                "error": r.text[:1000],
+                "source": source,
+            }
+        except Exception as e:
+            last = {
+                "ok": False,
+                "status_code": None,
+                "error": str(e),
+                "source": source,
+            }
+
+    return last
+
+
 from app.channel_health import build_channel_health
 from app.channel_sync_manager import sync_all_channels
 from dotenv import load_dotenv
@@ -1925,22 +1982,41 @@ def dashboard_shopify_catalog_health():
     import os
     import requests
 
-    store = (os.getenv("SHOPIFY_STORE_URL") or "").strip().replace("https://", "").replace("http://", "").rstrip("/")
-    token = (os.getenv("SHOPIFY_ADMIN_TOKEN") or os.getenv("SHOPIFY_ACCESS_TOKEN") or "").strip()
+    store = (os.getenv("SHOPIFY_STORE_URL") or os.getenv("SHOPIFY_SHOP_DOMAIN") or "").strip().replace("https://", "").replace("http://", "").rstrip("/")
+    api_version = os.getenv("SHOPIFY_API_VERSION", "2024-01").strip() or "2024-01"
 
+    if not store:
+        return {
+            "ok": False,
+            "status_code": None,
+            "errors": "SHOPIFY_STORE_URL missing"
+        }
+
+    token_check = get_working_shopify_token(store, api_version)
+
+    if not token_check.get("ok"):
+        return {
+            "ok": False,
+            "status_code": token_check.get("status_code"),
+            "errors": token_check.get("error"),
+            "token_source": token_check.get("source")
+        }
+
+    token = token_check["token"]
     headers = {
         "X-Shopify-Access-Token": token,
         "Content-Type": "application/json"
     }
 
-    count_url = f"https://{store}/admin/api/2024-01/products/count.json"
+    count_url = f"https://{store}/admin/api/{api_version}/products/count.json"
     count_response = requests.get(count_url, headers=headers, timeout=30)
 
     if count_response.status_code != 200:
         return {
             "ok": False,
             "status_code": count_response.status_code,
-            "errors": count_response.text
+            "errors": count_response.text[:1000],
+            "token_source": token_check.get("source")
         }
 
     total_products = int((count_response.json() or {}).get("count") or 0)
@@ -1952,9 +2028,9 @@ def dashboard_shopify_catalog_health():
         "draft_products": 0,
         "duplicate_sku_count": 0,
         "duplicate_skus": [],
-        "health": "ok"
+        "health": "ok",
+        "token_source": token_check.get("source")
     }
-
 
 
 @app.post("/api/meta/test-event")
