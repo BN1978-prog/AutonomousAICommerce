@@ -23,7 +23,6 @@ def build_channel_health(catalog=None):
     else:
         repair = {}
         try:
-            import json
             repair_path = Path("app/logs/shopify_token_auto_repair.json")
             if repair_path.exists():
                 repair = json.loads(repair_path.read_text(encoding="utf-8-sig"))
