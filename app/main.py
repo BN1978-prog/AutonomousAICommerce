@@ -2564,7 +2564,8 @@ def dashboard_live_summary():
         ]),
 
         "pending_syncs": metrics.get("pending_fulfillment") or 0,
-        "risk_level": metrics.get("risk_level") or "low"
+        "risk_level": metrics.get("risk_level") or "low",
+        "code_version": "dynamic_channels_v1"
     }
 
 
