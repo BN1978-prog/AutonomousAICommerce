@@ -2709,3 +2709,47 @@ def dashboard_channel_health():
     except Exception as e:
         catalog = {"ok": False, "error": str(e)}
     return build_channel_health(catalog)
+
+
+@app.get("/debug/shopify-fallback")
+def debug_shopify_fallback():
+    import os
+    import requests
+
+    store = (
+        os.getenv("SHOPIFY_STORE_URL")
+        or os.getenv("SHOPIFY_SHOP_DOMAIN")
+        or ""
+    ).replace("https://","").rstrip("/")
+
+    version = os.getenv("SHOPIFY_API_VERSION","2024-10")
+
+    result = {}
+
+    for name in ["SHOPIFY_ADMIN_TOKEN","SHOPIFY_ACCESS_TOKEN"]:
+        token = (os.getenv(name) or "").strip()
+
+        if not token:
+            result[name] = {"present": False}
+            continue
+
+        try:
+            r = requests.get(
+                f"https://{store}/admin/api/{version}/shop.json",
+                headers={"X-Shopify-Access-Token": token},
+                timeout=20
+            )
+
+            result[name] = {
+                "present": True,
+                "status": r.status_code,
+                "first100": r.text[:100]
+            }
+
+        except Exception as e:
+            result[name] = {
+                "present": True,
+                "error": str(e)
+            }
+
+    return result
