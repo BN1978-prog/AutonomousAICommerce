@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-06-29T22:10:33.294759+00:00",
+  "status": "UNIVERSAL_PUBLISHER_DRY_RUN",
+  "mode": "DRY_RUN",
+  "drafts": 1,
+  "results": [
+    {
+      "sku": "CJQC294920701AZ",
+      "mode": "DRY_RUN",
+      "status": "planned",
+      "created_at": "2026-06-29T22:10:33.294759+00:00",
+      "title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Au",
+      "price": 47.5,
+      "channels": {
+        "shopify": {
+          "enabled": true,
+          "status": "ready_for_publish",
+          "payload_preview": {
+            "title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Au",
+            "body_html": "",
+            "vendor": "AICommerce",
+            "product_type": "Automobiles & Motorcycles / Auto Replacement Parts / Interior Parts",
+            "status": "draft",
+            "variants": [
+              {
+                "sku": "CJQC294920701AZ",
+                "price": "47.5",
+                "inventory_policy": "continue",
+                "fulfillment_service": "manual"
+              }
+            ],
+            "images": [
+              {
+                "src": "https://cf.cjdropshipping.com/c17cbd93-0ade-4972-9efc-73e638e160fd.jpg"
+              }
+            ]
+          }
+        },
+        "etsy": {
+          "enabled": true,
+          "status": "ready_for_publish",
+          "payload_preview": {
+            "title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Au",
+            "description": "",
+            "price": 47.5,
+            "quantity": 999,
+            "who_made": "i_did",
+            "when_made": "made_to_order",
+            "taxonomy_id": null,
+            "shipping_profile_id": null,
+            "is_digital": false
+          }
+        },
+        "ebay": {
+          "enabled": true,
+          "status": "ready_for_publish",
+          "payload_preview": {
+            "sku": "CJQC294920701AZ",
+            "title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Ma",
+            "description": "",
+            "price": 47.5,
+            "currency": "GBP",
+            "condition": "NEW"
+          }
+        },
+        "woocommerce": {
+          "enabled": true,
+          "status": "ready_for_publish",
+          "payload_preview": {
+            "name": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Au",
+            "type": "simple",
+            "regular_price": "47.5",
+            "description": "",
+            "sku": "CJQC294920701AZ",
+            "images": [
+              {
+                "src": "https://cf.cjdropshipping.com/c17cbd93-0ade-4972-9efc-73e638e160fd.jpg"
+              }
+            ]
+          }
+        },
+        "amazon": {
+          "enabled": false,
+          "status": "skipped_disabled"
+        }
+      }
+    }
+  ],
+  "note": "No marketplace API calls were made."
+}
