@@ -164,7 +164,7 @@ button[onclick*="analyze"] {
 
   <div class="card"><span>Total Orders</span><strong id="open_orders">0</strong></div>
 
-  <div class="card"><span>Total Revenue</span><strong id="profit">Ј0</strong></div>
+  <div class="card"><span>Total Revenue</span><strong id="profit">GBP 0</strong></div>
 
   <div class="card"><span>Connected Channels</span><strong id="active_channels">4</strong></div>
 
@@ -204,7 +204,7 @@ button[onclick*="analyze"] {
 
 <tbody id="channel_summary_body">
 
-<tr><td>Shopify</td><td>0</td><td>0</td><td>Ј0</td><td>--</td></tr>
+<tr><td>Shopify</td><td>GBP 0</td><td>GBP 0</td><td>GBP 0</td><td>--</td></tr>
 
 <tr><td>WooCommerce</td><td>0</td><td>0</td><td>Ј0</td><td>--</td></tr>
 
@@ -3166,7 +3166,7 @@ async function refreshAutopilotKpis() {
 
         <div class="kpi-card"><strong>${data.tracked_skus}</strong><span>Tracked SKUs</span></div>
 
-        <div class="kpi-card"><strong>Ј${data.estimated_revenue_if_one_each}</strong><span>Estimated Revenue</span></div>
+        <div class="kpi-card"><strong>GBP ${data.estimated_revenue_if_one_each}</strong><span>Estimated Revenue</span></div>
 
         <div class="kpi-card"><strong>${data.publish_ratio_percent}%</strong><span>Publish Ratio</span></div>
 
@@ -3554,7 +3554,7 @@ async function loadCommerceOverview() {
 
     document.getElementById("open_orders").textContent = totals.total_orders ?? 0;
 
-    document.getElementById("profit").textContent = "Ј" + (totals.total_revenue ?? 0);
+    document.getElementById("profit").textContent = "GBP " + (totals.total_revenue ?? 0);
 
     document.getElementById("active_channels").textContent = totals.connected_channels ?? 0;
 
