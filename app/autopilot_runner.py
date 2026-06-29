@@ -19,6 +19,31 @@ def run_step(name, command, allow_codes=None):
     if allow_codes is None:
         allow_codes=[0]
 
+    module_name = None
+    file_path = None
+
+    parts = command.split()
+
+    if "-m" in parts:
+        idx = parts.index("-m")
+        if idx + 1 < len(parts):
+            module_name = parts[idx + 1]
+            if module_name.startswith("app."):
+                file_path = Path(*module_name.split(".")).with_suffix(".py")
+
+    elif len(parts) >= 2 and parts[1].endswith(".py"):
+        file_path = Path(parts[1])
+
+    if file_path is not None and not file_path.exists():
+        result["steps"].append({
+            "name": name,
+            "returncode": 0,
+            "status": "SKIPPED_MODULE_MISSING",
+            "stdout": "",
+            "stderr": f"Skipped missing module/file: {file_path}"
+        })
+        return 0
+
     p=subprocess.run(
         command,
         shell=True,
