@@ -55,9 +55,27 @@ def ensure_env_file():
 
 import subprocess
 
-COMMANDS = [
-    "python -m app.refresh_shopify_token",
-    "python -m app.shopify_token_auto_repair",
+import requests
+
+def shopify_ok():
+    try:
+        r = requests.get(
+            "http://127.0.0.1:8000/dashboard/shopify/catalog-health",
+            timeout=5
+        )
+        return r.ok and r.json().get("ok")
+    except Exception:
+        return False
+
+COMMANDS = []
+
+if not shopify_ok():
+    COMMANDS.extend([
+        "python -m app.refresh_shopify_token",
+        "python -m app.shopify_token_auto_repair",
+    ])
+
+COMMANDS += [
     "python -m app.google_ads_token_refresher",
     "python -m app.meta_token_refresh",
     "python -m app.meta_page_token_refresh",

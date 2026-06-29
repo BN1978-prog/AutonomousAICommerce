@@ -41,6 +41,19 @@ def run_step(name, command, allow_codes=None):
 
     return p.returncode
 
+
+def shopify_catalog_ok():
+    try:
+        import requests
+        r = requests.get(
+            "http://127.0.0.1:8000/dashboard/shopify/catalog-health",
+            timeout=5
+        )
+        return r.ok and bool(r.json().get("ok"))
+    except Exception:
+        return False
+
+
 run_step("railway_health_check","python -m app.railway_health_check")
 run_step("token_manager","python -m app.token_manager")
 run_step("refresh_ebay_token","python -m app.refresh_ebay_token", allow_codes=[0,1])
@@ -170,7 +183,16 @@ run_step("env_backup_sync","powershell Copy-Item .env .env.backup -Force")
 
 
 run_step("env_channel_recovery","python -m app.env_channel_recovery")
-run_step("refresh_shopify_token","python -m app.refresh_shopify_token")
+if not shopify_catalog_ok():
+    run_step("refresh_shopify_token","python -m app.refresh_shopify_token")
+else:
+    result["steps"].append({
+        "name": "refresh_shopify_token",
+        "returncode": 0,
+        "status": "SKIPPED_SHOPIFY_ALREADY_OK",
+        "stdout": "Shopify catalog-health ok; refresh skipped",
+        "stderr": ""
+    })
 run_step("railway_env_sync","python -m app.railway_env_sync")
 run_step("listing_publish_execution_plan_real","python -m app.listing_publish_execution_plan_real")
 run_step("marketplace_listing_publisher","python -m app.marketplace_listing_publisher")
