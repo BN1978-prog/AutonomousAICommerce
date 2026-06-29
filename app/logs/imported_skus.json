@@ -5556,7 +5556,9 @@
       "mat",
       "rear"
     ],
-    "seo_content_generated_at": "2026-06-29T22:14:37.085935+00:00"
+    "seo_content_generated_at": "2026-06-29T22:14:37.085935+00:00",
+    "marketplace_optimized": true,
+    "marketplace_optimized_at": "2026-06-29T22:18:45.431841+00:00"
   },
   "CJSB293675201AZ": {
     "status": "cj_discovered_ready_for_listing",
