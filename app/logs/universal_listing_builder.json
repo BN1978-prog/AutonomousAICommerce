@@ -1,0 +1,198 @@
+{
+  "created_at": "2026-06-29T22:04:39.313841+00:00",
+  "status": "UNIVERSAL_LISTING_DRAFTS_CREATED",
+  "drafts_created": 1,
+  "skipped": 66,
+  "draft_skus": [
+    "CJQC294920701AZ"
+  ],
+  "skipped_examples": [
+    {
+      "sku": "CJJT1048826",
+      "reason": "not_publish_ready",
+      "score": -110,
+      "flags": [
+        "profit_too_low",
+        "margin_too_low",
+        "low_price_item",
+        "bulky_keyword",
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJJT1166027",
+      "reason": "not_publish_ready",
+      "score": -80,
+      "flags": [
+        "profit_too_low",
+        "margin_too_low",
+        "bulky_keyword",
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJCC1064754",
+      "reason": "not_publish_ready",
+      "score": -80,
+      "flags": [
+        "profit_too_low",
+        "margin_too_low",
+        "bulky_keyword",
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJJJCWGY01325",
+      "reason": "not_publish_ready",
+      "score": -100,
+      "flags": [
+        "profit_too_low",
+        "margin_too_low",
+        "low_price_item",
+        "bulky_keyword",
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJGY1171456",
+      "reason": "not_publish_ready",
+      "score": -60,
+      "flags": [
+        "profit_too_low",
+        "margin_too_low",
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJGY1082751",
+      "reason": "not_publish_ready",
+      "score": 25,
+      "flags": [
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJJJCWGY03008",
+      "reason": "not_publish_ready",
+      "score": -50,
+      "flags": [
+        "profit_too_low",
+        "low_price_item",
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJMY1151470",
+      "reason": "not_publish_ready",
+      "score": -85,
+      "flags": [
+        "bulky_keyword",
+        "blocked_risk_word",
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJMY1112786",
+      "reason": "not_publish_ready",
+      "score": 25,
+      "flags": [
+        "bulky_keyword",
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJJJCWGX00530",
+      "reason": "not_publish_ready",
+      "score": 25,
+      "flags": [
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJMY2073717",
+      "reason": "not_publish_ready",
+      "score": 35,
+      "flags": [
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJGY1294149",
+      "reason": "not_publish_ready",
+      "score": 35,
+      "flags": [
+        "bulky_keyword",
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJYD1544909",
+      "reason": "not_publish_ready",
+      "score": 25,
+      "flags": [
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJGY1517102",
+      "reason": "not_publish_ready",
+      "score": -60,
+      "flags": [
+        "profit_too_low",
+        "low_price_item",
+        "bulky_keyword",
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJJJCWMY01054",
+      "reason": "not_publish_ready",
+      "score": 35,
+      "flags": [
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJYD2164619",
+      "reason": "not_publish_ready",
+      "score": 25,
+      "flags": [
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJMY1174239",
+      "reason": "not_publish_ready",
+      "score": 45,
+      "flags": [
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJMY1081175",
+      "reason": "not_publish_ready",
+      "score": 25,
+      "flags": [
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJJJCWGY01133",
+      "reason": "not_publish_ready",
+      "score": 15,
+      "flags": [
+        "bulky_keyword",
+        "missing_cj_mapping"
+      ]
+    },
+    {
+      "sku": "CJGY1130079",
+      "reason": "not_publish_ready",
+      "score": 35,
+      "flags": [
+        "missing_cj_mapping"
+      ]
+    }
+  ],
+  "note": "Drafts only. No marketplace publishing performed."
+}

@@ -5536,7 +5536,9 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00",
+    "listing_draft_ready": true,
+    "listing_draft_created_at": "2026-06-29T22:04:39.306838+00:00"
   },
   "CJSB293675201AZ": {
     "status": "cj_discovered_ready_for_listing",
