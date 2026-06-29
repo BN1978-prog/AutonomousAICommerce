@@ -53,9 +53,9 @@
     "currency": "GBP",
     "supplier": "cj",
     "supplier_cost": 35.08,
-    "shipping_cost": 0.0,
-    "estimated_profit": -25.09,
-    "margin_percent": -251.15,
+    "shipping_cost": 2.99,
+    "estimated_profit": -28.08,
+    "margin_percent": -281.08,
     "profitable": false,
     "inventory_supplier": null,
     "publish_targets": {
@@ -78,7 +78,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.019948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -110,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -90,7 +90,11 @@
       "missing_cj_mapping"
     ],
     "product_score_reasons": [],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00",
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null
   },
   "CJJT1166027": {
     "product_id": 10576537289046,
@@ -147,9 +151,9 @@
     "currency": "GBP",
     "supplier": "cj",
     "supplier_cost": 35.08,
-    "shipping_cost": 0.0,
-    "estimated_profit": -22.09,
-    "margin_percent": -170.05,
+    "shipping_cost": 2.99,
+    "estimated_profit": -25.08,
+    "margin_percent": -193.07,
     "profitable": false,
     "inventory_supplier": null,
     "publish_targets": {
@@ -172,7 +176,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -80,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -186,7 +190,11 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00",
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null
   },
   "CJCC1064754": {
     "product_id": 10576537387350,
@@ -243,9 +251,9 @@
     "currency": "GBP",
     "supplier": "cj",
     "supplier_cost": 35.08,
-    "shipping_cost": 0.0,
-    "estimated_profit": -22.09,
-    "margin_percent": -170.05,
+    "shipping_cost": 2.99,
+    "estimated_profit": -25.08,
+    "margin_percent": -193.07,
     "profitable": false,
     "inventory_supplier": null,
     "publish_targets": {
@@ -268,7 +276,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -80,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -282,7 +290,11 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00",
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null
   },
   "CJJJCWGY01325": {
     "product_id": 10576739500374,
@@ -340,9 +352,9 @@
     "currency": "GBP",
     "supplier": "cj",
     "supplier_cost": 94.21,
-    "shipping_cost": 0.0,
-    "estimated_profit": -84.22,
-    "margin_percent": -843.04,
+    "shipping_cost": 2.99,
+    "estimated_profit": -87.21,
+    "margin_percent": -872.97,
     "profitable": false,
     "inventory_supplier": null,
     "publish_targets": {
@@ -365,7 +377,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -100,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -379,7 +391,11 @@
     "product_score_reasons": [
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00",
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null
   },
   "CJGY1171456": {
     "product_id": 10577721491798,
@@ -437,9 +453,9 @@
     "currency": "GBP",
     "supplier": "cj",
     "supplier_cost": 83.71,
-    "shipping_cost": 0.0,
-    "estimated_profit": -58.72,
-    "margin_percent": -234.97,
+    "shipping_cost": 2.99,
+    "estimated_profit": -61.71,
+    "margin_percent": -246.94,
     "profitable": false,
     "inventory_supplier": null,
     "publish_targets": {
@@ -462,7 +478,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -60,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -475,7 +491,11 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00",
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null
   },
   "CJGY1082751": {
     "product_id": 10578137710934,
@@ -562,7 +582,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -574,7 +594,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
   },
   "CJJJCWGY03008": {
     "product_id": 10578152882518,
@@ -659,7 +679,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -50,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -671,7 +691,7 @@
     "product_score_reasons": [
       "acceptable_margin"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
   },
   "CJMY1151470": {
     "product_id": 10578163761494,
@@ -758,7 +778,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -85,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -772,7 +792,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
   },
   "CJMY1112786": {
     "product_id": 10578775736662,
@@ -857,7 +877,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -870,7 +890,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
   },
   "CJJJCWGX00530": {
     "product_id": 10578817876310,
@@ -953,7 +973,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -965,7 +985,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
   },
   "CJMY2073717": {
     "product_id": 10578841567574,
@@ -1048,7 +1068,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1061,7 +1081,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
   },
   "CJGY1294149": {
     "product_id": 10581140210006,
@@ -1148,7 +1168,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1162,7 +1182,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
   },
   "CJYD1544909": {
     "product_id": 10581163704662,
@@ -1247,7 +1267,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1259,7 +1279,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
   },
   "CJGY1517102": {
     "product_id": 10581183463766,
@@ -1346,7 +1366,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -60,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1360,7 +1380,7 @@
       "acceptable_margin",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
   },
   "CJJJCWMY01054": {
     "product_id": 10583992664406,
@@ -1446,7 +1466,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1458,7 +1478,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
   },
   "CJYD2164619": {
     "product_id": 10584072814934,
@@ -1542,7 +1562,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1554,7 +1574,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJMY1174239": {
     "product_id": 10585215304022,
@@ -1641,7 +1661,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 45,
     "product_score_tier": "C",
     "publish_ready": false,
@@ -1653,7 +1673,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJMY1081175": {
     "product_id": 10594409447766,
@@ -1739,7 +1759,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1751,7 +1771,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWGY01133": {
     "product_id": 10594435596630,
@@ -1835,7 +1855,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 15,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1849,7 +1869,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJGY1130079": {
     "product_id": 10594986492246,
@@ -1936,7 +1956,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1948,7 +1968,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJMY2078412": {
     "product_id": 10595047965014,
@@ -2034,7 +2054,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2047,7 +2067,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWMY00973": {
     "product_id": 10595073556822,
@@ -2130,7 +2150,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 45,
     "product_score_tier": "C",
     "publish_ready": false,
@@ -2143,7 +2163,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJYD2386773": {
     "product_id": 10595372007766,
@@ -2229,7 +2249,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2243,7 +2263,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWMY01010": {
     "product_id": 10595391832406,
@@ -2329,7 +2349,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2341,7 +2361,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWMY00923": {
     "product_id": 10595395141974,
@@ -2426,7 +2446,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -50,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2438,7 +2458,7 @@
     "product_score_reasons": [
       "acceptable_margin"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJDT2372258": {
     "product_id": 10596083532118,
@@ -2525,7 +2545,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 15,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2539,7 +2559,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJCC1228639": {
     "product_id": 10596107944278,
@@ -2625,7 +2645,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2637,7 +2657,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWGY02924": {
     "product_id": 10596127342934,
@@ -2722,7 +2742,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2734,7 +2754,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJGD1113594": {
     "product_id": 10596712972630,
@@ -2818,7 +2838,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2830,7 +2850,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWMY01582": {
     "product_id": 10596735058262,
@@ -2915,7 +2935,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -30,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2927,7 +2947,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJJTJT05102": {
     "product_id": 10596760682838,
@@ -3012,7 +3032,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -40,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3025,7 +3045,7 @@
       "acceptable_margin",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJT2594074": {
     "product_id": 10598214107478,
@@ -3110,7 +3130,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3122,7 +3142,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWMY01517": {
     "product_id": 10598237241686,
@@ -3209,7 +3229,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3221,7 +3241,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJMY1076688": {
     "product_id": 10598252478806,
@@ -3308,7 +3328,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3321,7 +3341,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJYD1794318": {
     "product_id": 10598764544342,
@@ -3408,7 +3428,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -40,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3421,7 +3441,7 @@
       "acceptable_margin",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJT2352016": {
     "product_id": 10599021183318,
@@ -3506,7 +3526,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -70,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3519,7 +3539,7 @@
     "product_score_reasons": [
       "acceptable_margin"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWGY01083": {
     "product_id": 10601026257238,
@@ -3605,7 +3625,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3617,7 +3637,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJCC1242562": {
     "product_id": 10601039855958,
@@ -3704,7 +3724,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3717,7 +3737,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJGD1352013": {
     "product_id": 10601358852438,
@@ -3803,7 +3823,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3816,7 +3836,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJT1116559": {
     "product_id": 10601382445398,
@@ -3902,7 +3922,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3914,7 +3934,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJT1478877": {
     "product_id": 10650143490390,
@@ -4000,7 +4020,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4013,7 +4033,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJYD2658504": {
     "product_id": 10650188939606,
@@ -4096,7 +4116,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4109,7 +4129,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJPN2660770": {
     "product_id": 10650193592662,
@@ -4192,7 +4212,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4205,7 +4225,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJT1353912": {
     "product_id": 10650491257174,
@@ -4292,7 +4312,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 45,
     "product_score_tier": "C",
     "publish_ready": false,
@@ -4304,7 +4324,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJT1659747": {
     "product_id": 10652679242070,
@@ -4391,7 +4411,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4404,7 +4424,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJMY2126410": {
     "product_id": 10656856244566,
@@ -4490,7 +4510,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4502,7 +4522,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJMY1119271": {
     "product_id": 10656877674838,
@@ -4588,7 +4608,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4601,7 +4621,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJSP2733732": {
     "product_id": 10657655456086,
@@ -4686,7 +4706,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4698,7 +4718,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWGY00675": {
     "product_id": 10657676329302,
@@ -4785,7 +4805,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 45,
     "product_score_tier": "C",
     "publish_ready": false,
@@ -4798,7 +4818,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWGY00645": {
     "product_id": 10657679245654,
@@ -4882,7 +4902,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4894,7 +4914,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJMY2099920": {
     "product_id": 10659785146710,
@@ -4981,7 +5001,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4993,7 +5013,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJYD2896648": {
     "product_id": 10767442837846,
@@ -5072,7 +5092,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -110,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -5084,7 +5104,7 @@
       "missing_cj_mapping"
     ],
     "product_score_reasons": [],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJT2896696": {
     "product_id": 10771609813334,
@@ -5163,7 +5183,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -110,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -5175,7 +5195,7 @@
       "missing_cj_mapping"
     ],
     "product_score_reasons": [],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "PET-BOWL-001": {
     "status": "hunter_imported",
@@ -5276,7 +5296,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -30,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -5288,7 +5308,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWGY02354": {
     "product_id": 10795652055382,
@@ -5341,7 +5361,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -40,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -5354,7 +5374,7 @@
       "acceptable_margin",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJJJCWGY02237": {
     "product_id": 10795653595478,
@@ -5407,7 +5427,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
     "product_score": -40,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -5421,7 +5441,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
   },
   "CJPB295913401AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5442,9 +5462,9 @@
     "cj_product_sku": "CJPB2959134",
     "cj_variant_sku": "CJPB295913401AZ",
     "supplier_cost": 70.99,
-    "shipping_cost": 0.0,
-    "estimated_profit": 99.39,
-    "margin_percent": 58.33,
+    "shipping_cost": 2.99,
+    "estimated_profit": 96.4,
+    "margin_percent": 56.58,
     "profitable": true,
     "inventory_supplier": null,
     "product_weight": "8700",
@@ -5478,7 +5498,8 @@
       "strong_margin",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
   },
   "CJQC294920701AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5536,9 +5557,9 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00",
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
     "listing_draft_ready": true,
-    "listing_draft_created_at": "2026-06-29T22:04:39.306838+00:00",
+    "listing_draft_created_at": "2026-06-29T22:31:21.297603+00:00",
     "seo_title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Au",
     "seo_description": "Upgrade your everyday routine with Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Auto Interior Accessor. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Automobiles & Motorcycles / Auto Replacement Parts / Interior Parts. Price: GBP 47.5.",
     "seo_tags": [
@@ -5556,9 +5577,10 @@
       "mat",
       "rear"
     ],
-    "seo_content_generated_at": "2026-06-29T22:14:37.085935+00:00",
+    "seo_content_generated_at": "2026-06-29T22:31:21.118573+00:00",
     "marketplace_optimized": true,
-    "marketplace_optimized_at": "2026-06-29T22:18:45.431841+00:00"
+    "marketplace_optimized_at": "2026-06-29T22:31:21.460127+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
   },
   "CJSB293675201AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5579,9 +5601,9 @@
     "cj_product_sku": "CJSB2936752",
     "cj_variant_sku": "CJSB293675201AZ",
     "supplier_cost": 111.81,
-    "shipping_cost": 0.0,
-    "estimated_profit": 156.53,
-    "margin_percent": 58.33,
+    "shipping_cost": 2.99,
+    "estimated_profit": 153.54,
+    "margin_percent": 57.22,
     "profitable": true,
     "inventory_supplier": null,
     "product_weight": "22600",
@@ -5617,7 +5639,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
   },
   "CJZS293677701AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5638,9 +5661,9 @@
     "cj_product_sku": "CJZS2936777",
     "cj_variant_sku": "CJZS293677701AZ",
     "supplier_cost": 83.24,
-    "shipping_cost": 0.0,
-    "estimated_profit": 116.54,
-    "margin_percent": 58.33,
+    "shipping_cost": 2.99,
+    "estimated_profit": 113.55,
+    "margin_percent": 56.84,
     "profitable": true,
     "inventory_supplier": null,
     "product_weight": "3200",
@@ -5676,7 +5699,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
   },
   "CJFU293646401AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5697,9 +5721,9 @@
     "cj_product_sku": "CJFU2936464",
     "cj_variant_sku": "CJFU293646401AZ",
     "supplier_cost": 204.05,
-    "shipping_cost": 0.0,
-    "estimated_profit": 285.67,
-    "margin_percent": 58.33,
+    "shipping_cost": 2.99,
+    "estimated_profit": 282.68,
+    "margin_percent": 57.72,
     "profitable": true,
     "inventory_supplier": null,
     "product_weight": "27740",
@@ -5735,7 +5759,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
   },
   "CJZS293678201AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5756,9 +5781,9 @@
     "cj_product_sku": "CJZS2936782",
     "cj_variant_sku": "CJZS293678201AZ",
     "supplier_cost": 83.24,
-    "shipping_cost": 0.0,
-    "estimated_profit": 116.54,
-    "margin_percent": 58.33,
+    "shipping_cost": 2.99,
+    "estimated_profit": 113.55,
+    "margin_percent": 56.84,
     "profitable": true,
     "inventory_supplier": null,
     "product_weight": "3200",
@@ -5794,7 +5819,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
   },
   "CJFU293249701AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5853,7 +5879,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
   },
   "CJLY295978401AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5874,9 +5901,9 @@
     "cj_product_sku": "CJLY2959784",
     "cj_variant_sku": "CJLY295978401AZ",
     "supplier_cost": 91.03,
-    "shipping_cost": 0.0,
-    "estimated_profit": 127.44,
-    "margin_percent": 58.33,
+    "shipping_cost": 2.99,
+    "estimated_profit": 124.45,
+    "margin_percent": 56.96,
     "profitable": true,
     "inventory_supplier": null,
     "product_weight": "13000",
@@ -5911,7 +5938,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
   },
   "CJFU295981701AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5932,9 +5960,9 @@
     "cj_product_sku": "CJFU2959817",
     "cj_variant_sku": "CJFU295981701AZ",
     "supplier_cost": 289.12,
-    "shipping_cost": 0.0,
-    "estimated_profit": 404.77,
-    "margin_percent": 58.33,
+    "shipping_cost": 2.99,
+    "estimated_profit": 401.78,
+    "margin_percent": 57.9,
     "profitable": true,
     "inventory_supplier": null,
     "product_weight": "61000",
@@ -5970,7 +5998,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
   },
   "CJFU29345140001": {
     "status": "cj_discovered_ready_for_listing",
@@ -5991,9 +6020,9 @@
     "cj_product_sku": "CJFU2934514",
     "cj_variant_sku": "CJFU29345140001",
     "supplier_cost": 84.06,
-    "shipping_cost": 0.0,
-    "estimated_profit": 117.68,
-    "margin_percent": 58.33,
+    "shipping_cost": 2.99,
+    "estimated_profit": 114.69,
+    "margin_percent": 56.85,
     "profitable": true,
     "inventory_supplier": null,
     "product_weight": "13948",
@@ -6029,7 +6058,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.423972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
   },
   "CJCF293266401AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -6050,9 +6080,9 @@
     "cj_product_sku": "CJCF2932664",
     "cj_variant_sku": "CJCF293266401AZ",
     "supplier_cost": 22.88,
-    "shipping_cost": 0.0,
-    "estimated_profit": 32.03,
-    "margin_percent": 58.33,
+    "shipping_cost": 2.99,
+    "estimated_profit": 29.04,
+    "margin_percent": 52.89,
     "profitable": true,
     "inventory_supplier": null,
     "product_weight": "750",
@@ -6073,7 +6103,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "product_score": 0,
+    "product_score": -10,
     "product_score_tier": "D",
     "publish_ready": false,
     "product_score_flags": [
@@ -6081,13 +6111,616 @@
       "blocked_risk_word"
     ],
     "product_score_reasons": [
-      "high_profit",
+      "good_profit",
       "strong_margin",
       "safe_price_range",
       "lightweight",
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T21:59:51.423972+00:00"
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+  },
+  "CJFU29233500001": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-29T22:24:56.761879+00:00",
+    "title": "Mobile Kitchen Cart With Storage, 39.76 Rolling Kitchen Island With 2 Doors, 3 Drawers & Adjustable Shelf, Black Utility Cart For Kitchen Di",
+    "description": "\n <p>Specification</p>\n <p>Product Information&nbsp;</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:Mobile Kitchen Cart with Storage, 39.76'' Rolling Kitchen Island with 2 Doors, 3 Drawers &amp; Adjustable Shelf, Black Utility Cart for Kitchen/Dining Room</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Black,Natural</p>\n <p>Main Material:MDF</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):39.76</p>\n <p>Assembled Width (in.):24.80</p>\n <p>Assembled Height (in.):35.63</p>\n <p>Product Weight (lbs.):98.55</p>\n <p>Package Size</p>\n <p>Length (in.):44.49</p>\n <p>Width (in.):29.33</p>\n <p>Height (in.):7.87</p>\n <p>Weight (lbs.):107.37</p>\n <p>Product Features</p>\n <ul>\n  <li>Mobile &amp; Versatile Design: Equipped with smooth-rolling wheels (with locks) for easy mobility—use as a kitchen island, serving cart, or extra storage in dining/living areas.</li>\n  <li>Ample Organized Storage: Features a 2-door cabinet (with 1 adjustable shelf) + 3 deep drawers, keeping kitchenware, utensils, and supplies neatly arranged.</li>\n  <li>Functional Tabletop Space: The large, flat top supports kitchen appliances (e.g., toasters, blenders) or doubles as a serving surface for meals.</li>\n  <li>Smooth-Operating Hardware: Soft-close hinges on doors, and gliding drawer slides enable quiet, gentle opening/closing, avoiding slams.</li>\n  <li>Sleek Space-Saving Style: Black finish with metallic handles blends modern aesthetics with practicality, fitting seamlessly in compact or spacious kitchens.</li>\n </ul>\n <p>Descriptions</p>\n <p>Upgrade your kitchen’s functionality and style with this mobile kitchen cart, crafted from durable PB+MDF in a sleek black finish. Measuring 39.76” L x 24.8 ”W x 35.63” H, it features rolling wheels (with locks) for easy mobility—perfect as an extra prep station, serving cart, or storage unit. The cart offers ample organized space: a 2-door cabinet (with 1 adjustable shelf) holds larger kitchenware, while 3 deep drawers store utensils and small supplies. Soft-close hinges and gliding slides ensure quiet, smooth operation. The spacious tabletop provides room for appliances or serving, and the sturdy build supports daily kitchen use. Its modern, space-saving design fits seamlessly in any kitchen, dining room, or living area—combining practicality, durability, and contemporary style.</p>\n <p>Specification</p>\n <p>Frame Material: MDF + PB Color: Black Cabinet &amp; Natural Topboard Dimensions: 39.76\"D X 24.8\"W X 35.63\"H Assembly Required: Yes</p> \n <img src=\"https://cf.cjdropshipping.com/17806176/a9483068-4a4b-48a4-9e7a-57c6ee7ed9e0.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/2e9ec89f-b315-40a4-b9bc-98ed63225e04.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/85baf1c1-755e-4676-b2f2-baa4bec6b8d7.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/be9fd110-97b9-4edf-b315-59d31e123049.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/8010e9d7-d09a-4e84-9a9c-60387f2d3c8c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/830138e4-9fa8-4205-b3e9-7d0ec3f94e0b.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/bab3ad52-5863-4772-936f-8c5939b14874.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/5bcb17fc-b6bb-4e9b-9a95-19228f4a0dd7.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/ad60620a-4b7e-4bd2-8e6e-d72d4884ef88.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/e2419bfc-fb87-488a-b228-bb82dbc87f1c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/3ff40608-8b44-4ebd-99e9-e4b92be01067.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/13982460-dfaf-432b-8cd0-643b99f200c1.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/58020dd5-a0f2-4737-8e41-efca1405bacd.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/f942bf05-e3cc-4087-9e25-f80a89dfa739.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17806176/54d78fc5-2938-4fa7-aa99-528864d29f0a.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
+    "price": "422.21",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/17806176/3e541579-94e6-4dd5-9901-7212a03913b4.jpg",
+    "supplier": "cj",
+    "supplier_name": "CYDD",
+    "supplier_id": "1855075102463631360",
+    "supplier_product_id": "2062839677818277890",
+    "supplier_variant_id": "2062839680431329281",
+    "cj_product_id": "2062839677818277890",
+    "cj_variant_id": "2062839680431329281",
+    "cj_product_sku": "CJFU2923350",
+    "cj_variant_sku": "CJFU29233500001",
+    "supplier_cost": 172.93,
+    "shipping_cost": 2.99,
+    "estimated_profit": 246.29,
+    "margin_percent": 58.33,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "48702",
+    "category_name": "Home, Garden & Furniture / Home Storage / Furniture",
+    "shipping_country": "GB",
+    "discovery_keyword": "kitchen gadget",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+  },
+  "CJFU29208100001": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-29T22:24:59.881202+00:00",
+    "title": "67.7 Tall Kitchen Trash Can Storage Cabinet With 3 Adjustable Shelves, 2 Drawers And 1 Tilt Out Trash Cabinet For Kitchen, Dinning Room, Liv",
+    "description": "\n <p>Specification</p>\n <p>Product Information</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:67.7\" Tall Kitchen Trash Can Storage Cabinet with 3 Adjustable Shelves, 2 Drawers and 1 Tilt Out Trash Cabinet for Kitchen, Dinning Room, Living Room-White</p>\n <p>Place of Origin:China</p>\n <p>Main Color:White</p>\n <p>Main Material:MDF</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):39.37</p>\n <p>Assembled Width (in.):13.78</p>\n <p>Assembled Height (in.):67.72</p>\n <p>Product Weight (lbs.):98.00</p>\n <p>Package Size</p>\n <p>Length (in.):44.88</p>\n <p>Width (in.):21.65</p>\n <p>Height (in.):10.63</p>\n <p>Weight (lbs.):106.37</p>\n <p>Product Features</p>\n <ul>\n  <li>Modern design:The white E1 MDF Trash Cabinet is fashionable in design and suitable for various decoration styles. It can be used as a kitchen island, laundry box, recycling box, trash can, etc.</li>\n  <li>Ample storage space:The Kitchen Pantry Cabinet with three storage Cabinets, a wide tabletop in the middle, 2 drawers for storing knives, cutlery, tablecloths, and a garbage cabinet dedicated to storing garbage, which can meet the needs of different usage.</li>\n  <li>Hidden Design: Tilt-out trash cabinet (for 10 gallon trash cans), which can hide the trash cans well, keep the kitchen delicate and the floor clean. It also blocks odors from emanating, while your pets will never knock over the trash cans anymore.</li>\n  <li>Adjustable Shelving: Featuring 3 adjustable Shelves for a variety of different sized items to be stored within the pantry cabinet. Each shelf has a maximum weight capacity of 22lbs.</li>\n  <li>High quality :It's made of E1 MDF with UV painting surface, After three painting processes, ensure the perfect appearance of the coating on the product surface.UV painting is more environmental than traditional NC painting, Carbon dioxide emissions are very close to zero.</li>\n  <li>Stable and Safe: Waterproof surface coating is environmental and non-toxic, please feel free to use. Equipped with anti-tip design which firmly fixes the cabinet to the wall, ensuring the stability of the cabinet and protect your family's safety.</li>\n  <li>Easy Assemble:Detailed instruction will lead you clearly and quickly assemble this sideboard.</li>\n </ul>\n <p>Descriptions</p>\n <p>Specifications</p>\n <table>\n  <tbody>\n   <tr>\n    <td>Finish</td>\n    <td>UV painting</td>\n   </tr>\n   <tr>\n    <td>Assemble required</td>\n    <td>120 mins</td>\n   </tr>\n   <tr>\n    <td>Product load-bearing</td>\n    <td>150 pounds</td>\n   </tr>\n   <tr>\n    <td>Package cartons</td>\n    <td>1 pc</td>\n   </tr>\n   <tr>\n    <td>Country of original</td>\n    <td>China</td>\n   </tr>\n   <tr>\n    <td>Packing details</td>\n    <td>5-ply brown carton with 6 sides foam protect inside.Our product has passed the dropping test according international standard.</td>\n   </tr>\n   <tr>\n    <td>Assemble required</td>\n    <td>Yes. And there are all parts, hardware&amp;screw bag and paper instructions in the package.</td>\n   </tr>\n   <tr>\n    <td>Tips</td>\n    <td>Using an electric drill for installation can be more labor-saving, but it is important to position the board in advance and drive the screws accurately.</td>\n   </tr>\n  </tbody>\n </table>\n <p>Notice</p>\n <p>Items may slightly different from photo in terms of color due to the lighting during photo shooting or the monitor's display. Attention please Improper use of screws may cause the product surface damage! Please be careful when installing.</p> \n <img src=\"https://cf.cjdropshipping.com/17805312/deefa984-d9c0-4494-a9f9-8590e95e0581.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17805312/5dc480ca-095f-49ad-a2a9-4bd0146ef502.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17805312/99eabf3b-98b5-4962-b9da-17e57d62e8dc.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17805312/da2564fe-842d-4137-9db4-c540c3194f99.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17805312/9ab76b1c-bcfd-448c-9d45-6fca2b53d26a.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17805312/11eb6698-9186-4f72-be9b-daef408294aa.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17805312/1cdcb8ed-c79f-4cdc-8f6a-2f2bead2539a.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17805312/3b37e003-b32a-45f8-b8b6-7c77eecd743c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17805312/2768c95e-8506-4532-befb-b6fc4cbe050f.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17805312/65a51ccc-5f87-4e4c-9c20-a96abcfec868.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17805312/c5be0dfe-75c2-49f1-b8f4-5c5bf362f259.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
+    "price": "428.78",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/17805312/b43c2e79-6de7-4af8-bbcb-f13b75210612.jpg",
+    "supplier": "cj",
+    "supplier_name": "CYDD",
+    "supplier_id": "1855075102463631360",
+    "supplier_product_id": "2062363620738588674",
+    "supplier_variant_id": "2062363622667968513",
+    "cj_product_id": "2062363620738588674",
+    "cj_variant_id": "2062363622667968513",
+    "cj_product_sku": "CJFU2920810",
+    "cj_variant_sku": "CJFU29208100001",
+    "supplier_cost": 175.67,
+    "shipping_cost": 2.99,
+    "estimated_profit": 250.12,
+    "margin_percent": 58.33,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "48248",
+    "category_name": "Home, Garden & Furniture / Home Storage / Furniture",
+    "shipping_country": "GB",
+    "discovery_keyword": "kitchen gadget",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+  },
+  "CJFU29204060001": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-29T22:25:02.016738+00:00",
+    "title": "Kitchen Island With Spice Rack, Towel Rack And Extensible Solid Wood Table Top-White",
+    "description": "\n <p>Specification</p>\n <p>Product Information</p>\n <p>Product Type :Combo Item</p>\n <p>Product Name:Kitchen Island with Spice Rack, Towel Rack and Extensible Solid Wood Table Top-White</p>\n <p>Place of Origin:China</p>\n <p>Main Color:White</p>\n <p>Main Material:MDF</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):43.70</p>\n <p>Assembled Width (in.):16.93</p>\n <p>Assembled Height (in.):35.83</p>\n <p>Product Weight (lbs.):108.50</p>\n <p>Package Size</p>\n <p>Sub-item 1: W282132407Package Quantity: 149.02 * 20.28 * 7.09 in. 73.41 lbs.</p>\n <p>Sub-item 2: W282132410Package Quantity: 143.31 * 17.72 * 5.12 in. 44.64 lbs.</p>\n <p>Product Features</p>\n <ul>\n  <li>Extensible Table Top:Solid wood folding table top, one leave behind offers more working space.</li>\n  <li>Multiduty:Wheels that facilitate movement around your kitchen as well as locking casters for fixed positioning.</li>\n  <li>Large Storage Space:Three drawers and a cabinet with door can meet your different storage requires.Racks on the side are supper convenience for you to put towel and salt and pepper.</li>\n  <li>Stable and Safe:Long landing back solid wood support legs makes the kitchen island more stable, If there are children at home, prevent them from climbing, causing the kitchen island to fall and accidentally hurt them.</li>\n  <li>Sturdy:Solid wood table top and GOOD quality E1 MDF board material makes strong construction.</li>\n </ul>\n <p>Descriptions</p>\n <p>Specifications</p>\n <table>\n  <tbody>\n   <tr>\n    <td>Finish</td>\n    <td>UV painting</td>\n   </tr>\n   <tr>\n    <td>Package cartons</td>\n    <td>2 pc</td>\n   </tr>\n   <tr>\n    <td>Packing details</td>\n    <td>5-ply brown carton with 6 sides foam protect inside.Our product has passed the dropping test according international standard.</td>\n   </tr>\n   <tr>\n    <td>Assemble Required</td>\n    <td>180 min</td>\n   </tr>\n   <tr>\n    <td>Country of original</td>\n    <td>China</td>\n   </tr>\n   <tr>\n    <td>Package contains</td>\n    <td>All parts, hardware&amp;screw bag, paper instructions.</td>\n   </tr>\n   <tr>\n    <td>Assemble suggestion</td>\n    <td>Installing with an electric drill is more labor-saving, but it is important to align the screw holes to avoid tilting them.</td>\n   </tr>\n  </tbody>\n </table>\n <p>Notice</p>\n <p>Items may slightly different from photo in terms of color due to the lighting during photo shooting or the monitor's display. Attention please !!! Improper use of screws may cause the product surface damage! Please be careful when installing.</p> \n <img src=\"https://cf.cjdropshipping.com/17804448/84b3bafd-10b1-4887-8a65-e314cc284663.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17804448/e5d74062-791c-48c9-859a-3c00c731f7ee.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
+    "price": "421.99",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/17804448/08d8a3f0-97d1-4f94-a41b-26d401965c16.jpg",
+    "supplier": "cj",
+    "supplier_name": "CYDD",
+    "supplier_id": "1855075102463631360",
+    "supplier_product_id": "2062112907689754626",
+    "supplier_variant_id": "2062112910369914881",
+    "cj_product_id": "2062112907689754626",
+    "cj_variant_id": "2062112910369914881",
+    "cj_product_sku": "CJFU2920406",
+    "cj_variant_sku": "CJFU29204060001",
+    "supplier_cost": 175.83,
+    "shipping_cost": 2.99,
+    "estimated_profit": 243.17,
+    "margin_percent": 57.62,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "33298",
+    "category_name": "Home, Garden & Furniture / Home Storage / Furniture",
+    "shipping_country": "GB",
+    "discovery_keyword": "kitchen gadget",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+  },
+  "CJFU29197520001": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-29T22:25:03.824591+00:00",
+    "title": "Modern Dining Chair,Kitchen Chair With Thick Seat Cushion And Solid Wood Legs, Dining Chairs For Home Bar Restaurant And Dining Room,Set Of ",
+    "description": "\n <p>Specification</p>\n <p>Product Information&nbsp;</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:Modern Dining Chair,Kitchen Chair With Thick Seat Cushion and Solid Wood Legs, Dining Chairs for Home Bar/Restaurant and Dining Room,Set of 2,Walnut</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Beige,Walnut</p>\n <p>Main Material:Fabric,Foam,Rubber Wood</p>\n <p>Filler:Foam</p>\n <p>Product Style:Modern</p>\n <p>Use Case:Dining Room</p>\n <p>Wood Type:Rubberwood</p>\n <p>Chair Type:Dining Chairs</p>\n <p>Chair Upholstery Material:Rubberwood</p>\n <p>Chair Fill Material:Foam</p>\n <p>Chair Included Components:Cushion</p>\n <p>Seating Quantity:Set of 2</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):20.08</p>\n <p>Assembled Width (in.):23.03</p>\n <p>Assembled Height (in.):33.86</p>\n <p>Product Weight (lbs.):13.00</p>\n <p>Package Size</p>\n <p>Length (in.):40.16</p>\n <p>Width (in.):21.06</p>\n <p>Height (in.):11.81</p>\n <p>Weight (lbs.):31.53</p>\n <p>Product Features</p>\n <ul>\n  <li>[Sophisticated Walnut Frame + Premium Beige Fabric]Features a rich, smooth walnut-finished solid wood frame paired with durable, breathable beige linen-blend upholstery for a refined look that elevates any dining space.</li>\n  <li>[Extra-Thick 5.12\" Cushioned Seat for All-Day Comfort]High-density foam padding (5.12\" thick) provides plush support without sagging—ideal for family dinners, remote work, or leisurely coffee breaks.</li>\n  <li>[Built to Last with Thoughtful Details]Reinforced corner joints, smooth sanded wood finish, and precision-stitched seams ensure long-term durability, while the sturdy tapered legs offer reliable stability.</li>\n  <li>[Protects Your Floors &amp; Reduces Noise]Integrated soft, non-marking floor protectors on all four legs prevent scratches on hardwood, tile, or laminate—and keep chair movement quiet and smooth.</li>\n  <li>[Perfect Dimensions for Modern Dining Spaces (Set of 2)]Seat size: 20.08\"W x 23.03\"D; Overall height: 33.86\". Designed to fit neatly under standard-height tables (28\"–30\")—space-saving yet comfortably roomy. Includes 2 chairs.</li>\n </ul> \n <img src=\"https://cf.cjdropshipping.com/17804448/3bd093cd-e9ca-4540-a320-a4b700dc9d95.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/50fb7d3b-b711-4fd4-9671-7dffa9618bdc.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/556f47ee-a44f-4ccb-bb05-39674312e149.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/bcb772f1-d865-47f4-b1a5-34a5211fa901.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/afbea42c-66df-465a-ad07-f7add3339528.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/b40eee1c-a308-4194-ae78-04a2752d51a2.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/ed1c5d8b-7eab-45fd-a4b6-95ee792de19e.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/e6bbe803-cb4b-41da-bf30-47936846998a.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/f60cc39b-c556-4990-b683-42912c34b854.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17804448/34cb1ad5-978c-48d8-823e-d855ace9e88d.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
+    "price": "435.34",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/17804448/4bd8737e-f064-4d2e-a0cf-d97255f14d02.jpg",
+    "supplier": "cj",
+    "supplier_name": "CYDD",
+    "supplier_id": "1855075102463631360",
+    "supplier_product_id": "2062070848017231874",
+    "supplier_variant_id": "2062070850135355394",
+    "cj_product_id": "2062070848017231874",
+    "cj_variant_id": "2062070850135355394",
+    "cj_product_sku": "CJFU2919752",
+    "cj_variant_sku": "CJFU29197520001",
+    "supplier_cost": 178.4,
+    "shipping_cost": 2.99,
+    "estimated_profit": 253.95,
+    "margin_percent": 58.33,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "14302",
+    "category_name": "Home, Garden & Furniture / Home Storage / Furniture",
+    "shipping_country": "GB",
+    "discovery_keyword": "kitchen gadget",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+  },
+  "CJFU29197320001": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-29T22:25:05.735487+00:00",
+    "title": "Modern Dining Chair,kitchen Chair With Solid Wood Legs, Dining Chairs For Home Bar Restaurant And Dining Room,Set Of 2,Walnut",
+    "description": "\n <p>Specification</p>\n <p>Product Information&nbsp;</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:Modern dining chair,kitchen chair with solid wood legs, Dining Chairs for Home Bar/Restaurant and Dining Room,Set of 2,Walnut</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Beige,Walnut</p>\n <p>Main Material:Polyester,Rubber</p>\n <p>Product Style:American Design,Mid-Century Modern</p>\n <p>Use Case:Dining Room</p>\n <p>Wood Type:Rubberwood</p>\n <p>Chair Type:Arm Chair</p>\n <p>Chair Back Style:Solid Back</p>\n <p>Chair Upholstery Material:Rubberwood</p>\n <p>Chair Fill Material:Foam</p>\n <p>Chair Included Components:Cushion</p>\n <p>Seating Quantity:Set of 2</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):21.65</p>\n <p>Assembled Width (in.):22.44</p>\n <p>Assembled Height (in.):28.35</p>\n <p>Product Weight (lbs.):15.10</p>\n <p>Package Size&nbsp;<i></i>Outer Package Images</p>\n <p>Length (in.):27.76</p>\n <p>Width (in.):22.24</p>\n <p>Height (in.):14.17</p>\n <p>Weight (lbs.):38.91</p>\n <p>Product Features</p>\n <ul>\n  <li>[Timeless Mid-Century Modern Design]Elevate your dining space with understated elegance. These mid-century modern chairs blend organic curves and clean lines for a refined yet relaxed look. Their minimalist silhouette fits effortlessly into any setting—paired with a sleek table, in a cozy breakfast nook, or as a stylish accent chair. Ideal for those who appreciate lasting design with a contemporary edge.</li>\n  <li>[Sculpted Legs with Artful Proportions]Gracefully curved rubberwood legs taper subtly from top to base, balancing delicacy and strength. This intentional shape boosts both visual appeal and structural stability, adding graceful movement to the profile. The smooth shift from slender upper leg to a grounded base reflects confident craftsmanship—transforming a simple chair into a functional work of art.</li>\n  <li>[Plush Comfort Meets Smart Functionality]Enjoy luxury with a 3.54-inch-thick circular cushion (20.47\" diameter) that delivers support without compromising style. Soft yet durable upholstery makes it perfect for long meals or quick coffee breaks. Adjustable floor protectors ensure wobble-free stability on any surface—tile, wood, or carpet—while guarding against scratches. Comfort and practicality, thoughtfully combined.</li>\n  <li>[Bold Geometry, Effortless Assembly]Clean geometric lines give this chair a quiet architectural presence. Form meets function in a design that’s as beautiful as it is usable. Assembly is quick and easy: two people can put together both chairs in under 15 minutes with included hardware and clear instructions. No tools or experience needed—just unpack, connect, and enjoy. Great design, zero hassle.</li>\n  <li>[ Compact Yet Spacious Dimensions]Each chair measures 21.65\" W x 22.44\" D x 28.35\" H, with a comfortable 19.29\" seat height. Its small footprint saves space while maintaining generous comfort and presence. Perfect under a bistro table or around a family dining set, it adapts beautifully to apartments, condos, or open-plan homes. Style, function, and smart sizing—in one elegant pair.</li>\n </ul> \n <img src=\"https://cf.cjdropshipping.com/17804448/e7c2432a-5572-4195-92dc-d896d85a9071.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/70c9237f-4ca2-45d2-a14f-9361779d5355.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/e1f5d923-aaf5-4851-8a68-4dd31130f785.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/03e60e0b-54f6-456a-b72d-dc9c64e0dce0.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/96cd4926-c980-4740-af0e-0547d6fe5064.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/22b3ed38-9422-4de6-97cb-83a34d30646e.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/e65865ba-7cbf-43a6-8a8b-62f468dbd897.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/a571ef54-a505-4e7a-be8e-5f58740b4706.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/86198e57-c1da-4409-a245-b0dd0ab60677.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/15ef0420-d73a-4200-b091-b9901acfbcc7.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/af01576e-c398-4cf6-83cc-883d87c90b5e.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17804448/e324780a-f714-40ea-ab0f-8ed9e96be078.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
+    "price": "423.24",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/17804448/8448fad5-1762-48fc-ac68-c78c6acc1c6d.jpg",
+    "supplier": "cj",
+    "supplier_name": "CYDD",
+    "supplier_id": "1855075102463631360",
+    "supplier_product_id": "2062069896329654274",
+    "supplier_variant_id": "2062069898384863233",
+    "cj_product_id": "2062069896329654274",
+    "cj_variant_id": "2062069898384863233",
+    "cj_product_sku": "CJFU2919732",
+    "cj_variant_sku": "CJFU29197320001",
+    "supplier_cost": 176.35,
+    "shipping_cost": 2.99,
+    "estimated_profit": 243.9,
+    "margin_percent": 57.63,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "17649",
+    "category_name": "Home, Garden & Furniture / Home Storage / Furniture",
+    "shipping_country": "GB",
+    "discovery_keyword": "kitchen gadget",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+  },
+  "CJFU29197940001": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-29T22:31:01.648358+00:00",
+    "title": "70 Kitchen Pantry Cabinet With 2 Cabinet Shelves,Luxurious Wooden Cupboard With 6 Door Shelves And 3 Drawers For Kitchen, Dining Room,Natura",
+    "description": "\n <p>Specification</p>\n <p>Product Information</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:70\" Kitchen Pantry Cabinet with 2 Cabinet Shelves,Luxurious Wooden Cupboard with 6 Door Shelves and 3 Drawers for Kitchen, Dining Room,Natural</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Natural</p>\n <p>Main Material:Solid Wood+MDF</p>\n <p>Product Style:American Design,American Traditional,Classic,Luxury</p>\n <p>Use Case:Dining Room</p>\n <p>Wood Type:Rubberwood</p>\n <p>Wood Tone:Nature</p>\n <p>Storage Features:Adjustabel Shelves</p>\n <p>Numbers of Doors:2</p>\n <p>Numbers of Drawers:3</p>\n <p>Feature:6 door internal storage compartments</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):31.50</p>\n <p>Assembled Width (in.):15.75</p>\n <p>Assembled Height (in.):70.10</p>\n <p>Product Weight (lbs.):127.98</p>\n <p>Package Size</p>\n <p>Length (in.):50.39</p>\n <p>Width (in.):19.88</p>\n <p>Height (in.):12.79</p>\n <p>Weight (lbs.):136.03</p>\n <p>Product Features</p>\n <ul>\n  <li>[Premium Solid Wood Construction]Crafted with solid rubber wood handles and legs, this cabinet combines durability with elegance. The natural wood grain finish adds warmth to any space while ensuring long-lasting quality.</li>\n  <li>[Smart Adjustable Storage]Features a top adjustable shelf and 6 internal door compartments for customizable organization. Three drawers with full-extension slide rails provide smooth, easy access to stored items.</li>\n  <li>[Smooth &amp; Quiet Operation]Equipped with damping hinges that allow cabinet doors to open silently up to 135 degrees, plus catch to keep doors securely closed when not in use.</li>\n  <li>[Safe &amp; Stable Design]Includes anti-tipping protection for added safety, making this tall cabinet secure for households with children or pets.</li>\n  <li>[Versatile for Any Room]Available in 3 stylish colors to match your decor. Perfect for organizing kitchen, living room, bathroom, or dining room essentials while adding functional elegance.</li>\n  <li>Dimensions:31.5”W x 15.75”D x 70.1”H</li>\n </ul>\n <p>Descriptions</p>\n <p>Unique solid wood door handle design</p>\n <p>Our food storage cabinet features solid rubberwood door handles, combining natural beauty with durable luxury. These smooth, sturdy handles enhance grip and style, perfectly suited for daily kitchen use while adding a warm, organic touch to your home décor.</p>\n <p>Reliable solid wood legs</p>\n <p>Our storage cabinet features solid rubber wood legs, adding natural durability and timeless style. Perfect for dining rooms or entryways, they resist wear while complementing real-life home decor, offering both strength and organic beauty in everyday use.</p>\n <p>Adjustable Shelf</p>\n <p>Our cabinet features an adjustable shelf, offering flexible storage customization. Easily reposition it to fit items of various heights, maximizing space efficiency and adaptability for your changing organization needs.</p>\n <p>6 door internal storage compartments</p>\n <p>Our food storage cabinet includes 6 door-mounted compartments, each 10.3 inches wide, ideal for organizing spices, snacks, or kitchen essentials. This smart design maximizes space and accessibility, making daily meal prep easier and keeping everything neatly within reach.</p>\n <p>3 soft-close hinges</p>\n <p>Each door features 3 soft-close hinges that ensure smooth, quiet closing with no slamming. Perfect for busy kitchens or homes with kids, they enhance durability and convenience in everyday use.</p>\n <p>Catch</p>\n <p>The cabinet features a secure catch that gently holds the door in place, preventing sudden swings and protecting stored items. Ideal for homes with children or high-traffic areas, it ensures safe, quiet operation while keeping contents organized and safe during daily use.</p>\n <p>L-shaped anti-tip bracket</p>\n <p>This food storage cabinet comes with an L-shaped anti-tip bracket for added safety. Easily mounted to the wall, it prevents tipping during daily use, especially in homes with children or pets, ensuring stability and peace of mind in your kitchen or dining area.</p>\n <p>Full-extension Drawer Slide Rail</p>\n <p>The drawer in this food storage cabinet is equipped with full-extension slides, allowing smooth and complete access to the entire drawer space. Perfect for organizing kitchen essentials, it makes finding and reaching items effortless, enhancing convenience in daily meal prep and storage.</p>\n <p>Highlights&amp;Summary</p>\n <table>\n  <tbody>\n   <tr>\n    <td>Highlights</td>\n    <td>Natural Wood Grain Color//Top Adjustable Shelf//Solid rubber wood handle and solid wood legs//Full-extension Drawer Slide Rail//Damping hinge(Allows the cabinet door to open to 135 degrees)//Cabinet door with catches//6 door internal storage compartments//Anti-Tipping//3 Colors Available//Suitable for many scenes in the home</td>\n   </tr>\n   <tr>\n    <td>Summary</td>\n    <td>Transform your space with this stunning 70\" storage cabinet—built to last and designed to impress. The rich natural wood grain finish brings warmth and elegance to any room, from dining to living areas. Easily store more: 3 drawers, 2 shelves , and 6 internal compartments keep everything neat. Premium solid wood handles and legs offer durability and timeless style. Each doors can open 135° and shut quietly—no slamming. Secure non-magnetic latches keep doors closed. Includes wall anchor for anti-tip safety—ideal for homes with kids or pets. Say goodbye to clutter. This spacious, stylish cabinet combines smart function and high-end design at great value. Ready to upgrade? Click “Add to Cart” now—your perfect storage solution is just a click away!</td>\n   </tr>\n  </tbody>\n </table>\n <p>Specifications</p>\n <table>\n  <tbody>\n   <tr>\n    <td>Product Dimension(Overall)</td>\n    <td>31.5”W x 15.75”D x 70.1”H</td>\n   </tr>\n   <tr>\n    <td>Product Weight</td>\n    <td>127.98 LBS</td>\n   </tr>\n   <tr>\n    <td>Package Dimension</td>\n    <td>50.39 x 19.88 x 12.79 inch</td>\n   </tr>\n   <tr>\n    <td>Package Weight</td>\n    <td>136.44 LBS</td>\n   </tr>\n   <tr>\n    <td>Detail Product Dimension</td>\n    <td>Please refer to the size image</td>\n   </tr>\n   <tr>\n    <td>Each Door Shelf Weight Capacity</td>\n    <td>3.2 LBS</td>\n   </tr>\n   <tr>\n    <td>Each Cabinet Shelf Weight Capacity</td>\n    <td>57.5 LBS</td>\n   </tr>\n   <tr>\n    <td>Each Drawer</td>\n    <td>17.5 LBS</td>\n   </tr>\n   <tr>\n    <td>Material</td>\n    <td>Manufactured Wood + Solid Rubber Wood</td>\n   </tr>\n   <tr>\n    <td>Screwdriver</td>\n    <td>No</td>\n   </tr>\n   <tr>\n    <td>Country of Origin</td>\n    <td>China</td>\n   </tr>\n   <tr>\n    <td>Estimated Time to Assemble</td>\n    <td>60 minutes</td>\n   </tr>\n  </tbody>\n </table>\n <p>Product Notice</p>\n <table>\n  <tbody>\n   <tr>\n    <td>Product Care Notice</td>\n    <td>1. Wipe with a soft dry cloth. Avoid the use of harsh chemicals and household cleaners as they may damage the finish. 2. Hardware may loosen over time; periodically check that all connections are tight.</td>\n   </tr>\n   <tr>\n    <td>Color Notice</td>\n    <td>Real Product’s Color may be a little different from the image due to the lighting or monitor’s display.</td>\n   </tr>\n   <tr>\n    <td>Hardware Notice</td>\n    <td>This product does not come with a Phillips screwdriver; please prepare one separately. We recommend avoiding electric screwdrivers, as they may easily damage the wooden screw holes!</td>\n   </tr>\n  </tbody>\n </table> \n <img src=\"https://cf.cjdropshipping.com/17804448/bee39acc-5fc4-4412-805d-81c50d8de409.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/be50a700-5833-4a9b-b372-78d7f085cece.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/8af9d349-dea2-456a-99cb-eb8c64a3e75b.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/3c3c185f-e29a-4469-a4db-a339ee060ac9.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/4e56e38e-f697-4fc2-9563-2005561fa861.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/db5e7d48-01c8-44ee-8965-126f3ee030fd.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/ced6f08a-cf65-498e-bf11-caf77b4e7ea5.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/eefe7a9c-6292-41a6-aeea-7e62566c2922.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/d820602e-b935-451a-a5c0-3cff1bf722ea.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/4fb5d0c8-dd60-4336-8c79-94957006c193.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/5762f306-a708-45b0-919c-1d55019e30b1.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/f91aa011-4f54-4e90-8f79-d9af544f2d12.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17804448/5833d1a8-a711-478f-996e-b015b1adb86c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
+    "price": "738.72",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/17804448/eedee0a0-1106-4f35-b389-45db2e093f98.jpg",
+    "supplier": "cj",
+    "supplier_name": "CYDD",
+    "supplier_id": "1855075102463631360",
+    "supplier_product_id": "2062072862672977921",
+    "supplier_variant_id": "2062072864560414722",
+    "cj_product_id": "2062072862672977921",
+    "cj_variant_id": "2062072864560414722",
+    "cj_product_sku": "CJFU2919794",
+    "cj_variant_sku": "CJFU29197940001",
+    "supplier_cost": 304.81,
+    "shipping_cost": 2.99,
+    "estimated_profit": 430.92,
+    "margin_percent": 58.33,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "61702",
+    "category_name": "Home, Garden & Furniture / Home Storage / Furniture",
+    "shipping_country": "GB",
+    "discovery_keyword": "kitchen gadget",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00"
+  },
+  "CJFT295992701AZ": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-29T22:31:03.332643+00:00",
+    "title": "2 In 1, 28'' Collapsible Travel Dog Crate For Medium Large Dogs, Rolling Pet Carrier With Wheels, 3-Door Portable Folding Pet Kennel With Me",
+    "description": "\n <ul>\n  <li>【Stress-Free Pet Transport】Take the weight off your shoulders with this carrier on wheels! Fully retractable premium material handle &amp; 360 degree rotating and removable wheels ensure smooth, quiet, and effortless rolling mobility in any direction resulting in a bump free ride for your pet. Easy mechanism to attach and detach bag from wheel platform allowing bag to be used as a regular expandable carrier!</li>\n  <li>【Foldable and Space-Saving】Designed to maximize convenience, this folding soft dog crate features a storage latch-saving design that allows for fast folding and easy storage. Collapsible Bars with retractable Springs make setup simple and storage efficient. Whether at home or on the go, it can be quickly set up or collapsed, saving valuable.</li>\n  <li>【Comfort &amp; Convenience】The crate features three mesh doors located on the top, front, and side, to enter and exit from various directions, improved sunlight, and breathability. Additionally, the crate has a accessory pockets located on the top for added storage. The crate cover and bed cover are both removable and washable, making maintenance and cleaning easy.</li>\n  <li>【Multi-Purpose Design】From corner protection to a sliding door curtain, breathable mesh, Double Zipper, and a soft padded mat, Our collapsible dog crate ensures your pet's well-being in various situations. The crate has a handle and hand carrying straps, while the carrying bag features both hand carrying straps and an adjustable padded shoulder strap, providing many carrying options. This dog crate offers a range of features that cater to your pet's comfort and needs.</li>\n  <li>【Sturdy &amp; Safe Construction】Built with a sturdy frame with a load capacity of up to 50 lbs, this collapsible dog crate guarantees safety and durability for your pet. The construction ensures your pet's security while providing a reliable and comfortable space. Provides a comfortable and secure environment for pets of various sizes.</li>\n </ul>\n <p><img src=\"https://cf.cjdropshipping.com/c3f96cdc-ff09-45b9-bfc6-ceda37810b97.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/fecdcdaf-ec97-4ffe-8fa2-2e04ac1ff4f4.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/a49fdb5d-b487-4e54-b5b5-6d0eb0261065.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/fe1feb0b-38d7-428b-86ea-9159f3b0be19.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/8c588d50-f0e1-4f60-bcb4-1c3c04cb291a.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/77c124a5-e87f-4fff-8144-48e2150e971b.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/17fd06e0-bd1e-43da-a074-d0e41afa254a.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/0c98683f-1519-4972-b3ee-e9284d27c0a1.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/2d0f09e4-0fd8-465b-b67a-2f63b67ea5bb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/ff2bff30-608b-4c84-877a-2b495639b375.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/56360869-256e-4a76-a207-60056df9ba30.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/8d790be0-d97b-43ae-92ba-c9b2901f4e1f.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/15430674-1e49-4cec-a393-40dec7cf8d96.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "price": "200.9",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/8b59ae0d-909f-4b3f-8a2c-0cdbe7dfeaaa.png",
+    "supplier": "cj",
+    "supplier_name": "jiujiu2",
+    "supplier_id": "1866737082005987328",
+    "supplier_product_id": "2071530126769025025",
+    "supplier_variant_id": "2071530126999711745",
+    "cj_product_id": "2071530126769025025",
+    "cj_variant_id": "2071530126999711745",
+    "cj_product_sku": "CJFT2959927",
+    "cj_variant_sku": "CJFT295992701AZ",
+    "supplier_cost": 83.71,
+    "shipping_cost": 0.0,
+    "estimated_profit": 117.19,
+    "margin_percent": 58.33,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "5980",
+    "category_name": "Pet Supplies / Pet Furnitures / Pet Furniture Tools",
+    "shipping_country": "GB",
+    "discovery_keyword": "travel accessory",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00"
+  },
+  "CJTD295796801AZ": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-29T22:31:04.963148+00:00",
+    "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
+    "description": "\n <ul>\n  <li>COMPACT SIZE: Measures 5.3 x 4.2 x 2.1 inches and weighs just 0.23 lbs, fitting tanks of various sizes without crowding swimming space.</li>\n  <li>PET-SAFE MATERIAL: Crafted from premium resin that will not fade or leach harmful substances, keeping your aquatic habitat safe and vibrant.</li>\n  <li>FLOATS ON WATER SURFACE: Perfectly balanced to bob gently on the water, creating dynamic movement and a relaxing vacation atmosphere in your tank.</li>\n  <li>VERSATILE USE: Great for indoor fish tanks, outdoor water gardens, terrariums, and tabletop fountains for a whimsical touch.</li>\n  <li>CHARMING DESIGN: Adorable resin frog lounging on a swim ring brings a playful summer vibe to any aquarium or pond.<br><img src=\"https://cf.cjdropshipping.com/d705eaa9-2a19-4deb-90f1-71aafed903a4.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"></li>\n </ul>\n",
+    "price": "16.78",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/53d62f57-9c6b-4e63-8199-aec0650bd9d7.jpg",
+    "supplier": "cj",
+    "supplier_name": "Guangzhou Manjiang Technology Co., Ltd.",
+    "supplier_id": "1582676149639847936",
+    "supplier_product_id": "2070783384532987905",
+    "supplier_variant_id": "2070783384616873985",
+    "cj_product_id": "2070783384532987905",
+    "cj_variant_id": "2070783384616873985",
+    "cj_product_sku": "CJTD2957968",
+    "cj_variant_sku": "CJTD295796801AZ",
+    "supplier_cost": 4.0,
+    "shipping_cost": 2.99,
+    "estimated_profit": 9.79,
+    "margin_percent": 58.34,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "200",
+    "category_name": "Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations",
+    "shipping_country": "GB",
+    "discovery_keyword": "travel accessory",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": 80,
+    "product_score_tier": "A",
+    "publish_ready": true,
+    "product_score_flags": [
+      "bulky_keyword"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "strong_margin",
+      "safe_price_range",
+      "lightweight",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "listing_draft_ready": true,
+    "listing_draft_created_at": "2026-06-29T22:31:21.297603+00:00",
+    "marketplace_optimized": true,
+    "marketplace_optimized_at": "2026-06-29T22:31:21.460127+00:00"
+  },
+  "CJNS295299502BY": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-29T22:31:08.317018+00:00",
+    "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
+    "description": "\n <table>\n  <thead>\n   <tr>\n    <th>Spec Name</th>\n    <th>Item Number</th>\n    <th>Product Dimension (L×W×H)</th>\n    <th>Product Weight</th>\n    <th>Package Dimension (L×W×H)</th>\n    <th>Package Weight</th>\n   </tr>\n  </thead>\n  <tbody>\n   <tr>\n    <td>Dark gray/20in</td>\n    <td>ZHUMI-XLX-20IN-DGY</td>\n    <td>379.98 × 240.03 × 570.08 mm</td>\n    <td>2912.06 g</td>\n    <td>389.89 × 254.76 × 600.05 mm</td>\n    <td>3937.18 g</td>\n   </tr>\n   <tr>\n    <td>olive green/20in</td>\n    <td>ZHUMI-XLX-20IN-OGN</td>\n    <td>379.98 × 240.03 × 570.08 mm</td>\n    <td>2912.06 g</td>\n    <td>389.89 × 254.76 × 600.05 mm</td>\n    <td>3937.18 g</td>\n   </tr>\n   <tr>\n    <td>light gray/20in</td>\n    <td>ZHUMI-XLX-20IN-LGY</td>\n    <td>379.98 × 240.03 × 570.08 mm</td>\n    <td>2912.06 g</td>\n    <td>389.89 × 254.76 × 600.05 mm</td>\n    <td>3937.18 g</td>\n   </tr>\n   <tr>\n    <td>Dark gray/24in</td>\n    <td>ZHUMI-XLX-24IN-DGY</td>\n    <td>439.93 × 275.08 × 670.05 mm</td>\n    <td>3528.95 g</td>\n    <td>449.83 × 289.81 × 699.77 mm</td>\n    <td>4926.01 g</td>\n   </tr>\n   <tr>\n    <td>olive green/24in</td>\n    <td>ZHUMI-XLX-24IN-OGN</td>\n    <td>439.93 × 275.08 × 670.05 mm</td>\n    <td>3528.95 g</td>\n    <td>449.83 × 289.81 × 699.77 mm</td>\n    <td>4926.01 g</td>\n   </tr>\n   <tr>\n    <td>light gray/24in</td>\n    <td>ZHUMI-XLX-24IN-LGY</td>\n    <td>439.93 × 275.08 × 670.05 mm</td>\n    <td>3528.95 g</td>\n    <td>449.83 × 289.81 × 699.77 mm</td>\n    <td>4926.01 g</td>\n   </tr>\n   <tr>\n    <td>Dark gray/28in</td>\n    <td>ZHUMI-XLX-28IN-DGY</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>4299.06 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>6096.28 g</td>\n   </tr>\n   <tr>\n    <td>olive green/28in</td>\n    <td>ZHUMI-XLX-28IN-OGN</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>4299.06 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>6096.28 g</td>\n   </tr>\n   <tr>\n    <td>light gray/28in</td>\n    <td>ZHUMI-XLX-28IN-LGY</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>4299.06 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>6096.28 g</td>\n   </tr>\n   <tr>\n    <td>Dark gray/3p</td>\n    <td>ZHUMI-XLX-TZ2048IN-3P-DGY</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>10599.45 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>12596.26 g</td>\n   </tr>\n   <tr>\n    <td>olive green/3p</td>\n    <td>ZHUMI-XLX-TZ2048IN-3P-OGN</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>10599.45 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>12596.26 g</td>\n   </tr>\n   <tr>\n    <td>light gray/3p</td>\n    <td>ZHUMI-XLX-TZ2048IN-3P-LGY</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>10599.45 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>12596.26 g</td>\n   </tr>\n  </tbody>\n </table>\n <p>This luggage is the perfect travel companion for any trip. With its durable ABS material construction, this suitcase is tough and scratch-resistant, ensuring long-lasting performance. The 360-degree swivel wheels allow for smooth and quiet movement on any surface, while the retractable trolley bar makes maneuvering a breeze. The divided interior provides ample storage and organization options, with features such as expandable space, mesh pockets, and protective belts to keep your belongings secure and tidy. The TSA lock adds an extra layer of security, giving you peace of mind while traveling.</p>\n <p>Flexible Rolling Luggage</p>\n <p>360-degree swivel wheels ensure smooth and quiet movement on any surface.</p>\n <p>Spacious Storage Space</p>\n <p>A divided interior with expandable space makes it easy to organize clothes and travel essentials.</p>\n <p>Lightweight &amp; Durable</p>\n <p>Made of durable, scratch-resistant ABS material with a lightweight design for easy carrying.</p>\n <p>TSA Lock &amp; Resilient Telescopic Handle</p>\n <p>A TSA-approved lock provides extra security, while a durable telescopic handle allows for easy maneuverability.</p>\n <p>Multiple Choices</p>\n <p>Available in different sizes and sets to meet the needs of solo travelers or the whole family.<img src=\"https://cf.cjdropshipping.com/fbdee0e5-a575-4989-8ae4-d0f5f774dbf8.jpg\" contenteditable=\"false\" style=\"font-size: 13px; max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/f502e279-7546-4378-ad24-78ebe552085f.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/6334303b-38a8-455c-a32c-5817611b2c7a.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/502a1b4e-874b-45e0-af43-e7b1705c9d77.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/9ce9ad26-35ac-49e6-8673-0ac52631c7af.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/ae6d7713-2407-4523-90fa-90a74e4e39eb.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/bb77c71f-da27-448c-9652-c0fd63ee9c1c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/46c6a5ac-79ee-411c-8438-0232cb6252ea.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f389c313-eef5-4912-af9a-da22d62cd964.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f7413305-b469-45e9-a71a-36522e841b6d.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/d53e6743-f6ac-4992-9cd7-3ce895185474.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/4259a601-f4ad-4390-933b-4f86d3655efc.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f27ef409-e530-4376-8e9b-09e63b3cb24f.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/ef6d2c81-47d4-44f3-b43e-32ebc19e0163.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/4fdc5548-bdc2-44e3-9aee-be6eec36b971.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "price": "90.5",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/c14256af-9da9-4423-b8eb-b3644663e796.jpg",
+    "supplier": "cj",
+    "supplier_name": "yuting",
+    "supplier_id": "1858820484947517440",
+    "supplier_product_id": "2069707031650430978",
+    "supplier_variant_id": "2069707032170524675",
+    "cj_product_id": "2069707031650430978",
+    "cj_variant_id": "2069707032170524675",
+    "cj_product_sku": "CJNS2952995",
+    "cj_variant_sku": "CJNS295299502BY",
+    "supplier_cost": 37.71,
+    "shipping_cost": 0.0,
+    "estimated_profit": 52.79,
+    "margin_percent": 58.33,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "3937-12596",
+    "category_name": "Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags",
+    "shipping_country": "GB",
+    "discovery_keyword": "travel accessory",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": 85,
+    "product_score_tier": "A",
+    "publish_ready": true,
+    "product_score_flags": [
+      "bulky_keyword"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "safe_price_range",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "listing_draft_ready": true,
+    "listing_draft_created_at": "2026-06-29T22:31:21.297603+00:00",
+    "marketplace_optimized": true,
+    "marketplace_optimized_at": "2026-06-29T22:31:21.461126+00:00"
+  },
+  "CJQQ294934201AZ": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-29T22:31:10.038833+00:00",
+    "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho",
+    "description": "\n <p><img src=\"https://cf.cjdropshipping.com/0485f7f5-60b1-42d9-980d-bee41166324c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/4107febc-ff41-462c-ab8e-de2e3d9dd246.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/66a6945b-e3fb-45d2-b328-39c9f566b3f6.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "price": "11.98",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/43ae5c07-ee90-4ac4-b196-737798712fad.jpg",
+    "supplier": "cj",
+    "supplier_name": "juluxianrentaizhipin",
+    "supplier_id": "2058803027841916928",
+    "supplier_product_id": "2068895565283766273",
+    "supplier_variant_id": "2068895565405401089",
+    "cj_product_id": "2068895565283766273",
+    "cj_variant_id": "2068895565405401089",
+    "cj_product_sku": "CJQQ2949342",
+    "cj_variant_sku": "CJQQ294934201AZ",
+    "supplier_cost": 2.0,
+    "shipping_cost": 2.99,
+    "estimated_profit": 6.99,
+    "margin_percent": 58.35,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "210-1960",
+    "category_name": "Men's Clothing / Novelty & Special Use / Exotic Apparel",
+    "shipping_country": "GB",
+    "discovery_keyword": "travel accessory",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": 65,
+    "product_score_tier": "B",
+    "publish_ready": true,
+    "product_score_flags": [
+      "bulky_keyword"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "strong_margin",
+      "safe_price_range",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "listing_draft_ready": true,
+    "listing_draft_created_at": "2026-06-29T22:31:21.297603+00:00",
+    "marketplace_optimized": true,
+    "marketplace_optimized_at": "2026-06-29T22:31:21.461126+00:00"
   }
 }
