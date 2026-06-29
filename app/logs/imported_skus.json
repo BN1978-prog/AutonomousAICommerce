@@ -78,7 +78,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.019948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.019948+00:00",
+    "product_score": -110,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "margin_too_low",
+      "low_price_item",
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJJT1166027": {
     "product_id": 10576537289046,
@@ -160,7 +172,21 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -80,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "margin_too_low",
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJCC1064754": {
     "product_id": 10576537387350,
@@ -242,7 +268,21 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -80,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "margin_too_low",
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJJJCWGY01325": {
     "product_id": 10576739500374,
@@ -325,7 +365,21 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -100,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "margin_too_low",
+      "low_price_item",
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJGY1171456": {
     "product_id": 10577721491798,
@@ -408,7 +462,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -60,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "margin_too_low",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJGY1082751": {
     "product_id": 10578137710934,
@@ -495,7 +562,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJJJCWGY03008": {
     "product_id": 10578152882518,
@@ -580,7 +659,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -50,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "low_price_item",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_margin"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJMY1151470": {
     "product_id": 10578163761494,
@@ -667,7 +758,21 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -85,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "blocked_risk_word",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "strong_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJMY1112786": {
     "product_id": 10578775736662,
@@ -752,7 +857,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "good_profit",
+      "strong_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJJJCWGX00530": {
     "product_id": 10578817876310,
@@ -835,7 +953,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJMY2073717": {
     "product_id": 10578841567574,
@@ -918,7 +1048,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 35,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJGY1294149": {
     "product_id": 10581140210006,
@@ -1005,7 +1148,21 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 35,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "good_profit",
+      "strong_margin",
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJYD1544909": {
     "product_id": 10581163704662,
@@ -1090,7 +1247,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJGY1517102": {
     "product_id": 10581183463766,
@@ -1177,7 +1346,21 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -60,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "low_price_item",
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_margin",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJJJCWMY01054": {
     "product_id": 10583992664406,
@@ -1263,7 +1446,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 35,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "strong_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.421972+00:00"
   },
   "CJYD2164619": {
     "product_id": 10584072814934,
@@ -1347,7 +1542,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJMY1174239": {
     "product_id": 10585215304022,
@@ -1434,7 +1641,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 45,
+    "product_score_tier": "C",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "good_profit",
+      "strong_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJMY1081175": {
     "product_id": 10594409447766,
@@ -1520,7 +1739,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWGY01133": {
     "product_id": 10594435596630,
@@ -1604,7 +1835,21 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 15,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJGY1130079": {
     "product_id": 10594986492246,
@@ -1691,7 +1936,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 35,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "strong_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJMY2078412": {
     "product_id": 10595047965014,
@@ -1777,7 +2034,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 35,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWMY00973": {
     "product_id": 10595073556822,
@@ -1860,7 +2130,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 45,
+    "product_score_tier": "C",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "strong_margin",
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJYD2386773": {
     "product_id": 10595372007766,
@@ -1946,7 +2229,21 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 35,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "good_profit",
+      "strong_margin",
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWMY01010": {
     "product_id": 10595391832406,
@@ -2032,7 +2329,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWMY00923": {
     "product_id": 10595395141974,
@@ -2117,7 +2426,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -50,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "low_price_item",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_margin"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJDT2372258": {
     "product_id": 10596083532118,
@@ -2204,7 +2525,21 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 15,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJCC1228639": {
     "product_id": 10596107944278,
@@ -2290,7 +2625,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 35,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "strong_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWGY02924": {
     "product_id": 10596127342934,
@@ -2375,7 +2722,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJGD1113594": {
     "product_id": 10596712972630,
@@ -2459,7 +2818,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWMY01582": {
     "product_id": 10596735058262,
@@ -2544,7 +2915,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -30,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJJTJT05102": {
     "product_id": 10596760682838,
@@ -2629,7 +3012,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -40,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "low_price_item",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_margin",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJT2594074": {
     "product_id": 10598214107478,
@@ -2714,7 +3110,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWMY01517": {
     "product_id": 10598237241686,
@@ -2801,7 +3209,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJMY1076688": {
     "product_id": 10598252478806,
@@ -2888,7 +3308,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 5,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJYD1794318": {
     "product_id": 10598764544342,
@@ -2975,7 +3408,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -40,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "low_price_item",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_margin",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJT2352016": {
     "product_id": 10599021183318,
@@ -3060,7 +3506,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "low_price_item",
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_margin"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWGY01083": {
     "product_id": 10601026257238,
@@ -3146,7 +3605,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJCC1242562": {
     "product_id": 10601039855958,
@@ -3233,7 +3704,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 5,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJGD1352013": {
     "product_id": 10601358852438,
@@ -3319,7 +3803,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 5,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJT1116559": {
     "product_id": 10601382445398,
@@ -3405,7 +3902,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJT1478877": {
     "product_id": 10650143490390,
@@ -3491,7 +4000,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 5,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJYD2658504": {
     "product_id": 10650188939606,
@@ -3574,7 +4096,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 5,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJPN2660770": {
     "product_id": 10650193592662,
@@ -3657,7 +4192,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 5,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJT1353912": {
     "product_id": 10650491257174,
@@ -3744,7 +4292,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 45,
+    "product_score_tier": "C",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "good_profit",
+      "strong_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJT1659747": {
     "product_id": 10652679242070,
@@ -3831,7 +4391,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 35,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJMY2126410": {
     "product_id": 10656856244566,
@@ -3917,7 +4490,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJMY1119271": {
     "product_id": 10656877674838,
@@ -4003,7 +4588,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 35,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJSP2733732": {
     "product_id": 10657655456086,
@@ -4088,7 +4686,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWGY00675": {
     "product_id": 10657676329302,
@@ -4175,7 +4785,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 45,
+    "product_score_tier": "C",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "strong_margin",
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWGY00645": {
     "product_id": 10657679245654,
@@ -4259,7 +4882,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJMY2099920": {
     "product_id": 10659785146710,
@@ -4346,7 +4981,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": 25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJYD2896648": {
     "product_id": 10767442837846,
@@ -4425,7 +5072,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -110,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "margin_too_low",
+      "low_price_item",
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJT2896696": {
     "product_id": 10771609813334,
@@ -4504,7 +5163,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -110,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "margin_too_low",
+      "low_price_item",
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "PET-BOWL-001": {
     "status": "hunter_imported",
@@ -4605,7 +5276,19 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -30,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_margin",
+      "safe_price_range"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWGY02354": {
     "product_id": 10795652055382,
@@ -4658,7 +5341,20 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -40,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "low_price_item",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_margin",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJJJCWGY02237": {
     "product_id": 10795653595478,
@@ -4711,7 +5407,21 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00",
+    "product_score": -40,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "profit_too_low",
+      "bulky_keyword",
+      "missing_cj_mapping"
+    ],
+    "product_score_reasons": [
+      "acceptable_margin",
+      "safe_price_range",
+      "good_product_type"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJPB295913401AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -4753,7 +5463,22 @@
       "ebay": {},
       "woocommerce": {},
       "amazon": {}
-    }
+    },
+    "product_score": -80,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJQC294920701AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -4796,7 +5521,22 @@
       "ebay": {},
       "woocommerce": {},
       "amazon": {}
-    }
+    },
+    "product_score": 90,
+    "product_score_tier": "A",
+    "publish_ready": true,
+    "product_score_flags": [
+      "bulky_keyword"
+    ],
+    "product_score_reasons": [
+      "good_profit",
+      "strong_margin",
+      "safe_price_range",
+      "lightweight",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJSB293675201AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -4839,7 +5579,23 @@
       "ebay": {},
       "woocommerce": {},
       "amazon": {}
-    }
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJZS293677701AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -4882,7 +5638,23 @@
       "ebay": {},
       "woocommerce": {},
       "amazon": {}
-    }
+    },
+    "product_score": -40,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "medium_weight",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJFU293646401AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -4925,7 +5697,23 @@
       "ebay": {},
       "woocommerce": {},
       "amazon": {}
-    }
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJZS293678201AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -4968,7 +5756,23 @@
       "ebay": {},
       "woocommerce": {},
       "amazon": {}
-    }
+    },
+    "product_score": -40,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "medium_weight",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJFU293249701AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5011,7 +5815,23 @@
       "ebay": {},
       "woocommerce": {},
       "amazon": {}
-    }
+    },
+    "product_score": -40,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "safe_price_range",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJLY295978401AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5054,7 +5874,22 @@
       "ebay": {},
       "woocommerce": {},
       "amazon": {}
-    }
+    },
+    "product_score": 30,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJFU295981701AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5097,7 +5932,23 @@
       "ebay": {},
       "woocommerce": {},
       "amazon": {}
-    }
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.422975+00:00"
   },
   "CJFU29345140001": {
     "status": "cj_discovered_ready_for_listing",
@@ -5140,7 +5991,23 @@
       "ebay": {},
       "woocommerce": {},
       "amazon": {}
-    }
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.423972+00:00"
   },
   "CJCF293266401AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5183,6 +6050,22 @@
       "ebay": {},
       "woocommerce": {},
       "amazon": {}
-    }
+    },
+    "product_score": 0,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "safe_price_range",
+      "lightweight",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-29T21:59:51.423972+00:00"
   }
 }
