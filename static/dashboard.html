@@ -3570,15 +3570,15 @@ async function loadCommerceOverview() {
 
         <tr>
 
-          <td>${c.name}</td>
+          <td>${c.channel || "-"}</td>
 
-          <td>${c.products ?? "-"}</td>
+          <td>${c.channel === "shopify" ? (data.total_products ?? "-") : "-"}</td>
 
-          <td>${c.orders ?? "-"}</td>
+          <td>${c.channel === "shopify" ? (data.total_orders ?? "-") : "-"}</td>
 
-          <td>${c.revenue === null ? "-" : "Ј" + c.revenue}</td>
+          <td>${c.channel === "shopify" ? ("GBP " + (data.total_revenue ?? 0)) : "-"}</td>
 
-          <td>${c.status || "unknown"}</td>
+          <td>${c.connected ? "connected" : (c.state || "unknown")}</td>
 
         </tr>
 
