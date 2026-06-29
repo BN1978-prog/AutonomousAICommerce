@@ -1,6 +1,6 @@
 AICommerce System Status Report
 ========================================
-Created at: 2026-06-10T19:59:25.934141+00:00
+Created at: 2026-06-29T18:59:26.535867+00:00
 
 Core:
 - MASTER_SYSTEM_HEALTHY_SAFE_MODE
@@ -23,7 +23,7 @@ Google:
 
 Etsy:
 - ETSY_WAITING_PERSONAL_APPROVAL_OR_OAUTH
-- autopilot: ETSY_WAITING_APPROVAL
+- autopilot: ETSY_ACTIVE
 Amazon:
 - AMAZON_PARTIAL_CONNECTED_WAITING_AUTHORIZATION
 - missing: AMAZON_REFRESH_TOKEN, AMAZON_SELLER_ID

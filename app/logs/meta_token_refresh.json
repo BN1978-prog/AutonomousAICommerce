@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-06-10T19:58:31.696761+00:00",
+  "created_at": "2026-06-29T18:58:31.558568+00:00",
   "status_code": 200,
   "response": {
-    "access_token": "EAASaApyuNOoBRuCNH6XcR8SgZC2SjZAmJnuXfiRBksv3y9xegMdoUOqa6DZBeXRWYtkgudfY5H6zO1hfjZBNuxmSQxHidmJZCUzyTDlUFqu13XiBMHxhh1a8Hj4STGAZCG17hmwMlzh9NxhMK4fuAbHcyNxutZCOgC9HNu5ofLtnjsQtQBdNXgi0wTZByVGfL0IL",
+    "access_token": "EAASaApyuNOoBRyzFEln7ZApfk0HYTDpWOLdZBZBWJOu8NrBvs82EdZByZAEkrN0Jcyq5gZAkiZAJsB23ThvFefpNCva5QZA41CwtzsSzZCmZBkGbjlzixTEcybPlxocmgklN29LLv5FNjyuIExZAbFmEZCd3ZAGMUcxy95t5ZAieKiGv3hzta2XwZB5g9H5rg6N8g3Ijjxs",
     "token_type": "bearer"
   },
   "status": "refreshed"

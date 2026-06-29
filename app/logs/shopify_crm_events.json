@@ -1,9 +1,25 @@
 {
-  "created_at": "2026-06-10T19:58:34.781365+00:00",
+  "created_at": "2026-06-29T18:58:34.438520+00:00",
   "orders_status": 200,
   "customers_status": 200,
-  "events_count": 1,
+  "events_count": 3,
   "events": [
+    {
+      "event_type": "win_back",
+      "email": "kathleen.edwards8760@protonmail.com",
+      "customer_id": 10814123082070,
+      "first_name": "Kathleen",
+      "last_name": "Edwardsy",
+      "created_at": "2026-06-22T12:13:33+01:00"
+    },
+    {
+      "event_type": "win_back",
+      "email": "jessica.reed6235@outlook.com",
+      "customer_id": 10811648639318,
+      "first_name": "Jessica",
+      "last_name": "Reeda",
+      "created_at": "2026-06-21T19:02:33+01:00"
+    },
     {
       "event_type": "win_back",
       "email": "fenix1978@list.ru",

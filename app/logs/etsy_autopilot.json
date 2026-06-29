@@ -1,9 +1,9 @@
 {
-  "created_at": "2026-06-10T19:59:22.068413+00:00",
+  "created_at": "2026-06-29T18:59:21.592930+00:00",
   "channel": "etsy",
   "autopilot_enabled": true,
-  "listing_publish": false,
-  "inventory_sync": false,
-  "order_sync": false,
-  "status": "ETSY_WAITING_APPROVAL"
+  "listing_publish": true,
+  "inventory_sync": true,
+  "order_sync": true,
+  "status": "ETSY_ACTIVE"
 }

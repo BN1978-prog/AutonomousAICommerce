@@ -1,6 +1,6 @@
 AICommerce Daily Autopilot Summary
 ========================================
-Created at: 2026-06-10T19:59:26.092043+00:00
+Created at: 2026-06-29T18:59:26.695993+00:00
 
 Top products:
 - non_slip_silicone_pet_feeding_bowl: score=143, sales=8, clicks=63, published=8

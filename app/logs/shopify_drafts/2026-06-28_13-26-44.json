@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-06-28T13:26:44.323309",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": false,
+    "status_code": 401,
+    "response": {
+      "errors": "[API] Invalid API key or access token (unrecognized login or wrong password)"
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Comfortable Pet Travel Backpack - Adventure Ready",
+      "body_html": "Take your pet on adventures with our comfortable travel backpack designed for pets. Perfect for hiking and travel.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "pet backpack, travel gear, pet accessories, hiking",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/20200613/3151318899866.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWGY01994",
+          "price": "19.53",
+          "inventory_quantity": 82534
+        }
+      ]
+    }
+  }
+}

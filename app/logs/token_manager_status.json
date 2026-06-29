@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-06-10T19:58:28.555756+00:00",
+  "created_at": "2026-06-29T18:58:27.469566+00:00",
   "commerce_channels_ok": true,
   "paid_ads_ok": true,
   "results": [
@@ -7,7 +7,7 @@
       "provider": "shopify",
       "ok": true,
       "status": "token_valid",
-      "checked_at": "2026-06-10T19:58:25.813546+00:00",
+      "checked_at": "2026-06-29T18:58:24.665731+00:00",
       "status_code": 200,
       "can_auto_refresh": false,
       "response": ""
@@ -16,7 +16,7 @@
       "provider": "woocommerce",
       "ok": true,
       "status": "keys_valid",
-      "checked_at": "2026-06-10T19:58:26.758350+00:00",
+      "checked_at": "2026-06-29T18:58:25.828557+00:00",
       "status_code": 200,
       "can_auto_refresh": false,
       "response": ""
@@ -25,7 +25,7 @@
       "provider": "ebay",
       "ok": true,
       "status": "access_token_refreshed",
-      "checked_at": "2026-06-10T19:58:27.499674+00:00",
+      "checked_at": "2026-06-29T18:58:26.519011+00:00",
       "can_auto_refresh": true,
       "expires_in": 7200,
       "env_updated": "EBAY_ACCESS_TOKEN"
@@ -34,7 +34,7 @@
       "provider": "google_ads",
       "ok": true,
       "status": "access_token_refreshed",
-      "checked_at": "2026-06-10T19:58:28.001060+00:00",
+      "checked_at": "2026-06-29T18:58:26.966310+00:00",
       "can_auto_refresh": true,
       "expires_in": 3599,
       "env_updated": "GOOGLE_ADS_ACCESS_TOKEN"
@@ -43,7 +43,7 @@
       "provider": "meta",
       "ok": true,
       "status": "token_exchanged_or_extended",
-      "checked_at": "2026-06-10T19:58:28.555756+00:00",
+      "checked_at": "2026-06-29T18:58:27.469566+00:00",
       "can_auto_refresh": true,
       "expires_in": null,
       "env_updated": "META_ACCESS_TOKEN"

@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-06-28T12:59:49.912057",
+  "force_real": true,
+  "result": {
+    "dry_run": false,
+    "created": false,
+    "status_code": 401,
+    "response": {
+      "errors": "[API] Invalid API key or access token (unrecognized login or wrong password)"
+    }
+  },
+  "payload": {
+    "product": {
+      "title": "Comfortable Pet Travel Backpack - Carry Your Pet Anywhere",
+      "body_html": "Travel with ease using our comfortable pet travel backpack. Perfect for hiking, walking, or daily commutes.",
+      "vendor": "CJdropshipping",
+      "status": "draft",
+      "tags": "pet backpack, travel gear, pet carrier, dog backpack, cat backpack",
+      "images": [
+        {
+          "src": "https://cf.cjdropshipping.com/20200613/3151318899866.jpg"
+        }
+      ],
+      "variants": [
+        {
+          "sku": "CJJJCWGY01994",
+          "price": "19.53",
+          "inventory_quantity": 82534
+        }
+      ]
+    }
+  }
+}
