@@ -49,7 +49,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 3.5,
+    "shipping_cost": 2.99,
+    "estimated_profit": 3.5,
+    "margin_percent": 35.04,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10576530407766,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/stylish-pet-clothes-for-your-furry-friend-1"
+      },
+      "ebay": {
+        "offer_id": "170499791011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.019948+00:00"
   },
   "CJJT1166027": {
     "product_id": 10576537289046,
@@ -102,7 +135,40 @@
     "ads_budget_multiplier": 0,
     "featured_product": false,
     "pause_candidate": true,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10576537289046,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/portable-folding-pet-bowl-for-travel-1"
+      },
+      "ebay": {
+        "offer_id": "170499833011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJCC1064754": {
     "product_id": 10576537387350,
@@ -155,7 +221,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10576537387350,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/portable-pet-backpack-for-outdoor-adventures-1"
+      },
+      "ebay": {
+        "offer_id": "170499846011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWGY01325": {
     "product_id": 10576739500374,
@@ -209,7 +308,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 3.5,
+    "shipping_cost": 2.99,
+    "estimated_profit": 3.5,
+    "margin_percent": 35.04,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10576739500374,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/silicone-folding-pet-bowl-portable-durable"
+      },
+      "ebay": {
+        "offer_id": "170499997011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJGY1171456": {
     "product_id": 10577721491798,
@@ -263,7 +395,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 8.75,
+    "shipping_cost": 2.99,
+    "estimated_profit": 13.25,
+    "margin_percent": 53.02,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10577721491798,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-bowl-dog-bowl-pet-feeder-stainless-steel-bowl-folding-bowl"
+      },
+      "ebay": {
+        "offer_id": "170500020011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJGY1082751": {
     "product_id": 10578137710934,
@@ -317,7 +482,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10578137710934,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-slow-feeder-dog-toy-cute-funny-rubber-dog-ball-toy"
+      },
+      "ebay": {
+        "offer_id": "170500053011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWGY03008": {
     "product_id": 10578152882518,
@@ -369,7 +567,40 @@
     "ads_budget_multiplier": 0,
     "featured_product": false,
     "pause_candidate": true,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 3.5,
+    "shipping_cost": 2.99,
+    "estimated_profit": 3.5,
+    "margin_percent": 35.04,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10578152882518,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/premium-pet-grooming-comb"
+      },
+      "ebay": {
+        "offer_id": "170500110011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJMY1151470": {
     "product_id": 10578163761494,
@@ -423,7 +654,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 7.44,
+    "shipping_cost": 2.99,
+    "estimated_profit": 10.84,
+    "margin_percent": 50.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10578163761494,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/smart-funny-cat-triangle-turntable-electric-toy-scratcher"
+      },
+      "ebay": {
+        "offer_id": "170500147011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJMY1112786": {
     "product_id": 10578775736662,
@@ -475,7 +739,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 11.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 18.45,
+    "margin_percent": 55.93,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10578775736662,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/four-seasons-universal-cat-recliner-bed"
+      },
+      "ebay": {
+        "offer_id": "170500174011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWGX00530": {
     "product_id": 10578817876310,
@@ -525,7 +822,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10578817876310,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/dog-leash-dog-leash-pet-leash"
+      },
+      "ebay": {
+        "offer_id": "170500190011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJMY2073717": {
     "product_id": 10578841567574,
@@ -575,7 +905,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10578841567574,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-brush"
+      },
+      "ebay": {
+        "offer_id": "170500280011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJGY1294149": {
     "product_id": 10581140210006,
@@ -629,7 +992,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 10.5,
+    "shipping_cost": 2.99,
+    "estimated_profit": 16.5,
+    "margin_percent": 55.02,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10581140210006,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-travel-carrier-bag-portable-pet-bag-folding-fabric-pet-carrier-travel-carrier-bag-for-pet-cage-with-locking-safety-zippers"
+      },
+      "ebay": {
+        "offer_id": "170500300011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJYD1544909": {
     "product_id": 10581163704662,
@@ -681,7 +1077,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10581163704662,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-water-feeder-cat-automatic-pet-feeder"
+      },
+      "ebay": {
+        "offer_id": "170500312011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJGY1517102": {
     "product_id": 10581183463766,
@@ -735,7 +1164,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 3.5,
+    "shipping_cost": 2.99,
+    "estimated_profit": 3.5,
+    "margin_percent": 35.04,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10581183463766,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/portable-pet-water-bottle-for-dogs-and-cats"
+      },
+      "ebay": {
+        "offer_id": "170500355011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWMY01054": {
     "product_id": 10583992664406,
@@ -788,7 +1250,40 @@
     "ads_budget_multiplier": 0,
     "featured_product": false,
     "pause_candidate": true,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 7.35,
+    "shipping_cost": 2.99,
+    "estimated_profit": 10.65,
+    "margin_percent": 50.74,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10583992664406,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-grooming-scissors"
+      },
+      "ebay": {
+        "offer_id": "170500365011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJYD2164619": {
     "product_id": 10584072814934,
@@ -839,7 +1334,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.9,
+    "shipping_cost": 2.99,
+    "estimated_profit": 6.1,
+    "margin_percent": 43.6,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10584072814934,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-waterproof-blanket-dog-blanket"
+      },
+      "ebay": {
+        "offer_id": "170500375011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJMY1174239": {
     "product_id": 10585215304022,
@@ -893,7 +1421,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 10.85,
+    "shipping_cost": 2.99,
+    "estimated_profit": 17.15,
+    "margin_percent": 55.34,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10585215304022,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-carrier-small-size"
+      },
+      "ebay": {
+        "offer_id": "170500419011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJMY1081175": {
     "product_id": 10594409447766,
@@ -946,7 +1507,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10594409447766,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-print-bell-cat-collar-cat-strap"
+      },
+      "ebay": {
+        "offer_id": "170500470011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWGY01133": {
     "product_id": 10594435596630,
@@ -997,7 +1591,40 @@
     "ads_budget_multiplier": 0,
     "featured_product": false,
     "pause_candidate": true,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10594435596630,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/dog-grooming-large-beauty"
+      },
+      "ebay": {
+        "offer_id": "170500529011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJGY1130079": {
     "product_id": 10594986492246,
@@ -1051,7 +1678,40 @@
     "ads_budget_multiplier": 0,
     "featured_product": false,
     "pause_candidate": true,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 7.0,
+    "shipping_cost": 2.99,
+    "estimated_profit": 10.0,
+    "margin_percent": 50.03,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10594986492246,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/blanket-pet-quilt-fall-winter-pet-thicken-blanket-warm-flannel-sleeping-blanket"
+      },
+      "ebay": {
+        "offer_id": "170500614011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJMY2078412": {
     "product_id": 10595047965014,
@@ -1104,7 +1764,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10595047965014,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/dog-brush-cat-brush-pet-grooming-brush-shedding-grooming-tools"
+      },
+      "ebay": {
+        "offer_id": "170500693011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWMY00973": {
     "product_id": 10595073556822,
@@ -1154,7 +1847,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 8.75,
+    "shipping_cost": 2.99,
+    "estimated_profit": 13.25,
+    "margin_percent": 53.02,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10595073556822,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-travel-bag"
+      },
+      "ebay": {
+        "offer_id": "170500722011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJYD2386773": {
     "product_id": 10595372007766,
@@ -1207,7 +1933,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 10.5,
+    "shipping_cost": 2.99,
+    "estimated_profit": 16.5,
+    "margin_percent": 55.02,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10595372007766,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/portable-cat-travel-bag-easy-and-convenient"
+      },
+      "ebay": {
+        "offer_id": "170500764011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWMY01010": {
     "product_id": 10595391832406,
@@ -1260,7 +2019,40 @@
     "ads_budget_multiplier": 1.5,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10595391832406,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/cat-scratcher-boxed"
+      },
+      "ebay": {
+        "offer_id": "170500860011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWMY00923": {
     "product_id": 10595395141974,
@@ -1312,7 +2104,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 3.5,
+    "shipping_cost": 2.99,
+    "estimated_profit": 3.5,
+    "margin_percent": 35.04,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10595395141974,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/scratcher-cat-toy"
+      },
+      "ebay": {
+        "offer_id": "170500947011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJDT2372258": {
     "product_id": 10596083532118,
@@ -1366,7 +2191,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10596083532118,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/portable-dog-water-bottle-go-out-dog-walking-travel-bottle-puppy-water-leak-proof-dog-water-drink-bottle"
+      },
+      "ebay": {
+        "offer_id": "170501002011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJCC1228639": {
     "product_id": 10596107944278,
@@ -1419,7 +2277,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 7.56,
+    "shipping_cost": 2.99,
+    "estimated_profit": 11.04,
+    "margin_percent": 51.13,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10596107944278,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/zeze-pet-meal-mat-cat-bowl-mat-pet-non-slip-mat"
+      },
+      "ebay": {
+        "offer_id": "170501119011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWGY02924": {
     "product_id": 10596127342934,
@@ -1471,7 +2362,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.9,
+    "shipping_cost": 2.99,
+    "estimated_profit": 6.1,
+    "margin_percent": 43.6,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10596127342934,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/dog-raincoat"
+      },
+      "ebay": {
+        "offer_id": "170501225011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJGD1113594": {
     "product_id": 10596712972630,
@@ -1522,7 +2446,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 5.95,
+    "shipping_cost": 2.99,
+    "estimated_profit": 8.05,
+    "margin_percent": 47.38,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10596712972630,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/british-style-dog-raincoat-perfect-for-pets"
+      },
+      "ebay": {
+        "offer_id": "170501325011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWMY01582": {
     "product_id": 10596735058262,
@@ -1574,7 +2531,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.1,
+    "shipping_cost": 2.99,
+    "estimated_profit": 4.63,
+    "margin_percent": 39.51,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10596735058262,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/s-shaped-foldable-cat-tunnel-toy"
+      },
+      "ebay": {
+        "offer_id": "170501401011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJJTJT05102": {
     "product_id": 10596760682838,
@@ -1626,7 +2616,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 3.5,
+    "shipping_cost": 2.99,
+    "estimated_profit": 3.5,
+    "margin_percent": 35.04,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10596760682838,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/premium-pet-cleaning-brush"
+      },
+      "ebay": {
+        "offer_id": "170501488011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJT2594074": {
     "product_id": 10598214107478,
@@ -1678,7 +2701,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10598214107478,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/natural-pet-shampoo-for-healthy-fur"
+      },
+      "ebay": {
+        "offer_id": "170501561011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWMY01517": {
     "product_id": 10598237241686,
@@ -1732,7 +2788,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.9,
+    "shipping_cost": 2.99,
+    "estimated_profit": 6.1,
+    "margin_percent": 43.6,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10598237241686,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/dog-socks-pet-socks-non-slip-cotton-socks-dog-foot-covers"
+      },
+      "ebay": {
+        "offer_id": "170501603011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJMY1076688": {
     "product_id": 10598252478806,
@@ -1786,7 +2875,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10598252478806,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/durable-cat-chain-traction-rope-set-harness-leash"
+      },
+      "ebay": {
+        "offer_id": "170501680011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJYD1794318": {
     "product_id": 10598764544342,
@@ -1840,7 +2962,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 3.5,
+    "shipping_cost": 2.99,
+    "estimated_profit": 3.5,
+    "margin_percent": 35.04,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10598764544342,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/versatile-pet-hair-cleaning-comb-brush"
+      },
+      "ebay": {
+        "offer_id": "170501770011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJT2352016": {
     "product_id": 10599021183318,
@@ -1892,7 +3047,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 3.5,
+    "shipping_cost": 2.99,
+    "estimated_profit": 3.5,
+    "margin_percent": 35.04,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10599021183318,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/premium-pet-shampoo-for-healthy-fur"
+      },
+      "ebay": {
+        "offer_id": "170501818011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWGY01083": {
     "product_id": 10601026257238,
@@ -1945,7 +3133,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10601026257238,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-waterproof-socks"
+      },
+      "ebay": {
+        "offer_id": "170501856011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJCC1242562": {
     "product_id": 10601039855958,
@@ -1999,7 +3220,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 5.95,
+    "shipping_cost": 2.99,
+    "estimated_profit": 8.05,
+    "margin_percent": 47.38,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10601039855958,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/no-pull-dog-harness-reflective-adjustable-soft-padded-pet-vest-harness"
+      },
+      "ebay": {
+        "offer_id": "170501903011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJGD1352013": {
     "product_id": 10601358852438,
@@ -2052,7 +3306,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10601358852438,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/cotton-dog-socks-comfortable-and-stylish"
+      },
+      "ebay": {
+        "offer_id": "170501957011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJT1116559": {
     "product_id": 10601382445398,
@@ -2105,7 +3392,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10601382445398,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/explosion-proof-red-pet-chest-harness"
+      },
+      "ebay": {
+        "offer_id": "170502094011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJT1478877": {
     "product_id": 10650143490390,
@@ -2158,7 +3478,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.9,
+    "shipping_cost": 2.99,
+    "estimated_profit": 6.1,
+    "margin_percent": 43.6,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10650143490390,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/durable-dog-leash-vest-harness-perfect-for-active-pets"
+      },
+      "ebay": {
+        "offer_id": "170502150011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJYD2658504": {
     "product_id": 10650188939606,
@@ -2208,7 +3561,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 6.4,
+    "shipping_cost": 2.99,
+    "estimated_profit": 8.89,
+    "margin_percent": 48.63,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10650188939606,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/warm-large-dog-bed-cat-mat"
+      },
+      "ebay": {
+        "offer_id": "170502241011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJPN2660770": {
     "product_id": 10650193592662,
@@ -2258,7 +3644,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 6.4,
+    "shipping_cost": 2.99,
+    "estimated_profit": 8.89,
+    "margin_percent": 48.63,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10650193592662,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/warm-large-dog-bed-cat-mat-1"
+      },
+      "ebay": {
+        "offer_id": "170502321011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJT1353912": {
     "product_id": 10650491257174,
@@ -2312,7 +3731,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 12.37,
+    "shipping_cost": 2.99,
+    "estimated_profit": 19.99,
+    "margin_percent": 56.55,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10650491257174,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/supportive-leash-harness-for-elderly-dogs"
+      },
+      "ebay": {
+        "offer_id": "170502452011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJT1659747": {
     "product_id": 10652679242070,
@@ -2366,7 +3818,40 @@
     "ads_budget_multiplier": 2.0,
     "featured_product": true,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10652679242070,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/effective-pet-hair-removal-cleaning-brush"
+      },
+      "ebay": {
+        "offer_id": "170502483011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJMY2126410": {
     "product_id": 10656856244566,
@@ -2419,7 +3904,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 5.25,
+    "shipping_cost": 2.99,
+    "estimated_profit": 6.75,
+    "margin_percent": 45.03,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10656856244566,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/cat-tunnel-pet-toy-cat-s-tunnel-foldable-cat-tunnel-cat-drill-bucket-toy"
+      },
+      "ebay": {
+        "offer_id": "170502531011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJMY1119271": {
     "product_id": 10656877674838,
@@ -2472,7 +3990,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10656877674838,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/easy-pet-cleaning-bath-brush"
+      },
+      "ebay": {
+        "offer_id": "170502655011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJSP2733732": {
     "product_id": 10657655456086,
@@ -2524,7 +4075,40 @@
     "ads_budget_multiplier": 1.5,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10657655456086,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-shampoo"
+      },
+      "ebay": {
+        "offer_id": "170502757011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWGY00675": {
     "product_id": 10657676329302,
@@ -2578,7 +4162,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 7.0,
+    "shipping_cost": 2.99,
+    "estimated_profit": 10.0,
+    "margin_percent": 50.03,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10657676329302,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-outdoor-foldable-dog-water-bottle-travel-dispenser"
+      },
+      "ebay": {
+        "offer_id": "170502885011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWGY00645": {
     "product_id": 10657679245654,
@@ -2629,7 +4246,40 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10657679245654,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/cat-and-dog-grooming-comb"
+      },
+      "ebay": {
+        "offer_id": "170502974011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJMY2099920": {
     "product_id": 10659785146710,
@@ -2683,7 +4333,40 @@
     "ads_budget_multiplier": 0,
     "featured_product": false,
     "pause_candidate": true,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.55,
+    "shipping_cost": 2.99,
+    "estimated_profit": 5.45,
+    "margin_percent": 41.96,
+    "profitable": true,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10659785146710,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/cat-hair-glove-pet-fur-remover-glove-dog-grooming-glove-brush-for-shedding-pet-hair-remover-mitt-cleaner-grooming-glove"
+      },
+      "ebay": {
+        "offer_id": "170503059011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJYD2896648": {
     "product_id": 10767442837846,
@@ -2729,7 +4412,40 @@
     "ads_budget_multiplier": 0,
     "featured_product": false,
     "pause_candidate": true,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 1.83,
+    "shipping_cost": 2.99,
+    "estimated_profit": 0.4,
+    "margin_percent": 7.66,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10767442837846,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/premium-hair-growth-microneedle-solution-for-hair-regeneration"
+      },
+      "ebay": {
+        "offer_id": "170498562011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJT2896696": {
     "product_id": 10771609813334,
@@ -2775,7 +4491,40 @@
     "ads_budget_multiplier": 0,
     "featured_product": false,
     "pause_candidate": true,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 1.46,
+    "shipping_cost": 2.99,
+    "estimated_profit": -0.29,
+    "margin_percent": -6.97,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10771609813334,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/premium-high-borosilicate-glass-tea-cup-internet-famous-double-layer-design-with-real-flowers-inside"
+      },
+      "ebay": {
+        "offer_id": "170511284011",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "PET-BOWL-001": {
     "status": "hunter_imported",
@@ -2842,7 +4591,41 @@
     "ads_budget_multiplier": 1.0,
     "featured_product": false,
     "pause_candidate": false,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 4.22,
+    "shipping_cost": 2.99,
+    "estimated_profit": 4.85,
+    "margin_percent": 40.22,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10660289610070,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/non-slip-silicone-pet-feeding-bowl"
+      },
+      "ebay": {
+        "offer_id": "170646276011",
+        "listing_id": "358573138042",
+        "status": "published"
+      },
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWGY02354": {
     "product_id": 10795652055382,
@@ -2865,7 +4648,37 @@
     "ads_budget_multiplier": 0,
     "featured_product": false,
     "pause_candidate": true,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 3.5,
+    "shipping_cost": 2.99,
+    "estimated_profit": 3.5,
+    "margin_percent": 35.04,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10795652055382,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/pet-travel-mug"
+      },
+      "ebay": {},
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   },
   "CJJJCWGY02237": {
     "product_id": 10795653595478,
@@ -2888,6 +4701,36 @@
     "ads_budget_multiplier": 0,
     "featured_product": false,
     "pause_candidate": true,
-    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00"
+    "tier_strategy_updated_at": "2026-05-25T14:59:55.667583+00:00",
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_cost": 3.58,
+    "shipping_cost": 2.99,
+    "estimated_profit": 3.66,
+    "margin_percent": 35.78,
+    "profitable": false,
+    "supplier_product_id": null,
+    "supplier_variant_id": null,
+    "cj_product_id": null,
+    "cj_variant_id": null,
+    "inventory_supplier": null,
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10795653595478,
+        "product_url": "https://aicommerce-test-store-2.myshopify.com/products/comfortable-pet-travel-backpack"
+      },
+      "ebay": {},
+      "etsy": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "sku_master_enriched_at": "2026-06-29T21:30:33.020948+00:00"
   }
 }

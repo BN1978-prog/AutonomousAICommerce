@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-06-29T21:30:33.024944+00:00",
+  "status": "SKU_MASTER_ENRICHED",
+  "total_skus": 56,
+  "enriched": 56,
+  "profitable": 42,
+  "missing_supplier_ids": 56,
+  "note": "Supplier costs are estimated until real CJ product/variant mapping is resolved."
+}
