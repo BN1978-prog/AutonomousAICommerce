@@ -3566,23 +3566,18 @@ async function loadCommerceOverview() {
 
     if (body) {
 
-      body.innerHTML = (data.channels || []).map(c => `
-
+      body.innerHTML = (data.channels || []).map(c => {
+        const channelName = c.channel || c.name || "-";
+        const state = c.connected ? "connected" : (c.state || c.status || "unknown");
+        return `
         <tr>
-
-          <td>${c.channel || "-"}</td>
-
-          <td>${c.channel === "shopify" ? (data.total_products ?? "-") : "-"}</td>
-
-          <td>${c.channel === "shopify" ? (data.total_orders ?? "-") : "-"}</td>
-
-          <td>${c.channel === "shopify" ? ("GBP " + (data.total_revenue ?? 0)) : "-"}</td>
-
-          <td>${c.connected ? "connected" : (c.state || "unknown")}</td>
-
-        </tr>
-
-      `).join("");
+          <td>${channelName}</td>
+          <td>${channelName === "shopify" ? (data.total_products ?? "-") : "-"}</td>
+          <td>${channelName === "shopify" ? (data.total_orders ?? "-") : "-"}</td>
+          <td>${channelName === "shopify" ? ("GBP " + (data.total_revenue ?? 0)) : "-"}</td>
+          <td>${state}</td>
+        </tr>`;
+      }).join("");
 
     }
 
