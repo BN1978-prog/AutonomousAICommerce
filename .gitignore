@@ -1,2 +1,16 @@
+﻿__pycache__/
+*.py[cod]
+*.pyo
+
 .env
-.env.backup
+
+app/logs/*.json
+app/logs/*.jsonl
+app/logs/*.txt
+app/logs/scheduled_runs/*.log
+app/logs/autopilot_scheduler/*.json
+
+!app/logs/.gitkeep
+
+.vscode/
+.idea/
