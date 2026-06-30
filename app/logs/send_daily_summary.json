@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-06-30T13:27:10.194416+00:00",
+  "created_at": "2026-06-30T19:08:49.784607+00:00",
   "sent": false,
   "status": "DAILY_SUMMARY_SEND_FAILED",
   "error": "missing SMTP config"

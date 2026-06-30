@@ -1,6 +1,6 @@
 AICommerce Daily Autopilot Summary
 ========================================
-Created at: 2026-06-30T13:27:01.798145+00:00
+Created at: 2026-06-30T19:08:43.973526+00:00
 
 Top products:
 - non_slip_silicone_pet_feeding_bowl: score=143, sales=8, clicks=63, published=8
@@ -31,7 +31,7 @@ Last autopilot steps:
 - amazon_token_refresher: OK
 - shopify_crm_events: OK
 - real_sales_collector: OK
-- cj_paid_order_fulfillment: SKIPPED_MODULE_MISSING
+- cj_paid_order_fulfillment: OK
 - crm_personalized_drafts: OK
 - crm_readiness_summary: OK
 - etsy_connection_status: OK
@@ -64,6 +64,10 @@ Last autopilot steps:
 - campaign_approval_queue: OK
 - daily_publish_guard: SKIPPED_ALREADY_PUBLISHED_TODAY
 - system_status_report: OK
+- autonomous_commerce_live_gate: OK
+- autonomous_fulfillment_runner: OK
+- autonomous_commerce_readiness: OK
+- autonomous_commerce_runner: OK
 - daily_summary: OK
 - auto_scaling_score: OK
 - product_guardrails: OK

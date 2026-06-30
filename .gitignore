@@ -14,3 +14,7 @@ app/logs/autopilot_scheduler/*.json
 
 .vscode/
 .idea/
+
+.env.backup
+app/logs/*.backup_*
+app/logs/**/*.backup_*

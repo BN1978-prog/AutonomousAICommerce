@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-30T13:27:10.553060+00:00",
+  "created_at": "2026-06-30T19:08:50.046166+00:00",
   "sent": true,
   "status": "TELEGRAM_SUMMARY_SENT",
   "status_code": 200,
-  "response": "{\"ok\":true,\"result\":{\"message_id\":889,\"from\":{\"id\":8946184264,\"is_bot\":true,\"first_name\":\"AICommerce Bot\",\"username\":\"aicommerce_autopilot_bot\"},\"chat\":{\"id\":1535055900,\"first_name\":\"Nicolai\",\"type\":\"private\"},\"date\":1782826052,\"text\":\"AICommerce Daily Autopilot Summary\\n========================================\\nCreated at: 2026-06-30T13:27:01.798145+00:00\\n\\nTop products:\\n- non_slip_silicone_pet_feeding_bowl: score=143, sales=8, clicks=63, published=8\\n- cat_tunnel_pet_toy_cat_s_tunnel_foldabl"
+  "response": "{\"ok\":true,\"result\":{\"message_id\":959,\"from\":{\"id\":8946184264,\"is_bot\":true,\"first_name\":\"AICommerce Bot\",\"username\":\"aicommerce_autopilot_bot\"},\"chat\":{\"id\":1535055900,\"first_name\":\"Nicolai\",\"type\":\"private\"},\"date\":1782846551,\"text\":\"AICommerce Daily Autopilot Summary\\n========================================\\nCreated at: 2026-06-30T19:08:43.973526+00:00\\n\\nTop products:\\n- non_slip_silicone_pet_feeding_bowl: score=143, sales=8, clicks=63, published=8\\n- cat_tunnel_pet_toy_cat_s_tunnel_foldabl"
 }

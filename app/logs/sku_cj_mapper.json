@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-06-30T13:26:58.349268+00:00",
+  "created_at": "2026-06-30T19:20:49.662539+00:00",
   "status": "CJ_MAPPING_COMPLETED",
   "max_skus": 10,
   "processed": 10,
@@ -41,23 +41,23 @@
       "title": "Portable Pet Backpack for Outdoor Adventures",
       "keyword": "Portable Pet Backpack for Outdoor Adventures",
       "ok": false,
-      "search_status_code": 429,
-      "search_code": 1600200,
-      "status": "no_candidates"
+      "search_status_code": 200,
+      "search_code": 200,
+      "candidate_pid": "2071857946801770498",
+      "candidate_sku": "CJQT2961114",
+      "candidate_name": "For 2007-2013 MDX 07-13 Acura MDX YD2 Window Visors Rain Sun Guard Vent 4Pc Set",
+      "candidate_score": 7,
+      "status": "low_confidence_skipped",
+      "reason": "candidate score below threshold and SKU does not match"
     },
     {
       "sku": "CJJJCWGY01325",
       "title": "Silicone Folding Pet Bowl - Portable & Durable",
       "keyword": "Silicone Folding Pet Bowl Portable Durable",
       "ok": false,
-      "search_status_code": 200,
-      "search_code": 200,
-      "candidate_pid": "2071883192007168002",
-      "candidate_sku": "CJPB2961313",
-      "candidate_name": "48 In X 36 In Elevated Dog Cot Cooling Pet Bed With UV Protection Canopy Shade, Portable Raised Outdoor Dog Bed, Heavy Duty Pet Hammock Bed For Medium & Large Dogs, Red",
-      "candidate_score": 10,
-      "status": "low_confidence_skipped",
-      "reason": "candidate score below threshold and SKU does not match"
+      "search_status_code": 429,
+      "search_code": 1600200,
+      "status": "no_candidates"
     },
     {
       "sku": "CJGY1171456",
@@ -78,14 +78,9 @@
       "title": "Pet Slow Feeder Dog Toy Cute Funny Rubber Dog Ball Toy",
       "keyword": "Pet Slow Feeder Dog Toy Cute",
       "ok": false,
-      "search_status_code": 200,
-      "search_code": 200,
-      "candidate_pid": "2071779276672626689",
-      "candidate_sku": "CJYZ2960317",
-      "candidate_name": "Assorted Cute Mini Rubber Ducks  Squeaky Bath Toys For Kids  Small Gifts For Pool, Beach, And Parties,Self-pickup Only.",
-      "candidate_score": 13,
-      "status": "low_confidence_skipped",
-      "reason": "candidate score below threshold and SKU does not match"
+      "search_status_code": 429,
+      "search_code": 1600200,
+      "status": "no_candidates"
     },
     {
       "sku": "CJJJCWGY03008",
@@ -94,9 +89,9 @@
       "ok": false,
       "search_status_code": 200,
       "search_code": 200,
-      "candidate_pid": "2071883192007168002",
-      "candidate_sku": "CJPB2961313",
-      "candidate_name": "48 In X 36 In Elevated Dog Cot Cooling Pet Bed With UV Protection Canopy Shade, Portable Raised Outdoor Dog Bed, Heavy Duty Pet Hammock Bed For Medium & Large Dogs, Red",
+      "candidate_pid": "2071876003330822145",
+      "candidate_sku": "CJPB2961290",
+      "candidate_name": "Pet Sofa Bed For Cats And Small Dogs With Storage, Comfortable Pet Couch With Hidden Storage Compartment, Soft Cushioned Indoor Dog Sofa Bed, Green",
       "candidate_score": 7,
       "status": "low_confidence_skipped",
       "reason": "candidate score below threshold and SKU does not match"

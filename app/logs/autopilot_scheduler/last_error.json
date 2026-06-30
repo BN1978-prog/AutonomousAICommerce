@@ -1,4 +1,4 @@
 {
-  "created_at": "2026-05-27T16:19:53.631702",
-  "error": "'NoneType' object has no attribute 'get'"
+  "created_at": "2026-06-30T20:04:48.057245",
+  "error": "'str' object has no attribute 'get'"
 }

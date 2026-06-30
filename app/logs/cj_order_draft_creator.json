@@ -1,9 +1,9 @@
 {
-  "created_at": "2026-06-30T14:33:51.177757+00:00",
+  "created_at": "2026-06-30T19:30:49.220915+00:00",
   "queue_size": 0,
-  "existing_drafts": 1,
+  "existing_drafts": 0,
   "drafts_created": 0,
-  "total_drafts": 1,
+  "total_drafts": 0,
   "skipped": [],
   "status": "idle_no_queue",
   "output_file": "app\\logs\\cj_order_drafts.json"

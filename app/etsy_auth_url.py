@@ -21,7 +21,7 @@ Path("app/logs/etsy_pkce_verifier.txt").write_text(verifier, encoding="utf-8")
 params={
     "response_type":"code",
     "redirect_uri":redirect_uri,
-    "scope":"listings_r listings_w shops_r transactions_r",
+    "scope":"listings_r listings_w shops_r shops_w transactions_r",
     "client_id":client_id,
     "state":"aicommerce_etsy_auth",
     "code_challenge":challenge,

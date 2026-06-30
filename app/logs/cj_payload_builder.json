@@ -1,16 +1,10 @@
 {
-  "created_at": "2026-06-30T14:33:51.284282+00:00",
-  "drafts_seen": 1,
-  "existing_payloads": 1,
+  "created_at": "2026-06-30T19:30:49.350705+00:00",
+  "drafts_seen": 0,
+  "existing_payloads": 0,
   "payloads_created": 0,
-  "total_payloads": 1,
-  "skipped": [
-    {
-      "sku": "CJPB295913401AZ",
-      "order_id": "TEST-LEDGER-001",
-      "reason": "already_exists_in_cj_order_payloads"
-    }
-  ],
+  "total_payloads": 0,
+  "skipped": [],
   "status": "payloads_checked",
   "output_file": "app\\logs\\cj_order_payloads.json"
 }

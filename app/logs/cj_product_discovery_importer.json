@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-06-30T13:26:48.099114+00:00",
+  "created_at": "2026-06-30T19:20:39.773834+00:00",
   "status": "CJ_DISCOVERY_IMPORT_COMPLETED",
   "keyword": "multi_keyword",
   "searches": [
@@ -12,7 +12,7 @@
     {
       "keyword": "kitchen gadget",
       "status_code": 200,
-      "total": 1063,
+      "total": 1061,
       "returned": 20
     },
     {
@@ -24,43 +24,43 @@
     {
       "keyword": "phone holder",
       "status_code": 200,
-      "total": 665,
+      "total": 664,
       "returned": 20
     },
     {
       "keyword": "desk organizer",
       "status_code": 200,
-      "total": 916,
+      "total": 917,
       "returned": 20
     },
     {
       "keyword": "car organizer",
       "status_code": 200,
-      "total": 1360,
+      "total": 1363,
       "returned": 20
     },
     {
       "keyword": "fitness accessory",
       "status_code": 200,
-      "total": 183,
+      "total": 182,
       "returned": 20
     },
     {
       "keyword": "beauty tool",
       "status_code": 200,
-      "total": 2182,
+      "total": 2183,
       "returned": 20
     },
     {
       "keyword": "bathroom storage",
       "status_code": 200,
-      "total": 3372,
+      "total": 3369,
       "returned": 20
     },
     {
       "keyword": "led night light",
       "status_code": 200,
-      "total": 15912,
+      "total": 15914,
       "returned": 20
     },
     {
@@ -78,13 +78,13 @@
     {
       "keyword": "cable organizer",
       "status_code": 200,
-      "total": 546,
+      "total": 547,
       "returned": 20
     },
     {
       "keyword": "water bottle",
       "status_code": 200,
-      "total": 1023,
+      "total": 1021,
       "returned": 20
     },
     {
@@ -96,13 +96,13 @@
     {
       "keyword": "garden tool",
       "status_code": 200,
-      "total": 2744,
+      "total": 2746,
       "returned": 20
     },
     {
       "keyword": "camping accessory",
       "status_code": 200,
-      "total": 559,
+      "total": 558,
       "returned": 20
     },
     {
@@ -114,60 +114,9 @@
   ],
   "search_status_code": 200,
   "cj_total_found": 3701,
-  "imported": 5,
-  "skipped_count": 45,
-  "imported_rows": [
-    {
-      "sku": "CJCJ296028001AZ",
-      "pid": "2071774535708209153",
-      "vid": "2071774536144416769",
-      "title": "Manual Slow Cooker, Easy To Use Program-Free Kitchen Appliance, Great For Pot Roast And Chili",
-      "supplier_cost": 35.16,
-      "sale_price": 84.38,
-      "estimated_profit": 49.22,
-      "margin_percent": 58.33
-    },
-    {
-      "sku": "CJFU296024401AZ",
-      "pid": "2071768702531964929",
-      "vid": "2071768702989144066",
-      "title": "Kitchen Cart With Storage And Drop Leaf Tabletop, Rolling Island On Wheels For Extra Workspace",
-      "supplier_cost": 102.09,
-      "sale_price": 245.02,
-      "estimated_profit": 142.93,
-      "margin_percent": 58.33
-    },
-    {
-      "sku": "CJYD293726901AZ",
-      "pid": "2606161202251636100",
-      "vid": "2606161202251636800",
-      "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
-      "supplier_cost": 1.91,
-      "sale_price": 11.76,
-      "estimated_profit": 6.86,
-      "margin_percent": 58.33
-    },
-    {
-      "sku": "CJHC293680101AZ",
-      "pid": "2066806393133748226",
-      "vid": "2066806393314103297",
-      "title": "Pink Aviation Enclosed Cat Litter Box With Handle, Spacious Anti Tracking Cat Toilet, Ideal Choice For Indoor Cats And Travel",
-      "supplier_cost": 26.35,
-      "sale_price": 63.24,
-      "estimated_profit": 36.89,
-      "margin_percent": 58.33
-    },
-    {
-      "sku": "CJHC293682101AZ",
-      "pid": "2066808176295956481",
-      "vid": "2066808176497283073",
-      "title": "White Aviation Enclosed Cat Litter Box With Handle, Spacious Anti Tracking Cat Toilet, Ideal Choice For Indoor Cats And Travel",
-      "supplier_cost": 26.35,
-      "sale_price": 63.24,
-      "estimated_profit": 36.89,
-      "margin_percent": 58.33
-    }
-  ],
+  "imported": 0,
+  "skipped_count": 360,
+  "imported_rows": [],
   "skipped": [
     {
       "pid": "2071855533582086146",
@@ -274,13 +223,13 @@
       ]
     },
     {
-      "sku": "CJZS293677701AZ",
-      "pid": "2066802512874065921",
+      "sku": "CJSB293675201AZ",
+      "pid": "2066800029532536834",
       "reason": "already_exists"
     },
     {
-      "sku": "CJSB293675201AZ",
-      "pid": "2066800029532536834",
+      "sku": "CJZS293677701AZ",
+      "pid": "2066802512874065921",
       "reason": "already_exists"
     },
     {
@@ -291,6 +240,16 @@
     {
       "sku": "CJZS293678201AZ",
       "pid": "2066803201852424194",
+      "reason": "already_exists"
+    },
+    {
+      "sku": "CJCJ296028001AZ",
+      "pid": "2071774535708209153",
+      "reason": "already_exists"
+    },
+    {
+      "sku": "CJFU296024401AZ",
+      "pid": "2071768702531964929",
       "reason": "already_exists"
     },
     {
@@ -335,17 +294,6 @@
       "pid": "2066364669569032193",
       "reason": "blacklisted_detail",
       "title": "Kitchen Bar Stools With Footrest Set Of 2 Paper Rope Weave Dining Chairs Counter Height Barstool Style B Black & Honey"
-    },
-    {
-      "pid": "2066527378916003841",
-      "reason": "low_relevance",
-      "keyword": "kitchen gadget",
-      "title": "20 Bar Professional Espresso Machine With Milk Frother, Single & Double Shot, ESE Pod Compatible, Pressure Display, Removable Water Tank For Cappuccino, Latte, "
-    },
-    {
-      "pid": "2066073440780312578",
-      "reason": "blacklisted_title",
-      "title": "Butane Free-2-in-1 Fidget Spinner Gun Lighter Foldable Transformer Metal Lighter Red Laser Windproof Novelty EDC Gadget Gift For Men"
     }
   ]
 }
