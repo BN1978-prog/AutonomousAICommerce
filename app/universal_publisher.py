@@ -6,6 +6,12 @@ from pathlib import Path
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 
+from app.channels.ebay_gateway import (
+    ebay_create_inventory_item,
+    ebay_create_offer,
+    ebay_publish_offer,
+)
+
 load_dotenv()
 
 DRAFTS = Path("app/logs/universal_listing_drafts.json")
@@ -65,6 +71,146 @@ def shopify_publish_draft(sku, payload):
         "status_code": r.status_code,
         "response": data
     }
+
+
+def ebay_publish_listing(sku, payload, item=None):
+    item = item or {}
+
+    images = [
+        img.get("src") if isinstance(img, dict) else img
+        for img in (payload.get("images") or [])
+        if img
+    ]
+
+    if not images:
+        images = [
+            img.get("src") if isinstance(img, dict) else img
+            for img in (item.get("images") or item.get("imageUrls") or [])
+            if img
+        ]
+
+    if not images and item.get("image"):
+        images = [item.get("image")]
+
+    product = {
+        "title": payload.get("title") or item.get("title") or sku,
+        "description": payload.get("body_html") or item.get("description") or item.get("title") or "Product",
+        "quantity": 10,
+        "imageUrls": images,
+        "aspects": {
+            "Brand": ["Unbranded"],
+            "Type": ["General"]
+        }
+    }
+
+    inv = ebay_create_inventory_item(sku, product)
+
+    if not inv.get("ok"):
+        return {
+            "ok": False,
+            "status": "inventory_failed",
+            "response": inv
+        }
+
+    variants = payload.get("variants") or [{}]
+    price = float(variants[0].get("price") or payload.get("price") or 0)
+
+    offer = ebay_create_offer(sku=sku, price=price, quantity=10)
+
+    if not offer.get("ok"):
+        errors = (offer.get("response") or {}).get("errors") or []
+        msg = errors[0].get("message", "") if errors else ""
+        existing_offer_id = None
+
+        if "already exists" in msg.lower():
+            for param in errors[0].get("parameters", []):
+                if param.get("name") == "offerId":
+                    existing_offer_id = param.get("value")
+                    break
+
+        if existing_offer_id:
+            offer_id = existing_offer_id
+        else:
+            return {
+                "ok": False,
+                "status": "offer_failed",
+                "response": offer
+            }
+    else:
+        offer_id = offer["response"].get("offerId")
+
+    try:
+        from app.channels.ebay_gateway import ebay_headers, ebay_config
+        import requests
+
+        h = ebay_headers()
+        cfg = ebay_config()
+
+        if h.get("ok") and offer_id:
+            get_offer = requests.get(
+                cfg["api_base"] + "/sell/inventory/v1/offer/" + str(offer_id),
+                headers=h["headers"],
+                timeout=30
+            )
+
+            if get_offer.status_code == 200:
+                offer_data = get_offer.json()
+                offer_data.setdefault("listingPolicies", {})
+                offer_data["listingPolicies"]["fulfillmentPolicyId"] = os.getenv(
+                    "EBAY_FULFILLMENT_POLICY_ID",
+                    "394964752023"
+                )
+
+                requests.put(
+                    cfg["api_base"] + "/sell/inventory/v1/offer/" + str(offer_id),
+                    headers=h["headers"],
+                    json=offer_data,
+                    timeout=30
+                )
+    except Exception:
+        pass
+
+    try:
+        from app.channels.ebay_gateway import ebay_headers, ebay_config
+        import requests
+
+        h = ebay_headers()
+        cfg = ebay_config()
+
+        if h.get("ok") and offer_id:
+            get_offer = requests.get(
+                cfg["api_base"] + "/sell/inventory/v1/offer/" + str(offer_id),
+                headers=h["headers"],
+                timeout=30
+            )
+
+            if get_offer.status_code == 200:
+                offer_data = get_offer.json()
+                offer_data.setdefault("listingPolicies", {})
+                offer_data["listingPolicies"]["fulfillmentPolicyId"] = os.getenv(
+                    "EBAY_FULFILLMENT_POLICY_ID",
+                    "394964752023"
+                )
+
+                requests.put(
+                    cfg["api_base"] + "/sell/inventory/v1/offer/" + str(offer_id),
+                    headers=h["headers"],
+                    json=offer_data,
+                    timeout=30
+                )
+    except Exception:
+        pass
+
+    publish = ebay_publish_offer(offer_id)
+
+    return {
+        "ok": publish.get("ok"),
+        "status": "published" if publish.get("ok") else "publish_failed",
+        "offer_id": offer_id,
+        "response": publish.get("response"),
+        "publish": publish
+    }
+
 
 def main():
     drafts = json.loads(DRAFTS.read_text(encoding="utf-8-sig")) if DRAFTS.exists() else {}
@@ -142,6 +288,20 @@ def main():
                     item["status"] = "shopify_draft_created"
                 continue
 
+            if PUBLISH_MODE == "LIVE" and channel == "ebay":
+                result = ebay_publish_listing(sku, payload, item)
+                row["channels"][channel] = result
+
+                if result.get("ok"):
+                    item.setdefault("channels", {}).setdefault("ebay", {})
+                    item["channels"]["ebay"]["offer_id"] = result.get("offer_id")
+                    item["channels"]["ebay"]["status"] = "published"
+                    item["channels"]["ebay"]["published_at"] = datetime.now(timezone.utc).isoformat()
+                    item["ebay_offer_id"] = result.get("offer_id")
+                    item["ebay_status"] = "published"
+
+                continue
+
             row["channels"][channel] = {
                 "enabled": True,
                 "status": "live_not_implemented_for_channel"
@@ -158,7 +318,7 @@ def main():
         "enabled_channels": CHANNELS,
         "drafts": len(drafts),
         "results": results,
-        "note": "LIVE mode currently supports Shopify draft publishing only."
+        "note": "LIVE mode currently supports Shopify draft publishing and eBay publishing via Inventory API."
     }
 
     OUT.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
