@@ -1,10 +1,14 @@
 {
-  "created_at": "2026-06-29T22:04:39.313841+00:00",
+  "created_at": "2026-06-30T13:26:58.753376+00:00",
   "status": "UNIVERSAL_LISTING_DRAFTS_CREATED",
-  "drafts_created": 1,
-  "skipped": 66,
+  "drafts_created": 5,
+  "skipped": 77,
   "draft_skus": [
-    "CJQC294920701AZ"
+    "CJQC294920701AZ",
+    "CJTD295796801AZ",
+    "CJNS295299502BY",
+    "CJQQ294934201AZ",
+    "CJYD293726901AZ"
   ],
   "skipped_examples": [
     {

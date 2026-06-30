@@ -78,7 +78,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -110,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -90,7 +90,7 @@
       "missing_cj_mapping"
     ],
     "product_score_reasons": [],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00",
+    "product_scored_at": "2026-06-30T13:26:58.482272+00:00",
     "supplier_product_id": null,
     "supplier_variant_id": null,
     "cj_product_id": null,
@@ -176,7 +176,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -80,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -190,7 +190,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00",
+    "product_scored_at": "2026-06-30T13:26:58.482272+00:00",
     "supplier_product_id": null,
     "supplier_variant_id": null,
     "cj_product_id": null,
@@ -276,7 +276,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -80,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -290,7 +290,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00",
+    "product_scored_at": "2026-06-30T13:26:58.482272+00:00",
     "supplier_product_id": null,
     "supplier_variant_id": null,
     "cj_product_id": null,
@@ -377,7 +377,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -100,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -391,7 +391,7 @@
     "product_score_reasons": [
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00",
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00",
     "supplier_product_id": null,
     "supplier_variant_id": null,
     "cj_product_id": null,
@@ -478,7 +478,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -60,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -491,7 +491,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00",
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00",
     "supplier_product_id": null,
     "supplier_variant_id": null,
     "cj_product_id": null,
@@ -582,7 +582,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -594,7 +594,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWGY03008": {
     "product_id": 10578152882518,
@@ -679,7 +679,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -50,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -691,7 +691,7 @@
     "product_score_reasons": [
       "acceptable_margin"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJMY1151470": {
     "product_id": 10578163761494,
@@ -778,7 +778,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -85,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -792,7 +792,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJMY1112786": {
     "product_id": 10578775736662,
@@ -877,7 +877,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -890,7 +890,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWGX00530": {
     "product_id": 10578817876310,
@@ -973,7 +973,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -985,7 +985,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJMY2073717": {
     "product_id": 10578841567574,
@@ -1068,7 +1068,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1081,7 +1081,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJGY1294149": {
     "product_id": 10581140210006,
@@ -1168,7 +1168,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1182,7 +1182,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJYD1544909": {
     "product_id": 10581163704662,
@@ -1267,7 +1267,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1279,7 +1279,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJGY1517102": {
     "product_id": 10581183463766,
@@ -1366,7 +1366,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -60,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1380,7 +1380,7 @@
       "acceptable_margin",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWMY01054": {
     "product_id": 10583992664406,
@@ -1466,7 +1466,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1478,7 +1478,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.959537+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJYD2164619": {
     "product_id": 10584072814934,
@@ -1562,7 +1562,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1574,7 +1574,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJMY1174239": {
     "product_id": 10585215304022,
@@ -1661,7 +1661,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 45,
     "product_score_tier": "C",
     "publish_ready": false,
@@ -1673,7 +1673,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJMY1081175": {
     "product_id": 10594409447766,
@@ -1759,7 +1759,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1771,7 +1771,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWGY01133": {
     "product_id": 10594435596630,
@@ -1855,7 +1855,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 15,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1869,7 +1869,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJGY1130079": {
     "product_id": 10594986492246,
@@ -1956,7 +1956,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -1968,7 +1968,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJMY2078412": {
     "product_id": 10595047965014,
@@ -2054,7 +2054,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2067,7 +2067,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWMY00973": {
     "product_id": 10595073556822,
@@ -2150,7 +2150,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 45,
     "product_score_tier": "C",
     "publish_ready": false,
@@ -2163,7 +2163,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJYD2386773": {
     "product_id": 10595372007766,
@@ -2249,7 +2249,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2263,7 +2263,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWMY01010": {
     "product_id": 10595391832406,
@@ -2349,7 +2349,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2361,7 +2361,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWMY00923": {
     "product_id": 10595395141974,
@@ -2446,7 +2446,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -50,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2458,7 +2458,7 @@
     "product_score_reasons": [
       "acceptable_margin"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJDT2372258": {
     "product_id": 10596083532118,
@@ -2545,7 +2545,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 15,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2559,7 +2559,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJCC1228639": {
     "product_id": 10596107944278,
@@ -2645,7 +2645,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2657,7 +2657,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWGY02924": {
     "product_id": 10596127342934,
@@ -2742,7 +2742,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2754,7 +2754,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJGD1113594": {
     "product_id": 10596712972630,
@@ -2838,7 +2838,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2850,7 +2850,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWMY01582": {
     "product_id": 10596735058262,
@@ -2935,7 +2935,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -30,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -2947,7 +2947,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJJTJT05102": {
     "product_id": 10596760682838,
@@ -3032,7 +3032,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -40,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3045,7 +3045,7 @@
       "acceptable_margin",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJT2594074": {
     "product_id": 10598214107478,
@@ -3130,7 +3130,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3142,7 +3142,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWMY01517": {
     "product_id": 10598237241686,
@@ -3229,7 +3229,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3241,7 +3241,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJMY1076688": {
     "product_id": 10598252478806,
@@ -3328,7 +3328,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3341,7 +3341,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJYD1794318": {
     "product_id": 10598764544342,
@@ -3428,7 +3428,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -40,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3441,7 +3441,7 @@
       "acceptable_margin",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJT2352016": {
     "product_id": 10599021183318,
@@ -3526,7 +3526,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -70,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3539,7 +3539,7 @@
     "product_score_reasons": [
       "acceptable_margin"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWGY01083": {
     "product_id": 10601026257238,
@@ -3625,7 +3625,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3637,7 +3637,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJCC1242562": {
     "product_id": 10601039855958,
@@ -3724,7 +3724,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3737,7 +3737,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJGD1352013": {
     "product_id": 10601358852438,
@@ -3823,7 +3823,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3836,7 +3836,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJT1116559": {
     "product_id": 10601382445398,
@@ -3922,7 +3922,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -3934,7 +3934,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJT1478877": {
     "product_id": 10650143490390,
@@ -4020,7 +4020,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4033,7 +4033,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJYD2658504": {
     "product_id": 10650188939606,
@@ -4116,7 +4116,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4129,7 +4129,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJPN2660770": {
     "product_id": 10650193592662,
@@ -4212,7 +4212,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 5,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4225,7 +4225,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJT1353912": {
     "product_id": 10650491257174,
@@ -4312,7 +4312,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 45,
     "product_score_tier": "C",
     "publish_ready": false,
@@ -4324,7 +4324,7 @@
       "strong_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJT1659747": {
     "product_id": 10652679242070,
@@ -4411,7 +4411,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4424,7 +4424,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJMY2126410": {
     "product_id": 10656856244566,
@@ -4510,7 +4510,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4522,7 +4522,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJMY1119271": {
     "product_id": 10656877674838,
@@ -4608,7 +4608,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 35,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4621,7 +4621,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJSP2733732": {
     "product_id": 10657655456086,
@@ -4706,7 +4706,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4718,7 +4718,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWGY00675": {
     "product_id": 10657676329302,
@@ -4805,7 +4805,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 45,
     "product_score_tier": "C",
     "publish_ready": false,
@@ -4818,7 +4818,7 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWGY00645": {
     "product_id": 10657679245654,
@@ -4902,7 +4902,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -4914,7 +4914,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJMY2099920": {
     "product_id": 10659785146710,
@@ -5001,7 +5001,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": 25,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -5013,7 +5013,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJYD2896648": {
     "product_id": 10767442837846,
@@ -5092,7 +5092,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -110,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -5104,7 +5104,7 @@
       "missing_cj_mapping"
     ],
     "product_score_reasons": [],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJT2896696": {
     "product_id": 10771609813334,
@@ -5183,7 +5183,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -110,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -5195,7 +5195,7 @@
       "missing_cj_mapping"
     ],
     "product_score_reasons": [],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "PET-BOWL-001": {
     "status": "hunter_imported",
@@ -5296,7 +5296,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -30,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -5308,7 +5308,7 @@
       "acceptable_margin",
       "safe_price_range"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWGY02354": {
     "product_id": 10795652055382,
@@ -5361,7 +5361,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -40,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -5374,7 +5374,7 @@
       "acceptable_margin",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJJJCWGY02237": {
     "product_id": 10795653595478,
@@ -5427,7 +5427,7 @@
       "woocommerce": {},
       "amazon": {}
     },
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
     "product_score": -40,
     "product_score_tier": "D",
     "publish_ready": false,
@@ -5441,14 +5441,14 @@
       "safe_price_range",
       "good_product_type"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00"
   },
   "CJPB295913401AZ": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T21:47:23.840374+00:00",
     "title": "Human Dog Bed - 63 In X 31.4 In X 9.5 In Washable Faux Fur Lounger For Adults & Pets, Cushion With Orthopedic Support, Includes Pillow & Bla",
-    "description": "\n <ul>\n  <li>Plush Faux Fur &amp; Cushion Support – Made with soft faux fur and orthopedic filling, this human dog bed offers full-body relaxation while supporting pets and people alike.</li>\n  <li>Removable &amp; Washable Cover – Designed with a hidden zipper, the cover easily comes off and is machine washable, keeping your oversized pet bed fresh and clean.</li>\n  <li>Includes Pillow &amp; Blanket – Each Dokdogs human dog bed comes with a cozy pillow and blanket, making it a complete lounging set for stress relief and bonding time.</li>\n  <li>Durable Non-Slip Bottom – Built with a strong anti-slip base, this washable lounger stays in place on hardwood or tile floors, perfect for everyday indoor use.</li>\n </ul>\n",
+    "description": "\n <ul>\n  <li>Plush Faux Fur &amp; Cushion Support \u2013 Made with soft faux fur and orthopedic filling, this human dog bed offers full-body relaxation while supporting pets and people alike.</li>\n  <li>Removable &amp; Washable Cover \u2013 Designed with a hidden zipper, the cover easily comes off and is machine washable, keeping your oversized pet bed fresh and clean.</li>\n  <li>Includes Pillow &amp; Blanket \u2013 Each Dokdogs human dog bed comes with a cozy pillow and blanket, making it a complete lounging set for stress relief and bonding time.</li>\n  <li>Durable Non-Slip Bottom \u2013 Built with a strong anti-slip base, this washable lounger stays in place on hardwood or tile floors, perfect for everyday indoor use.</li>\n </ul>\n",
     "price": "170.38",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/39760e34-662c-47a6-94fa-c47d08c592a6.jpg",
@@ -5498,11 +5498,11 @@
       "strong_margin",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJQC294920701AZ": {
-    "status": "cj_discovered_ready_for_listing",
+    "status": "shopify_draft_created",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T21:52:28.235712+00:00",
     "title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Auto Interior Accessor",
@@ -5528,7 +5528,7 @@
     "product_weight": "370",
     "category_name": "Automobiles & Motorcycles / Auto Replacement Parts / Interior Parts",
     "shipping_country": "GB",
-    "discovery_keyword": "﻿home organizer",
+    "discovery_keyword": "\ufeffhome organizer",
     "publish_targets": {
       "shopify": true,
       "etsy": true,
@@ -5537,7 +5537,12 @@
       "amazon": false
     },
     "channels": {
-      "shopify": {},
+      "shopify": {
+        "product_id": 10920846295382,
+        "product_url": null,
+        "status": "draft",
+        "published_at": "2026-06-29T22:38:09.301218+00:00"
+      },
       "etsy": {},
       "ebay": {},
       "woocommerce": {},
@@ -5557,9 +5562,9 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00",
     "listing_draft_ready": true,
-    "listing_draft_created_at": "2026-06-29T22:31:21.297603+00:00",
+    "listing_draft_created_at": "2026-06-30T13:26:58.743347+00:00",
     "seo_title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Au",
     "seo_description": "Upgrade your everyday routine with Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Auto Interior Accessor. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Automobiles & Motorcycles / Auto Replacement Parts / Interior Parts. Price: GBP 47.5.",
     "seo_tags": [
@@ -5577,17 +5582,18 @@
       "mat",
       "rear"
     ],
-    "seo_content_generated_at": "2026-06-29T22:31:21.118573+00:00",
+    "seo_content_generated_at": "2026-06-30T13:26:58.614380+00:00",
     "marketplace_optimized": true,
-    "marketplace_optimized_at": "2026-06-29T22:31:21.460127+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "marketplace_optimized_at": "2026-06-30T13:26:58.871924+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
+    "product_id": 10920846295382
   },
   "CJSB293675201AZ": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T21:52:29.781010+00:00",
     "title": "4-in-1 Kids Toy Storage Organizer With Rolling Wheels, Car Shape Wooden Bookshelf With Fabric Drawer For Playroom Nursery, Age 3- Natural",
-    "description": "\n <p>• 4-in-1 Storage Solution: The wooden playroom organizer combines a stuffed animal zoo, bookshelf, open storage sections, and a fabric drawer in one compact design. It sorts books, dolls, games, art supplies, and more into dedicated spaces, so children's belongings stay organized and easy to reach.<br>• Easy-Roll Wheel Design: With 4 universal wheels, this toy storage organizer moves easily between activity areas without adding hassle to daily routines. It works well in changing spaces, making cleanup and room rearrangement feel much more convenient.<br>• Made for Little Readers: The kids bookshelf is designed at a child-friendly height, allowing kids to place or take items on their own with greater confidence. It fits well in a kid's room, playroom, kindergarten, or nursery where independent organization matters.<br>• Thoughtful &amp; Safe Details: Rounded edges create a smoother touch around the frame, while the cotton elastic ropes keep plush toys visible. Moreover, the foldable drawer adds extra convenience by offering hidden storage that can be used when needed and tucked flat when not in use.<br>• Gift-Ready Car Style: Featuring a charming car shape, this book and toy shelf exudes a playful look that blends storage with room decorations. It is suitable for ages 3+ years old, serving as a practical and delightful gift for birthdays, holidays, or other special occasions.<br><br><br>Color:Natural<br>Materials:Engineered Wood, Pine Wood, Cotton, PP<br>Product Dimensions:45\" x 15\" x 34.5\"<br>Sizes of Top Compartment:29.5\" x 14\" x 3\"<br>Sizes of Side Compartment:15\" x 13.5\" x 10.5\"<br>Inner Sizes of Drawer:16\" x 13.5\" x 9\"<br>Net Weight:45 lbs<br>Weight Capacity per Shelf:35 lbs<br>Suitable Ages:3+ Years Old<br>Is Assembly Required:Yes<img src=\"https://cf.cjdropshipping.com/95548874-bd69-40a5-bcf2-8939c7c816d8.png\" contenteditable=\"false\" style=\"font-size: 13px; max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/1648e46d-367e-4af5-b387-5872c4d84ac3.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/32121cf9-4dd6-453d-b979-3afca59e4dd1.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/20730ab0-4b19-4514-a511-9a5c79f61d1b.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/b1c037cb-b0ad-4920-ae8c-2b82927335cb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/eca35529-a3f6-4716-8dcf-3d73ccf09d63.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/5e7f0bb1-a8cf-4f3f-8ba8-b913aa4673f7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/2d708112-ee5f-4ce0-9ccf-3bfdadb863a7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/bdcef5f0-a3db-495a-a1e3-9ea243ca7f60.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "description": "\n <p>\u2022 4-in-1 Storage Solution: The wooden playroom organizer combines a stuffed animal zoo, bookshelf, open storage sections, and a fabric drawer in one compact design. It sorts books, dolls, games, art supplies, and more into dedicated spaces, so children's belongings stay organized and easy to reach.<br>\u2022 Easy-Roll Wheel Design: With 4 universal wheels, this toy storage organizer moves easily between activity areas without adding hassle to daily routines. It works well in changing spaces, making cleanup and room rearrangement feel much more convenient.<br>\u2022 Made for Little Readers: The kids bookshelf is designed at a child-friendly height, allowing kids to place or take items on their own with greater confidence. It fits well in a kid's room, playroom, kindergarten, or nursery where independent organization matters.<br>\u2022 Thoughtful &amp; Safe Details: Rounded edges create a smoother touch around the frame, while the cotton elastic ropes keep plush toys visible. Moreover, the foldable drawer adds extra convenience by offering hidden storage that can be used when needed and tucked flat when not in use.<br>\u2022 Gift-Ready Car Style: Featuring a charming car shape, this book and toy shelf exudes a playful look that blends storage with room decorations. It is suitable for ages 3+ years old, serving as a practical and delightful gift for birthdays, holidays, or other special occasions.<br><br><br>Color:Natural<br>Materials:Engineered Wood, Pine Wood, Cotton, PP<br>Product Dimensions:45\" x 15\" x 34.5\"<br>Sizes of Top Compartment:29.5\" x 14\" x 3\"<br>Sizes of Side Compartment:15\" x 13.5\" x 10.5\"<br>Inner Sizes of Drawer:16\" x 13.5\" x 9\"<br>Net Weight:45 lbs<br>Weight Capacity per Shelf:35 lbs<br>Suitable Ages:3+ Years Old<br>Is Assembly Required:Yes<img src=\"https://cf.cjdropshipping.com/95548874-bd69-40a5-bcf2-8939c7c816d8.png\" contenteditable=\"false\" style=\"font-size: 13px; max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/1648e46d-367e-4af5-b387-5872c4d84ac3.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/32121cf9-4dd6-453d-b979-3afca59e4dd1.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/20730ab0-4b19-4514-a511-9a5c79f61d1b.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/b1c037cb-b0ad-4920-ae8c-2b82927335cb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/eca35529-a3f6-4716-8dcf-3d73ccf09d63.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/5e7f0bb1-a8cf-4f3f-8ba8-b913aa4673f7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/2d708112-ee5f-4ce0-9ccf-3bfdadb863a7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/bdcef5f0-a3db-495a-a1e3-9ea243ca7f60.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
     "price": "268.34",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/5b5ea045-e69b-4240-b3f1-013fb7f9e634.png",
@@ -5609,7 +5615,7 @@
     "product_weight": "22600",
     "category_name": "Home, Garden & Furniture / Home Storage / Storage Bags & Cases & Boxes",
     "shipping_country": "GB",
-    "discovery_keyword": "﻿home organizer",
+    "discovery_keyword": "\ufeffhome organizer",
     "publish_targets": {
       "shopify": true,
       "etsy": true,
@@ -5639,15 +5645,15 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.483269+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJZS293677701AZ": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T21:52:31.544039+00:00",
     "title": "2 Pack Realistic Lifelike Faux Spiral Plant, All-Weather PE Artificial Flower Shrub For Indoor Outdoor Home Garden Decoration - Purple",
-    "description": "\n <p>• Lifelike &amp; Chic Design: Dense, layered greenery forms a graceful spiral profile that brings fullness and structure to your decoration. The vivid lavender/rose bloom adds a refreshing touch, and each artificial spiral topiary tree creates a polished look that closely resembles natural foliage in everyday settings.<br>• Sun-protected Beauty: Crafted from sun-resistant materials, the fake plants with spikes are made to maintain its vibrant tone and realistic texture through daily exposure. The exquisite design helps the plants stay attractive indoors or outside, making them dependable for year-round decorating.<br>• Quick &amp; Stable Setup: The trunk connects by a simple screw-in design, which allows setup to feel fast and intuitive. Once assembled, the spikes anchor easily into soil or fit your planter(not included) arrangement, so the faux lavender/rose shrub can be positioned at anywhere you want.<br>• Low Upkeep Greenery: The fake shrub plant offers the lush appearance of living greenery without watering, pruning, trimming, or fertilizing. For busy homes and workspaces, a realistic plant with blossoms offers beauty throughout the seasons while reducing everyday plant care.<br><br>• Suitable for Various Scenes: The package includes 2 pieces artificial shrubs, giving coordinated style to multiple areas while making seasonal decorating look simple and refined. After light branch shaping, the set works beautifully across front porches, pathways, living rooms, and weddings.<br><br><br>Color:Purple<br>Material:PE, Metal<br>Product Sizes：14\" x 36\"<br>Length of Ground Spike：6\"<br>Total Net Weight：5.5 lbs</p>\n <p><img src=\"https://cf.cjdropshipping.com/fe95b731-36cc-433b-8bd4-8665afec2e70.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/90e11abc-88b3-425e-9096-a391dac9a4a2.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/12c4874f-f5de-4ed5-9eab-d96664938d97.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f2d6e52c-318e-4b6c-87df-8c52e90a95cb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/73b21e47-c7b0-4bab-b42b-2eaf385f2fd8.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/b246a919-4847-4819-9e4f-72277b7a7e6d.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/61a33dc1-8b9e-4c5e-b871-f7448532bf02.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/be8a5388-e352-4973-a060-305ff1ec51cd.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "description": "\n <p>\u2022 Lifelike &amp; Chic Design: Dense, layered greenery forms a graceful spiral profile that brings fullness and structure to your decoration. The vivid lavender/rose bloom adds a refreshing touch, and each artificial spiral topiary tree creates a polished look that closely resembles natural foliage in everyday settings.<br>\u2022 Sun-protected Beauty: Crafted from sun-resistant materials, the fake plants with spikes are made to maintain its vibrant tone and realistic texture through daily exposure. The exquisite design helps the plants stay attractive indoors or outside, making them dependable for year-round decorating.<br>\u2022 Quick &amp; Stable Setup: The trunk connects by a simple screw-in design, which allows setup to feel fast and intuitive. Once assembled, the spikes anchor easily into soil or fit your planter(not included) arrangement, so the faux lavender/rose shrub can be positioned at anywhere you want.<br>\u2022 Low Upkeep Greenery: The fake shrub plant offers the lush appearance of living greenery without watering, pruning, trimming, or fertilizing. For busy homes and workspaces, a realistic plant with blossoms offers beauty throughout the seasons while reducing everyday plant care.<br><br>\u2022 Suitable for Various Scenes: The package includes 2 pieces artificial shrubs, giving coordinated style to multiple areas while making seasonal decorating look simple and refined. After light branch shaping, the set works beautifully across front porches, pathways, living rooms, and weddings.<br><br><br>Color:Purple<br>Material:PE, Metal<br>Product Sizes\uff1a14\" x 36\"<br>Length of Ground Spike\uff1a6\"<br>Total Net Weight\uff1a5.5 lbs</p>\n <p><img src=\"https://cf.cjdropshipping.com/fe95b731-36cc-433b-8bd4-8665afec2e70.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/90e11abc-88b3-425e-9096-a391dac9a4a2.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/12c4874f-f5de-4ed5-9eab-d96664938d97.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f2d6e52c-318e-4b6c-87df-8c52e90a95cb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/73b21e47-c7b0-4bab-b42b-2eaf385f2fd8.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/b246a919-4847-4819-9e4f-72277b7a7e6d.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/61a33dc1-8b9e-4c5e-b871-f7448532bf02.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/be8a5388-e352-4973-a060-305ff1ec51cd.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
     "price": "199.78",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/05b0c5b4-174f-41be-b7bf-05dfe51cf0f0.png",
@@ -5669,7 +5675,7 @@
     "product_weight": "3200",
     "category_name": "Home, Garden & Furniture / Festive & Party Supplies / Decorative Flowers & Wreaths",
     "shipping_country": "GB",
-    "discovery_keyword": "﻿home organizer",
+    "discovery_keyword": "\ufeffhome organizer",
     "publish_targets": {
       "shopify": true,
       "etsy": true,
@@ -5699,15 +5705,15 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJFU293646401AZ": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T21:52:33.417385+00:00",
     "title": "2 Doors Curio Cabinet With Tempered Glass Doors, Curio Cabinets With Mirrored Back Panel And Adjustable Shelves, Lighted Display Cabinet For",
-    "description": "\n <ul>\n  <li>American retro style Glass cabinet:Crafted with curved legs and metal handles, this cabinet exudes a touch of classical beauty and vintage charm. Its timeless style allows it to seamlessly fit into any corner, bringing an eternal sense of elegance to your space.</li>\n  <li>Spacious and Elegant Cabinet:This exquisite curio cabinet, featuring glass doors, boasts a total of three shelves that offer ample and versatile storage space. It includes one fixed wooden shelf and two adjustable tempered glass shelves, each capable of holding between 15 to 22 pounds. This cabinet is perfect for storing books、wine、 or collectibles.</li>\n  <li>Effortless Assembly:The cabinet can be effortlessly assembled using the meticulously labeled and packaged hardware, along with the included step-by-step instructions. The process is designed to be user-friendly and straightforward, ensuring a seamless installation experience.Overall Dimension: 43.79\"H x 11.8\"D x 25.99\" W.</li>\n  <li>The illuminated curio cabinet elegantly showcases your exquisite possessions, adding a touch of sophistication to your home. With its mirrored back, the cabinet provides a 360-degree view of the built-in ornaments, while the adjustable glass shelves allow for display options tailored to your needs. Perfectly sized for any room in your household, this piece is sure to elevate the ambiance and aesthetic appeal of your living space.</li>\n  <li><p>Elegant and Refined</p><p>This petite Curio Cabinet provides generous interior space to elegantly display your prized possessions. Featuring adjustable shelves, a sturdy construction, and a reflective back panel for added dimension, it is the ideal selection for any household. Discover the seamless fusion of sophistication, functionality, and resilience with our Showcase Cabinet!</p></li>\n  <li><p>Light Included</p><p>The internal lighting system creates a mesmerizing exhibition, casting a radiant glow upon your cherished possessions and elevating their aesthetic allure.</p></li>\n  <li><p>Vintage carved metal handle</p><p>The vintage metal carved handle not only showcases your cherished collection, but also adds a touch of American retro charm to your home</p></li>\n  <li><p>Adjustable Shelves</p><p>The adjustable shelves of this exquisite display cabinet can be effortlessly repositioned to accommodate items of varying sizes and weights, showcasing its versatility and adaptability.</p></li>\n  <li><p>Management of cable Position Holes</p><p>The power supply of this glass cabinet is plug-in, and the design of the wire hole on the back panel makes the cabinet look more aesthetically pleasing.</p></li>\n </ul>\n <p><img src=\"https://cf.cjdropshipping.com/da72a4e1-3526-4e2d-acf2-3d802e5be2a7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/5581dd0a-6482-43eb-8cf8-19ace940b8eb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/22f6d1a9-b4b2-464a-84f1-41976329a47e.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/c234939b-fe6f-4830-a8b7-c0e7b0b292a6.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/9efd9b41-ade9-45d4-aa4c-a0c69dad88fb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/46c10443-8e99-4a26-ace9-c2244c14b901.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "description": "\n <ul>\n  <li>American retro style Glass cabinet:Crafted with curved legs and metal handles, this cabinet exudes a touch of classical beauty and vintage charm. Its timeless style allows it to seamlessly fit into any corner, bringing an eternal sense of elegance to your space.</li>\n  <li>Spacious and Elegant Cabinet:This exquisite curio cabinet, featuring glass doors, boasts a total of three shelves that offer ample and versatile storage space. It includes one fixed wooden shelf and two adjustable tempered glass shelves, each capable of holding between 15 to 22 pounds. This cabinet is perfect for storing books\u3001wine\u3001 or collectibles.</li>\n  <li>Effortless Assembly:The cabinet can be effortlessly assembled using the meticulously labeled and packaged hardware, along with the included step-by-step instructions. The process is designed to be user-friendly and straightforward, ensuring a seamless installation experience.Overall Dimension: 43.79\"H x 11.8\"D x 25.99\" W.</li>\n  <li>The illuminated curio cabinet elegantly showcases your exquisite possessions, adding a touch of sophistication to your home. With its mirrored back, the cabinet provides a 360-degree view of the built-in ornaments, while the adjustable glass shelves allow for display options tailored to your needs. Perfectly sized for any room in your household, this piece is sure to elevate the ambiance and aesthetic appeal of your living space.</li>\n  <li><p>Elegant and Refined</p><p>This petite Curio Cabinet provides generous interior space to elegantly display your prized possessions. Featuring adjustable shelves, a sturdy construction, and a reflective back panel for added dimension, it is the ideal selection for any household. Discover the seamless fusion of sophistication, functionality, and resilience with our Showcase Cabinet!</p></li>\n  <li><p>Light Included</p><p>The internal lighting system creates a mesmerizing exhibition, casting a radiant glow upon your cherished possessions and elevating their aesthetic allure.</p></li>\n  <li><p>Vintage carved metal handle</p><p>The vintage metal carved handle not only showcases your cherished collection, but also adds a touch of American retro charm to your home</p></li>\n  <li><p>Adjustable Shelves</p><p>The adjustable shelves of this exquisite display cabinet can be effortlessly repositioned to accommodate items of varying sizes and weights, showcasing its versatility and adaptability.</p></li>\n  <li><p>Management of cable Position Holes</p><p>The power supply of this glass cabinet is plug-in, and the design of the wire hole on the back panel makes the cabinet look more aesthetically pleasing.</p></li>\n </ul>\n <p><img src=\"https://cf.cjdropshipping.com/da72a4e1-3526-4e2d-acf2-3d802e5be2a7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/5581dd0a-6482-43eb-8cf8-19ace940b8eb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/22f6d1a9-b4b2-464a-84f1-41976329a47e.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/c234939b-fe6f-4830-a8b7-c0e7b0b292a6.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/9efd9b41-ade9-45d4-aa4c-a0c69dad88fb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/46c10443-8e99-4a26-ace9-c2244c14b901.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
     "price": "489.72",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/941fcf1f-bb42-4d74-876d-78ad7d6c3092.png",
@@ -5729,7 +5735,7 @@
     "product_weight": "27740",
     "category_name": "Home, Garden & Furniture / Home Storage / Furniture",
     "shipping_country": "GB",
-    "discovery_keyword": "﻿home organizer",
+    "discovery_keyword": "\ufeffhome organizer",
     "publish_targets": {
       "shopify": true,
       "etsy": true,
@@ -5759,15 +5765,15 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJZS293678201AZ": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T21:52:35.020038+00:00",
     "title": "2 Pack Realistic Lifelike Faux Spiral Plant, All-Weather PE Artificial Flower Shrub For Indoor Outdoor Home Garden Decoration - Red",
-    "description": "\n <p>• Lifelike &amp; Chic Design: Dense, layered greenery forms a graceful spiral profile that brings fullness and structure to your decoration. The vivid lavender/rose bloom adds a refreshing touch, and each artificial spiral topiary tree creates a polished look that closely resembles natural foliage in everyday settings.<br>• Sun-protected Beauty: Crafted from sun-resistant materials, the fake plants with spikes are made to maintain its vibrant tone and realistic texture through daily exposure. The exquisite design helps the plants stay attractive indoors or outside, making them dependable for year-round decorating.<br>• Quick &amp; Stable Setup: The trunk connects by a simple screw-in design, which allows setup to feel fast and intuitive. Once assembled, the spikes anchor easily into soil or fit your planter(not included) arrangement, so the faux lavender/rose shrub can be positioned at anywhere you want.<br>• Low Upkeep Greenery: The fake shrub plant offers the lush appearance of living greenery without watering, pruning, trimming, or fertilizing. For busy homes and workspaces, a realistic plant with blossoms offers beauty throughout the seasons while reducing everyday plant care.<br><br>• Suitable for Various Scenes: The package includes 2 pieces artificial shrubs, giving coordinated style to multiple areas while making seasonal decorating look simple and refined. After light branch shaping, the set works beautifully across front porches, pathways, living rooms, and weddings.<br><br><br>Color:Red<br>Material:PE, Metal<br>Product Sizes：14\" x 36\"<br>Length of Ground Spike：6\"<br>Total Net Weight：5.5 lbs<img src=\"https://cf.cjdropshipping.com/2df7fc78-5660-4bd5-ba1d-6ff07129a6f3.png\" contenteditable=\"false\" style=\"font-size: 13px; max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/f756f10e-5747-4f69-82d2-67662c7062d4.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/ba8db89a-83ee-443b-bd70-1b70c47b2f33.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/fac47a45-35f9-4fbd-9c71-48bb83e1a2cb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/d151532d-6761-4678-97aa-93fde39b5ab1.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f455e38f-0c11-4b56-b75f-e649c9fe33c7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/8ee9be24-7f29-46b8-9207-970552a7bab2.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/cfaad5b4-d5bb-4233-b79f-ff2a6bbe0495.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "description": "\n <p>\u2022 Lifelike &amp; Chic Design: Dense, layered greenery forms a graceful spiral profile that brings fullness and structure to your decoration. The vivid lavender/rose bloom adds a refreshing touch, and each artificial spiral topiary tree creates a polished look that closely resembles natural foliage in everyday settings.<br>\u2022 Sun-protected Beauty: Crafted from sun-resistant materials, the fake plants with spikes are made to maintain its vibrant tone and realistic texture through daily exposure. The exquisite design helps the plants stay attractive indoors or outside, making them dependable for year-round decorating.<br>\u2022 Quick &amp; Stable Setup: The trunk connects by a simple screw-in design, which allows setup to feel fast and intuitive. Once assembled, the spikes anchor easily into soil or fit your planter(not included) arrangement, so the faux lavender/rose shrub can be positioned at anywhere you want.<br>\u2022 Low Upkeep Greenery: The fake shrub plant offers the lush appearance of living greenery without watering, pruning, trimming, or fertilizing. For busy homes and workspaces, a realistic plant with blossoms offers beauty throughout the seasons while reducing everyday plant care.<br><br>\u2022 Suitable for Various Scenes: The package includes 2 pieces artificial shrubs, giving coordinated style to multiple areas while making seasonal decorating look simple and refined. After light branch shaping, the set works beautifully across front porches, pathways, living rooms, and weddings.<br><br><br>Color:Red<br>Material:PE, Metal<br>Product Sizes\uff1a14\" x 36\"<br>Length of Ground Spike\uff1a6\"<br>Total Net Weight\uff1a5.5 lbs<img src=\"https://cf.cjdropshipping.com/2df7fc78-5660-4bd5-ba1d-6ff07129a6f3.png\" contenteditable=\"false\" style=\"font-size: 13px; max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/f756f10e-5747-4f69-82d2-67662c7062d4.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/ba8db89a-83ee-443b-bd70-1b70c47b2f33.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/fac47a45-35f9-4fbd-9c71-48bb83e1a2cb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/d151532d-6761-4678-97aa-93fde39b5ab1.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f455e38f-0c11-4b56-b75f-e649c9fe33c7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/8ee9be24-7f29-46b8-9207-970552a7bab2.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/cfaad5b4-d5bb-4233-b79f-ff2a6bbe0495.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
     "price": "199.78",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/dfb76cc1-2b5c-4c85-9e32-a2db00101654.png",
@@ -5789,7 +5795,7 @@
     "product_weight": "3200",
     "category_name": "Home, Garden & Furniture / Festive & Party Supplies / Decorative Flowers & Wreaths",
     "shipping_country": "GB",
-    "discovery_keyword": "﻿home organizer",
+    "discovery_keyword": "\ufeffhome organizer",
     "publish_targets": {
       "shopify": true,
       "etsy": true,
@@ -5819,15 +5825,15 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJFU293249701AZ": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T21:55:09.421156+00:00",
     "title": "5 Tier Wood Top Shoe Rack, Industrial Storage For Entryway, Small Space Shoe Organizer",
-    "description": "\n <p><br></p>\n <p>\n  <path></path></p>\n <p>\n  <path></path></p>\n <p>\n  <path></path></p>\n <table>\n  <thead>\n   <tr>\n    <th>SKU</th>\n    <th>Product Dimensions (L×W×H)</th>\n    <th>Package Dimensions (L×W×H)</th>\n    <th>Product Weight</th>\n    <th>Package Weight</th>\n    <th>Specification</th>\n   </tr>\n  </thead>\n  <tbody>\n   <tr>\n    <td>ZHUMI-FO-XJV5CTW-31D8BK</td>\n    <td>29.53 × 11.81 × 31.89 inch</td>\n    <td>32.28 × 16.14 × 3.74 inch</td>\n    <td>15.10 lb</td>\n    <td>17.74 lb</td>\n    <td>Black / 31.8IN</td>\n   </tr>\n   <tr>\n    <td>ZHUMI-FO-XJV5CTW-31D8WGY</td>\n    <td>29.53 × 11.81 × 31.89 inch</td>\n    <td>32.28 × 16.14 × 3.74 inch</td>\n    <td>15.10 lb</td>\n    <td>17.74 lb</td>\n    <td>Grey Wood Grain / 31.8IN</td>\n   </tr>\n   <tr>\n    <td>ZHUMI-FO-XJV5CTW-31D8RT</td>\n    <td>29.53 × 11.81 × 31.89 inch</td>\n    <td>32.28 × 16.14 × 3.74 inch</td>\n    <td>15.10 lb</td>\n    <td>17.74 lb</td>\n    <td>Antique Wood / 31.8IN</td>\n   </tr>\n  </tbody>\n </table>\n <p>Bring a touch of organized warmth to your home with this versatile shoe rack. Its spacious top and adjustable mesh shelves provide a reliable retreat for everything from daily sneakers to elegant heels. Whether you are creating a tidy entrance in your hallway or setting up an orderly display in your closet, this shoe organizer offers a gentle escape from the clutter of scattered piles, ensuring your daily routine begins in a peaceful experience of effortless clarity and style.</p>\n <p>Organized and Natural Display</p>\n <p>This shoe storage solution brings a clean industrial edge to your space, offering a stylish way to keep your entryway or bedroom neat and inviting.</p>\n <p>Large Capacity Shoe Shelf</p>\n <p>Featuring five levels including a solid wood top, this unit can hold many pairs of shoes, keeping every pair visible and within easy reach.</p>\n <p>Reinforced and Stable Build</p>\n <p>Crafted with a durable iron frame, this shoe organizer offers strong support for reliable daily use.</p>\n <p>Flexible Entryway Shoe Storage</p>\n <p>The adjustable metal mesh shelves can be installed flat or tilted to suit your storage needs, while the leveling feet ensure stability on any surface.</p>\n <p>Effortless Assembly for Any Room</p>\n <p>This shoe shelf is easy to put together with the included tools, making it a perfect addition to your garage, closet, or mudroom in very little time.</p>\n",
+    "description": "\n <p><br></p>\n <p>\n  <path></path></p>\n <p>\n  <path></path></p>\n <p>\n  <path></path></p>\n <table>\n  <thead>\n   <tr>\n    <th>SKU</th>\n    <th>Product Dimensions (L\u00d7W\u00d7H)</th>\n    <th>Package Dimensions (L\u00d7W\u00d7H)</th>\n    <th>Product Weight</th>\n    <th>Package Weight</th>\n    <th>Specification</th>\n   </tr>\n  </thead>\n  <tbody>\n   <tr>\n    <td>ZHUMI-FO-XJV5CTW-31D8BK</td>\n    <td>29.53 \u00d7 11.81 \u00d7 31.89 inch</td>\n    <td>32.28 \u00d7 16.14 \u00d7 3.74 inch</td>\n    <td>15.10 lb</td>\n    <td>17.74 lb</td>\n    <td>Black / 31.8IN</td>\n   </tr>\n   <tr>\n    <td>ZHUMI-FO-XJV5CTW-31D8WGY</td>\n    <td>29.53 \u00d7 11.81 \u00d7 31.89 inch</td>\n    <td>32.28 \u00d7 16.14 \u00d7 3.74 inch</td>\n    <td>15.10 lb</td>\n    <td>17.74 lb</td>\n    <td>Grey Wood Grain / 31.8IN</td>\n   </tr>\n   <tr>\n    <td>ZHUMI-FO-XJV5CTW-31D8RT</td>\n    <td>29.53 \u00d7 11.81 \u00d7 31.89 inch</td>\n    <td>32.28 \u00d7 16.14 \u00d7 3.74 inch</td>\n    <td>15.10 lb</td>\n    <td>17.74 lb</td>\n    <td>Antique Wood / 31.8IN</td>\n   </tr>\n  </tbody>\n </table>\n <p>Bring a touch of organized warmth to your home with this versatile shoe rack. Its spacious top and adjustable mesh shelves provide a reliable retreat for everything from daily sneakers to elegant heels. Whether you are creating a tidy entrance in your hallway or setting up an orderly display in your closet, this shoe organizer offers a gentle escape from the clutter of scattered piles, ensuring your daily routine begins in a peaceful experience of effortless clarity and style.</p>\n <p>Organized and Natural Display</p>\n <p>This shoe storage solution brings a clean industrial edge to your space, offering a stylish way to keep your entryway or bedroom neat and inviting.</p>\n <p>Large Capacity Shoe Shelf</p>\n <p>Featuring five levels including a solid wood top, this unit can hold many pairs of shoes, keeping every pair visible and within easy reach.</p>\n <p>Reinforced and Stable Build</p>\n <p>Crafted with a durable iron frame, this shoe organizer offers strong support for reliable daily use.</p>\n <p>Flexible Entryway Shoe Storage</p>\n <p>The adjustable metal mesh shelves can be installed flat or tilted to suit your storage needs, while the leveling feet ensure stability on any surface.</p>\n <p>Effortless Assembly for Any Room</p>\n <p>This shoe shelf is easy to put together with the included tools, making it a perfect addition to your garage, closet, or mudroom in very little time.</p>\n",
     "price": "87.5",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/3cdaff56-3c49-41d2-9f8b-7c9be439b7b6.jpg",
@@ -5879,8 +5885,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJLY295978401AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -5938,15 +5944,15 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.960566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJFU295981701AZ": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T21:55:12.658413+00:00",
     "title": "71inch Tall Kitchen Pantry Cabinet With 3 Pull Out Cabinet Organizers, Farmhouse Embossed Texture Storage Cabinet With 6 Door Shelves, 2 Dra",
-    "description": "\n <ul>\n  <li>Dimensions: Overall: 31.5 (W) x 15.75 (D) x 71.25 (H) inches;</li>\n  <li>[Elegant &amp; Rustic Looks] Our rustic kitchen pantry showcases a refined brown walnut woodgrain and intricate details, adding a touch of timeless elegance to your kitchen. Enhances the visual appeal with exquisite groove edges and embossed texture panel design, bringing a vintage sophistication to any kitchen &amp; dining decor. Crafted with meticulous attention to detail, the vintage-inspired designs pay homage to bygone eras, allowing you to create a captivating atmosphere in your home.</li>\n  <li>[Six Door Internal Storage Rack] With 6 door shelves optimize the cabinet space. This pantry cabinet from us offers ample storage for your food, dinnerware, and kitchen appliances, keeping your space organized and clutter-free.</li>\n  <li>[3 Pull Out Cabinet Organizer] Bid farewell to wasted space! Our three pull-out shelves optimize cabinet real estate, providing easy access to items buried in the depths. With our space-saving solution, keep your kitchen clutter-free and efficient while maximizing storage potential. This must be your ultimate kitchen upgrade. The organizer dimensions are 11.3 inches deep, 22.6 inches wide, and 4.09 inches high.</li>\n  <li>[Spacious Storage Solution] Measuring 71.3\"H x 31.5\"W x 15.75\"D, this tall cabinet boasts 8 storage compartments with 2 adjustable shelves, 3 pull-out cabinet organizers, and 6 door shelves, this pantry cabinet from us offers ample storage for your food, dinnerware, and kitchen appliances, keeping your space organized and clutter-free.</li>\n  <li>[Durable Construction] Crafted from quality MDF with reinforced hinges, the included anti-tip kit ensures added safety and stability when secured to the wall. this sturdy cabinet ensures long-lasting stability and safety, providing a secure and reliable storage solution for your home.</li>\n  <li>[Buy with Confidence] This kitchen pantry with storage is accompanied by comprehensive step-by-step assembly instructions and labeled parts and hardware to ensure a seamless assembly process. Should you encounter any challenges during the assembly of this tall cabinet, please do not hesitate to reach out to us for assistance.</li>\n  <li>Notice:1.Real Product’s Color may be a little different from the image due to the lighting or monitor’s display.</li>\n  <li>2.Manual measurement has been used, there may be some reasonable error.</li>\n </ul>\n <p><img src=\"https://cf.cjdropshipping.com/8628762a-ec2e-450f-bbe7-250ed9b37069.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/e2a0aa7b-21f5-488d-96b4-b49c1821fd47.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/c2cd24fd-c1cc-488e-81a2-71487ff729e0.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/354f009e-4d24-4042-b380-99f9db065bca.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/aab62028-3295-42b3-8da0-41781ecd1ce7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/27b710dc-58d5-4d66-ba8f-6b2b031f0771.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/59aa284f-7e27-4441-9a54-83d0a00c1ac7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/3e913c21-1eb9-49bc-8e3c-a52d86130b53.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/54e607f8-0e2c-40bd-9d86-fdc923ec2f02.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/0a09227f-ada1-44f1-a2a4-422a9a9f7d83.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/4115f932-99ab-45c5-9440-58e3f14e43f1.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/489424be-faa3-4c5c-8262-d1a0f772c61d.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/94d624c3-dc01-4178-8c93-a679e7127d54.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/fcd0fa6d-3094-4b02-9e00-4b1620848daf.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "description": "\n <ul>\n  <li>Dimensions: Overall: 31.5 (W) x 15.75 (D) x 71.25 (H) inches;</li>\n  <li>[Elegant &amp; Rustic Looks] Our rustic kitchen pantry showcases a refined brown walnut woodgrain and intricate details, adding a touch of timeless elegance to your kitchen. Enhances the visual appeal with exquisite groove edges and embossed texture panel design, bringing a vintage sophistication to any kitchen &amp; dining decor. Crafted with meticulous attention to detail, the vintage-inspired designs pay homage to bygone eras, allowing you to create a captivating atmosphere in your home.</li>\n  <li>[Six Door Internal Storage Rack] With 6 door shelves optimize the cabinet space. This pantry cabinet from us offers ample storage for your food, dinnerware, and kitchen appliances, keeping your space organized and clutter-free.</li>\n  <li>[3 Pull Out Cabinet Organizer] Bid farewell to wasted space! Our three pull-out shelves optimize cabinet real estate, providing easy access to items buried in the depths. With our space-saving solution, keep your kitchen clutter-free and efficient while maximizing storage potential. This must be your ultimate kitchen upgrade. The organizer dimensions are 11.3 inches deep, 22.6 inches wide, and 4.09 inches high.</li>\n  <li>[Spacious Storage Solution] Measuring 71.3\"H x 31.5\"W x 15.75\"D, this tall cabinet boasts 8 storage compartments with 2 adjustable shelves, 3 pull-out cabinet organizers, and 6 door shelves, this pantry cabinet from us offers ample storage for your food, dinnerware, and kitchen appliances, keeping your space organized and clutter-free.</li>\n  <li>[Durable Construction] Crafted from quality MDF with reinforced hinges, the included anti-tip kit ensures added safety and stability when secured to the wall. this sturdy cabinet ensures long-lasting stability and safety, providing a secure and reliable storage solution for your home.</li>\n  <li>[Buy with Confidence] This kitchen pantry with storage is accompanied by comprehensive step-by-step assembly instructions and labeled parts and hardware to ensure a seamless assembly process. Should you encounter any challenges during the assembly of this tall cabinet, please do not hesitate to reach out to us for assistance.</li>\n  <li>Notice:1.Real Product\u2019s Color may be a little different from the image due to the lighting or monitor\u2019s display.</li>\n  <li>2.Manual measurement has been used, there may be some reasonable error.</li>\n </ul>\n <p><img src=\"https://cf.cjdropshipping.com/8628762a-ec2e-450f-bbe7-250ed9b37069.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/e2a0aa7b-21f5-488d-96b4-b49c1821fd47.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/c2cd24fd-c1cc-488e-81a2-71487ff729e0.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/354f009e-4d24-4042-b380-99f9db065bca.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/aab62028-3295-42b3-8da0-41781ecd1ce7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/27b710dc-58d5-4d66-ba8f-6b2b031f0771.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/59aa284f-7e27-4441-9a54-83d0a00c1ac7.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/3e913c21-1eb9-49bc-8e3c-a52d86130b53.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/54e607f8-0e2c-40bd-9d86-fdc923ec2f02.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/0a09227f-ada1-44f1-a2a4-422a9a9f7d83.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/4115f932-99ab-45c5-9440-58e3f14e43f1.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/489424be-faa3-4c5c-8262-d1a0f772c61d.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/94d624c3-dc01-4178-8c93-a679e7127d54.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/fcd0fa6d-3094-4b02-9e00-4b1620848daf.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
     "price": "693.89",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/7b9cf84a-8ea1-47c3-bf2f-4db7bb1f7baa.png",
@@ -5998,8 +6004,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJFU29345140001": {
     "status": "cj_discovered_ready_for_listing",
@@ -6058,8 +6064,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJCF293266401AZ": {
     "status": "cj_discovered_ready_for_listing",
@@ -6118,15 +6124,15 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJFU29233500001": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T22:24:56.761879+00:00",
     "title": "Mobile Kitchen Cart With Storage, 39.76 Rolling Kitchen Island With 2 Doors, 3 Drawers & Adjustable Shelf, Black Utility Cart For Kitchen Di",
-    "description": "\n <p>Specification</p>\n <p>Product Information&nbsp;</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:Mobile Kitchen Cart with Storage, 39.76'' Rolling Kitchen Island with 2 Doors, 3 Drawers &amp; Adjustable Shelf, Black Utility Cart for Kitchen/Dining Room</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Black,Natural</p>\n <p>Main Material:MDF</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):39.76</p>\n <p>Assembled Width (in.):24.80</p>\n <p>Assembled Height (in.):35.63</p>\n <p>Product Weight (lbs.):98.55</p>\n <p>Package Size</p>\n <p>Length (in.):44.49</p>\n <p>Width (in.):29.33</p>\n <p>Height (in.):7.87</p>\n <p>Weight (lbs.):107.37</p>\n <p>Product Features</p>\n <ul>\n  <li>Mobile &amp; Versatile Design: Equipped with smooth-rolling wheels (with locks) for easy mobility—use as a kitchen island, serving cart, or extra storage in dining/living areas.</li>\n  <li>Ample Organized Storage: Features a 2-door cabinet (with 1 adjustable shelf) + 3 deep drawers, keeping kitchenware, utensils, and supplies neatly arranged.</li>\n  <li>Functional Tabletop Space: The large, flat top supports kitchen appliances (e.g., toasters, blenders) or doubles as a serving surface for meals.</li>\n  <li>Smooth-Operating Hardware: Soft-close hinges on doors, and gliding drawer slides enable quiet, gentle opening/closing, avoiding slams.</li>\n  <li>Sleek Space-Saving Style: Black finish with metallic handles blends modern aesthetics with practicality, fitting seamlessly in compact or spacious kitchens.</li>\n </ul>\n <p>Descriptions</p>\n <p>Upgrade your kitchen’s functionality and style with this mobile kitchen cart, crafted from durable PB+MDF in a sleek black finish. Measuring 39.76” L x 24.8 ”W x 35.63” H, it features rolling wheels (with locks) for easy mobility—perfect as an extra prep station, serving cart, or storage unit. The cart offers ample organized space: a 2-door cabinet (with 1 adjustable shelf) holds larger kitchenware, while 3 deep drawers store utensils and small supplies. Soft-close hinges and gliding slides ensure quiet, smooth operation. The spacious tabletop provides room for appliances or serving, and the sturdy build supports daily kitchen use. Its modern, space-saving design fits seamlessly in any kitchen, dining room, or living area—combining practicality, durability, and contemporary style.</p>\n <p>Specification</p>\n <p>Frame Material: MDF + PB Color: Black Cabinet &amp; Natural Topboard Dimensions: 39.76\"D X 24.8\"W X 35.63\"H Assembly Required: Yes</p> \n <img src=\"https://cf.cjdropshipping.com/17806176/a9483068-4a4b-48a4-9e7a-57c6ee7ed9e0.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/2e9ec89f-b315-40a4-b9bc-98ed63225e04.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/85baf1c1-755e-4676-b2f2-baa4bec6b8d7.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/be9fd110-97b9-4edf-b315-59d31e123049.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/8010e9d7-d09a-4e84-9a9c-60387f2d3c8c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/830138e4-9fa8-4205-b3e9-7d0ec3f94e0b.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/bab3ad52-5863-4772-936f-8c5939b14874.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/5bcb17fc-b6bb-4e9b-9a95-19228f4a0dd7.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/ad60620a-4b7e-4bd2-8e6e-d72d4884ef88.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/e2419bfc-fb87-488a-b228-bb82dbc87f1c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/3ff40608-8b44-4ebd-99e9-e4b92be01067.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/13982460-dfaf-432b-8cd0-643b99f200c1.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/58020dd5-a0f2-4737-8e41-efca1405bacd.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/f942bf05-e3cc-4087-9e25-f80a89dfa739.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17806176/54d78fc5-2938-4fa7-aa99-528864d29f0a.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
+    "description": "\n <p>Specification</p>\n <p>Product Information&nbsp;</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:Mobile Kitchen Cart with Storage, 39.76'' Rolling Kitchen Island with 2 Doors, 3 Drawers &amp; Adjustable Shelf, Black Utility Cart for Kitchen/Dining Room</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Black,Natural</p>\n <p>Main Material:MDF</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):39.76</p>\n <p>Assembled Width (in.):24.80</p>\n <p>Assembled Height (in.):35.63</p>\n <p>Product Weight (lbs.):98.55</p>\n <p>Package Size</p>\n <p>Length (in.):44.49</p>\n <p>Width (in.):29.33</p>\n <p>Height (in.):7.87</p>\n <p>Weight (lbs.):107.37</p>\n <p>Product Features</p>\n <ul>\n  <li>Mobile &amp; Versatile Design: Equipped with smooth-rolling wheels (with locks) for easy mobility\u2014use as a kitchen island, serving cart, or extra storage in dining/living areas.</li>\n  <li>Ample Organized Storage: Features a 2-door cabinet (with 1 adjustable shelf) + 3 deep drawers, keeping kitchenware, utensils, and supplies neatly arranged.</li>\n  <li>Functional Tabletop Space: The large, flat top supports kitchen appliances (e.g., toasters, blenders) or doubles as a serving surface for meals.</li>\n  <li>Smooth-Operating Hardware: Soft-close hinges on doors, and gliding drawer slides enable quiet, gentle opening/closing, avoiding slams.</li>\n  <li>Sleek Space-Saving Style: Black finish with metallic handles blends modern aesthetics with practicality, fitting seamlessly in compact or spacious kitchens.</li>\n </ul>\n <p>Descriptions</p>\n <p>Upgrade your kitchen\u2019s functionality and style with this mobile kitchen cart, crafted from durable PB+MDF in a sleek black finish. Measuring 39.76\u201d L x 24.8 \u201dW x 35.63\u201d H, it features rolling wheels (with locks) for easy mobility\u2014perfect as an extra prep station, serving cart, or storage unit. The cart offers ample organized space: a 2-door cabinet (with 1 adjustable shelf) holds larger kitchenware, while 3 deep drawers store utensils and small supplies. Soft-close hinges and gliding slides ensure quiet, smooth operation. The spacious tabletop provides room for appliances or serving, and the sturdy build supports daily kitchen use. Its modern, space-saving design fits seamlessly in any kitchen, dining room, or living area\u2014combining practicality, durability, and contemporary style.</p>\n <p>Specification</p>\n <p>Frame Material: MDF + PB Color: Black Cabinet &amp; Natural Topboard Dimensions: 39.76\"D X 24.8\"W X 35.63\"H Assembly Required: Yes</p> \n <img src=\"https://cf.cjdropshipping.com/17806176/a9483068-4a4b-48a4-9e7a-57c6ee7ed9e0.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/2e9ec89f-b315-40a4-b9bc-98ed63225e04.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/85baf1c1-755e-4676-b2f2-baa4bec6b8d7.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/be9fd110-97b9-4edf-b315-59d31e123049.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/8010e9d7-d09a-4e84-9a9c-60387f2d3c8c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/830138e4-9fa8-4205-b3e9-7d0ec3f94e0b.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/bab3ad52-5863-4772-936f-8c5939b14874.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/5bcb17fc-b6bb-4e9b-9a95-19228f4a0dd7.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/ad60620a-4b7e-4bd2-8e6e-d72d4884ef88.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/e2419bfc-fb87-488a-b228-bb82dbc87f1c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/3ff40608-8b44-4ebd-99e9-e4b92be01067.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/13982460-dfaf-432b-8cd0-643b99f200c1.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/58020dd5-a0f2-4737-8e41-efca1405bacd.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17806176/f942bf05-e3cc-4087-9e25-f80a89dfa739.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17806176/54d78fc5-2938-4fa7-aa99-528864d29f0a.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
     "price": "422.21",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/17806176/3e541579-94e6-4dd5-9901-7212a03913b4.jpg",
@@ -6178,8 +6184,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJFU29208100001": {
     "status": "cj_discovered_ready_for_listing",
@@ -6238,8 +6244,8 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJFU29204060001": {
     "status": "cj_discovered_ready_for_listing",
@@ -6298,15 +6304,15 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJFU29197520001": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T22:25:03.824591+00:00",
     "title": "Modern Dining Chair,Kitchen Chair With Thick Seat Cushion And Solid Wood Legs, Dining Chairs For Home Bar Restaurant And Dining Room,Set Of ",
-    "description": "\n <p>Specification</p>\n <p>Product Information&nbsp;</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:Modern Dining Chair,Kitchen Chair With Thick Seat Cushion and Solid Wood Legs, Dining Chairs for Home Bar/Restaurant and Dining Room,Set of 2,Walnut</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Beige,Walnut</p>\n <p>Main Material:Fabric,Foam,Rubber Wood</p>\n <p>Filler:Foam</p>\n <p>Product Style:Modern</p>\n <p>Use Case:Dining Room</p>\n <p>Wood Type:Rubberwood</p>\n <p>Chair Type:Dining Chairs</p>\n <p>Chair Upholstery Material:Rubberwood</p>\n <p>Chair Fill Material:Foam</p>\n <p>Chair Included Components:Cushion</p>\n <p>Seating Quantity:Set of 2</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):20.08</p>\n <p>Assembled Width (in.):23.03</p>\n <p>Assembled Height (in.):33.86</p>\n <p>Product Weight (lbs.):13.00</p>\n <p>Package Size</p>\n <p>Length (in.):40.16</p>\n <p>Width (in.):21.06</p>\n <p>Height (in.):11.81</p>\n <p>Weight (lbs.):31.53</p>\n <p>Product Features</p>\n <ul>\n  <li>[Sophisticated Walnut Frame + Premium Beige Fabric]Features a rich, smooth walnut-finished solid wood frame paired with durable, breathable beige linen-blend upholstery for a refined look that elevates any dining space.</li>\n  <li>[Extra-Thick 5.12\" Cushioned Seat for All-Day Comfort]High-density foam padding (5.12\" thick) provides plush support without sagging—ideal for family dinners, remote work, or leisurely coffee breaks.</li>\n  <li>[Built to Last with Thoughtful Details]Reinforced corner joints, smooth sanded wood finish, and precision-stitched seams ensure long-term durability, while the sturdy tapered legs offer reliable stability.</li>\n  <li>[Protects Your Floors &amp; Reduces Noise]Integrated soft, non-marking floor protectors on all four legs prevent scratches on hardwood, tile, or laminate—and keep chair movement quiet and smooth.</li>\n  <li>[Perfect Dimensions for Modern Dining Spaces (Set of 2)]Seat size: 20.08\"W x 23.03\"D; Overall height: 33.86\". Designed to fit neatly under standard-height tables (28\"–30\")—space-saving yet comfortably roomy. Includes 2 chairs.</li>\n </ul> \n <img src=\"https://cf.cjdropshipping.com/17804448/3bd093cd-e9ca-4540-a320-a4b700dc9d95.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/50fb7d3b-b711-4fd4-9671-7dffa9618bdc.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/556f47ee-a44f-4ccb-bb05-39674312e149.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/bcb772f1-d865-47f4-b1a5-34a5211fa901.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/afbea42c-66df-465a-ad07-f7add3339528.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/b40eee1c-a308-4194-ae78-04a2752d51a2.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/ed1c5d8b-7eab-45fd-a4b6-95ee792de19e.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/e6bbe803-cb4b-41da-bf30-47936846998a.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/f60cc39b-c556-4990-b683-42912c34b854.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17804448/34cb1ad5-978c-48d8-823e-d855ace9e88d.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
+    "description": "\n <p>Specification</p>\n <p>Product Information&nbsp;</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:Modern Dining Chair,Kitchen Chair With Thick Seat Cushion and Solid Wood Legs, Dining Chairs for Home Bar/Restaurant and Dining Room,Set of 2,Walnut</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Beige,Walnut</p>\n <p>Main Material:Fabric,Foam,Rubber Wood</p>\n <p>Filler:Foam</p>\n <p>Product Style:Modern</p>\n <p>Use Case:Dining Room</p>\n <p>Wood Type:Rubberwood</p>\n <p>Chair Type:Dining Chairs</p>\n <p>Chair Upholstery Material:Rubberwood</p>\n <p>Chair Fill Material:Foam</p>\n <p>Chair Included Components:Cushion</p>\n <p>Seating Quantity:Set of 2</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):20.08</p>\n <p>Assembled Width (in.):23.03</p>\n <p>Assembled Height (in.):33.86</p>\n <p>Product Weight (lbs.):13.00</p>\n <p>Package Size</p>\n <p>Length (in.):40.16</p>\n <p>Width (in.):21.06</p>\n <p>Height (in.):11.81</p>\n <p>Weight (lbs.):31.53</p>\n <p>Product Features</p>\n <ul>\n  <li>[Sophisticated Walnut Frame + Premium Beige Fabric]Features a rich, smooth walnut-finished solid wood frame paired with durable, breathable beige linen-blend upholstery for a refined look that elevates any dining space.</li>\n  <li>[Extra-Thick 5.12\" Cushioned Seat for All-Day Comfort]High-density foam padding (5.12\" thick) provides plush support without sagging\u2014ideal for family dinners, remote work, or leisurely coffee breaks.</li>\n  <li>[Built to Last with Thoughtful Details]Reinforced corner joints, smooth sanded wood finish, and precision-stitched seams ensure long-term durability, while the sturdy tapered legs offer reliable stability.</li>\n  <li>[Protects Your Floors &amp; Reduces Noise]Integrated soft, non-marking floor protectors on all four legs prevent scratches on hardwood, tile, or laminate\u2014and keep chair movement quiet and smooth.</li>\n  <li>[Perfect Dimensions for Modern Dining Spaces (Set of 2)]Seat size: 20.08\"W x 23.03\"D; Overall height: 33.86\". Designed to fit neatly under standard-height tables (28\"\u201330\")\u2014space-saving yet comfortably roomy. Includes 2 chairs.</li>\n </ul> \n <img src=\"https://cf.cjdropshipping.com/17804448/3bd093cd-e9ca-4540-a320-a4b700dc9d95.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/50fb7d3b-b711-4fd4-9671-7dffa9618bdc.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/556f47ee-a44f-4ccb-bb05-39674312e149.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/bcb772f1-d865-47f4-b1a5-34a5211fa901.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/afbea42c-66df-465a-ad07-f7add3339528.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/b40eee1c-a308-4194-ae78-04a2752d51a2.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/ed1c5d8b-7eab-45fd-a4b6-95ee792de19e.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/e6bbe803-cb4b-41da-bf30-47936846998a.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/f60cc39b-c556-4990-b683-42912c34b854.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17804448/34cb1ad5-978c-48d8-823e-d855ace9e88d.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
     "price": "435.34",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/17804448/4bd8737e-f064-4d2e-a0cf-d97255f14d02.jpg",
@@ -6358,15 +6364,15 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJFU29197320001": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T22:25:05.735487+00:00",
     "title": "Modern Dining Chair,kitchen Chair With Solid Wood Legs, Dining Chairs For Home Bar Restaurant And Dining Room,Set Of 2,Walnut",
-    "description": "\n <p>Specification</p>\n <p>Product Information&nbsp;</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:Modern dining chair,kitchen chair with solid wood legs, Dining Chairs for Home Bar/Restaurant and Dining Room,Set of 2,Walnut</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Beige,Walnut</p>\n <p>Main Material:Polyester,Rubber</p>\n <p>Product Style:American Design,Mid-Century Modern</p>\n <p>Use Case:Dining Room</p>\n <p>Wood Type:Rubberwood</p>\n <p>Chair Type:Arm Chair</p>\n <p>Chair Back Style:Solid Back</p>\n <p>Chair Upholstery Material:Rubberwood</p>\n <p>Chair Fill Material:Foam</p>\n <p>Chair Included Components:Cushion</p>\n <p>Seating Quantity:Set of 2</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):21.65</p>\n <p>Assembled Width (in.):22.44</p>\n <p>Assembled Height (in.):28.35</p>\n <p>Product Weight (lbs.):15.10</p>\n <p>Package Size&nbsp;<i></i>Outer Package Images</p>\n <p>Length (in.):27.76</p>\n <p>Width (in.):22.24</p>\n <p>Height (in.):14.17</p>\n <p>Weight (lbs.):38.91</p>\n <p>Product Features</p>\n <ul>\n  <li>[Timeless Mid-Century Modern Design]Elevate your dining space with understated elegance. These mid-century modern chairs blend organic curves and clean lines for a refined yet relaxed look. Their minimalist silhouette fits effortlessly into any setting—paired with a sleek table, in a cozy breakfast nook, or as a stylish accent chair. Ideal for those who appreciate lasting design with a contemporary edge.</li>\n  <li>[Sculpted Legs with Artful Proportions]Gracefully curved rubberwood legs taper subtly from top to base, balancing delicacy and strength. This intentional shape boosts both visual appeal and structural stability, adding graceful movement to the profile. The smooth shift from slender upper leg to a grounded base reflects confident craftsmanship—transforming a simple chair into a functional work of art.</li>\n  <li>[Plush Comfort Meets Smart Functionality]Enjoy luxury with a 3.54-inch-thick circular cushion (20.47\" diameter) that delivers support without compromising style. Soft yet durable upholstery makes it perfect for long meals or quick coffee breaks. Adjustable floor protectors ensure wobble-free stability on any surface—tile, wood, or carpet—while guarding against scratches. Comfort and practicality, thoughtfully combined.</li>\n  <li>[Bold Geometry, Effortless Assembly]Clean geometric lines give this chair a quiet architectural presence. Form meets function in a design that’s as beautiful as it is usable. Assembly is quick and easy: two people can put together both chairs in under 15 minutes with included hardware and clear instructions. No tools or experience needed—just unpack, connect, and enjoy. Great design, zero hassle.</li>\n  <li>[ Compact Yet Spacious Dimensions]Each chair measures 21.65\" W x 22.44\" D x 28.35\" H, with a comfortable 19.29\" seat height. Its small footprint saves space while maintaining generous comfort and presence. Perfect under a bistro table or around a family dining set, it adapts beautifully to apartments, condos, or open-plan homes. Style, function, and smart sizing—in one elegant pair.</li>\n </ul> \n <img src=\"https://cf.cjdropshipping.com/17804448/e7c2432a-5572-4195-92dc-d896d85a9071.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/70c9237f-4ca2-45d2-a14f-9361779d5355.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/e1f5d923-aaf5-4851-8a68-4dd31130f785.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/03e60e0b-54f6-456a-b72d-dc9c64e0dce0.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/96cd4926-c980-4740-af0e-0547d6fe5064.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/22b3ed38-9422-4de6-97cb-83a34d30646e.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/e65865ba-7cbf-43a6-8a8b-62f468dbd897.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/a571ef54-a505-4e7a-be8e-5f58740b4706.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/86198e57-c1da-4409-a245-b0dd0ab60677.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/15ef0420-d73a-4200-b091-b9901acfbcc7.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/af01576e-c398-4cf6-83cc-883d87c90b5e.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17804448/e324780a-f714-40ea-ab0f-8ed9e96be078.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
+    "description": "\n <p>Specification</p>\n <p>Product Information&nbsp;</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:Modern dining chair,kitchen chair with solid wood legs, Dining Chairs for Home Bar/Restaurant and Dining Room,Set of 2,Walnut</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Beige,Walnut</p>\n <p>Main Material:Polyester,Rubber</p>\n <p>Product Style:American Design,Mid-Century Modern</p>\n <p>Use Case:Dining Room</p>\n <p>Wood Type:Rubberwood</p>\n <p>Chair Type:Arm Chair</p>\n <p>Chair Back Style:Solid Back</p>\n <p>Chair Upholstery Material:Rubberwood</p>\n <p>Chair Fill Material:Foam</p>\n <p>Chair Included Components:Cushion</p>\n <p>Seating Quantity:Set of 2</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):21.65</p>\n <p>Assembled Width (in.):22.44</p>\n <p>Assembled Height (in.):28.35</p>\n <p>Product Weight (lbs.):15.10</p>\n <p>Package Size&nbsp;<i></i>Outer Package Images</p>\n <p>Length (in.):27.76</p>\n <p>Width (in.):22.24</p>\n <p>Height (in.):14.17</p>\n <p>Weight (lbs.):38.91</p>\n <p>Product Features</p>\n <ul>\n  <li>[Timeless Mid-Century Modern Design]Elevate your dining space with understated elegance. These mid-century modern chairs blend organic curves and clean lines for a refined yet relaxed look. Their minimalist silhouette fits effortlessly into any setting\u2014paired with a sleek table, in a cozy breakfast nook, or as a stylish accent chair. Ideal for those who appreciate lasting design with a contemporary edge.</li>\n  <li>[Sculpted Legs with Artful Proportions]Gracefully curved rubberwood legs taper subtly from top to base, balancing delicacy and strength. This intentional shape boosts both visual appeal and structural stability, adding graceful movement to the profile. The smooth shift from slender upper leg to a grounded base reflects confident craftsmanship\u2014transforming a simple chair into a functional work of art.</li>\n  <li>[Plush Comfort Meets Smart Functionality]Enjoy luxury with a 3.54-inch-thick circular cushion (20.47\" diameter) that delivers support without compromising style. Soft yet durable upholstery makes it perfect for long meals or quick coffee breaks. Adjustable floor protectors ensure wobble-free stability on any surface\u2014tile, wood, or carpet\u2014while guarding against scratches. Comfort and practicality, thoughtfully combined.</li>\n  <li>[Bold Geometry, Effortless Assembly]Clean geometric lines give this chair a quiet architectural presence. Form meets function in a design that\u2019s as beautiful as it is usable. Assembly is quick and easy: two people can put together both chairs in under 15 minutes with included hardware and clear instructions. No tools or experience needed\u2014just unpack, connect, and enjoy. Great design, zero hassle.</li>\n  <li>[ Compact Yet Spacious Dimensions]Each chair measures 21.65\" W x 22.44\" D x 28.35\" H, with a comfortable 19.29\" seat height. Its small footprint saves space while maintaining generous comfort and presence. Perfect under a bistro table or around a family dining set, it adapts beautifully to apartments, condos, or open-plan homes. Style, function, and smart sizing\u2014in one elegant pair.</li>\n </ul> \n <img src=\"https://cf.cjdropshipping.com/17804448/e7c2432a-5572-4195-92dc-d896d85a9071.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/70c9237f-4ca2-45d2-a14f-9361779d5355.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/e1f5d923-aaf5-4851-8a68-4dd31130f785.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/03e60e0b-54f6-456a-b72d-dc9c64e0dce0.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/96cd4926-c980-4740-af0e-0547d6fe5064.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/22b3ed38-9422-4de6-97cb-83a34d30646e.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/e65865ba-7cbf-43a6-8a8b-62f468dbd897.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/a571ef54-a505-4e7a-be8e-5f58740b4706.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/86198e57-c1da-4409-a245-b0dd0ab60677.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/15ef0420-d73a-4200-b091-b9901acfbcc7.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/af01576e-c398-4cf6-83cc-883d87c90b5e.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17804448/e324780a-f714-40ea-ab0f-8ed9e96be078.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
     "price": "423.24",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/17804448/8448fad5-1762-48fc-ac68-c78c6acc1c6d.jpg",
@@ -6418,15 +6424,15 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
-    "sku_master_enriched_at": "2026-06-29T22:30:06.249517+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJFU29197940001": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T22:31:01.648358+00:00",
     "title": "70 Kitchen Pantry Cabinet With 2 Cabinet Shelves,Luxurious Wooden Cupboard With 6 Door Shelves And 3 Drawers For Kitchen, Dining Room,Natura",
-    "description": "\n <p>Specification</p>\n <p>Product Information</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:70\" Kitchen Pantry Cabinet with 2 Cabinet Shelves,Luxurious Wooden Cupboard with 6 Door Shelves and 3 Drawers for Kitchen, Dining Room,Natural</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Natural</p>\n <p>Main Material:Solid Wood+MDF</p>\n <p>Product Style:American Design,American Traditional,Classic,Luxury</p>\n <p>Use Case:Dining Room</p>\n <p>Wood Type:Rubberwood</p>\n <p>Wood Tone:Nature</p>\n <p>Storage Features:Adjustabel Shelves</p>\n <p>Numbers of Doors:2</p>\n <p>Numbers of Drawers:3</p>\n <p>Feature:6 door internal storage compartments</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):31.50</p>\n <p>Assembled Width (in.):15.75</p>\n <p>Assembled Height (in.):70.10</p>\n <p>Product Weight (lbs.):127.98</p>\n <p>Package Size</p>\n <p>Length (in.):50.39</p>\n <p>Width (in.):19.88</p>\n <p>Height (in.):12.79</p>\n <p>Weight (lbs.):136.03</p>\n <p>Product Features</p>\n <ul>\n  <li>[Premium Solid Wood Construction]Crafted with solid rubber wood handles and legs, this cabinet combines durability with elegance. The natural wood grain finish adds warmth to any space while ensuring long-lasting quality.</li>\n  <li>[Smart Adjustable Storage]Features a top adjustable shelf and 6 internal door compartments for customizable organization. Three drawers with full-extension slide rails provide smooth, easy access to stored items.</li>\n  <li>[Smooth &amp; Quiet Operation]Equipped with damping hinges that allow cabinet doors to open silently up to 135 degrees, plus catch to keep doors securely closed when not in use.</li>\n  <li>[Safe &amp; Stable Design]Includes anti-tipping protection for added safety, making this tall cabinet secure for households with children or pets.</li>\n  <li>[Versatile for Any Room]Available in 3 stylish colors to match your decor. Perfect for organizing kitchen, living room, bathroom, or dining room essentials while adding functional elegance.</li>\n  <li>Dimensions:31.5”W x 15.75”D x 70.1”H</li>\n </ul>\n <p>Descriptions</p>\n <p>Unique solid wood door handle design</p>\n <p>Our food storage cabinet features solid rubberwood door handles, combining natural beauty with durable luxury. These smooth, sturdy handles enhance grip and style, perfectly suited for daily kitchen use while adding a warm, organic touch to your home décor.</p>\n <p>Reliable solid wood legs</p>\n <p>Our storage cabinet features solid rubber wood legs, adding natural durability and timeless style. Perfect for dining rooms or entryways, they resist wear while complementing real-life home decor, offering both strength and organic beauty in everyday use.</p>\n <p>Adjustable Shelf</p>\n <p>Our cabinet features an adjustable shelf, offering flexible storage customization. Easily reposition it to fit items of various heights, maximizing space efficiency and adaptability for your changing organization needs.</p>\n <p>6 door internal storage compartments</p>\n <p>Our food storage cabinet includes 6 door-mounted compartments, each 10.3 inches wide, ideal for organizing spices, snacks, or kitchen essentials. This smart design maximizes space and accessibility, making daily meal prep easier and keeping everything neatly within reach.</p>\n <p>3 soft-close hinges</p>\n <p>Each door features 3 soft-close hinges that ensure smooth, quiet closing with no slamming. Perfect for busy kitchens or homes with kids, they enhance durability and convenience in everyday use.</p>\n <p>Catch</p>\n <p>The cabinet features a secure catch that gently holds the door in place, preventing sudden swings and protecting stored items. Ideal for homes with children or high-traffic areas, it ensures safe, quiet operation while keeping contents organized and safe during daily use.</p>\n <p>L-shaped anti-tip bracket</p>\n <p>This food storage cabinet comes with an L-shaped anti-tip bracket for added safety. Easily mounted to the wall, it prevents tipping during daily use, especially in homes with children or pets, ensuring stability and peace of mind in your kitchen or dining area.</p>\n <p>Full-extension Drawer Slide Rail</p>\n <p>The drawer in this food storage cabinet is equipped with full-extension slides, allowing smooth and complete access to the entire drawer space. Perfect for organizing kitchen essentials, it makes finding and reaching items effortless, enhancing convenience in daily meal prep and storage.</p>\n <p>Highlights&amp;Summary</p>\n <table>\n  <tbody>\n   <tr>\n    <td>Highlights</td>\n    <td>Natural Wood Grain Color//Top Adjustable Shelf//Solid rubber wood handle and solid wood legs//Full-extension Drawer Slide Rail//Damping hinge(Allows the cabinet door to open to 135 degrees)//Cabinet door with catches//6 door internal storage compartments//Anti-Tipping//3 Colors Available//Suitable for many scenes in the home</td>\n   </tr>\n   <tr>\n    <td>Summary</td>\n    <td>Transform your space with this stunning 70\" storage cabinet—built to last and designed to impress. The rich natural wood grain finish brings warmth and elegance to any room, from dining to living areas. Easily store more: 3 drawers, 2 shelves , and 6 internal compartments keep everything neat. Premium solid wood handles and legs offer durability and timeless style. Each doors can open 135° and shut quietly—no slamming. Secure non-magnetic latches keep doors closed. Includes wall anchor for anti-tip safety—ideal for homes with kids or pets. Say goodbye to clutter. This spacious, stylish cabinet combines smart function and high-end design at great value. Ready to upgrade? Click “Add to Cart” now—your perfect storage solution is just a click away!</td>\n   </tr>\n  </tbody>\n </table>\n <p>Specifications</p>\n <table>\n  <tbody>\n   <tr>\n    <td>Product Dimension(Overall)</td>\n    <td>31.5”W x 15.75”D x 70.1”H</td>\n   </tr>\n   <tr>\n    <td>Product Weight</td>\n    <td>127.98 LBS</td>\n   </tr>\n   <tr>\n    <td>Package Dimension</td>\n    <td>50.39 x 19.88 x 12.79 inch</td>\n   </tr>\n   <tr>\n    <td>Package Weight</td>\n    <td>136.44 LBS</td>\n   </tr>\n   <tr>\n    <td>Detail Product Dimension</td>\n    <td>Please refer to the size image</td>\n   </tr>\n   <tr>\n    <td>Each Door Shelf Weight Capacity</td>\n    <td>3.2 LBS</td>\n   </tr>\n   <tr>\n    <td>Each Cabinet Shelf Weight Capacity</td>\n    <td>57.5 LBS</td>\n   </tr>\n   <tr>\n    <td>Each Drawer</td>\n    <td>17.5 LBS</td>\n   </tr>\n   <tr>\n    <td>Material</td>\n    <td>Manufactured Wood + Solid Rubber Wood</td>\n   </tr>\n   <tr>\n    <td>Screwdriver</td>\n    <td>No</td>\n   </tr>\n   <tr>\n    <td>Country of Origin</td>\n    <td>China</td>\n   </tr>\n   <tr>\n    <td>Estimated Time to Assemble</td>\n    <td>60 minutes</td>\n   </tr>\n  </tbody>\n </table>\n <p>Product Notice</p>\n <table>\n  <tbody>\n   <tr>\n    <td>Product Care Notice</td>\n    <td>1. Wipe with a soft dry cloth. Avoid the use of harsh chemicals and household cleaners as they may damage the finish. 2. Hardware may loosen over time; periodically check that all connections are tight.</td>\n   </tr>\n   <tr>\n    <td>Color Notice</td>\n    <td>Real Product’s Color may be a little different from the image due to the lighting or monitor’s display.</td>\n   </tr>\n   <tr>\n    <td>Hardware Notice</td>\n    <td>This product does not come with a Phillips screwdriver; please prepare one separately. We recommend avoiding electric screwdrivers, as they may easily damage the wooden screw holes!</td>\n   </tr>\n  </tbody>\n </table> \n <img src=\"https://cf.cjdropshipping.com/17804448/bee39acc-5fc4-4412-805d-81c50d8de409.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/be50a700-5833-4a9b-b372-78d7f085cece.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/8af9d349-dea2-456a-99cb-eb8c64a3e75b.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/3c3c185f-e29a-4469-a4db-a339ee060ac9.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/4e56e38e-f697-4fc2-9563-2005561fa861.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/db5e7d48-01c8-44ee-8965-126f3ee030fd.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/ced6f08a-cf65-498e-bf11-caf77b4e7ea5.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/eefe7a9c-6292-41a6-aeea-7e62566c2922.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/d820602e-b935-451a-a5c0-3cff1bf722ea.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/4fb5d0c8-dd60-4336-8c79-94957006c193.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/5762f306-a708-45b0-919c-1d55019e30b1.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/f91aa011-4f54-4e90-8f79-d9af544f2d12.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17804448/5833d1a8-a711-478f-996e-b015b1adb86c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
+    "description": "\n <p>Specification</p>\n <p>Product Information</p>\n <p>Product Type :Single Box Product</p>\n <p>Product Name:70\" Kitchen Pantry Cabinet with 2 Cabinet Shelves,Luxurious Wooden Cupboard with 6 Door Shelves and 3 Drawers for Kitchen, Dining Room,Natural</p>\n <p>Place of Origin:China</p>\n <p>Main Color:Natural</p>\n <p>Main Material:Solid Wood+MDF</p>\n <p>Product Style:American Design,American Traditional,Classic,Luxury</p>\n <p>Use Case:Dining Room</p>\n <p>Wood Type:Rubberwood</p>\n <p>Wood Tone:Nature</p>\n <p>Storage Features:Adjustabel Shelves</p>\n <p>Numbers of Doors:2</p>\n <p>Numbers of Drawers:3</p>\n <p>Feature:6 door internal storage compartments</p>\n <p>Product Dimensions</p>\n <p>Assembled Length (in.):31.50</p>\n <p>Assembled Width (in.):15.75</p>\n <p>Assembled Height (in.):70.10</p>\n <p>Product Weight (lbs.):127.98</p>\n <p>Package Size</p>\n <p>Length (in.):50.39</p>\n <p>Width (in.):19.88</p>\n <p>Height (in.):12.79</p>\n <p>Weight (lbs.):136.03</p>\n <p>Product Features</p>\n <ul>\n  <li>[Premium Solid Wood Construction]Crafted with solid rubber wood handles and legs, this cabinet combines durability with elegance. The natural wood grain finish adds warmth to any space while ensuring long-lasting quality.</li>\n  <li>[Smart Adjustable Storage]Features a top adjustable shelf and 6 internal door compartments for customizable organization. Three drawers with full-extension slide rails provide smooth, easy access to stored items.</li>\n  <li>[Smooth &amp; Quiet Operation]Equipped with damping hinges that allow cabinet doors to open silently up to 135 degrees, plus catch to keep doors securely closed when not in use.</li>\n  <li>[Safe &amp; Stable Design]Includes anti-tipping protection for added safety, making this tall cabinet secure for households with children or pets.</li>\n  <li>[Versatile for Any Room]Available in 3 stylish colors to match your decor. Perfect for organizing kitchen, living room, bathroom, or dining room essentials while adding functional elegance.</li>\n  <li>Dimensions:31.5\u201dW x 15.75\u201dD x 70.1\u201dH</li>\n </ul>\n <p>Descriptions</p>\n <p>Unique solid wood door handle design</p>\n <p>Our food storage cabinet features solid rubberwood door handles, combining natural beauty with durable luxury. These smooth, sturdy handles enhance grip and style, perfectly suited for daily kitchen use while adding a warm, organic touch to your home d\u00e9cor.</p>\n <p>Reliable solid wood legs</p>\n <p>Our storage cabinet features solid rubber wood legs, adding natural durability and timeless style. Perfect for dining rooms or entryways, they resist wear while complementing real-life home decor, offering both strength and organic beauty in everyday use.</p>\n <p>Adjustable Shelf</p>\n <p>Our cabinet features an adjustable shelf, offering flexible storage customization. Easily reposition it to fit items of various heights, maximizing space efficiency and adaptability for your changing organization needs.</p>\n <p>6 door internal storage compartments</p>\n <p>Our food storage cabinet includes 6 door-mounted compartments, each 10.3 inches wide, ideal for organizing spices, snacks, or kitchen essentials. This smart design maximizes space and accessibility, making daily meal prep easier and keeping everything neatly within reach.</p>\n <p>3 soft-close hinges</p>\n <p>Each door features 3 soft-close hinges that ensure smooth, quiet closing with no slamming. Perfect for busy kitchens or homes with kids, they enhance durability and convenience in everyday use.</p>\n <p>Catch</p>\n <p>The cabinet features a secure catch that gently holds the door in place, preventing sudden swings and protecting stored items. Ideal for homes with children or high-traffic areas, it ensures safe, quiet operation while keeping contents organized and safe during daily use.</p>\n <p>L-shaped anti-tip bracket</p>\n <p>This food storage cabinet comes with an L-shaped anti-tip bracket for added safety. Easily mounted to the wall, it prevents tipping during daily use, especially in homes with children or pets, ensuring stability and peace of mind in your kitchen or dining area.</p>\n <p>Full-extension Drawer Slide Rail</p>\n <p>The drawer in this food storage cabinet is equipped with full-extension slides, allowing smooth and complete access to the entire drawer space. Perfect for organizing kitchen essentials, it makes finding and reaching items effortless, enhancing convenience in daily meal prep and storage.</p>\n <p>Highlights&amp;Summary</p>\n <table>\n  <tbody>\n   <tr>\n    <td>Highlights</td>\n    <td>Natural Wood Grain Color//Top Adjustable Shelf//Solid rubber wood handle and solid wood legs//Full-extension Drawer Slide Rail//Damping hinge(Allows the cabinet door to open to 135 degrees)//Cabinet door with catches//6 door internal storage compartments//Anti-Tipping//3 Colors Available//Suitable for many scenes in the home</td>\n   </tr>\n   <tr>\n    <td>Summary</td>\n    <td>Transform your space with this stunning 70\" storage cabinet\u2014built to last and designed to impress. The rich natural wood grain finish brings warmth and elegance to any room, from dining to living areas. Easily store more: 3 drawers, 2 shelves , and 6 internal compartments keep everything neat. Premium solid wood handles and legs offer durability and timeless style. Each doors can open 135\u00b0 and shut quietly\u2014no slamming. Secure non-magnetic latches keep doors closed. Includes wall anchor for anti-tip safety\u2014ideal for homes with kids or pets. Say goodbye to clutter. This spacious, stylish cabinet combines smart function and high-end design at great value. Ready to upgrade? Click \u201cAdd to Cart\u201d now\u2014your perfect storage solution is just a click away!</td>\n   </tr>\n  </tbody>\n </table>\n <p>Specifications</p>\n <table>\n  <tbody>\n   <tr>\n    <td>Product Dimension(Overall)</td>\n    <td>31.5\u201dW x 15.75\u201dD x 70.1\u201dH</td>\n   </tr>\n   <tr>\n    <td>Product Weight</td>\n    <td>127.98 LBS</td>\n   </tr>\n   <tr>\n    <td>Package Dimension</td>\n    <td>50.39 x 19.88 x 12.79 inch</td>\n   </tr>\n   <tr>\n    <td>Package Weight</td>\n    <td>136.44 LBS</td>\n   </tr>\n   <tr>\n    <td>Detail Product Dimension</td>\n    <td>Please refer to the size image</td>\n   </tr>\n   <tr>\n    <td>Each Door Shelf Weight Capacity</td>\n    <td>3.2 LBS</td>\n   </tr>\n   <tr>\n    <td>Each Cabinet Shelf Weight Capacity</td>\n    <td>57.5 LBS</td>\n   </tr>\n   <tr>\n    <td>Each Drawer</td>\n    <td>17.5 LBS</td>\n   </tr>\n   <tr>\n    <td>Material</td>\n    <td>Manufactured Wood + Solid Rubber Wood</td>\n   </tr>\n   <tr>\n    <td>Screwdriver</td>\n    <td>No</td>\n   </tr>\n   <tr>\n    <td>Country of Origin</td>\n    <td>China</td>\n   </tr>\n   <tr>\n    <td>Estimated Time to Assemble</td>\n    <td>60 minutes</td>\n   </tr>\n  </tbody>\n </table>\n <p>Product Notice</p>\n <table>\n  <tbody>\n   <tr>\n    <td>Product Care Notice</td>\n    <td>1. Wipe with a soft dry cloth. Avoid the use of harsh chemicals and household cleaners as they may damage the finish. 2. Hardware may loosen over time; periodically check that all connections are tight.</td>\n   </tr>\n   <tr>\n    <td>Color Notice</td>\n    <td>Real Product\u2019s Color may be a little different from the image due to the lighting or monitor\u2019s display.</td>\n   </tr>\n   <tr>\n    <td>Hardware Notice</td>\n    <td>This product does not come with a Phillips screwdriver; please prepare one separately. We recommend avoiding electric screwdrivers, as they may easily damage the wooden screw holes!</td>\n   </tr>\n  </tbody>\n </table> \n <img src=\"https://cf.cjdropshipping.com/17804448/bee39acc-5fc4-4412-805d-81c50d8de409.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/be50a700-5833-4a9b-b372-78d7f085cece.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/8af9d349-dea2-456a-99cb-eb8c64a3e75b.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/3c3c185f-e29a-4469-a4db-a339ee060ac9.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/4e56e38e-f697-4fc2-9563-2005561fa861.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/db5e7d48-01c8-44ee-8965-126f3ee030fd.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/ced6f08a-cf65-498e-bf11-caf77b4e7ea5.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/eefe7a9c-6292-41a6-aeea-7e62566c2922.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/d820602e-b935-451a-a5c0-3cff1bf722ea.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/4fb5d0c8-dd60-4336-8c79-94957006c193.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/5762f306-a708-45b0-919c-1d55019e30b1.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <img src=\"https://cf.cjdropshipping.com/17804448/f91aa011-4f54-4e90-8f79-d9af544f2d12.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"> \n <br> \n <p><img src=\"https://cf.cjdropshipping.com/17804448/5833d1a8-a711-478f-996e-b015b1adb86c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><br></p>\n",
     "price": "738.72",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/17804448/eedee0a0-1106-4f35-b389-45db2e093f98.jpg",
@@ -6478,14 +6484,15 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.484236+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJFT295992701AZ": {
     "status": "cj_discovered_ready_for_listing",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T22:31:03.332643+00:00",
     "title": "2 In 1, 28'' Collapsible Travel Dog Crate For Medium Large Dogs, Rolling Pet Carrier With Wheels, 3-Door Portable Folding Pet Kennel With Me",
-    "description": "\n <ul>\n  <li>【Stress-Free Pet Transport】Take the weight off your shoulders with this carrier on wheels! Fully retractable premium material handle &amp; 360 degree rotating and removable wheels ensure smooth, quiet, and effortless rolling mobility in any direction resulting in a bump free ride for your pet. Easy mechanism to attach and detach bag from wheel platform allowing bag to be used as a regular expandable carrier!</li>\n  <li>【Foldable and Space-Saving】Designed to maximize convenience, this folding soft dog crate features a storage latch-saving design that allows for fast folding and easy storage. Collapsible Bars with retractable Springs make setup simple and storage efficient. Whether at home or on the go, it can be quickly set up or collapsed, saving valuable.</li>\n  <li>【Comfort &amp; Convenience】The crate features three mesh doors located on the top, front, and side, to enter and exit from various directions, improved sunlight, and breathability. Additionally, the crate has a accessory pockets located on the top for added storage. The crate cover and bed cover are both removable and washable, making maintenance and cleaning easy.</li>\n  <li>【Multi-Purpose Design】From corner protection to a sliding door curtain, breathable mesh, Double Zipper, and a soft padded mat, Our collapsible dog crate ensures your pet's well-being in various situations. The crate has a handle and hand carrying straps, while the carrying bag features both hand carrying straps and an adjustable padded shoulder strap, providing many carrying options. This dog crate offers a range of features that cater to your pet's comfort and needs.</li>\n  <li>【Sturdy &amp; Safe Construction】Built with a sturdy frame with a load capacity of up to 50 lbs, this collapsible dog crate guarantees safety and durability for your pet. The construction ensures your pet's security while providing a reliable and comfortable space. Provides a comfortable and secure environment for pets of various sizes.</li>\n </ul>\n <p><img src=\"https://cf.cjdropshipping.com/c3f96cdc-ff09-45b9-bfc6-ceda37810b97.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/fecdcdaf-ec97-4ffe-8fa2-2e04ac1ff4f4.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/a49fdb5d-b487-4e54-b5b5-6d0eb0261065.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/fe1feb0b-38d7-428b-86ea-9159f3b0be19.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/8c588d50-f0e1-4f60-bcb4-1c3c04cb291a.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/77c124a5-e87f-4fff-8144-48e2150e971b.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/17fd06e0-bd1e-43da-a074-d0e41afa254a.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/0c98683f-1519-4972-b3ee-e9284d27c0a1.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/2d0f09e4-0fd8-465b-b67a-2f63b67ea5bb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/ff2bff30-608b-4c84-877a-2b495639b375.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/56360869-256e-4a76-a207-60056df9ba30.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/8d790be0-d97b-43ae-92ba-c9b2901f4e1f.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/15430674-1e49-4cec-a393-40dec7cf8d96.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "description": "\n <ul>\n  <li>\u3010Stress-Free Pet Transport\u3011Take the weight off your shoulders with this carrier on wheels! Fully retractable premium material handle &amp; 360 degree rotating and removable wheels ensure smooth, quiet, and effortless rolling mobility in any direction resulting in a bump free ride for your pet. Easy mechanism to attach and detach bag from wheel platform allowing bag to be used as a regular expandable carrier!</li>\n  <li>\u3010Foldable and Space-Saving\u3011Designed to maximize convenience, this folding soft dog crate features a storage latch-saving design that allows for fast folding and easy storage. Collapsible Bars with retractable Springs make setup simple and storage efficient. Whether at home or on the go, it can be quickly set up or collapsed, saving valuable.</li>\n  <li>\u3010Comfort &amp; Convenience\u3011The crate features three mesh doors located on the top, front, and side, to enter and exit from various directions, improved sunlight, and breathability. Additionally, the crate has a accessory pockets located on the top for added storage. The crate cover and bed cover are both removable and washable, making maintenance and cleaning easy.</li>\n  <li>\u3010Multi-Purpose Design\u3011From corner protection to a sliding door curtain, breathable mesh, Double Zipper, and a soft padded mat, Our collapsible dog crate ensures your pet's well-being in various situations. The crate has a handle and hand carrying straps, while the carrying bag features both hand carrying straps and an adjustable padded shoulder strap, providing many carrying options. This dog crate offers a range of features that cater to your pet's comfort and needs.</li>\n  <li>\u3010Sturdy &amp; Safe Construction\u3011Built with a sturdy frame with a load capacity of up to 50 lbs, this collapsible dog crate guarantees safety and durability for your pet. The construction ensures your pet's security while providing a reliable and comfortable space. Provides a comfortable and secure environment for pets of various sizes.</li>\n </ul>\n <p><img src=\"https://cf.cjdropshipping.com/c3f96cdc-ff09-45b9-bfc6-ceda37810b97.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/fecdcdaf-ec97-4ffe-8fa2-2e04ac1ff4f4.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/a49fdb5d-b487-4e54-b5b5-6d0eb0261065.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/fe1feb0b-38d7-428b-86ea-9159f3b0be19.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/8c588d50-f0e1-4f60-bcb4-1c3c04cb291a.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/77c124a5-e87f-4fff-8144-48e2150e971b.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/17fd06e0-bd1e-43da-a074-d0e41afa254a.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/0c98683f-1519-4972-b3ee-e9284d27c0a1.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/2d0f09e4-0fd8-465b-b67a-2f63b67ea5bb.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/ff2bff30-608b-4c84-877a-2b495639b375.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/56360869-256e-4a76-a207-60056df9ba30.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/8d790be0-d97b-43ae-92ba-c9b2901f4e1f.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/15430674-1e49-4cec-a393-40dec7cf8d96.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
     "price": "200.9",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/8b59ae0d-909f-4b3f-8a2c-0cdbe7dfeaaa.png",
@@ -6499,9 +6506,9 @@
     "cj_product_sku": "CJFT2959927",
     "cj_variant_sku": "CJFT295992701AZ",
     "supplier_cost": 83.71,
-    "shipping_cost": 0.0,
-    "estimated_profit": 117.19,
-    "margin_percent": 58.33,
+    "shipping_cost": 2.99,
+    "estimated_profit": 114.2,
+    "margin_percent": 56.84,
     "profitable": true,
     "inventory_supplier": null,
     "product_weight": "5980",
@@ -6537,10 +6544,11 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00"
+    "product_scored_at": "2026-06-30T13:26:58.485269+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   },
   "CJTD295796801AZ": {
-    "status": "cj_discovered_ready_for_listing",
+    "status": "shopify_draft_created",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T22:31:04.963148+00:00",
     "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
@@ -6575,7 +6583,12 @@
       "amazon": false
     },
     "channels": {
-      "shopify": {},
+      "shopify": {
+        "product_id": 10920846360918,
+        "product_url": null,
+        "status": "draft",
+        "published_at": "2026-06-29T22:38:12.329928+00:00"
+      },
       "etsy": {},
       "ebay": {},
       "woocommerce": {},
@@ -6595,18 +6608,38 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "product_scored_at": "2026-06-30T13:26:58.485269+00:00",
     "listing_draft_ready": true,
-    "listing_draft_created_at": "2026-06-29T22:31:21.297603+00:00",
+    "listing_draft_created_at": "2026-06-30T13:26:58.743347+00:00",
     "marketplace_optimized": true,
-    "marketplace_optimized_at": "2026-06-29T22:31:21.460127+00:00"
+    "marketplace_optimized_at": "2026-06-30T13:26:58.871924+00:00",
+    "product_id": 10920846360918,
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
+    "seo_title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
+    "seo_description": "Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations. Price: GBP 16.78.",
+    "seo_tags": [
+      "floating",
+      "frog",
+      "swim",
+      "ring",
+      "resin",
+      "aquarium",
+      "ornament",
+      "fish",
+      "tank",
+      "decor",
+      "water",
+      "surface",
+      "accessory"
+    ],
+    "seo_content_generated_at": "2026-06-30T13:26:58.614380+00:00"
   },
   "CJNS295299502BY": {
-    "status": "cj_discovered_ready_for_listing",
+    "status": "shopify_draft_created",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T22:31:08.317018+00:00",
     "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
-    "description": "\n <table>\n  <thead>\n   <tr>\n    <th>Spec Name</th>\n    <th>Item Number</th>\n    <th>Product Dimension (L×W×H)</th>\n    <th>Product Weight</th>\n    <th>Package Dimension (L×W×H)</th>\n    <th>Package Weight</th>\n   </tr>\n  </thead>\n  <tbody>\n   <tr>\n    <td>Dark gray/20in</td>\n    <td>ZHUMI-XLX-20IN-DGY</td>\n    <td>379.98 × 240.03 × 570.08 mm</td>\n    <td>2912.06 g</td>\n    <td>389.89 × 254.76 × 600.05 mm</td>\n    <td>3937.18 g</td>\n   </tr>\n   <tr>\n    <td>olive green/20in</td>\n    <td>ZHUMI-XLX-20IN-OGN</td>\n    <td>379.98 × 240.03 × 570.08 mm</td>\n    <td>2912.06 g</td>\n    <td>389.89 × 254.76 × 600.05 mm</td>\n    <td>3937.18 g</td>\n   </tr>\n   <tr>\n    <td>light gray/20in</td>\n    <td>ZHUMI-XLX-20IN-LGY</td>\n    <td>379.98 × 240.03 × 570.08 mm</td>\n    <td>2912.06 g</td>\n    <td>389.89 × 254.76 × 600.05 mm</td>\n    <td>3937.18 g</td>\n   </tr>\n   <tr>\n    <td>Dark gray/24in</td>\n    <td>ZHUMI-XLX-24IN-DGY</td>\n    <td>439.93 × 275.08 × 670.05 mm</td>\n    <td>3528.95 g</td>\n    <td>449.83 × 289.81 × 699.77 mm</td>\n    <td>4926.01 g</td>\n   </tr>\n   <tr>\n    <td>olive green/24in</td>\n    <td>ZHUMI-XLX-24IN-OGN</td>\n    <td>439.93 × 275.08 × 670.05 mm</td>\n    <td>3528.95 g</td>\n    <td>449.83 × 289.81 × 699.77 mm</td>\n    <td>4926.01 g</td>\n   </tr>\n   <tr>\n    <td>light gray/24in</td>\n    <td>ZHUMI-XLX-24IN-LGY</td>\n    <td>439.93 × 275.08 × 670.05 mm</td>\n    <td>3528.95 g</td>\n    <td>449.83 × 289.81 × 699.77 mm</td>\n    <td>4926.01 g</td>\n   </tr>\n   <tr>\n    <td>Dark gray/28in</td>\n    <td>ZHUMI-XLX-28IN-DGY</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>4299.06 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>6096.28 g</td>\n   </tr>\n   <tr>\n    <td>olive green/28in</td>\n    <td>ZHUMI-XLX-28IN-OGN</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>4299.06 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>6096.28 g</td>\n   </tr>\n   <tr>\n    <td>light gray/28in</td>\n    <td>ZHUMI-XLX-28IN-LGY</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>4299.06 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>6096.28 g</td>\n   </tr>\n   <tr>\n    <td>Dark gray/3p</td>\n    <td>ZHUMI-XLX-TZ2048IN-3P-DGY</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>10599.45 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>12596.26 g</td>\n   </tr>\n   <tr>\n    <td>olive green/3p</td>\n    <td>ZHUMI-XLX-TZ2048IN-3P-OGN</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>10599.45 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>12596.26 g</td>\n   </tr>\n   <tr>\n    <td>light gray/3p</td>\n    <td>ZHUMI-XLX-TZ2048IN-3P-LGY</td>\n    <td>500.13 × 305.05 × 769.87 mm</td>\n    <td>10599.45 g</td>\n    <td>509.78 × 319.79 × 799.85 mm</td>\n    <td>12596.26 g</td>\n   </tr>\n  </tbody>\n </table>\n <p>This luggage is the perfect travel companion for any trip. With its durable ABS material construction, this suitcase is tough and scratch-resistant, ensuring long-lasting performance. The 360-degree swivel wheels allow for smooth and quiet movement on any surface, while the retractable trolley bar makes maneuvering a breeze. The divided interior provides ample storage and organization options, with features such as expandable space, mesh pockets, and protective belts to keep your belongings secure and tidy. The TSA lock adds an extra layer of security, giving you peace of mind while traveling.</p>\n <p>Flexible Rolling Luggage</p>\n <p>360-degree swivel wheels ensure smooth and quiet movement on any surface.</p>\n <p>Spacious Storage Space</p>\n <p>A divided interior with expandable space makes it easy to organize clothes and travel essentials.</p>\n <p>Lightweight &amp; Durable</p>\n <p>Made of durable, scratch-resistant ABS material with a lightweight design for easy carrying.</p>\n <p>TSA Lock &amp; Resilient Telescopic Handle</p>\n <p>A TSA-approved lock provides extra security, while a durable telescopic handle allows for easy maneuverability.</p>\n <p>Multiple Choices</p>\n <p>Available in different sizes and sets to meet the needs of solo travelers or the whole family.<img src=\"https://cf.cjdropshipping.com/fbdee0e5-a575-4989-8ae4-d0f5f774dbf8.jpg\" contenteditable=\"false\" style=\"font-size: 13px; max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/f502e279-7546-4378-ad24-78ebe552085f.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/6334303b-38a8-455c-a32c-5817611b2c7a.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/502a1b4e-874b-45e0-af43-e7b1705c9d77.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/9ce9ad26-35ac-49e6-8673-0ac52631c7af.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/ae6d7713-2407-4523-90fa-90a74e4e39eb.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/bb77c71f-da27-448c-9652-c0fd63ee9c1c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/46c6a5ac-79ee-411c-8438-0232cb6252ea.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f389c313-eef5-4912-af9a-da22d62cd964.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f7413305-b469-45e9-a71a-36522e841b6d.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/d53e6743-f6ac-4992-9cd7-3ce895185474.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/4259a601-f4ad-4390-933b-4f86d3655efc.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f27ef409-e530-4376-8e9b-09e63b3cb24f.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/ef6d2c81-47d4-44f3-b43e-32ebc19e0163.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/4fdc5548-bdc2-44e3-9aee-be6eec36b971.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "description": "\n <table>\n  <thead>\n   <tr>\n    <th>Spec Name</th>\n    <th>Item Number</th>\n    <th>Product Dimension (L\u00d7W\u00d7H)</th>\n    <th>Product Weight</th>\n    <th>Package Dimension (L\u00d7W\u00d7H)</th>\n    <th>Package Weight</th>\n   </tr>\n  </thead>\n  <tbody>\n   <tr>\n    <td>Dark gray/20in</td>\n    <td>ZHUMI-XLX-20IN-DGY</td>\n    <td>379.98 \u00d7 240.03 \u00d7 570.08 mm</td>\n    <td>2912.06 g</td>\n    <td>389.89 \u00d7 254.76 \u00d7 600.05 mm</td>\n    <td>3937.18 g</td>\n   </tr>\n   <tr>\n    <td>olive green/20in</td>\n    <td>ZHUMI-XLX-20IN-OGN</td>\n    <td>379.98 \u00d7 240.03 \u00d7 570.08 mm</td>\n    <td>2912.06 g</td>\n    <td>389.89 \u00d7 254.76 \u00d7 600.05 mm</td>\n    <td>3937.18 g</td>\n   </tr>\n   <tr>\n    <td>light gray/20in</td>\n    <td>ZHUMI-XLX-20IN-LGY</td>\n    <td>379.98 \u00d7 240.03 \u00d7 570.08 mm</td>\n    <td>2912.06 g</td>\n    <td>389.89 \u00d7 254.76 \u00d7 600.05 mm</td>\n    <td>3937.18 g</td>\n   </tr>\n   <tr>\n    <td>Dark gray/24in</td>\n    <td>ZHUMI-XLX-24IN-DGY</td>\n    <td>439.93 \u00d7 275.08 \u00d7 670.05 mm</td>\n    <td>3528.95 g</td>\n    <td>449.83 \u00d7 289.81 \u00d7 699.77 mm</td>\n    <td>4926.01 g</td>\n   </tr>\n   <tr>\n    <td>olive green/24in</td>\n    <td>ZHUMI-XLX-24IN-OGN</td>\n    <td>439.93 \u00d7 275.08 \u00d7 670.05 mm</td>\n    <td>3528.95 g</td>\n    <td>449.83 \u00d7 289.81 \u00d7 699.77 mm</td>\n    <td>4926.01 g</td>\n   </tr>\n   <tr>\n    <td>light gray/24in</td>\n    <td>ZHUMI-XLX-24IN-LGY</td>\n    <td>439.93 \u00d7 275.08 \u00d7 670.05 mm</td>\n    <td>3528.95 g</td>\n    <td>449.83 \u00d7 289.81 \u00d7 699.77 mm</td>\n    <td>4926.01 g</td>\n   </tr>\n   <tr>\n    <td>Dark gray/28in</td>\n    <td>ZHUMI-XLX-28IN-DGY</td>\n    <td>500.13 \u00d7 305.05 \u00d7 769.87 mm</td>\n    <td>4299.06 g</td>\n    <td>509.78 \u00d7 319.79 \u00d7 799.85 mm</td>\n    <td>6096.28 g</td>\n   </tr>\n   <tr>\n    <td>olive green/28in</td>\n    <td>ZHUMI-XLX-28IN-OGN</td>\n    <td>500.13 \u00d7 305.05 \u00d7 769.87 mm</td>\n    <td>4299.06 g</td>\n    <td>509.78 \u00d7 319.79 \u00d7 799.85 mm</td>\n    <td>6096.28 g</td>\n   </tr>\n   <tr>\n    <td>light gray/28in</td>\n    <td>ZHUMI-XLX-28IN-LGY</td>\n    <td>500.13 \u00d7 305.05 \u00d7 769.87 mm</td>\n    <td>4299.06 g</td>\n    <td>509.78 \u00d7 319.79 \u00d7 799.85 mm</td>\n    <td>6096.28 g</td>\n   </tr>\n   <tr>\n    <td>Dark gray/3p</td>\n    <td>ZHUMI-XLX-TZ2048IN-3P-DGY</td>\n    <td>500.13 \u00d7 305.05 \u00d7 769.87 mm</td>\n    <td>10599.45 g</td>\n    <td>509.78 \u00d7 319.79 \u00d7 799.85 mm</td>\n    <td>12596.26 g</td>\n   </tr>\n   <tr>\n    <td>olive green/3p</td>\n    <td>ZHUMI-XLX-TZ2048IN-3P-OGN</td>\n    <td>500.13 \u00d7 305.05 \u00d7 769.87 mm</td>\n    <td>10599.45 g</td>\n    <td>509.78 \u00d7 319.79 \u00d7 799.85 mm</td>\n    <td>12596.26 g</td>\n   </tr>\n   <tr>\n    <td>light gray/3p</td>\n    <td>ZHUMI-XLX-TZ2048IN-3P-LGY</td>\n    <td>500.13 \u00d7 305.05 \u00d7 769.87 mm</td>\n    <td>10599.45 g</td>\n    <td>509.78 \u00d7 319.79 \u00d7 799.85 mm</td>\n    <td>12596.26 g</td>\n   </tr>\n  </tbody>\n </table>\n <p>This luggage is the perfect travel companion for any trip. With its durable ABS material construction, this suitcase is tough and scratch-resistant, ensuring long-lasting performance. The 360-degree swivel wheels allow for smooth and quiet movement on any surface, while the retractable trolley bar makes maneuvering a breeze. The divided interior provides ample storage and organization options, with features such as expandable space, mesh pockets, and protective belts to keep your belongings secure and tidy. The TSA lock adds an extra layer of security, giving you peace of mind while traveling.</p>\n <p>Flexible Rolling Luggage</p>\n <p>360-degree swivel wheels ensure smooth and quiet movement on any surface.</p>\n <p>Spacious Storage Space</p>\n <p>A divided interior with expandable space makes it easy to organize clothes and travel essentials.</p>\n <p>Lightweight &amp; Durable</p>\n <p>Made of durable, scratch-resistant ABS material with a lightweight design for easy carrying.</p>\n <p>TSA Lock &amp; Resilient Telescopic Handle</p>\n <p>A TSA-approved lock provides extra security, while a durable telescopic handle allows for easy maneuverability.</p>\n <p>Multiple Choices</p>\n <p>Available in different sizes and sets to meet the needs of solo travelers or the whole family.<img src=\"https://cf.cjdropshipping.com/fbdee0e5-a575-4989-8ae4-d0f5f774dbf8.jpg\" contenteditable=\"false\" style=\"font-size: 13px; max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/f502e279-7546-4378-ad24-78ebe552085f.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/6334303b-38a8-455c-a32c-5817611b2c7a.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/502a1b4e-874b-45e0-af43-e7b1705c9d77.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/9ce9ad26-35ac-49e6-8673-0ac52631c7af.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/ae6d7713-2407-4523-90fa-90a74e4e39eb.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/bb77c71f-da27-448c-9652-c0fd63ee9c1c.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/46c6a5ac-79ee-411c-8438-0232cb6252ea.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f389c313-eef5-4912-af9a-da22d62cd964.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f7413305-b469-45e9-a71a-36522e841b6d.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/d53e6743-f6ac-4992-9cd7-3ce895185474.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/4259a601-f4ad-4390-933b-4f86d3655efc.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/f27ef409-e530-4376-8e9b-09e63b3cb24f.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/ef6d2c81-47d4-44f3-b43e-32ebc19e0163.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/4fdc5548-bdc2-44e3-9aee-be6eec36b971.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
     "price": "90.5",
     "currency": "GBP",
     "image": "https://cf.cjdropshipping.com/c14256af-9da9-4423-b8eb-b3644663e796.jpg",
@@ -6620,9 +6653,9 @@
     "cj_product_sku": "CJNS2952995",
     "cj_variant_sku": "CJNS295299502BY",
     "supplier_cost": 37.71,
-    "shipping_cost": 0.0,
-    "estimated_profit": 52.79,
-    "margin_percent": 58.33,
+    "shipping_cost": 2.99,
+    "estimated_profit": 49.8,
+    "margin_percent": 55.03,
     "profitable": true,
     "inventory_supplier": null,
     "product_weight": "3937-12596",
@@ -6637,7 +6670,12 @@
       "amazon": false
     },
     "channels": {
-      "shopify": {},
+      "shopify": {
+        "product_id": 10920846426454,
+        "product_url": null,
+        "status": "draft",
+        "published_at": "2026-06-29T22:38:15.690158+00:00"
+      },
       "etsy": {},
       "ebay": {},
       "woocommerce": {},
@@ -6656,14 +6694,34 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "product_scored_at": "2026-06-30T13:26:58.485269+00:00",
     "listing_draft_ready": true,
-    "listing_draft_created_at": "2026-06-29T22:31:21.297603+00:00",
+    "listing_draft_created_at": "2026-06-30T13:26:58.743347+00:00",
     "marketplace_optimized": true,
-    "marketplace_optimized_at": "2026-06-29T22:31:21.461126+00:00"
+    "marketplace_optimized_at": "2026-06-30T13:26:58.871924+00:00",
+    "product_id": 10920846426454,
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
+    "seo_title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
+    "seo_description": "Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags. Price: GBP 90.5.",
+    "seo_tags": [
+      "hard",
+      "shell",
+      "carry",
+      "suitcase",
+      "abs",
+      "spinner",
+      "wheel",
+      "luggage",
+      "lightweight",
+      "and",
+      "expandable",
+      "rolling",
+      "travel"
+    ],
+    "seo_content_generated_at": "2026-06-30T13:26:58.615380+00:00"
   },
   "CJQQ294934201AZ": {
-    "status": "cj_discovered_ready_for_listing",
+    "status": "shopify_draft_created",
     "source": "cj_product_discovery",
     "created_at": "2026-06-29T22:31:10.038833+00:00",
     "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho",
@@ -6698,7 +6756,12 @@
       "amazon": false
     },
     "channels": {
-      "shopify": {},
+      "shopify": {
+        "product_id": 10920846491990,
+        "product_url": null,
+        "status": "draft",
+        "published_at": "2026-06-29T22:38:18.479982+00:00"
+      },
       "etsy": {},
       "ebay": {},
       "woocommerce": {},
@@ -6717,10 +6780,331 @@
       "good_product_type",
       "real_cj_mapping"
     ],
-    "product_scored_at": "2026-06-29T22:31:20.961566+00:00",
+    "product_scored_at": "2026-06-30T13:26:58.485269+00:00",
     "listing_draft_ready": true,
-    "listing_draft_created_at": "2026-06-29T22:31:21.297603+00:00",
+    "listing_draft_created_at": "2026-06-30T13:26:58.743347+00:00",
     "marketplace_optimized": true,
-    "marketplace_optimized_at": "2026-06-29T22:31:21.461126+00:00"
+    "marketplace_optimized_at": "2026-06-30T13:26:58.871924+00:00",
+    "product_id": 10920846491990,
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00",
+    "seo_title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
+    "seo_description": "Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Men's Clothing / Novelty & Special Use / Exotic Apparel. Price: GBP 11.98.",
+    "seo_tags": [
+      "men",
+      "disposable",
+      "beltless",
+      "underwear",
+      "soft",
+      "and",
+      "breathable",
+      "sports",
+      "suitable",
+      "for",
+      "gym",
+      "travel",
+      "spa"
+    ],
+    "seo_content_generated_at": "2026-06-30T13:26:58.615380+00:00"
+  },
+  "CJCJ296028001AZ": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-30T13:26:23.517094+00:00",
+    "title": "Manual Slow Cooker, Easy To Use Program-Free Kitchen Appliance, Great For Pot Roast And Chili",
+    "description": "\n <table>\n  <thead>\n   <tr>\n    <th>Spec Name</th>\n    <th>Item Number</th>\n    <th>Product Dimension (L\u00d7W\u00d7H)</th>\n    <th>Product Weight</th>\n    <th>Package Dimension (L\u00d7W\u00d7H)</th>\n    <th>Package Weight</th>\n   </tr>\n  </thead>\n  <tbody>\n   <tr>\n    <td>black/6QT</td>\n    <td>ZHUMI-AH-SLC7210-6BK</td>\n    <td>425.96 \u00d7 290.07 \u00d7 252.98 mm</td>\n    <td>5198.17 g</td>\n    <td>397.76 \u00d7 397.76 \u00d7 248.92 mm</td>\n    <td>6096.28 g</td>\n   </tr>\n   <tr>\n    <td>black/8QT</td>\n    <td>ZHUMI-AH-SLC7210-8BK</td>\n    <td>449.07 \u00d7 313.18 \u00d7 274.57 mm</td>\n    <td>5801.45 g</td>\n    <td>409.96 \u00d7 409.96 \u00d7 279.91 mm</td>\n    <td>6799.35 g</td>\n   </tr>\n   <tr>\n    <td>Stainless steel color/6QT</td>\n    <td>ZHUMI-AH-SLC7210-6SR</td>\n    <td>425.96 \u00d7 290.07 \u00d7 252.98 mm</td>\n    <td>5198.17 g</td>\n    <td>397.76 \u00d7 397.76 \u00d7 248.92 mm</td>\n    <td>6096.28 g</td>\n   </tr>\n   <tr>\n    <td>Stainless steel color/8QT</td>\n    <td>ZHUMI-AH-SLC7210-8SR</td>\n    <td>449.07 \u00d7 313.18 \u00d7 274.57 mm</td>\n    <td>5801.45 g</td>\n    <td>409.96 \u00d7 409.96 \u00d7 279.91 mm</td>\n    <td>6799.35 g</td>\n   </tr>\n  </tbody>\n </table>\n <p>This slow cooker is the perfect kitchen appliance for those who enjoy delicious, homemade meals with minimal effort. It is perfect for families or for meal prep, allowing you to cook large portions of your favorite recipes and save time in the kitchen. The durable exterior of the slow cooker is long-lasting and stylish, making it a great addition to any kitchen.</p>\n <p>Hassle-Free Home Cooking: Enjoy tasty, homemade meals with very little effort.</p>\n <p>Perfectly Warm: A dedicated warm function keeps food at the ideal serving temperature until you're ready to eat.</p>\n <p>Easy &amp; Quick: The removable round stoneware pot and lid are both dishwasher-safe, making cleanup simple and stress-free.</p>\n <p><br></p>\n",
+    "price": "84.38",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/1cfff9fb-2cbd-4f78-9c2c-8eb6ef41a5a2.jpg",
+    "supplier": "cj",
+    "supplier_name": "yuting",
+    "supplier_id": "1858820484947517440",
+    "supplier_product_id": "2071774535708209153",
+    "supplier_variant_id": "2071774536144416769",
+    "cj_product_id": "2071774535708209153",
+    "cj_variant_id": "2071774536144416769",
+    "cj_product_sku": "CJCJ2960280",
+    "cj_variant_sku": "CJCJ296028001AZ",
+    "supplier_cost": 35.16,
+    "shipping_cost": 2.99,
+    "estimated_profit": 46.23,
+    "margin_percent": 54.79,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "6096-6799",
+    "category_name": "Home, Garden & Furniture / Kitchen, Dining & Bar / Cooking Tools",
+    "shipping_country": "GB",
+    "discovery_keyword": "kitchen gadget",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": -25,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "safe_price_range",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-30T13:26:58.485269+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
+  },
+  "CJFU296024401AZ": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-30T13:26:25.050222+00:00",
+    "title": "Kitchen Cart With Storage And Drop Leaf Tabletop, Rolling Island On Wheels For Extra Workspace",
+    "description": "<table>\n  <thead>\n   <tr>\n    <th>Spec Name</th>\n    <th>Item Number</th>\n    <th>Product Dimension (L\u00d7W\u00d7H)</th>\n    <th>Product Weight</th>\n    <th>Package Dimension (L\u00d7W\u00d7H)</th>\n    <th>Package Weight</th>\n   </tr>\n  </thead>\n  <tbody>\n   <tr>\n    <td>black</td>\n    <td>ZHUMI-FK-CDT4458-42BK</td>\n    <td>1175.00 \u00d7 649.99 \u00d7 910.08 mm</td>\n    <td>33497.80 g</td>\n    <td>1169.92 \u00d7 479.81 \u00d7 219.96 mm</td>\n    <td>36999.53 g</td>\n   </tr>\n   <tr>\n    <td>white</td>\n    <td>ZHUMI-FK-CDT4458-42WT</td>\n    <td>1175.00 \u00d7 649.99 \u00d7 910.08 mm</td>\n    <td>33497.80 g</td>\n    <td>1169.92 \u00d7 479.81 \u00d7 219.96 mm</td>\n    <td>36999.53 g</td>\n   </tr>\n  </tbody>\n </table>\n <p>This kitchen island cart is a versatile addition to your kitchen. This rolling kitchen island cart has a foldable countertop. This kitchen cart with a drop leaf saves space and fits into small areas. The countertop unfolds to add extra dining space.</p>\n <p>Durable Construction</p>\n <p>Made of high-quality wood with a smooth, food-safe, waterproof, and scratch-resistant coating.</p>\n <p>Smooth-Sliding Drawers</p>\n <p>Drawers and cabinet doors glide smoothly for effortless opening and closing.</p>\n <p>Easy to Assemble &amp; Versatile</p>\n <p>Comes with detailed instructions for quick assembly. Suitable for the kitchen, dining room, living room, and other spaces.<img src=\"https://cf.cjdropshipping.com/e5b006bb-4f54-4344-8017-df641f7d8365.jpg\" contenteditable=\"false\" style=\"font-size: 13px; max-width: 100%;\"/><img src=\"https://cf.cjdropshipping.com/4384cac8-3e96-44be-b33d-f66bfdc61fb4.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"/><img src=\"https://cf.cjdropshipping.com/db195521-ba9f-40c2-aa9e-44fc1c8b5e1d.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"/><img src=\"https://cf.cjdropshipping.com/589385be-6e2e-4da4-a0d6-29294e28cca6.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"/><img src=\"https://cf.cjdropshipping.com/ed5d7398-ff62-47bc-b0aa-923daf9a32cc.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"/><img src=\"https://cf.cjdropshipping.com/90196c0f-20ed-4153-a3c9-4d90304f376b.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"/><img src=\"https://cf.cjdropshipping.com/b2b9457d-6237-4219-9bc3-53cb2578a433.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"/><img src=\"https://cf.cjdropshipping.com/1fcac2a5-0a31-47b2-b323-cbfd1ed13853.jpg\" style=\"max-width:100%;\" contenteditable=\"false\"/></p>",
+    "price": "245.02",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/9ff68633-dc1c-4c6b-96b9-e9dffb9e3bd5.jpg",
+    "supplier": "cj",
+    "supplier_name": "yuting",
+    "supplier_id": "1858820484947517440",
+    "supplier_product_id": "2071768702531964929",
+    "supplier_variant_id": "2071768702989144066",
+    "cj_product_id": "2071768702531964929",
+    "cj_variant_id": "2071768702989144066",
+    "cj_product_sku": "CJFU2960244",
+    "cj_variant_sku": "CJFU296024401AZ",
+    "supplier_cost": 102.09,
+    "shipping_cost": 2.99,
+    "estimated_profit": 139.94,
+    "margin_percent": 57.11,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "37000",
+    "category_name": "Home, Garden & Furniture / Home Storage / Furniture",
+    "shipping_country": "GB",
+    "discovery_keyword": "kitchen gadget",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": -70,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "high_ticket_item",
+      "too_heavy",
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-30T13:26:58.485269+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
+  },
+  "CJYD293726901AZ": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-30T13:26:44.195202+00:00",
+    "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+    "description": "<p><b>Product information:</b><br/>Lining material: Other<br/> Pattern: Solid color<br/> Applicable scene: Home storage<br/> Features: Other, waterproof, foldable<br/> With or without a pull rod: None<br/> Material: Other<br/> Dimensions: 65 cm long \u00d7 65 cm high \u00d7 22 cm wide, 69 cm long \u00d7 38 cm high \u00d7 35 cm wide, 74 cm long \u00d7 33 cm high \u00d7 36 cm wide, 74 cm long \u00d7 37 cm high \u00d7 35 cm wide, 72 cm long \u00d7 30 cm high \u00d7 35 cm wide<br/> Trendy elements: Weaving, other<br/> Style: Urban minimalism<br/> Capacity: 56\u201375 L</p>\n<br/>\n<b>Packing list: </b>\n<br/>Storage bag*1\n<br/>\n\n<b>Product Image:</b>\n<br/>\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/06/16/12/fe1758a3-0b00-4f87-9dab-6312309f6f6f_trans.jpeg\"/>\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/06/16/12/cd7b553a-0379-469b-9530-4baa868ab66f_trans.jpeg\"/>\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/06/16/12/dd0b3b8f-84af-4677-b6b7-2e9501b66b92_trans.jpeg\"/>\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/06/16/12/20df7ae7-0d82-41ab-b358-788dd0ed7246_trans.jpeg\"/>\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/06/16/12/09254102-f045-46c5-a425-8509f6103c2c_trans.jpeg\"/>\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/06/16/12/3aefe272-d541-4b70-a5d2-63e26b92c2e8_trans.jpeg\"/>\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/06/16/12/a68c7021-4325-41b5-819b-971384bfe8ad_trans.jpeg\"/>\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/06/16/12/c03cb039-47a8-4913-98d7-72d1212e2017_trans.jpeg\"/>\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/06/16/12/b3d29592-5854-48a4-8d0b-a88288dcab42_trans.jpeg\"/>\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/06/16/12/a20461ac-1cd4-4553-b74c-ee9378e79262_trans.jpeg\"/>",
+    "price": "11.76",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/quick/product/dfa89650-3f41-4fa7-af51-38fc5d73f799.jpg",
+    "supplier": "cj",
+    "supplier_name": null,
+    "supplier_id": "9999",
+    "supplier_product_id": "2606161202251636100",
+    "supplier_variant_id": "2606161202251636800",
+    "cj_product_id": "2606161202251636100",
+    "cj_variant_id": "2606161202251636800",
+    "cj_product_sku": "CJYD2937269",
+    "cj_variant_sku": "CJYD293726901AZ",
+    "supplier_cost": 1.91,
+    "shipping_cost": 2.99,
+    "estimated_profit": 6.86,
+    "margin_percent": 58.33,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "210.00",
+    "category_name": "Bags & Shoes > Women's Luggage & Bags > Totes",
+    "shipping_country": "GB",
+    "discovery_keyword": "travel accessory",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": 80,
+    "product_score_tier": "A",
+    "publish_ready": true,
+    "product_score_flags": [
+      "bulky_keyword"
+    ],
+    "product_score_reasons": [
+      "acceptable_profit",
+      "strong_margin",
+      "safe_price_range",
+      "lightweight",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-30T13:26:58.485269+00:00",
+    "listing_draft_ready": true,
+    "listing_draft_created_at": "2026-06-30T13:26:58.743347+00:00",
+    "marketplace_optimized": true,
+    "marketplace_optimized_at": "2026-06-30T13:26:58.872927+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
+  },
+  "CJHC293680101AZ": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-30T13:26:45.917467+00:00",
+    "title": "Pink Aviation Enclosed Cat Litter Box With Handle, Spacious Anti Tracking Cat Toilet, Ideal Choice For Indoor Cats And Travel",
+    "description": "\n <p> Unique Airline Box Design: Stylish pet carrier-inspired look with a top handle, combining functionality with modern home decor. Anti-Splashing Enclosed Structure: High-sided and enclosed design prevents litter scatter and keeps odors contained, keeping your home clean. Ventilated &amp; Spacious: Side ventilation holes ensure fresh air circulation, while the large interior provides enough room for cats to move comfortably. Easy to Clean &amp; Assemble: Detachable design allows for quick disassembly, making cleaning and litter changes a breeze. Sturdy &amp; Durable: Made of high-quality, non-toxic plastic that is odor-resistant and built to last for long-term use.</p>\n <p>Expanded dimensions: 50*32*31.5<img src=\"https://cf.cjdropshipping.com/0c3a5017-eb41-40fb-840b-f2ab422fc314.png\" contenteditable=\"false\" style=\"font-size: 13px; max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/800481fe-1528-439f-b8d0-908829273d16.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/6472b3c4-8bc1-4bf6-b5e8-3633368e1f58.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/71de2933-9ce6-4004-b08a-5229606d7f89.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "price": "63.24",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/a0dee254-d8f0-4de6-adff-a2aa2930ef30.png",
+    "supplier": "cj",
+    "supplier_name": "jiujiu2",
+    "supplier_id": "1866737082005987328",
+    "supplier_product_id": "2066806393133748226",
+    "supplier_variant_id": "2066806393314103297",
+    "cj_product_id": "2066806393133748226",
+    "cj_variant_id": "2066806393314103297",
+    "cj_product_sku": "CJHC2936801",
+    "cj_variant_sku": "CJHC293680101AZ",
+    "supplier_cost": 26.35,
+    "shipping_cost": 2.99,
+    "estimated_profit": 33.9,
+    "margin_percent": 53.61,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "3000",
+    "category_name": "Pet Supplies / Pet Furnitures / Pet Houses & Cages",
+    "shipping_country": "GB",
+    "discovery_keyword": "travel accessory",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": -10,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "safe_price_range",
+      "medium_weight",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-30T13:26:58.485269+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
+  },
+  "CJHC293682101AZ": {
+    "status": "cj_discovered_ready_for_listing",
+    "source": "cj_product_discovery",
+    "created_at": "2026-06-30T13:26:47.589662+00:00",
+    "title": "White Aviation Enclosed Cat Litter Box With Handle, Spacious Anti Tracking Cat Toilet, Ideal Choice For Indoor Cats And Travel",
+    "description": "\n <p> Unique Airline Box Design: Stylish pet carrier-inspired look with a top handle, combining functionality with modern home decor. Anti-Splashing Enclosed Structure: High-sided and enclosed design prevents litter scatter and keeps odors contained, keeping your home clean. Ventilated &amp; Spacious: Side ventilation holes ensure fresh air circulation, while the large interior provides enough room for cats to move comfortably. Easy to Clean &amp; Assemble: Detachable design allows for quick disassembly, making cleaning and litter changes a breeze. Sturdy &amp; Durable: Made of high-quality, non-toxic plastic that is odor-resistant and built to last for long-term use.</p>\n <p>Expanded dimensions: 50*32*31.5<img src=\"https://cf.cjdropshipping.com/cee7bc7f-3636-4f83-8ac1-db3cc859697f.png\" contenteditable=\"false\" style=\"font-size: 13px; max-width: 100%;\"><img src=\"https://cf.cjdropshipping.com/3d567a64-57eb-4d4e-a1d2-52d28768cbc1.png\" style=\"max-width:100%;\" contenteditable=\"false\"><img src=\"https://cf.cjdropshipping.com/b44b1d90-cd00-4432-905e-acba4c6ea87e.png\" style=\"max-width:100%;\" contenteditable=\"false\"></p>\n",
+    "price": "63.24",
+    "currency": "GBP",
+    "image": "https://cf.cjdropshipping.com/f91ce84d-0f42-4238-85a4-b4f6020c8234.png",
+    "supplier": "cj",
+    "supplier_name": "jiujiu2",
+    "supplier_id": "1866737082005987328",
+    "supplier_product_id": "2066808176295956481",
+    "supplier_variant_id": "2066808176497283073",
+    "cj_product_id": "2066808176295956481",
+    "cj_variant_id": "2066808176497283073",
+    "cj_product_sku": "CJHC2936821",
+    "cj_variant_sku": "CJHC293682101AZ",
+    "supplier_cost": 26.35,
+    "shipping_cost": 2.99,
+    "estimated_profit": 33.9,
+    "margin_percent": 53.61,
+    "profitable": true,
+    "inventory_supplier": null,
+    "product_weight": "3000",
+    "category_name": "Pet Supplies / Pet Furnitures / Pet Houses & Cages",
+    "shipping_country": "GB",
+    "discovery_keyword": "travel accessory",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "product_score": -10,
+    "product_score_tier": "D",
+    "publish_ready": false,
+    "product_score_flags": [
+      "bulky_keyword",
+      "blocked_risk_word"
+    ],
+    "product_score_reasons": [
+      "high_profit",
+      "strong_margin",
+      "safe_price_range",
+      "medium_weight",
+      "good_product_type",
+      "real_cj_mapping"
+    ],
+    "product_scored_at": "2026-06-30T13:26:58.485269+00:00",
+    "sku_master_enriched_at": "2026-06-30T13:30:00.406785+00:00"
   }
 }

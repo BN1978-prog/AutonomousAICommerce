@@ -1,18 +1,18 @@
 {
-  "created_at": "2026-06-29T21:55:20.286412+00:00",
+  "created_at": "2026-06-30T13:26:48.099114+00:00",
   "status": "CJ_DISCOVERY_IMPORT_COMPLETED",
   "keyword": "multi_keyword",
   "searches": [
     {
       "keyword": "home organizer",
       "status_code": 200,
-      "total": 993,
+      "total": 994,
       "returned": 20
     },
     {
       "keyword": "kitchen gadget",
       "status_code": 200,
-      "total": 1060,
+      "total": 1063,
       "returned": 20
     },
     {
@@ -24,25 +24,25 @@
     {
       "keyword": "phone holder",
       "status_code": 200,
-      "total": 664,
+      "total": 665,
       "returned": 20
     },
     {
       "keyword": "desk organizer",
       "status_code": 200,
-      "total": 914,
+      "total": 916,
       "returned": 20
     },
     {
       "keyword": "car organizer",
       "status_code": 200,
-      "total": 1359,
+      "total": 1360,
       "returned": 20
     },
     {
       "keyword": "fitness accessory",
       "status_code": 200,
-      "total": 182,
+      "total": 183,
       "returned": 20
     },
     {
@@ -54,13 +54,13 @@
     {
       "keyword": "bathroom storage",
       "status_code": 200,
-      "total": 3373,
+      "total": 3372,
       "returned": 20
     },
     {
       "keyword": "led night light",
       "status_code": 200,
-      "total": 15885,
+      "total": 15912,
       "returned": 20
     },
     {
@@ -72,103 +72,131 @@
     {
       "keyword": "laptop stand",
       "status_code": 200,
-      "total": 917,
+      "total": 918,
       "returned": 20
     },
     {
       "keyword": "cable organizer",
       "status_code": 200,
-      "total": 544,
+      "total": 546,
       "returned": 20
     },
     {
       "keyword": "water bottle",
       "status_code": 200,
-      "total": 1022,
+      "total": 1023,
       "returned": 20
     },
     {
       "keyword": "cleaning brush",
       "status_code": 200,
-      "total": 919,
+      "total": 920,
       "returned": 20
     },
     {
       "keyword": "garden tool",
       "status_code": 200,
-      "total": 2747,
+      "total": 2744,
       "returned": 20
     },
     {
       "keyword": "camping accessory",
       "status_code": 200,
-      "total": 558,
+      "total": 559,
       "returned": 20
     },
     {
       "keyword": "pet accessory",
       "status_code": 200,
-      "total": 3700,
+      "total": 3701,
       "returned": 20
     }
   ],
   "search_status_code": 200,
-  "cj_total_found": 3700,
+  "cj_total_found": 3701,
   "imported": 5,
-  "skipped_count": 27,
+  "skipped_count": 45,
   "imported_rows": [
     {
-      "sku": "CJFU293249701AZ",
-      "pid": "2065633914713067521",
-      "vid": "2065633915057000449",
-      "title": "5 Tier Wood Top Shoe Rack, Industrial Storage For Entryway, Small Space Shoe Organizer",
-      "supplier_cost": 33.47,
-      "sale_price": 87.5,
-      "estimated_profit": 51.04,
+      "sku": "CJCJ296028001AZ",
+      "pid": "2071774535708209153",
+      "vid": "2071774536144416769",
+      "title": "Manual Slow Cooker, Easy To Use Program-Free Kitchen Appliance, Great For Pot Roast And Chili",
+      "supplier_cost": 35.16,
+      "sale_price": 84.38,
+      "estimated_profit": 49.22,
       "margin_percent": 58.33
     },
     {
-      "sku": "CJLY295978401AZ",
-      "pid": "2071508430477488130",
-      "vid": "2071508432763383809",
-      "title": "Aluminum Camping Kitchen, Portable Folding Camping Table With Fabric Cupboards, Windshield, Bag For BBQ, Picnic, Black",
-      "supplier_cost": 91.03,
-      "sale_price": 218.47,
-      "estimated_profit": 127.44,
+      "sku": "CJFU296024401AZ",
+      "pid": "2071768702531964929",
+      "vid": "2071768702989144066",
+      "title": "Kitchen Cart With Storage And Drop Leaf Tabletop, Rolling Island On Wheels For Extra Workspace",
+      "supplier_cost": 102.09,
+      "sale_price": 245.02,
+      "estimated_profit": 142.93,
       "margin_percent": 58.33
     },
     {
-      "sku": "CJFU295981701AZ",
-      "pid": "2071513811231543298",
-      "vid": "2071513811395121153",
-      "title": "71inch Tall Kitchen Pantry Cabinet With 3 Pull Out Cabinet Organizers, Farmhouse Embossed Texture Storage Cabinet With 6 Door Shelves, 2 Dra",
-      "supplier_cost": 289.12,
-      "sale_price": 693.89,
-      "estimated_profit": 404.77,
+      "sku": "CJYD293726901AZ",
+      "pid": "2606161202251636100",
+      "vid": "2606161202251636800",
+      "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+      "supplier_cost": 1.91,
+      "sale_price": 11.76,
+      "estimated_profit": 6.86,
       "margin_percent": 58.33
     },
     {
-      "sku": "CJFU29345140001",
-      "pid": "2066364912671162369",
-      "vid": "2066364913728126978",
-      "title": "Bar Stools Kitchen Island Bar Chairs Set Of 3 Metal Counter Barstools With Backrest For Dining Pub Room Black & White",
-      "supplier_cost": 84.06,
-      "sale_price": 201.74,
-      "estimated_profit": 117.68,
+      "sku": "CJHC293680101AZ",
+      "pid": "2066806393133748226",
+      "vid": "2066806393314103297",
+      "title": "Pink Aviation Enclosed Cat Litter Box With Handle, Spacious Anti Tracking Cat Toilet, Ideal Choice For Indoor Cats And Travel",
+      "supplier_cost": 26.35,
+      "sale_price": 63.24,
+      "estimated_profit": 36.89,
       "margin_percent": 58.33
     },
     {
-      "sku": "CJCF293266401AZ",
-      "pid": "2065678962116030465",
-      "vid": "2065678962300579841",
-      "title": "Set Of 2 Classic Solid Wood Kitchen Shelves Sturdy Top Shelf With Curved Slots Space-Saving Countertop Organizer",
-      "supplier_cost": 22.88,
-      "sale_price": 54.91,
-      "estimated_profit": 32.03,
+      "sku": "CJHC293682101AZ",
+      "pid": "2066808176295956481",
+      "vid": "2066808176497283073",
+      "title": "White Aviation Enclosed Cat Litter Box With Handle, Spacious Anti Tracking Cat Toilet, Ideal Choice For Indoor Cats And Travel",
+      "supplier_cost": 26.35,
+      "sale_price": 63.24,
+      "estimated_profit": 36.89,
       "margin_percent": 58.33
     }
   ],
   "skipped": [
+    {
+      "pid": "2071855533582086146",
+      "reason": "country_not_supported",
+      "countries": [
+        "DE"
+      ]
+    },
+    {
+      "pid": "2071556425730789377",
+      "reason": "country_not_supported",
+      "countries": [
+        "DE"
+      ]
+    },
+    {
+      "pid": "2071556136046587905",
+      "reason": "country_not_supported",
+      "countries": [
+        "DE"
+      ]
+    },
+    {
+      "pid": "2071565706724683777",
+      "reason": "country_not_supported",
+      "countries": [
+        "DE"
+      ]
+    },
     {
       "pid": "2070867308961509377",
       "reason": "country_not_supported",
@@ -206,8 +234,9 @@
       "title": "360 Rotating Desktop Book Stand Tablet Holder   Adjustable Reading Rest For Books, IPad  Tablets, Perfect For Students"
     },
     {
+      "sku": "CJQC294920701AZ",
       "pid": "2068707769347735553",
-      "reason": "no_variant"
+      "reason": "already_exists"
     },
     {
       "pid": "2067853441615527937",
@@ -245,13 +274,14 @@
       ]
     },
     {
-      "sku": "CJSB293675201AZ",
-      "pid": "2066800029532536834",
+      "sku": "CJZS293677701AZ",
+      "pid": "2066802512874065921",
       "reason": "already_exists"
     },
     {
-      "pid": "2066802512874065921",
-      "reason": "no_variant"
+      "sku": "CJSB293675201AZ",
+      "pid": "2066800029532536834",
+      "reason": "already_exists"
     },
     {
       "sku": "CJFU293646401AZ",
@@ -259,26 +289,19 @@
       "reason": "already_exists"
     },
     {
+      "sku": "CJZS293678201AZ",
       "pid": "2066803201852424194",
-      "reason": "no_variant"
+      "reason": "already_exists"
     },
     {
-      "sku": "CJFU293656501AZ",
-      "pid": "2066783739650805761",
-      "reason": "blacklisted_detail",
-      "title": "Solid Wood Writing Desk, Home Office Desk For Small Spaces, Mid Century Modern Desks With 2 Drawers & Storage Shelf, Standing Desk With Side"
+      "sku": "CJLY295978401AZ",
+      "pid": "2071508430477488130",
+      "reason": "already_exists"
     },
     {
-      "pid": "2066787662815936513",
-      "reason": "low_relevance",
-      "keyword": "home organizer",
-      "title": "Tool Cart On Wheels, Heavy Duty Steel Utility Cart W-Lockable Wheels, 400 LBS Capacity Industrial Service Cart For Garage, Warehouse, Workshop  Two-layer Bright"
-    },
-    {
-      "sku": "CJJD293661101AZ",
-      "pid": "2066788643217719298",
-      "reason": "blacklisted_detail",
-      "title": "US Standard RTW-GR36 Tower Fan, 110V 45W, 36 Inch, Column Shape, White Plastic Body, Copper Motor, Touch & Remote Control, 3 Speeds, 3 Modes"
+      "sku": "CJFU295981701AZ",
+      "pid": "2071513811231543298",
+      "reason": "already_exists"
     },
     {
       "pid": "2071090540246052866",
@@ -303,6 +326,11 @@
       "title": "12Pcs Kitchen Pots Stainless Steel Golden Handle Smoothing Sturdy Easy To Clean Cookware Set For Home Cooking"
     },
     {
+      "sku": "CJFU29345140001",
+      "pid": "2066364912671162369",
+      "reason": "already_exists"
+    },
+    {
       "sku": "CJFU29345100001",
       "pid": "2066364669569032193",
       "reason": "blacklisted_detail",
@@ -318,12 +346,6 @@
       "pid": "2066073440780312578",
       "reason": "blacklisted_title",
       "title": "Butane Free-2-in-1 Fidget Spinner Gun Lighter Foldable Transformer Metal Lighter Red Laser Windproof Novelty EDC Gadget Gift For Men"
-    },
-    {
-      "pid": "2065688445631123458",
-      "reason": "low_relevance",
-      "keyword": "kitchen gadget",
-      "title": "1Set Heated Ice Cream Scoop Rechargeable Electric Ice Cream Scooper IP66 Waterproof 45S Fast Heating  5Min Auto Shutoff For Hard Ice Cream Gelato Yogurt"
     }
   ]
 }

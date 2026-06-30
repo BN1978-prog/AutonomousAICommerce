@@ -1,0 +1,1127 @@
+{
+  "created_at": "2026-06-29T20:30:52.316671+00:00",
+  "steps_count": 71,
+  "steps": [
+    {
+      "order": 1,
+      "step": "railway_health_check",
+      "command": "python -m app.railway_health_check",
+      "file": "app/railway_health_check.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 2,
+      "step": "token_manager",
+      "command": "python -m app.token_manager",
+      "file": "app/token_manager.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/token_manager_status.json"
+      ],
+      "env": [
+        "EBAY_CLIENT_ID",
+        "EBAY_CLIENT_SECRET",
+        "EBAY_REFRESH_TOKEN",
+        "GOOGLE_ADS_CLIENT_ID",
+        "GOOGLE_ADS_CLIENT_SECRET",
+        "GOOGLE_ADS_REFRESH_TOKEN",
+        "META_ACCESS_TOKEN",
+        "META_APP_ID",
+        "META_APP_SECRET",
+        "SHOPIFY_ACCESS_TOKEN",
+        "SHOPIFY_ADMIN_ACCESS_TOKEN",
+        "SHOPIFY_ADMIN_TOKEN",
+        "SHOPIFY_API_VERSION",
+        "SHOPIFY_SHOP",
+        "SHOPIFY_STORE_URL",
+        "WC_CONSUMER_KEY",
+        "WC_CONSUMER_SECRET",
+        "WC_STORE_URL",
+        "WOOCOMMERCE_CONSUMER_KEY",
+        "WOOCOMMERCE_CONSUMER_SECRET",
+        "WOOCOMMERCE_STORE_URL",
+        "WOO_CONSUMER_KEY",
+        "WOO_CONSUMER_SECRET",
+        "WOO_STORE_URL"
+      ],
+      "functions": [
+        "now",
+        "load_env",
+        "save_env_var",
+        "shop_domain",
+        "row"
+      ],
+      "classes": [],
+      "lines": 419
+    },
+    {
+      "order": 3,
+      "step": "refresh_ebay_token",
+      "command": "python -m app.refresh_ebay_token",
+      "file": "app/refresh_ebay_token.py",
+      "exists": true,
+      "reads_logs": [],
+      "env": [
+        "EBAY_CLIENT_ID",
+        "EBAY_CLIENT_SECRET",
+        "EBAY_REFRESH_TOKEN"
+      ],
+      "functions": [
+        "refresh_ebay_access_token"
+      ],
+      "classes": [],
+      "lines": 51
+    },
+    {
+      "order": 4,
+      "step": "google_ads_token_refresher",
+      "command": "python -m app.google_ads_token_refresher",
+      "file": "app/google_ads_token_refresher.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/google_ads_token_refresher.json"
+      ],
+      "env": [
+        "GOOGLE_ADS_CLIENT_ID",
+        "GOOGLE_ADS_CLIENT_SECRET",
+        "GOOGLE_ADS_REFRESH_TOKEN"
+      ],
+      "functions": [
+        "update_env"
+      ],
+      "classes": [],
+      "lines": 82
+    },
+    {
+      "order": 5,
+      "step": "meta_token_refresh",
+      "command": "python -m app.meta_token_refresh",
+      "file": "app/meta_token_refresh.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/meta_token_refresh.json"
+      ],
+      "env": [],
+      "functions": [
+        "env_text",
+        "env_get",
+        "env_set"
+      ],
+      "classes": [],
+      "lines": 126
+    },
+    {
+      "order": 6,
+      "step": "meta_page_token_refresh",
+      "command": "python -m app.meta_page_token_refresh",
+      "file": "app/meta_page_token_refresh.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/meta_page_token_refresh.json"
+      ],
+      "env": [
+        "META_ACCESS_TOKEN",
+        "META_PAGE_ID"
+      ],
+      "functions": [],
+      "classes": [],
+      "lines": 66
+    },
+    {
+      "order": 7,
+      "step": "amazon_token_refresher",
+      "command": "python -m app.amazon_token_refresher",
+      "file": "app/amazon_token_refresher.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/amazon_token_refresher.json"
+      ],
+      "env": [
+        "AMAZON_LWA_CLIENT_ID",
+        "AMAZON_LWA_CLIENT_SECRET",
+        "AMAZON_REFRESH_TOKEN"
+      ],
+      "functions": [
+        "update_env"
+      ],
+      "classes": [],
+      "lines": 82
+    },
+    {
+      "order": 8,
+      "step": "shopify_crm_events",
+      "command": "python -m app.shopify_crm_events",
+      "file": "app/shopify_crm_events.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/shopify_crm_events.json"
+      ],
+      "env": [
+        "SHOPIFY_ACCESS_TOKEN",
+        "SHOPIFY_ADMIN_TOKEN",
+        "SHOPIFY_API_VERSION",
+        "SHOPIFY_SHOP_DOMAIN",
+        "SHOPIFY_STORE_URL"
+      ],
+      "functions": [],
+      "classes": [],
+      "lines": 83
+    },
+    {
+      "order": 9,
+      "step": "real_sales_collector",
+      "command": "python -m app.real_sales_collector",
+      "file": "app/real_sales_collector.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/imported_skus.json",
+        "app/logs/real_sales_report.json"
+      ],
+      "env": [
+        "EBAY_ACCESS_TOKEN",
+        "EBAY_API_BASE",
+        "EBAY_OAUTH_TOKEN",
+        "EBAY_USER_TOKEN",
+        "SHOPIFY_ACCESS_TOKEN",
+        "SHOPIFY_ADMIN_TOKEN",
+        "SHOPIFY_API_VERSION",
+        "SHOPIFY_STORE_URL",
+        "WC_CONSUMER_KEY",
+        "WC_CONSUMER_SECRET",
+        "WC_STORE_URL",
+        "WOOCOMMERCE_CONSUMER_KEY",
+        "WOOCOMMERCE_CONSUMER_SECRET",
+        "WOOCOMMERCE_STORE_URL",
+        "WOO_CONSUMER_KEY",
+        "WOO_CONSUMER_SECRET",
+        "WOO_STORE_URL"
+      ],
+      "functions": [
+        "load_env",
+        "norm_shop",
+        "add_sale"
+      ],
+      "classes": [],
+      "lines": 201
+    },
+    {
+      "order": 10,
+      "step": "cj_paid_order_fulfillment",
+      "command": "python -m app.cj_paid_order_fulfillment",
+      "file": "app/cj_paid_order_fulfillment.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 11,
+      "step": "crm_personalized_drafts",
+      "command": "python -m app.crm_personalized_drafts",
+      "file": "app/crm_personalized_drafts.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/crm_personalized_drafts.json",
+        "app/logs/shopify_crm_events.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 52
+    },
+    {
+      "order": 12,
+      "step": "crm_readiness_summary",
+      "command": "python -m app.crm_readiness_summary",
+      "file": "app/crm_readiness_summary.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/crm_channel_readiness.json",
+        "app/logs/crm_health_check.json",
+        "app/logs/crm_queue.json",
+        "app/logs/crm_readiness_summary.json",
+        "app/logs/crm_send_guard.json",
+        "app/logs/smtp_config_validator.json"
+      ],
+      "env": [],
+      "functions": [
+        "read_json"
+      ],
+      "classes": [],
+      "lines": 38
+    },
+    {
+      "order": 13,
+      "step": "etsy_connection_status",
+      "command": "python -m app.etsy_connection_status",
+      "file": "app/etsy_connection_status.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/etsy_connection_status.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 51
+    },
+    {
+      "order": 14,
+      "step": "etsy_autopilot",
+      "command": "python -m app.etsy_autopilot",
+      "file": "app/etsy_autopilot.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/etsy_autopilot.json"
+      ],
+      "env": [
+        "ETSY_ACCESS_TOKEN"
+      ],
+      "functions": [],
+      "classes": [],
+      "lines": 27
+    },
+    {
+      "order": 15,
+      "step": "real_trend_discovery",
+      "command": "python -m app.real_trend_discovery",
+      "file": "app/real_trend_discovery.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 16,
+      "step": "autonomous_trend_filter",
+      "command": "python -m app.autonomous_trend_filter",
+      "file": "app/autonomous_trend_filter.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 17,
+      "step": "exploration_engine_v2",
+      "command": "python -m app.exploration_engine_v2",
+      "file": "app/exploration_engine_v2.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/exploration_v2.json",
+        "app/logs/product_performance.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 94
+    },
+    {
+      "order": 18,
+      "step": "build_priority_queue",
+      "command": "python -m app.build_priority_queue",
+      "file": "app/build_priority_queue.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/autopilot_priority_queue.json",
+        "app/logs/exploration_v2.json",
+        "app/logs/product_performance.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 30
+    },
+    {
+      "order": 19,
+      "step": "publish_execution_plan",
+      "command": "python -m app.publish_execution_plan",
+      "file": "app/publish_execution_plan.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/autopilot_priority_queue.json",
+        "app/logs/publish_execution_plan.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 36
+    },
+    {
+      "order": 20,
+      "step": "trend_listing_validator",
+      "command": "python -m app.trend_listing_validator",
+      "file": "app/trend_listing_validator.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 21,
+      "step": "cj_trend_bridge",
+      "command": "python -m app.cj_trend_bridge",
+      "file": "app/cj_trend_bridge.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 22,
+      "step": "supplier_candidate_filter",
+      "command": "python app/filter_supplier_candidates.py",
+      "file": "app/filter_supplier_candidates.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 23,
+      "step": "seo_product_optimizer",
+      "command": "python -m app.seo_product_optimizer",
+      "file": "app/seo_product_optimizer.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 24,
+      "step": "profit_checked_products",
+      "command": "python -m app.profit_checked_products",
+      "file": "app/profit_checked_products.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 25,
+      "step": "action_executor",
+      "command": "python -m app.action_executor",
+      "file": "app/action_executor.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/action_executor.json",
+        "app/logs/publish_execution_plan.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 47
+    },
+    {
+      "order": 26,
+      "step": "social_content_generator",
+      "command": "python -m app.social_content_generator",
+      "file": "app/social_content_generator.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/publish_execution_plan.json",
+        "app/logs/social_content_plan.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 36
+    },
+    {
+      "order": 27,
+      "step": "social_content_enhancer",
+      "command": "python -m app.social_content_enhancer",
+      "file": "app/social_content_enhancer.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/social_content_enhanced.json",
+        "app/logs/social_content_plan.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 76
+    },
+    {
+      "order": 28,
+      "step": "auto_publish_or_fallback",
+      "command": "python -m app.auto_publish_or_fallback",
+      "file": "app/auto_publish_or_fallback.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/auto_publish_or_fallback_result.json",
+        "app/logs/published_posts.json"
+      ],
+      "env": [
+        "META_PAGE_ACCESS_TOKEN",
+        "META_PAGE_ID"
+      ],
+      "functions": [],
+      "classes": [],
+      "lines": 93
+    },
+    {
+      "order": 29,
+      "step": "meta_ad_drafts_from_content",
+      "command": "python -m app.meta_ad_drafts_from_content",
+      "file": "app/meta_ad_drafts_from_content.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/meta_ad_drafts_from_content.json",
+        "app/logs/social_content_enhanced.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 32
+    },
+    {
+      "order": 30,
+      "step": "google_ad_drafts_from_content",
+      "command": "python -m app.google_ad_drafts_from_content",
+      "file": "app/google_ad_drafts_from_content.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/google_ad_drafts_from_content.json",
+        "app/logs/social_content_enhanced.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 39
+    },
+    {
+      "order": 31,
+      "step": "campaign_hub",
+      "command": "python -m app.campaign_hub",
+      "file": "app/campaign_hub.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/campaign_hub.json",
+        "app/logs/google_ad_drafts_from_content.json",
+        "app/logs/meta_ad_drafts_from_content.json",
+        "app/logs/social_content_enhanced.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 47
+    },
+    {
+      "order": 32,
+      "step": "campaign_approval_queue",
+      "command": "python -m app.campaign_approval_queue",
+      "file": "app/campaign_approval_queue.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/campaign_approval_queue.json",
+        "app/logs/campaign_hub.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 36
+    },
+    {
+      "order": 33,
+      "step": "system_status_report",
+      "command": "python -m app.system_status_report",
+      "file": "app/system_status_report.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/action_executor.json",
+        "app/logs/amazon_connection_status.json",
+        "app/logs/autopilot_priority_queue.json",
+        "app/logs/autopilot_run.json",
+        "app/logs/crm_readiness_summary.json",
+        "app/logs/etsy_autopilot.json",
+        "app/logs/etsy_connection_status.json",
+        "app/logs/google_campaign_live_creator.json",
+        "app/logs/master_system_health.json",
+        "app/logs/meta_launch_readiness.json"
+      ],
+      "env": [],
+      "functions": [
+        "read_json"
+      ],
+      "classes": [],
+      "lines": 94
+    },
+    {
+      "order": 34,
+      "step": "daily_summary",
+      "command": "python -m app.daily_summary",
+      "file": "app/daily_summary.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/autopilot_priority_queue.json",
+        "app/logs/autopilot_run.json",
+        "app/logs/product_performance.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 49
+    },
+    {
+      "order": 35,
+      "step": "auto_scaling_score",
+      "command": "python -m app.auto_scaling_score",
+      "file": "app/auto_scaling_score.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/auto_scaling_score.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 75
+    },
+    {
+      "order": 36,
+      "step": "product_guardrails",
+      "command": "python -m app.product_guardrails",
+      "file": "app/product_guardrails.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/product_guardrails.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 55
+    },
+    {
+      "order": 37,
+      "step": "roi_simulation",
+      "command": "python -m app.roi_simulation",
+      "file": "app/roi_simulation.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/auto_scaling_score.json",
+        "app/logs/roi_simulation.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 77
+    },
+    {
+      "order": 38,
+      "step": "ceo_dashboard",
+      "command": "python -m app.ceo_dashboard",
+      "file": "app/ceo_dashboard.py",
+      "exists": true,
+      "reads_logs": [],
+      "env": [],
+      "functions": [
+        "load"
+      ],
+      "classes": [],
+      "lines": 72
+    },
+    {
+      "order": 39,
+      "step": "auto_launch_engine",
+      "command": "python -m app.auto_launch_engine",
+      "file": "app/auto_launch_engine.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/auto_launch_decisions.json",
+        "app/logs/roi_simulation.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 43
+    },
+    {
+      "order": 40,
+      "step": "auto_spend_executor",
+      "command": "python -m app.auto_spend_executor",
+      "file": "app/auto_spend_executor.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/auto_launch_decisions.json",
+        "app/logs/auto_spend_executor.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 51
+    },
+    {
+      "order": 41,
+      "step": "spend_history_tracker",
+      "command": "python -m app.spend_history_tracker",
+      "file": "app/spend_history_tracker.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/auto_spend_executor.json",
+        "app/logs/spend_history_tracker.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 57
+    },
+    {
+      "order": 42,
+      "step": "negative_roi_auto_pause",
+      "command": "python -m app.negative_roi_auto_pause",
+      "file": "app/negative_roi_auto_pause.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/negative_roi_auto_pause.json",
+        "app/logs/spend_history_tracker.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 32
+    },
+    {
+      "order": 43,
+      "step": "hourly_budget_monitor",
+      "command": "python -m app.hourly_budget_monitor",
+      "file": "app/hourly_budget_monitor.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/auto_spend_executor.json",
+        "app/logs/hourly_budget_monitor.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 35
+    },
+    {
+      "order": 44,
+      "step": "emergency_stop_validator",
+      "command": "python -m app.emergency_stop_validator",
+      "file": "app/emergency_stop_validator.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/auto_spend_executor.json",
+        "app/logs/emergency_stop_validator.json",
+        "app/logs/hourly_budget_monitor.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 30
+    },
+    {
+      "order": 45,
+      "step": "live_spend_permission_gate",
+      "command": "python -m app.live_spend_permission_gate",
+      "file": "app/live_spend_permission_gate.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/auto_spend_executor.json",
+        "app/logs/emergency_stop_validator.json",
+        "app/logs/live_spend_permission_gate.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 38
+    },
+    {
+      "order": 46,
+      "step": "live_backend_router",
+      "command": "python -m app.live_backend_router",
+      "file": "app/live_backend_router.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/live_backend_router.json",
+        "app/logs/live_spend_permission_gate.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 32
+    },
+    {
+      "order": 47,
+      "step": "meta_live_campaign_builder",
+      "command": "python -m app.meta_live_campaign_builder",
+      "file": "app/meta_live_campaign_builder.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/live_backend_router.json",
+        "app/logs/meta_live_campaign_payloads.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 38
+    },
+    {
+      "order": 48,
+      "step": "google_live_campaign_builder",
+      "command": "python -m app.google_live_campaign_builder",
+      "file": "app/google_live_campaign_builder.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/google_live_campaign_payloads.json",
+        "app/logs/live_backend_router.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 38
+    },
+    {
+      "order": 49,
+      "step": "live_campaign_registry",
+      "command": "python -m app.live_campaign_registry",
+      "file": "app/live_campaign_registry.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/google_live_campaign_payloads.json",
+        "app/logs/live_campaign_registry.json",
+        "app/logs/meta_live_campaign_payloads.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 49
+    },
+    {
+      "order": 50,
+      "step": "live_api_execution_gate",
+      "command": "python -m app.live_api_execution_gate",
+      "file": "app/live_api_execution_gate.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/live_api_execution_gate.json",
+        "app/logs/live_campaign_registry.json",
+        "app/logs/live_spend_permission_gate.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 44
+    },
+    {
+      "order": 51,
+      "step": "live_execution_reporter",
+      "command": "python -m app.live_execution_reporter",
+      "file": "app/live_execution_reporter.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/live_api_execution_gate.json",
+        "app/logs/live_execution_report.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 50
+    },
+    {
+      "order": 52,
+      "step": "live_mode_final_lock",
+      "command": "python -m app.live_mode_final_lock",
+      "file": "app/live_mode_final_lock.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/live_execution_report.json",
+        "app/logs/live_mode_final_lock.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 33
+    },
+    {
+      "order": 53,
+      "step": "meta_long_lived_token",
+      "command": "python -m app.meta_long_lived_token",
+      "file": "app/meta_long_lived_token.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 54,
+      "step": "meta_live_executor",
+      "command": "python -m app.meta_live_executor",
+      "file": "app/meta_live_executor.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/live_mode_final_lock.json",
+        "app/logs/meta_live_campaign_payloads.json",
+        "app/logs/meta_live_execution_result.json"
+      ],
+      "env": [
+        "META_ACCESS_TOKEN",
+        "META_AD_ACCOUNT_ID",
+        "META_API_VERSION"
+      ],
+      "functions": [],
+      "classes": [],
+      "lines": 90
+    },
+    {
+      "order": 55,
+      "step": "google_live_executor",
+      "command": "python -m app.google_live_executor",
+      "file": "app/google_live_executor.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/google_live_campaign_payloads.json",
+        "app/logs/google_live_execution_result.json",
+        "app/logs/live_mode_final_lock.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 66
+    },
+    {
+      "order": 56,
+      "step": "live_execution_consolidator",
+      "command": "python -m app.live_execution_consolidator",
+      "file": "app/live_execution_consolidator.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/google_live_execution_result.json",
+        "app/logs/live_execution_consolidated.json",
+        "app/logs/meta_live_execution_result.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 51
+    },
+    {
+      "order": 57,
+      "step": "live_spend_audit_ledger",
+      "command": "python -m app.live_spend_audit_ledger",
+      "file": "app/live_spend_audit_ledger.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/live_execution_consolidated.json",
+        "app/logs/live_spend_audit_ledger.jsonl"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 29
+    },
+    {
+      "order": 58,
+      "step": "live_spend_audit_reader",
+      "command": "python -m app.live_spend_audit_reader",
+      "file": "app/live_spend_audit_reader.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/live_spend_audit_ledger.jsonl"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 22
+    },
+    {
+      "order": 59,
+      "step": "send_daily_summary",
+      "command": "python -m app.send_daily_summary",
+      "file": "app/send_daily_summary.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/send_daily_summary.json"
+      ],
+      "env": [
+        "OWNER_EMAIL",
+        "SMTP_FROM_EMAIL",
+        "SMTP_HOST",
+        "SMTP_PASSWORD",
+        "SMTP_PORT",
+        "SMTP_USER"
+      ],
+      "functions": [],
+      "classes": [],
+      "lines": 58
+    },
+    {
+      "order": 60,
+      "step": "send_telegram_summary",
+      "command": "python -m app.send_telegram_summary",
+      "file": "app/send_telegram_summary.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/send_telegram_summary.json"
+      ],
+      "env": [
+        "TELEGRAM_BOT_TOKEN",
+        "TELEGRAM_CHAT_ID"
+      ],
+      "functions": [],
+      "classes": [],
+      "lines": 60
+    },
+    {
+      "order": 61,
+      "step": "customer_fulfillment_support_status",
+      "command": "python -m app.customer_fulfillment_support_status",
+      "file": "app/customer_fulfillment_support_status.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 62,
+      "step": "env_backup_sync",
+      "command": "powershell Copy-Item .env .env.backup -Force",
+      "file": null,
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 63,
+      "step": "env_channel_recovery",
+      "command": "python -m app.env_channel_recovery",
+      "file": "app/env_channel_recovery.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 64,
+      "step": "refresh_shopify_token",
+      "command": "python -m app.refresh_shopify_token",
+      "file": "app/refresh_shopify_token.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/shopify_token_refresh.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 121
+    },
+    {
+      "order": 65,
+      "step": "railway_env_sync",
+      "command": "python -m app.railway_env_sync",
+      "file": "app/railway_env_sync.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 66,
+      "step": "listing_publish_execution_plan_real",
+      "command": "python -m app.listing_publish_execution_plan_real",
+      "file": "app/listing_publish_execution_plan_real.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 67,
+      "step": "marketplace_listing_publisher",
+      "command": "python -m app.marketplace_listing_publisher",
+      "file": "app/marketplace_listing_publisher.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 68,
+      "step": "draft_listing_activation_plan",
+      "command": "python -m app.draft_listing_activation_plan",
+      "file": "app/draft_listing_activation_plan.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 69,
+      "step": "draft_listing_activator",
+      "command": "python -m app.draft_listing_activator",
+      "file": "app/draft_listing_activator.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 70,
+      "step": "marketplace_order_autobuy",
+      "command": "python -m app.marketplace_order_autobuy",
+      "file": "app/marketplace_order_autobuy.py",
+      "exists": false,
+      "reads_logs": [],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": null
+    },
+    {
+      "order": 71,
+      "step": "autonomous_fulfillment_status",
+      "command": "python -m app.autonomous_fulfillment_status",
+      "file": "app/autonomous_fulfillment_status.py",
+      "exists": true,
+      "reads_logs": [
+        "app/logs/autonomous_fulfillment_status.json",
+        "app/logs/autonomy_limits.json",
+        "app/logs/supplier_purchase_queue.json"
+      ],
+      "env": [],
+      "functions": [],
+      "classes": [],
+      "lines": 41
+    }
+  ]
+}

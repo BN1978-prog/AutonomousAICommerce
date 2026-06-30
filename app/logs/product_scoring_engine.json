@@ -1,14 +1,14 @@
 {
-  "created_at": "2026-06-29T21:59:51.423972+00:00",
+  "created_at": "2026-06-30T13:26:58.485269+00:00",
   "status": "PRODUCT_SCORING_COMPLETED",
-  "total": 67,
-  "updated": 67,
-  "publish_ready": 1,
+  "total": 82,
+  "updated": 82,
+  "publish_ready": 5,
   "tier_counts": {
-    "A": 1,
-    "B": 0,
+    "A": 4,
+    "B": 1,
     "C": 4,
-    "D": 62
+    "D": 73
   },
   "top_products": [
     {
@@ -33,6 +33,96 @@
       "estimated_profit": 27.71,
       "margin_percent": 58.34,
       "weight": 370.0
+    },
+    {
+      "sku": "CJNS295299502BY",
+      "score": 85,
+      "tier": "A",
+      "publish_ready": true,
+      "reasons": [
+        "high_profit",
+        "strong_margin",
+        "safe_price_range",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "bulky_keyword"
+      ],
+      "price": 90.5,
+      "supplier_cost": 37.71,
+      "shipping_cost": 2.99,
+      "estimated_profit": 49.8,
+      "margin_percent": 55.03,
+      "weight": 0.0
+    },
+    {
+      "sku": "CJTD295796801AZ",
+      "score": 80,
+      "tier": "A",
+      "publish_ready": true,
+      "reasons": [
+        "acceptable_profit",
+        "strong_margin",
+        "safe_price_range",
+        "lightweight",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "bulky_keyword"
+      ],
+      "price": 16.78,
+      "supplier_cost": 4.0,
+      "shipping_cost": 2.99,
+      "estimated_profit": 9.79,
+      "margin_percent": 58.34,
+      "weight": 200.0
+    },
+    {
+      "sku": "CJYD293726901AZ",
+      "score": 80,
+      "tier": "A",
+      "publish_ready": true,
+      "reasons": [
+        "acceptable_profit",
+        "strong_margin",
+        "safe_price_range",
+        "lightweight",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "bulky_keyword"
+      ],
+      "price": 11.76,
+      "supplier_cost": 1.91,
+      "shipping_cost": 2.99,
+      "estimated_profit": 6.86,
+      "margin_percent": 58.33,
+      "weight": 210.0
+    },
+    {
+      "sku": "CJQQ294934201AZ",
+      "score": 65,
+      "tier": "B",
+      "publish_ready": true,
+      "reasons": [
+        "acceptable_profit",
+        "strong_margin",
+        "safe_price_range",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "bulky_keyword"
+      ],
+      "price": 11.98,
+      "supplier_cost": 2.0,
+      "shipping_cost": 2.99,
+      "estimated_profit": 6.99,
+      "margin_percent": 58.35,
+      "weight": 0.0
     },
     {
       "sku": "CJMY1174239",
@@ -322,9 +412,9 @@
       ],
       "price": 218.47,
       "supplier_cost": 91.03,
-      "shipping_cost": 0.0,
-      "estimated_profit": 127.44,
-      "margin_percent": 58.33,
+      "shipping_cost": 2.99,
+      "estimated_profit": 124.45,
+      "margin_percent": 56.96,
       "weight": 13000.0
     },
     {
@@ -346,266 +436,9 @@
       "estimated_profit": 5.45,
       "margin_percent": 41.96,
       "weight": 0.0
-    },
-    {
-      "sku": "CJMY1112786",
-      "score": 25,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "good_profit",
-        "strong_margin",
-        "safe_price_range"
-      ],
-      "flags": [
-        "bulky_keyword",
-        "missing_cj_mapping"
-      ],
-      "price": 32.99,
-      "supplier_cost": 11.55,
-      "shipping_cost": 2.99,
-      "estimated_profit": 18.45,
-      "margin_percent": 55.93,
-      "weight": 0.0
-    },
-    {
-      "sku": "CJJJCWGX00530",
-      "score": 25,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "acceptable_profit",
-        "acceptable_margin",
-        "safe_price_range"
-      ],
-      "flags": [
-        "missing_cj_mapping"
-      ],
-      "price": 12.99,
-      "supplier_cost": 4.55,
-      "shipping_cost": 2.99,
-      "estimated_profit": 5.45,
-      "margin_percent": 41.96,
-      "weight": 0.0
-    },
-    {
-      "sku": "CJYD1544909",
-      "score": 25,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "acceptable_profit",
-        "acceptable_margin",
-        "safe_price_range"
-      ],
-      "flags": [
-        "missing_cj_mapping"
-      ],
-      "price": 12.99,
-      "supplier_cost": 4.55,
-      "shipping_cost": 2.99,
-      "estimated_profit": 5.45,
-      "margin_percent": 41.96,
-      "weight": 0.0
-    },
-    {
-      "sku": "CJYD2164619",
-      "score": 25,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "acceptable_profit",
-        "acceptable_margin",
-        "safe_price_range"
-      ],
-      "flags": [
-        "missing_cj_mapping"
-      ],
-      "price": 13.99,
-      "supplier_cost": 4.9,
-      "shipping_cost": 2.99,
-      "estimated_profit": 6.1,
-      "margin_percent": 43.6,
-      "weight": 0.0
     }
   ],
   "blocked_or_low_score": [
-    {
-      "sku": "CJZS293677701AZ",
-      "score": -40,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "high_profit",
-        "strong_margin",
-        "medium_weight",
-        "good_product_type",
-        "real_cj_mapping"
-      ],
-      "flags": [
-        "high_ticket_item",
-        "bulky_keyword",
-        "blocked_risk_word"
-      ],
-      "price": 199.78,
-      "supplier_cost": 83.24,
-      "shipping_cost": 0.0,
-      "estimated_profit": 116.54,
-      "margin_percent": 58.33,
-      "weight": 3200.0
-    },
-    {
-      "sku": "CJZS293678201AZ",
-      "score": -40,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "high_profit",
-        "strong_margin",
-        "medium_weight",
-        "good_product_type",
-        "real_cj_mapping"
-      ],
-      "flags": [
-        "high_ticket_item",
-        "bulky_keyword",
-        "blocked_risk_word"
-      ],
-      "price": 199.78,
-      "supplier_cost": 83.24,
-      "shipping_cost": 0.0,
-      "estimated_profit": 116.54,
-      "margin_percent": 58.33,
-      "weight": 3200.0
-    },
-    {
-      "sku": "CJFU293249701AZ",
-      "score": -40,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "high_profit",
-        "strong_margin",
-        "safe_price_range",
-        "good_product_type",
-        "real_cj_mapping"
-      ],
-      "flags": [
-        "too_heavy",
-        "bulky_keyword",
-        "blocked_risk_word"
-      ],
-      "price": 87.5,
-      "supplier_cost": 33.47,
-      "shipping_cost": 2.99,
-      "estimated_profit": 51.04,
-      "margin_percent": 58.33,
-      "weight": 8054.0
-    },
-    {
-      "sku": "CJJJCWGY03008",
-      "score": -50,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "acceptable_margin"
-      ],
-      "flags": [
-        "profit_too_low",
-        "low_price_item",
-        "missing_cj_mapping"
-      ],
-      "price": 9.99,
-      "supplier_cost": 3.5,
-      "shipping_cost": 2.99,
-      "estimated_profit": 3.5,
-      "margin_percent": 35.04,
-      "weight": 0.0
-    },
-    {
-      "sku": "CJJJCWMY00923",
-      "score": -50,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "acceptable_margin"
-      ],
-      "flags": [
-        "profit_too_low",
-        "low_price_item",
-        "missing_cj_mapping"
-      ],
-      "price": 9.99,
-      "supplier_cost": 3.5,
-      "shipping_cost": 2.99,
-      "estimated_profit": 3.5,
-      "margin_percent": 35.04,
-      "weight": 0.0
-    },
-    {
-      "sku": "CJGY1171456",
-      "score": -60,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "safe_price_range",
-        "good_product_type"
-      ],
-      "flags": [
-        "profit_too_low",
-        "margin_too_low",
-        "missing_cj_mapping"
-      ],
-      "price": 24.99,
-      "supplier_cost": 83.71,
-      "shipping_cost": 0.0,
-      "estimated_profit": -58.72,
-      "margin_percent": -234.97,
-      "weight": 0.0
-    },
-    {
-      "sku": "CJGY1517102",
-      "score": -60,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "acceptable_margin",
-        "good_product_type"
-      ],
-      "flags": [
-        "profit_too_low",
-        "low_price_item",
-        "bulky_keyword",
-        "missing_cj_mapping"
-      ],
-      "price": 9.99,
-      "supplier_cost": 3.5,
-      "shipping_cost": 2.99,
-      "estimated_profit": 3.5,
-      "margin_percent": 35.04,
-      "weight": 0.0
-    },
-    {
-      "sku": "CJJT2352016",
-      "score": -70,
-      "tier": "D",
-      "publish_ready": false,
-      "reasons": [
-        "acceptable_margin"
-      ],
-      "flags": [
-        "profit_too_low",
-        "low_price_item",
-        "bulky_keyword",
-        "missing_cj_mapping"
-      ],
-      "price": 9.99,
-      "supplier_cost": 3.5,
-      "shipping_cost": 2.99,
-      "estimated_profit": 3.5,
-      "margin_percent": 35.04,
-      "weight": 0.0
-    },
     {
       "sku": "CJSB293675201AZ",
       "score": -70,
@@ -625,9 +458,9 @@
       ],
       "price": 268.34,
       "supplier_cost": 111.81,
-      "shipping_cost": 0.0,
-      "estimated_profit": 156.53,
-      "margin_percent": 58.33,
+      "shipping_cost": 2.99,
+      "estimated_profit": 153.54,
+      "margin_percent": 57.22,
       "weight": 22600.0
     },
     {
@@ -649,9 +482,9 @@
       ],
       "price": 489.72,
       "supplier_cost": 204.05,
-      "shipping_cost": 0.0,
-      "estimated_profit": 285.67,
-      "margin_percent": 58.33,
+      "shipping_cost": 2.99,
+      "estimated_profit": 282.68,
+      "margin_percent": 57.72,
       "weight": 27740.0
     },
     {
@@ -673,9 +506,9 @@
       ],
       "price": 693.89,
       "supplier_cost": 289.12,
-      "shipping_cost": 0.0,
-      "estimated_profit": 404.77,
-      "margin_percent": 58.33,
+      "shipping_cost": 2.99,
+      "estimated_profit": 401.78,
+      "margin_percent": 57.9,
       "weight": 61000.0
     },
     {
@@ -697,10 +530,202 @@
       ],
       "price": 201.74,
       "supplier_cost": 84.06,
-      "shipping_cost": 0.0,
-      "estimated_profit": 117.68,
-      "margin_percent": 58.33,
+      "shipping_cost": 2.99,
+      "estimated_profit": 114.69,
+      "margin_percent": 56.85,
       "weight": 13948.0
+    },
+    {
+      "sku": "CJFU29233500001",
+      "score": -70,
+      "tier": "D",
+      "publish_ready": false,
+      "reasons": [
+        "high_profit",
+        "strong_margin",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "high_ticket_item",
+        "too_heavy",
+        "bulky_keyword",
+        "blocked_risk_word"
+      ],
+      "price": 422.21,
+      "supplier_cost": 172.93,
+      "shipping_cost": 2.99,
+      "estimated_profit": 246.29,
+      "margin_percent": 58.33,
+      "weight": 48702.0
+    },
+    {
+      "sku": "CJFU29208100001",
+      "score": -70,
+      "tier": "D",
+      "publish_ready": false,
+      "reasons": [
+        "high_profit",
+        "strong_margin",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "high_ticket_item",
+        "too_heavy",
+        "bulky_keyword",
+        "blocked_risk_word"
+      ],
+      "price": 428.78,
+      "supplier_cost": 175.67,
+      "shipping_cost": 2.99,
+      "estimated_profit": 250.12,
+      "margin_percent": 58.33,
+      "weight": 48248.0
+    },
+    {
+      "sku": "CJFU29204060001",
+      "score": -70,
+      "tier": "D",
+      "publish_ready": false,
+      "reasons": [
+        "high_profit",
+        "strong_margin",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "high_ticket_item",
+        "too_heavy",
+        "bulky_keyword",
+        "blocked_risk_word"
+      ],
+      "price": 421.99,
+      "supplier_cost": 175.83,
+      "shipping_cost": 2.99,
+      "estimated_profit": 243.17,
+      "margin_percent": 57.62,
+      "weight": 33298.0
+    },
+    {
+      "sku": "CJFU29197520001",
+      "score": -70,
+      "tier": "D",
+      "publish_ready": false,
+      "reasons": [
+        "high_profit",
+        "strong_margin",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "high_ticket_item",
+        "too_heavy",
+        "bulky_keyword",
+        "blocked_risk_word"
+      ],
+      "price": 435.34,
+      "supplier_cost": 178.4,
+      "shipping_cost": 2.99,
+      "estimated_profit": 253.95,
+      "margin_percent": 58.33,
+      "weight": 14302.0
+    },
+    {
+      "sku": "CJFU29197320001",
+      "score": -70,
+      "tier": "D",
+      "publish_ready": false,
+      "reasons": [
+        "high_profit",
+        "strong_margin",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "high_ticket_item",
+        "too_heavy",
+        "bulky_keyword",
+        "blocked_risk_word"
+      ],
+      "price": 423.24,
+      "supplier_cost": 176.35,
+      "shipping_cost": 2.99,
+      "estimated_profit": 243.9,
+      "margin_percent": 57.63,
+      "weight": 17649.0
+    },
+    {
+      "sku": "CJFU29197940001",
+      "score": -70,
+      "tier": "D",
+      "publish_ready": false,
+      "reasons": [
+        "high_profit",
+        "strong_margin",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "high_ticket_item",
+        "too_heavy",
+        "bulky_keyword",
+        "blocked_risk_word"
+      ],
+      "price": 738.72,
+      "supplier_cost": 304.81,
+      "shipping_cost": 2.99,
+      "estimated_profit": 430.92,
+      "margin_percent": 58.33,
+      "weight": 61702.0
+    },
+    {
+      "sku": "CJFT295992701AZ",
+      "score": -70,
+      "tier": "D",
+      "publish_ready": false,
+      "reasons": [
+        "high_profit",
+        "strong_margin",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "high_ticket_item",
+        "too_heavy",
+        "bulky_keyword",
+        "blocked_risk_word"
+      ],
+      "price": 200.9,
+      "supplier_cost": 83.71,
+      "shipping_cost": 2.99,
+      "estimated_profit": 114.2,
+      "margin_percent": 56.84,
+      "weight": 5980.0
+    },
+    {
+      "sku": "CJFU296024401AZ",
+      "score": -70,
+      "tier": "D",
+      "publish_ready": false,
+      "reasons": [
+        "high_profit",
+        "strong_margin",
+        "good_product_type",
+        "real_cj_mapping"
+      ],
+      "flags": [
+        "high_ticket_item",
+        "too_heavy",
+        "bulky_keyword",
+        "blocked_risk_word"
+      ],
+      "price": 245.02,
+      "supplier_cost": 102.09,
+      "shipping_cost": 0.0,
+      "estimated_profit": 142.93,
+      "margin_percent": 58.33,
+      "weight": 37000.0
     },
     {
       "sku": "CJJT1166027",
@@ -719,9 +744,9 @@
       ],
       "price": 12.99,
       "supplier_cost": 35.08,
-      "shipping_cost": 0.0,
-      "estimated_profit": -22.09,
-      "margin_percent": -170.05,
+      "shipping_cost": 2.99,
+      "estimated_profit": -25.08,
+      "margin_percent": -193.07,
       "weight": 0.0
     },
     {
@@ -741,9 +766,9 @@
       ],
       "price": 12.99,
       "supplier_cost": 35.08,
-      "shipping_cost": 0.0,
-      "estimated_profit": -22.09,
-      "margin_percent": -170.05,
+      "shipping_cost": 2.99,
+      "estimated_profit": -25.08,
+      "margin_percent": -193.07,
       "weight": 0.0
     },
     {
@@ -764,9 +789,9 @@
       ],
       "price": 170.38,
       "supplier_cost": 70.99,
-      "shipping_cost": 0.0,
-      "estimated_profit": 99.39,
-      "margin_percent": 58.33,
+      "shipping_cost": 2.99,
+      "estimated_profit": 96.4,
+      "margin_percent": 56.58,
       "weight": 8700.0
     },
     {
@@ -808,9 +833,9 @@
       ],
       "price": 9.99,
       "supplier_cost": 94.21,
-      "shipping_cost": 0.0,
-      "estimated_profit": -84.22,
-      "margin_percent": -843.04,
+      "shipping_cost": 2.99,
+      "estimated_profit": -87.21,
+      "margin_percent": -872.97,
       "weight": 0.0
     },
     {
@@ -828,9 +853,9 @@
       ],
       "price": 9.99,
       "supplier_cost": 35.08,
-      "shipping_cost": 0.0,
-      "estimated_profit": -25.09,
-      "margin_percent": -251.15,
+      "shipping_cost": 2.99,
+      "estimated_profit": -28.08,
+      "margin_percent": -281.08,
       "weight": 0.0
     },
     {

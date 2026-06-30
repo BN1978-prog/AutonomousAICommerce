@@ -1,11 +1,55 @@
 {
-  "created_at": "2026-06-29T22:18:45.438841+00:00",
+  "created_at": "2026-06-30T13:26:58.882920+00:00",
   "status": "MARKETPLACE_LISTINGS_OPTIMIZED",
-  "updated": 1,
+  "updated": 5,
   "results": [
     {
       "sku": "CJQC294920701AZ",
       "title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Au",
+      "channels": [
+        "shopify",
+        "etsy",
+        "ebay",
+        "woocommerce",
+        "amazon"
+      ]
+    },
+    {
+      "sku": "CJTD295796801AZ",
+      "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
+      "channels": [
+        "shopify",
+        "etsy",
+        "ebay",
+        "woocommerce",
+        "amazon"
+      ]
+    },
+    {
+      "sku": "CJNS295299502BY",
+      "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
+      "channels": [
+        "shopify",
+        "etsy",
+        "ebay",
+        "woocommerce",
+        "amazon"
+      ]
+    },
+    {
+      "sku": "CJQQ294934201AZ",
+      "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
+      "channels": [
+        "shopify",
+        "etsy",
+        "ebay",
+        "woocommerce",
+        "amazon"
+      ]
+    },
+    {
+      "sku": "CJYD293726901AZ",
+      "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
       "channels": [
         "shopify",
         "etsy",

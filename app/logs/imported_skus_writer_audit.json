@@ -1,0 +1,952 @@
+{
+  "created_at": "2026-06-29T21:11:13.903230+00:00",
+  "target": "app/logs/imported_skus.json",
+  "files_count": 75,
+  "files": [
+    {
+      "file": "backfill_ebay_metadata.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: imports_path = Path(\"app/logs/imported_skus.json\")\n5: ebay_path = Path(\"app/logs/ebay_published_skus.json\")\n6: \n7: imports = json.loads(imports_path.read_text(encoding=\"utf-8\"))\n8: ebay = json.loads(ebay_path.read_text(encoding=\"utf-8\"))\n9: \n10: count = 0"
+        }
+      ]
+    },
+    {
+      "file": "clean_mock_logs.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 8,
+          "context": "5: \n6: files = [\n7:     \"app/logs/image_failed_skus.json\",\n8:     \"app/logs/imported_skus.json\",\n9:     \"app/logs/blocked_products.json\",\n10:     \"app/logs/stock_state.json\"\n11: ]\n12: \n13: for f in files:\n14:     p = Path(f)"
+        }
+      ]
+    },
+    {
+      "file": "app/add_created_at_to_skus.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: IMPORTS = Path(\"app/logs/imported_skus.json\")\n6: \n7: data = json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n8: now = datetime.now(timezone.utc).isoformat()\n9: \n10: added = 0\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/arbitrage_safety_gate.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: DECISIONS = Path(\"app/logs/arbitrage_decisions.json\")\n6: OUT = Path(\"app/logs/arbitrage_safety_gate.json\")\n7: \n8: imports = json.loads(IMPORTS.read_text(encoding=\"utf-8\")) if IMPORTS.exists() else {}\n9: decisions = json.loads(DECISIONS.read_text(encoding=\"utf-8\")) if DECISIONS.exists() else []\n10: "
+        }
+      ]
+    },
+    {
+      "file": "app/autonomous_loop_health.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: OUT=Path(\"app/logs/autonomous_loop_health.json\")\n7: \n8: data=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n9: \n10: counts={\n11:     \"total\":len(data),"
+        }
+      ]
+    },
+    {
+      "file": "app/auto_disable_skus.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: BLOCKED = Path(\"app/logs/blocked_products.json\")\n6: REPORT = Path(\"app/logs/auto_disable_report.json\")\n7: \n8: imports = json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n9: \n10: new_blocked = []"
+        }
+      ]
+    },
+    {
+      "file": "app/channel_health_report.py",
+      "reads": true,
+      "writes": false,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: BLOCKED = Path(\"app/logs/blocked_products.json\")\n6: STOCK = Path(\"app/logs/stock_state.json\")\n7: META = Path(\"data/catalog/meta-products-shopify.xml\")\n8: GOOGLE = Path(\"data/catalog/google-merchant-products.xml\")\n9: \n10: imports = json.loads(IMPORTS.read_text(encoding=\"utf-8\")) if IMPORTS.exists() else {}"
+        }
+      ]
+    },
+    {
+      "file": "app/channel_validation.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: OUT=Path(\"app/logs/channel_validation.json\")\n7: \n8: data=json.loads(\n9:     REGISTRY.read_text(\n10:         encoding=\"utf-8\"\n11:     )"
+        }
+      ]
+    },
+    {
+      "file": "app/click_tracking_init.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: OUT=Path(\"app/logs/click_tracking_state.json\")\n7: \n8: registry=json.loads(\n9:     REGISTRY.read_text(\n10:         encoding=\"utf-8\"\n11:     )"
+        }
+      ]
+    },
+    {
+      "file": "app/conversion_watch.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: IMPORTS = Path(\"app/logs/imported_skus.json\")\n6: OUT = Path(\"app/logs/conversion_watch.json\")\n7: \n8: data = json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n9: \n10: now = datetime.now(timezone.utc)\n11: report=[]"
+        }
+      ]
+    },
+    {
+      "file": "app/debug_pipeline.py",
+      "reads": true,
+      "writes": false,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: \n4: hunter=Path(\"app/logs/hunter_promoted.json\")\n5: imports=Path(\"app/logs/imported_skus.json\")\n6: \n7: print(\"=== HUNTER ===\")\n8: if hunter.exists():\n9:     print(hunter.read_text(encoding=\"utf-8\"))\n10: else:\n11:     print(\"missing\")"
+        }
+      ]
+    },
+    {
+      "file": "app/disable_candidates.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: IMPORTS = Path(\"app/logs/imported_skus.json\")\n6: REPORT = Path(\"app/logs/disable_candidates.json\")\n7: \n8: DAYS_LIMIT = 14\n9: \n10: data = json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n11: now = datetime.now(timezone.utc)"
+        }
+      ]
+    },
+    {
+      "file": "app/dynamic_product_score.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: REGISTRY=Path(\"app/logs/imported_skus.json\")\n5: OUT=Path(\"app/logs/dynamic_product_score.json\")\n6: \n7: data=json.loads(\n8:     REGISTRY.read_text(\n9:         encoding=\"utf-8\"\n10:     )"
+        }
+      ]
+    },
+    {
+      "file": "app/dynamic_score_sync.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: SCORES=Path(\"app/logs/dynamic_product_score.json\")\n7: OUT=Path(\"app/logs/dynamic_score_sync.json\")\n8: \n9: registry=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n10: scores=json.loads(SCORES.read_text(encoding=\"utf-8\"))\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/ebay_read_validation.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 8,
+          "context": "5: from datetime import datetime, timezone\n6: \n7: ENV=Path(\".env\")\n8: REGISTRY=Path(\"app/logs/imported_skus.json\")\n9: OUT=Path(\"app/logs/ebay_read_validation.json\")\n10: \n11: def load_env(path):\n12:     if not path.exists():\n13:         return\n14: "
+        }
+      ]
+    },
+    {
+      "file": "app/ebay_write_offer_validation.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 8,
+          "context": "5: from datetime import datetime, timezone\n6: \n7: ENV=Path(\".env\")\n8: REGISTRY=Path(\"app/logs/imported_skus.json\")\n9: OUT=Path(\"app/logs/ebay_write_offer_validation.json\")\n10: \n11: def load_env(path):\n12:     if not path.exists():\n13:         return\n14:     for line in path.read_text(encoding=\"utf-8\").splitlines():"
+        }
+      ]
+    },
+    {
+      "file": "app/ebay_write_validation.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 8,
+          "context": "5: from datetime import datetime, timezone\n6: \n7: ENV=Path(\".env\")\n8: REGISTRY=Path(\"app/logs/imported_skus.json\")\n9: OUT=Path(\"app/logs/ebay_write_validation.json\")\n10: \n11: def load_env(path):\n12:     if not path.exists():\n13:         return\n14: "
+        }
+      ]
+    },
+    {
+      "file": "app/feed_channel_validation.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: GOOGLE=Path(\"app/logs/google_feed_seo.json\")\n7: META=Path(\"app/logs/meta_feed_seo.json\")\n8: OUT=Path(\"app/logs/feed_channel_validation.json\")\n9: \n10: registry=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/feed_mass_regenerator.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: GOOGLE=Path(\"app/logs/google_feed_seo.json\")\n7: META=Path(\"app/logs/meta_feed_seo.json\")\n8: \n9: data=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n10: \n11: items=[]"
+        }
+      ]
+    },
+    {
+      "file": "app/feed_regenerator.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: IMPORTS = Path(\"app/logs/imported_skus.json\")\n6: SEO_RESULTS = Path(\"app/logs/seo_push_results.json\")\n7: \n8: META_FEED = Path(\"app/logs/meta_feed_seo.json\")\n9: GOOGLE_FEED = Path(\"app/logs/google_feed_seo.json\")\n10: OUT = Path(\"app/logs/feed_regeneration_results.json\")\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/final_system_check.py",
+      "reads": true,
+      "writes": false,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: BLOCKED = Path(\"app/logs/blocked_products.json\")\n6: PROMO = Path(\"app/logs/promotion_candidates.json\")\n7: ACTIONS = Path(\"app/logs/promotion_actions.json\")\n8: PRICING = Path(\"app/logs/pricing_experiments.json\")\n9: CONVERSION = Path(\"app/logs/conversion_watch.json\")\n10: DECISION = Path(\"app/logs/daily_decision_report.md\")"
+        }
+      ]
+    },
+    {
+      "file": "app/hunter_action_executor.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: PLAN=Path(\"app/logs/hunter_action_plan.json\")\n7: OUT=Path(\"app/logs/hunter_action_execution.json\")\n8: \n9: registry=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n10: plan=json.loads(PLAN.read_text(encoding=\"utf-8\"))\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/hunter_action_plan.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: REGISTRY=Path(\"app/logs/imported_skus.json\")\n5: OUT=Path(\"app/logs/hunter_action_plan.json\")\n6: \n7: data=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n8: \n9: actions=[]\n10: "
+        }
+      ]
+    },
+    {
+      "file": "app/hunter_import.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: \n4: HUNTER=Path(\"app/logs/hunter_promoted.json\")\n5: IMPORTS=Path(\"app/logs/imported_skus.json\")\n6: \n7: hunter=json.loads(HUNTER.read_text(encoding=\"utf-8\"))\n8: \n9: imports={}\n10: if IMPORTS.exists():\n11:     imports=json.loads(IMPORTS.read_text(encoding=\"utf-8\"))"
+        }
+      ]
+    },
+    {
+      "file": "app/hunter_registry_sync.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: FEEDBACK=Path(\"app/logs/hunter_feedback.json\")\n7: OUT=Path(\"app/logs/hunter_registry_sync.json\")\n8: \n9: registry=json.loads(\n10:     REGISTRY.read_text(\n11:         encoding=\"utf-8\""
+        }
+      ]
+    },
+    {
+      "file": "app/main.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 318,
+          "context": "315:     kpis = dashboard_real_kpis()\n316: \n317:     return {\n318:         \"active_products\": int(kpis.get(\"imported_skus\") or 0),\n319:         \"open_orders\": 0,\n320:         \"pending_fulfillment\": 0,\n321:         \"estimated_daily_spend\": 0.0,\n322:         \"estimated_daily_profit\": 0.0,\n323:         \"risk_level\": \"low\"\n324:     }"
+        },
+        {
+          "line": 498,
+          "context": "495:     stock_count = 0\n496:     out_of_stock_count = 0\n497: \n498:     imported_file = logs / \"imported_skus.json\"\n499:     blocked_file = logs / \"blocked_products.json\"\n500:     stock_file = logs / \"stock_state.json\"\n501: \n502:     try:\n503:         if imported_file.exists():\n504:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 535,
+          "context": "532:         pass\n533: \n534:     return {\n535:         \"imported_skus\": imported_count,\n536:         \"blocked_products\": blocked_count,\n537:         \"image_failed\": image_failed_count,\n538:         \"tracked_stock_skus\": stock_count,\n539:         \"out_of_stock\": out_of_stock_count\n540:     }\n541: "
+        }
+      ]
+    },
+    {
+      "file": "app/main_AUTOPILOT_NO_DUPES_OK.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 367,
+          "context": "364:     stock_count = 0\n365:     out_of_stock_count = 0\n366: \n367:     imported_file = logs / \"imported_skus.json\"\n368:     blocked_file = logs / \"blocked_products.json\"\n369:     stock_file = logs / \"stock_state.json\"\n370: \n371:     try:\n372:         if imported_file.exists():\n373:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 404,
+          "context": "401:         pass\n402: \n403:     return {\n404:         \"imported_skus\": imported_count,\n405:         \"blocked_products\": blocked_count,\n406:         \"image_failed\": image_failed_count,\n407:         \"tracked_stock_skus\": stock_count,\n408:         \"out_of_stock\": out_of_stock_count\n409:     }\n410: "
+        },
+        {
+          "line": 432,
+          "context": "429:     }\n430: \n431:     buckets = {\n432:         \"imported_products\": [\"imported_skus\"],\n433:         \"blocked_products\": [\"blocked\"],\n434:         \"stock_issues\": [\"stock\", \"inventory\"],\n435:         \"image_issues\": [\"image\"]\n436:     }\n437: \n438:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/main_AUTOPILOT_SAFE_FLOW_OK.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 367,
+          "context": "364:     stock_count = 0\n365:     out_of_stock_count = 0\n366: \n367:     imported_file = logs / \"imported_skus.json\"\n368:     blocked_file = logs / \"blocked_products.json\"\n369:     stock_file = logs / \"stock_state.json\"\n370: \n371:     try:\n372:         if imported_file.exists():\n373:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 404,
+          "context": "401:         pass\n402: \n403:     return {\n404:         \"imported_skus\": imported_count,\n405:         \"blocked_products\": blocked_count,\n406:         \"image_failed\": image_failed_count,\n407:         \"tracked_stock_skus\": stock_count,\n408:         \"out_of_stock\": out_of_stock_count\n409:     }\n410: "
+        },
+        {
+          "line": 432,
+          "context": "429:     }\n430: \n431:     buckets = {\n432:         \"imported_products\": [\"imported_skus\"],\n433:         \"blocked_products\": [\"blocked\"],\n434:         \"stock_issues\": [\"stock\", \"inventory\"],\n435:         \"image_issues\": [\"image\"]\n436:     }\n437: \n438:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/main_backup.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 367,
+          "context": "364:     stock_count = 0\n365:     out_of_stock_count = 0\n366: \n367:     imported_file = logs / \"imported_skus.json\"\n368:     blocked_file = logs / \"blocked_products.json\"\n369:     stock_file = logs / \"stock_state.json\"\n370: \n371:     try:\n372:         if imported_file.exists():\n373:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 404,
+          "context": "401:         pass\n402: \n403:     return {\n404:         \"imported_skus\": imported_count,\n405:         \"blocked_products\": blocked_count,\n406:         \"image_failed\": image_failed_count,\n407:         \"tracked_stock_skus\": stock_count,\n408:         \"out_of_stock\": out_of_stock_count\n409:     }\n410: "
+        },
+        {
+          "line": 432,
+          "context": "429:     }\n430: \n431:     buckets = {\n432:         \"imported_products\": [\"imported_skus\"],\n433:         \"blocked_products\": [\"blocked\"],\n434:         \"stock_issues\": [\"stock\", \"inventory\"],\n435:         \"image_issues\": [\"image\"]\n436:     }\n437: \n438:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/main_before_shopify_fallback.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 261,
+          "context": "258:     kpis = dashboard_real_kpis()\n259: \n260:     return {\n261:         \"active_products\": int(kpis.get(\"imported_skus\") or 0),\n262:         \"open_orders\": 0,\n263:         \"pending_fulfillment\": 0,\n264:         \"estimated_daily_spend\": 0.0,\n265:         \"estimated_daily_profit\": 0.0,\n266:         \"risk_level\": \"low\"\n267:     }"
+        },
+        {
+          "line": 441,
+          "context": "438:     stock_count = 0\n439:     out_of_stock_count = 0\n440: \n441:     imported_file = logs / \"imported_skus.json\"\n442:     blocked_file = logs / \"blocked_products.json\"\n443:     stock_file = logs / \"stock_state.json\"\n444: \n445:     try:\n446:         if imported_file.exists():\n447:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 478,
+          "context": "475:         pass\n476: \n477:     return {\n478:         \"imported_skus\": imported_count,\n479:         \"blocked_products\": blocked_count,\n480:         \"image_failed\": image_failed_count,\n481:         \"tracked_stock_skus\": stock_count,\n482:         \"out_of_stock\": out_of_stock_count\n483:     }\n484: "
+        }
+      ]
+    },
+    {
+      "file": "app/main_broken_20260518_112242.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 367,
+          "context": "364:     stock_count = 0\n365:     out_of_stock_count = 0\n366: \n367:     imported_file = logs / \"imported_skus.json\"\n368:     blocked_file = logs / \"blocked_products.json\"\n369:     stock_file = logs / \"stock_state.json\"\n370: \n371:     try:\n372:         if imported_file.exists():\n373:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 404,
+          "context": "401:         pass\n402: \n403:     return {\n404:         \"imported_skus\": imported_count,\n405:         \"blocked_products\": blocked_count,\n406:         \"image_failed\": image_failed_count,\n407:         \"tracked_stock_skus\": stock_count,\n408:         \"out_of_stock\": out_of_stock_count\n409:     }\n410: "
+        },
+        {
+          "line": 432,
+          "context": "429:     }\n430: \n431:     buckets = {\n432:         \"imported_products\": [\"imported_skus\"],\n433:         \"blocked_products\": [\"blocked\"],\n434:         \"stock_issues\": [\"stock\", \"inventory\"],\n435:         \"image_issues\": [\"image\"]\n436:     }\n437: \n438:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/main_CATALOG_HEALTH_OK.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 367,
+          "context": "364:     stock_count = 0\n365:     out_of_stock_count = 0\n366: \n367:     imported_file = logs / \"imported_skus.json\"\n368:     blocked_file = logs / \"blocked_products.json\"\n369:     stock_file = logs / \"stock_state.json\"\n370: \n371:     try:\n372:         if imported_file.exists():\n373:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 404,
+          "context": "401:         pass\n402: \n403:     return {\n404:         \"imported_skus\": imported_count,\n405:         \"blocked_products\": blocked_count,\n406:         \"image_failed\": image_failed_count,\n407:         \"tracked_stock_skus\": stock_count,\n408:         \"out_of_stock\": out_of_stock_count\n409:     }\n410: "
+        },
+        {
+          "line": 432,
+          "context": "429:     }\n430: \n431:     buckets = {\n432:         \"imported_products\": [\"imported_skus\"],\n433:         \"blocked_products\": [\"blocked\"],\n434:         \"stock_issues\": [\"stock\", \"inventory\"],\n435:         \"image_issues\": [\"image\"]\n436:     }\n437: \n438:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/main_CLEAN_CATALOG_OK.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 367,
+          "context": "364:     stock_count = 0\n365:     out_of_stock_count = 0\n366: \n367:     imported_file = logs / \"imported_skus.json\"\n368:     blocked_file = logs / \"blocked_products.json\"\n369:     stock_file = logs / \"stock_state.json\"\n370: \n371:     try:\n372:         if imported_file.exists():\n373:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 404,
+          "context": "401:         pass\n402: \n403:     return {\n404:         \"imported_skus\": imported_count,\n405:         \"blocked_products\": blocked_count,\n406:         \"image_failed\": image_failed_count,\n407:         \"tracked_stock_skus\": stock_count,\n408:         \"out_of_stock\": out_of_stock_count\n409:     }\n410: "
+        },
+        {
+          "line": 432,
+          "context": "429:     }\n430: \n431:     buckets = {\n432:         \"imported_products\": [\"imported_skus\"],\n433:         \"blocked_products\": [\"blocked\"],\n434:         \"stock_issues\": [\"stock\", \"inventory\"],\n435:         \"image_issues\": [\"image\"]\n436:     }\n437: \n438:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/main_DASHBOARD_WORKING_OK.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 369,
+          "context": "366:     stock_count = 0\n367:     out_of_stock_count = 0\n368: \n369:     imported_file = logs / \"imported_skus.json\"\n370:     blocked_file = logs / \"blocked_products.json\"\n371:     stock_file = logs / \"stock_state.json\"\n372: \n373:     try:\n374:         if imported_file.exists():\n375:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 406,
+          "context": "403:         pass\n404: \n405:     return {\n406:         \"imported_skus\": imported_count,\n407:         \"blocked_products\": blocked_count,\n408:         \"image_failed\": image_failed_count,\n409:         \"tracked_stock_skus\": stock_count,\n410:         \"out_of_stock\": out_of_stock_count\n411:     }\n412: "
+        },
+        {
+          "line": 434,
+          "context": "431:     }\n432: \n433:     buckets = {\n434:         \"imported_products\": [\"imported_skus\"],\n435:         \"blocked_products\": [\"blocked\"],\n436:         \"stock_issues\": [\"stock\", \"inventory\"],\n437:         \"image_issues\": [\"image\"]\n438:     }\n439: \n440:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/main_SAFE_FLOW_OK.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 367,
+          "context": "364:     stock_count = 0\n365:     out_of_stock_count = 0\n366: \n367:     imported_file = logs / \"imported_skus.json\"\n368:     blocked_file = logs / \"blocked_products.json\"\n369:     stock_file = logs / \"stock_state.json\"\n370: \n371:     try:\n372:         if imported_file.exists():\n373:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 404,
+          "context": "401:         pass\n402: \n403:     return {\n404:         \"imported_skus\": imported_count,\n405:         \"blocked_products\": blocked_count,\n406:         \"image_failed\": image_failed_count,\n407:         \"tracked_stock_skus\": stock_count,\n408:         \"out_of_stock\": out_of_stock_count\n409:     }\n410: "
+        },
+        {
+          "line": 432,
+          "context": "429:     }\n430: \n431:     buckets = {\n432:         \"imported_products\": [\"imported_skus\"],\n433:         \"blocked_products\": [\"blocked\"],\n434:         \"stock_issues\": [\"stock\", \"inventory\"],\n435:         \"image_issues\": [\"image\"]\n436:     }\n437: \n438:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/main_STABLE_AI_SHOPIFY_PIPELINE.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 367,
+          "context": "364:     stock_count = 0\n365:     out_of_stock_count = 0\n366: \n367:     imported_file = logs / \"imported_skus.json\"\n368:     blocked_file = logs / \"blocked_products.json\"\n369:     stock_file = logs / \"stock_state.json\"\n370: \n371:     try:\n372:         if imported_file.exists():\n373:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 404,
+          "context": "401:         pass\n402: \n403:     return {\n404:         \"imported_skus\": imported_count,\n405:         \"blocked_products\": blocked_count,\n406:         \"image_failed\": image_failed_count,\n407:         \"tracked_stock_skus\": stock_count,\n408:         \"out_of_stock\": out_of_stock_count\n409:     }\n410: "
+        },
+        {
+          "line": 432,
+          "context": "429:     }\n430: \n431:     buckets = {\n432:         \"imported_products\": [\"imported_skus\"],\n433:         \"blocked_products\": [\"blocked\"],\n434:         \"stock_issues\": [\"stock\", \"inventory\"],\n435:         \"image_issues\": [\"image\"]\n436:     }\n437: \n438:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/main_WITH_SHOPIFY_AUTO_MODULE_OK.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 369,
+          "context": "366:     stock_count = 0\n367:     out_of_stock_count = 0\n368: \n369:     imported_file = logs / \"imported_skus.json\"\n370:     blocked_file = logs / \"blocked_products.json\"\n371:     stock_file = logs / \"stock_state.json\"\n372: \n373:     try:\n374:         if imported_file.exists():\n375:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 406,
+          "context": "403:         pass\n404: \n405:     return {\n406:         \"imported_skus\": imported_count,\n407:         \"blocked_products\": blocked_count,\n408:         \"image_failed\": image_failed_count,\n409:         \"tracked_stock_skus\": stock_count,\n410:         \"out_of_stock\": out_of_stock_count\n411:     }\n412: "
+        },
+        {
+          "line": 434,
+          "context": "431:     }\n432: \n433:     buckets = {\n434:         \"imported_products\": [\"imported_skus\"],\n435:         \"blocked_products\": [\"blocked\"],\n436:         \"stock_issues\": [\"stock\", \"inventory\"],\n437:         \"image_issues\": [\"image\"]\n438:     }\n439: \n440:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/main_WORKING_DEDUPE_OK.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 367,
+          "context": "364:     stock_count = 0\n365:     out_of_stock_count = 0\n366: \n367:     imported_file = logs / \"imported_skus.json\"\n368:     blocked_file = logs / \"blocked_products.json\"\n369:     stock_file = logs / \"stock_state.json\"\n370: \n371:     try:\n372:         if imported_file.exists():\n373:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 404,
+          "context": "401:         pass\n402: \n403:     return {\n404:         \"imported_skus\": imported_count,\n405:         \"blocked_products\": blocked_count,\n406:         \"image_failed\": image_failed_count,\n407:         \"tracked_stock_skus\": stock_count,\n408:         \"out_of_stock\": out_of_stock_count\n409:     }\n410: "
+        },
+        {
+          "line": 432,
+          "context": "429:     }\n430: \n431:     buckets = {\n432:         \"imported_products\": [\"imported_skus\"],\n433:         \"blocked_products\": [\"blocked\"],\n434:         \"stock_issues\": [\"stock\", \"inventory\"],\n435:         \"image_issues\": [\"image\"]\n436:     }\n437: \n438:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/main_WORKING_SHOPIFY_OK.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 367,
+          "context": "364:     stock_count = 0\n365:     out_of_stock_count = 0\n366: \n367:     imported_file = logs / \"imported_skus.json\"\n368:     blocked_file = logs / \"blocked_products.json\"\n369:     stock_file = logs / \"stock_state.json\"\n370: \n371:     try:\n372:         if imported_file.exists():\n373:             imported = json.loads(imported_file.read_text(encoding=\"utf-8\", errors=\"ignore\"))"
+        },
+        {
+          "line": 404,
+          "context": "401:         pass\n402: \n403:     return {\n404:         \"imported_skus\": imported_count,\n405:         \"blocked_products\": blocked_count,\n406:         \"image_failed\": image_failed_count,\n407:         \"tracked_stock_skus\": stock_count,\n408:         \"out_of_stock\": out_of_stock_count\n409:     }\n410: "
+        },
+        {
+          "line": 432,
+          "context": "429:     }\n430: \n431:     buckets = {\n432:         \"imported_products\": [\"imported_skus\"],\n433:         \"blocked_products\": [\"blocked\"],\n434:         \"stock_issues\": [\"stock\", \"inventory\"],\n435:         \"image_issues\": [\"image\"]\n436:     }\n437: \n438:     def read_file(file):"
+        }
+      ]
+    },
+    {
+      "file": "app/market_arbitrage_engine.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: OUT = Path(\"app/logs/market_arbitrage_candidates.json\")\n6: \n7: imports = json.loads(\n8:     IMPORTS.read_text(encoding=\"utf-8\")\n9: ) if IMPORTS.exists() else {}\n10: "
+        }
+      ]
+    },
+    {
+      "file": "app/no_sales_report.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: REPORT = Path(\"app/logs/no_sales_report.json\")\n6: \n7: imports = json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n8: \n9: items = []\n10: "
+        }
+      ]
+    },
+    {
+      "file": "app/order_orchestrator.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: IMPORTS = Path(\"app/logs/imported_skus.json\")\n6: OUT = Path(\"app/logs/order_orchestration_plan.json\")\n7: \n8: imports = json.loads(IMPORTS.read_text(encoding=\"utf-8\")) if IMPORTS.exists() else {}\n9: \n10: plans = []\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/performance_board.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: REGISTRY=Path(\"app/logs/imported_skus.json\")\n5: OUT=Path(\"app/logs/performance_board.json\")\n6: \n7: data=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n8: \n9: winners=[]\n10: losers=[]"
+        }
+      ]
+    },
+    {
+      "file": "app/pipeline_summary.py",
+      "reads": true,
+      "writes": false,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: imports = Path(\"app/logs/imported_skus.json\")\n5: \n6: data = json.loads(\n7:     imports.read_text(encoding=\"utf-8\")\n8: )\n9: \n10: created=0"
+        }
+      ]
+    },
+    {
+      "file": "app/promotion_candidates.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: REPORT = Path(\"app/logs/promotion_candidates.json\")\n6: \n7: MIN_SCORE = 80\n8: \n9: data = json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n10: "
+        }
+      ]
+    },
+    {
+      "file": "app/publish_ebay_from_imports.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 13,
+          "context": "10:     ebay_publish_offer,\n11: )\n12: \n13: IMPORTS = Path(\"app/logs/imported_skus.json\")\n14: EBAY_LOG = Path(\"app/logs/ebay_published_skus.json\")\n15: \n16: published = {}\n17: if EBAY_LOG.exists():\n18:     published = json.loads(EBAY_LOG.read_text(encoding=\"utf-8\"))\n19: "
+        }
+      ]
+    },
+    {
+      "file": "app/real_sales_collector.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 9,
+          "context": "6: from datetime import datetime, timezone, timedelta\n7: \n8: ENV=Path(\".env\")\n9: REGISTRY=Path(\"app/logs/imported_skus.json\")\n10: OUT=Path(\"app/logs/real_sales_report.json\")\n11: \n12: def load_env(path):\n13:     if not path.exists():\n14:         return\n15:     for line in path.read_text(encoding=\"utf-8\").splitlines():"
+        }
+      ]
+    },
+    {
+      "file": "app/registry_inspector.py",
+      "reads": true,
+      "writes": false,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: \n6: data = json.loads(\n7:     IMPORTS.read_text(encoding=\"utf-8\")\n8: )\n9: \n10: for sku, item in list(data.items())[:10]:"
+        }
+      ]
+    },
+    {
+      "file": "app/registry_push_sync.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: EXECUTION=Path(\"app/logs/seo_mass_push_execution.json\")\n7: \n8: registry=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n9: execution=json.loads(EXECUTION.read_text(encoding=\"utf-8\"))\n10: \n11: by_sku={}"
+        }
+      ]
+    },
+    {
+      "file": "app/registry_quality_report.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: OUT = Path(\"app/logs/registry_quality_report.json\")\n6: \n7: data = json.loads(IMPORTS.read_text(encoding=\"utf-8\")) if IMPORTS.exists() else {}\n8: \n9: required_fields = [\n10:     \"title\","
+        }
+      ]
+    },
+    {
+      "file": "app/roi_report.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: OUT = Path(\"app/logs/roi_report.json\")\n6: \n7: data = json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n8: \n9: rows = []\n10: "
+        }
+      ]
+    },
+    {
+      "file": "app/sales_roi_engine.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 6,
+          "context": "3: from datetime import datetime, timezone\n4: import random\n5: \n6: REGISTRY=Path(\"app/logs/imported_skus.json\")\n7: OUT=Path(\"app/logs/sales_roi_report.json\")\n8: \n9: data=json.loads(\n10:     REGISTRY.read_text(\n11:         encoding=\"utf-8\"\n12:     )"
+        }
+      ]
+    },
+    {
+      "file": "app/seo_action_report.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: PROMO = Path(\"app/logs/promotion_candidates.json\")\n6: OUT = Path(\"app/logs/seo_action_report.json\")\n7: \n8: imports = json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n9: promo = json.loads(PROMO.read_text(encoding=\"utf-8\")) if PROMO.exists() else []\n10: "
+        }
+      ]
+    },
+    {
+      "file": "app/seo_auto_apply.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: IMPORTS = Path(\"app/logs/imported_skus.json\")\n6: PLAN = Path(\"app/logs/traffic_execution_plan.json\")\n7: OUT = Path(\"app/logs/seo_auto_apply_results.json\")\n8: \n9: imports = json.loads(IMPORTS.read_text(encoding=\"utf-8\")) if IMPORTS.exists() else {}\n10: plan = json.loads(PLAN.read_text(encoding=\"utf-8\")) if PLAN.exists() else []\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/seo_generate_full.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: IMPORTS=Path(\"app/logs/imported_skus.json\")\n6: OUT=Path(\"app/logs/traffic_execution_plan_full.json\")\n7: \n8: data=json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n9: \n10: plan=[]\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/seo_mass_apply.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 6,
+          "context": "3: from datetime import datetime, timezone\n4: \n5: PLAN=Path(\"app/logs/traffic_execution_plan_final.json\")\n6: REGISTRY=Path(\"app/logs/imported_skus.json\")\n7: OUT=Path(\"app/logs/seo_mass_apply_results.json\")\n8: \n9: plan=json.loads(PLAN.read_text(encoding=\"utf-8\"))\n10: registry=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n11: \n12: results=[]"
+        }
+      ]
+    },
+    {
+      "file": "app/seo_mass_push_plan.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: OUT=Path(\"app/logs/seo_mass_push_plan.json\")\n7: \n8: data=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n9: \n10: plan=[]\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/seo_pipeline_audit.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: REGISTRY=Path(\"app/logs/imported_skus.json\")\n5: OUT=Path(\"app/logs/seo_pipeline_audit.json\")\n6: \n7: data=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n8: \n9: total=len(data)\n10: seo_applied=0"
+        }
+      ]
+    },
+    {
+      "file": "app/seo_push_to_channels.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: IMPORTS = Path(\"app/logs/imported_skus.json\")\n6: OUT = Path(\"app/logs/seo_push_plan.json\")\n7: \n8: data = json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n9: \n10: plan = []\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/seo_quality_fix.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: OUT=Path(\"app/logs/seo_quality_fix_results.json\")\n7: \n8: fixes={\n9:     \"CJJJCWMY01054\":{\n10:         \"seo_title\":\"Professional Pet Grooming Scissors for Dogs and Cats\",\n11:         \"seo_description\":\"Sharp and comfortable grooming scissors designed for safe pet coat trimming at home.\""
+        }
+      ]
+    },
+    {
+      "file": "app/seo_quality_score.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: REGISTRY=Path(\"app/logs/imported_skus.json\")\n5: OUT=Path(\"app/logs/seo_quality_report.json\")\n6: \n7: data=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n8: \n9: bad=[]\n10: "
+        }
+      ]
+    },
+    {
+      "file": "app/seo_repush_required.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: OUT=Path(\"app/logs/seo_repush_required.json\")\n7: \n8: data=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n9: \n10: items=[]\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/shopify_registry_hydrator.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 9,
+          "context": "6: from urllib.parse import urlparse\n7: \n8: ENV = Path(\".env\")\n9: IMPORTS = Path(\"app/logs/imported_skus.json\")\n10: OUT = Path(\"app/logs/shopify_registry_hydration_results.json\")\n11: \n12: def load_env_file(path):\n13:     if not path.exists():\n14:         return\n15: "
+        }
+      ]
+    },
+    {
+      "file": "app/shopify_write_validation.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 9,
+          "context": "6: from datetime import datetime, timezone\n7: \n8: ENV=Path(\".env\")\n9: REGISTRY=Path(\"app/logs/imported_skus.json\")\n10: OUT=Path(\"app/logs/shopify_write_validation.json\")\n11: \n12: def load_env(path):\n13:     if not path.exists():\n14:         return\n15:     for line in path.read_text(encoding=\"utf-8\").splitlines():"
+        }
+      ]
+    },
+    {
+      "file": "app/supplier_purchase_queue.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 6,
+          "context": "3: from datetime import datetime, timezone\n4: \n5: ORDERS = Path(\"app/logs/incoming_orders.json\")\n6: IMPORTS = Path(\"app/logs/imported_skus.json\")\n7: QUEUE = Path(\"app/logs/supplier_purchase_queue.json\")\n8: \n9: from app.fulfillment_guard import check_fulfillment_allowed\n10: \n11: orders = json.loads(ORDERS.read_text(encoding=\"utf-8\")) if ORDERS.exists() else []\n12: imports = json.loads(IMPORTS.read_text(encoding=\"utf-8\")) if IMPORTS.exists() else {}"
+        }
+      ]
+    },
+    {
+      "file": "app/sync_ebay_orders.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: IMPORTS = Path(\"app/logs/imported_skus.json\")\n5: \n6: data = json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n7: \n8: for sku, meta in data.items():\n9:     meta[\"ebay_sales\"] = int(meta.get(\"ebay_sales\") or 0)\n10:     meta[\"sales\"] = int(meta.get(\"shopify_sales\") or 0) + int(meta.get(\"ebay_sales\") or 0)"
+        }
+      ]
+    },
+    {
+      "file": "app/sync_hunter_to_shopify.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 9,
+          "context": "6: \n7: from app.main import dashboard_shopify_safe_create_or_update\n8: \n9: IMPORTS = Path(\"app/logs/imported_skus.json\")\n10: \n11: data = json.loads(IMPORTS.read_text(encoding=\"utf-8\"))\n12: \n13: created = 0\n14: existing = 0\n15: skipped = 0"
+        }
+      ]
+    },
+    {
+      "file": "app/sync_shopify_orders.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 13,
+          "context": "10: \n11: headers = {\"X-Shopify-Access-Token\": token}\n12: \n13: imports_path = Path(\"app/logs/imported_skus.json\")\n14: imports = json.loads(imports_path.read_text(encoding=\"utf-8\"))\n15: \n16: url = f\"https://{store}/admin/api/2024-01/orders.json?status=any&limit=250\"\n17: r = requests.get(url, headers=headers, timeout=30)\n18: \n19: print(\"STATUS:\", r.status_code)"
+        }
+      ]
+    },
+    {
+      "file": "app/system_health_dashboard.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: REGISTRY=Path(\"app/logs/imported_skus.json\")\n5: SUMMARY=Path(\"app/logs/seo_push_summary.json\")\n6: QUALITY=Path(\"app/logs/seo_quality_report.json\")\n7: REPUSH=Path(\"app/logs/seo_repush_execution.json\")\n8: OUT=Path(\"app/logs/system_health_dashboard.json\")\n9: \n10: registry=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))"
+        }
+      ]
+    },
+    {
+      "file": "app/tier_strategy_apply.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 5,
+          "context": "2: from pathlib import Path\n3: from datetime import datetime, timezone\n4: \n5: REGISTRY=Path(\"app/logs/imported_skus.json\")\n6: data=json.loads(REGISTRY.read_text(encoding=\"utf-8\"))\n7: \n8: updated=0\n9: \n10: for sku,item in data.items():\n11: "
+        }
+      ]
+    },
+    {
+      "file": "app/tier_summary.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: import json\n2: from pathlib import Path\n3: \n4: REGISTRY=Path(\"app/logs/imported_skus.json\")\n5: OUT=Path(\"app/logs/tier_summary.json\")\n6: \n7: data=json.loads(\n8:     REGISTRY.read_text(\n9:         encoding=\"utf-8\"\n10:     )"
+        }
+      ]
+    },
+    {
+      "file": "app/update_shopify_existing.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 13,
+          "context": "10: from app.pricing_ai import dynamic_price\n11: from app.channels.shopify_config import ShopifyConfig\n12: \n13: IMPORTS = Path(\"app/logs/imported_skus.json\")\n14: \n15: shop_url = \"https://\" + ShopifyConfig.get_store().strip().replace(\"https://\",\"\").replace(\"http://\",\"\").rstrip(\"/\")\n16: token = ShopifyConfig.get_token()\n17: \n18: headers = {\n19:     \"X-Shopify-Access-Token\": token,"
+        }
+      ]
+    },
+    {
+      "file": "app/feeds/google_merchant_feed.py",
+      "reads": true,
+      "writes": false,
+      "snippets": [
+        {
+          "line": 16,
+          "context": "13: \n14: headers = {\"X-Shopify-Access-Token\": token}\n15: \n16: imports = json.loads(Path(\"app/logs/imported_skus.json\").read_text(encoding=\"utf-8\"))\n17: \n18: rss = Element(\"rss\", {\n19:     \"version\": \"2.0\",\n20:     \"xmlns:g\": \"http://base.google.com/ns/1.0\"\n21: })\n22: "
+        }
+      ]
+    },
+    {
+      "file": "app/feeds/meta_shopify_feed.py",
+      "reads": true,
+      "writes": false,
+      "snippets": [
+        {
+          "line": 16,
+          "context": "13: \n14: headers = {\"X-Shopify-Access-Token\": token}\n15: \n16: imports = json.loads(Path(\"app/logs/imported_skus.json\").read_text(encoding=\"utf-8\"))\n17: \n18: rss = Element(\"rss\", {\n19:     \"version\": \"2.0\",\n20:     \"xmlns:g\": \"http://base.google.com/ns/1.0\"\n21: })\n22: "
+        }
+      ]
+    },
+    {
+      "file": "app/suppliers/import_state.py",
+      "reads": true,
+      "writes": true,
+      "snippets": [
+        {
+          "line": 4,
+          "context": "1: \ufeffimport json\n2: from pathlib import Path\n3: \n4: IMPORT_STATE_FILE = Path(r\"C:\\Users\\omen\\AutonomousAICommerce\\app\\logs\\imported_skus.json\")\n5: \n6: def load_imported_skus():\n7:     if not IMPORT_STATE_FILE.exists():\n8:         return {}\n9: \n10:     try:"
+        },
+        {
+          "line": 6,
+          "context": "3: \n4: IMPORT_STATE_FILE = Path(r\"C:\\Users\\omen\\AutonomousAICommerce\\app\\logs\\imported_skus.json\")\n5: \n6: def load_imported_skus():\n7:     if not IMPORT_STATE_FILE.exists():\n8:         return {}\n9: \n10:     try:\n11:         return json.loads(IMPORT_STATE_FILE.read_text(encoding=\"utf-8-sig\"))\n12:     except Exception as e:"
+        },
+        {
+          "line": 17,
+          "context": "14:         return {}\n15: \n16: def get_imported_sku(sku):\n17:     return load_imported_skus().get(sku)\n18: \n19: def save_imported_sku(sku, product_id=None, image_status=\"unknown\"):\n20:     IMPORT_STATE_FILE.parent.mkdir(parents=True, exist_ok=True)\n21:     data = load_imported_skus()\n22:     data[sku] = {\n23:         \"product_id\": product_id,"
+        }
+      ]
+    }
+  ]
+}

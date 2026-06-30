@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-05-20T18:30:48.477101+00:00",
+  "created_at": "2026-06-29T21:34:21.598599+00:00",
   "pid": "2056264700793372674",
   "status_code": 200,
   "response": {
@@ -80,6 +80,8 @@
           "variantNameEn": "",
           "variantImage": "https://cf.cjdropshipping.com/0cdb9c22-20bb-4831-a577-f6ea562c978b.jpg",
           "variantSku": "CJTE289455601AZ",
+          "barcode": "8600000773049",
+          "barcode2": null,
           "variantUnit": null,
           "variantProperty": null,
           "variantKey": "Default title",
@@ -91,7 +93,7 @@
           "variantSellPrice": 16.34,
           "createTime": 1779086683000,
           "variantStandard": "long=300,width=100,height=50",
-          "variantSugSellPrice": 80.07,
+          "variantSugSellPrice": 106.05,
           "combineNum": null,
           "inventoryNum": null,
           "combineVariants": null,
@@ -102,8 +104,8 @@
       "createrTime": "2026-05-18T00:00:00+08:00",
       "productVideo": null,
       "status": "3",
-      "suggestSellPrice": "80.07",
-      "listedNum": 1,
+      "suggestSellPrice": "106.05",
+      "listedNum": 12,
       "supplierName": "dbjjj",
       "supplierId": "1848294695726489600",
       "customizationVersion": null,
@@ -113,7 +115,12 @@
       "customizationJson4": null,
       "isTestProduct": false
     },
-    "requestId": "068aff534fbd4caaba39fb7439495ce0",
+    "requestId": "41dd08113c1446ef994a6e82862c4941",
+    "pointsInfo": {
+      "total": 50000,
+      "usedToday": 4910,
+      "remaining": 50000
+    },
     "success": true
   }
 }

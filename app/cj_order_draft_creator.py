@@ -12,11 +12,11 @@ drafts=[]
 skipped=[]
 
 for item in queue:
-    if item.get("status")!="queued_for_supplier_purchase":
+    if item.get("status") not in ["queued_for_supplier_purchase", "ready_for_supplier_purchase"]:
         skipped.append({
             "order_id":item.get("order_id"),
             "sku":item.get("sku"),
-            "reason":"not_queued_for_supplier_purchase"
+            "reason":"not_ready_for_supplier_purchase"
         })
         continue
 

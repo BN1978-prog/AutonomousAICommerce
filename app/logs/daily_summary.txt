@@ -1,6 +1,6 @@
 AICommerce Daily Autopilot Summary
 ========================================
-Created at: 2026-06-29T18:59:26.695993+00:00
+Created at: 2026-06-30T13:27:01.798145+00:00
 
 Top products:
 - non_slip_silicone_pet_feeding_bowl: score=143, sales=8, clicks=63, published=8
@@ -22,7 +22,7 @@ Next test priorities:
 - #5 affordable_dog_bed: score=15, action=increase_testing
 
 Last autopilot steps:
-- railway_health_check: ERROR
+- railway_health_check: SKIPPED_MODULE_MISSING
 - token_manager: OK
 - refresh_ebay_token: OK
 - google_ads_token_refresher: OK
@@ -31,21 +31,29 @@ Last autopilot steps:
 - amazon_token_refresher: OK
 - shopify_crm_events: OK
 - real_sales_collector: OK
-- cj_paid_order_fulfillment: ERROR
+- cj_paid_order_fulfillment: SKIPPED_MODULE_MISSING
 - crm_personalized_drafts: OK
 - crm_readiness_summary: OK
 - etsy_connection_status: OK
 - etsy_autopilot: OK
-- real_trend_discovery: ERROR
-- autonomous_trend_filter: ERROR
+- real_trend_discovery: SKIPPED_MODULE_MISSING
+- autonomous_trend_filter: SKIPPED_MODULE_MISSING
 - exploration_engine_v2: OK
 - build_priority_queue: OK
 - publish_execution_plan: OK
-- trend_listing_validator: ERROR
-- cj_trend_bridge: ERROR
-- supplier_candidate_filter: ERROR
-- seo_product_optimizer: ERROR
-- profit_checked_products: ERROR
+- sku_master_enricher: OK
+- cj_product_discovery_importer: OK
+- sku_cj_mapper: OK
+- product_scoring_engine: OK
+- seo_content_engine: OK
+- universal_listing_builder: OK
+- marketplace_listing_optimizer: OK
+- universal_publisher: OK
+- trend_listing_validator: SKIPPED_MODULE_MISSING
+- cj_trend_bridge: SKIPPED_MODULE_MISSING
+- supplier_candidate_filter: SKIPPED_MODULE_MISSING
+- seo_product_optimizer: SKIPPED_MODULE_MISSING
+- profit_checked_products: SKIPPED_MODULE_MISSING
 - action_executor: OK
 - social_content_generator: OK
 - social_content_enhancer: OK
@@ -75,7 +83,7 @@ Last autopilot steps:
 - live_api_execution_gate: OK
 - live_execution_reporter: OK
 - live_mode_final_lock: OK
-- meta_long_lived_token: ERROR
+- meta_long_lived_token: SKIPPED_MODULE_MISSING
 - meta_live_executor: OK
 - google_live_executor: OK
 - live_execution_consolidator: OK

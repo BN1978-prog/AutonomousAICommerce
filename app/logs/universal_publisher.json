@@ -1,47 +1,28 @@
 {
-  "created_at": "2026-06-29T22:34:34.931665+00:00",
+  "created_at": "2026-06-30T13:26:59.159501+00:00",
   "status": "UNIVERSAL_PUBLISHER_DRY_RUN",
   "mode": "DRY_RUN",
   "enabled_channels": [
     "shopify"
   ],
-  "drafts": 4,
+  "drafts": 5,
   "results": [
     {
       "sku": "CJQC294920701AZ",
       "mode": "DRY_RUN",
       "status": "planned",
-      "created_at": "2026-06-29T22:34:34.924661+00:00",
+      "created_at": "2026-06-30T13:26:59.150512+00:00",
       "title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Au",
       "price": 47.5,
       "channels": {
         "shopify": {
           "enabled": true,
-          "status": "ready_for_publish",
-          "payload_preview": {
-            "title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Au",
-            "body_html": "<p>Upgrade your everyday routine with Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Auto Interior Accessor. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Automobiles & Motorcycles / Auto Replacement Parts / Interior Parts. Price: GBP 47.5.</p>",
-            "vendor": "AICommerce",
-            "product_type": "Automobiles & Motorcycles / Auto Replacement Parts / Interior Parts",
+          "status": "skipped_already_exists",
+          "existing": {
+            "product_id": 10920846295382,
+            "product_url": null,
             "status": "draft",
-            "variants": [
-              {
-                "sku": "CJQC294920701AZ",
-                "price": "47.5",
-                "inventory_policy": "continue",
-                "fulfillment_service": "manual"
-              }
-            ],
-            "images": [
-              {
-                "src": "https://cf.cjdropshipping.com/c17cbd93-0ade-4972-9efc-73e638e160fd.jpg"
-              }
-            ],
-            "tags": "universal, multi, functional, car, leather, storage, organizer, kids, seat, back, kick, mat, rear",
-            "seo": {
-              "title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Ba",
-              "description": "Upgrade your everyday routine with Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Auto In"
-            }
+            "published_at": "2026-06-29T22:38:09.301218+00:00"
           }
         },
         "etsy": {
@@ -140,37 +121,18 @@
       "sku": "CJTD295796801AZ",
       "mode": "DRY_RUN",
       "status": "planned",
-      "created_at": "2026-06-29T22:34:34.924661+00:00",
+      "created_at": "2026-06-30T13:26:59.150512+00:00",
       "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
       "price": 16.78,
       "channels": {
         "shopify": {
           "enabled": true,
-          "status": "ready_for_publish",
-          "payload_preview": {
-            "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
-            "body_html": "<p>COMPACT SIZE: Measures 5.3 x 4.2 x 2.1 inches and weighs just 0.23 lbs, fitting tanks of various sizes without crowding swimming space. PET-SAFE MATERIAL: Crafted from premium resin that will not fade or leach harmful substances, keeping your aquatic habitat safe and vibrant. FLOATS ON WATER SURFACE: Perfectly balanced to bob gently on the water, creating dynamic movement and a relaxing vacation atmosphere in your tank. VERSATILE USE: Great for indoor fish tanks, outdoor water gardens, terrariums, and tabletop fountains for a whimsical touch. CHARMING DESIGN: Adorable resin frog lounging on a swim ring brings a playful summer vibe to any aquarium or pond.</p>",
-            "vendor": "AICommerce",
-            "product_type": "Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations",
+          "status": "skipped_already_exists",
+          "existing": {
+            "product_id": 10920846360918,
+            "product_url": null,
             "status": "draft",
-            "variants": [
-              {
-                "sku": "CJTD295796801AZ",
-                "price": "16.78",
-                "inventory_policy": "continue",
-                "fulfillment_service": "manual"
-              }
-            ],
-            "images": [
-              {
-                "src": "https://cf.cjdropshipping.com/53d62f57-9c6b-4e63-8199-aec0650bd9d7.jpg"
-              }
-            ],
-            "tags": "",
-            "seo": {
-              "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, W",
-              "description": "COMPACT SIZE: Measures 5.3 x 4.2 x 2.1 inches and weighs just 0.23 lbs, fitting tanks of various sizes without crowding swimming space. PET-SAFE MATERIAL: Craft"
-            }
+            "published_at": "2026-06-29T22:38:12.329928+00:00"
           }
         },
         "etsy": {
@@ -178,7 +140,7 @@
           "status": "ready_for_publish",
           "payload_preview": {
             "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
-            "description": "COMPACT SIZE: Measures 5.3 x 4.2 x 2.1 inches and weighs just 0.23 lbs, fitting tanks of various sizes without crowding swimming space. PET-SAFE MATERIAL: Crafted from premium resin that will not fade or leach harmful substances, keeping your aquatic habitat safe and vibrant. FLOATS ON WATER SURFACE: Perfectly balanced to bob gently on the water, creating dynamic movement and a relaxing vacation atmosphere in your tank. VERSATILE USE: Great for indoor fish tanks, outdoor water gardens, terrariums, and tabletop fountains for a whimsical touch. CHARMING DESIGN: Adorable resin frog lounging on a swim ring brings a playful summer vibe to any aquarium or pond.",
+            "description": "Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations. Price: GBP 16.78.",
             "price": 16.78,
             "quantity": 999,
             "who_made": "i_did",
@@ -186,7 +148,21 @@
             "taxonomy_id": null,
             "shipping_profile_id": null,
             "is_digital": false,
-            "tags": [],
+            "tags": [
+              "floating",
+              "frog",
+              "swim",
+              "ring",
+              "resin",
+              "aquarium",
+              "ornament",
+              "fish",
+              "tank",
+              "decor",
+              "water",
+              "surface",
+              "accessory"
+            ],
             "materials": [],
             "state": "draft"
           }
@@ -197,7 +173,7 @@
           "payload_preview": {
             "sku": "CJTD295796801AZ",
             "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surfa",
-            "description": "<h2>Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory</h2><p>COMPACT SIZE: Measures 5.3 x 4.2 x 2.1 inches and weighs just 0.23 lbs, fitting tanks of various sizes without crowding swimming space. PET-SAFE MATERIAL: Crafted from premium resin that will not fade or leach harmful substances, keeping your aquatic habitat safe and vibrant. FLOATS ON WATER SURFACE: Perfectly balanced to bob gently on the water, creating dynamic movement and a relaxing vacation atmosphere in your tank. VERSATILE USE: Great for indoor fish tanks, outdoor water gardens, terrariums, and tabletop fountains for a whimsical touch. CHARMING DESIGN: Adorable resin frog lounging on a swim ring brings a playful summer vibe to any aquarium or pond.</p><ul><li>Condition: New</li><li>Fulfillment: Dropshipping after paid order</li><li>SKU: CJTD295796801AZ</li></ul>",
+            "description": "<h2>Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory</h2><p>Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations. Price: GBP 16.78.</p><ul><li>Condition: New</li><li>Fulfillment: Dropshipping after paid order</li><li>SKU: CJTD295796801AZ</li></ul>",
             "price": 16.78,
             "currency": "GBP",
             "condition": "NEW",
@@ -215,7 +191,7 @@
             "name": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
             "type": "simple",
             "regular_price": "16.78",
-            "description": "COMPACT SIZE: Measures 5.3 x 4.2 x 2.1 inches and weighs just 0.23 lbs, fitting tanks of various sizes without crowding swimming space. PET-SAFE MATERIAL: Crafted from premium resin that will not fade or leach harmful substances, keeping your aquatic habitat safe and vibrant. FLOATS ON WATER SURFACE: Perfectly balanced to bob gently on the water, creating dynamic movement and a relaxing vacation atmosphere in your tank. VERSATILE USE: Great for indoor fish tanks, outdoor water gardens, terrariums, and tabletop fountains for a whimsical touch. CHARMING DESIGN: Adorable resin frog lounging on a swim ring brings a playful summer vibe to any aquarium or pond.",
+            "description": "Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations. Price: GBP 16.78.",
             "sku": "CJTD295796801AZ",
             "images": [
               {
@@ -223,7 +199,7 @@
               }
             ],
             "slug": "floating-frog-on-swim-ring-resin-aquarium-ornament-fish-tank-decor-water-surface",
-            "short_description": "COMPACT SIZE: Measures 5.3 x 4.2 x 2.1 inches and weighs just 0.23 lbs, fitting tanks of various sizes without crowding swimming space. PET-SAFE MATERIAL: Crafted from premium resin that will not fade or leach harmful substances, keeping your aquatic habitat safe and vibrant. FLOATS ON WATER SURFACE",
+            "short_description": "Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient ",
             "categories": [
               {
                 "name": "Pet Supplies"
@@ -255,37 +231,18 @@
       "sku": "CJNS295299502BY",
       "mode": "DRY_RUN",
       "status": "planned",
-      "created_at": "2026-06-29T22:34:34.924661+00:00",
+      "created_at": "2026-06-30T13:26:59.150512+00:00",
       "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
       "price": 90.5,
       "channels": {
         "shopify": {
           "enabled": true,
-          "status": "ready_for_publish",
-          "payload_preview": {
-            "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
-            "body_html": "<p>Spec Name Item Number Product Dimension (L×W×H) Product Weight Package Dimension (L×W×H) Package Weight Dark gray/20in ZHUMI-XLX-20IN-DGY 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g olive green/20in ZHUMI-XLX-20IN-OGN 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g light gray/20in ZHUMI-XLX-20IN-LGY 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g Dark gray/24in ZHUMI-XLX-24IN-DGY 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g olive green/24in ZHUMI-XLX-24IN-OGN 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g light gray/24in ZHUMI-XLX-24IN-LGY 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g Dark gray/28in ZHUMI-XLX-28IN-DGY 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g olive green/28in ZHUMI-XLX-28IN-OGN 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g light gray/28in ZHUMI-XLX-28IN-LGY 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g Dark gray/3p ZHUMI-XLX-TZ2048IN-3P-DGY 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g olive green/3p ZHUMI-XLX-TZ2048IN-3P-OGN 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g light gray/3p ZHUMI-XLX-TZ2048IN-3P-LGY 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g This luggage is the perfect travel companion for any trip. With its durable ABS material construction, this suitcase is tough and scratch-resistant, ensuring long-lasting performance. The 360-degree swivel wheels allow for smooth and quiet movement on any surface, while the retractable trolley bar makes maneuvering a breeze. The divided inte</p>",
-            "vendor": "AICommerce",
-            "product_type": "Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags",
+          "status": "skipped_already_exists",
+          "existing": {
+            "product_id": 10920846426454,
+            "product_url": null,
             "status": "draft",
-            "variants": [
-              {
-                "sku": "CJNS295299502BY",
-                "price": "90.5",
-                "inventory_policy": "continue",
-                "fulfillment_service": "manual"
-              }
-            ],
-            "images": [
-              {
-                "src": "https://cf.cjdropshipping.com/c14256af-9da9-4423-b8eb-b3644663e796.jpg"
-              }
-            ],
-            "tags": "",
-            "seo": {
-              "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight A",
-              "description": "Spec Name Item Number Product Dimension (L×W×H) Product Weight Package Dimension (L×W×H) Package Weight Dark gray/20in ZHUMI-XLX-20IN-DGY 379.98 × 240.03 × 570."
-            }
+            "published_at": "2026-06-29T22:38:15.690158+00:00"
           }
         },
         "etsy": {
@@ -293,7 +250,7 @@
           "status": "ready_for_publish",
           "payload_preview": {
             "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
-            "description": "Spec Name Item Number Product Dimension (L×W×H) Product Weight Package Dimension (L×W×H) Package Weight Dark gray/20in ZHUMI-XLX-20IN-DGY 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g olive green/20in ZHUMI-XLX-20IN-OGN 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g light gray/20in ZHUMI-XLX-20IN-LGY 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g Dark gray/24in ZHUMI-XLX-24IN-DGY 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g olive green/24in ZHUMI-XLX-24IN-OGN 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g light gray/24in ZHUMI-XLX-24IN-LGY 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g Dark gray/28in ZHUMI-XLX-28IN-DGY 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g olive green/28in ZHUMI-XLX-28IN-OGN 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g light gray/28in ZHUMI-XLX-28IN-LGY 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g Dark gray/3p ZHUMI-XLX-TZ2048IN-3P-DGY 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g olive green/3p ZHUMI-XLX-TZ2048IN-3P-OGN 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g light gray/3p ZHUMI-XLX-TZ2048IN-3P-LGY 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g This luggage is the perfect travel companion for any trip. With its durable ABS material construction, this suitcase is tough and scratch-resistant, ensuring long-lasting performance. The 360-degree swivel wheels allow for smooth and quiet movement on any surface, while the retractable trolley bar makes maneuvering a breeze. The divided inte",
+            "description": "Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags. Price: GBP 90.5.",
             "price": 90.5,
             "quantity": 999,
             "who_made": "i_did",
@@ -301,7 +258,21 @@
             "taxonomy_id": null,
             "shipping_profile_id": null,
             "is_digital": false,
-            "tags": [],
+            "tags": [
+              "hard",
+              "shell",
+              "carry",
+              "suitcase",
+              "abs",
+              "spinner",
+              "wheel",
+              "luggage",
+              "lightweight",
+              "and",
+              "expandable",
+              "rolling",
+              "travel"
+            ],
             "materials": [],
             "state": "draft"
           }
@@ -312,7 +283,7 @@
           "payload_preview": {
             "sku": "CJNS295299502BY",
             "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expanda",
-            "description": "<h2>Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag</h2><p>Spec Name Item Number Product Dimension (L×W×H) Product Weight Package Dimension (L×W×H) Package Weight Dark gray/20in ZHUMI-XLX-20IN-DGY 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g olive green/20in ZHUMI-XLX-20IN-OGN 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g light gray/20in ZHUMI-XLX-20IN-LGY 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g Dark gray/24in ZHUMI-XLX-24IN-DGY 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g olive green/24in ZHUMI-XLX-24IN-OGN 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g light gray/24in ZHUMI-XLX-24IN-LGY 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g Dark gray/28in ZHUMI-XLX-28IN-DGY 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g olive green/28in ZHUMI-XLX-28IN-OGN 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g light gray/28in ZHUMI-XLX-28IN-LGY 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g Dark gray/3p ZHUMI-XLX-TZ2048IN-3P-DGY 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g olive green/3p ZHUMI-XLX-TZ2048IN-3P-OGN 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g light gray/3p ZHUMI-XLX-TZ2048IN-3P-LGY 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g This luggage is the perfect travel companion for any trip. With its durable ABS material construction, this suitcase is tough and scratch-resistant, ensuring long-lasting performance. The 360-degree swivel wheels allow for smooth and quiet movement on any surface, while the retractable trolley bar makes maneuvering a breeze. The divided inte</p><ul><li>Condition: New</li><li>Fulfillment: Dropshipping after paid order</li><li>SKU: CJNS295299502BY</li></ul>",
+            "description": "<h2>Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag</h2><p>Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags. Price: GBP 90.5.</p><ul><li>Condition: New</li><li>Fulfillment: Dropshipping after paid order</li><li>SKU: CJNS295299502BY</li></ul>",
             "price": 90.5,
             "currency": "GBP",
             "condition": "NEW",
@@ -330,7 +301,7 @@
             "name": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
             "type": "simple",
             "regular_price": "90.5",
-            "description": "Spec Name Item Number Product Dimension (L×W×H) Product Weight Package Dimension (L×W×H) Package Weight Dark gray/20in ZHUMI-XLX-20IN-DGY 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g olive green/20in ZHUMI-XLX-20IN-OGN 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g light gray/20in ZHUMI-XLX-20IN-LGY 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g Dark gray/24in ZHUMI-XLX-24IN-DGY 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g olive green/24in ZHUMI-XLX-24IN-OGN 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g light gray/24in ZHUMI-XLX-24IN-LGY 439.93 × 275.08 × 670.05 mm 3528.95 g 449.83 × 289.81 × 699.77 mm 4926.01 g Dark gray/28in ZHUMI-XLX-28IN-DGY 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g olive green/28in ZHUMI-XLX-28IN-OGN 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g light gray/28in ZHUMI-XLX-28IN-LGY 500.13 × 305.05 × 769.87 mm 4299.06 g 509.78 × 319.79 × 799.85 mm 6096.28 g Dark gray/3p ZHUMI-XLX-TZ2048IN-3P-DGY 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g olive green/3p ZHUMI-XLX-TZ2048IN-3P-OGN 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g light gray/3p ZHUMI-XLX-TZ2048IN-3P-LGY 500.13 × 305.05 × 769.87 mm 10599.45 g 509.78 × 319.79 × 799.85 mm 12596.26 g This luggage is the perfect travel companion for any trip. With its durable ABS material construction, this suitcase is tough and scratch-resistant, ensuring long-lasting performance. The 360-degree swivel wheels allow for smooth and quiet movement on any surface, while the retractable trolley bar makes maneuvering a breeze. The divided inte",
+            "description": "Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags. Price: GBP 90.5.",
             "sku": "CJNS295299502BY",
             "images": [
               {
@@ -338,7 +309,7 @@
               }
             ],
             "slug": "hard-shell-carry-on-suitcase-abs-spinner-wheel-luggage-lightweight-and-expandabl",
-            "short_description": "Spec Name Item Number Product Dimension (L×W×H) Product Weight Package Dimension (L×W×H) Package Weight Dark gray/20in ZHUMI-XLX-20IN-DGY 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254.76 × 600.05 mm 3937.18 g olive green/20in ZHUMI-XLX-20IN-OGN 379.98 × 240.03 × 570.08 mm 2912.06 g 389.89 × 254",
+            "short_description": "Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and c",
             "categories": [
               {
                 "name": "Bags & Shoes"
@@ -370,37 +341,18 @@
       "sku": "CJQQ294934201AZ",
       "mode": "DRY_RUN",
       "status": "planned",
-      "created_at": "2026-06-29T22:34:34.924661+00:00",
+      "created_at": "2026-06-30T13:26:59.150512+00:00",
       "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
       "price": 11.98,
       "channels": {
         "shopify": {
           "enabled": true,
-          "status": "ready_for_publish",
-          "payload_preview": {
-            "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
-            "body_html": "<p>Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl</p>",
-            "vendor": "AICommerce",
-            "product_type": "Men's Clothing / Novelty & Special Use / Exotic Apparel",
+          "status": "skipped_already_exists",
+          "existing": {
+            "product_id": 10920846491990,
+            "product_url": null,
             "status": "draft",
-            "variants": [
-              {
-                "sku": "CJQQ294934201AZ",
-                "price": "11.98",
-                "inventory_policy": "continue",
-                "fulfillment_service": "manual"
-              }
-            ],
-            "images": [
-              {
-                "src": "https://cf.cjdropshipping.com/43ae5c07-ee90-4ac4-b196-737798712fad.jpg"
-              }
-            ],
-            "tags": "",
-            "seo": {
-              "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underw",
-              "description": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl"
-            }
+            "published_at": "2026-06-29T22:38:18.479982+00:00"
           }
         },
         "etsy": {
@@ -408,7 +360,7 @@
           "status": "ready_for_publish",
           "payload_preview": {
             "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
-            "description": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
+            "description": "Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Men's Clothing / Novelty & Special Use / Exotic Apparel. Price: GBP 11.98.",
             "price": 11.98,
             "quantity": 999,
             "who_made": "i_did",
@@ -416,7 +368,21 @@
             "taxonomy_id": null,
             "shipping_profile_id": null,
             "is_digital": false,
-            "tags": [],
+            "tags": [
+              "men",
+              "disposable",
+              "beltless",
+              "underwear",
+              "soft",
+              "and",
+              "breathable",
+              "sports",
+              "suitable",
+              "for",
+              "gym",
+              "travel",
+              "spa"
+            ],
             "materials": [],
             "state": "draft"
           }
@@ -427,7 +393,7 @@
           "payload_preview": {
             "sku": "CJQQ294934201AZ",
             "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suita",
-            "description": "<h2>Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl</h2><p>Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl</p><ul><li>Condition: New</li><li>Fulfillment: Dropshipping after paid order</li><li>SKU: CJQQ294934201AZ</li></ul>",
+            "description": "<h2>Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl</h2><p>Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Men's Clothing / Novelty & Special Use / Exotic Apparel. Price: GBP 11.98.</p><ul><li>Condition: New</li><li>Fulfillment: Dropshipping after paid order</li><li>SKU: CJQQ294934201AZ</li></ul>",
             "price": 11.98,
             "currency": "GBP",
             "condition": "NEW",
@@ -445,7 +411,7 @@
             "name": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
             "type": "simple",
             "regular_price": "11.98",
-            "description": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
+            "description": "Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Men's Clothing / Novelty & Special Use / Exotic Apparel. Price: GBP 11.98.",
             "sku": "CJQQ294934201AZ",
             "images": [
               {
@@ -453,10 +419,125 @@
               }
             ],
             "slug": "men-s-disposable-beltless-underwear-soft-and-breathable-sports-underwear-suitabl",
-            "short_description": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
+            "short_description": "Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for custome",
             "categories": [
               {
                 "name": "Men's Clothing"
+              }
+            ],
+            "attributes": [
+              {
+                "name": "Supplier",
+                "options": [
+                  "cj"
+                ]
+              },
+              {
+                "name": "Fulfillment",
+                "options": [
+                  "Dropshipping after paid order"
+                ]
+              }
+            ]
+          }
+        },
+        "amazon": {
+          "enabled": false,
+          "status": "skipped_disabled"
+        }
+      }
+    },
+    {
+      "sku": "CJYD293726901AZ",
+      "mode": "DRY_RUN",
+      "status": "planned",
+      "created_at": "2026-06-30T13:26:59.150512+00:00",
+      "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+      "price": 11.76,
+      "channels": {
+        "shopify": {
+          "enabled": true,
+          "status": "ready_for_publish",
+          "payload_preview": {
+            "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+            "body_html": "<p>Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod: None Material: Other Dimensions: 65 cm long × 65 cm high × 22 cm wide, 69 cm long × 38 cm high × 35 cm wide, 74 cm long × 33 cm high × 36 cm wide, 74 cm long × 37 cm high × 35 cm wide, 72 cm long × 30 cm high × 35 cm wide Trendy elements: Weaving, other Style: Urban minimalism Capacity: 56–75 L Packing list: Storage bag*1 Product Image:</p>",
+            "vendor": "AICommerce",
+            "product_type": "Bags & Shoes > Women's Luggage & Bags > Totes",
+            "status": "draft",
+            "variants": [
+              {
+                "sku": "CJYD293726901AZ",
+                "price": "11.76",
+                "inventory_policy": "continue",
+                "fulfillment_service": "manual"
+              }
+            ],
+            "images": [
+              {
+                "src": "https://cf.cjdropshipping.com/quick/product/dfa89650-3f41-4fa7-af51-38fc5d73f799.jpg"
+              }
+            ],
+            "tags": "",
+            "seo": {
+              "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+              "description": "Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod"
+            }
+          }
+        },
+        "etsy": {
+          "enabled": true,
+          "status": "ready_for_publish",
+          "payload_preview": {
+            "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+            "description": "Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod: None Material: Other Dimensions: 65 cm long × 65 cm high × 22 cm wide, 69 cm long × 38 cm high × 35 cm wide, 74 cm long × 33 cm high × 36 cm wide, 74 cm long × 37 cm high × 35 cm wide, 72 cm long × 30 cm high × 35 cm wide Trendy elements: Weaving, other Style: Urban minimalism Capacity: 56–75 L Packing list: Storage bag*1 Product Image:",
+            "price": 11.76,
+            "quantity": 999,
+            "who_made": "i_did",
+            "when_made": "made_to_order",
+            "taxonomy_id": null,
+            "shipping_profile_id": null,
+            "is_digital": false,
+            "tags": [],
+            "materials": [],
+            "state": "draft"
+          }
+        },
+        "ebay": {
+          "enabled": true,
+          "status": "ready_for_publish",
+          "payload_preview": {
+            "sku": "CJYD293726901AZ",
+            "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+            "description": "<h2>Thickened Large Capacity Foldable Travel Moving Storage Bag</h2><p>Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod: None Material: Other Dimensions: 65 cm long × 65 cm high × 22 cm wide, 69 cm long × 38 cm high × 35 cm wide, 74 cm long × 33 cm high × 36 cm wide, 74 cm long × 37 cm high × 35 cm wide, 72 cm long × 30 cm high × 35 cm wide Trendy elements: Weaving, other Style: Urban minimalism Capacity: 56–75 L Packing list: Storage bag*1 Product Image:</p><ul><li>Condition: New</li><li>Fulfillment: Dropshipping after paid order</li><li>SKU: CJYD293726901AZ</li></ul>",
+            "price": 11.76,
+            "currency": "GBP",
+            "condition": "NEW",
+            "item_specifics": {
+              "Brand": "Unbranded",
+              "Condition": "New",
+              "Type": "Bags & Shoes > Women's Luggage & Bags > Totes"
+            }
+          }
+        },
+        "woocommerce": {
+          "enabled": true,
+          "status": "ready_for_publish",
+          "payload_preview": {
+            "name": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+            "type": "simple",
+            "regular_price": "11.76",
+            "description": "Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod: None Material: Other Dimensions: 65 cm long × 65 cm high × 22 cm wide, 69 cm long × 38 cm high × 35 cm wide, 74 cm long × 33 cm high × 36 cm wide, 74 cm long × 37 cm high × 35 cm wide, 72 cm long × 30 cm high × 35 cm wide Trendy elements: Weaving, other Style: Urban minimalism Capacity: 56–75 L Packing list: Storage bag*1 Product Image:",
+            "sku": "CJYD293726901AZ",
+            "images": [
+              {
+                "src": "https://cf.cjdropshipping.com/quick/product/dfa89650-3f41-4fa7-af51-38fc5d73f799.jpg"
+              }
+            ],
+            "slug": "thickened-large-capacity-foldable-travel-moving-storage-bag",
+            "short_description": "Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod: None Material: Other Dimensions: 65 cm long × 65 cm high × 22 cm wide, 69 cm long × 38 cm high × 35 cm wide, 74 cm long × 33 cm high × 36 ",
+            "categories": [
+              {
+                "name": "Bags & Shoes > Women's Luggage & Bags > Totes"
               }
             ],
             "attributes": [

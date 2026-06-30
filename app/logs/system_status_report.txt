@@ -1,6 +1,6 @@
 AICommerce System Status Report
 ========================================
-Created at: 2026-06-29T18:59:26.535867+00:00
+Created at: 2026-06-30T13:27:01.609613+00:00
 
 Core:
 - MASTER_SYSTEM_HEALTHY_SAFE_MODE
@@ -22,7 +22,7 @@ Google:
 
 
 Etsy:
-- ETSY_WAITING_PERSONAL_APPROVAL_OR_OAUTH
+- ETSY_READY
 - autopilot: ETSY_ACTIVE
 Amazon:
 - AMAZON_PARTIAL_CONNECTED_WAITING_AUTHORIZATION
@@ -51,7 +51,7 @@ Action executor:
 Last autopilot steps:
 - live_execution_reporter: OK
 - live_mode_final_lock: OK
-- meta_long_lived_token: ERROR
+- meta_long_lived_token: SKIPPED_MODULE_MISSING
 - meta_live_executor: OK
 - google_live_executor: OK
 - live_execution_consolidator: OK

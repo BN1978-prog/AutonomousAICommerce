@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-29T22:14:37.093944+00:00",
+  "created_at": "2026-06-30T13:26:58.625346+00:00",
   "status": "SEO_CONTENT_GENERATED",
-  "updated": 1,
+  "updated": 4,
   "results": [
     {
       "sku": "CJQC294920701AZ",
@@ -22,6 +22,66 @@
         "rear"
       ],
       "description_length": 672
+    },
+    {
+      "sku": "CJTD295796801AZ",
+      "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
+      "tags": [
+        "floating",
+        "frog",
+        "swim",
+        "ring",
+        "resin",
+        "aquarium",
+        "ornament",
+        "fish",
+        "tank",
+        "decor",
+        "water",
+        "surface",
+        "accessory"
+      ],
+      "description_length": 616
+    },
+    {
+      "sku": "CJNS295299502BY",
+      "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
+      "tags": [
+        "hard",
+        "shell",
+        "carry",
+        "suitcase",
+        "abs",
+        "spinner",
+        "wheel",
+        "luggage",
+        "lightweight",
+        "and",
+        "expandable",
+        "rolling",
+        "travel"
+      ],
+      "description_length": 626
+    },
+    {
+      "sku": "CJQQ294934201AZ",
+      "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
+      "tags": [
+        "men",
+        "disposable",
+        "beltless",
+        "underwear",
+        "soft",
+        "and",
+        "breathable",
+        "sports",
+        "suitable",
+        "for",
+        "gym",
+        "travel",
+        "spa"
+      ],
+      "description_length": 661
     }
   ],
   "note": "Generated local SEO content only. No marketplace publishing performed."

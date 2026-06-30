@@ -2,7 +2,7 @@
   "CJQC294920701AZ": {
     "sku": "CJQC294920701AZ",
     "status": "listing_draft_ready",
-    "created_at": "2026-06-29T22:04:39.306838+00:00",
+    "created_at": "2026-06-30T13:26:58.743347+00:00",
     "title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Au",
     "description": "Upgrade your everyday routine with Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Auto Interior Accessor. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Automobiles & Motorcycles / Auto Replacement Parts / Interior Parts. Price: GBP 47.5.",
     "tags": [
@@ -43,7 +43,12 @@
       "amazon": false
     },
     "channels": {
-      "shopify": {},
+      "shopify": {
+        "product_id": 10920846295382,
+        "product_url": null,
+        "status": "draft",
+        "published_at": "2026-06-29T22:38:09.301218+00:00"
+      },
       "etsy": {},
       "ebay": {},
       "woocommerce": {},
@@ -150,8 +155,8 @@
             "src": "https://cf.cjdropshipping.com/c17cbd93-0ade-4972-9efc-73e638e160fd.jpg"
           }
         ],
-        "short_description": "Upgrade your everyday routine with Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Auto Interior Accessor. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for custome",
         "slug": "universal-multi-functional-car-leather-storage-organizer-kids-seat-back-kick-mat",
+        "short_description": "Upgrade your everyday routine with Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Auto Interior Accessor. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for custome",
         "categories": [
           {
             "name": "Automobiles & Motorcycles"
@@ -176,25 +181,722 @@
         "sku": "CJQC294920701AZ",
         "title": "Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Au",
         "price": 47.5,
-        "status": "not_enabled",
-        "description": "Upgrade your everyday routine with Universal Multi-Functional Car Leather Storage Organizer, Kids Seat Back Kick Mat, Car Rear Seat Hanging Storage Bag, Auto Interior Accessor. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Automobiles & Motorcycles / Auto Replacement Parts / Interior Parts. Price: GBP 47.5.",
-        "keywords": [
-          "universal",
-          "multi",
-          "functional",
-          "car",
-          "leather",
-          "storage",
-          "organizer",
-          "kids",
-          "seat",
-          "back",
-          "kick",
-          "mat",
-          "rear"
-        ]
+        "status": "not_enabled"
       }
     },
-    "marketplace_optimized_at": "2026-06-29T22:18:45.431841+00:00"
+    "marketplace_optimized_at": "2026-06-30T13:26:58.871924+00:00"
+  },
+  "CJTD295796801AZ": {
+    "sku": "CJTD295796801AZ",
+    "status": "listing_draft_ready",
+    "created_at": "2026-06-30T13:26:58.743347+00:00",
+    "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
+    "description": "Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations. Price: GBP 16.78.",
+    "tags": [
+      "floating",
+      "frog",
+      "swim",
+      "ring",
+      "resin",
+      "aquarium",
+      "ornament",
+      "fish",
+      "tank",
+      "decor",
+      "water",
+      "surface",
+      "accessory"
+    ],
+    "image": "https://cf.cjdropshipping.com/53d62f57-9c6b-4e63-8199-aec0650bd9d7.jpg",
+    "images": [
+      "https://cf.cjdropshipping.com/53d62f57-9c6b-4e63-8199-aec0650bd9d7.jpg"
+    ],
+    "price": 16.78,
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_product_id": "2070783384532987905",
+    "supplier_variant_id": "2070783384616873985",
+    "supplier_cost": 4.0,
+    "shipping_cost": 2.99,
+    "estimated_profit": 9.79,
+    "margin_percent": 58.34,
+    "weight": "200",
+    "category_name": "Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10920846360918,
+        "product_url": null,
+        "status": "draft",
+        "published_at": "2026-06-29T22:38:12.329928+00:00"
+      },
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "risk": {
+      "product_score": 80,
+      "tier": "A",
+      "flags": [
+        "bulky_keyword"
+      ],
+      "reasons": [
+        "acceptable_profit",
+        "strong_margin",
+        "safe_price_range",
+        "lightweight",
+        "good_product_type",
+        "real_cj_mapping"
+      ]
+    },
+    "fulfillment": {
+      "mode": "dropshipping_after_paid_order",
+      "auto_purchase_enabled": false,
+      "requires_paid_order": true,
+      "supplier": "cj",
+      "cj_product_id": "2070783384532987905",
+      "cj_variant_id": "2070783384616873985"
+    },
+    "marketplace_payloads": {
+      "shopify": {
+        "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
+        "body_html": "<p>Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations. Price: GBP 16.78.</p>",
+        "vendor": "AICommerce",
+        "product_type": "Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations",
+        "status": "draft",
+        "variants": [
+          {
+            "sku": "CJTD295796801AZ",
+            "price": "16.78",
+            "inventory_policy": "continue",
+            "fulfillment_service": "manual"
+          }
+        ],
+        "images": [
+          {
+            "src": "https://cf.cjdropshipping.com/53d62f57-9c6b-4e63-8199-aec0650bd9d7.jpg"
+          }
+        ],
+        "tags": "floating, frog, swim, ring, resin, aquarium, ornament, fish, tank, decor, water, surface, accessory",
+        "seo": {
+          "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, W",
+          "description": "Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for pr"
+        }
+      },
+      "etsy": {
+        "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
+        "description": "Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations. Price: GBP 16.78.",
+        "price": 16.78,
+        "quantity": 999,
+        "who_made": "i_did",
+        "when_made": "made_to_order",
+        "taxonomy_id": null,
+        "shipping_profile_id": null,
+        "is_digital": false,
+        "tags": [
+          "floating",
+          "frog",
+          "swim",
+          "ring",
+          "resin",
+          "aquarium",
+          "ornament",
+          "fish",
+          "tank",
+          "decor",
+          "water",
+          "surface",
+          "accessory"
+        ],
+        "materials": [],
+        "state": "draft"
+      },
+      "ebay": {
+        "sku": "CJTD295796801AZ",
+        "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surfa",
+        "description": "<h2>Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory</h2><p>Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations. Price: GBP 16.78.</p><ul><li>Condition: New</li><li>Fulfillment: Dropshipping after paid order</li><li>SKU: CJTD295796801AZ</li></ul>",
+        "price": 16.78,
+        "currency": "GBP",
+        "condition": "NEW",
+        "item_specifics": {
+          "Brand": "Unbranded",
+          "Condition": "New",
+          "Type": "Fish Tank Decorations"
+        }
+      },
+      "woocommerce": {
+        "name": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
+        "type": "simple",
+        "regular_price": "16.78",
+        "description": "Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Pet Supplies / Fish & Aquatic Pets / Fish Tank Decorations. Price: GBP 16.78.",
+        "sku": "CJTD295796801AZ",
+        "images": [
+          {
+            "src": "https://cf.cjdropshipping.com/53d62f57-9c6b-4e63-8199-aec0650bd9d7.jpg"
+          }
+        ],
+        "slug": "floating-frog-on-swim-ring-resin-aquarium-ornament-fish-tank-decor-water-surface",
+        "short_description": "Upgrade your everyday routine with Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient ",
+        "categories": [
+          {
+            "name": "Pet Supplies"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "Supplier",
+            "options": [
+              "cj"
+            ]
+          },
+          {
+            "name": "Fulfillment",
+            "options": [
+              "Dropshipping after paid order"
+            ]
+          }
+        ]
+      },
+      "amazon": {
+        "sku": "CJTD295796801AZ",
+        "title": "Floating Frog On Swim Ring Resin Aquarium Ornament, Fish Tank Decor, Water Surface Accessory",
+        "price": 16.78,
+        "status": "not_enabled"
+      }
+    },
+    "marketplace_optimized_at": "2026-06-30T13:26:58.871924+00:00"
+  },
+  "CJNS295299502BY": {
+    "sku": "CJNS295299502BY",
+    "status": "listing_draft_ready",
+    "created_at": "2026-06-30T13:26:58.743347+00:00",
+    "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
+    "description": "Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags. Price: GBP 90.5.",
+    "tags": [
+      "hard",
+      "shell",
+      "carry",
+      "suitcase",
+      "abs",
+      "spinner",
+      "wheel",
+      "luggage",
+      "lightweight",
+      "and",
+      "expandable",
+      "rolling",
+      "travel"
+    ],
+    "image": "https://cf.cjdropshipping.com/c14256af-9da9-4423-b8eb-b3644663e796.jpg",
+    "images": [
+      "https://cf.cjdropshipping.com/c14256af-9da9-4423-b8eb-b3644663e796.jpg"
+    ],
+    "price": 90.5,
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_product_id": "2069707031650430978",
+    "supplier_variant_id": "2069707032170524675",
+    "supplier_cost": 37.71,
+    "shipping_cost": 2.99,
+    "estimated_profit": 49.8,
+    "margin_percent": 55.03,
+    "weight": "3937-12596",
+    "category_name": "Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10920846426454,
+        "product_url": null,
+        "status": "draft",
+        "published_at": "2026-06-29T22:38:15.690158+00:00"
+      },
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "risk": {
+      "product_score": 85,
+      "tier": "A",
+      "flags": [
+        "bulky_keyword"
+      ],
+      "reasons": [
+        "high_profit",
+        "strong_margin",
+        "safe_price_range",
+        "good_product_type",
+        "real_cj_mapping"
+      ]
+    },
+    "fulfillment": {
+      "mode": "dropshipping_after_paid_order",
+      "auto_purchase_enabled": false,
+      "requires_paid_order": true,
+      "supplier": "cj",
+      "cj_product_id": "2069707031650430978",
+      "cj_variant_id": "2069707032170524675"
+    },
+    "marketplace_payloads": {
+      "shopify": {
+        "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
+        "body_html": "<p>Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags. Price: GBP 90.5.</p>",
+        "vendor": "AICommerce",
+        "product_type": "Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags",
+        "status": "draft",
+        "variants": [
+          {
+            "sku": "CJNS295299502BY",
+            "price": "90.5",
+            "inventory_policy": "continue",
+            "fulfillment_service": "manual"
+          }
+        ],
+        "images": [
+          {
+            "src": "https://cf.cjdropshipping.com/c14256af-9da9-4423-b8eb-b3644663e796.jpg"
+          }
+        ],
+        "tags": "hard, shell, carry, suitcase, abs, spinner, wheel, luggage, lightweight, and, expandable, rolling, travel",
+        "seo": {
+          "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight A",
+          "description": "Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selec"
+        }
+      },
+      "etsy": {
+        "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
+        "description": "Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags. Price: GBP 90.5.",
+        "price": 90.5,
+        "quantity": 999,
+        "who_made": "i_did",
+        "when_made": "made_to_order",
+        "taxonomy_id": null,
+        "shipping_profile_id": null,
+        "is_digital": false,
+        "tags": [
+          "hard",
+          "shell",
+          "carry",
+          "suitcase",
+          "abs",
+          "spinner",
+          "wheel",
+          "luggage",
+          "lightweight",
+          "and",
+          "expandable",
+          "rolling",
+          "travel"
+        ],
+        "materials": [],
+        "state": "draft"
+      },
+      "ebay": {
+        "sku": "CJNS295299502BY",
+        "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expanda",
+        "description": "<h2>Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag</h2><p>Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags. Price: GBP 90.5.</p><ul><li>Condition: New</li><li>Fulfillment: Dropshipping after paid order</li><li>SKU: CJNS295299502BY</li></ul>",
+        "price": 90.5,
+        "currency": "GBP",
+        "condition": "NEW",
+        "item_specifics": {
+          "Brand": "Unbranded",
+          "Condition": "New",
+          "Type": "Luggage & Travel Bags"
+        }
+      },
+      "woocommerce": {
+        "name": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
+        "type": "simple",
+        "regular_price": "90.5",
+        "description": "Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Bags & Shoes / Men's Luggage & Bags / Luggage & Travel Bags. Price: GBP 90.5.",
+        "sku": "CJNS295299502BY",
+        "images": [
+          {
+            "src": "https://cf.cjdropshipping.com/c14256af-9da9-4423-b8eb-b3644663e796.jpg"
+          }
+        ],
+        "slug": "hard-shell-carry-on-suitcase-abs-spinner-wheel-luggage-lightweight-and-expandabl",
+        "short_description": "Upgrade your everyday routine with Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and c",
+        "categories": [
+          {
+            "name": "Bags & Shoes"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "Supplier",
+            "options": [
+              "cj"
+            ]
+          },
+          {
+            "name": "Fulfillment",
+            "options": [
+              "Dropshipping after paid order"
+            ]
+          }
+        ]
+      },
+      "amazon": {
+        "sku": "CJNS295299502BY",
+        "title": "Hard Shell Carry On Suitcase, ABS Spinner Wheel Luggage, Lightweight And Expandable Rolling Travel Bag",
+        "price": 90.5,
+        "status": "not_enabled"
+      }
+    },
+    "marketplace_optimized_at": "2026-06-30T13:26:58.871924+00:00"
+  },
+  "CJQQ294934201AZ": {
+    "sku": "CJQQ294934201AZ",
+    "status": "listing_draft_ready",
+    "created_at": "2026-06-30T13:26:58.743347+00:00",
+    "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
+    "description": "Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Men's Clothing / Novelty & Special Use / Exotic Apparel. Price: GBP 11.98.",
+    "tags": [
+      "men",
+      "disposable",
+      "beltless",
+      "underwear",
+      "soft",
+      "and",
+      "breathable",
+      "sports",
+      "suitable",
+      "for",
+      "gym",
+      "travel",
+      "spa"
+    ],
+    "image": "https://cf.cjdropshipping.com/43ae5c07-ee90-4ac4-b196-737798712fad.jpg",
+    "images": [
+      "https://cf.cjdropshipping.com/43ae5c07-ee90-4ac4-b196-737798712fad.jpg"
+    ],
+    "price": 11.98,
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_product_id": "2068895565283766273",
+    "supplier_variant_id": "2068895565405401089",
+    "supplier_cost": 2.0,
+    "shipping_cost": 2.99,
+    "estimated_profit": 6.99,
+    "margin_percent": 58.35,
+    "weight": "210-1960",
+    "category_name": "Men's Clothing / Novelty & Special Use / Exotic Apparel",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {
+        "product_id": 10920846491990,
+        "product_url": null,
+        "status": "draft",
+        "published_at": "2026-06-29T22:38:18.479982+00:00"
+      },
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "risk": {
+      "product_score": 65,
+      "tier": "B",
+      "flags": [
+        "bulky_keyword"
+      ],
+      "reasons": [
+        "acceptable_profit",
+        "strong_margin",
+        "safe_price_range",
+        "good_product_type",
+        "real_cj_mapping"
+      ]
+    },
+    "fulfillment": {
+      "mode": "dropshipping_after_paid_order",
+      "auto_purchase_enabled": false,
+      "requires_paid_order": true,
+      "supplier": "cj",
+      "cj_product_id": "2068895565283766273",
+      "cj_variant_id": "2068895565405401089"
+    },
+    "marketplace_payloads": {
+      "shopify": {
+        "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
+        "body_html": "<p>Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Men's Clothing / Novelty & Special Use / Exotic Apparel. Price: GBP 11.98.</p>",
+        "vendor": "AICommerce",
+        "product_type": "Men's Clothing / Novelty & Special Use / Exotic Apparel",
+        "status": "draft",
+        "variants": [
+          {
+            "sku": "CJQQ294934201AZ",
+            "price": "11.98",
+            "inventory_policy": "continue",
+            "fulfillment_service": "manual"
+          }
+        ],
+        "images": [
+          {
+            "src": "https://cf.cjdropshipping.com/43ae5c07-ee90-4ac4-b196-737798712fad.jpg"
+          }
+        ],
+        "tags": "men, disposable, beltless, underwear, soft, and, breathable, sports, suitable, for, gym, travel, spa",
+        "seo": {
+          "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underw",
+          "description": "Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Pac"
+        }
+      },
+      "etsy": {
+        "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
+        "description": "Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Men's Clothing / Novelty & Special Use / Exotic Apparel. Price: GBP 11.98.",
+        "price": 11.98,
+        "quantity": 999,
+        "who_made": "i_did",
+        "when_made": "made_to_order",
+        "taxonomy_id": null,
+        "shipping_profile_id": null,
+        "is_digital": false,
+        "tags": [
+          "men",
+          "disposable",
+          "beltless",
+          "underwear",
+          "soft",
+          "and",
+          "breathable",
+          "sports",
+          "suitable",
+          "for",
+          "gym",
+          "travel",
+          "spa"
+        ],
+        "materials": [],
+        "state": "draft"
+      },
+      "ebay": {
+        "sku": "CJQQ294934201AZ",
+        "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suita",
+        "description": "<h2>Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl</h2><p>Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Men's Clothing / Novelty & Special Use / Exotic Apparel. Price: GBP 11.98.</p><ul><li>Condition: New</li><li>Fulfillment: Dropshipping after paid order</li><li>SKU: CJQQ294934201AZ</li></ul>",
+        "price": 11.98,
+        "currency": "GBP",
+        "condition": "NEW",
+        "item_specifics": {
+          "Brand": "Unbranded",
+          "Condition": "New",
+          "Type": "Exotic Apparel"
+        }
+      },
+      "woocommerce": {
+        "name": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
+        "type": "simple",
+        "regular_price": "11.98",
+        "description": "Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for customers looking for a useful, modern, and convenient solution. Key benefits: - Practical and easy to use - Selected from a verified supplier source - Good value at the listed price - Suitable for online marketplace customers - Prepared for dropshipping fulfillment after paid order Category: Men's Clothing / Novelty & Special Use / Exotic Apparel. Price: GBP 11.98.",
+        "sku": "CJQQ294934201AZ",
+        "images": [
+          {
+            "src": "https://cf.cjdropshipping.com/43ae5c07-ee90-4ac4-b196-737798712fad.jpg"
+          }
+        ],
+        "slug": "men-s-disposable-beltless-underwear-soft-and-breathable-sports-underwear-suitabl",
+        "short_description": "Upgrade your everyday routine with Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickly Packaged Boxer Sho. This product is selected for practical use, strong value, and reliable dropshipping fulfillment. It is suitable for custome",
+        "categories": [
+          {
+            "name": "Men's Clothing"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "Supplier",
+            "options": [
+              "cj"
+            ]
+          },
+          {
+            "name": "Fulfillment",
+            "options": [
+              "Dropshipping after paid order"
+            ]
+          }
+        ]
+      },
+      "amazon": {
+        "sku": "CJQQ294934201AZ",
+        "title": "Men's Disposable Beltless Underwear, Soft And Breathable Sports Underwear, Suitable For Gym, Travel, And Spa Use. Quickl",
+        "price": 11.98,
+        "status": "not_enabled"
+      }
+    },
+    "marketplace_optimized_at": "2026-06-30T13:26:58.871924+00:00"
+  },
+  "CJYD293726901AZ": {
+    "sku": "CJYD293726901AZ",
+    "status": "listing_draft_ready",
+    "created_at": "2026-06-30T13:26:58.743347+00:00",
+    "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+    "description": "Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod: None Material: Other Dimensions: 65 cm long × 65 cm high × 22 cm wide, 69 cm long × 38 cm high × 35 cm wide, 74 cm long × 33 cm high × 36 cm wide, 74 cm long × 37 cm high × 35 cm wide, 72 cm long × 30 cm high × 35 cm wide Trendy elements: Weaving, other Style: Urban minimalism Capacity: 56–75 L Packing list: Storage bag*1 Product Image:",
+    "tags": [],
+    "image": "https://cf.cjdropshipping.com/quick/product/dfa89650-3f41-4fa7-af51-38fc5d73f799.jpg",
+    "images": [
+      "https://cf.cjdropshipping.com/quick/product/dfa89650-3f41-4fa7-af51-38fc5d73f799.jpg"
+    ],
+    "price": 11.76,
+    "currency": "GBP",
+    "supplier": "cj",
+    "supplier_product_id": "2606161202251636100",
+    "supplier_variant_id": "2606161202251636800",
+    "supplier_cost": 1.91,
+    "shipping_cost": 2.99,
+    "estimated_profit": 6.86,
+    "margin_percent": 58.33,
+    "weight": "210.00",
+    "category_name": "Bags & Shoes > Women's Luggage & Bags > Totes",
+    "publish_targets": {
+      "shopify": true,
+      "etsy": true,
+      "ebay": true,
+      "woocommerce": true,
+      "amazon": false
+    },
+    "channels": {
+      "shopify": {},
+      "etsy": {},
+      "ebay": {},
+      "woocommerce": {},
+      "amazon": {}
+    },
+    "risk": {
+      "product_score": 80,
+      "tier": "A",
+      "flags": [
+        "bulky_keyword"
+      ],
+      "reasons": [
+        "acceptable_profit",
+        "strong_margin",
+        "safe_price_range",
+        "lightweight",
+        "good_product_type",
+        "real_cj_mapping"
+      ]
+    },
+    "fulfillment": {
+      "mode": "dropshipping_after_paid_order",
+      "auto_purchase_enabled": false,
+      "requires_paid_order": true,
+      "supplier": "cj",
+      "cj_product_id": "2606161202251636100",
+      "cj_variant_id": "2606161202251636800"
+    },
+    "marketplace_payloads": {
+      "shopify": {
+        "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+        "body_html": "<p>Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod: None Material: Other Dimensions: 65 cm long × 65 cm high × 22 cm wide, 69 cm long × 38 cm high × 35 cm wide, 74 cm long × 33 cm high × 36 cm wide, 74 cm long × 37 cm high × 35 cm wide, 72 cm long × 30 cm high × 35 cm wide Trendy elements: Weaving, other Style: Urban minimalism Capacity: 56–75 L Packing list: Storage bag*1 Product Image:</p>",
+        "vendor": "AICommerce",
+        "product_type": "Bags & Shoes > Women's Luggage & Bags > Totes",
+        "status": "draft",
+        "variants": [
+          {
+            "sku": "CJYD293726901AZ",
+            "price": "11.76",
+            "inventory_policy": "continue",
+            "fulfillment_service": "manual"
+          }
+        ],
+        "images": [
+          {
+            "src": "https://cf.cjdropshipping.com/quick/product/dfa89650-3f41-4fa7-af51-38fc5d73f799.jpg"
+          }
+        ],
+        "tags": "",
+        "seo": {
+          "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+          "description": "Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod"
+        }
+      },
+      "etsy": {
+        "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+        "description": "Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod: None Material: Other Dimensions: 65 cm long × 65 cm high × 22 cm wide, 69 cm long × 38 cm high × 35 cm wide, 74 cm long × 33 cm high × 36 cm wide, 74 cm long × 37 cm high × 35 cm wide, 72 cm long × 30 cm high × 35 cm wide Trendy elements: Weaving, other Style: Urban minimalism Capacity: 56–75 L Packing list: Storage bag*1 Product Image:",
+        "price": 11.76,
+        "quantity": 999,
+        "who_made": "i_did",
+        "when_made": "made_to_order",
+        "taxonomy_id": null,
+        "shipping_profile_id": null,
+        "is_digital": false,
+        "tags": [],
+        "materials": [],
+        "state": "draft"
+      },
+      "ebay": {
+        "sku": "CJYD293726901AZ",
+        "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+        "description": "<h2>Thickened Large Capacity Foldable Travel Moving Storage Bag</h2><p>Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod: None Material: Other Dimensions: 65 cm long × 65 cm high × 22 cm wide, 69 cm long × 38 cm high × 35 cm wide, 74 cm long × 33 cm high × 36 cm wide, 74 cm long × 37 cm high × 35 cm wide, 72 cm long × 30 cm high × 35 cm wide Trendy elements: Weaving, other Style: Urban minimalism Capacity: 56–75 L Packing list: Storage bag*1 Product Image:</p><ul><li>Condition: New</li><li>Fulfillment: Dropshipping after paid order</li><li>SKU: CJYD293726901AZ</li></ul>",
+        "price": 11.76,
+        "currency": "GBP",
+        "condition": "NEW",
+        "item_specifics": {
+          "Brand": "Unbranded",
+          "Condition": "New",
+          "Type": "Bags & Shoes > Women's Luggage & Bags > Totes"
+        }
+      },
+      "woocommerce": {
+        "name": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+        "type": "simple",
+        "regular_price": "11.76",
+        "description": "Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod: None Material: Other Dimensions: 65 cm long × 65 cm high × 22 cm wide, 69 cm long × 38 cm high × 35 cm wide, 74 cm long × 33 cm high × 36 cm wide, 74 cm long × 37 cm high × 35 cm wide, 72 cm long × 30 cm high × 35 cm wide Trendy elements: Weaving, other Style: Urban minimalism Capacity: 56–75 L Packing list: Storage bag*1 Product Image:",
+        "sku": "CJYD293726901AZ",
+        "images": [
+          {
+            "src": "https://cf.cjdropshipping.com/quick/product/dfa89650-3f41-4fa7-af51-38fc5d73f799.jpg"
+          }
+        ],
+        "slug": "thickened-large-capacity-foldable-travel-moving-storage-bag",
+        "short_description": "Product information: Lining material: Other Pattern: Solid color Applicable scene: Home storage Features: Other, waterproof, foldable With or without a pull rod: None Material: Other Dimensions: 65 cm long × 65 cm high × 22 cm wide, 69 cm long × 38 cm high × 35 cm wide, 74 cm long × 33 cm high × 36 ",
+        "categories": [
+          {
+            "name": "Bags & Shoes > Women's Luggage & Bags > Totes"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "Supplier",
+            "options": [
+              "cj"
+            ]
+          },
+          {
+            "name": "Fulfillment",
+            "options": [
+              "Dropshipping after paid order"
+            ]
+          }
+        ]
+      },
+      "amazon": {
+        "sku": "CJYD293726901AZ",
+        "title": "Thickened Large Capacity Foldable Travel Moving Storage Bag",
+        "price": 11.76,
+        "status": "not_enabled"
+      }
+    },
+    "marketplace_optimized_at": "2026-06-30T13:26:58.872927+00:00"
   }
 }
