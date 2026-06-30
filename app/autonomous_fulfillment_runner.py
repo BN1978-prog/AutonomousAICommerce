@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 OUT = Path("app/logs/autonomous_fulfillment_runner.json")
 
 STEPS = [
+    ("autonomous_runtime_mode", "python -m app.autonomous_runtime_mode"),
     ("collect_shopify_orders", "python -m app.collect_shopify_orders"),
     ("collect_incoming_orders", "python -m app.collect_incoming_orders"),
     ("supplier_purchase_queue", "python -m app.supplier_purchase_queue"),
