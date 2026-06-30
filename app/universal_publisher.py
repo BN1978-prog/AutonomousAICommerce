@@ -162,7 +162,13 @@ def main():
     }
 
     OUT.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(json.dumps(report, indent=2, ensure_ascii=False))
+    output = json.dumps(report, indent=2, ensure_ascii=False)
+
+    try:
+        print(output)
+    except UnicodeEncodeError:
+        print(output.encode("ascii", errors="backslashreplace").decode("ascii"))
+
 
 if __name__ == "__main__":
     main()
