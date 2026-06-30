@@ -1,5 +1,6 @@
 ﻿import json
 import os
+import re
 import requests
 from pathlib import Path
 from datetime import datetime, timezone
@@ -8,43 +9,130 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 OUT = Path("app/logs/etsy_orders.json")
+ENV = Path(".env")
 
-api_base = os.getenv("ETSY_API_BASE", "https://openapi.etsy.com/v3/application").rstrip("/")
-api_key = os.getenv("ETSY_API_KEY") or os.getenv("ETSY_CLIENT_ID")
-token = os.getenv("ETSY_ACCESS_TOKEN")
-shop_id = os.getenv("ETSY_SHOP_ID")
+def clean(v):
+    return str(v or "").replace("\r", "").replace("\n", "").strip()
 
-if not api_key or not token or not shop_id:
-    print("ETSY ORDERS: missing config")
+def refresh_etsy_token():
+    client_id = clean(os.getenv("ETSY_CLIENT_ID") or os.getenv("ETSY_API_KEY"))
+    refresh_token = clean(os.getenv("ETSY_REFRESH_TOKEN"))
+
+    if not client_id or not refresh_token:
+        return {"ok": False, "status": "missing_refresh_config"}
+
+    r = requests.post(
+        "https://api.etsy.com/v3/public/oauth/token",
+        data={
+            "grant_type": "refresh_token",
+            "client_id": client_id,
+            "refresh_token": refresh_token
+        },
+        timeout=30
+    )
+
+    try:
+        data = r.json()
+    except Exception:
+        data = {"raw": r.text}
+
+    if r.status_code not in [200, 201] or "access_token" not in data:
+        return {"ok": False, "status_code": r.status_code, "response": data}
+
+    if ENV.exists():
+        text = ENV.read_text(encoding="utf-8-sig")
+
+        def upsert(key, value, text):
+            value = clean(value)
+            if re.search(rf"^{key}=.*$", text, flags=re.M):
+                return re.sub(rf"^{key}=.*$", f"{key}={value}", text, flags=re.M)
+            return text.rstrip() + f"\n{key}={value}\n"
+
+        text = upsert("ETSY_ACCESS_TOKEN", data["access_token"], text)
+
+        if data.get("refresh_token"):
+            text = upsert("ETSY_REFRESH_TOKEN", data["refresh_token"], text)
+
+        ENV.write_text(text, encoding="utf-8")
+
+    os.environ["ETSY_ACCESS_TOKEN"] = clean(data["access_token"])
+
+    if data.get("refresh_token"):
+        os.environ["ETSY_REFRESH_TOKEN"] = clean(data["refresh_token"])
+
+    return {
+        "ok": True,
+        "status": "etsy_token_refreshed",
+        "access_len": len(clean(data["access_token"]))
+    }
+
+def etsy_request_receipts():
+    api_base = clean(os.getenv("ETSY_API_BASE") or "https://openapi.etsy.com/v3/application").rstrip("/")
+    api_key = clean(os.getenv("ETSY_API_KEY") or os.getenv("ETSY_CLIENT_ID"))
+    token = clean(os.getenv("ETSY_ACCESS_TOKEN"))
+    shop_id = clean(os.getenv("ETSY_SHOP_ID"))
+
+    if not api_key or not token or not shop_id:
+        return None, {
+            "ok": False,
+            "status": "missing_config",
+            "missing": {
+                "ETSY_API_KEY": not bool(api_key),
+                "ETSY_ACCESS_TOKEN": not bool(token),
+                "ETSY_SHOP_ID": not bool(shop_id)
+            }
+        }
+
+    headers = {
+        "x-api-key": api_key,
+        "Authorization": "Bearer " + token
+    }
+
+    url = f"{api_base}/shops/{shop_id}/receipts"
+
+    r = requests.get(
+        url,
+        headers=headers,
+        params={
+            "limit": 50,
+            "was_paid": "true",
+            "was_shipped": "false"
+        },
+        timeout=30
+    )
+
+    try:
+        data = r.json()
+    except Exception:
+        data = {"raw": r.text}
+
+    return r, data
+
+r, data = etsy_request_receipts()
+
+refreshed = None
+
+if r is not None and r.status_code == 401 and "invalid_token" in str(data):
+    refreshed = refresh_etsy_token()
+    if refreshed.get("ok"):
+        load_dotenv(override=True)
+        r, data = etsy_request_receipts()
+
+if r is None:
+    print("ETSY ORDERS:", data.get("status"))
     OUT.write_text("[]", encoding="utf-8")
     raise SystemExit
-
-headers = {
-    "x-api-key": api_key,
-    "Authorization": "Bearer " + token
-}
-
-url = f"{api_base}/shops/{shop_id}/receipts"
-
-r = requests.get(
-    url,
-    headers=headers,
-    params={
-        "limit": 50,
-        "was_paid": "true",
-        "was_shipped": "false"
-    },
-    timeout=30
-)
 
 print("STATUS:", r.status_code)
 
+if refreshed:
+    print("REFRESH:", json.dumps(refreshed))
+
 if r.status_code not in [200, 201]:
-    print(r.text[:1000])
+    print(json.dumps(data)[:1000])
     OUT.write_text("[]", encoding="utf-8")
     raise SystemExit
 
-data = r.json()
 receipts = data.get("results", []) if isinstance(data, dict) else []
 
 orders = []
