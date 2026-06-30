@@ -1,8 +1,13 @@
 {
-  "created_at": "2026-06-29T20:12:11.609546+00:00",
-  "payloads_seen": 0,
-  "ready_for_cj": 0,
+  "created_at": "2026-06-30T13:40:26.438244+00:00",
+  "payloads_seen": 1,
+  "ready_for_cj": 1,
   "blocked": [],
-  "ready": [],
-  "status": "blocked_waiting_customer_address"
+  "ready": [
+    {
+      "order_id": "TEST-SHOPIFY-PAID-001",
+      "status": "ready_for_cj_create_order"
+    }
+  ],
+  "status": "ready_for_cj_create_order"
 }

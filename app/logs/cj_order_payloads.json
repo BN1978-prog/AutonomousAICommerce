@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "created_at": "2026-06-30T13:40:26.322634+00:00",
+    "supplier": "cjdropshipping",
+    "endpoint": "createOrderV3",
+    "mode": "payload_only_no_api_call",
+    "payType": 3,
+    "order_id": "TEST-SHOPIFY-PAID-001",
+    "channel_order_name": "#TEST001",
+    "channel": "shopify",
+    "sku": "CJPB295913401AZ",
+    "products": [
+      {
+        "vid": "2071444663717695489",
+        "quantity": 1
+      }
+    ],
+    "shipping_address": {
+      "firstName": "Test",
+      "lastName": "Customer",
+      "address1": "10 Downing Street",
+      "address2": "",
+      "city": "London",
+      "province": "England",
+      "countryCode": "GB",
+      "zip": "SW1A 2AA",
+      "phone": "07000000000"
+    },
+    "financials": {
+      "sale_price": 170.38,
+      "supplier_cost": 70.99,
+      "shipping_cost": 2.99,
+      "estimated_profit": 96.4,
+      "margin_percent": 56.58
+    },
+    "status": "payload_ready_for_address_validation"
+  }
+]
