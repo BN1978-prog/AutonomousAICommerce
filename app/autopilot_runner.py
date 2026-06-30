@@ -136,6 +136,9 @@ run_step("system_status_report","python -m app.system_status_report")
 run_step("autonomous_commerce_live_gate","python -m app.autonomous_commerce_live_gate")
 run_step("autonomous_fulfillment_runner","python -m app.autonomous_fulfillment_runner")
 
+
+run_step("autonomous_commerce_readiness","python -m app.autonomous_commerce_readiness")
+
 run_step("daily_summary","python -m app.daily_summary")
 
 run_step("auto_scaling_score","python -m app.auto_scaling_score")
