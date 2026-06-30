@@ -139,6 +139,9 @@ run_step("autonomous_fulfillment_runner","python -m app.autonomous_fulfillment_r
 
 run_step("autonomous_commerce_readiness","python -m app.autonomous_commerce_readiness")
 
+
+run_step("autonomous_commerce_runner","python -m app.autonomous_commerce_runner")
+
 run_step("daily_summary","python -m app.daily_summary")
 
 run_step("auto_scaling_score","python -m app.auto_scaling_score")
