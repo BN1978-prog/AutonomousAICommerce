@@ -5,6 +5,7 @@ import requests
 from pathlib import Path
 from datetime import datetime, timezone
 from dotenv import load_dotenv
+from app.order_processing_ledger import is_stage_done, mark_stage
 
 load_dotenv(override=True)
 
@@ -31,13 +32,23 @@ results = []
 
 for item in updates:
     order_id = item.get("order_id")
+    sku = item.get("sku")
+    channel = item.get("channel") or "shopify"
     tracking_number = item.get("tracking_number")
     carrier = item.get("carrier") or "Other"
+
+    if is_stage_done(order_id, sku, channel, "shopify_fulfillment_synced"):
+        results.append({
+            "order_id": order_id,
+            "sku": sku,
+            "status": "skipped_already_fulfilled_in_ledger"
+        })
+        continue
 
     if not tracking_number:
         results.append({
             "order_id": order_id,
-            "sku": item.get("sku"),
+            "sku": sku,
             "status": "skipped_waiting_tracking_number"
         })
         continue
@@ -45,7 +56,7 @@ for item in updates:
     if not SHOPIFY_STORE_URL or not SHOPIFY_TOKEN:
         results.append({
             "order_id": order_id,
-            "sku": item.get("sku"),
+            "sku": sku,
             "status": "blocked_missing_shopify_config"
         })
         continue
@@ -59,22 +70,25 @@ for item in updates:
     }
 
     if DRY_RUN:
-        results.append({
+        row = {
             "order_id": order_id,
-            "sku": item.get("sku"),
+            "sku": sku,
             "dry_run": True,
             "status": "prepared_not_sent_to_shopify",
             "payload": payload
-        })
+        }
+        results.append(row)
+        mark_stage(order_id, sku, channel, "shopify_fulfillment_synced", row)
         continue
 
-    results.append({
+    row = {
         "order_id": order_id,
-        "sku": item.get("sku"),
+        "sku": sku,
         "dry_run": False,
-        "status": "live_fulfillment_not_enabled_yet",
+        "status": "live_fulfillment_api_not_implemented_yet",
         "payload": payload
-    })
+    }
+    results.append(row)
 
 report = {
     "created_at": datetime.now(timezone.utc).isoformat(),
