@@ -6,6 +6,9 @@ from pathlib import Path
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 
+from app.channels.woocommerce_gateway import wc_publish_product
+from app.channels.etsy_gateway import etsy_create_draft_listing
+
 from app.channels.ebay_gateway import (
     ebay_create_inventory_item,
     ebay_create_offer,
@@ -302,6 +305,57 @@ def main():
 
                 continue
 
+            if PUBLISH_MODE == "LIVE" and channel == "woocommerce":
+                variants = payload.get("variants") or [{}]
+
+                product = {
+                    "sku": sku,
+                    "title": payload.get("title"),
+                    "description": payload.get("body_html", ""),
+                    "short_description": payload.get("short_description", ""),
+                    "price": variants[0].get("price") or payload.get("price") or draft.get("price"),
+                    "inventory": 10,
+                    "status": "draft"
+                }
+
+                result = wc_publish_product(product)
+                row["channels"][channel] = result
+
+                if result.get("ok"):
+                    item.setdefault("channels", {}).setdefault("woocommerce", {})
+                    item["channels"]["woocommerce"]["product_id"] = result.get("product_id")
+                    item["channels"]["woocommerce"]["status"] = "draft"
+                    item["channels"]["woocommerce"]["published_at"] = datetime.now(timezone.utc).isoformat()
+                    item["woocommerce_product_id"] = result.get("product_id")
+                    item["woocommerce_status"] = "draft"
+
+                continue
+
+            if PUBLISH_MODE == "LIVE" and channel == "etsy":
+                variants = payload.get("variants") or [{}]
+
+                product = {
+                    "sku": sku,
+                    "title": payload.get("title") or draft.get("title"),
+                    "description": payload.get("body_html", "") or draft.get("description", ""),
+                    "price": variants[0].get("price") or payload.get("price") or draft.get("price"),
+                    "inventory": 10,
+                    "quantity": 10
+                }
+
+                result = etsy_create_draft_listing(product)
+                row["channels"][channel] = result
+
+                if result.get("ok"):
+                    item.setdefault("channels", {}).setdefault("etsy", {})
+                    item["channels"]["etsy"]["listing_id"] = result.get("listing_id")
+                    item["channels"]["etsy"]["status"] = "draft"
+                    item["channels"]["etsy"]["published_at"] = datetime.now(timezone.utc).isoformat()
+                    item["etsy_listing_id"] = result.get("listing_id")
+                    item["etsy_status"] = "draft"
+
+                continue
+
             row["channels"][channel] = {
                 "enabled": True,
                 "status": "live_not_implemented_for_channel"
@@ -318,7 +372,7 @@ def main():
         "enabled_channels": CHANNELS,
         "drafts": len(drafts),
         "results": results,
-        "note": "LIVE mode currently supports Shopify draft publishing and eBay publishing via Inventory API."
+        "note": "LIVE mode currently supports Shopify draft publishing, eBay publishing via Inventory API, WooCommerce draft publishing, and Etsy draft listing creation."
     }
 
     OUT.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
