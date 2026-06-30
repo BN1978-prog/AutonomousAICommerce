@@ -13,6 +13,7 @@ STEPS = [
     ("cj_order_draft_creator", "python -m app.cj_order_draft_creator"),
     ("cj_payload_builder", "python -m app.cj_payload_builder"),
     ("cj_customer_address_validator", "python -m app.cj_customer_address_validator"),
+    ("autonomous_commerce_live_gate", "python -m app.autonomous_commerce_live_gate"),
     ("cj_purchase_executor", "python -m app.cj_purchase_executor"),
     ("tracking_sync", "python -m app.tracking_sync"),
     ("shopify_fulfillment_sync", "python -m app.shopify_fulfillment_sync"),
@@ -21,12 +22,7 @@ STEPS = [
 results = []
 
 for name, command in STEPS:
-    p = subprocess.run(
-        command,
-        shell=True,
-        capture_output=True,
-        text=True
-    )
+    p = subprocess.run(command, shell=True, capture_output=True, text=True)
 
     results.append({
         "name": name,
@@ -41,7 +37,8 @@ report = {
     "created_at": datetime.now(timezone.utc).isoformat(),
     "status": "AUTONOMOUS_FULFILLMENT_RUN_COMPLETED",
     "steps": results,
-    "note": "CJ purchase and Shopify fulfillment remain dry-run unless explicitly enabled by env flags."
+    "errors": [x for x in results if x["status"] != "OK"],
+    "note": "Autonomous paid-order fulfillment pipeline. Live CJ purchase is controlled by autonomous_commerce_live_gate."
 }
 
 OUT.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
