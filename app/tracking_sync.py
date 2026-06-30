@@ -18,14 +18,18 @@ for order_key, order in ledger.get("orders", {}).items():
     if not data:
         continue
 
-    exists = any(
+    # Ledger has the durable canonical purchase attempt.
+    # If current attempts file only contains a later "skipped already" row,
+    # still restore the real prepared_not_purchased attempt from ledger.
+    existing_ready = any(
         isinstance(x, dict)
         and x.get("order_id") == data.get("order_id")
         and x.get("sku") == data.get("sku")
+        and x.get("status") in ["prepared_not_purchased", "live_cj_api_call_not_implemented_yet"]
         for x in attempts
     )
 
-    if not exists:
+    if not existing_ready:
         attempts.append(data)
 
 existing = json.loads(TRACKING.read_text(encoding="utf-8-sig")) if TRACKING.exists() else []
