@@ -11,7 +11,22 @@ load_dotenv(override=True)
 TRACKING = Path("app/logs/tracking_updates.json")
 OUT = Path("app/logs/shopify_fulfillment_sync.json")
 
-DRY_RUN = os.getenv("SHOPIFY_FULFILLMENT_DRY_RUN", "true").lower() == "true"
+GATE_CONFIG = Path("app/logs/autonomous_commerce_live_gate.json")
+
+gate = {}
+if GATE_CONFIG.exists():
+    try:
+        gate = json.loads(GATE_CONFIG.read_text(encoding="utf-8-sig"))
+    except Exception:
+        gate = {}
+
+LIVE_ENABLED = bool(
+    gate.get("live_mode")
+    and gate.get("shopify_fulfillment_live_enabled")
+    and gate.get("require_tracking_for_fulfillment", True)
+)
+
+DRY_RUN = not LIVE_ENABLED
 
 SHOPIFY_STORE_URL = os.getenv("SHOPIFY_STORE_URL", "").strip().rstrip("/")
 SHOPIFY_TOKEN = (
