@@ -2,13 +2,32 @@
 import json
 from pathlib import Path
 from datetime import datetime, timezone
-from app.order_processing_ledger import is_stage_done, mark_stage
+from app.order_processing_ledger import is_stage_done, mark_stage, load_ledger
 
 ATTEMPTS = Path("app/logs/cj_purchase_attempts.json")
 TRACKING = Path("app/logs/tracking_updates.json")
 REPORT = Path("app/logs/tracking_sync_report.json")
 
 attempts = json.loads(ATTEMPTS.read_text(encoding="utf-8-sig")) if ATTEMPTS.exists() else []
+ledger = load_ledger()
+
+for order_key, order in ledger.get("orders", {}).items():
+    stage = order.get("stages", {}).get("cj_purchase_attempted", {})
+    data = stage.get("data")
+
+    if not data:
+        continue
+
+    exists = any(
+        isinstance(x, dict)
+        and x.get("order_id") == data.get("order_id")
+        and x.get("sku") == data.get("sku")
+        for x in attempts
+    )
+
+    if not exists:
+        attempts.append(data)
+
 existing = json.loads(TRACKING.read_text(encoding="utf-8-sig")) if TRACKING.exists() else []
 
 updates = list(existing) if isinstance(existing, list) else []
@@ -58,8 +77,8 @@ for item in attempts:
         "sku": sku,
         "channel": channel,
         "supplier": "cj",
-        "tracking_number": None,
-        "carrier": None,
+        "tracking_number": item.get("tracking_number"),
+        "carrier": item.get("carrier"),
         "status": "waiting_for_supplier_tracking",
         "channel_update_status": "pending",
         "created_at": datetime.now(timezone.utc).isoformat()
@@ -75,6 +94,7 @@ report = {
     "created_at": datetime.now(timezone.utc).isoformat(),
     "status": "TRACKING_SYNC_CHECKED",
     "attempts_seen": len(attempts),
+    "ledger_orders_seen": len(ledger.get("orders", {})),
     "existing_tracking": len(existing) if isinstance(existing, list) else 0,
     "created": len(created),
     "total_tracking": len(updates),
