@@ -9,6 +9,7 @@ QUEUE = Path("app/logs/supplier_purchase_queue.json")
 REPORT = Path("app/logs/supplier_purchase_queue_report.json")
 
 from app.fulfillment_guard import check_fulfillment_allowed
+from app.order_processing_ledger import is_stage_done, mark_stage
 
 def to_float(v, default=0.0):
     try:
@@ -24,11 +25,21 @@ skipped = []
 
 for order in orders:
     sku = order.get("sku")
+    order_id = order.get("order_id")
+    channel = order.get("channel")
     product = imports.get(sku, {})
+
+    if is_stage_done(order_id, sku, channel, "supplier_queue_created"):
+        skipped.append({
+            "order_id": order_id,
+            "sku": sku,
+            "reason": "already_queued_in_ledger"
+        })
+        continue
 
     if not product:
         skipped.append({
-            "order_id": order.get("order_id"),
+            "order_id": order_id,
             "sku": sku,
             "reason": "sku_not_found_in_imported_skus"
         })
@@ -38,7 +49,7 @@ for order in orders:
 
     if not guard.get("allowed"):
         skipped.append({
-            "order_id": order.get("order_id"),
+            "order_id": order_id,
             "sku": sku,
             "reason": guard.get("reason") or "fulfillment_guard_blocked",
             "guard": guard
@@ -51,10 +62,10 @@ for order in orders:
     estimated_profit = round(sale_price - supplier_cost - shipping_cost, 2)
     margin_percent = round((estimated_profit / sale_price) * 100, 2) if sale_price else 0
 
-    queue.append({
-        "order_id": order.get("order_id"),
+    row = {
+        "order_id": order_id,
         "channel_order_name": order.get("channel_order_name"),
-        "channel": order.get("channel"),
+        "channel": channel,
         "sku": sku,
         "quantity": int(order.get("quantity", 1) or 1),
 
@@ -73,7 +84,10 @@ for order in orders:
         "shipping_address": order.get("shipping_address"),
         "status": "ready_for_supplier_purchase",
         "created_at": datetime.now(timezone.utc).isoformat()
-    })
+    }
+
+    queue.append(row)
+    mark_stage(order_id, sku, channel, "supplier_queue_created", row)
 
 QUEUE.write_text(json.dumps(queue, indent=2, ensure_ascii=False), encoding="utf-8")
 

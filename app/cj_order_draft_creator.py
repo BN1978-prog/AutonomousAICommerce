@@ -2,37 +2,67 @@
 import json
 from pathlib import Path
 from datetime import datetime, timezone
+from app.order_processing_ledger import is_stage_done, mark_stage
 
 QUEUE = Path("app/logs/supplier_purchase_queue.json")
 OUT = Path("app/logs/cj_order_drafts.json")
 REPORT = Path("app/logs/cj_order_draft_creator.json")
 
 queue = json.loads(QUEUE.read_text(encoding="utf-8-sig")) if QUEUE.exists() else []
+existing_drafts = json.loads(OUT.read_text(encoding="utf-8-sig")) if OUT.exists() else []
 
-drafts = []
+drafts = list(existing_drafts) if isinstance(existing_drafts, list) else []
 skipped = []
+created = []
+
+existing_keys = {
+    f"{d.get('channel')}:{d.get('order_id')}:{d.get('sku')}"
+    for d in drafts
+    if isinstance(d, dict)
+}
 
 for item in queue:
+    order_id = item.get("order_id")
+    sku = item.get("sku")
+    channel = item.get("channel")
+    key = f"{channel}:{order_id}:{sku}"
+
+    if key in existing_keys:
+        skipped.append({
+            "order_id": order_id,
+            "sku": sku,
+            "reason": "already_exists_in_cj_order_drafts"
+        })
+        continue
+
+    if is_stage_done(order_id, sku, channel, "cj_order_draft_created"):
+        skipped.append({
+            "order_id": order_id,
+            "sku": sku,
+            "reason": "already_drafted_in_ledger"
+        })
+        continue
+
     if item.get("status") not in ["queued_for_supplier_purchase", "ready_for_supplier_purchase"]:
         skipped.append({
-            "order_id": item.get("order_id"),
-            "sku": item.get("sku"),
+            "order_id": order_id,
+            "sku": sku,
             "reason": "not_ready_for_supplier_purchase"
         })
         continue
 
     if not item.get("cj_product_id") or not item.get("cj_variant_id"):
         skipped.append({
-            "order_id": item.get("order_id"),
-            "sku": item.get("sku"),
+            "order_id": order_id,
+            "sku": sku,
             "reason": "missing_cj_product_or_variant"
         })
         continue
 
     if not item.get("shipping_address"):
         skipped.append({
-            "order_id": item.get("order_id"),
-            "sku": item.get("sku"),
+            "order_id": order_id,
+            "sku": sku,
             "reason": "missing_shipping_address"
         })
         continue
@@ -42,40 +72,38 @@ for item in queue:
         "supplier": "cjdropshipping",
         "mode": "draft_only_no_api_call",
         "payType": 3,
-
-        "order_id": item.get("order_id"),
+        "order_id": order_id,
         "channel_order_name": item.get("channel_order_name"),
-        "channel": item.get("channel"),
-
-        "sku": item.get("sku"),
+        "channel": channel,
+        "sku": sku,
         "quantity": int(item.get("quantity", 1) or 1),
-
         "cj_product_id": item.get("cj_product_id"),
         "cj_variant_id": item.get("cj_variant_id"),
         "supplier_product_id": item.get("supplier_product_id"),
         "supplier_variant_id": item.get("supplier_variant_id"),
-
         "sale_price": item.get("sale_price"),
         "supplier_cost": item.get("supplier_cost"),
         "shipping_cost": item.get("shipping_cost"),
         "estimated_profit": item.get("estimated_profit"),
         "margin_percent": item.get("margin_percent"),
-
         "shipping_address": item.get("shipping_address"),
-
         "status": "draft_ready_for_payload_builder"
     }
 
     drafts.append(draft)
+    created.append(draft)
+    mark_stage(order_id, sku, channel, "cj_order_draft_created", draft)
 
 OUT.write_text(json.dumps(drafts, indent=2, ensure_ascii=False), encoding="utf-8")
 
 report = {
     "created_at": datetime.now(timezone.utc).isoformat(),
     "queue_size": len(queue),
-    "drafts_created": len(drafts),
+    "existing_drafts": len(existing_drafts) if isinstance(existing_drafts, list) else 0,
+    "drafts_created": len(created),
+    "total_drafts": len(drafts),
     "skipped": skipped,
-    "status": "idle_no_queue" if not queue else "drafts_created",
+    "status": "idle_no_queue" if not queue else "drafts_checked",
     "output_file": str(OUT)
 }
 

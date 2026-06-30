@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 from datetime import datetime, timezone
 from dotenv import load_dotenv
+from app.order_processing_ledger import is_stage_done, mark_stage
 
 load_dotenv(override=True)
 
@@ -35,6 +36,19 @@ attempts = []
 for payload in payloads:
     order_id = payload.get("order_id")
 
+    sku = payload.get("sku")
+    channel = payload.get("channel")
+
+    if is_stage_done(order_id, sku, channel, "cj_purchase_attempted"):
+        attempts.append({
+            "ok": False,
+            "dry_run": DRY_RUN,
+            "status": "skipped_already_purchase_attempted_in_ledger",
+            "order_id": order_id,
+            "sku": sku
+        })
+        continue
+
     if order_id not in ready_ids:
         attempts.append({
             "ok": False,
@@ -54,7 +68,7 @@ for payload in payloads:
     }
 
     if DRY_RUN:
-        attempts.append({
+        row = {
             "ok": True,
             "dry_run": True,
             "status": "prepared_not_purchased",
@@ -64,7 +78,9 @@ for payload in payloads:
             "payload": cj_payload,
             "financials": payload.get("financials", {}),
             "prepared_at": datetime.now(timezone.utc).isoformat()
-        })
+        }
+        attempts.append(row)
+        mark_stage(order_id, payload.get("sku"), payload.get("channel"), "cj_purchase_attempted", row)
         continue
 
     if order_id not in gate_approved_ids:
