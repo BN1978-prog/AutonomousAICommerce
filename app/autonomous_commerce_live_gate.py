@@ -32,6 +32,11 @@ for item in queue:
     channel = item.get("channel")
 
     reasons = []
+    order_id = str(item.get("order_id") or "")
+
+    if order_id.upper().startswith("TEST"):
+        reasons.append("test_order_blocked_from_live_purchase")
+
 
     if not config.get("live_mode"):
         reasons.append("global_live_mode_disabled")
